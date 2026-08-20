@@ -1,57 +1,49 @@
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                          LEVEL 00: SOURCE LAYER                              ║
+║                       LEVEL 00: SOURCE LAYER — M13                          ║
 ║                                                                              ║
 ║  PARSER TAMER · BLOCK ARCHITECT · LINK CARTOGRAPHER · MEDIA ENGINEER         ║
 ║  HYBRID ENGINEER · SYNTAX CURATOR · MATHJAX ARCHITECT · MERMAID CARTOGRAPHER║
-║  GEOJSON NAVIGATOR · TOPOLOGY ENGINEER · STL MESHSMITH                      ║
+║  GEOJSON NAVIGATOR · TOPOLOGY ENGINEER · STL MESHSMITH · GRAMMAR BREAKER    ║
 ║                                                                              ║
-║  M12 invariant: an `stl` fence is executable 3D renderer source on GitHub.   ║
-║  Triangle winding, facet normals, and fence lengths are intentional.         ║
+║  M13 invariant: dangerous delimiters are tests, not formatting accidents.    ║
+║  Do not normalize fences, escapes, whitespace, pipes, or blank lines blindly.║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form — interactive ASCII STL 3D showcase" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form — M13 parser and edge-case torture test" width="100%">
 </picture>
 
 <div align="center">
 
 <a href="https://readme-typing-svg.demolab.com/demo/">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Triangles.+Normals.+Vertices.+Winding.;ASCII+source+becomes+interactive+3D.;Wireframe.+Surface+Angle.+Solid.;M12+STL+renderer+online."
-    alt="Animated M12 ASCII STL introduction">
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Delimiters.+Precedence.+Ambiguity.+Recursion.;Backticks+inside+backticks+inside+fences.;Every+renderer+survives+the+parser.;M13+grammar+torture+online."
+    alt="Animated M13 parser-torture introduction">
 </a>
 
 <br>
 
-<a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/LAYER-MARKDOWN-111111?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Markdown layer"></a>
-<a href="#level-18--full-mermaid-diagram-gallery"><img src="https://img.shields.io/badge/MERMAID-M9_COMPLETE-7C3AED?style=for-the-badge" alt="Mermaid M9 complete"></a>
-<a href="#level-19--interactive-geojson-showcase"><img src="https://img.shields.io/badge/GEOJSON-M10_COMPLETE-0891B2?style=for-the-badge" alt="GeoJSON M10 complete"></a>
-<a href="#level-20--interactive-topojson-showcase"><img src="https://img.shields.io/badge/TOPOJSON-M11_COMPLETE-8B5CF6?style=for-the-badge" alt="TopoJSON M11 complete"></a>
-<a href="#m12-stl"><img src="https://img.shields.io/badge/STL-M12_UNLOCKED-F43F5E?style=for-the-badge" alt="ASCII STL M12 unlocked"></a>
+<a href="#level-27--full-parser--edge-case-torture-test"><img src="https://img.shields.io/badge/PARSER-M13_TORTURE-8B5CF6?style=for-the-badge" alt="M13 parser torture test"></a>
+<a href="#renderer-routing"><img src="https://img.shields.io/badge/RENDERERS-ALL_ONLINE-0891B2?style=for-the-badge" alt="All specialized renderers online"></a>
+<a href="./assets/parser-torture-corpus.txt"><img src="https://img.shields.io/badge/RAW_CORPUS-PLAIN_TEXT-F43F5E?style=for-the-badge" alt="Open raw parser corpus"></a>
+<a href="#final-boss"><img src="https://img.shields.io/badge/README-OVERENGINEERED-181717?style=for-the-badge" alt="README overengineered"></a>
 
-<h3>This is a <strong>layer-by-layer GitHub Markdown rendering laboratory</strong>.</h3>
-
-<sub>Markdown · GFM · Linguist · MathJax · Mermaid · GeoJSON · TopoJSON · ASCII STL · sanitized HTML · local media</sub>
+<h3>MARKDOWN: FINAL FORM</h3>
+<sub>Markdown · GFM · Linguist · MathJax · Mermaid · GeoJSON · TopoJSON · ASCII STL · HTML · parser torture</sub>
 
 <br><br>
 
-<a href="#act-i--markdown-core"><strong>⚡ Markdown</strong></a>
+<a href="#act-i--markdown-core"><strong>⚡ Core</strong></a>
 &nbsp;•&nbsp;
-<a href="#level-08--full-syntax-highlighting-laboratory"><strong>⌘ Syntax</strong></a>
+<a href="#act-iii--github-extensions"><strong>⌘ GitHub</strong></a>
 &nbsp;•&nbsp;
-<a href="#level-17--advanced-mathjax-mathematical-showcase"><strong>∑ Math</strong></a>
+<a href="#act-v--advanced-rendering"><strong>∞ Renderers</strong></a>
 &nbsp;•&nbsp;
-<a href="#level-18--full-mermaid-diagram-gallery"><strong>◇ Mermaid</strong></a>
-&nbsp;•&nbsp;
-<a href="#level-19--interactive-geojson-showcase"><strong>⌖ GeoJSON</strong></a>
-&nbsp;•&nbsp;
-<a href="#level-20--interactive-topojson-showcase"><strong>◎ TopoJSON</strong></a>
-&nbsp;•&nbsp;
-<a href="#m12-stl"><strong>△ STL / 3D</strong></a>
+<a href="#level-27--full-parser--edge-case-torture-test"><strong>⚠ Parser Lab</strong></a>
 &nbsp;•&nbsp;
 <a href="#final-boss"><strong>👑 Final Boss</strong></a>
 
@@ -60,47 +52,49 @@
 ---
 
 > [!IMPORTANT]
-> GitHub supports **ASCII STL directly in Markdown**. Put valid ASCII STL source inside a fenced block labeled `stl`, and GitHub routes the text to an interactive 3D renderer instead of ordinary syntax highlighting.[^github-diagrams]
+> **M13 adds no new major renderer.** Its job is to prove that the enormous M0–M12 document can survive Markdown/GFM precedence rules, delimiter collisions, nested containers, renderer fences, HTML boundaries, math dollars, table pipes, references, footnotes, and deliberate malformed-source demonstrations without casually collapsing into parser debris.
 
 ## 🧭 README POWER MAP
 
-| Act | Rendering layer | Current demonstrations | Jump |
+| Act | Layer | M13 responsibility | Jump |
 | :---: | --- | --- | :---: |
-| `00` | [Source Layer](#level-00--source-layer) | Hidden comments, source invariants | `RAW` |
-| `I` | [Markdown Core](#act-i--markdown-core) | Typography, structure, blocks, links | `#` |
-| `II` | [GFM](#act-ii--github-flavored-markdown) | Tables, tasks, strikethrough | `GFM` |
-| `III` | [GitHub Extensions](#act-iii--github-extensions) | Alerts, Linguist, footnotes | `GH` |
-| `IV` | [HTML Hybrid](#act-iv--html-hybrid) | Media, details, semantic HTML, sanitizer | `<>` |
-| `V` | [Advanced Rendering](#act-v--advanced-rendering) | MathJax, Mermaid, GeoJSON, TopoJSON, **STL** | `∞` |
-| `VI` | [Parser & Source Lab](#act-vi--parser--source-lab) | Escapes, fences, renderer routing | `\` |
-| `VII` | [Endgame](#act-vii--endgame--reference) | Achievements, QA, cheat sheet | `✓` |
-| `∞` | [Final Boss](#final-boss) | Combined renderer network | `👑` |
-
-`Markdown` · `GFM` · `GitHub` · `Linguist` · `MathJax` · `Mermaid` · `GeoJSON` · `TopoJSON` · `ASCII STL` · `HTML` · `Local Asset`
+| `00` | Source Layer | invariants + raw fixture corpus | `RAW` |
+| `I` | Markdown Core | inline/block grammar | `#` |
+| `II` | GFM | tables, tasks, strike, autolinks | `GFM` |
+| `III` | GitHub Extensions | alerts, Linguist, footnotes | `GH` |
+| `IV` | HTML Hybrid | media, details, safe semantic HTML | `<>` |
+| `V` | Advanced Rendering | MathJax, Mermaid, GeoJSON, TopoJSON, STL | `∞` |
+| `VI` | Parser Torture | precedence, recursion, ambiguity, failures | `⚠` |
+| `VII` | Endgame | achievements, QA, cheat sheet | `✓` |
+| `∞` | Final Boss | composed parser + renderer network | `👑` |
 
 ---
 
-## 🧬 THE RENDERING STACK
+## 🧬 RENDERING / PARSING STACK
 
 ```mermaid
 flowchart LR
-    A[README.md] --> B[Markdown / GFM]
-    B --> GH[GitHub]
+    SRC[README.md source] --> BLOCK[Block parser]
+    BLOCK --> INLINE[Inline parser]
+    INLINE --> GFM[GFM extensions]
+    GFM --> GH[GitHub]
     GH --> L[Linguist]
     GH --> MJ[MathJax]
     GH --> MM[Mermaid]
     GH --> GJ[GeoJSON]
     GH --> TJ[TopoJSON]
     GH --> STL[ASCII STL]
-    GH --> H[Sanitized HTML]
+    GH --> HTML[Sanitized HTML]
     L --> OUT[Rendered README]
     MJ --> OUT
     MM --> OUT
     GJ --> OUT
     TJ --> OUT
     STL --> OUT
-    H --> OUT
+    HTML --> OUT
 ```
+
+GitHub Flavored Markdown is a CommonMark-derived parser with GFM extensions. Its specification explicitly separates block parsing from inline parsing and defines precedence for code spans, links, HTML, autolinks, emphasis, tables, tasks, and other constructs.[^gfm]
 
 ---
 
@@ -109,22 +103,24 @@ flowchart LR
 `HTML` · `Source-only`
 
 ```html
-<!-- This source exists but disappears in GitHub's rendered README. -->
+<!-- This comment exists in README.md but disappears when rendered. -->
 ```
 
 <!--
-M12 invariants:
-- fenced ASCII STL uses the `stl` info string.
-- each live facet has exactly one normal, one outer loop, and three vertices.
-- the repository cube uses outward normals and matching right-hand-rule winding.
-- malformed STL examples remain inert inside text fences.
-- assets/stl-showcase.stl is a repository-owned ASCII STL model.
-- M10/M11 geographic assets remain untouched.
-- M13 will own the broad parser torture test; M12 only adds STL-specific cases.
+M13 invariants:
+- backslashes, blank lines, trailing spaces, and fence lengths may be semantic.
+- triple backticks shown as source must live inside a longer outer fence.
+- table-content pipes may need escaping even when visually inside inline code.
+- malformed Mermaid/GeoJSON/TopoJSON/STL belongs in inert source fences.
+- duplicate headings are intentional anchor-collision tests.
+- dollar signs may participate in MathJax routing.
+- raw HTML and Markdown ownership boundaries are intentional.
+- assets/parser-torture-corpus.txt preserves exact dangerous fixtures as plain text.
 -->
 
-> [!NOTE]
-> Rendered 3D is only one surface. The triangle mesh remains plain-text source that can be reviewed line by line and diffed like code.
+**Raw source corpus:** [`assets/parser-torture-corpus.txt`](./assets/parser-torture-corpus.txt)
+
+That `.txt` file is deliberately not Markdown. It stores exact dangerous sequences without asking GitHub to interpret them.
 
 ---
 
@@ -132,12 +128,12 @@ M12 invariants:
 
 ## LEVEL 01 — TYPOGRAPHY & INLINE POWER
 
-`Markdown` · `GFM` · `HTML`
-
-| Source | Result |
+| Source | Rendered |
 | --- | --- |
 | `*italic*` | *italic* |
-| `**bold**` | **bold** |
+| `_italic_` | _italic_ |
+| `**strong**` | **strong** |
+| `__strong__` | __strong__ |
 | `***both***` | ***both*** |
 | `~~deleted~~` | ~~deleted~~ |
 | `` `code` `` | `code` |
@@ -145,16 +141,16 @@ M12 invariants:
 | `<sup>2</sup>` | x<sup>2</sup> |
 | `<ins>new</ins>` | <ins>new</ins> |
 
-**Bold containing _italic containing `code`_.**
+**Strong containing _emphasis containing `code`_.**
+
+Intraword comparison: `foo*bar*baz` renders as foo*bar*baz while underscores remain conservative in `foo_bar_baz` according to GFM emphasis rules.[^gfm]
 
 ---
 
 ## LEVEL 02 — STRUCTURE, HEADINGS & WHITESPACE
 
-`Markdown`
-
 <details>
-<summary><strong>ATX heading ladder</strong></summary>
+<summary><strong>ATX ladder</strong></summary>
 
 # H1
 ## H2
@@ -166,7 +162,7 @@ M12 invariants:
 </details>
 
 <details>
-<summary><strong>Setext headings</strong></summary>
+<summary><strong>Setext forms</strong></summary>
 
 Setext One
 ==========
@@ -176,70 +172,67 @@ Setext Two
 
 </details>
 
+A blank line starts a new paragraph.
+
 Two trailing spaces create a hard break.  
 This is the next visual line.
 
+A backslash also creates a hard break.\
+This line follows it.
+
+And HTML can force one.<br>
+This line follows the `<br>`.
+
 ---
 
-## LEVEL 03 — LIST ENGINE & QUOTATION FORTRESS
+## LEVEL 03 — LIST / QUOTE CONTAINERS
 
-`Markdown`
-
-- Surface
-  - Nested
-    - Deeper
-      - Deeper still
-        - List mine
-          - **Maximum indentation**
+- Level one
+  - Level two
+    - Level three
+      - Level four
 
 1. **Quote inside list**
 
-   > Containers can contain containers.
+   > A blockquote can live inside a list item.
+   >
+   > - [x] task inside quote
+   > - [ ] another task
 
-2. **Code inside list**
+2. **Fence inside list**
 
    ```bash
-   printf '%s\n' "nested code"
+   printf '%s\n' "nested fenced block"
    ```
 
-> **Quote containing structure**
+> **List inside quote**
 >
-> - [x] nested list
-> - [x] task
-> - [x] `inline code`
+> 1. ordered
+> 2. ordered
+>
+> ```text
+> quote-prefixed fence
+> ```
 
 ---
 
-## LEVEL 04 — HYPERLINK ROUTING MATRIX
+## LEVEL 04 — LINKS / REFERENCES
 
-`Markdown` · `GFM` · `GitHub` · `HTML`
+[Inline](https://example.com) · [Hover title](https://example.com "Title") · [Markdown Guide][markdown-guide] · [GitHub Docs][] · [GFM Spec]
 
-[Markdown Guide](https://www.markdownguide.org/)  
-[Markdown Guide][markdown-guide]  
-[GitHub Docs][]  
-[GFM Spec]
+- [README](./README.md)
+- [Raw torture corpus](./assets/parser-torture-corpus.txt)
+- [GeoJSON asset](./assets/geojson-showcase.geojson)
+- [TopoJSON asset](./assets/topojson-showcase.topojson)
+- [STL asset](./assets/stl-showcase.stl)
+- [Parser torture](#level-27--full-parser--edge-case-torture-test)
 
-- [This README](./README.md)
-- [Repository root](./)
-- [GeoJSON dataset](./assets/geojson-showcase.geojson)
-- [TopoJSON dataset](./assets/topojson-showcase.topojson)
-- [ASCII STL model](./assets/stl-showcase.stl)
-- [STL showcase](#m12-stl)
-- [Final Boss](#final-boss)
-
-<a name="m12-stl-beacon"></a>
-
-[Jump to the M12 custom anchor](#m12-stl-beacon)
+Autolinks:
 
 <https://github.com/>  
+<docs@example.com>  
 https://github.com  
 www.github.com
-
-```text
-@octocat
-#123
-owner/repository#123
-```
 
 ---
 
@@ -247,67 +240,50 @@ owner/repository#123
 
 ## LEVEL 05 — TABLE ENGINE
 
-`GFM`
-
-| Alignment | Syntax | Example |
+| Left | Center | Right |
 | :--- | :---: | ---: |
-| Left | `:---` | `10` |
-| Center | `:---:` | `100` |
-| Right | `---:` | `1000` |
+| alpha | beta | 100 |
+| **bold** | `code` | 200 |
+| alpha \| beta | `left\|right` | 300 |
 
-| Input | Result |
-| --- | --- |
-| `alpha \| beta` | alpha \| beta |
-| `` `left\|right` `` | `left\|right` |
+> [!NOTE]
+> GFM table cells are inline-parsed, but the table parser still uses `|` as a structural delimiter. Escaping pipes is therefore a real parser concern, including inside code-looking cell content.[^gfm]
 
 ---
 
-## LEVEL 06 — TASK-LIST SKILL TREE
+## LEVEL 06 — TASK TREE
 
-`GFM`
-
-- [x] **Markdown Core**
-  - [x] Typography / structure
-  - [x] Lists / quotes
-  - [x] Link routing
-- [x] **GFM Systems**
-  - [x] Tables
-  - [x] Task lists
-- [x] **Media + HTML**
-  - [x] Repository SVGs
-  - [x] Theme-aware `<picture>`
-  - [x] Nested `<details>`
-  - [x] Sanitization boundary
-- [x] **Syntax Highlighting**
-  - [x] 33 language/mode fences
-  - [x] aliases / text / diff / unknown label
-- [x] **MathJax**
-  - [x] inline / protected inline / display / `math` fence
-  - [x] matrices / calculus / probability / Fourier
-- [x] **Mermaid**
-  - [x] multi-family gallery
-  - [x] version-sensitive compatibility strategy
-- [x] **GeoJSON**
-  - [x] all seven geometry families
-  - [x] repository-owned `.geojson`
-- [x] **TopoJSON**
-  - [x] shared arcs / reversed arcs
-  - [x] transform / quantization / delta encoding
-  - [x] repository-owned `.topojson`
-- [x] **ASCII STL / 3D**
-  - [x] facet grammar
-  - [x] normals
-  - [x] vertex winding
-  - [x] open and closed meshes
-  - [x] 12-facet cube
-  - [x] repository-owned `.stl`
-  - [x] viewer controls / limits
-- [ ] **Hardening**
-  - [ ] M13 parser torture test
-  - [ ] M14 progression overhaul
-  - [ ] M15 final boss composition
-  - [ ] M16 accessibility / mobile / themes
-  - [ ] M17 final GitHub regression
+- [x] **M0–M12 capability acquisition**
+  - [x] Markdown / GFM
+  - [x] GitHub extensions
+  - [x] local SVG media
+  - [x] HTML hybrid
+  - [x] 33 syntax modes
+  - [x] MathJax
+  - [x] Mermaid
+  - [x] GeoJSON
+  - [x] TopoJSON
+  - [x] ASCII STL
+- [x] **M13 parser hardening**
+  - [x] delimiter precedence
+  - [x] code-span lengths
+  - [x] fence recursion
+  - [x] tilde/backtick fence comparison
+  - [x] list/quote/details nesting
+  - [x] table-pipe containment
+  - [x] link/reference edge cases
+  - [x] duplicate headings
+  - [x] HTML boundaries
+  - [x] entities
+  - [x] math-dollar collisions
+  - [x] footnotes
+  - [x] malformed renderer containment
+  - [x] raw plain-text corpus
+- [ ] **M14–M17 hardening / endgame**
+  - [ ] progression overhaul
+  - [ ] Final Boss composition
+  - [ ] accessibility/mobile/themes
+  - [ ] final GitHub rendering regression
 
 ---
 
@@ -315,55 +291,35 @@ owner/repository#123
 
 ## LEVEL 07 — ALERT COMMAND CENTER
 
-`GitHub`
-
 > [!NOTE]
-> ASCII STL is a triangle-mesh format. Each facet describes one triangle plus a surface normal.
+> Parser tests are useful only if the expected behavior is explicit.
 
 > [!TIP]
-> For a portable mesh, make the normal point outward **and** order the three vertices consistently with the right-hand rule.[^stl-format]
+> Use a longer outer fence instead of escaping every inner backtick.
 
 > [!IMPORTANT]
-> The README renderer requires ASCII STL source inside a fence labeled `stl`; a normal code fence does not become an interactive model.[^github-diagrams]
+> Code spans, links, HTML tags, and autolinks bind more tightly than emphasis in GFM's inline parser.[^gfm]
 
 > [!WARNING]
-> STL stores geometry but does not encode a universal unit. `1.0` could represent a millimetre, centimetre, metre, or another unit depending on the surrounding workflow.[^stl-format]
+> A formatter that removes blank lines or “normalizes” escaped pipes can silently change rendering.
 
 > [!CAUTION]
-> A syntactically parseable triangle soup is not automatically a watertight or physically meaningful solid.
+> Deliberately malformed renderer source must stay inert. A broken live `mermaid`, `geojson`, `topojson`, or `stl` block looks like a regression, not a test.
 
 ---
 
-## LEVEL 08 — FULL SYNTAX-HIGHLIGHTING LABORATORY
+## LEVEL 08 — SYNTAX-HIGHLIGHTING MUSEUM
 
-`Markdown` · `GitHub` · `Linguist`
-
-M7 remains represented with **33 distinct syntax modes**.
-
-```
-const unlabeled = true;
-```
-
-```text
-literal-output = true
-```
-
-```javascript
-const highlighted = true;
-```
-
-```totally-not-a-language
-const unknownLabelControl = true;
-```
+M7's **33-mode Linguist breadth** remains represented compactly below.
 
 <details>
-<summary><strong>Web & UI — 5</strong></summary>
+<summary><strong>Web / data / markup</strong></summary>
 
 ```javascript
 console.log("JavaScript");
 ```
 ```typescript
-const phase: number = 12;
+const phase: number = 13;
 ```
 ```html
 <details><summary>HTML</summary></details>
@@ -372,13 +328,25 @@ const phase: number = 12;
 .readme { display: block; }
 ```
 ```json
-{"phase":"M12"}
+{"phase":"M13"}
+```
+```yaml
+phase: M13
+```
+```toml
+phase = "M13"
+```
+```xml
+<phase>M13</phase>
+```
+```sql
+SELECT 'M13';
 ```
 
 </details>
 
 <details>
-<summary><strong>Systems & compiled — 8</strong></summary>
+<summary><strong>Compiled / systems</strong></summary>
 
 ```c
 int main(void){return 0;}
@@ -410,7 +378,7 @@ print("Swift")
 </details>
 
 <details>
-<summary><strong>Scripting — 6</strong></summary>
+<summary><strong>Scripting / scientific / functional</strong></summary>
 
 ```python
 print("Python")
@@ -430,33 +398,6 @@ printf '%s\n' Bash
 ```powershell
 Write-Output 'PowerShell'
 ```
-
-</details>
-
-<details>
-<summary><strong>Data / config / infrastructure — 5</strong></summary>
-
-```sql
-SELECT 'SQL';
-```
-```yaml
-phase: M12
-```
-```toml
-phase = "M12"
-```
-```xml
-<phase>M12</phase>
-```
-```dockerfile
-FROM alpine:3.22
-```
-
-</details>
-
-<details>
-<summary><strong>Scientific / functional — 5</strong></summary>
-
 ```r
 print(pi)
 ```
@@ -476,251 +417,144 @@ main = print pi
 </details>
 
 <details>
-<summary><strong>Documentation / literal — 4</strong></summary>
+<summary><strong>Infrastructure / documentation / literal</strong></summary>
 
+```dockerfile
+FROM alpine:3.22
+```
 ```markdown
 # Markdown
 ```
 ```diff
-- M11 topology
-+ M12 triangle mesh
+- M12 acquisition
++ M13 hardening
 ```
 ```text
 plaintext
 ```
 ```ini
 [readme]
-phase=M12
+phase=M13
 ```
 
 </details>
 
-**Inventory:** 5 + 8 + 6 + 5 + 5 + 4 = **33 modes**.
+**Inventory: 9 + 8 + 11 + 5 = 33 modes.**
 
 ---
 
-## LEVEL 09 — FOOTNOTES & GITHUB-AWARE BEHAVIOR
+## LEVEL 09 — FOOTNOTES / GITHUB-AWARE BEHAVIOR
 
-`GitHub`
+GitHub uses Linguist for fenced syntax.[^linguist] GitHub renders mathematics with MathJax.[^mathjax] GitHub supports Mermaid, GeoJSON, TopoJSON, and ASCII STL advanced renderer routes.[^github-diagrams]
 
-GitHub uses Linguist for fenced-code highlighting.[^linguist]  
-GitHub renders supported LaTeX math with MathJax.[^mathjax]  
-GitHub supports Mermaid, GeoJSON, TopoJSON, and ASCII STL as advanced Markdown diagram/rendering syntaxes.[^github-diagrams]  
-Standalone `.geojson`, `.topojson`, and `.stl` files have dedicated repository viewers.[^noncode-files]
+Repeated footnote reference one.[^repeat] Repeated footnote reference two.[^repeat]
 
 ---
 
 # ACT IV — HTML HYBRID
 
-## LEVEL 10 — REPOSITORY-OWNED MEDIA SYSTEM
-
-`Markdown` · `HTML` · `Local Asset`
+## LEVEL 10 — REPOSITORY MEDIA
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form banner" width="100%">
+  <img src="./assets/hero-light.svg" alt="Theme-aware repository-owned hero" width="100%">
 </picture>
 
-![Repository-owned SVG media card](./assets/media-card.svg)
+![Repository-owned SVG card](./assets/media-card.svg)
 
-<img src="./assets/scaling-ruler.svg" alt="SVG scaling ruler" width="50%">
-
-[![Clickable local media portal](./assets/clickable-portal.svg)](#m12-stl)
+[![Clickable local portal](./assets/clickable-portal.svg)](#level-27--full-parser--edge-case-torture-test)
 
 ---
 
-## LEVEL 11 — INLINE HTML SEMANTIC TOOLKIT
-
-`HTML` · `Markdown`
+## LEVEL 11 — SEMANTIC HTML
 
 Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>.  
-H<sub>2</sub>O · x<sup>2</sup>  
-<ins>Inserted</ins> · <del>Deleted</del> · <s>Obsolete</s>
+H<sub>2</sub>O · x<sup>2</sup> · <ins>inserted</ins> · <del>deleted</del> · <s>obsolete</s>
 
 ---
 
-## LEVEL 12 — DETAILS INTERFACE SYSTEM
-
-`HTML` · `Markdown` · `GitHub`
+## LEVEL 12 — DETAILS INTERFACE
 
 <details>
-<summary><strong>Collapsed panel</strong></summary>
+<summary><strong>Collapsed Markdown payload</strong></summary>
 
-- Markdown list
+### Heading inside details
+
+- list
 - **formatting**
-- `inline code`
+- `code`
+
+```text
+fenced code inside details
+```
 
 </details>
 
 <details open>
 <summary><strong>Open by default</strong></summary>
 
-The `open` attribute controls initial disclosure state without README-authored JavaScript.
+Blank lines around Markdown content are intentional and preserved.
+
+<details>
+<summary><strong>Nested details</strong></summary>
+
+Nested disclosure survives.
 
 </details>
 
-<details>
-<summary><strong>Nested disclosure tree</strong></summary>
-
-<details>
-<summary><strong>Tier 2</strong></summary>
-
-<details>
-<summary><strong>Tier 3</strong></summary>
-
-**Markdown inside HTML inside Markdown.**
-
-</details>
-</details>
 </details>
 
 ---
 
-## LEVEL 13 — HTML TABLE & LAYOUT LAB
-
-<table>
-  <thead><tr><th>Element</th><th>Role</th></tr></thead>
-  <tbody>
-    <tr><td><code>&lt;details&gt;</code></td><td>Progressive disclosure</td></tr>
-    <tr><td><code>&lt;kbd&gt;</code></td><td>Keyboard semantics</td></tr>
-    <tr><td><code>&lt;picture&gt;</code></td><td>Theme-aware media</td></tr>
-    <tr><td><code>&lt;table&gt;</code></td><td>Explicit HTML structure</td></tr>
-  </tbody>
-</table>
-
----
-
-## LEVEL 14 — MARKDOWN / HTML BOUNDARY LAB
+## LEVEL 13 — SANITIZATION BOUNDARY
 
 ```html
-<details>
-<summary>Summary</summary>
-
-### Markdown heading
-
-- Markdown list
-- **Markdown emphasis**
-
-</details>
+<script>alert('not a README runtime')</script>
+<div style="position:fixed">not application styling</div>
+<div class="app" id="root">not an app mount</div>
 ```
 
-```text
-Markdown owns the document by default.
-HTML enters for semantics or disclosure.
-Specialized fence identifiers route source to advanced renderers.
-```
-
----
-
-## LEVEL 15 — SANITIZATION BOUNDARY
-
-```html
-<script>alert('nope')</script>
-<div style="position:fixed">not a README application shell</div>
-<div class="app" id="root">not a JavaScript mount point</div>
-```
-
-| Need | README-safe mechanism |
-| --- | --- |
-| Disclosure | `<details>` / `<summary>` |
-| Theme-aware media | `<picture>` / `<source>` |
-| Mathematics | MathJax |
-| Relationships | Mermaid |
-| Geographic data | GeoJSON / TopoJSON |
-| 3D triangle mesh | ASCII STL |
-| Real app logic | build an actual app |
-
----
-
-## LEVEL 16 — HYBRID INTERFACE BOSS
-
-<details open>
-<summary><strong>M12 SYSTEM CONSOLE</strong></summary>
-
-<table>
-  <tr><th>Subsystem</th><th>Status</th></tr>
-  <tr><td>Linguist</td><td><strong>33 MODES</strong></td></tr>
-  <tr><td>MathJax</td><td><strong>ONLINE</strong></td></tr>
-  <tr><td>Mermaid</td><td><strong>ONLINE</strong></td></tr>
-  <tr><td>GeoJSON</td><td><strong>INTERACTIVE MAP</strong></td></tr>
-  <tr><td>TopoJSON</td><td><strong>INTERACTIVE TOPOLOGY</strong></td></tr>
-  <tr><td>ASCII STL</td><td><strong>INTERACTIVE 3D</strong></td></tr>
-  <tr><td>README JavaScript runtime</td><td><del>ABSENT</del> BY DESIGN</td></tr>
-</table>
-
-</details>
+GitHub sanitizes rendered HTML. M13 tests Markdown/HTML boundaries but does not try to defeat the sanitizer.[^github-formatting]
 
 ---
 
 # ACT V — ADVANCED RENDERING
 
-## LEVEL 17 — ADVANCED MATHJAX MATHEMATICAL SHOWCASE
+<a name="renderer-routing"></a>
 
-`GitHub` · `MathJax` · `LaTeX`
+## LEVEL 17 — MATHJAX
 
-Inline: $E=mc^2$ · protected inline: $`x_i^2`$.
-
-$$\left(\sum_{k=1}^{n}a_kb_k\right)^2\leq\left(\sum_{k=1}^{n}a_k^2\right)\left(\sum_{k=1}^{n}b_k^2\right)$$
+Inline $E=mc^2$, protected inline $`x_i^2`$, and display math:
 
 ```math
 A=\begin{pmatrix}1&2\\3&4\end{pmatrix},
 \qquad Av=\lambda v,
-\qquad \operatorname{rank}(A)+\operatorname{nullity}(A)=n
+\qquad e^{i\pi}+1=0
 ```
-
-```math
-\nabla f(x)=\begin{pmatrix}
-\frac{\partial f}{\partial x_1}\\
-\vdots\\
-\frac{\partial f}{\partial x_n}
-\end{pmatrix},
-\qquad
-\frac{d}{dx}\int_a^x f(t)\,dt=f(x)
-```
-
-```math
-P(A\mid B)=\frac{P(B\mid A)P(A)}{P(B)},
-\qquad
-e^{i\pi}+1=0
-```
-
-<details>
-<summary><strong>Fourier chamber</strong></summary>
 
 ```math
 \widehat f(\xi)=\int_{-\infty}^{\infty}f(x)e^{-2\pi i x\xi}\,dx
 ```
 
-</details>
-
 ---
 
-## LEVEL 18 — FULL MERMAID DIAGRAM GALLERY
-
-`GitHub` · `Mermaid`
-
-M9's gallery remains represented across process, interaction, state, object, data, schedule, history, hierarchy, chronology, positioning, requirement, and compatibility diagrams.
+## LEVEL 18 — MERMAID
 
 ```mermaid
-flowchart TD
-    SRC[Source] --> TYPE{Renderer metadata}
-    TYPE -- code --> L[Linguist]
-    TYPE -- math --> MJ[MathJax]
-    TYPE -- mermaid --> MM[Mermaid]
-    TYPE -- geojson --> GJ[GeoJSON]
-    TYPE -- topojson --> TJ[TopoJSON]
-    TYPE -- stl --> STL[ASCII STL]
-    L --> OUT[Rendered README]
-    MJ --> OUT
-    MM --> OUT
-    GJ --> OUT
-    TJ --> OUT
-    STL --> OUT
+flowchart LR
+    SRC[Source] --> P[Markdown / GFM parser]
+    P --> R{Renderer route}
+    R --> L[Linguist]
+    R --> MJ[MathJax]
+    R --> MM[Mermaid]
+    R --> GJ[GeoJSON]
+    R --> TJ[TopoJSON]
+    R --> STL[ASCII STL]
 ```
 
 <details>
-<summary><strong>Sequence + state</strong></summary>
+<summary><strong>Sequence renderer route</strong></summary>
 
 ```mermaid
 sequenceDiagram
@@ -728,56 +562,17 @@ sequenceDiagram
     participant MD as README.md
     participant GH as GitHub
     participant R as Specialized Renderer
-    Author->>MD: commit source
-    MD->>GH: Markdown render
+    Author->>MD: write fenced source
+    MD->>GH: parse Markdown
     GH->>R: route by info string
-    R-->>GH: visual output
-```
-
-```mermaid
-stateDiagram-v2
-    [*] --> Source
-    Source --> Parsing
-    Parsing --> Rendered: valid
-    Parsing --> Broken: invalid
-    Broken --> Source: fix
-    Rendered --> [*]
-```
-
-</details>
-
-<details>
-<summary><strong>Class + ER</strong></summary>
-
-```mermaid
-classDiagram
-    Renderer <|-- MathJax
-    Renderer <|-- Mermaid
-    Renderer <|-- GeoJSON
-    Renderer <|-- TopoJSON
-    Renderer <|-- ASCII_STL
-    README *-- Renderer
-```
-
-```mermaid
-erDiagram
-    REPOSITORY ||--|| README : contains
-    REPOSITORY ||--o{ ASSET : owns
-    README ||--o{ RENDERER_BLOCK : embeds
+    R-->>GH: specialized output
 ```
 
 </details>
 
 ---
 
-## LEVEL 19 — INTERACTIVE GEOJSON SHOWCASE
-
-`GitHub` · `GeoJSON` · `Interactive Map` · `Local Asset`
-
-M10 remains the coordinate-centric geographic baseline. GeoJSON uses explicit positions and Features.
-
-> [!IMPORTANT]
-> GeoJSON positions remain **`[longitude, latitude]`**.
+## LEVEL 19 — GEOJSON
 
 ```geojson
 {
@@ -785,35 +580,23 @@ M10 remains the coordinate-centric geographic baseline. GeoJSON uses explicit po
   "features": [
     {
       "type": "Feature",
-      "properties": {"title": "London", "marker-color": "#7c3aed"},
-      "geometry": {"type": "Point", "coordinates": [-0.1276, 51.5072]}
-    },
-    {
-      "type": "Feature",
-      "properties": {"title": "Berlin", "marker-color": "#0891b2"},
+      "properties": {"title": "Berlin", "marker-color": "#7c3aed"},
       "geometry": {"type": "Point", "coordinates": [13.405, 52.52]}
     },
     {
       "type": "Feature",
-      "properties": {"title": "Route", "stroke": "#2563eb", "stroke-width": 4},
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [[-0.1276, 51.5072], [2.3522, 48.8566], [13.405, 52.52]]
-      }
+      "properties": {"title": "Paris", "marker-color": "#0891b2"},
+      "geometry": {"type": "Point", "coordinates": [2.3522, 48.8566]}
     }
   ]
 }
 ```
 
-Repository-owned baseline: **[`assets/geojson-showcase.geojson`](./assets/geojson-showcase.geojson)**.
+Standalone: [`assets/geojson-showcase.geojson`](./assets/geojson-showcase.geojson)
 
 ---
 
-## LEVEL 20 — INTERACTIVE TOPOJSON SHOWCASE
-
-`GitHub` · `TopoJSON` · `Interactive Map` · `Topology` · `Local Asset`
-
-M11 remains the topology-centric geographic layer: shared arcs, reversed references, transforms, quantized coordinates, and delta encoding.
+## LEVEL 20 — TOPOJSON
 
 ```topojson
 {
@@ -822,8 +605,8 @@ M11 remains the topology-centric geographic layer: shared arcs, reversed referen
     "regions": {
       "type": "GeometryCollection",
       "geometries": [
-        {"type": "Polygon", "id": "west", "arcs": [[0, 1, 2, 3]]},
-        {"type": "Polygon", "id": "east", "arcs": [[4, 5, 6, -2]]}
+        {"type": "Polygon", "id": "west", "arcs": [[0,1,2,3]]},
+        {"type": "Polygon", "id": "east", "arcs": [[4,5,6,-2]]}
       ]
     }
   },
@@ -839,591 +622,14 @@ M11 remains the topology-centric geographic layer: shared arcs, reversed referen
 }
 ```
 
-```text
-arc 1  → shared boundary forward
--2     → arc 1 reversed
-```
-
-Quantized topology may add:
-
-```json
-"transform": {
-  "scale": [0.01, 0.01],
-  "translate": [0.0, 40.0]
-}
-```
-
-and then store arcs as delta-encoded integer positions.
-
-Repository-owned topology: **[`assets/topojson-showcase.topojson`](./assets/topojson-showcase.topojson)**.
+Standalone: [`assets/topojson-showcase.topojson`](./assets/topojson-showcase.topojson)
 
 ---
 
-<a name="m12-stl"></a>
-
-## LEVEL 21 — INTERACTIVE ASCII STL / 3D SHOWCASE
-
-`GitHub` · `ASCII STL` · `Interactive 3D` · `Triangle Mesh` · `Local Asset`
-
-GitHub documents **ASCII STL** as the fourth native advanced diagram/rendering syntax available in Markdown. Valid STL placed inside an `stl` fence becomes an interactive 3D model.[^github-diagrams]
-
-### 21.1 — Renderer anatomy
-
-````markdown
-```stl
-solid triangle
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 0
-      vertex 1 0 0
-      vertex 0 1 0
-    endloop
-  endfacet
-endsolid triangle
-```
-````
-
-```text
-Markdown fence
-    │
-    ├── identifier: stl
-    │
-    └── ASCII STL mesh
-         ├── solid
-         ├── facets
-         │    ├── normal
-         │    └── 3 vertices
-         └── endsolid
-                ↓
-         GitHub 3D renderer
-                ↓
-        interactive model
-```
-
----
-
-### 21.2 — Minimal live triangle
-
-The smallest useful STL surface demonstration is one triangular facet.
+## LEVEL 21 — ASCII STL / 3D
 
 ```stl
-solid one_triangle
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 0
-      vertex 1 0 0
-      vertex 0 1 0
-    endloop
-  endfacet
-endsolid one_triangle
-```
-
-This is a valid surface facet, but it is **not a closed solid**. One triangle has no volume.
-
----
-
-### 21.3 — Facet grammar
-
-Every ASCII facet follows this structure:[^stl-format]
-
-```text
-facet normal nx ny nz
-  outer loop
-    vertex v1x v1y v1z
-    vertex v2x v2y v2z
-    vertex v3x v3y v3z
-  endloop
-endfacet
-```
-
-| Token | Meaning |
-| --- | --- |
-| `facet normal` | outward-facing normal vector |
-| `outer loop` | starts triangle vertex loop |
-| first `vertex` | first corner |
-| second `vertex` | second corner |
-| third `vertex` | third corner |
-| `endloop` | closes vertex list |
-| `endfacet` | closes triangle |
-
-A standard facet has **exactly three vertices**.
-
----
-
-### 21.4 — Normal vectors
-
-For vertices $v_1,v_2,v_3$, a geometric normal can be derived from the cross product:
-
-```math
-n=\frac{(v_2-v_1)\times(v_3-v_1)}{\left\|(v_2-v_1)\times(v_3-v_1)\right\|}
-```
-
-Example:
-
-```math
-v_1=(0,0,0),\quad v_2=(1,0,0),\quad v_3=(0,1,0)
-```
-
-```math
-(v_2-v_1)\times(v_3-v_1)=(0,0,1)
-```
-
-so the facet normal is:
-
-```text
-facet normal 0 0 1
-```
-
----
-
-### 21.5 — Vertex winding and the right-hand rule
-
-STL facet orientation is redundantly described by both the stored normal and vertex order. For portable meshes, they should agree.[^stl-format]
-
-```text
-viewed from OUTSIDE the surface:
-
-v3
-●
-|\
-| \
-|  \
-●───●
-v1   v2
-
-v1 → v2 → v3 = counter-clockwise
-right-hand thumb = outward normal
-```
-
-The M12 cube follows this convention on all twelve triangles.
-
-> [!WARNING]
-> Some software recomputes or ignores stored normals. Correct winding therefore matters even when a viewer appears willing to display inconsistent facet normals.
-
----
-
-### 21.6 — Two triangles make one square face
-
-A cube face is a quadrilateral, but STL stores triangles only. One square face therefore needs two facets.
-
-```stl
-solid square_face
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 0
-      vertex 1 0 0
-      vertex 1 1 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 0
-      vertex 1 1 0
-      vertex 0 1 0
-    endloop
-  endfacet
-endsolid square_face
-```
-
-```math
-6\;\text{cube faces}\times2\;\text{triangles per face}=12\;\text{facets}
-```
-
----
-
-### 21.7 — Closed cube: twelve facets
-
-The repository-owned M12 model is a unit cube with vertices at every $(x,y,z)\in\{0,1\}^3$.
-
-| Face | Outward normal | Facets |
-| --- | :---: | :---: |
-| bottom | `(0,0,-1)` | 2 |
-| top | `(0,0,1)` | 2 |
-| front | `(0,-1,0)` | 2 |
-| back | `(0,1,0)` | 2 |
-| left | `(-1,0,0)` | 2 |
-| right | `(1,0,0)` | 2 |
-| **Total** |  | **12** |
-
-<details open>
-<summary><strong>LIVE CUBE — 12 consistently oriented STL facets</strong></summary>
-
-```stl
-solid markdown_final_form_cube
-  facet normal 0 0 -1
-    outer loop
-      vertex 0 0 0
-      vertex 1 1 0
-      vertex 1 0 0
-    endloop
-  endfacet
-  facet normal 0 0 -1
-    outer loop
-      vertex 0 0 0
-      vertex 0 1 0
-      vertex 1 1 0
-    endloop
-  endfacet
-
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 1
-      vertex 1 0 1
-      vertex 1 1 1
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 1
-      vertex 1 1 1
-      vertex 0 1 1
-    endloop
-  endfacet
-
-  facet normal 0 -1 0
-    outer loop
-      vertex 0 0 0
-      vertex 1 0 0
-      vertex 1 0 1
-    endloop
-  endfacet
-  facet normal 0 -1 0
-    outer loop
-      vertex 0 0 0
-      vertex 1 0 1
-      vertex 0 0 1
-    endloop
-  endfacet
-
-  facet normal 0 1 0
-    outer loop
-      vertex 0 1 0
-      vertex 1 1 1
-      vertex 1 1 0
-    endloop
-  endfacet
-  facet normal 0 1 0
-    outer loop
-      vertex 0 1 0
-      vertex 0 1 1
-      vertex 1 1 1
-    endloop
-  endfacet
-
-  facet normal -1 0 0
-    outer loop
-      vertex 0 0 0
-      vertex 0 0 1
-      vertex 0 1 1
-    endloop
-  endfacet
-  facet normal -1 0 0
-    outer loop
-      vertex 0 0 0
-      vertex 0 1 1
-      vertex 0 1 0
-    endloop
-  endfacet
-
-  facet normal 1 0 0
-    outer loop
-      vertex 1 0 0
-      vertex 1 1 0
-      vertex 1 1 1
-    endloop
-  endfacet
-  facet normal 1 0 0
-    outer loop
-      vertex 1 0 0
-      vertex 1 1 1
-      vertex 1 0 1
-    endloop
-  endfacet
-endsolid markdown_final_form_cube
-```
-
-</details>
-
-The same model exists as a real repository file:
-
-**[`assets/stl-showcase.stl`](./assets/stl-showcase.stl)**
-
----
-
-### 21.8 — Shared edges and watertight surfaces
-
-A closed mesh should not be merely a pile of triangles that almost meet.
-
-For a clean cube:
-
-```text
-triangle A edge: P ───── Q
-triangle B edge: Q ───── P
-
-same two endpoint coordinates
-opposite traversal on adjacent outward-oriented facets
-```
-
-Adjacent facets should share matching vertices along their common edge. The M12 cube uses only the eight exact corner coordinates `0` and `1`, preventing tiny cracks caused by nearly-equal coordinates.[^stl-format]
-
----
-
-### 21.9 — Open mesh vs closed solid
-
-| Mesh | Facets | Closed? | Volume concept |
-| --- | ---: | :---: | --- |
-| one triangle | 1 | ❌ | none |
-| square plane | 2 | ❌ | none |
-| tetrahedron | 4 | ✅ if stitched/oriented | enclosed |
-| cube | 12 | ✅ if stitched/oriented | enclosed |
-
-GitHub can visualize surface geometry; it is not a replacement for a full CAD/manifold validator.
-
----
-
-### 21.10 — Units are external context
-
-Standard STL geometry is effectively unitless: the file stores numbers, not a mandatory physical-unit declaration.[^stl-format]
-
-```text
-vertex 1 0 0
-
-could mean
-1 mm
-1 cm
-1 m
-1 inch
-...
-```
-
-For this README, the model is explicitly described as a **unit cube**. The conceptual size is 1 × 1 × 1 arbitrary units.
-
----
-
-### 21.11 — ASCII STL vs standalone STL
-
-```text
-README fenced ASCII STL
-        ↓
-interactive embedded model
-
-assets/stl-showcase.stl
-        ↓
-GitHub standalone 3D file viewer
-```
-
-GitHub's documentation specifically calls for **ASCII STL** inside Markdown fences. The repository viewer separately supports `.stl` files.[^github-diagrams][^noncode-files]
-
-Our repository asset is intentionally ASCII so both representations remain human-readable.
-
----
-
-### 21.12 — GitHub standalone 3D viewer controls
-
-When opening the `.stl` file directly on GitHub, the documented viewer supports:[^noncode-files]
-
-- **click + drag** — spin the model;
-- **right-click + drag** — translate the view;
-- **scroll** — zoom;
-- view-mode controls for different model presentations.
-
-GitHub's current documentation/screenshots expose modes including **Wireframe**, **Surface Angle**, and **Solid**.[^noncode-files]
-
-That makes the standalone asset a stronger 3D inspection surface than a static screenshot.
-
----
-
-### 21.13 — WebGL dependency
-
-GitHub's standalone 3D viewer uses WebGL for hardware-accelerated rendering.[^noncode-files]
-
-```text
-valid STL
-  + supported browser
-  + WebGL available
-        ↓
-interactive 3D viewer
-```
-
-If WebGL hardware support is unavailable, viewer performance/capability can degrade.
-
----
-
-### 21.14 — File-size boundary
-
-GitHub currently states that STL files **larger than 10 MB are too large for its 3D file viewer to display**.[^noncode-files]
-
-```text
-small documentation mesh
-→ embed / store directly
-
-large production mesh
-→ simplify / decimate / split workflow
-
-very large CAD scene
-→ use a dedicated 3D application
-```
-
-This README's cube is intentionally tiny.
-
----
-
-### 21.15 — STL vs syntax highlighting
-
-The same ASCII characters can enter two very different pipelines.
-
-**Literal source:**
-
-```text
-solid triangle
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 0
-      vertex 1 0 0
-      vertex 0 1 0
-    endloop
-  endfacet
-endsolid triangle
-```
-
-**Interactive model:**
-
-```stl
-solid triangle
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 0
-      vertex 1 0 0
-      vertex 0 1 0
-    endloop
-  endfacet
-endsolid triangle
-```
-
-```text
-text  → literal source presentation
-stl   → GitHub 3D renderer
-```
-
----
-
-### 21.16 — Renderer selection matrix
-
-| Information | Best renderer |
-| --- | --- |
-| source code | Linguist |
-| mathematical notation | MathJax |
-| process / relationships | Mermaid |
-| explicit geographic features | GeoJSON |
-| geographic shared topology | TopoJSON |
-| triangulated 3D surface | ASCII STL |
-| designed static illustration | repository SVG |
-
-```mermaid
-flowchart TD
-    NEED[What does the source represent?]
-    NEED --> CODE{Program source?}
-    CODE -- yes --> L[Linguist]
-    CODE -- no --> MATH{Mathematics?}
-    MATH -- yes --> MJ[MathJax]
-    MATH -- no --> REL{Relationships?}
-    REL -- yes --> MM[Mermaid]
-    REL -- no --> GEO{Geography?}
-    GEO -- explicit geometry --> GJ[GeoJSON]
-    GEO -- shared topology --> TJ[TopoJSON]
-    GEO -- no --> MESH{Triangle mesh?}
-    MESH -- yes --> STL[ASCII STL]
-    MESH -- no --> SVG[SVG / ordinary media]
-```
-
----
-
-### 21.17 — Inert malformed-STL laboratory
-
-Broken examples remain inside a longer `text` fence so GitHub does not attempt to render them as valid 3D models.
-
-````text
-```stl
-solid missing_vertex
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 0
-      vertex 1 0 0
-    endloop
-  endfacet
-endsolid missing_vertex
-```
-
-```stl
-solid degenerate
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 0
-      vertex 1 0 0
-      vertex 2 0 0
-    endloop
-  endfacet
-endsolid degenerate
-```
-````
-
-The first facet has only two vertices. The second has three collinear vertices, so its triangle area is zero and the stated normal cannot be derived from a nonzero cross product.
-
-> [!CAUTION]
-> Parser success and geometric validity are separate questions. A viewer displaying something does not certify a printable or watertight model.
-
----
-
-### 21.18 — Normal/winding mismatch laboratory
-
-This example is **syntactically plausible but semantically inconsistent**, so it remains source-only:
-
-````text
-```stl
-solid mismatched_orientation
-  facet normal 0 0 -1
-    outer loop
-      vertex 0 0 0
-      vertex 1 0 0
-      vertex 0 1 0
-    endloop
-  endfacet
-endsolid mismatched_orientation
-```
-````
-
-The vertex cross product points toward `+Z`, while the stored normal claims `-Z`.
-
-That distinction matters because different STL readers may trust or recompute normals differently.[^stl-format]
-
----
-
-### 21.19 — Accessibility and fallback strategy
-
-Interactive 3D should not be the only way to understand essential geometry.
-
-M12 therefore provides the cube in several equivalent representations:
-
-1. prose: **unit cube**;
-2. table: six faces, two triangles each;
-3. mathematical description: $(x,y,z)\in\{0,1\}^3$;
-4. ASCII STL source;
-5. embedded interactive model;
-6. repository-owned `.stl` file.
-
-If the WebGL viewer cannot be operated, the document still explains the exact structure.
-
----
-
-### 21.20 — STL Final Form
-
-<details open>
-<summary><strong>3D FINAL FORM — tetrahedral renderer core</strong></summary>
-
-A tetrahedron is the smallest closed triangular polyhedron: four vertices, four triangular facets.
-
-```stl
-solid final_form_tetrahedron
+solid tetrahedron
   facet normal 0 0 -1
     outer loop
       vertex 0 0 0
@@ -1452,183 +658,535 @@ solid final_form_tetrahedron
       vertex 0 0 1
     endloop
   endfacet
-endsolid final_form_tetrahedron
+endsolid tetrahedron
 ```
 
-```math
-\boxed{
-\text{vertices}
-+\text{normals}
-+\text{winding}
-+\text{facets}
-+\texttt{stl}
-=\text{interactive 3D surface}
-}
-```
-
-</details>
-
-### M12 renderer rule
-
-```text
-Need 3D in GitHub Markdown?
-├── small textual triangle mesh → fenced ASCII STL
-├── reusable model asset → repository .stl
-├── complex production mesh → simplify before README use
-└── rich CAD/material/animation scene → dedicated 3D application
-```
+Standalone cube: [`assets/stl-showcase.stl`](./assets/stl-showcase.stl)
 
 ---
 
 # ACT VI — PARSER & SOURCE LAB
 
-## LEVEL 22 — ESCAPE HATCH
+## LEVEL 27 — FULL PARSER & EDGE-CASE TORTURE TEST
 
-`Markdown` · `Parser`
+`Markdown` · `GFM` · `GitHub` · `Parser` · `All Renderers`
 
-\# Not a heading  
-\> Not a quote  
-\- Not a list  
-1\. Not an ordered list  
-\*Not emphasis\*
+The GFM specification parses block structure first and inline structure second. M13 deliberately attacks both phases.[^gfm]
 
-| Literal | Source |
-| :---: | :---: |
-| `*` | `\*` |
-| `_` | `\_` |
-| `#` | `\#` |
-| `>` | `\>` |
-| `|` | `\|` |
-| `$` | `\$` where math parsing needs it |
-| `\` | `\\` |
+### 27.1 — ASCII punctuation escape wall
+
+GFM allows ASCII punctuation to be backslash-escaped.[^gfm]
+
+```text
+\! \" \# \$ \% \& \' \( \) \* \+ \, \- \. \/
+\: \; \< \= \> \? \@ \[ \\ \] \^ \_ \` \{ \| \} \~
+```
+
+Live escapes:
+
+\# not a heading  
+\> not a quote  
+\- not a list  
+1\. not an ordered list  
+\*not emphasis\*  
+\[not a link\](https://example.com)
+
+An escaped backslash changes what follows: `\\*emphasis*` conceptually yields a literal backslash followed by emphasis rather than escaping the star.[^gfm]
 
 ---
 
-## LEVEL 23 — BACKTICK & FENCE PARADOX
+### 27.2 — Code-span length ladder
+
+`plain code`
 
 ``Use a `backtick` inside code``
 
+```Use ``two`` backticks inside three```
+
+Code-span delimiters must match in length; code spans bind more tightly than emphasis and links.[^gfm]
+
+Source comparison:
+
+````text
+`plain`
+``Use a `backtick` inside code``
+```Use ``two`` inside three```
+`unclosed
+````
+
+---
+
+### 27.3 — Emphasis delimiter collision
+
+Live:
+
+***strong emphasis***  
+***strong** inside emphasis*  
+***emphasis* inside strong**  
+**strong *nested emphasis***  
+*emphasis **nested strong***
+
+Source-only ambiguity tests:
+
+```text
+*foo _bar* baz_
+**foo **bar baz**
+*[foo*](https://example.com)
+foo*bar*baz
+foo_bar_baz
+```
+
+GFM defines explicit delimiter-run and precedence rules instead of treating every matching pair of `*`/`_` as interchangeable.[^gfm]
+
+---
+
+### 27.4 — Strikethrough composition
+
+~~deleted~~  
+~~**strong inside deleted**~~  
+**~~deleted inside strong~~**
+
+A single `~not strike~` remains a useful control against the GFM double-tilde extension.
+
+---
+
+### 27.5 — Backtick fence length
+
+A four-backtick outer fence can display an ordinary triple fence literally:
+
 ````markdown
 ```javascript
-console.log("three backticks inside four");
+console.log("three backticks safely inside four");
 ```
 ````
 
+And a five-backtick fence can display the four-backtick wrapper:
+
+`````markdown
+````markdown
+```javascript
+console.log("three inside four inside five");
+```
+````
+`````
+
+---
+
+### 27.6 — Tilde fences vs backtick fences
+
+~~~text
+This block uses tildes, not backticks.
+Literal `backticks` are ordinary content here.
+~~~
+
+Source form:
+
+````text
+~~~markdown
+```javascript
+backticks can appear inside a tilde fence
+```
+~~~
+````
+
+GFM supports fenced code blocks opened by backticks or tildes, with closing-fence rules tied to the opening delimiter.[^gfm]
+
+---
+
+### 27.7 — Indented code vs fenced code
+
+    four-space indented code
+
+```text
+fenced code
+```
+
+Inside a list:
+
+- parent item
+
+      indented code belonging to the list item
+
+- another item
+
+  ```text
+  fenced code belonging to the list item
+  ```
+
+This tests block-parser indentation ownership before inline parsing begins.
+
+---
+
+### 27.8 — Quote → list → task → code
+
+> 1. Quoted ordered item
+>    - [x] quoted task
+>      - nested list
+>
+>      ```text
+>      quoted fenced block
+>      ```
+>
+> 2. Quote resumes after the fence.
+
+---
+
+### 27.9 — List-interruption controls
+
+These stay source-only because the point is to inspect parser ownership:
+
+```text
+paragraph
+1. ordered candidate beginning with 1
+
+paragraph
+2. ordered candidate beginning with 2
+
+paragraph
+- bullet candidate
+```
+
+CommonMark/GFM applies specific interruption rules; “looks like a list marker” is not the whole algorithm.[^gfm]
+
+---
+
+### 27.10 — Thematic-break ambiguity
+
+Live break:
+
+---
+
+Source cases:
+
+```text
+---
+***
+___
+* * *
+- - -
+_ _ _
+
+- ---
+- ***
+```
+
+Block context determines whether punctuation becomes a thematic break, list structure, or literal content.[^gfm]
+
+---
+
+### 27.11 — Task-list syntax controls
+
+- [ ] unchecked
+- [x] checked lowercase
+- [X] checked uppercase
+- [ ] **formatted task text**
+  - [x] nested checked
+
+Literal non-controls:
+
+```text
+- [ x ] spaced x
+- [] empty brackets
+- [yes] word
+```
+
+---
+
+### 27.12 — Table pipe survival
+
+| Case | Source-like payload | Status |
+| --- | --- | :---: |
+| escaped text pipe | alpha \| beta | ✅ |
+| escaped pipe in code span | `left\|right` | ✅ |
+| inline math | $a\mid b$ | ✅ |
+
+This is one of the easiest places for an automated formatter to damage a README.
+
+---
+
+### 27.13 — Links with brackets and parentheses
+
+Live balanced-parentheses URL:
+
+[Markdown on Wikipedia](https://en.wikipedia.org/wiki/Markdown_(markup_language))
+
+Source-only precedence cases:
+
+```text
+[escaped \[bracket\]](https://example.com)
+[matched [inner] brackets](https://example.com)
+[not a `link](/foo`)
+*[foo*](https://example.com)
+[nested [link](https://example.com)](https://example.org)
+```
+
+Links cannot recursively contain links; code spans/autolinks/raw HTML bind tightly inside link text.[^gfm]
+
+---
+
+### 27.14 — Reference-link family
+
+[Reference full][parser-docs]  
+[Reference collapsed][]  
+[Reference shortcut]
+
+Definitions may live elsewhere in the source and labels are normalized according to the parser's reference-link rules.[^gfm]
+
+---
+
+### 27.15 — Autolink precedence
+
+<https://github.com/>  
+<docs@example.com>
+
+GFM extended forms:
+
+https://github.com  
+www.github.com  
+docs@example.com
+
+Source-only precedence probe:
+
+```text
+<http://foo.bar.`baz>
+`<http://foo.bar.`baz>`
+```
+
+---
+
+### 27.16 — Duplicate heading / anchor collision
+
+[Jump to the first Collision Target](#collision-target)
+
+### Collision Target
+
+First duplicate-heading target.
+
+### Collision Target
+
+Second duplicate-heading target. GitHub must disambiguate repeated generated IDs; M13 deliberately does not hard-code the renderer's collision suffix into critical navigation.
+
+### Collision Target!
+
+Punctuation-heavy sibling.
+
+### `Collision` Target
+
+Inline-code sibling.
+
+> [!TIP]
+> Generated heading anchors are convenient but renderer-derived. Use explicit named anchors for critical stable destinations when appropriate.
+
+---
+
+### 27.17 — Raw HTML / Markdown boundary
+
+<details>
+<summary><strong>Markdown parsed inside supported details container</strong></summary>
+
+### Heading inside details
+
+- list
+- **emphasis**
+
+```text
+fence inside details
+```
+
+</details>
+
+Source-only ownership probe:
+
+````html
+<div>
+Markdown parsing inside raw HTML blocks is context-sensitive.
+</div>
+
+<details>
+<summary>Summary</summary>
+
+### Blank lines make Markdown ownership obvious
+
+</details>
+````
+
+---
+
+### 27.18 — Entity reactor
+
+| Source | Rendered |
+| --- | --- |
+| `&copy;` | &copy; |
+| `&#169;` | &#169; |
+| `&#xA9;` | &#xA9; |
+| `&#42;not emphasis&#42;` | &#42;not emphasis&#42; |
+| `&lt;div&gt;` | &lt;div&gt; |
+
+Escaping the ampersand (`\&copy;`) prevents it from acting as an entity introducer under normal Markdown parsing.[^gfm]
+
+---
+
+### 27.19 — Hard / soft line-break matrix
+
+Soft
+line
+
+Two spaces here.  
+Hard break.
+
+Backslash here.\
+Hard break.
+
+HTML here.<br>
+Hard break.
+
+---
+
+### 27.20 — Footnote edge cases
+
+First reuse.[^repeat] Second reuse.[^repeat] Named label.[^named_note]
+
+A repeated reference shares one definition instead of requiring duplicate footnote bodies.
+
+---
+
+### 27.21 — Math dollar collision
+
+Normal inline: $x^2+y^2=z^2$.
+
+Protected inline: $`x_i^2`$.
+
+Literal dollar inside protected math: $`\sqrt{\$4}=2`$.
+
+Literal outside math on same line: <span>$</span>100 while $100/2=50$ remains mathematics.[^mathjax]
+
+Inline code control: `$not-math$`.
+
+---
+
+### 27.22 — Renderer routing collision
+
+The same fence mechanism routes source into fundamentally different systems:
+
+````text
+```python    → Linguist syntax highlighting
+```math      → MathJax
+```mermaid   → Mermaid diagram renderer
+```geojson   → geographic map renderer
+```topojson  → topology map renderer
+```stl       → 3D mesh renderer
+```text      → literal presentation
+````
+
+The info string is therefore not decorative metadata in this README.
+
+---
+
+### 27.23 — Malformed renderer containment
+
+All broken examples below are inside one **five-backtick `text` fence**. GitHub should display them as source, never execute their specialized renderers.
+
+`````text
+```mermaid
+flowchart LR
+    A[unclosed --> B
+```
+
+```geojson
+{"type":"Point","coordinates":[13.405,52.52],}
+```
+
+```topojson
+{"type":"Topology","objects":{"bad":{"type":"LineString","arcs":[99]}},"arcs":[]}
+```
+
+```stl
+solid missing_vertex
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+    endloop
+  endfacet
+endsolid missing_vertex
+```
+`````
+
+> [!CAUTION]
+> This containment pattern is a core M13 invariant. Broken syntax demonstrations must fail **conceptually**, not visually destroy the README.
+
+---
+
+### 27.24 — Renderer source shown inside renderer source
+
+`````markdown
 ````markdown
 ```mermaid
 flowchart LR
     A --> B
 ```
 ````
+`````
 
+`````markdown
 ````markdown
 ```geojson
 {"type":"Point","coordinates":[13.405,52.52]}
 ```
 ````
+`````
 
-````markdown
-```topojson
-{"type":"Topology","objects":{},"arcs":[]}
-```
-````
-
+`````markdown
 ````markdown
 ```stl
 solid t
 endsolid t
 ```
 ````
+`````
 
 ---
 
-## LEVEL 24 — DELIMITER & RENDERER COLLISION LAB
+### 27.25 — Full recursion / inception chamber
 
-````text
-$             → possible MathJax delimiter
-`             → code delimiter / protected math boundary
-```math       → MathJax block renderer
-```mermaid    → Mermaid diagram renderer
-```geojson    → GeoJSON map renderer
-```topojson   → TopoJSON map renderer
-```stl        → ASCII STL 3D renderer
-```json       → Linguist-highlighted source
-```text       → literal source
-````
+The raw corpus preserves an even deeper exact fixture. Live README stops at a controlled depth:
 
-A fence identifier can switch the entire rendering subsystem.
-
----
-
-## LEVEL 25 — ENTITY REACTOR
-
-| Source | Rendered |
-| --- | :---: |
-| `&copy;` | &copy; |
-| `&rarr;` | &rarr; |
-| `&times;` | &times; |
-| `&ne;` | &ne; |
-| `&infin;` | &infin; |
-| `&#169;` | &#169; |
-| `&#xA9;` | &#xA9; |
-
-&lt;div&gt;not an HTML element&lt;/div&gt;
-
----
-
-## LEVEL 26 — WHITESPACE & RECURSION CHAMBER
-
+``````markdown
+`````markdown
 ````markdown
 ```markdown
-**Markdown shown inside Markdown shown inside Markdown.**
+**Markdown shown inside Markdown shown inside Markdown shown inside Markdown.**
 ```
 ````
+`````
+``````
 
-````markdown
-```math
-\sum_{k=1}^{n}k=\frac{n(n+1)}2
+This demonstrates why fence length is a structural resource, not a cosmetic preference.
+
+---
+
+### 27.26 — Plain-text raw corpus
+
+The most dangerous exact strings live here:
+
+**[`assets/parser-torture-corpus.txt`](./assets/parser-torture-corpus.txt)**
+
+The corpus covers 28 fixture groups including escapes, code spans, emphasis, fences, indentation, blockquotes, lists, thematic breaks, tasks, tables, links, references, autolinks, raw HTML, entities, line breaks, duplicate headings, footnotes, math, every specialized renderer, deliberately broken renderer inputs, and recursion.
+
+---
+
+### M13 parser rule
+
+```text
+When source becomes ambiguous:
+├── decide which parser owns the region
+├── make block boundaries explicit
+├── use sufficient outer-fence length
+├── escape structural pipes / punctuation only where needed
+├── keep malformed specialized source inert
+├── preserve semantic blank lines
+└── verify on GitHub instead of trusting a local preview blindly
 ```
-````
-
-````markdown
-```mermaid
-flowchart LR
-    Source --> Render
-```
-````
-
-````markdown
-```geojson
-{"type":"Point","coordinates":[13.405,52.52]}
-```
-````
-
-````markdown
-```topojson
-{"type":"Topology","objects":{},"arcs":[]}
-```
-````
-
-````markdown
-```stl
-solid triangle
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 0
-      vertex 1 0 0
-      vertex 0 1 0
-    endloop
-  endfacet
-endsolid triangle
-```
-````
-
-<!--
-Future maintainers:
-Nested renderer fences, STL winding/normals, TopoJSON arc semantics,
-GeoJSON coordinate order, MathJax delimiters, relative assets, and HTML/details
-blank lines are intentional demonstrations. M13 should extend rather than normalize them.
--->
 
 ---
 
@@ -1637,77 +1195,84 @@ blank lines are intentional demonstrations. M13 should extend rather than normal
 ## 🏅 ACHIEVEMENTS UNLOCKED
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-STL_MESHSMITH-fbbf24?style=for-the-badge" alt="Achievement STL Meshsmith">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-NORMAL_KEEPER-06b6d4?style=for-the-badge" alt="Achievement Normal Keeper">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-WINDING_WARDEN-8b5cf6?style=for-the-badge" alt="Achievement Winding Warden">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-THREE_DIMENSIONAL-F43F5E?style=for-the-badge" alt="Achievement Three Dimensional">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-GRAMMAR_BREAKER-fbbf24?style=for-the-badge" alt="Grammar Breaker">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-FENCE_ARCHITECT-06b6d4?style=for-the-badge" alt="Fence Architect">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-PRECEDENCE_ORACLE-8b5cf6?style=for-the-badge" alt="Precedence Oracle">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-RECURSION_SURVIVOR-F43F5E?style=for-the-badge" alt="Recursion Survivor">
 </p>
 
 | Achievement | Requirement | Status |
 | --- | --- | :---: |
-| **Syntax Curator** | Retain 33 syntax modes | ✅ |
-| **MathJax Architect** | Preserve advanced math rendering | ✅ |
-| **Mermaid Cartographer** | Preserve diagram rendering | ✅ |
-| **GeoJSON Navigator** | Preserve interactive coordinate maps | ✅ |
-| **Topology Engineer** | Preserve shared-arc topology | ✅ |
-| **STL Meshsmith** | Render live ASCII STL in Markdown | ✅ |
-| **Facet Smith** | Use valid normal / loop / 3-vertex facet grammar | ✅ |
-| **Normal Keeper** | Match stored normals to geometric surfaces | ✅ |
-| **Winding Warden** | Use right-hand-rule vertex order | ✅ |
-| **Cube Builder** | Assemble six faces from twelve facets | ✅ |
-| **Watertight Thinker** | Explain shared-edge closure requirements | ✅ |
-| **Unit Skeptic** | Document STL's external unit convention | ✅ |
-| **Viewer Pilot** | Document rotation / translation / zoom / view modes | ✅ |
-| **WebGL Witness** | Document browser rendering dependency | ✅ |
-| **Asset Keeper** | Add repository-owned `.stl` | ✅ |
-| **Renderer Router** | Distinguish code, math, diagrams, maps, topology, 3D | ✅ |
-| **Parser Tamer** | Keep malformed STL source inert | ✅ |
-| **Master of Restraint** | Stop before shipping a CAD kernel in README | ❌ |
+| **Syntax Curator** | retain 33 Linguist modes | ✅ |
+| **Renderer Collector** | retain MathJax, Mermaid, GeoJSON, TopoJSON, STL | ✅ |
+| **Grammar Breaker** | attack block + inline parser surfaces | ✅ |
+| **Escape Artist** | cover punctuation escapes | ✅ |
+| **Fence Architect** | 3/4/5/6-backtick recursion | ✅ |
+| **Tilde Diplomat** | demonstrate alternate fence character | ✅ |
+| **Precedence Oracle** | code/link/autolink/emphasis interactions | ✅ |
+| **Pipe Bender** | protect GFM table cells | ✅ |
+| **Anchor Collision Tester** | duplicate/punctuation headings | ✅ |
+| **HTML Boundary Mapper** | mixed Markdown/HTML ownership | ✅ |
+| **Dollar Diplomat** | MathJax/literal-dollar coexistence | ✅ |
+| **Failure Containment Engineer** | broken renderers remain inert | ✅ |
+| **Corpus Keeper** | raw `.txt` parser fixture repository | ✅ |
+| **Recursion Survivor** | nested Markdown/fence inception | ✅ |
+| **Master of Restraint** | stop before writing a Markdown parser | ❌ |
 
 ---
 
 ## THE CHAOS INDEX
 
 ```text
-Clarity            ████████████████████ 100%
-Structure          ████████████████████ 100%
-Typography         ████████████████████ 100%
-Links / Tables     ████████████████████ 100%
-Local Media        ████████████████████ 100%
-HTML Hybrid        ████████████████████ 100%
-Language Breadth   ████████████████████  33 modes
-MathJax            ████████████████████ 100%
-Mermaid            ████████████████████ 100%
-GeoJSON            ████████████████████ 100%
-TopoJSON           ████████████████████ 100%
-ASCII STL          ████████████████████ 100%
-Facet Grammar      ████████████████████ 100%
-Normal / Winding   ████████████████████ 100%
-Interactive 3D     ████████████████████ 100%
-Renderer Routing   ████████████████████ 100%
-Parser Tricks      ███████████████████░  95%
-Restraint          ██░░░░░░░░░░░░░░░░░░  10%
-Raw Power          ████████████████████  M12
+Markdown Core       ████████████████████ 100%
+GFM                 ████████████████████ 100%
+HTML Hybrid         ████████████████████ 100%
+Linguist            ████████████████████  33 modes
+MathJax             ████████████████████ 100%
+Mermaid             ████████████████████ 100%
+GeoJSON             ████████████████████ 100%
+TopoJSON            ████████████████████ 100%
+ASCII STL           ████████████████████ 100%
+Escapes             ████████████████████ 100%
+Delimiter Tests     ████████████████████ 100%
+Fence Control       ████████████████████ 100%
+Block Nesting       ████████████████████ 100%
+Renderer Containment████████████████████ 100%
+Recursion           ████████████████████ 100%
+Parser Confidence   ███████████████████░  95%
+Restraint           ██░░░░░░░░░░░░░░░░░░  10%
+Raw Power           ████████████████████  M13
 ```
-
-> [!WARNING]
-> An interactive 3D viewer can make a bad mesh look convincing. Rendering is not manifold analysis, dimensional validation, printability analysis, or engineering certification.
 
 ---
 
-## 🧰 THE ACTUALLY USEFUL CHEAT SHEET
+## 🧰 MASTER CHEAT SHEET
 
-``````markdown
+The outer fence is **seven backticks** because the examples deliberately contain shorter nested fences.
+
+```````markdown
 # Heading
-*italic* **bold** ~~strike~~ `code`
+*italic* **strong** ***both*** ~~strike~~ `code`
 
-[relative](./README.md)
-[same document](#final-boss)
+\# escaped heading
+\*escaped emphasis\*
+
+[inline](https://example.com)
+[reference][docs]
+<https://example.com>
+
+- [x] task
+- [ ] task
+
+| A | B |
+| --- | --- |
+| alpha \| beta | `left\|right` |
 
 Inline math: $E=mc^2$
+Protected math: $`x_i^2`$
 
 ```math
-\int_0^1 x^2\,dx=\frac13
+\int_0^1x^2\,dx=\frac13
 ```
 
 ```mermaid
@@ -1720,11 +1285,7 @@ flowchart LR
 ```
 
 ```topojson
-{
-  "type":"Topology",
-  "objects":{"line":{"type":"LineString","arcs":[0]}},
-  "arcs":[[[2,48],[10,52]]]
-}
+{"type":"Topology","objects":{},"arcs":[]}
 ```
 
 ```stl
@@ -1739,102 +1300,73 @@ solid triangle
 endsolid triangle
 ```
 
-[GeoJSON file](./assets/geojson-showcase.geojson)
-[TopoJSON file](./assets/topojson-showcase.topojson)
-[STL file](./assets/stl-showcase.stl)
-
-```python
-print("highlighted source")
-```
-
-```text
-literal output
-```
-
 ````markdown
-```stl
-solid nested
-endsolid nested
+```javascript
+console.log("nested fence");
 ```
 ````
 
 <details>
-<summary>Collapsed renderer</summary>
+<summary>Collapsed content</summary>
 
-```stl
-solid tiny
-  facet normal 0 0 1
-    outer loop
-      vertex 0 0 0
-      vertex 1 0 0
-      vertex 0 1 0
-    endloop
-  endfacet
-endsolid tiny
-```
+### Markdown inside details
 
 </details>
-
-![Local image](./assets/media-card.svg)
-<kbd>Ctrl</kbd> + <kbd>K</kbd>
-
-- [x] Complete
-- [ ] Incomplete
-
-| Left | Center | Right |
-| :--- | :---: | ---: |
-| alpha \| beta | $x^2$ | 100 |
-``````
+```````
 
 ---
 
-## 🧯 COMMON README CRIMES
+## 🧯 COMMON README CRIMES — M13 EDITION
 
 | Crime | Consequence |
 | --- | --- |
-| Using `text` when expecting 3D | STL stays literal |
-| Using `stl` for malformed facet grammar | renderer may fail |
-| Giving a facet two or four vertices | not a standard STL triangle |
-| Using three collinear vertices | zero-area degenerate facet |
-| Storing normal opposite to vertex winding | inconsistent surface orientation |
-| Assuming viewer-generated shading proves normals are correct | visual success hides mesh defects |
-| Calling an open plane a watertight solid | topology/volume claim is false |
-| Using nearly matching edge coordinates | cracks/non-manifold seams can appear |
-| Assuming STL numbers encode millimetres | scale ambiguity |
-| Shipping a huge README mesh | enormous source and poor usability |
-| Ignoring GitHub's 10 MB standalone STL viewer limit | file cannot display |
-| Making 3D the only explanation | accessibility/fallback failure |
-| Forgetting longer outer fences | renderer examples terminate themselves |
-| Confusing STL with CAD | triangle surfaces do not preserve parametric design intent |
+| shortening outer fences without inspecting inner content | premature fence termination |
+| removing escaped table pipes | column explosion |
+| converting tilde/backtick fences mechanically | delimiter collisions |
+| trimming semantic trailing spaces | hard breaks disappear |
+| deleting blank lines inside `<details>` | Markdown ownership changes |
+| assuming every `*` or `_` pair means emphasis | delimiter-run misread |
+| nesting links | invalid/rewritten link structure |
+| hard-coding duplicate-heading suffixes into critical navigation | fragile anchors |
+| placing broken renderer examples in live renderer fences | visible regression |
+| treating `json` and `geojson` as equivalent | source vs map routing confusion |
+| treating `text` and `stl` as equivalent | source vs 3D routing confusion |
+| escaping punctuation inside code spans expecting Markdown semantics | escapes remain literal |
+| assuming local Markdown preview equals GitHub GFM | release-only surprises |
+| auto-formatting the torture suite | the test destroys itself |
 
 ---
 
-## 🧪 README QUALITY TEST
+## 🧪 M13 QUALITY TEST
 
-- [ ] Minimal triangle renders as a surface.
-- [ ] Two-facet square renders as one planar face.
-- [ ] Twelve-facet cube renders as a closed cube.
-- [ ] Cube normals match intended six outward directions.
-- [ ] Vertex winding agrees with normals.
-- [ ] Every live facet has exactly three vertices.
-- [ ] Cube uses exact shared edge coordinates.
-- [ ] Tetrahedron Final Form renders as a closed triangular polyhedron.
-- [ ] Malformed and degenerate examples stay inside non-STL fences.
-- [ ] `text` vs `stl` demonstrates separate pipelines.
-- [ ] `assets/stl-showcase.stl` opens in GitHub's standalone 3D viewer.
-- [ ] Rotation, translation, zoom, and view-mode controls are tested.
-- [ ] Model remains usable with browser WebGL enabled.
-- [ ] Standalone model remains below GitHub's viewer size limit.
-- [ ] 3D meaning is also available through prose/source/table fallback.
-- [ ] GeoJSON asset still renders.
-- [ ] TopoJSON asset still renders.
-- [ ] MathJax still renders.
-- [ ] Mermaid still renders.
-- [ ] 33 Linguist modes remain represented.
-- [ ] Theme-aware local hero still switches correctly.
-- [ ] Nested fence lengths remain balanced.
-- [ ] Mobile 3D interaction is audited in M16.
-- [ ] README is previewed on GitHub before final release in M17.
+- [ ] Every ATX/Setext heading still renders.
+- [ ] Hard/soft line-break examples remain distinguishable.
+- [ ] Backslash escapes suppress syntax where intended.
+- [ ] Code spans of 1/2/3 delimiters behave as documented.
+- [ ] Emphasis/strong nested cases render without leaking delimiters.
+- [ ] Tilde and backtick fenced blocks remain independent.
+- [ ] Indented code stays attached to intended list item.
+- [ ] Quote/list/task/fence composition remains nested correctly.
+- [ ] Table pipe escapes preserve three columns.
+- [ ] Balanced-parentheses URL remains clickable.
+- [ ] Full/collapsed/shortcut reference links resolve.
+- [ ] Duplicate headings do not break critical navigation.
+- [ ] Markdown inside `<details>` remains parsed.
+- [ ] Sanitized HTML examples remain inert source.
+- [ ] Entities render without triggering unintended Markdown.
+- [ ] Reused footnote references share their definition.
+- [ ] Literal-dollar and MathJax examples coexist.
+- [ ] MathJax renders.
+- [ ] Mermaid renders.
+- [ ] GeoJSON renders interactively.
+- [ ] TopoJSON renders interactively.
+- [ ] ASCII STL renders interactively.
+- [ ] Malformed renderer examples remain literal source.
+- [ ] 5/6/7-backtick recursion chambers remain balanced.
+- [ ] Raw `.txt` parser corpus opens without Markdown interpretation.
+- [ ] Theme-aware local hero still works.
+- [ ] Mobile and accessibility validation is deferred to M16.
+- [ ] Full GitHub rendering regression is completed in M17.
 
 ---
 
@@ -1843,63 +1375,64 @@ endsolid tiny
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form M12 final banner" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form M13 final banner" width="100%">
 </picture>
 
 <details open>
-<summary><strong>FINAL FORM — COMPLETE GITHUB RENDERER NETWORK</strong></summary>
+<summary><strong>FINAL FORM — PARSER-PROTECTED RENDERER NETWORK</strong></summary>
 
 ```mermaid
 flowchart TB
-    README[README.md] --> GH[GitHub Markdown]
-    GH --> CODE[Linguist]
-    GH --> MATH[MathJax]
-    GH --> DIAGRAM[Mermaid]
-    GH --> GEO[GeoJSON]
-    GH --> TOPO[TopoJSON]
-    GH --> MESH[ASCII STL]
-    GH --> HTML[Sanitized HTML]
+    SRC[Raw source] --> BLOCK[Block grammar]
+    BLOCK --> INLINE[Inline grammar]
+    INLINE --> GFM[GFM extensions]
+    GFM --> ROUTE{GitHub routing}
 
-    GEO --> COORD[Explicit geographic geometry]
-    TOPO --> ARC[Shared geographic topology]
-    MESH --> TRI[Triangulated 3D surface]
+    ROUTE --> CODE[Linguist]
+    ROUTE --> MATH[MathJax]
+    ROUTE --> DIAGRAM[Mermaid]
+    ROUTE --> GEO[GeoJSON]
+    ROUTE --> TOPO[TopoJSON]
+    ROUTE --> MESH[ASCII STL]
+    ROUTE --> HTML[Sanitized HTML]
 
     CODE --> FINAL[FINAL FORM]
     MATH --> FINAL
     DIAGRAM --> FINAL
-    COORD --> FINAL
-    ARC --> FINAL
-    TRI --> FINAL
+    GEO --> FINAL
+    TOPO --> FINAL
+    MESH --> FINAL
     HTML --> FINAL
 ```
 
 ```math
 \boxed{
-\text{Markdown}
-+\text{Linguist}
-+\text{MathJax}
-+\text{Mermaid}
-+\text{GeoJSON}
-+\text{TopoJSON}
-+\text{ASCII STL}
-+\text{HTML}
-=\text{M12}
+\text{source}
++\text{grammar}
++\text{precedence}
++\text{renderer routing}
++\text{containment}
+=\text{M13}
 }
 ```
 
 <details>
-<summary><strong>Inspect all specialized renderer routes</strong></summary>
+<summary><strong>Inspect the parser firewall</strong></summary>
 
 ```text
-SOURCE
-├── ordinary Markdown → Markdown / GFM
-├── language fence → Linguist
-├── math delimiter / math fence → MathJax
-├── mermaid fence → Mermaid
-├── geojson fence / .geojson → interactive map
-├── topojson fence / .topojson → interactive topology map
-├── stl fence / .stl → interactive 3D
-└── HTML fragments → sanitizer
+PARSER FIREWALL
+├── escapes
+├── delimiter-run rules
+├── matching code-span lengths
+├── matching fence lengths
+├── block indentation ownership
+├── table pipe protection
+├── link/reference normalization
+├── HTML boundaries
+├── MathJax dollar handling
+├── renderer info strings
+├── malformed-source containment
+└── raw plain-text corpus
 ```
 
 </details>
@@ -1909,23 +1442,20 @@ SOURCE
 <div align="center">
 
 <p>
-  Markdown owns the document.<br>
-  Fence metadata selects specialized renderers.<br>
-  MathJax typesets notation.<br>
-  Mermaid models relationships.<br>
-  GeoJSON maps coordinates.<br>
-  TopoJSON maps shared topology.<br>
-  ASCII STL turns triangles into interactive 3D.<br>
-  The raw source remains inspectable underneath every layer.
+  The feature-acquisition phase is over.<br>
+  M13 attacks the grammar holding the features together.<br>
+  Every specialized renderer remains source-driven.<br>
+  Every dangerous demonstration has an explicit containment boundary.<br>
+  The README is now ready for progression, composition, accessibility, and release QA.
 </p>
 
-<a href="./assets/stl-showcase.stl"><img src="https://img.shields.io/badge/OPEN-STL_3D_MODEL-F43F5E?style=for-the-badge" alt="Open repository STL model"></a>
-<a href="./assets/topojson-showcase.topojson"><img src="https://img.shields.io/badge/OPEN-TOPOJSON-8B5CF6?style=for-the-badge" alt="Open repository TopoJSON dataset"></a>
-<a href="./assets/geojson-showcase.geojson"><img src="https://img.shields.io/badge/OPEN-GEOJSON-0891B2?style=for-the-badge" alt="Open repository GeoJSON dataset"></a>
-<a href="#"><img src="https://img.shields.io/badge/RETURN-TO_THE_TOP-181717?style=for-the-badge" alt="Return to top"></a>
+<a href="./assets/parser-torture-corpus.txt"><img src="https://img.shields.io/badge/OPEN-PARSER_CORPUS-F43F5E?style=for-the-badge" alt="Open parser torture corpus"></a>
+<a href="./assets/stl-showcase.stl"><img src="https://img.shields.io/badge/3D-STL-181717?style=for-the-badge" alt="Open STL model"></a>
+<a href="./assets/topojson-showcase.topojson"><img src="https://img.shields.io/badge/MAP-TOPOJSON-8B5CF6?style=for-the-badge" alt="Open TopoJSON"></a>
+<a href="./assets/geojson-showcase.geojson"><img src="https://img.shields.io/badge/MAP-GEOJSON-0891B2?style=for-the-badge" alt="Open GeoJSON"></a>
 
 <h2>Markdown: Final Form.</h2>
-<h3>All four GitHub-native advanced diagram/rendering syntaxes unlocked.</h3>
+<h3>The parser survived.</h3>
 
 </div>
 
@@ -1936,9 +1466,15 @@ SOURCE
 [markdown-guide]: https://www.markdownguide.org/ "Markdown Guide"
 [GitHub Docs]: https://docs.github.com/en/get-started/writing-on-github "GitHub writing and formatting documentation"
 [GFM Spec]: https://github.github.com/gfm/ "GitHub Flavored Markdown specification"
+[parser-docs]: https://github.github.com/gfm/ "GFM parser specification"
+[Reference collapsed]: https://docs.github.com/en/get-started/writing-on-github "Collapsed reference target"
+[Reference shortcut]: https://github.github.com/gfm/ "Shortcut reference target"
+[docs]: https://example.com/docs
 
-[^linguist]: GitHub Linguist supplies language metadata and grammars for fenced-code syntax highlighting.
-[^mathjax]: GitHub renders supported LaTeX-formatted mathematics using MathJax.
-[^github-diagrams]: GitHub documentation lists four advanced diagram syntaxes available in Markdown: Mermaid, GeoJSON, TopoJSON, and ASCII STL. ASCII STL is rendered from a fenced block labeled `stl`.
-[^noncode-files]: GitHub's non-code-file documentation describes dedicated viewers for geographic files and `.stl` 3D models. The STL viewer supports spin, translation, zoom, multiple view modes, WebGL acceleration, and rejects files larger than 10 MB.
-[^stl-format]: The ASCII STL format represents triangular facets with a normal and exactly three vertices. Conventional portable orientation uses an outward normal and right-hand-rule vertex ordering; STL itself does not encode a mandatory physical unit.
+[^gfm]: The GitHub Flavored Markdown specification defines block parsing, inline parsing, backslash escapes, code spans, emphasis delimiter rules, links, tables, tasks, autolinks, raw HTML, line breaks, and GFM extensions.
+[^linguist]: GitHub Linguist supplies language metadata and grammars for syntax-highlighted fenced code blocks.
+[^mathjax]: GitHub renders supported LaTeX-formatted mathematics with MathJax and documents inline/display math plus literal-dollar handling.
+[^github-diagrams]: GitHub documents Mermaid, GeoJSON, TopoJSON, and ASCII STL as advanced diagram/rendering syntaxes in Markdown.
+[^github-formatting]: GitHub documents collapsed `<details>` sections and sanitizes rendered HTML rather than providing arbitrary README JavaScript/CSS execution.
+[^repeat]: This definition is intentionally referenced multiple times to test repeated footnote references.
+[^named_note]: A named footnote definition used by M13.
