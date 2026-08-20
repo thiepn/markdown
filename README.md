@@ -4,25 +4,25 @@
 ║                                                                              ║
 ║  PARSER TAMER · BLOCK ARCHITECT · LINK CARTOGRAPHER · MEDIA ENGINEER         ║
 ║  HYBRID ENGINEER · SYNTAX CURATOR · MATHJAX ARCHITECT · MERMAID CARTOGRAPHER║
-║  GEOJSON NAVIGATOR · TOPOLOGY ENGINEER                                      ║
+║  GEOJSON NAVIGATOR · TOPOLOGY ENGINEER · STL MESHSMITH                      ║
 ║                                                                              ║
-║  M11 invariant: TopoJSON arcs are shared topology, not ordinary coordinates. ║
-║  Negative arc references use ones' complement semantics and reverse an arc.  ║
+║  M12 invariant: an `stl` fence is executable 3D renderer source on GitHub.   ║
+║  Triangle winding, facet normals, and fence lengths are intentional.         ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form — interactive TopoJSON topology showcase" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form — interactive ASCII STL 3D showcase" width="100%">
 </picture>
 
 <div align="center">
 
 <a href="https://readme-typing-svg.demolab.com/demo/">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Shared+arcs.+Reversed+boundaries.+Named+objects.;Transforms.+Quantization.+Delta+encoding.;One+topology.+Multiple+geometries.;M11+TopoJSON+renderer+online."
-    alt="Animated M11 TopoJSON introduction">
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Triangles.+Normals.+Vertices.+Winding.;ASCII+source+becomes+interactive+3D.;Wireframe.+Surface+Angle.+Solid.;M12+STL+renderer+online."
+    alt="Animated M12 ASCII STL introduction">
 </a>
 
 <br>
@@ -30,12 +30,12 @@
 <a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/LAYER-MARKDOWN-111111?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Markdown layer"></a>
 <a href="#level-18--full-mermaid-diagram-gallery"><img src="https://img.shields.io/badge/MERMAID-M9_COMPLETE-7C3AED?style=for-the-badge" alt="Mermaid M9 complete"></a>
 <a href="#level-19--interactive-geojson-showcase"><img src="https://img.shields.io/badge/GEOJSON-M10_COMPLETE-0891B2?style=for-the-badge" alt="GeoJSON M10 complete"></a>
-<a href="#level-20--interactive-topojson-showcase"><img src="https://img.shields.io/badge/TOPOJSON-M11_UNLOCKED-8B5CF6?style=for-the-badge" alt="TopoJSON M11 unlocked"></a>
-<a href="#final-boss"><img src="https://img.shields.io/badge/README-OVERENGINEERED-F43F5E?style=for-the-badge" alt="README overengineered"></a>
+<a href="#level-20--interactive-topojson-showcase"><img src="https://img.shields.io/badge/TOPOJSON-M11_COMPLETE-8B5CF6?style=for-the-badge" alt="TopoJSON M11 complete"></a>
+<a href="#m12-stl"><img src="https://img.shields.io/badge/STL-M12_UNLOCKED-F43F5E?style=for-the-badge" alt="ASCII STL M12 unlocked"></a>
 
 <h3>This is a <strong>layer-by-layer GitHub Markdown rendering laboratory</strong>.</h3>
 
-<sub>Markdown · GFM · Linguist · MathJax · Mermaid · GeoJSON · TopoJSON · sanitized HTML · local media</sub>
+<sub>Markdown · GFM · Linguist · MathJax · Mermaid · GeoJSON · TopoJSON · ASCII STL · sanitized HTML · local media</sub>
 
 <br><br>
 
@@ -51,6 +51,8 @@
 &nbsp;•&nbsp;
 <a href="#level-20--interactive-topojson-showcase"><strong>◎ TopoJSON</strong></a>
 &nbsp;•&nbsp;
+<a href="#m12-stl"><strong>△ STL / 3D</strong></a>
+&nbsp;•&nbsp;
 <a href="#final-boss"><strong>👑 Final Boss</strong></a>
 
 </div>
@@ -58,7 +60,7 @@
 ---
 
 > [!IMPORTANT]
-> GitHub natively renders TopoJSON in Markdown when valid topology source appears inside a fenced block labeled `topojson`. M11 demonstrates why TopoJSON is not simply GeoJSON with another extension: boundaries can be stored once as reusable **arcs**, then referenced by multiple geometries.[^github-diagrams][^topo-spec]
+> GitHub supports **ASCII STL directly in Markdown**. Put valid ASCII STL source inside a fenced block labeled `stl`, and GitHub routes the text to an interactive 3D renderer instead of ordinary syntax highlighting.[^github-diagrams]
 
 ## 🧭 README POWER MAP
 
@@ -69,12 +71,12 @@
 | `II` | [GFM](#act-ii--github-flavored-markdown) | Tables, tasks, strikethrough | `GFM` |
 | `III` | [GitHub Extensions](#act-iii--github-extensions) | Alerts, Linguist, footnotes | `GH` |
 | `IV` | [HTML Hybrid](#act-iv--html-hybrid) | Media, details, semantic HTML, sanitizer | `<>` |
-| `V` | [Advanced Rendering](#act-v--advanced-rendering) | MathJax, Mermaid, GeoJSON, **TopoJSON** | `∞` |
+| `V` | [Advanced Rendering](#act-v--advanced-rendering) | MathJax, Mermaid, GeoJSON, TopoJSON, **STL** | `∞` |
 | `VI` | [Parser & Source Lab](#act-vi--parser--source-lab) | Escapes, fences, renderer routing | `\` |
 | `VII` | [Endgame](#act-vii--endgame--reference) | Achievements, QA, cheat sheet | `✓` |
 | `∞` | [Final Boss](#final-boss) | Combined renderer network | `👑` |
 
-`Markdown` · `GFM` · `GitHub` · `Linguist` · `MathJax` · `Mermaid` · `GeoJSON` · `TopoJSON` · `HTML` · `Local Asset`
+`Markdown` · `GFM` · `GitHub` · `Linguist` · `MathJax` · `Mermaid` · `GeoJSON` · `TopoJSON` · `ASCII STL` · `HTML` · `Local Asset`
 
 ---
 
@@ -89,12 +91,14 @@ flowchart LR
     GH --> MM[Mermaid]
     GH --> GJ[GeoJSON]
     GH --> TJ[TopoJSON]
+    GH --> STL[ASCII STL]
     GH --> H[Sanitized HTML]
     L --> OUT[Rendered README]
     MJ --> OUT
     MM --> OUT
     GJ --> OUT
     TJ --> OUT
+    STL --> OUT
     H --> OUT
 ```
 
@@ -109,18 +113,18 @@ flowchart LR
 ```
 
 <!--
-M11 invariants:
-- topology root objects use type "Topology".
-- arc indexes are zero-based.
-- negative arc index i refers to the reversed arc at ~i, NOT abs(i).
-- quantized arcs are delta-encoded when a transform exists.
-- Point and MultiPoint still use coordinates; line/ring geometries use arcs.
-- invalid topology belongs in inert text fences, never live topojson fences.
-- assets/topojson-showcase.topojson is a repository-owned M11 asset.
+M12 invariants:
+- fenced ASCII STL uses the `stl` info string.
+- each live facet has exactly one normal, one outer loop, and three vertices.
+- the repository cube uses outward normals and matching right-hand-rule winding.
+- malformed STL examples remain inert inside text fences.
+- assets/stl-showcase.stl is a repository-owned ASCII STL model.
+- M10/M11 geographic assets remain untouched.
+- M13 will own the broad parser torture test; M12 only adds STL-specific cases.
 -->
 
 > [!NOTE]
-> A rendered map is only one surface. The raw topology remains diffable JSON with explicit objects, arc references, transforms, and properties.
+> Rendered 3D is only one surface. The triangle mesh remains plain-text source that can be reviewed line by line and diffed like code.
 
 ---
 
@@ -188,11 +192,11 @@ This is the next visual line.
         - List mine
           - **Maximum indentation**
 
-1. **Quote inside a list**
+1. **Quote inside list**
 
-   > Block containers can contain other block containers.
+   > Containers can contain containers.
 
-2. **Code inside a list**
+2. **Code inside list**
 
    ```bash
    printf '%s\n' "nested code"
@@ -219,13 +223,13 @@ This is the next visual line.
 - [Repository root](./)
 - [GeoJSON dataset](./assets/geojson-showcase.geojson)
 - [TopoJSON dataset](./assets/topojson-showcase.topojson)
-- [GeoJSON showcase](#level-19--interactive-geojson-showcase)
-- [TopoJSON showcase](#level-20--interactive-topojson-showcase)
+- [ASCII STL model](./assets/stl-showcase.stl)
+- [STL showcase](#m12-stl)
 - [Final Boss](#final-boss)
 
-<a name="m11-topology-beacon"></a>
+<a name="m12-stl-beacon"></a>
 
-[Jump to the custom M11 anchor](#m11-topology-beacon)
+[Jump to the M12 custom anchor](#m12-stl-beacon)
 
 <https://github.com/>  
 https://github.com  
@@ -263,46 +267,47 @@ owner/repository#123
 `GFM`
 
 - [x] **Markdown Core**
-  - [x] Typography / headings / whitespace
-  - [x] Lists / quotes / links
+  - [x] Typography / structure
+  - [x] Lists / quotes
+  - [x] Link routing
 - [x] **GFM Systems**
   - [x] Tables
   - [x] Task lists
-- [x] **Media + HTML Hybrid**
-  - [x] Repository-owned SVGs
+- [x] **Media + HTML**
+  - [x] Repository SVGs
   - [x] Theme-aware `<picture>`
   - [x] Nested `<details>`
   - [x] Sanitization boundary
-- [x] **Linguist**
-  - [x] 33 syntax modes retained
-  - [x] text / diff / aliases / unknown-label control
+- [x] **Syntax Highlighting**
+  - [x] 33 language/mode fences
+  - [x] aliases / text / diff / unknown label
 - [x] **MathJax**
-  - [x] Inline / protected inline / display / `math` fence
-  - [x] Matrices / calculus / probability / Fourier
+  - [x] inline / protected inline / display / `math` fence
+  - [x] matrices / calculus / probability / Fourier
 - [x] **Mermaid**
-  - [x] Multi-family diagram gallery
+  - [x] multi-family gallery
+  - [x] version-sensitive compatibility strategy
 - [x] **GeoJSON**
-  - [x] Seven geometry families
-  - [x] FeatureCollection
-  - [x] Standalone `.geojson`
+  - [x] all seven geometry families
+  - [x] repository-owned `.geojson`
 - [x] **TopoJSON**
-  - [x] `Topology` root
-  - [x] named `objects`
-  - [x] reusable `arcs`
-  - [x] reversed arc references
-  - [x] shared boundaries
-  - [x] `transform.scale`
-  - [x] `transform.translate`
-  - [x] quantized integer positions
-  - [x] delta-encoded arcs
-  - [x] GeometryCollection topology
-  - [x] Point/MultiPoint coordinate exception
-  - [x] standalone `.topojson`
-- [ ] **Next renderer**
-  - [ ] ASCII STL / interactive 3D
-- [ ] **Final Form**
-  - [ ] Full rendering QA
-  - [ ] Restraint discovered
+  - [x] shared arcs / reversed arcs
+  - [x] transform / quantization / delta encoding
+  - [x] repository-owned `.topojson`
+- [x] **ASCII STL / 3D**
+  - [x] facet grammar
+  - [x] normals
+  - [x] vertex winding
+  - [x] open and closed meshes
+  - [x] 12-facet cube
+  - [x] repository-owned `.stl`
+  - [x] viewer controls / limits
+- [ ] **Hardening**
+  - [ ] M13 parser torture test
+  - [ ] M14 progression overhaul
+  - [ ] M15 final boss composition
+  - [ ] M16 accessibility / mobile / themes
+  - [ ] M17 final GitHub regression
 
 ---
 
@@ -313,19 +318,19 @@ owner/repository#123
 `GitHub`
 
 > [!NOTE]
-> TopoJSON is based on GeoJSON, but line and polygon geometry can reference reusable arcs instead of repeating complete coordinate sequences.
+> ASCII STL is a triangle-mesh format. Each facet describes one triangle plus a surface normal.
 
 > [!TIP]
-> Shared boundaries are TopoJSON's conceptual superpower: store the boundary once, then let adjacent geometries reference it in either direction.
+> For a portable mesh, make the normal point outward **and** order the three vertices consistently with the right-hand rule.[^stl-format]
 
 > [!IMPORTANT]
-> A negative arc reference uses **ones' complement**. `-1` reverses arc `0`; `-2` reverses arc `1`; `-3` reverses arc `2`.[^topo-spec]
+> The README renderer requires ASCII STL source inside a fence labeled `stl`; a normal code fence does not become an interactive model.[^github-diagrams]
 
 > [!WARNING]
-> In quantized topology, arc coordinates are delta-encoded integer positions. Reading each pair as an absolute longitude/latitude value produces nonsense.
+> STL stores geometry but does not encode a universal unit. `1.0` could represent a millimetre, centimetre, metre, or another unit depending on the surrounding workflow.[^stl-format]
 
 > [!CAUTION]
-> A topology can be valid JSON while being invalid TopoJSON. JSON parsing alone does not verify arc indexes, geometry structure, or transforms.
+> A syntactically parseable triangle soup is not automatically a watertight or physically meaningful solid.
 
 ---
 
@@ -333,26 +338,22 @@ owner/repository#123
 
 `Markdown` · `GitHub` · `Linguist`
 
-M7 remains represented with **33 syntax modes**.
+M7 remains represented with **33 distinct syntax modes**.
 
 ```
-unlabeled fence
+const unlabeled = true;
 ```
 
 ```text
-literal output
+literal-output = true
 ```
 
 ```javascript
-const phase = "M11";
-```
-
-```js
-const alias = "js";
+const highlighted = true;
 ```
 
 ```totally-not-a-language
-unknown-label-control = true
+const unknownLabelControl = true;
 ```
 
 <details>
@@ -362,7 +363,7 @@ unknown-label-control = true
 console.log("JavaScript");
 ```
 ```typescript
-const phase: number = 11;
+const phase: number = 12;
 ```
 ```html
 <details><summary>HTML</summary></details>
@@ -371,7 +372,7 @@ const phase: number = 11;
 .readme { display: block; }
 ```
 ```json
-{"phase":"M11"}
+{"phase":"M12"}
 ```
 
 </details>
@@ -439,13 +440,13 @@ Write-Output 'PowerShell'
 SELECT 'SQL';
 ```
 ```yaml
-phase: M11
+phase: M12
 ```
 ```toml
-phase = "M11"
+phase = "M12"
 ```
 ```xml
-<phase>M11</phase>
+<phase>M12</phase>
 ```
 ```dockerfile
 FROM alpine:3.22
@@ -481,15 +482,15 @@ main = print pi
 # Markdown
 ```
 ```diff
-- M10 GeoJSON
-+ M11 TopoJSON
+- M11 topology
++ M12 triangle mesh
 ```
 ```text
 plaintext
 ```
 ```ini
 [readme]
-phase=M11
+phase=M12
 ```
 
 </details>
@@ -504,9 +505,8 @@ phase=M11
 
 GitHub uses Linguist for fenced-code highlighting.[^linguist]  
 GitHub renders supported LaTeX math with MathJax.[^mathjax]  
-GitHub renders Mermaid diagrams from `mermaid` fences.[^github-diagrams]  
-GitHub renders GeoJSON and TopoJSON as interactive maps.[^github-diagrams]  
-Standalone `.geojson` and `.topojson` files can render directly in repositories.[^noncode-maps]
+GitHub supports Mermaid, GeoJSON, TopoJSON, and ASCII STL as advanced Markdown diagram/rendering syntaxes.[^github-diagrams]  
+Standalone `.geojson`, `.topojson`, and `.stl` files have dedicated repository viewers.[^noncode-files]
 
 ---
 
@@ -526,7 +526,7 @@ Standalone `.geojson` and `.topojson` files can render directly in repositories.
 
 <img src="./assets/scaling-ruler.svg" alt="SVG scaling ruler" width="50%">
 
-[![Clickable local media portal](./assets/clickable-portal.svg)](#level-20--interactive-topojson-showcase)
+[![Clickable local media portal](./assets/clickable-portal.svg)](#m12-stl)
 
 ---
 
@@ -556,7 +556,7 @@ H<sub>2</sub>O · x<sup>2</sup>
 <details open>
 <summary><strong>Open by default</strong></summary>
 
-The `open` attribute changes the initial disclosure state without README-authored JavaScript.
+The `open` attribute controls initial disclosure state without README-authored JavaScript.
 
 </details>
 
@@ -585,7 +585,7 @@ The `open` attribute changes the initial disclosure state without README-authore
     <tr><td><code>&lt;details&gt;</code></td><td>Progressive disclosure</td></tr>
     <tr><td><code>&lt;kbd&gt;</code></td><td>Keyboard semantics</td></tr>
     <tr><td><code>&lt;picture&gt;</code></td><td>Theme-aware media</td></tr>
-    <tr><td><code>&lt;table&gt;</code></td><td>Explicit HTML table structure</td></tr>
+    <tr><td><code>&lt;table&gt;</code></td><td>Explicit HTML structure</td></tr>
   </tbody>
 </table>
 
@@ -625,25 +625,27 @@ Specialized fence identifiers route source to advanced renderers.
 | --- | --- |
 | Disclosure | `<details>` / `<summary>` |
 | Theme-aware media | `<picture>` / `<source>` |
-| Math | MathJax |
-| Diagrams | Mermaid |
-| Geography | GeoJSON / TopoJSON |
-| Real application logic | build an actual app |
+| Mathematics | MathJax |
+| Relationships | Mermaid |
+| Geographic data | GeoJSON / TopoJSON |
+| 3D triangle mesh | ASCII STL |
+| Real app logic | build an actual app |
 
 ---
 
 ## LEVEL 16 — HYBRID INTERFACE BOSS
 
 <details open>
-<summary><strong>M11 SYSTEM CONSOLE</strong></summary>
+<summary><strong>M12 SYSTEM CONSOLE</strong></summary>
 
 <table>
   <tr><th>Subsystem</th><th>Status</th></tr>
   <tr><td>Linguist</td><td><strong>33 MODES</strong></td></tr>
   <tr><td>MathJax</td><td><strong>ONLINE</strong></td></tr>
   <tr><td>Mermaid</td><td><strong>ONLINE</strong></td></tr>
-  <tr><td>GeoJSON</td><td><strong>INTERACTIVE</strong></td></tr>
-  <tr><td>TopoJSON</td><td><strong>TOPOLOGICAL</strong></td></tr>
+  <tr><td>GeoJSON</td><td><strong>INTERACTIVE MAP</strong></td></tr>
+  <tr><td>TopoJSON</td><td><strong>INTERACTIVE TOPOLOGY</strong></td></tr>
+  <tr><td>ASCII STL</td><td><strong>INTERACTIVE 3D</strong></td></tr>
   <tr><td>README JavaScript runtime</td><td><del>ABSENT</del> BY DESIGN</td></tr>
 </table>
 
@@ -698,7 +700,7 @@ e^{i\pi}+1=0
 
 `GitHub` · `Mermaid`
 
-M9's major diagram families remain represented: Flowchart, Sequence, State, Class, ER, Journey, Gantt, Pie, GitGraph, Mindmap, Timeline, Quadrant, Requirement, plus the Architecture compatibility-canary concept.
+M9's gallery remains represented across process, interaction, state, object, data, schedule, history, hierarchy, chronology, positioning, requirement, and compatibility diagrams.
 
 ```mermaid
 flowchart TD
@@ -708,26 +710,28 @@ flowchart TD
     TYPE -- mermaid --> MM[Mermaid]
     TYPE -- geojson --> GJ[GeoJSON]
     TYPE -- topojson --> TJ[TopoJSON]
+    TYPE -- stl --> STL[ASCII STL]
     L --> OUT[Rendered README]
     MJ --> OUT
     MM --> OUT
     GJ --> OUT
     TJ --> OUT
+    STL --> OUT
 ```
 
 <details>
-<summary><strong>Sequence + state examples</strong></summary>
+<summary><strong>Sequence + state</strong></summary>
 
 ```mermaid
 sequenceDiagram
     actor Author
     participant MD as README.md
     participant GH as GitHub
-    participant R as Renderer
+    participant R as Specialized Renderer
     Author->>MD: commit source
     MD->>GH: Markdown render
-    GH->>R: route by fence identifier
-    R-->>GH: specialized output
+    GH->>R: route by info string
+    R-->>GH: visual output
 ```
 
 ```mermaid
@@ -742,19 +746,38 @@ stateDiagram-v2
 
 </details>
 
+<details>
+<summary><strong>Class + ER</strong></summary>
+
+```mermaid
+classDiagram
+    Renderer <|-- MathJax
+    Renderer <|-- Mermaid
+    Renderer <|-- GeoJSON
+    Renderer <|-- TopoJSON
+    Renderer <|-- ASCII_STL
+    README *-- Renderer
+```
+
+```mermaid
+erDiagram
+    REPOSITORY ||--|| README : contains
+    REPOSITORY ||--o{ ASSET : owns
+    README ||--o{ RENDERER_BLOCK : embeds
+```
+
+</details>
+
 ---
 
 ## LEVEL 19 — INTERACTIVE GEOJSON SHOWCASE
 
 `GitHub` · `GeoJSON` · `Interactive Map` · `Local Asset`
 
-M10 remains as the coordinate-centric geographic baseline. GeoJSON stores explicit geometry coordinates inside Features and FeatureCollections.
+M10 remains the coordinate-centric geographic baseline. GeoJSON uses explicit positions and Features.
 
 > [!IMPORTANT]
 > GeoJSON positions remain **`[longitude, latitude]`**.
-
-<details open>
-<summary><strong>M10 GeoJSON baseline — points + route + polygon</strong></summary>
 
 ```geojson
 {
@@ -767,8 +790,8 @@ M10 remains as the coordinate-centric geographic baseline. GeoJSON stores explic
     },
     {
       "type": "Feature",
-      "properties": {"title": "Paris", "marker-color": "#0891b2"},
-      "geometry": {"type": "Point", "coordinates": [2.3522, 48.8566]}
+      "properties": {"title": "Berlin", "marker-color": "#0891b2"},
+      "geometry": {"type": "Point", "coordinates": [13.405, 52.52]}
     },
     {
       "type": "Feature",
@@ -782,17 +805,7 @@ M10 remains as the coordinate-centric geographic baseline. GeoJSON stores explic
 }
 ```
 
-</details>
-
 Repository-owned baseline: **[`assets/geojson-showcase.geojson`](./assets/geojson-showcase.geojson)**.
-
-```text
-GeoJSON strength:
-geometry is explicit and locally understandable.
-
-TopoJSON strength:
-shared geometry can become reusable topology.
-```
 
 ---
 
@@ -800,49 +813,7 @@ shared geometry can become reusable topology.
 
 `GitHub` · `TopoJSON` · `Interactive Map` · `Topology` · `Local Asset`
 
-GitHub supports TopoJSON maps both in fenced `topojson` blocks and as repository files such as `.topojson`.[^github-diagrams][^noncode-maps]
-
-TopoJSON extends GeoJSON with a topology model: one root `Topology` owns named geometry `objects` plus a shared `arcs` table.[^topo-spec]
-
-### 20.1 — Renderer anatomy
-
-````markdown
-```topojson
-{
-  "type": "Topology",
-  "objects": { ... },
-  "arcs": [ ... ]
-}
-```
-````
-
-```text
-Markdown fence
-    │
-    ├── identifier: topojson
-    │
-    └── Topology object
-         ├── objects
-         ├── arcs
-         ├── optional transform
-         └── optional bbox
-                ↓
-         GitHub map renderer
-                ↓
-        interactive map
-```
-
----
-
-### 20.2 — Shared-boundary topology
-
-The main M11 map contains two adjacent polygons. Their common vertical boundary is stored exactly once as **arc `1`**.
-
-- West region references arc `1` forward.
-- East region references `-2`, meaning **arc `1` reversed**.
-
-<details open>
-<summary><strong>SHARED TOPOLOGY — same boundary, opposite directions</strong></summary>
+M11 remains the topology-centric geographic layer: shared arcs, reversed references, transforms, quantized coordinates, and delta encoding.
 
 ```topojson
 {
@@ -851,149 +822,29 @@ The main M11 map contains two adjacent polygons. Their common vertical boundary 
     "regions": {
       "type": "GeometryCollection",
       "geometries": [
-        {
-          "type": "Polygon",
-          "id": "west",
-          "properties": {"title": "West Region"},
-          "arcs": [[0, 1, 2, 3]]
-        },
-        {
-          "type": "Polygon",
-          "id": "east",
-          "properties": {"title": "East Region"},
-          "arcs": [[4, 5, 6, -2]]
-        }
+        {"type": "Polygon", "id": "west", "arcs": [[0, 1, 2, 3]]},
+        {"type": "Polygon", "id": "east", "arcs": [[4, 5, 6, -2]]}
       ]
     }
   },
   "arcs": [
-    [[2, 48], [6, 48]],
-    [[6, 48], [6, 52]],
-    [[6, 52], [2, 52]],
-    [[2, 52], [2, 48]],
-    [[6, 48], [10, 48]],
-    [[10, 48], [10, 52]],
-    [[10, 52], [6, 52]]
+    [[2,48],[6,48]],
+    [[6,48],[6,52]],
+    [[6,52],[2,52]],
+    [[2,52],[2,48]],
+    [[6,48],[10,48]],
+    [[10,48],[10,52]],
+    [[10,52],[6,52]]
   ]
 }
 ```
 
-</details>
-
-The two polygon rings reconstruct as:
-
 ```text
-west: 2,48 → 6,48 → 6,52 → 2,52 → 2,48
-                    ↑
-              shared arc 1
-                    ↓
-east: 6,48 → 10,48 → 10,52 → 6,52 → 6,48
-                                   reverse of arc 1
+arc 1  → shared boundary forward
+-2     → arc 1 reversed
 ```
 
----
-
-### 20.3 — Negative arc indexes are ones' complement
-
-This detail is easy to get wrong.
-
-| Reference | Meaning |
-| :---: | --- |
-| `0` | arc 0 forward |
-| `1` | arc 1 forward |
-| `2` | arc 2 forward |
-| `-1` | arc 0 reversed |
-| `-2` | arc 1 reversed |
-| `-3` | arc 2 reversed |
-
-The rule is:
-
-```text
-negative reference i
-→ actual arc index = ~i
-→ reverse that arc
-```
-
-So `-2` is **not** “arc 2 backwards.” It is **arc 1 backwards**.[^topo-spec]
-
-```math
-\boxed{\text{reversed arc }k\text{ is referenced by }\sim k=-k-1}
-```
-
----
-
-### 20.4 — Named objects
-
-A Topology can expose multiple named geometry objects under `objects`.
-
-The repository-owned M11 dataset contains:
-
-```text
-objects
-├── regions
-│   └── GeometryCollection
-│       ├── west Polygon
-│       └── east Polygon
-├── route
-│   └── LineString
-├── nodes
-│   └── MultiPoint
-└── sharedBoundary
-    └── LineString
-```
-
-A renderer or downstream tool can choose which named object it needs without changing the shared arc table.
-
----
-
-### 20.5 — GeometryCollection topology
-
-<details>
-<summary><strong>GeometryCollection — several geometries sharing one topology</strong></summary>
-
-```topojson
-{
-  "type": "Topology",
-  "objects": {
-    "collection": {
-      "type": "GeometryCollection",
-      "geometries": [
-        {"type": "LineString", "properties": {"name": "lower"}, "arcs": [0]},
-        {"type": "LineString", "properties": {"name": "right"}, "arcs": [1]},
-        {"type": "LineString", "properties": {"name": "upper-reversed"}, "arcs": [-3]}
-      ]
-    }
-  },
-  "arcs": [
-    [[2, 48], [6, 48]],
-    [[6, 48], [6, 52]],
-    [[2, 52], [6, 52]]
-  ]
-}
-```
-
-</details>
-
----
-
-### 20.6 — Points are the important exception
-
-TopoJSON Point and MultiPoint geometries use `coordinates` rather than `arcs`. LineStrings, MultiLineStrings, Polygons, and MultiPolygons reference arcs.[^topo-spec]
-
-```json
-{
-  "type": "MultiPoint",
-  "coordinates": [[200, 1000], [600, 1000], [1000, 1000]]
-}
-```
-
-In the M11 standalone file those integer point positions are interpreted through the topology's transform.
-
----
-
-### 20.7 — Quantization transform
-
-TopoJSON may include:
+Quantized topology may add:
 
 ```json
 "transform": {
@@ -1002,367 +853,636 @@ TopoJSON may include:
 }
 ```
 
-A quantized position $q=(q_x,q_y)$ becomes an absolute position:
+and then store arcs as delta-encoded integer positions.
 
-```math
-x=q_xs_x+t_x,
-\qquad
-y=q_ys_y+t_y
-```
-
-For example:
-
-```math
-(200,800)\mapsto(200\cdot0.01+0,\;800\cdot0.01+40)=(2,48)
-```
-
-This lets integer coordinates represent geographic positions compactly.[^topo-spec]
+Repository-owned topology: **[`assets/topojson-showcase.topojson`](./assets/topojson-showcase.topojson)**.
 
 ---
 
-### 20.8 — Delta-encoded arcs
+<a name="m12-stl"></a>
 
-When a Topology is quantized, each arc is delta-encoded.[^topo-spec]
+## LEVEL 21 — INTERACTIVE ASCII STL / 3D SHOWCASE
 
-This arc:
+`GitHub` · `ASCII STL` · `Interactive 3D` · `Triangle Mesh` · `Local Asset`
 
-```json
-[[200, 800], [400, 0]]
+GitHub documents **ASCII STL** as the fourth native advanced diagram/rendering syntax available in Markdown. Valid STL placed inside an `stl` fence becomes an interactive 3D model.[^github-diagrams]
+
+### 21.1 — Renderer anatomy
+
+````markdown
+```stl
+solid triangle
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 0 1 0
+    endloop
+  endfacet
+endsolid triangle
 ```
-
-does **not** mean two absolute points `(200,800)` and `(400,0)`.
-
-It decodes as:
+````
 
 ```text
-first quantized point = (200, 800)
-next delta            = (+400, +0)
-second point          = (600, 800)
+Markdown fence
+    │
+    ├── identifier: stl
+    │
+    └── ASCII STL mesh
+         ├── solid
+         ├── facets
+         │    ├── normal
+         │    └── 3 vertices
+         └── endsolid
+                ↓
+         GitHub 3D renderer
+                ↓
+        interactive model
 ```
-
-then the transform yields:
-
-```text
-(200,800) → (2,48)
-(600,800) → (6,48)
-```
-
-The next point accumulates from the previous point; it does not restart from zero.
 
 ---
 
-### 20.9 — Full quantized topology
+### 21.2 — Minimal live triangle
 
-This is the same model used by the repository-owned `.topojson` file.
+The smallest useful STL surface demonstration is one triangular facet.
 
-<details>
-<summary><strong>Open quantized + delta-encoded topology</strong></summary>
+```stl
+solid one_triangle
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 0 1 0
+    endloop
+  endfacet
+endsolid one_triangle
+```
 
-```topojson
-{
-  "type": "Topology",
-  "bbox": [2, 48, 10, 52],
-  "transform": {
-    "scale": [0.01, 0.01],
-    "translate": [0, 40]
-  },
-  "objects": {
-    "regions": {
-      "type": "GeometryCollection",
-      "geometries": [
-        {"type": "Polygon", "id": "west", "arcs": [[0, 1, 2, 3]]},
-        {"type": "Polygon", "id": "east", "arcs": [[4, 5, 6, -2]]}
-      ]
-    },
-    "route": {
-      "type": "LineString",
-      "arcs": [7, 8]
-    },
-    "nodes": {
-      "type": "MultiPoint",
-      "coordinates": [[200, 1000], [600, 1000], [1000, 1000]]
-    }
-  },
-  "arcs": [
-    [[200, 800], [400, 0]],
-    [[600, 800], [0, 400]],
-    [[600, 1200], [-400, 0]],
-    [[200, 1200], [0, -400]],
-    [[600, 800], [400, 0]],
-    [[1000, 800], [0, 400]],
-    [[1000, 1200], [-400, 0]],
-    [[200, 1000], [400, 0]],
-    [[600, 1000], [400, 0]]
-  ]
-}
+This is a valid surface facet, but it is **not a closed solid**. One triangle has no volume.
+
+---
+
+### 21.3 — Facet grammar
+
+Every ASCII facet follows this structure:[^stl-format]
+
+```text
+facet normal nx ny nz
+  outer loop
+    vertex v1x v1y v1z
+    vertex v2x v2y v2z
+    vertex v3x v3y v3z
+  endloop
+endfacet
+```
+
+| Token | Meaning |
+| --- | --- |
+| `facet normal` | outward-facing normal vector |
+| `outer loop` | starts triangle vertex loop |
+| first `vertex` | first corner |
+| second `vertex` | second corner |
+| third `vertex` | third corner |
+| `endloop` | closes vertex list |
+| `endfacet` | closes triangle |
+
+A standard facet has **exactly three vertices**.
+
+---
+
+### 21.4 — Normal vectors
+
+For vertices $v_1,v_2,v_3$, a geometric normal can be derived from the cross product:
+
+```math
+n=\frac{(v_2-v_1)\times(v_3-v_1)}{\left\|(v_2-v_1)\times(v_3-v_1)\right\|}
+```
+
+Example:
+
+```math
+v_1=(0,0,0),\quad v_2=(1,0,0),\quad v_3=(0,1,0)
+```
+
+```math
+(v_2-v_1)\times(v_3-v_1)=(0,0,1)
+```
+
+so the facet normal is:
+
+```text
+facet normal 0 0 1
+```
+
+---
+
+### 21.5 — Vertex winding and the right-hand rule
+
+STL facet orientation is redundantly described by both the stored normal and vertex order. For portable meshes, they should agree.[^stl-format]
+
+```text
+viewed from OUTSIDE the surface:
+
+v3
+●
+|\
+| \
+|  \
+●───●
+v1   v2
+
+v1 → v2 → v3 = counter-clockwise
+right-hand thumb = outward normal
+```
+
+The M12 cube follows this convention on all twelve triangles.
+
+> [!WARNING]
+> Some software recomputes or ignores stored normals. Correct winding therefore matters even when a viewer appears willing to display inconsistent facet normals.
+
+---
+
+### 21.6 — Two triangles make one square face
+
+A cube face is a quadrilateral, but STL stores triangles only. One square face therefore needs two facets.
+
+```stl
+solid square_face
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 1 1 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 1 1 0
+      vertex 0 1 0
+    endloop
+  endfacet
+endsolid square_face
+```
+
+```math
+6\;\text{cube faces}\times2\;\text{triangles per face}=12\;\text{facets}
+```
+
+---
+
+### 21.7 — Closed cube: twelve facets
+
+The repository-owned M12 model is a unit cube with vertices at every $(x,y,z)\in\{0,1\}^3$.
+
+| Face | Outward normal | Facets |
+| --- | :---: | :---: |
+| bottom | `(0,0,-1)` | 2 |
+| top | `(0,0,1)` | 2 |
+| front | `(0,-1,0)` | 2 |
+| back | `(0,1,0)` | 2 |
+| left | `(-1,0,0)` | 2 |
+| right | `(1,0,0)` | 2 |
+| **Total** |  | **12** |
+
+<details open>
+<summary><strong>LIVE CUBE — 12 consistently oriented STL facets</strong></summary>
+
+```stl
+solid markdown_final_form_cube
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 0 0
+      vertex 1 1 0
+      vertex 1 0 0
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 0 0
+      vertex 0 1 0
+      vertex 1 1 0
+    endloop
+  endfacet
+
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 1
+      vertex 1 0 1
+      vertex 1 1 1
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 1
+      vertex 1 1 1
+      vertex 0 1 1
+    endloop
+  endfacet
+
+  facet normal 0 -1 0
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 1 0 1
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 1
+      vertex 0 0 1
+    endloop
+  endfacet
+
+  facet normal 0 1 0
+    outer loop
+      vertex 0 1 0
+      vertex 1 1 1
+      vertex 1 1 0
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0 1 0
+      vertex 0 1 1
+      vertex 1 1 1
+    endloop
+  endfacet
+
+  facet normal -1 0 0
+    outer loop
+      vertex 0 0 0
+      vertex 0 0 1
+      vertex 0 1 1
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 0 0 0
+      vertex 0 1 1
+      vertex 0 1 0
+    endloop
+  endfacet
+
+  facet normal 1 0 0
+    outer loop
+      vertex 1 0 0
+      vertex 1 1 0
+      vertex 1 1 1
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 1 0 0
+      vertex 1 1 1
+      vertex 1 0 1
+    endloop
+  endfacet
+endsolid markdown_final_form_cube
 ```
 
 </details>
 
----
+The same model exists as a real repository file:
 
-### 20.10 — Shared boundary versus duplicated coordinates
-
-Conceptually, ordinary polygon GeoJSON often looks like:
-
-```text
-west polygon  → stores its east boundary coordinates
-
-east polygon  → stores its west boundary coordinates again
-```
-
-TopoJSON can instead express:
-
-```text
-arcs[1] = shared boundary
-
-west polygon → ... 1 ...
-east polygon → ... -2 ...
-```
-
-The topology knows these edges are the **same boundary**, not merely two coordinate sequences that happen to contain equal numbers.
-
-> [!TIP]
-> This shared-topology model is especially useful for adjacent regions and repeated boundaries. It can also reduce redundant coordinate storage, particularly in boundary-heavy datasets.
+**[`assets/stl-showcase.stl`](./assets/stl-showcase.stl)**
 
 ---
 
-### 20.11 — Arc stitching
+### 21.8 — Shared edges and watertight surfaces
 
-A LineString or ring may reference several arcs.
+A closed mesh should not be merely a pile of triangles that almost meet.
 
-```json
-{"type":"LineString","arcs":[7,8]}
-```
-
-When reconstructing the geometry, consecutive arcs are stitched end-to-start. The duplicate junction coordinate is not repeated in the reconstructed line.[^topo-spec]
+For a clean cube:
 
 ```text
-arc 7: A ───── B
-arc 8:         B ───── C
+triangle A edge: P ───── Q
+triangle B edge: Q ───── P
 
-stitched: A ───── B ───── C
+same two endpoint coordinates
+opposite traversal on adjacent outward-oriented facets
 ```
+
+Adjacent facets should share matching vertices along their common edge. The M12 cube uses only the eight exact corner coordinates `0` and `1`, preventing tiny cracks caused by nearly-equal coordinates.[^stl-format]
 
 ---
 
-### 20.12 — Bounding box
+### 21.9 — Open mesh vs closed solid
 
-TopoJSON may carry a `bbox`:
+| Mesh | Facets | Closed? | Volume concept |
+| --- | ---: | :---: | --- |
+| one triangle | 1 | ❌ | none |
+| square plane | 2 | ❌ | none |
+| tetrahedron | 4 | ✅ if stitched/oriented | enclosed |
+| cube | 12 | ✅ if stitched/oriented | enclosed |
 
-```json
-"bbox": [2.0, 48.0, 10.0, 52.0]
-```
-
-This describes the topology's geographic extent in absolute coordinates, even when internal arcs are quantized.
+GitHub can visualize surface geometry; it is not a replacement for a full CAD/manifold validator.
 
 ---
 
-### 20.13 — Repository-owned standalone TopoJSON
+### 21.10 — Units are external context
 
-M11 adds:
-
-**[`assets/topojson-showcase.topojson`](./assets/topojson-showcase.topojson)**
-
-GitHub's repository viewer supports `.topojson` map files directly when they contain a valid `Topology` object.[^noncode-maps]
+Standard STL geometry is effectively unitless: the file stores numbers, not a mandatory physical-unit declaration.[^stl-format]
 
 ```text
-README fenced topojson
+vertex 1 0 0
+
+could mean
+1 mm
+1 cm
+1 m
+1 inch
+...
+```
+
+For this README, the model is explicitly described as a **unit cube**. The conceptual size is 1 × 1 × 1 arbitrary units.
+
+---
+
+### 21.11 — ASCII STL vs standalone STL
+
+```text
+README fenced ASCII STL
         ↓
-embedded interactive map
+interactive embedded model
 
-.topojson repository file
+assets/stl-showcase.stl
         ↓
-standalone interactive map viewer
+GitHub standalone 3D file viewer
 ```
 
-The file includes:
+GitHub's documentation specifically calls for **ASCII STL** inside Markdown fences. The repository viewer separately supports `.stl` files.[^github-diagrams][^noncode-files]
 
-- quantized transform
-- delta-encoded arcs
-- two polygons sharing one reversed boundary
-- a multi-arc route
-- MultiPoint nodes
-- a named shared-boundary object
-- `bbox`
+Our repository asset is intentionally ASCII so both representations remain human-readable.
 
 ---
 
-### 20.14 — GeoJSON versus TopoJSON
+### 21.12 — GitHub standalone 3D viewer controls
 
-| Question | GeoJSON | TopoJSON |
-| --- | --- | --- |
-| Root model | Feature / FeatureCollection | Topology |
-| Lines / polygons | explicit coordinates | arc references |
-| Shared boundaries | usually repeated coordinates | reusable shared arcs |
-| Reverse shared edge | repeat coordinates backwards | negative arc reference |
-| Quantization | not intrinsic | optional transform |
-| Delta encoding | no | quantized arcs |
-| Named map objects | Features / collections | `objects` dictionary |
-| Human readability | generally simpler | more compact but indirect |
-| GitHub interactive map | ✅ | ✅ |
-| Standalone repository rendering | `.geojson` | `.topojson` |
+When opening the `.stl` file directly on GitHub, the documented viewer supports:[^noncode-files]
+
+- **click + drag** — spin the model;
+- **right-click + drag** — translate the view;
+- **scroll** — zoom;
+- view-mode controls for different model presentations.
+
+GitHub's current documentation/screenshots expose modes including **Wireframe**, **Surface Angle**, and **Solid**.[^noncode-files]
+
+That makes the standalone asset a stronger 3D inspection surface than a static screenshot.
+
+---
+
+### 21.13 — WebGL dependency
+
+GitHub's standalone 3D viewer uses WebGL for hardware-accelerated rendering.[^noncode-files]
+
+```text
+valid STL
+  + supported browser
+  + WebGL available
+        ↓
+interactive 3D viewer
+```
+
+If WebGL hardware support is unavailable, viewer performance/capability can degrade.
+
+---
+
+### 21.14 — File-size boundary
+
+GitHub currently states that STL files **larger than 10 MB are too large for its 3D file viewer to display**.[^noncode-files]
+
+```text
+small documentation mesh
+→ embed / store directly
+
+large production mesh
+→ simplify / decimate / split workflow
+
+very large CAD scene
+→ use a dedicated 3D application
+```
+
+This README's cube is intentionally tiny.
+
+---
+
+### 21.15 — STL vs syntax highlighting
+
+The same ASCII characters can enter two very different pipelines.
+
+**Literal source:**
+
+```text
+solid triangle
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 0 1 0
+    endloop
+  endfacet
+endsolid triangle
+```
+
+**Interactive model:**
+
+```stl
+solid triangle
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 0 1 0
+    endloop
+  endfacet
+endsolid triangle
+```
+
+```text
+text  → literal source presentation
+stl   → GitHub 3D renderer
+```
+
+---
+
+### 21.16 — Renderer selection matrix
+
+| Information | Best renderer |
+| --- | --- |
+| source code | Linguist |
+| mathematical notation | MathJax |
+| process / relationships | Mermaid |
+| explicit geographic features | GeoJSON |
+| geographic shared topology | TopoJSON |
+| triangulated 3D surface | ASCII STL |
+| designed static illustration | repository SVG |
 
 ```mermaid
-flowchart LR
-    DATA[Geographic data] --> Q{Need shared topology?}
-    Q -- no --> GJ[GeoJSON]
-    Q -- yes --> TJ[TopoJSON]
-    GJ --> MAP[GitHub interactive map]
-    TJ --> MAP
+flowchart TD
+    NEED[What does the source represent?]
+    NEED --> CODE{Program source?}
+    CODE -- yes --> L[Linguist]
+    CODE -- no --> MATH{Mathematics?}
+    MATH -- yes --> MJ[MathJax]
+    MATH -- no --> REL{Relationships?}
+    REL -- yes --> MM[Mermaid]
+    REL -- no --> GEO{Geography?}
+    GEO -- explicit geometry --> GJ[GeoJSON]
+    GEO -- shared topology --> TJ[TopoJSON]
+    GEO -- no --> MESH{Triangle mesh?}
+    MESH -- yes --> STL[ASCII STL]
+    MESH -- no --> SVG[SVG / ordinary media]
 ```
 
 ---
 
-### 20.15 — TopoJSON versus ordinary JSON highlighting
+### 21.17 — Inert malformed-STL laboratory
 
-The source is still JSON text, but the fence chooses the renderer.
-
-**Highlighted source:**
-
-```json
-{
-  "type": "Topology",
-  "objects": {},
-  "arcs": []
-}
-```
-
-**Interactive topology renderer:**
-
-```topojson
-{
-  "type": "Topology",
-  "objects": {
-    "line": {"type": "LineString", "arcs": [0]}
-  },
-  "arcs": [
-    [[2, 48], [10, 52]]
-  ]
-}
-```
-
-```text
-json      → Linguist → highlighted source
-topojson  → GitHub map renderer → interactive topology
-```
-
----
-
-### 20.16 — Inert failure laboratory
-
-Broken examples stay inside a longer `text` fence.
+Broken examples remain inside a longer `text` fence so GitHub does not attempt to render them as valid 3D models.
 
 ````text
-```topojson
-{
-  "type": "Topology",
-  "objects": {
-    "broken": {"type": "LineString", "arcs": [99]}
-  },
-  "arcs": []
-}
+```stl
+solid missing_vertex
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+    endloop
+  endfacet
+endsolid missing_vertex
 ```
 
-```topojson
-{
-  "type": "Topology",
-  "transform": {"scale": [0.1], "translate": [0, 0]},
-  "objects": {},
-  "arcs": []
-}
+```stl
+solid degenerate
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 2 0 0
+    endloop
+  endfacet
+endsolid degenerate
 ```
 ````
 
-The first references a nonexistent arc. The second has an invalid one-element `scale`; the specification requires two-element `scale` and `translate` arrays.[^topo-spec]
+The first facet has only two vertices. The second has three collinear vertices, so its triangle area is zero and the stated normal cannot be derived from a nonzero cross product.
 
 > [!CAUTION]
-> Deliberately broken topology should never be a live M11 map. A failed renderer must be clearly educational, not indistinguishable from a regression.
+> Parser success and geometric validity are separate questions. A viewer displaying something does not certify a printable or watertight model.
 
 ---
 
-### 20.17 — Topology accessibility and fallback
+### 21.18 — Normal/winding mismatch laboratory
 
-The interactive topology is an enhancement, not the only explanation.
+This example is **syntactically plausible but semantically inconsistent**, so it remains source-only:
 
-M11 also provides:
+````text
+```stl
+solid mismatched_orientation
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 0 1 0
+    endloop
+  endfacet
+endsolid mismatched_orientation
+```
+````
 
-1. prose describing the two adjacent polygons;
-2. a text reconstruction of their shared boundary;
-3. the raw topology source;
-4. the standalone `.topojson` file;
-5. a GeoJSON baseline for readers who prefer explicit coordinates.
+The vertex cross product points toward `+Z`, while the stored normal claims `-Z`.
 
-So the conceptual meaning survives even when an interactive map cannot be operated.
+That distinction matters because different STL readers may trust or recompute normals differently.[^stl-format]
 
 ---
 
-### 20.18 — TopoJSON Final Form
+### 21.19 — Accessibility and fallback strategy
+
+Interactive 3D should not be the only way to understand essential geometry.
+
+M12 therefore provides the cube in several equivalent representations:
+
+1. prose: **unit cube**;
+2. table: six faces, two triangles each;
+3. mathematical description: $(x,y,z)\in\{0,1\}^3$;
+4. ASCII STL source;
+5. embedded interactive model;
+6. repository-owned `.stl` file.
+
+If the WebGL viewer cannot be operated, the document still explains the exact structure.
+
+---
+
+### 21.20 — STL Final Form
 
 <details open>
-<summary><strong>TOPOLOGY FINAL FORM — one edge, two regions</strong></summary>
+<summary><strong>3D FINAL FORM — tetrahedral renderer core</strong></summary>
 
-```topojson
-{
-  "type": "Topology",
-  "objects": {
-    "west": {
-      "type": "Polygon",
-      "properties": {"title": "WEST — shared arc forward"},
-      "arcs": [[0, 1, 2, 3]]
-    },
-    "east": {
-      "type": "Polygon",
-      "properties": {"title": "EAST — shared arc reversed"},
-      "arcs": [[4, 5, 6, -2]]
-    },
-    "boundary": {
-      "type": "LineString",
-      "properties": {"title": "THE SAME ARC"},
-      "arcs": [1]
-    }
-  },
-  "arcs": [
-    [[2, 48], [6, 48]],
-    [[6, 48], [6, 52]],
-    [[6, 52], [2, 52]],
-    [[2, 52], [2, 48]],
-    [[6, 48], [10, 48]],
-    [[10, 48], [10, 52]],
-    [[10, 52], [6, 52]]
-  ]
-}
+A tetrahedron is the smallest closed triangular polyhedron: four vertices, four triangular facets.
+
+```stl
+solid final_form_tetrahedron
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 0 0
+      vertex 0 1 0
+      vertex 1 0 0
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 0 0 1
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 0 0 0
+      vertex 0 0 1
+      vertex 0 1 0
+    endloop
+  endfacet
+  facet normal 0.577350269 0.577350269 0.577350269
+    outer loop
+      vertex 1 0 0
+      vertex 0 1 0
+      vertex 0 0 1
+    endloop
+  endfacet
+endsolid final_form_tetrahedron
 ```
 
 ```math
 \boxed{
-\text{objects}
-+\text{shared arcs}
-+\text{reversed references}
-+\texttt{topojson}
-=\text{interactive topology}
+\text{vertices}
++\text{normals}
++\text{winding}
++\text{facets}
++\texttt{stl}
+=\text{interactive 3D surface}
 }
 ```
 
 </details>
 
-### M11 renderer rule
+### M12 renderer rule
 
 ```text
-Need geographic data?
-├── explicit independent geometry → GeoJSON
-├── shared boundaries / topology → TopoJSON
-│   ├── readable absolute arcs → unquantized topology
-│   └── compact integer arcs → transform + delta encoding
-├── 3D geometry → ASCII STL (M12)
-└── full GIS behavior → dedicated mapping application
+Need 3D in GitHub Markdown?
+├── small textual triangle mesh → fenced ASCII STL
+├── reusable model asset → repository .stl
+├── complex production mesh → simplify before README use
+└── rich CAD/material/animation scene → dedicated 3D application
 ```
 
 ---
 
 # ACT VI — PARSER & SOURCE LAB
 
-## LEVEL 21 — ESCAPE HATCH
+## LEVEL 22 — ESCAPE HATCH
 
 `Markdown` · `Parser`
 
@@ -1384,7 +1504,7 @@ Need geographic data?
 
 ---
 
-## LEVEL 22 — BACKTICK & FENCE PARADOX
+## LEVEL 23 — BACKTICK & FENCE PARADOX
 
 ``Use a `backtick` inside code``
 
@@ -1413,9 +1533,16 @@ flowchart LR
 ```
 ````
 
+````markdown
+```stl
+solid t
+endsolid t
+```
+````
+
 ---
 
-## LEVEL 23 — DELIMITER & RENDERER COLLISION LAB
+## LEVEL 24 — DELIMITER & RENDERER COLLISION LAB
 
 ````text
 $             → possible MathJax delimiter
@@ -1424,14 +1551,16 @@ $             → possible MathJax delimiter
 ```mermaid    → Mermaid diagram renderer
 ```geojson    → GeoJSON map renderer
 ```topojson   → TopoJSON map renderer
+```stl        → ASCII STL 3D renderer
 ```json       → Linguist-highlighted source
+```text       → literal source
 ````
 
 A fence identifier can switch the entire rendering subsystem.
 
 ---
 
-## LEVEL 24 — ENTITY REACTOR
+## LEVEL 25 — ENTITY REACTOR
 
 | Source | Rendered |
 | --- | :---: |
@@ -1447,7 +1576,7 @@ A fence identifier can switch the entire rendering subsystem.
 
 ---
 
-## LEVEL 25 — WHITESPACE & RECURSION CHAMBER
+## LEVEL 26 — WHITESPACE & RECURSION CHAMBER
 
 ````markdown
 ```markdown
@@ -1476,19 +1605,29 @@ flowchart LR
 
 ````markdown
 ```topojson
-{
-  "type":"Topology",
-  "objects":{"line":{"type":"LineString","arcs":[0]}},
-  "arcs":[[[2,48],[10,52]]]
-}
+{"type":"Topology","objects":{},"arcs":[]}
+```
+````
+
+````markdown
+```stl
+solid triangle
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 0 1 0
+    endloop
+  endfacet
+endsolid triangle
 ```
 ````
 
 <!--
 Future maintainers:
-Nested renderer fences, TopoJSON arc semantics, negative arc indexes, transforms,
-delta encoding, GeoJSON coordinate order, math delimiters, relative assets, and
-HTML/details blank lines are intentional source demonstrations.
+Nested renderer fences, STL winding/normals, TopoJSON arc semantics,
+GeoJSON coordinate order, MathJax delimiters, relative assets, and HTML/details
+blank lines are intentional demonstrations. M13 should extend rather than normalize them.
 -->
 
 ---
@@ -1498,31 +1637,32 @@ HTML/details blank lines are intentional source demonstrations.
 ## 🏅 ACHIEVEMENTS UNLOCKED
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-TOPOLOGY_ENGINEER-fbbf24?style=for-the-badge" alt="Achievement Topology Engineer">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-ARC_WEAVER-06b6d4?style=for-the-badge" alt="Achievement Arc Weaver">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-DELTA_DECODER-8b5cf6?style=for-the-badge" alt="Achievement Delta Decoder">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-BOUNDARY_REUSER-0891b2?style=for-the-badge" alt="Achievement Boundary Reuser">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-STL_MESHSMITH-fbbf24?style=for-the-badge" alt="Achievement STL Meshsmith">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-NORMAL_KEEPER-06b6d4?style=for-the-badge" alt="Achievement Normal Keeper">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-WINDING_WARDEN-8b5cf6?style=for-the-badge" alt="Achievement Winding Warden">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-THREE_DIMENSIONAL-F43F5E?style=for-the-badge" alt="Achievement Three Dimensional">
 </p>
 
 | Achievement | Requirement | Status |
 | --- | --- | :---: |
 | **Syntax Curator** | Retain 33 syntax modes | ✅ |
 | **MathJax Architect** | Preserve advanced math rendering | ✅ |
-| **Mermaid Cartographer** | Preserve multi-family diagrams | ✅ |
+| **Mermaid Cartographer** | Preserve diagram rendering | ✅ |
 | **GeoJSON Navigator** | Preserve interactive coordinate maps | ✅ |
-| **Topology Engineer** | Render a `Topology` object | ✅ |
-| **Arc Weaver** | Build geometry from reusable arcs | ✅ |
-| **Boundary Reuser** | Share one arc between adjacent polygons | ✅ |
-| **Reverse Engineer** | Use negative reversed-arc references correctly | ✅ |
-| **Object Librarian** | Expose multiple named topology objects | ✅ |
-| **Quantizer** | Use `scale` + `translate` transform | ✅ |
-| **Delta Decoder** | Explain quantized delta-encoded arcs | ✅ |
-| **Geometry Collector** | Use GeometryCollection topology | ✅ |
-| **Point Exception Handler** | Distinguish point coordinates from line/polygon arcs | ✅ |
-| **Dataset Keeper** | Add standalone `.topojson` asset | ✅ |
-| **Renderer Router** | Distinguish JSON / GeoJSON / TopoJSON / Mermaid / MathJax | ✅ |
-| **Parser Tamer** | Keep malformed topology inert | ✅ |
-| **Master of Restraint** | Stop before implementing a topology library | ❌ |
+| **Topology Engineer** | Preserve shared-arc topology | ✅ |
+| **STL Meshsmith** | Render live ASCII STL in Markdown | ✅ |
+| **Facet Smith** | Use valid normal / loop / 3-vertex facet grammar | ✅ |
+| **Normal Keeper** | Match stored normals to geometric surfaces | ✅ |
+| **Winding Warden** | Use right-hand-rule vertex order | ✅ |
+| **Cube Builder** | Assemble six faces from twelve facets | ✅ |
+| **Watertight Thinker** | Explain shared-edge closure requirements | ✅ |
+| **Unit Skeptic** | Document STL's external unit convention | ✅ |
+| **Viewer Pilot** | Document rotation / translation / zoom / view modes | ✅ |
+| **WebGL Witness** | Document browser rendering dependency | ✅ |
+| **Asset Keeper** | Add repository-owned `.stl` | ✅ |
+| **Renderer Router** | Distinguish code, math, diagrams, maps, topology, 3D | ✅ |
+| **Parser Tamer** | Keep malformed STL source inert | ✅ |
+| **Master of Restraint** | Stop before shipping a CAD kernel in README | ❌ |
 
 ---
 
@@ -1539,20 +1679,19 @@ Language Breadth   ████████████████████ 
 MathJax            ████████████████████ 100%
 Mermaid            ████████████████████ 100%
 GeoJSON            ████████████████████ 100%
-TopoJSON Root      ████████████████████ 100%
-Shared Arcs        ████████████████████ 100%
-Reverse Arcs       ████████████████████ 100%
-Transforms         ████████████████████ 100%
-Delta Encoding     ████████████████████ 100%
-Interactive Maps   ████████████████████ 100%
+TopoJSON           ████████████████████ 100%
+ASCII STL          ████████████████████ 100%
+Facet Grammar      ████████████████████ 100%
+Normal / Winding   ████████████████████ 100%
+Interactive 3D     ████████████████████ 100%
 Renderer Routing   ████████████████████ 100%
 Parser Tricks      ███████████████████░  95%
 Restraint          ██░░░░░░░░░░░░░░░░░░  10%
-Raw Power          ████████████████████  M11
+Raw Power          ████████████████████  M12
 ```
 
 > [!WARNING]
-> Compact topology does not validate geographic truth. Shared arcs can encode the wrong boundary just as efficiently as the right one.
+> An interactive 3D viewer can make a bad mesh look convincing. Rendering is not manifold analysis, dimensional validation, printability analysis, or engineering certification.
 
 ---
 
@@ -1588,8 +1727,21 @@ flowchart LR
 }
 ```
 
+```stl
+solid triangle
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 0 1 0
+    endloop
+  endfacet
+endsolid triangle
+```
+
 [GeoJSON file](./assets/geojson-showcase.geojson)
 [TopoJSON file](./assets/topojson-showcase.topojson)
+[STL file](./assets/stl-showcase.stl)
 
 ```python
 print("highlighted source")
@@ -1600,20 +1752,25 @@ literal output
 ```
 
 ````markdown
-```topojson
-{"type":"Topology","objects":{},"arcs":[]}
+```stl
+solid nested
+endsolid nested
 ```
 ````
 
 <details>
 <summary>Collapsed renderer</summary>
 
-```topojson
-{
-  "type":"Topology",
-  "objects":{"line":{"type":"LineString","arcs":[0]}},
-  "arcs":[[[2,48],[10,52]]]
-}
+```stl
+solid tiny
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 0 1 0
+    endloop
+  endfacet
+endsolid tiny
 ```
 
 </details>
@@ -1635,45 +1792,49 @@ literal output
 
 | Crime | Consequence |
 | --- | --- |
-| Treating `-2` as reversed arc 2 | wrong boundary is reconstructed |
-| Reading quantized arc deltas as absolute coordinates | topology becomes geographic nonsense |
-| Giving Point geometry an `arcs` field | invalid TopoJSON geometry model |
-| Giving Polygon geometry raw coordinates | bypasses TopoJSON's arc topology |
-| Referencing an arc index that does not exist | topology cannot reconstruct geometry |
-| Using one-element `scale` / `translate` | invalid transform |
-| Duplicating shared boundaries anyway | loses TopoJSON's main structural advantage |
-| Using `json` when expecting a map | source is highlighted, not mapped |
-| Using `topojson` for arbitrary JSON | specialized renderer fails |
-| Hiding essential meaning only in map interaction | accessibility failure |
-| Forgetting longer outer fences | renderer-source examples terminate themselves |
-| Assuming compact data is correct data | efficient errors are still errors |
+| Using `text` when expecting 3D | STL stays literal |
+| Using `stl` for malformed facet grammar | renderer may fail |
+| Giving a facet two or four vertices | not a standard STL triangle |
+| Using three collinear vertices | zero-area degenerate facet |
+| Storing normal opposite to vertex winding | inconsistent surface orientation |
+| Assuming viewer-generated shading proves normals are correct | visual success hides mesh defects |
+| Calling an open plane a watertight solid | topology/volume claim is false |
+| Using nearly matching edge coordinates | cracks/non-manifold seams can appear |
+| Assuming STL numbers encode millimetres | scale ambiguity |
+| Shipping a huge README mesh | enormous source and poor usability |
+| Ignoring GitHub's 10 MB standalone STL viewer limit | file cannot display |
+| Making 3D the only explanation | accessibility/fallback failure |
+| Forgetting longer outer fences | renderer examples terminate themselves |
+| Confusing STL with CAD | triangle surfaces do not preserve parametric design intent |
 
 ---
 
 ## 🧪 README QUALITY TEST
 
-- [ ] Main shared-boundary TopoJSON map renders.
-- [ ] West and east polygons reconstruct as adjacent closed regions.
-- [ ] Arc `1` is used forward by west and reversed via `-2` by east.
-- [ ] No explanation incorrectly treats negative indexes as ordinary negation.
-- [ ] Quantized transform uses two-element `scale` and `translate`.
-- [ ] Delta-encoded arcs reconstruct to expected absolute positions.
-- [ ] Point/MultiPoint examples use `coordinates`, not `arcs`.
-- [ ] Line/polygon examples use arc references.
-- [ ] Multi-arc route stitches at matching endpoints.
-- [ ] Standalone `assets/topojson-showcase.topojson` renders on GitHub.
-- [ ] Standalone GeoJSON baseline still renders.
-- [ ] Invalid TopoJSON examples remain inside non-TopoJSON fences.
-- [ ] `json` vs `topojson` demonstrates different renderers.
-- [ ] GeoJSON vs TopoJSON distinction remains clear.
-- [ ] Essential topology meaning exists as prose/source, not only map interaction.
+- [ ] Minimal triangle renders as a surface.
+- [ ] Two-facet square renders as one planar face.
+- [ ] Twelve-facet cube renders as a closed cube.
+- [ ] Cube normals match intended six outward directions.
+- [ ] Vertex winding agrees with normals.
+- [ ] Every live facet has exactly three vertices.
+- [ ] Cube uses exact shared edge coordinates.
+- [ ] Tetrahedron Final Form renders as a closed triangular polyhedron.
+- [ ] Malformed and degenerate examples stay inside non-STL fences.
+- [ ] `text` vs `stl` demonstrates separate pipelines.
+- [ ] `assets/stl-showcase.stl` opens in GitHub's standalone 3D viewer.
+- [ ] Rotation, translation, zoom, and view-mode controls are tested.
+- [ ] Model remains usable with browser WebGL enabled.
+- [ ] Standalone model remains below GitHub's viewer size limit.
+- [ ] 3D meaning is also available through prose/source/table fallback.
+- [ ] GeoJSON asset still renders.
+- [ ] TopoJSON asset still renders.
 - [ ] MathJax still renders.
 - [ ] Mermaid still renders.
 - [ ] 33 Linguist modes remain represented.
 - [ ] Theme-aware local hero still switches correctly.
 - [ ] Nested fence lengths remain balanced.
-- [ ] Mobile map interaction remains usable.
-- [ ] README is previewed on GitHub before release.
+- [ ] Mobile 3D interaction is audited in M16.
+- [ ] README is previewed on GitHub before final release in M17.
 
 ---
 
@@ -1682,11 +1843,11 @@ literal output
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form M11 final banner" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form M12 final banner" width="100%">
 </picture>
 
 <details open>
-<summary><strong>FINAL FORM — MULTI-RENDERER TOPOLOGY NETWORK</strong></summary>
+<summary><strong>FINAL FORM — COMPLETE GITHUB RENDERER NETWORK</strong></summary>
 
 ```mermaid
 flowchart TB
@@ -1696,17 +1857,19 @@ flowchart TB
     GH --> DIAGRAM[Mermaid]
     GH --> GEO[GeoJSON]
     GH --> TOPO[TopoJSON]
+    GH --> MESH[ASCII STL]
     GH --> HTML[Sanitized HTML]
 
-    GEO --> COORD[Explicit geometry]
-    TOPO --> ARC[Shared arcs]
-    ARC --> TRANSFORM[Quantization / delta encoding]
+    GEO --> COORD[Explicit geographic geometry]
+    TOPO --> ARC[Shared geographic topology]
+    MESH --> TRI[Triangulated 3D surface]
 
     CODE --> FINAL[FINAL FORM]
     MATH --> FINAL
     DIAGRAM --> FINAL
     COORD --> FINAL
-    TRANSFORM --> FINAL
+    ARC --> FINAL
+    TRI --> FINAL
     HTML --> FINAL
 ```
 
@@ -1718,29 +1881,25 @@ flowchart TB
 +\text{Mermaid}
 +\text{GeoJSON}
 +\text{TopoJSON}
++\text{ASCII STL}
 +\text{HTML}
-=\text{M11}
+=\text{M12}
 }
 ```
 
 <details>
-<summary><strong>Inspect the topology subsystem</strong></summary>
+<summary><strong>Inspect all specialized renderer routes</strong></summary>
 
 ```text
-TOPOLOGY
-├── objects
-│   ├── regions
-│   ├── route
-│   ├── nodes
-│   └── sharedBoundary
-├── arcs
-│   ├── forward references
-│   └── reversed references via ones' complement
-├── transform
-│   ├── scale
-│   └── translate
-├── quantized integer positions
-└── delta-encoded arcs
+SOURCE
+├── ordinary Markdown → Markdown / GFM
+├── language fence → Linguist
+├── math delimiter / math fence → MathJax
+├── mermaid fence → Mermaid
+├── geojson fence / .geojson → interactive map
+├── topojson fence / .topojson → interactive topology map
+├── stl fence / .stl → interactive 3D
+└── HTML fragments → sanitizer
 ```
 
 </details>
@@ -1750,19 +1909,23 @@ TOPOLOGY
 <div align="center">
 
 <p>
-  GeoJSON stores geographic geometry.<br>
-  TopoJSON stores geographic relationships.<br>
-  Shared arcs make adjacency explicit.<br>
-  Transform + delta encoding make coordinates indirect but compact.<br>
-  The source remains inspectable beneath the interactive map.
+  Markdown owns the document.<br>
+  Fence metadata selects specialized renderers.<br>
+  MathJax typesets notation.<br>
+  Mermaid models relationships.<br>
+  GeoJSON maps coordinates.<br>
+  TopoJSON maps shared topology.<br>
+  ASCII STL turns triangles into interactive 3D.<br>
+  The raw source remains inspectable underneath every layer.
 </p>
 
-<a href="./assets/topojson-showcase.topojson"><img src="https://img.shields.io/badge/OPEN-TOPOJSON_DATASET-8B5CF6?style=for-the-badge" alt="Open repository TopoJSON dataset"></a>
-<a href="./assets/geojson-showcase.geojson"><img src="https://img.shields.io/badge/COMPARE-GEOJSON_DATASET-0891B2?style=for-the-badge" alt="Open repository GeoJSON dataset"></a>
+<a href="./assets/stl-showcase.stl"><img src="https://img.shields.io/badge/OPEN-STL_3D_MODEL-F43F5E?style=for-the-badge" alt="Open repository STL model"></a>
+<a href="./assets/topojson-showcase.topojson"><img src="https://img.shields.io/badge/OPEN-TOPOJSON-8B5CF6?style=for-the-badge" alt="Open repository TopoJSON dataset"></a>
+<a href="./assets/geojson-showcase.geojson"><img src="https://img.shields.io/badge/OPEN-GEOJSON-0891B2?style=for-the-badge" alt="Open repository GeoJSON dataset"></a>
 <a href="#"><img src="https://img.shields.io/badge/RETURN-TO_THE_TOP-181717?style=for-the-badge" alt="Return to top"></a>
 
 <h2>Markdown: Final Form.</h2>
-<h3>Interactive TopoJSON layer unlocked.</h3>
+<h3>All four GitHub-native advanced diagram/rendering syntaxes unlocked.</h3>
 
 </div>
 
@@ -1776,6 +1939,6 @@ TOPOLOGY
 
 [^linguist]: GitHub Linguist supplies language metadata and grammars for fenced-code syntax highlighting.
 [^mathjax]: GitHub renders supported LaTeX-formatted mathematics using MathJax.
-[^github-diagrams]: GitHub documents four advanced diagram syntaxes in Markdown: Mermaid, GeoJSON, TopoJSON, and ASCII STL. GeoJSON uses `geojson`; TopoJSON uses `topojson`.
-[^noncode-maps]: GitHub repository views support `.geojson` and `.topojson` map files. `.json` files can also render as maps when their root type is one of GitHub's recognized geographic structures.
-[^topo-spec]: The TopoJSON specification defines `Topology`, named `objects`, reusable `arcs`, zero-based arc indexes, ones'-complement reversed arc references, transforms, quantization, and delta encoding.
+[^github-diagrams]: GitHub documentation lists four advanced diagram syntaxes available in Markdown: Mermaid, GeoJSON, TopoJSON, and ASCII STL. ASCII STL is rendered from a fenced block labeled `stl`.
+[^noncode-files]: GitHub's non-code-file documentation describes dedicated viewers for geographic files and `.stl` 3D models. The STL viewer supports spin, translation, zoom, multiple view modes, WebGL acceleration, and rejects files larger than 10 MB.
+[^stl-format]: The ASCII STL format represents triangular facets with a normal and exactly three vertices. Conventional portable orientation uses an outward normal and right-hand-rule vertex ordering; STL itself does not encode a mandatory physical unit.
