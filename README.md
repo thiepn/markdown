@@ -2,44 +2,44 @@
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                          LEVEL 00: SOURCE LAYER                              ║
 ║                                                                              ║
-║  RAW SOURCE EXPLORER · PARSER TAMER · BLOCK ARCHITECT · LINK CARTOGRAPHER   ║
-║  MEDIA ENGINEER · HYBRID ENGINEER · SYNTAX CURATOR · MATHJAX ARCHITECT      ║
-║  MERMAID CARTOGRAPHER · GEOJSON NAVIGATOR                                   ║
+║  PARSER TAMER · BLOCK ARCHITECT · LINK CARTOGRAPHER · MEDIA ENGINEER         ║
+║  HYBRID ENGINEER · SYNTAX CURATOR · MATHJAX ARCHITECT · MERMAID CARTOGRAPHER║
+║  GEOJSON NAVIGATOR · TOPOLOGY ENGINEER                                      ║
 ║                                                                              ║
-║  M10 invariant: GeoJSON coordinates are [longitude, latitude].               ║
-║  Interactive maps are data renderers, not screenshots pretending to be maps.║
+║  M11 invariant: TopoJSON arcs are shared topology, not ordinary coordinates. ║
+║  Negative arc references use ones' complement semantics and reverse an arc.  ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form — interactive GeoJSON showcase" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form — interactive TopoJSON topology showcase" width="100%">
 </picture>
 
 <div align="center">
 
 <a href="https://readme-typing-svg.demolab.com/demo/">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Points.+Routes.+Polygons.+Collections.;Longitude+first.+Latitude+second.;Source+becomes+an+interactive+map.;M10+GeoJSON+renderer+online."
-    alt="Animated M10 GeoJSON introduction">
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Shared+arcs.+Reversed+boundaries.+Named+objects.;Transforms.+Quantization.+Delta+encoding.;One+topology.+Multiple+geometries.;M11+TopoJSON+renderer+online."
+    alt="Animated M11 TopoJSON introduction">
 </a>
 
 <br>
 
 <a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/LAYER-MARKDOWN-111111?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Markdown layer"></a>
-<a href="#level-17--advanced-mathjax-mathematical-showcase"><img src="https://img.shields.io/badge/MATHJAX-M8_COMPLETE-0EA5E9?style=for-the-badge" alt="MathJax M8 complete"></a>
 <a href="#level-18--full-mermaid-diagram-gallery"><img src="https://img.shields.io/badge/MERMAID-M9_COMPLETE-7C3AED?style=for-the-badge" alt="Mermaid M9 complete"></a>
-<a href="#level-19--interactive-geojson-showcase"><img src="https://img.shields.io/badge/GEOJSON-M10_UNLOCKED-0891B2?style=for-the-badge" alt="GeoJSON M10 unlocked"></a>
+<a href="#level-19--interactive-geojson-showcase"><img src="https://img.shields.io/badge/GEOJSON-M10_COMPLETE-0891B2?style=for-the-badge" alt="GeoJSON M10 complete"></a>
+<a href="#level-20--interactive-topojson-showcase"><img src="https://img.shields.io/badge/TOPOJSON-M11_UNLOCKED-8B5CF6?style=for-the-badge" alt="TopoJSON M11 unlocked"></a>
 <a href="#final-boss"><img src="https://img.shields.io/badge/README-OVERENGINEERED-F43F5E?style=for-the-badge" alt="README overengineered"></a>
 
-<h3>This is a <strong>layer-by-layer Markdown rendering laboratory</strong>.</h3>
+<h3>This is a <strong>layer-by-layer GitHub Markdown rendering laboratory</strong>.</h3>
 
-<sub>Markdown · GFM · Linguist · MathJax · Mermaid · GeoJSON · sanitized HTML · local SVG media</sub>
+<sub>Markdown · GFM · Linguist · MathJax · Mermaid · GeoJSON · TopoJSON · sanitized HTML · local media</sub>
 
 <br><br>
 
-<a href="#act-i--markdown-core"><strong>⚡ Markdown Core</strong></a>
+<a href="#act-i--markdown-core"><strong>⚡ Markdown</strong></a>
 &nbsp;•&nbsp;
 <a href="#level-08--full-syntax-highlighting-laboratory"><strong>⌘ Syntax</strong></a>
 &nbsp;•&nbsp;
@@ -49,6 +49,8 @@
 &nbsp;•&nbsp;
 <a href="#level-19--interactive-geojson-showcase"><strong>⌖ GeoJSON</strong></a>
 &nbsp;•&nbsp;
+<a href="#level-20--interactive-topojson-showcase"><strong>◎ TopoJSON</strong></a>
+&nbsp;•&nbsp;
 <a href="#final-boss"><strong>👑 Final Boss</strong></a>
 
 </div>
@@ -56,23 +58,23 @@
 ---
 
 > [!IMPORTANT]
-> GitHub can render GeoJSON directly inside Markdown when valid GeoJSON appears in a fenced block labeled `geojson`. M10 adds the project's first genuinely **interactive geographic renderer**: the same repository source can be inspected as JSON or explored as a map.[^geojson]
+> GitHub natively renders TopoJSON in Markdown when valid topology source appears inside a fenced block labeled `topojson`. M11 demonstrates why TopoJSON is not simply GeoJSON with another extension: boundaries can be stored once as reusable **arcs**, then referenced by multiple geometries.[^github-diagrams][^topo-spec]
 
 ## 🧭 README POWER MAP
 
 | Act | Rendering layer | Current demonstrations | Jump |
 | :---: | --- | --- | :---: |
-| `00` | [Source Layer](#level-00--source-layer) | Hidden comments, source-only invariants | `RAW` |
-| `I` | [Markdown Core](#act-i--markdown-core) | Typography, blocks, links, anchors | `#` |
-| `II` | [GitHub Flavored Markdown](#act-ii--github-flavored-markdown) | Tables, tasks, strikethrough, autolinks | `GFM` |
-| `III` | [GitHub Extensions](#act-iii--github-extensions) | Alerts, 33-mode syntax lab, footnotes | `GH` |
-| `IV` | [HTML Hybrid](#act-iv--html-hybrid) | Media, semantics, details UI, sanitization | `<>` |
-| `V` | [Advanced Rendering](#act-v--advanced-rendering) | **MathJax + Mermaid + GeoJSON** | `∞` |
-| `VI` | [Parser & Source Lab](#act-vi--parser--source-lab) | Escapes, fences, delimiters, renderer routing | `\` |
-| `VII` | [Endgame & Reference](#act-vii--endgame--reference) | Achievements, cheat sheet, QA | `✓` |
-| `∞` | [Final Boss](#final-boss) | Combined mechanics | `👑` |
+| `00` | [Source Layer](#level-00--source-layer) | Hidden comments, source invariants | `RAW` |
+| `I` | [Markdown Core](#act-i--markdown-core) | Typography, structure, blocks, links | `#` |
+| `II` | [GFM](#act-ii--github-flavored-markdown) | Tables, tasks, strikethrough | `GFM` |
+| `III` | [GitHub Extensions](#act-iii--github-extensions) | Alerts, Linguist, footnotes | `GH` |
+| `IV` | [HTML Hybrid](#act-iv--html-hybrid) | Media, details, semantic HTML, sanitizer | `<>` |
+| `V` | [Advanced Rendering](#act-v--advanced-rendering) | MathJax, Mermaid, GeoJSON, **TopoJSON** | `∞` |
+| `VI` | [Parser & Source Lab](#act-vi--parser--source-lab) | Escapes, fences, renderer routing | `\` |
+| `VII` | [Endgame](#act-vii--endgame--reference) | Achievements, QA, cheat sheet | `✓` |
+| `∞` | [Final Boss](#final-boss) | Combined renderer network | `👑` |
 
-`Markdown` · `GFM` · `GitHub` · `Linguist` · `MathJax` · `Mermaid` · `GeoJSON` · `HTML` · `Local Asset`
+`Markdown` · `GFM` · `GitHub` · `Linguist` · `MathJax` · `Mermaid` · `GeoJSON` · `TopoJSON` · `HTML` · `Local Asset`
 
 ---
 
@@ -80,19 +82,20 @@
 
 ```mermaid
 flowchart LR
-    A[README.md] --> B[Markdown]
-    B --> C[GFM]
-    C --> D[GitHub]
-    D --> E[Linguist]
-    D --> F[MathJax]
-    D --> G[Mermaid]
-    D --> H[GeoJSON]
-    D --> I[Sanitized HTML]
-    E --> J[Rendered README]
-    F --> J
-    G --> J
-    H --> J
-    I --> J
+    A[README.md] --> B[Markdown / GFM]
+    B --> GH[GitHub]
+    GH --> L[Linguist]
+    GH --> MJ[MathJax]
+    GH --> MM[Mermaid]
+    GH --> GJ[GeoJSON]
+    GH --> TJ[TopoJSON]
+    GH --> H[Sanitized HTML]
+    L --> OUT[Rendered README]
+    MJ --> OUT
+    MM --> OUT
+    GJ --> OUT
+    TJ --> OUT
+    H --> OUT
 ```
 
 ---
@@ -102,21 +105,22 @@ flowchart LR
 `HTML` · `Source-only`
 
 ```html
-<!-- This exists in README.md but disappears when rendered. -->
+<!-- This source exists but disappears in GitHub's rendered README. -->
 ```
 
 <!--
-M10 invariants:
-- GeoJSON coordinate order is [longitude, latitude], never the reverse.
-- Live map examples use valid JSON. Broken examples stay inside text fences.
-- The repository-owned assets/geojson-showcase.geojson file is part of M10.
-- GeoJSON maps are interactive renderers, not static image replacements.
-- Do not make critical prose discoverable only by clicking map features.
-- Keep specialized renderer fences distinct: mermaid, math, geojson.
+M11 invariants:
+- topology root objects use type "Topology".
+- arc indexes are zero-based.
+- negative arc index i refers to the reversed arc at ~i, NOT abs(i).
+- quantized arcs are delta-encoded when a transform exists.
+- Point and MultiPoint still use coordinates; line/ring geometries use arcs.
+- invalid topology belongs in inert text fences, never live topojson fences.
+- assets/topojson-showcase.topojson is a repository-owned M11 asset.
 -->
 
 > [!NOTE]
-> Source view is part of the exhibit. A map feature is still a reviewable JSON object with explicit geometry, coordinates, and properties.
+> A rendered map is only one surface. The raw topology remains diffable JSON with explicit objects, arc references, transforms, and properties.
 
 ---
 
@@ -146,30 +150,30 @@ M10 invariants:
 `Markdown`
 
 <details>
-<summary><strong>Six-level ATX hierarchy</strong></summary>
+<summary><strong>ATX heading ladder</strong></summary>
 
-# Header 1
-## Header 2
-### Header 3
-#### Header 4
-##### Header 5
-###### Header 6
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
 
 </details>
 
 <details>
 <summary><strong>Setext headings</strong></summary>
 
-Setext Level One
-================
+Setext One
+==========
 
-Setext Level Two
-----------------
+Setext Two
+----------
 
 </details>
 
 Two trailing spaces create a hard break.  
-This line follows it.
+This is the next visual line.
 
 ---
 
@@ -180,15 +184,15 @@ This line follows it.
 - Surface
   - Nested
     - Deeper
-      - List mines
-        - Deeper still
+      - Deeper still
+        - List mine
           - **Maximum indentation**
 
-1. **Quote inside list**
+1. **Quote inside a list**
 
-   > Containers can contain containers.
+   > Block containers can contain other block containers.
 
-2. **Code inside list**
+2. **Code inside a list**
 
    ```bash
    printf '%s\n' "nested code"
@@ -196,9 +200,9 @@ This line follows it.
 
 > **Quote containing structure**
 >
-> - [x] list
+> - [x] nested list
 > - [x] task
-> - [x] `code`
+> - [x] `inline code`
 
 ---
 
@@ -213,14 +217,15 @@ This line follows it.
 
 - [This README](./README.md)
 - [Repository root](./)
-- [Standalone GeoJSON dataset](./assets/geojson-showcase.geojson)
-- [Mermaid gallery](#level-18--full-mermaid-diagram-gallery)
+- [GeoJSON dataset](./assets/geojson-showcase.geojson)
+- [TopoJSON dataset](./assets/topojson-showcase.topojson)
 - [GeoJSON showcase](#level-19--interactive-geojson-showcase)
+- [TopoJSON showcase](#level-20--interactive-topojson-showcase)
 - [Final Boss](#final-boss)
 
-<a name="m10-geojson-beacon"></a>
+<a name="m11-topology-beacon"></a>
 
-[Jump to the custom M10 anchor](#m10-geojson-beacon)
+[Jump to the custom M11 anchor](#m11-topology-beacon)
 
 <https://github.com/>  
 https://github.com  
@@ -258,42 +263,43 @@ owner/repository#123
 `GFM`
 
 - [x] **Markdown Core**
-  - [x] Typography / structure
-  - [x] Lists / quotes
-  - [x] Link routing
+  - [x] Typography / headings / whitespace
+  - [x] Lists / quotes / links
 - [x] **GFM Systems**
   - [x] Tables
   - [x] Task lists
-- [x] **Media System**
+- [x] **Media + HTML Hybrid**
   - [x] Repository-owned SVGs
   - [x] Theme-aware `<picture>`
-- [x] **HTML Hybrid**
-  - [x] Semantic tags
   - [x] Nested `<details>`
   - [x] Sanitization boundary
-- [x] **Syntax Highlighting**
-  - [x] 33 language/mode fences
-  - [x] Aliases / text / diff / unknown-label control
+- [x] **Linguist**
+  - [x] 33 syntax modes retained
+  - [x] text / diff / aliases / unknown-label control
 - [x] **MathJax**
   - [x] Inline / protected inline / display / `math` fence
   - [x] Matrices / calculus / probability / Fourier
 - [x] **Mermaid**
-  - [x] 14 diagram families shown
-  - [x] Architecture compatibility canary
+  - [x] Multi-family diagram gallery
 - [x] **GeoJSON**
-  - [x] Point
-  - [x] LineString
-  - [x] Polygon
-  - [x] MultiPoint
-  - [x] MultiLineString
-  - [x] MultiPolygon
-  - [x] GeometryCollection
+  - [x] Seven geometry families
   - [x] FeatureCollection
-  - [x] Marker / stroke / fill metadata
-  - [x] Repository-owned `.geojson` file
-- [ ] **Next renderers**
-  - [ ] TopoJSON
-  - [ ] STL / 3D
+  - [x] Standalone `.geojson`
+- [x] **TopoJSON**
+  - [x] `Topology` root
+  - [x] named `objects`
+  - [x] reusable `arcs`
+  - [x] reversed arc references
+  - [x] shared boundaries
+  - [x] `transform.scale`
+  - [x] `transform.translate`
+  - [x] quantized integer positions
+  - [x] delta-encoded arcs
+  - [x] GeometryCollection topology
+  - [x] Point/MultiPoint coordinate exception
+  - [x] standalone `.topojson`
+- [ ] **Next renderer**
+  - [ ] ASCII STL / interactive 3D
 - [ ] **Final Form**
   - [ ] Full rendering QA
   - [ ] Restraint discovered
@@ -307,19 +313,19 @@ owner/repository#123
 `GitHub`
 
 > [!NOTE]
-> GeoJSON positions use **longitude first, latitude second**: `[longitude, latitude]`.
+> TopoJSON is based on GeoJSON, but line and polygon geometry can reference reusable arcs instead of repeating complete coordinate sequences.
 
 > [!TIP]
-> Use a `FeatureCollection` when several points, lines, or polygons belong to one logical map.
+> Shared boundaries are TopoJSON's conceptual superpower: store the boundary once, then let adjacent geometries reference it in either direction.
 
 > [!IMPORTANT]
-> GitHub's map renderer expects supported geographic coordinates; its documentation currently calls out CRS84 as the supported projection.[^geojson-files]
+> A negative arc reference uses **ones' complement**. `-1` reverses arc `0`; `-2` reverses arc `1`; `-3` reverses arc `2`.[^topo-spec]
 
 > [!WARNING]
-> Reversing latitude and longitude can place a perfectly valid feature in a completely wrong location.
+> In quantized topology, arc coordinates are delta-encoded integer positions. Reading each pair as an absolute longitude/latitude value produces nonsense.
 
 > [!CAUTION]
-> Do not hide essential instructions only inside clickable map popups. Maps should augment accessible prose, not replace it.
+> A topology can be valid JSON while being invalid TopoJSON. JSON parsing alone does not verify arc indexes, geometry structure, or transforms.
 
 ---
 
@@ -327,44 +333,36 @@ owner/repository#123
 
 `Markdown` · `GitHub` · `Linguist`
 
-M7 remains represented with **33 distinct syntax modes**.
-
-### Fence controls
+M7 remains represented with **33 syntax modes**.
 
 ```
-const unlabeled = true;
+unlabeled fence
 ```
 
 ```text
-literal-output = true
+literal output
 ```
 
 ```javascript
-const highlighted = true;
-```
-
-```totally-not-a-language
-const unknownLabelControl = true;
-```
-
-### Alias controls
-
-```javascript
-const canonical = "javascript";
+const phase = "M11";
 ```
 
 ```js
 const alias = "js";
 ```
 
+```totally-not-a-language
+unknown-label-control = true
+```
+
 <details>
-<summary><strong>Gallery A — Web & UI (5)</strong></summary>
+<summary><strong>Web & UI — 5</strong></summary>
 
 ```javascript
 console.log("JavaScript");
 ```
 ```typescript
-const phase: number = 10;
+const phase: number = 11;
 ```
 ```html
 <details><summary>HTML</summary></details>
@@ -373,13 +371,13 @@ const phase: number = 10;
 .readme { display: block; }
 ```
 ```json
-{"phase":"M10"}
+{"phase":"M11"}
 ```
 
 </details>
 
 <details>
-<summary><strong>Gallery B — Systems & compiled (8)</strong></summary>
+<summary><strong>Systems & compiled — 8</strong></summary>
 
 ```c
 int main(void){return 0;}
@@ -411,7 +409,7 @@ print("Swift")
 </details>
 
 <details>
-<summary><strong>Gallery C — Scripting (6)</strong></summary>
+<summary><strong>Scripting — 6</strong></summary>
 
 ```python
 print("Python")
@@ -435,19 +433,19 @@ Write-Output 'PowerShell'
 </details>
 
 <details>
-<summary><strong>Gallery D — Data / config / infrastructure (5)</strong></summary>
+<summary><strong>Data / config / infrastructure — 5</strong></summary>
 
 ```sql
 SELECT 'SQL';
 ```
 ```yaml
-phase: M10
+phase: M11
 ```
 ```toml
-phase = "M10"
+phase = "M11"
 ```
 ```xml
-<phase>M10</phase>
+<phase>M11</phase>
 ```
 ```dockerfile
 FROM alpine:3.22
@@ -456,7 +454,7 @@ FROM alpine:3.22
 </details>
 
 <details>
-<summary><strong>Gallery E — Scientific / functional (5)</strong></summary>
+<summary><strong>Scientific / functional — 5</strong></summary>
 
 ```r
 print(pi)
@@ -477,34 +475,26 @@ main = print pi
 </details>
 
 <details>
-<summary><strong>Gallery F — Documentation / literal (4)</strong></summary>
+<summary><strong>Documentation / literal — 4</strong></summary>
 
 ```markdown
 # Markdown
 ```
 ```diff
-- static map screenshot
-+ interactive GeoJSON renderer
+- M10 GeoJSON
++ M11 TopoJSON
 ```
 ```text
 plaintext
 ```
 ```ini
 [readme]
-phase=M10
+phase=M11
 ```
 
 </details>
 
-| Gallery | Count |
-| --- | ---: |
-| Web & UI | 5 |
-| Systems & compiled | 8 |
-| Scripting | 6 |
-| Data/config/infra | 5 |
-| Scientific/functional | 5 |
-| Docs/meta | 4 |
-| **Total** | **33** |
+**Inventory:** 5 + 8 + 6 + 5 + 5 + 4 = **33 modes**.
 
 ---
 
@@ -512,17 +502,11 @@ phase=M10
 
 `GitHub`
 
-Markdown remains readable as plain text while adding structure.[^plain-text]
-
-Relative paths keep local assets and map files branch-aware.[^relative-links]
-
-GitHub sanitizes the HTML hybrid layer.[^sanitization]
-
-Linguist supplies syntax grammars for fenced code.[^linguist]
-
-GitHub renders LaTeX-formatted mathematics with MathJax.[^mathjax]
-
-GitHub renders Mermaid diagrams and GeoJSON maps through specialized fenced-block identifiers.[^mermaid][^geojson]
+GitHub uses Linguist for fenced-code highlighting.[^linguist]  
+GitHub renders supported LaTeX math with MathJax.[^mathjax]  
+GitHub renders Mermaid diagrams from `mermaid` fences.[^github-diagrams]  
+GitHub renders GeoJSON and TopoJSON as interactive maps.[^github-diagrams]  
+Standalone `.geojson` and `.topojson` files can render directly in repositories.[^noncode-maps]
 
 ---
 
@@ -542,7 +526,7 @@ GitHub renders Mermaid diagrams and GeoJSON maps through specialized fenced-bloc
 
 <img src="./assets/scaling-ruler.svg" alt="SVG scaling ruler" width="50%">
 
-[![Clickable local SVG portal](./assets/clickable-portal.svg)](#level-19--interactive-geojson-showcase)
+[![Clickable local media portal](./assets/clickable-portal.svg)](#level-20--interactive-topojson-showcase)
 
 ---
 
@@ -552,8 +536,7 @@ GitHub renders Mermaid diagrams and GeoJSON maps through specialized fenced-bloc
 
 Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>.  
 H<sub>2</sub>O · x<sup>2</sup>  
-<ins>Inserted</ins> · <del>Deleted</del> · <s>Obsolete</s>  
-<strong>Strong HTML</strong> · <em>emphasized HTML</em> · <code>inline HTML code</code>
+<ins>Inserted</ins> · <del>Deleted</del> · <s>Obsolete</s>
 
 ---
 
@@ -562,7 +545,7 @@ H<sub>2</sub>O · x<sup>2</sup>
 `HTML` · `Markdown` · `GitHub`
 
 <details>
-<summary><strong>Basic collapsed panel</strong></summary>
+<summary><strong>Collapsed panel</strong></summary>
 
 - Markdown list
 - **formatting**
@@ -573,7 +556,7 @@ H<sub>2</sub>O · x<sup>2</sup>
 <details open>
 <summary><strong>Open by default</strong></summary>
 
-The `open` attribute changes initial disclosure state without JavaScript.
+The `open` attribute changes the initial disclosure state without README-authored JavaScript.
 
 </details>
 
@@ -589,19 +572,12 @@ The `open` attribute changes initial disclosure state without JavaScript.
 **Markdown inside HTML inside Markdown.**
 
 </details>
-
 </details>
-
 </details>
-
-> [!TIP]
-> M10 uses `<details>` to keep secondary geometry maps optional. Interactive maps can be visually large even when their source is small.
 
 ---
 
 ## LEVEL 13 — HTML TABLE & LAYOUT LAB
-
-`HTML`
 
 <table>
   <thead><tr><th>Element</th><th>Role</th></tr></thead>
@@ -609,15 +585,13 @@ The `open` attribute changes initial disclosure state without JavaScript.
     <tr><td><code>&lt;details&gt;</code></td><td>Progressive disclosure</td></tr>
     <tr><td><code>&lt;kbd&gt;</code></td><td>Keyboard semantics</td></tr>
     <tr><td><code>&lt;picture&gt;</code></td><td>Theme-aware media</td></tr>
-    <tr><td><code>&lt;table&gt;</code></td><td>Explicit table structure</td></tr>
+    <tr><td><code>&lt;table&gt;</code></td><td>Explicit HTML table structure</td></tr>
   </tbody>
 </table>
 
 ---
 
 ## LEVEL 14 — MARKDOWN / HTML BOUNDARY LAB
-
-`Markdown` · `HTML` · `Parser`
 
 ```html
 <details>
@@ -632,54 +606,46 @@ The `open` attribute changes initial disclosure state without JavaScript.
 ```
 
 ```text
-Markdown owns structure by default.
-HTML adds semantics or disclosure.
-Advanced renderer fences select specialized visual systems.
+Markdown owns the document by default.
+HTML enters for semantics or disclosure.
+Specialized fence identifiers route source to advanced renderers.
 ```
 
 ---
 
 ## LEVEL 15 — SANITIZATION BOUNDARY
 
-`GitHub` · `HTML` · `Security`
-
 ```html
 <script>alert('nope')</script>
-<div style="position:fixed">not a README UI framework</div>
-<div class="app" id="root">not an application mount</div>
+<div style="position:fixed">not a README application shell</div>
+<div class="app" id="root">not a JavaScript mount point</div>
 ```
 
-| Goal | README-safe direction |
+| Need | README-safe mechanism |
 | --- | --- |
-| Interaction | `<details>` / `<summary>` |
+| Disclosure | `<details>` / `<summary>` |
 | Theme-aware media | `<picture>` / `<source>` |
-| Mathematics | MathJax delimiters / `math` fence |
-| Diagrams | `mermaid` fence |
-| Maps | `geojson` fence or `.geojson` file |
-| Styling | GitHub renderer + supported feature metadata |
-| Application behavior | Build an actual webpage/app |
+| Math | MathJax |
+| Diagrams | Mermaid |
+| Geography | GeoJSON / TopoJSON |
+| Real application logic | build an actual app |
 
 ---
 
 ## LEVEL 16 — HYBRID INTERFACE BOSS
 
-`Markdown` · `GFM` · `GitHub` · `HTML` · `MathJax` · `Mermaid` · `GeoJSON`
-
 <details open>
-<summary><strong>M10 SYSTEM CONSOLE</strong></summary>
+<summary><strong>M11 SYSTEM CONSOLE</strong></summary>
 
 <table>
-  <tr><th>System</th><th>Status</th></tr>
-  <tr><td>Markdown / GFM</td><td><strong>ONLINE</strong></td></tr>
-  <tr><td>HTML disclosure</td><td><strong>ONLINE</strong></td></tr>
-  <tr><td>Linguist syntax routing</td><td><strong>33 MODES</strong></td></tr>
-  <tr><td>MathJax rendering</td><td><strong>ADVANCED</strong></td></tr>
-  <tr><td>Mermaid rendering</td><td><strong>FULL GALLERY</strong></td></tr>
-  <tr><td>GeoJSON mapping</td><td><strong>INTERACTIVE</strong></td></tr>
-  <tr><td>README-authored JavaScript</td><td><del>ABSENT</del></td></tr>
+  <tr><th>Subsystem</th><th>Status</th></tr>
+  <tr><td>Linguist</td><td><strong>33 MODES</strong></td></tr>
+  <tr><td>MathJax</td><td><strong>ONLINE</strong></td></tr>
+  <tr><td>Mermaid</td><td><strong>ONLINE</strong></td></tr>
+  <tr><td>GeoJSON</td><td><strong>INTERACTIVE</strong></td></tr>
+  <tr><td>TopoJSON</td><td><strong>TOPOLOGICAL</strong></td></tr>
+  <tr><td>README JavaScript runtime</td><td><del>ABSENT</del> BY DESIGN</td></tr>
 </table>
-
-Inline equation: $\text{coordinates}+\text{geometry}+\text{properties}=\text{map feature}$.
 
 </details>
 
@@ -687,31 +653,22 @@ Inline equation: $\text{coordinates}+\text{geometry}+\text{properties}=\text{map
 
 # ACT V — ADVANCED RENDERING
 
-> Advanced renderer metadata can route Markdown source into mathematics, diagrams, maps, and eventually 3D geometry.
-
 ## LEVEL 17 — ADVANCED MATHJAX MATHEMATICAL SHOWCASE
 
 `GitHub` · `MathJax` · `LaTeX`
 
-M8 remains represented across all four math entry routes.
-
-Inline: $E=mc^2$ and $\sin^2\theta+\cos^2\theta=1$.
-
-Protected inline: $`\left\{x_i\right\}_{i=1}^{n}`$.
+Inline: $E=mc^2$ · protected inline: $`x_i^2`$.
 
 $$\left(\sum_{k=1}^{n}a_kb_k\right)^2\leq\left(\sum_{k=1}^{n}a_k^2\right)\left(\sum_{k=1}^{n}b_k^2\right)$$
 
 ```math
 A=\begin{pmatrix}1&2\\3&4\end{pmatrix},
-\qquad
-Av=\lambda v,
-\qquad
-\operatorname{rank}(A)+\operatorname{nullity}(A)=n
+\qquad Av=\lambda v,
+\qquad \operatorname{rank}(A)+\operatorname{nullity}(A)=n
 ```
 
 ```math
-\nabla f(x)=
-\begin{pmatrix}
+\nabla f(x)=\begin{pmatrix}
 \frac{\partial f}{\partial x_1}\\
 \vdots\\
 \frac{\partial f}{\partial x_n}
@@ -726,15 +683,8 @@ P(A\mid B)=\frac{P(B\mid A)P(A)}{P(B)},
 e^{i\pi}+1=0
 ```
 
-| Concept | Expression |
-| --- | --- |
-| Norm | $\lVert x\rVert_2$ |
-| Determinant | $\det A$ |
-| Gradient | $\nabla f(x)$ |
-| Expectation | $\mathbb E[X]$ |
-
 <details>
-<summary><strong>Open MathJax chamber</strong></summary>
+<summary><strong>Fourier chamber</strong></summary>
 
 ```math
 \widehat f(\xi)=\int_{-\infty}^{\infty}f(x)e^{-2\pi i x\xi}\,dx
@@ -746,43 +696,39 @@ e^{i\pi}+1=0
 
 ## LEVEL 18 — FULL MERMAID DIAGRAM GALLERY
 
-`GitHub` · `Mermaid` · `Diagram Renderer`
+`GitHub` · `Mermaid`
 
-M9 remains represented with its multi-family gallery. Large diagrams stay collapsible.
-
-### Flowchart
+M9's major diagram families remain represented: Flowchart, Sequence, State, Class, ER, Journey, Gantt, Pie, GitGraph, Mindmap, Timeline, Quadrant, Requirement, plus the Architecture compatibility-canary concept.
 
 ```mermaid
-flowchart LR
+flowchart TD
     SRC[Source] --> TYPE{Renderer metadata}
+    TYPE -- code --> L[Linguist]
     TYPE -- math --> MJ[MathJax]
     TYPE -- mermaid --> MM[Mermaid]
-    TYPE -- geojson --> GEO[GeoJSON]
-    MJ --> OUT[Rendered README]
+    TYPE -- geojson --> GJ[GeoJSON]
+    TYPE -- topojson --> TJ[TopoJSON]
+    L --> OUT[Rendered README]
+    MJ --> OUT
     MM --> OUT
-    GEO --> OUT
+    GJ --> OUT
+    TJ --> OUT
 ```
 
 <details>
-<summary><strong>Sequence</strong></summary>
+<summary><strong>Sequence + state examples</strong></summary>
 
 ```mermaid
 sequenceDiagram
-    actor Reader
-    participant GH as GitHub
+    actor Author
     participant MD as README.md
-    participant R as Specialized Renderer
-    Reader->>GH: Open repository
-    GH->>MD: Parse Markdown
-    MD->>R: Route fenced source
-    R-->>GH: Return specialized render
-    GH-->>Reader: Display result
+    participant GH as GitHub
+    participant R as Renderer
+    Author->>MD: commit source
+    MD->>GH: Markdown render
+    GH->>R: route by fence identifier
+    R-->>GH: specialized output
 ```
-
-</details>
-
-<details>
-<summary><strong>State</strong></summary>
 
 ```mermaid
 stateDiagram-v2
@@ -796,159 +742,76 @@ stateDiagram-v2
 
 </details>
 
-<details>
-<summary><strong>Class + ER</strong></summary>
-
-```mermaid
-classDiagram
-    Renderer <|-- MathJax
-    Renderer <|-- Mermaid
-    Renderer <|-- GeoJSON
-    README *-- Renderer
-```
-
-```mermaid
-erDiagram
-    REPOSITORY ||--|| README : contains
-    REPOSITORY ||--o{ ASSET : owns
-    README ||--o{ RENDERER_BLOCK : embeds
-```
-
-</details>
-
-<details>
-<summary><strong>Journey + Gantt + Pie</strong></summary>
-
-```mermaid
-journey
-    title Reader explores advanced renderers
-    section Source
-      Read Markdown: 5: Reader
-    section Render
-      Inspect MathJax: 5: Reader
-      Inspect Mermaid: 5: Reader
-      Explore GeoJSON: 5: Reader
-```
-
-```mermaid
-gantt
-    title Advanced renderer phases
-    dateFormat YYYY-MM-DD
-    section Complete
-    M8 MathJax :done, m8, 2026-08-18, 1d
-    M9 Mermaid :done, m9, after m8, 1d
-    M10 GeoJSON :active, m10, after m9, 1d
-    section Next
-    M11 TopoJSON :m11, after m10, 1d
-    M12 STL :m12, after m11, 1d
-```
-
-```mermaid
-pie showData
-    title Advanced Renderer Power
-    "MathJax" : 30
-    "Mermaid" : 35
-    "GeoJSON" : 30
-    "Restraint" : 5
-```
-
-</details>
-
-<details>
-<summary><strong>GitGraph + Mindmap + Timeline</strong></summary>
-
-```mermaid
-gitGraph
-    commit id: "M8"
-    branch diagrams
-    checkout diagrams
-    commit id: "M9"
-    checkout main
-    merge diagrams
-    branch maps
-    checkout maps
-    commit id: "M10"
-```
-
-```mermaid
-mindmap
-  root((Advanced Renderers))
-    MathJax
-      notation
-      matrices
-    Mermaid
-      process
-      relationships
-    GeoJSON
-      points
-      lines
-      polygons
-```
-
-```mermaid
-timeline
-    title Renderer evolution
-    M8 : MathJax
-    M9 : Mermaid
-    M10 : GeoJSON
-    M11 : TopoJSON
-    M12 : STL
-```
-
-</details>
-
-<details>
-<summary><strong>Quadrant + Requirement</strong></summary>
-
-```mermaid
-quadrantChart
-    title Visual documentation mechanisms
-    x-axis Low structure --> High structure
-    y-axis Static --> Interactive
-    SVG: [0.25, 0.22]
-    MathJax: [0.48, 0.25]
-    Mermaid: [0.70, 0.45]
-    GeoJSON: [0.82, 0.88]
-```
-
-```mermaid
-requirementDiagram
-    requirement source_controlled {
-        id: REQ-1
-        text: Visual source remains reviewable
-        risk: medium
-        verifymethod: inspection
-    }
-    element renderer_block {
-        type: documentation
-        docref: README.md
-    }
-    renderer_block - satisfies -> source_controlled
-```
-
-</details>
-
-> [!NOTE]
-> M9's Architecture v11.1+ compatibility-canary concept remains relevant: upstream Mermaid support and GitHub's bundled Mermaid version are not automatically identical.
-
 ---
 
 ## LEVEL 19 — INTERACTIVE GEOJSON SHOWCASE
 
 `GitHub` · `GeoJSON` · `Interactive Map` · `Local Asset`
 
-GitHub documents GeoJSON as a native diagram/map syntax in Markdown. Put valid GeoJSON inside a fenced block labeled `geojson`, or commit a `.geojson` file and open it directly in the repository.[^geojson][^geojson-files]
+M10 remains as the coordinate-centric geographic baseline. GeoJSON stores explicit geometry coordinates inside Features and FeatureCollections.
 
 > [!IMPORTANT]
-> GeoJSON coordinate order is **`[longitude, latitude]`**. This is the opposite of the conversational “latitude, longitude” order many people are used to saying aloud.
+> GeoJSON positions remain **`[longitude, latitude]`**.
 
-### 19.1 — Renderer anatomy
+<details open>
+<summary><strong>M10 GeoJSON baseline — points + route + polygon</strong></summary>
 
-````markdown
 ```geojson
 {
-  "type": "Point",
-  "coordinates": [13.405, 52.52]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"title": "London", "marker-color": "#7c3aed"},
+      "geometry": {"type": "Point", "coordinates": [-0.1276, 51.5072]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"title": "Paris", "marker-color": "#0891b2"},
+      "geometry": {"type": "Point", "coordinates": [2.3522, 48.8566]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"title": "Route", "stroke": "#2563eb", "stroke-width": 4},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-0.1276, 51.5072], [2.3522, 48.8566], [13.405, 52.52]]
+      }
+    }
+  ]
+}
+```
+
+</details>
+
+Repository-owned baseline: **[`assets/geojson-showcase.geojson`](./assets/geojson-showcase.geojson)**.
+
+```text
+GeoJSON strength:
+geometry is explicit and locally understandable.
+
+TopoJSON strength:
+shared geometry can become reusable topology.
+```
+
+---
+
+## LEVEL 20 — INTERACTIVE TOPOJSON SHOWCASE
+
+`GitHub` · `TopoJSON` · `Interactive Map` · `Topology` · `Local Asset`
+
+GitHub supports TopoJSON maps both in fenced `topojson` blocks and as repository files such as `.topojson`.[^github-diagrams][^noncode-maps]
+
+TopoJSON extends GeoJSON with a topology model: one root `Topology` owns named geometry `objects` plus a shared `arcs` table.[^topo-spec]
+
+### 20.1 — Renderer anatomy
+
+````markdown
+```topojson
+{
+  "type": "Topology",
+  "objects": { ... },
+  "arcs": [ ... ]
 }
 ```
 ````
@@ -956,236 +819,156 @@ GitHub documents GeoJSON as a native diagram/map syntax in Markdown. Put valid G
 ```text
 Markdown fence
     │
-    ├── info string: geojson
+    ├── identifier: topojson
     │
-    └── valid GeoJSON object
-            ↓
-       GitHub map renderer
-            ↓
-     interactive Leaflet map
+    └── Topology object
+         ├── objects
+         ├── arcs
+         ├── optional transform
+         └── optional bbox
+                ↓
+         GitHub map renderer
+                ↓
+        interactive map
 ```
-
-A `json` fence would highlight the same characters as source. A `geojson` fence asks GitHub for a map.
 
 ---
 
-### 19.2 — Main interactive FeatureCollection
+### 20.2 — Shared-boundary topology
 
-This map combines **three Points, one LineString, and one Polygon**. It is expanded by default because it is M10's primary live demonstration.
+The main M11 map contains two adjacent polygons. Their common vertical boundary is stored exactly once as **arc `1`**.
+
+- West region references arc `1` forward.
+- East region references `-2`, meaning **arc `1` reversed**.
 
 <details open>
-<summary><strong>Open / collapse the M10 renderer expedition map</strong></summary>
+<summary><strong>SHARED TOPOLOGY — same boundary, opposite directions</strong></summary>
 
-```geojson
+```topojson
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Renderer Node — London",
-        "marker-size": "large",
-        "marker-color": "#7c3aed",
-        "marker-symbol": "1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.1276, 51.5072]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Renderer Node — Paris",
-        "marker-size": "medium",
-        "marker-color": "#0891b2",
-        "marker-symbol": "2"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [2.3522, 48.8566]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Renderer Node — Berlin",
-        "marker-size": "medium",
-        "marker-color": "#ea580c",
-        "marker-symbol": "3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.405, 52.52]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Renderer Route",
-        "stroke": "#2563eb",
-        "stroke-opacity": 0.9,
-        "stroke-width": 4
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-0.1276, 51.5072],
-          [2.3522, 48.8566],
-          [13.405, 52.52]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Demonstration Zone",
-        "stroke": "#7c3aed",
-        "stroke-opacity": 0.85,
-        "stroke-width": 2,
-        "fill": "#c4b5fd",
-        "fill-opacity": 0.28
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [4.0, 49.5],
-            [10.5, 49.5],
-            [10.5, 53.2],
-            [4.0, 53.2],
-            [4.0, 49.5]
-          ]
-        ]
-      }
+  "type": "Topology",
+  "objects": {
+    "regions": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "type": "Polygon",
+          "id": "west",
+          "properties": {"title": "West Region"},
+          "arcs": [[0, 1, 2, 3]]
+        },
+        {
+          "type": "Polygon",
+          "id": "east",
+          "properties": {"title": "East Region"},
+          "arcs": [[4, 5, 6, -2]]
+        }
+      ]
     }
+  },
+  "arcs": [
+    [[2, 48], [6, 48]],
+    [[6, 48], [6, 52]],
+    [[6, 52], [2, 52]],
+    [[2, 52], [2, 48]],
+    [[6, 48], [10, 48]],
+    [[10, 48], [10, 52]],
+    [[10, 52], [6, 52]]
   ]
 }
 ```
 
 </details>
 
-The feature properties use GitHub-supported simple-style metadata such as `marker-color`, `marker-size`, `marker-symbol`, `stroke`, `stroke-width`, `fill`, and opacity controls.[^geojson-style]
-
----
-
-### 19.3 — Point geometry
-
-<details>
-<summary><strong>Point — one coordinate position</strong></summary>
-
-```geojson
-{
-  "type": "Feature",
-  "properties": {
-    "title": "Single Point",
-    "description": "One geographic position",
-    "marker-color": "#7c3aed",
-    "marker-size": "large",
-    "marker-symbol": "p"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [13.405, 52.52]
-  }
-}
-```
-
-</details>
-
-A position is a numeric array. For ordinary 2D geographic GeoJSON on GitHub, think:
+The two polygon rings reconstruct as:
 
 ```text
-[ longitude, latitude ]
+west: 2,48 → 6,48 → 6,52 → 2,52 → 2,48
+                    ↑
+              shared arc 1
+                    ↓
+east: 6,48 → 10,48 → 10,52 → 6,52 → 6,48
+                                   reverse of arc 1
 ```
 
 ---
 
-### 19.4 — LineString geometry
+### 20.3 — Negative arc indexes are ones' complement
 
-<details>
-<summary><strong>LineString — an ordered path through positions</strong></summary>
+This detail is easy to get wrong.
 
-```geojson
-{
-  "type": "Feature",
-  "properties": {
-    "title": "Three-node route",
-    "stroke": "#0891b2",
-    "stroke-opacity": 0.9,
-    "stroke-width": 5
-  },
-  "geometry": {
-    "type": "LineString",
-    "coordinates": [
-      [-0.1276, 51.5072],
-      [2.3522, 48.8566],
-      [13.405, 52.52]
-    ]
-  }
-}
+| Reference | Meaning |
+| :---: | --- |
+| `0` | arc 0 forward |
+| `1` | arc 1 forward |
+| `2` | arc 2 forward |
+| `-1` | arc 0 reversed |
+| `-2` | arc 1 reversed |
+| `-3` | arc 2 reversed |
+
+The rule is:
+
+```text
+negative reference i
+→ actual arc index = ~i
+→ reverse that arc
 ```
 
-</details>
+So `-2` is **not** “arc 2 backwards.” It is **arc 1 backwards**.[^topo-spec]
 
-Line order matters: the geometry connects positions in the order supplied.
+```math
+\boxed{\text{reversed arc }k\text{ is referenced by }\sim k=-k-1}
+```
 
 ---
 
-### 19.5 — Polygon geometry
+### 20.4 — Named objects
+
+A Topology can expose multiple named geometry objects under `objects`.
+
+The repository-owned M11 dataset contains:
+
+```text
+objects
+├── regions
+│   └── GeometryCollection
+│       ├── west Polygon
+│       └── east Polygon
+├── route
+│   └── LineString
+├── nodes
+│   └── MultiPoint
+└── sharedBoundary
+    └── LineString
+```
+
+A renderer or downstream tool can choose which named object it needs without changing the shared arc table.
+
+---
+
+### 20.5 — GeometryCollection topology
 
 <details>
-<summary><strong>Polygon — a closed linear ring</strong></summary>
+<summary><strong>GeometryCollection — several geometries sharing one topology</strong></summary>
 
-```geojson
+```topojson
 {
-  "type": "Feature",
-  "properties": {
-    "title": "Closed demonstration zone",
-    "stroke": "#7c3aed",
-    "stroke-width": 3,
-    "fill": "#ddd6fe",
-    "fill-opacity": 0.35
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [4.0, 49.5],
-        [10.5, 49.5],
-        [10.5, 53.2],
-        [4.0, 53.2],
-        [4.0, 49.5]
+  "type": "Topology",
+  "objects": {
+    "collection": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {"type": "LineString", "properties": {"name": "lower"}, "arcs": [0]},
+        {"type": "LineString", "properties": {"name": "right"}, "arcs": [1]},
+        {"type": "LineString", "properties": {"name": "upper-reversed"}, "arcs": [-3]}
       ]
-    ]
-  }
-}
-```
-
-</details>
-
-The first and last position of the ring are the same, explicitly closing the boundary.
-
----
-
-### 19.6 — MultiPoint
-
-<details>
-<summary><strong>MultiPoint — several positions, one geometry</strong></summary>
-
-```geojson
-{
-  "type": "Feature",
-  "properties": {
-    "title": "MultiPoint demonstration"
+    }
   },
-  "geometry": {
-    "type": "MultiPoint",
-    "coordinates": [
-      [-3.1883, 55.9533],
-      [12.4964, 41.9028]
-    ]
-  }
+  "arcs": [
+    [[2, 48], [6, 48]],
+    [[6, 48], [6, 52]],
+    [[2, 52], [6, 52]]
+  ]
 }
 ```
 
@@ -1193,397 +976,393 @@ The first and last position of the ring are the same, explicitly closing the bou
 
 ---
 
-### 19.7 — MultiLineString
+### 20.6 — Points are the important exception
 
-<details>
-<summary><strong>MultiLineString — multiple paths, one geometry</strong></summary>
-
-```geojson
-{
-  "type": "Feature",
-  "properties": {
-    "title": "Two independent paths",
-    "stroke": "#059669",
-    "stroke-width": 3
-  },
-  "geometry": {
-    "type": "MultiLineString",
-    "coordinates": [
-      [[-5.0, 50.0], [-1.0, 52.0], [2.0, 51.0]],
-      [[8.0, 47.0], [11.0, 48.5], [14.0, 47.8]]
-    ]
-  }
-}
-```
-
-</details>
-
----
-
-### 19.8 — MultiPolygon
-
-<details>
-<summary><strong>MultiPolygon — multiple separate areas</strong></summary>
-
-```geojson
-{
-  "type": "Feature",
-  "properties": {
-    "title": "Two separated polygons",
-    "stroke": "#dc2626",
-    "stroke-width": 2,
-    "fill": "#fecaca",
-    "fill-opacity": 0.3
-  },
-  "geometry": {
-    "type": "MultiPolygon",
-    "coordinates": [
-      [[[0.0, 44.0], [2.0, 44.0], [2.0, 45.0], [0.0, 45.0], [0.0, 44.0]]],
-      [[[15.0, 54.0], [17.0, 54.0], [17.0, 55.0], [15.0, 55.0], [15.0, 54.0]]]
-    ]
-  }
-}
-```
-
-</details>
-
----
-
-### 19.9 — GeometryCollection
-
-<details>
-<summary><strong>GeometryCollection — heterogeneous geometry objects</strong></summary>
-
-```geojson
-{
-  "type": "Feature",
-  "properties": {
-    "title": "Mixed geometry collection"
-  },
-  "geometry": {
-    "type": "GeometryCollection",
-    "geometries": [
-      {
-        "type": "Point",
-        "coordinates": [7.4474, 46.948]
-      },
-      {
-        "type": "LineString",
-        "coordinates": [
-          [6.1, 46.2],
-          [7.4474, 46.948],
-          [8.54, 47.38]
-        ]
-      }
-    ]
-  }
-}
-```
-
-</details>
-
-GitHub's map viewer documentation lists Point, LineString, Polygon, MultiPoint, MultiLineString, MultiPolygon, and GeometryCollection as supported geometry types.[^geojson-files]
-
----
-
-### 19.10 — Feature vs geometry vs collection
-
-```text
-Geometry
-└── says WHAT shape exists
-    Point / LineString / Polygon / ...
-
-Feature
-├── geometry
-└── properties
-    title / description / style metadata / domain data
-
-FeatureCollection
-└── features[]
-    ├── Feature
-    ├── Feature
-    └── Feature
-```
-
-A geometry is spatial structure. A Feature attaches properties. A FeatureCollection groups features into one document/map.
-
----
-
-### 19.11 — Styling metadata laboratory
-
-GitHub's GeoJSON viewer supports simple-style feature properties for markers, lines, and polygons.[^geojson-style]
-
-| Property | Role |
-| --- | --- |
-| `marker-size` | point marker size |
-| `marker-color` | point marker color |
-| `marker-symbol` | Maki icon ID or one alphanumeric character |
-| `stroke` | line / polygon-edge color |
-| `stroke-opacity` | line / edge opacity |
-| `stroke-width` | line / edge width |
-| `fill` | polygon interior color |
-| `fill-opacity` | polygon interior opacity |
-
-<details>
-<summary><strong>Open styled-feature source</strong></summary>
+TopoJSON Point and MultiPoint geometries use `coordinates` rather than `arcs`. LineStrings, MultiLineStrings, Polygons, and MultiPolygons reference arcs.[^topo-spec]
 
 ```json
 {
-  "properties": {
-    "marker-size": "large",
-    "marker-color": "#7c3aed",
-    "marker-symbol": "1",
-    "stroke": "#2563eb",
-    "stroke-width": 4,
-    "fill": "#c4b5fd",
-    "fill-opacity": 0.28
-  }
+  "type": "MultiPoint",
+  "coordinates": [[200, 1000], [600, 1000], [1000, 1000]]
+}
+```
+
+In the M11 standalone file those integer point positions are interpreted through the topology's transform.
+
+---
+
+### 20.7 — Quantization transform
+
+TopoJSON may include:
+
+```json
+"transform": {
+  "scale": [0.01, 0.01],
+  "translate": [0.0, 40.0]
+}
+```
+
+A quantized position $q=(q_x,q_y)$ becomes an absolute position:
+
+```math
+x=q_xs_x+t_x,
+\qquad
+y=q_ys_y+t_y
+```
+
+For example:
+
+```math
+(200,800)\mapsto(200\cdot0.01+0,\;800\cdot0.01+40)=(2,48)
+```
+
+This lets integer coordinates represent geographic positions compactly.[^topo-spec]
+
+---
+
+### 20.8 — Delta-encoded arcs
+
+When a Topology is quantized, each arc is delta-encoded.[^topo-spec]
+
+This arc:
+
+```json
+[[200, 800], [400, 0]]
+```
+
+does **not** mean two absolute points `(200,800)` and `(400,0)`.
+
+It decodes as:
+
+```text
+first quantized point = (200, 800)
+next delta            = (+400, +0)
+second point          = (600, 800)
+```
+
+then the transform yields:
+
+```text
+(200,800) → (2,48)
+(600,800) → (6,48)
+```
+
+The next point accumulates from the previous point; it does not restart from zero.
+
+---
+
+### 20.9 — Full quantized topology
+
+This is the same model used by the repository-owned `.topojson` file.
+
+<details>
+<summary><strong>Open quantized + delta-encoded topology</strong></summary>
+
+```topojson
+{
+  "type": "Topology",
+  "bbox": [2, 48, 10, 52],
+  "transform": {
+    "scale": [0.01, 0.01],
+    "translate": [0, 40]
+  },
+  "objects": {
+    "regions": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {"type": "Polygon", "id": "west", "arcs": [[0, 1, 2, 3]]},
+        {"type": "Polygon", "id": "east", "arcs": [[4, 5, 6, -2]]}
+      ]
+    },
+    "route": {
+      "type": "LineString",
+      "arcs": [7, 8]
+    },
+    "nodes": {
+      "type": "MultiPoint",
+      "coordinates": [[200, 1000], [600, 1000], [1000, 1000]]
+    }
+  },
+  "arcs": [
+    [[200, 800], [400, 0]],
+    [[600, 800], [0, 400]],
+    [[600, 1200], [-400, 0]],
+    [[200, 1200], [0, -400]],
+    [[600, 800], [400, 0]],
+    [[1000, 800], [0, 400]],
+    [[1000, 1200], [-400, 0]],
+    [[200, 1000], [400, 0]],
+    [[600, 1000], [400, 0]]
+  ]
 }
 ```
 
 </details>
 
-The `json` fence above is intentional: it demonstrates metadata as source rather than spawning another map.
+---
+
+### 20.10 — Shared boundary versus duplicated coordinates
+
+Conceptually, ordinary polygon GeoJSON often looks like:
+
+```text
+west polygon  → stores its east boundary coordinates
+
+east polygon  → stores its west boundary coordinates again
+```
+
+TopoJSON can instead express:
+
+```text
+arcs[1] = shared boundary
+
+west polygon → ... 1 ...
+east polygon → ... -2 ...
+```
+
+The topology knows these edges are the **same boundary**, not merely two coordinate sequences that happen to contain equal numbers.
+
+> [!TIP]
+> This shared-topology model is especially useful for adjacent regions and repeated boundaries. It can also reduce redundant coordinate storage, particularly in boundary-heavy datasets.
 
 ---
 
-### 19.12 — Repository-owned standalone GeoJSON
+### 20.11 — Arc stitching
 
-M10 adds a real file:
+A LineString or ring may reference several arcs.
 
-**[`assets/geojson-showcase.geojson`](./assets/geojson-showcase.geojson)**
+```json
+{"type":"LineString","arcs":[7,8]}
+```
 
-Opening that file directly on GitHub exercises a second rendering path:
+When reconstructing the geometry, consecutive arcs are stitched end-to-start. The duplicate junction coordinate is not repeated in the reconstructed line.[^topo-spec]
 
 ```text
-README fenced geojson
+arc 7: A ───── B
+arc 8:         B ───── C
+
+stitched: A ───── B ───── C
+```
+
+---
+
+### 20.12 — Bounding box
+
+TopoJSON may carry a `bbox`:
+
+```json
+"bbox": [2.0, 48.0, 10.0, 52.0]
+```
+
+This describes the topology's geographic extent in absolute coordinates, even when internal arcs are quantized.
+
+---
+
+### 20.13 — Repository-owned standalone TopoJSON
+
+M11 adds:
+
+**[`assets/topojson-showcase.topojson`](./assets/topojson-showcase.topojson)**
+
+GitHub's repository viewer supports `.topojson` map files directly when they contain a valid `Topology` object.[^noncode-maps]
+
+```text
+README fenced topojson
         ↓
 embedded interactive map
 
-.geojson repository file
+.topojson repository file
         ↓
 standalone interactive map viewer
 ```
 
-The standalone dataset contains all seven geometry families and simple-style metadata.
+The file includes:
+
+- quantized transform
+- delta-encoded arcs
+- two polygons sharing one reversed boundary
+- a multi-arc route
+- MultiPoint nodes
+- a named shared-boundary object
+- `bbox`
 
 ---
 
-### 19.13 — Projection and coordinate-system boundary
+### 20.14 — GeoJSON versus TopoJSON
 
-GitHub's current non-code-file documentation says its map viewer supports the CRS84 projection. If valid points render somewhere absurd, a projection mismatch—or simply reversed coordinates—is a primary suspect.[^geojson-files]
+| Question | GeoJSON | TopoJSON |
+| --- | --- | --- |
+| Root model | Feature / FeatureCollection | Topology |
+| Lines / polygons | explicit coordinates | arc references |
+| Shared boundaries | usually repeated coordinates | reusable shared arcs |
+| Reverse shared edge | repeat coordinates backwards | negative arc reference |
+| Quantization | not intrinsic | optional transform |
+| Delta encoding | no | quantized arcs |
+| Named map objects | Features / collections | `objects` dictionary |
+| Human readability | generally simpler | more compact but indirect |
+| GitHub interactive map | ✅ | ✅ |
+| Standalone repository rendering | `.geojson` | `.topojson` |
 
-```text
-Correct conceptual order:
-[longitude, latitude]
-
-Common human-language order:
-latitude, longitude
-
-Do not swap them casually.
+```mermaid
+flowchart LR
+    DATA[Geographic data] --> Q{Need shared topology?}
+    Q -- no --> GJ[GeoJSON]
+    Q -- yes --> TJ[TopoJSON]
+    GJ --> MAP[GitHub interactive map]
+    TJ --> MAP
 ```
 
 ---
 
-### 19.14 — GeoJSON parser-failure laboratory
+### 20.15 — TopoJSON versus ordinary JSON highlighting
 
-Broken examples remain inert inside a longer `text` fence:
-
-````text
-```geojson
-{
-  "type": "Point",
-  "coordinates": [13.405, 52.52],
-}
-```
-
-```geojson
-{
-  "type": "Polygon",
-  "coordinates": [[[4,49], [10,49], [10,53]]]
-}
-```
-````
-
-The first example has invalid JSON because of the trailing comma. The second is structurally inadequate as a proper closed polygon ring.
-
-> [!CAUTION]
-> Broken geographic examples should look deliberately broken. Do not place invalid GeoJSON in a live `geojson` fence merely to prove that parsing can fail.
-
----
-
-### 19.15 — GeoJSON vs JSON highlighting
-
-The same conceptual object can enter two completely different pipelines.
+The source is still JSON text, but the fence chooses the renderer.
 
 **Highlighted source:**
 
 ```json
 {
-  "type": "Point",
-  "coordinates": [13.405, 52.52]
+  "type": "Topology",
+  "objects": {},
+  "arcs": []
 }
 ```
 
-**Interactive geographic renderer:**
+**Interactive topology renderer:**
 
-```geojson
+```topojson
 {
-  "type": "Point",
-  "coordinates": [13.405, 52.52]
+  "type": "Topology",
+  "objects": {
+    "line": {"type": "LineString", "arcs": [0]}
+  },
+  "arcs": [
+    [[2, 48], [10, 52]]
+  ]
 }
 ```
 
 ```text
-json     → Linguist → highlighted JSON source
-geojson  → map renderer → interactive geographic view
-```
-
-This is M10's central renderer lesson: **identical JSON structure can be treated as source or as an interactive visualization depending on the fence identifier.**
-
----
-
-### 19.16 — GeoJSON vs Mermaid vs MathJax vs SVG
-
-| Need | Renderer |
-| --- | --- |
-| Formula / notation | MathJax |
-| Process / relationships | Mermaid |
-| Geographic geometry | GeoJSON |
-| Static illustration / branding | repository-owned SVG |
-| Generic source example | Linguist / normal code fence |
-
-```mermaid
-flowchart TD
-    NEED[What are you trying to communicate?]
-    NEED --> MATH{Mathematics?}
-    MATH -- yes --> MJ[MathJax]
-    MATH -- no --> GEO{Geographic coordinates?}
-    GEO -- yes --> GJ[GeoJSON]
-    GEO -- no --> REL{Relationships / process?}
-    REL -- yes --> MM[Mermaid]
-    REL -- no --> SVG[SVG / ordinary media]
+json      → Linguist → highlighted source
+topojson  → GitHub map renderer → interactive topology
 ```
 
 ---
 
-### 19.17 — Map accessibility and fallback strategy
+### 20.16 — Inert failure laboratory
 
-Interactive maps are visually powerful but should not become the only representation of essential content.
+Broken examples stay inside a longer `text` fence.
 
-For the main M10 map, the prose already states its semantic structure:
-
-- three named point features
-- one route connecting them
-- one demonstration polygon
-- styling metadata
-- a repository-owned equivalent dataset
-
-That means the document still communicates the model if the interactive map cannot be used.
-
-> [!IMPORTANT]
-> Treat the map as an enhancement over accessible text and inspectable JSON source, not as the sole carrier of meaning.
-
----
-
-### 19.18 — Large-map boundary
-
-GitHub's current documentation says very large GeoJSON files (over roughly 10 MB) cannot be rendered in the browser, and maps with roughly more than 750 markers may be clustered at higher zoom levels.[^geojson-files]
-
-```text
-Small documentation map
-→ embed directly
-
-Large repeated geometry
-→ consider TopoJSON (M11)
-
-Huge dataset
-→ split files / use a dedicated mapping application
+````text
+```topojson
+{
+  "type": "Topology",
+  "objects": {
+    "broken": {"type": "LineString", "arcs": [99]}
+  },
+  "arcs": []
+}
 ```
 
-This gives M11 a real reason to exist: TopoJSON is not merely “GeoJSON with a different name”; it can encode shared topology more compactly.
+```topojson
+{
+  "type": "Topology",
+  "transform": {"scale": [0.1], "translate": [0, 0]},
+  "objects": {},
+  "arcs": []
+}
+```
+````
+
+The first references a nonexistent arc. The second has an invalid one-element `scale`; the specification requires two-element `scale` and `translate` arrays.[^topo-spec]
+
+> [!CAUTION]
+> Deliberately broken topology should never be a live M11 map. A failed renderer must be clearly educational, not indistinguishable from a regression.
 
 ---
 
-### 19.19 — GeoJSON Final Form
+### 20.17 — Topology accessibility and fallback
+
+The interactive topology is an enhancement, not the only explanation.
+
+M11 also provides:
+
+1. prose describing the two adjacent polygons;
+2. a text reconstruction of their shared boundary;
+3. the raw topology source;
+4. the standalone `.topojson` file;
+5. a GeoJSON baseline for readers who prefer explicit coordinates.
+
+So the conceptual meaning survives even when an interactive map cannot be operated.
+
+---
+
+### 20.18 — TopoJSON Final Form
 
 <details open>
-<summary><strong>INTERACTIVE MAP FINAL FORM — expanded by default</strong></summary>
+<summary><strong>TOPOLOGY FINAL FORM — one edge, two regions</strong></summary>
 
-```geojson
+```topojson
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "SOURCE",
-        "marker-color": "#7c3aed",
-        "marker-symbol": "s"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [2.3522, 48.8566]
-      }
+  "type": "Topology",
+  "objects": {
+    "west": {
+      "type": "Polygon",
+      "properties": {"title": "WEST — shared arc forward"},
+      "arcs": [[0, 1, 2, 3]]
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "RENDER",
-        "marker-color": "#0891b2",
-        "marker-symbol": "r"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.405, 52.52]
-      }
+    "east": {
+      "type": "Polygon",
+      "properties": {"title": "EAST — shared arc reversed"},
+      "arcs": [[4, 5, 6, -2]]
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Source to Render",
-        "stroke": "#2563eb",
-        "stroke-width": 5
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [2.3522, 48.8566],
-          [13.405, 52.52]
-        ]
-      }
+    "boundary": {
+      "type": "LineString",
+      "properties": {"title": "THE SAME ARC"},
+      "arcs": [1]
     }
+  },
+  "arcs": [
+    [[2, 48], [6, 48]],
+    [[6, 48], [6, 52]],
+    [[6, 52], [2, 52]],
+    [[2, 52], [2, 48]],
+    [[6, 48], [10, 48]],
+    [[10, 48], [10, 52]],
+    [[10, 52], [6, 52]]
   ]
 }
 ```
 
 ```math
 \boxed{
-\text{coordinates}
-+\text{geometry}
-+\text{properties}
-+\texttt{geojson}
-=\text{interactive map}
+\text{objects}
++\text{shared arcs}
++\text{reversed references}
++\texttt{topojson}
+=\text{interactive topology}
 }
 ```
 
 </details>
 
-### M10 renderer rule
+### M11 renderer rule
 
 ```text
-Need geography?
-├── a few features in README → fenced geojson
-├── reusable repository dataset → .geojson file
-├── shared-topology compression → TopoJSON (M11)
-└── full GIS application → use a dedicated map stack
+Need geographic data?
+├── explicit independent geometry → GeoJSON
+├── shared boundaries / topology → TopoJSON
+│   ├── readable absolute arcs → unquantized topology
+│   └── compact integer arcs → transform + delta encoding
+├── 3D geometry → ASCII STL (M12)
+└── full GIS behavior → dedicated mapping application
 ```
 
 ---
 
 # ACT VI — PARSER & SOURCE LAB
 
-## LEVEL 20 — ESCAPE HATCH
+## LEVEL 21 — ESCAPE HATCH
 
 `Markdown` · `Parser`
 
@@ -1600,20 +1379,18 @@ Need geography?
 | `#` | `\#` |
 | `>` | `\>` |
 | `|` | `\|` |
-| `$` | `\$` where needed around math parsing |
+| `$` | `\$` where math parsing needs it |
 | `\` | `\\` |
 
 ---
 
-## LEVEL 21 — BACKTICK & FENCE PARADOX
-
-`Markdown` · `Parser`
+## LEVEL 22 — BACKTICK & FENCE PARADOX
 
 ``Use a `backtick` inside code``
 
 ````markdown
 ```javascript
-console.log("Three backticks live inside four.");
+console.log("three backticks inside four");
 ```
 ````
 
@@ -1630,28 +1407,31 @@ flowchart LR
 ```
 ````
 
----
-
-## LEVEL 22 — DELIMITER & RENDERER COLLISION LAB
-
-`Markdown` · `GFM` · `MathJax` · `Mermaid` · `GeoJSON`
-
-````text
-$            → possible MathJax delimiter
-`            → code delimiter / protected math boundary
-```math      → MathJax block routing metadata
-```mermaid   → Mermaid diagram routing metadata
-```geojson   → interactive map routing metadata
-```json      → syntax-highlighted JSON source
+````markdown
+```topojson
+{"type":"Topology","objects":{},"arcs":[]}
+```
 ````
 
-Fence identifiers are not cosmetic labels. They can switch the entire rendering subsystem.
+---
+
+## LEVEL 23 — DELIMITER & RENDERER COLLISION LAB
+
+````text
+$             → possible MathJax delimiter
+`             → code delimiter / protected math boundary
+```math       → MathJax block renderer
+```mermaid    → Mermaid diagram renderer
+```geojson    → GeoJSON map renderer
+```topojson   → TopoJSON map renderer
+```json       → Linguist-highlighted source
+````
+
+A fence identifier can switch the entire rendering subsystem.
 
 ---
 
-## LEVEL 23 — ENTITY REACTOR
-
-`Markdown` · `HTML`
+## LEVEL 24 — ENTITY REACTOR
 
 | Source | Rendered |
 | --- | :---: |
@@ -1667,9 +1447,7 @@ Fence identifiers are not cosmetic labels. They can switch the entire rendering 
 
 ---
 
-## LEVEL 24 — WHITESPACE & RECURSION CHAMBER
-
-`Markdown` · `Parser`
+## LEVEL 25 — WHITESPACE & RECURSION CHAMBER
 
 ````markdown
 ```markdown
@@ -1692,18 +1470,25 @@ flowchart LR
 
 ````markdown
 ```geojson
+{"type":"Point","coordinates":[13.405,52.52]}
+```
+````
+
+````markdown
+```topojson
 {
-  "type": "Point",
-  "coordinates": [13.405, 52.52]
+  "type":"Topology",
+  "objects":{"line":{"type":"LineString","arcs":[0]}},
+  "arcs":[[[2,48],[10,52]]]
 }
 ```
 ````
 
 <!--
 Future maintainers:
-Nested fences, GeoJSON coordinate order, renderer identifiers, math delimiters,
-literal-dollar escapes, reference definitions, relative assets, and details blank lines
-are intentional parser demonstrations.
+Nested renderer fences, TopoJSON arc semantics, negative arc indexes, transforms,
+delta encoding, GeoJSON coordinate order, math delimiters, relative assets, and
+HTML/details blank lines are intentional source demonstrations.
 -->
 
 ---
@@ -1713,60 +1498,61 @@ are intentional parser demonstrations.
 ## 🏅 ACHIEVEMENTS UNLOCKED
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-GEOJSON_NAVIGATOR-fbbf24?style=for-the-badge" alt="Achievement GeoJSON Navigator">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-COORDINATE_CARTOGRAPHER-06b6d4?style=for-the-badge" alt="Achievement Coordinate Cartographer">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-FEATURE_COLLECTION_ARCHITECT-8b5cf6?style=for-the-badge" alt="Achievement FeatureCollection Architect">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-RENDERER_ROUTER-0891b2?style=for-the-badge" alt="Achievement Renderer Router">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-TOPOLOGY_ENGINEER-fbbf24?style=for-the-badge" alt="Achievement Topology Engineer">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-ARC_WEAVER-06b6d4?style=for-the-badge" alt="Achievement Arc Weaver">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-DELTA_DECODER-8b5cf6?style=for-the-badge" alt="Achievement Delta Decoder">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-BOUNDARY_REUSER-0891b2?style=for-the-badge" alt="Achievement Boundary Reuser">
 </p>
 
 | Achievement | Requirement | Status |
 | --- | --- | :---: |
 | **Syntax Curator** | Retain 33 syntax modes | ✅ |
-| **MathJax Architect** | Preserve advanced mathematics | ✅ |
-| **Mermaid Cartographer** | Preserve multi-family diagram gallery | ✅ |
-| **GeoJSON Navigator** | Render interactive geographic source | ✅ |
-| **Coordinate Cartographer** | Use correct longitude/latitude order | ✅ |
-| **Point Keeper** | Render Point / MultiPoint | ✅ |
-| **Route Builder** | Render LineString / MultiLineString | ✅ |
-| **Region Builder** | Render Polygon / MultiPolygon | ✅ |
-| **Geometry Collector** | Render GeometryCollection | ✅ |
-| **FeatureCollection Architect** | Combine heterogeneous Features | ✅ |
-| **Simple-Style Operator** | Marker, stroke, fill metadata | ✅ |
-| **Dataset Keeper** | Add repository-owned `.geojson` file | ✅ |
-| **Renderer Router** | Distinguish JSON, GeoJSON, Mermaid, MathJax, SVG | ✅ |
-| **Map Fallback Planner** | Preserve essential meaning outside map UI | ✅ |
-| **Parser Tamer** | Keep broken GeoJSON examples inert | ✅ |
-| **Master of Restraint** | Stop before building a GIS platform | ❌ |
+| **MathJax Architect** | Preserve advanced math rendering | ✅ |
+| **Mermaid Cartographer** | Preserve multi-family diagrams | ✅ |
+| **GeoJSON Navigator** | Preserve interactive coordinate maps | ✅ |
+| **Topology Engineer** | Render a `Topology` object | ✅ |
+| **Arc Weaver** | Build geometry from reusable arcs | ✅ |
+| **Boundary Reuser** | Share one arc between adjacent polygons | ✅ |
+| **Reverse Engineer** | Use negative reversed-arc references correctly | ✅ |
+| **Object Librarian** | Expose multiple named topology objects | ✅ |
+| **Quantizer** | Use `scale` + `translate` transform | ✅ |
+| **Delta Decoder** | Explain quantized delta-encoded arcs | ✅ |
+| **Geometry Collector** | Use GeometryCollection topology | ✅ |
+| **Point Exception Handler** | Distinguish point coordinates from line/polygon arcs | ✅ |
+| **Dataset Keeper** | Add standalone `.topojson` asset | ✅ |
+| **Renderer Router** | Distinguish JSON / GeoJSON / TopoJSON / Mermaid / MathJax | ✅ |
+| **Parser Tamer** | Keep malformed topology inert | ✅ |
+| **Master of Restraint** | Stop before implementing a topology library | ❌ |
 
 ---
 
 ## THE CHAOS INDEX
 
 ```text
-Clarity           ████████████████████ 100%
-Structure         ████████████████████ 100%
-Typography        ████████████████████ 100%
-Lists / Tables    ████████████████████ 100%
-Links             ████████████████████ 100%
-Local Media       ████████████████████ 100%
-HTML Hybrid       ████████████████████ 100%
-Syntax Labels     ████████████████████ 100%
-Language Breadth  ████████████████████  33 modes
-MathJax           ████████████████████ 100%
-Mermaid           ████████████████████ 100%
-GeoJSON Geometry  ████████████████████ 100%
-GeoJSON Styling   ████████████████████ 100%
-Interactive Maps  ████████████████████ 100%
-Renderer Routing  ████████████████████ 100%
-Parser Tricks     ███████████████████░  95%
-Restraint         ██░░░░░░░░░░░░░░░░░░  10%
-Raw Power         ████████████████████  M10
+Clarity            ████████████████████ 100%
+Structure          ████████████████████ 100%
+Typography         ████████████████████ 100%
+Links / Tables     ████████████████████ 100%
+Local Media        ████████████████████ 100%
+HTML Hybrid        ████████████████████ 100%
+Language Breadth   ████████████████████  33 modes
+MathJax            ████████████████████ 100%
+Mermaid            ████████████████████ 100%
+GeoJSON            ████████████████████ 100%
+TopoJSON Root      ████████████████████ 100%
+Shared Arcs        ████████████████████ 100%
+Reverse Arcs       ████████████████████ 100%
+Transforms         ████████████████████ 100%
+Delta Encoding     ████████████████████ 100%
+Interactive Maps   ████████████████████ 100%
+Renderer Routing   ████████████████████ 100%
+Parser Tricks      ███████████████████░  95%
+Restraint          ██░░░░░░░░░░░░░░░░░░  10%
+Raw Power          ████████████████████  M11
 ```
 
 > [!WARNING]
-> An interactive map can make bad geographic data look extremely convincing.
->
-> **M10 demonstrates geographic rendering and source structure; it does not turn coordinates into truth merely by placing them on tiles.**
+> Compact topology does not validate geographic truth. Shared arcs can encode the wrong boundary just as efficiently as the right one.
 
 ---
 
@@ -1776,13 +1562,10 @@ Raw Power         ████████████████████  
 # Heading
 *italic* **bold** ~~strike~~ `code`
 
-[inline](https://example.com)
-[reference][docs]
 [relative](./README.md)
 [same document](#final-boss)
 
 Inline math: $E=mc^2$
-Protected math: $`x_i^2`$
 
 ```math
 \int_0^1 x^2\,dx=\frac13
@@ -1794,20 +1577,22 @@ flowchart LR
 ```
 
 ```geojson
+{"type":"Point","coordinates":[13.405,52.52]}
+```
+
+```topojson
 {
-  "type": "Feature",
-  "properties": {"title": "Point"},
-  "geometry": {
-    "type": "Point",
-    "coordinates": [13.405, 52.52]
-  }
+  "type":"Topology",
+  "objects":{"line":{"type":"LineString","arcs":[0]}},
+  "arcs":[[[2,48],[10,52]]]
 }
 ```
 
-[Standalone GeoJSON](./assets/geojson-showcase.geojson)
+[GeoJSON file](./assets/geojson-showcase.geojson)
+[TopoJSON file](./assets/topojson-showcase.topojson)
 
 ```python
-print("highlighted code")
+print("highlighted source")
 ```
 
 ```text
@@ -1815,21 +1600,25 @@ literal output
 ```
 
 ````markdown
-```geojson
-{"type":"Point","coordinates":[13.405,52.52]}
+```topojson
+{"type":"Topology","objects":{},"arcs":[]}
 ```
 ````
 
 <details>
 <summary>Collapsed renderer</summary>
 
-```geojson
-{"type":"Point","coordinates":[2.3522,48.8566]}
+```topojson
+{
+  "type":"Topology",
+  "objects":{"line":{"type":"LineString","arcs":[0]}},
+  "arcs":[[[2,48],[10,52]]]
+}
 ```
 
 </details>
 
-![Local image](./assets/image.svg)
+![Local image](./assets/media-card.svg)
 <kbd>Ctrl</kbd> + <kbd>K</kbd>
 
 - [x] Complete
@@ -1840,50 +1629,49 @@ literal output
 | alpha \| beta | $x^2$ | 100 |
 ``````
 
-[docs]: https://example.com/docs
-
 ---
 
 ## 🧯 COMMON README CRIMES
 
 | Crime | Consequence |
 | --- | --- |
-| Writing `[latitude, longitude]` in GeoJSON | features land in wrong places |
+| Treating `-2` as reversed arc 2 | wrong boundary is reconstructed |
+| Reading quantized arc deltas as absolute coordinates | topology becomes geographic nonsense |
+| Giving Point geometry an `arcs` field | invalid TopoJSON geometry model |
+| Giving Polygon geometry raw coordinates | bypasses TopoJSON's arc topology |
+| Referencing an arc index that does not exist | topology cannot reconstruct geometry |
+| Using one-element `scale` / `translate` | invalid transform |
+| Duplicating shared boundaries anyway | loses TopoJSON's main structural advantage |
 | Using `json` when expecting a map | source is highlighted, not mapped |
-| Using `geojson` for invalid JSON | map renderer fails |
-| Leaving a polygon ring open | invalid / malformed polygon geometry |
-| Putting essential instructions only in map popups | accessibility and fallback failure |
-| Hard-coding absolute repository asset URLs | branch previews become brittle |
-| Huge GeoJSON payload in README | slow, noisy documentation |
-| Ignoring projection assumptions | valid numbers can map incorrectly |
+| Using `topojson` for arbitrary JSON | specialized renderer fails |
+| Hiding essential meaning only in map interaction | accessibility failure |
 | Forgetting longer outer fences | renderer-source examples terminate themselves |
-| Treating a pretty map as data validation | visual authority hides bad data |
-| Using GeoJSON where a table is clearer | interaction without information gain |
+| Assuming compact data is correct data | efficient errors are still errors |
 
 ---
 
 ## 🧪 README QUALITY TEST
 
-- [ ] Main FeatureCollection renders interactively.
-- [ ] Point markers appear at expected locations.
-- [ ] LineString follows all listed positions.
-- [ ] Polygon is visibly closed and filled.
-- [ ] MultiPoint renders more than one point.
-- [ ] MultiLineString renders independent line parts.
-- [ ] MultiPolygon renders separated areas.
-- [ ] GeometryCollection renders mixed geometry.
-- [ ] Marker color/size/symbol metadata is honored where GitHub supports it.
-- [ ] Stroke/fill metadata remains visible.
-- [ ] Standalone `assets/geojson-showcase.geojson` renders directly on GitHub.
-- [ ] All coordinate pairs remain longitude-first.
-- [ ] Broken examples remain inside non-GeoJSON fences.
-- [ ] JSON-vs-GeoJSON comparison demonstrates distinct renderers.
-- [ ] Essential map meaning remains available as prose/source.
+- [ ] Main shared-boundary TopoJSON map renders.
+- [ ] West and east polygons reconstruct as adjacent closed regions.
+- [ ] Arc `1` is used forward by west and reversed via `-2` by east.
+- [ ] No explanation incorrectly treats negative indexes as ordinary negation.
+- [ ] Quantized transform uses two-element `scale` and `translate`.
+- [ ] Delta-encoded arcs reconstruct to expected absolute positions.
+- [ ] Point/MultiPoint examples use `coordinates`, not `arcs`.
+- [ ] Line/polygon examples use arc references.
+- [ ] Multi-arc route stitches at matching endpoints.
+- [ ] Standalone `assets/topojson-showcase.topojson` renders on GitHub.
+- [ ] Standalone GeoJSON baseline still renders.
+- [ ] Invalid TopoJSON examples remain inside non-TopoJSON fences.
+- [ ] `json` vs `topojson` demonstrates different renderers.
+- [ ] GeoJSON vs TopoJSON distinction remains clear.
+- [ ] Essential topology meaning exists as prose/source, not only map interaction.
 - [ ] MathJax still renders.
 - [ ] Mermaid still renders.
 - [ ] 33 Linguist modes remain represented.
-- [ ] Local SVG hero still switches correctly.
-- [ ] Nested fences remain balanced.
+- [ ] Theme-aware local hero still switches correctly.
+- [ ] Nested fence lengths remain balanced.
 - [ ] Mobile map interaction remains usable.
 - [ ] README is previewed on GitHub before release.
 
@@ -1894,29 +1682,32 @@ literal output
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form M10 final banner" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form M11 final banner" width="100%">
 </picture>
 
 <details open>
-<summary><strong>FINAL FORM — MULTI-RENDERER NETWORK</strong></summary>
+<summary><strong>FINAL FORM — MULTI-RENDERER TOPOLOGY NETWORK</strong></summary>
 
 ```mermaid
 flowchart TB
-    README[README.md]
-    README --> CORE[Markdown + GFM]
-    CORE --> GH[GitHub]
-
+    README[README.md] --> GH[GitHub Markdown]
     GH --> CODE[Linguist]
     GH --> MATH[MathJax]
     GH --> DIAGRAM[Mermaid]
-    GH --> MAP[GeoJSON]
-    GH --> HYBRID[Sanitized HTML]
+    GH --> GEO[GeoJSON]
+    GH --> TOPO[TopoJSON]
+    GH --> HTML[Sanitized HTML]
+
+    GEO --> COORD[Explicit geometry]
+    TOPO --> ARC[Shared arcs]
+    ARC --> TRANSFORM[Quantization / delta encoding]
 
     CODE --> FINAL[FINAL FORM]
     MATH --> FINAL
     DIAGRAM --> FINAL
-    MAP --> FINAL
-    HYBRID --> FINAL
+    COORD --> FINAL
+    TRANSFORM --> FINAL
+    HTML --> FINAL
 ```
 
 ```math
@@ -1926,24 +1717,30 @@ flowchart TB
 +\text{MathJax}
 +\text{Mermaid}
 +\text{GeoJSON}
++\text{TopoJSON}
 +\text{HTML}
-=\text{M10}
+=\text{M11}
 }
 ```
 
 <details>
-<summary><strong>Inspect the renderer stack as source</strong></summary>
+<summary><strong>Inspect the topology subsystem</strong></summary>
 
 ```text
-SOURCE
-├── ordinary Markdown
-├── fenced code → Linguist
-├── math delimiters / math fence → MathJax
-├── mermaid fence → Mermaid
-├── geojson fence / .geojson file → interactive map
-├── HTML fragments → sanitizer
-├── TopoJSON → M11
-└── STL → M12
+TOPOLOGY
+├── objects
+│   ├── regions
+│   ├── route
+│   ├── nodes
+│   └── sharedBoundary
+├── arcs
+│   ├── forward references
+│   └── reversed references via ones' complement
+├── transform
+│   ├── scale
+│   └── translate
+├── quantized integer positions
+└── delta-encoded arcs
 ```
 
 </details>
@@ -1953,20 +1750,19 @@ SOURCE
 <div align="center">
 
 <p>
-  Markdown owns the document.<br>
-  Fence metadata chooses specialized renderers.<br>
-  MathJax typesets notation.<br>
-  Mermaid models relationships.<br>
-  GeoJSON maps geographic geometry.<br>
-  The raw source remains inspectable underneath all of it.
+  GeoJSON stores geographic geometry.<br>
+  TopoJSON stores geographic relationships.<br>
+  Shared arcs make adjacency explicit.<br>
+  Transform + delta encoding make coordinates indirect but compact.<br>
+  The source remains inspectable beneath the interactive map.
 </p>
 
-<a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams"><img src="https://img.shields.io/badge/READ-GITHUB_DIAGRAM_DOCS-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Read GitHub diagram documentation"></a>
-<a href="./assets/geojson-showcase.geojson"><img src="https://img.shields.io/badge/OPEN-GEOJSON_DATASET-0891b2?style=for-the-badge" alt="Open repository GeoJSON dataset"></a>
-<a href="#"><img src="https://img.shields.io/badge/RETURN-TO_THE_TOP-7c3aed?style=for-the-badge" alt="Return to top"></a>
+<a href="./assets/topojson-showcase.topojson"><img src="https://img.shields.io/badge/OPEN-TOPOJSON_DATASET-8B5CF6?style=for-the-badge" alt="Open repository TopoJSON dataset"></a>
+<a href="./assets/geojson-showcase.geojson"><img src="https://img.shields.io/badge/COMPARE-GEOJSON_DATASET-0891B2?style=for-the-badge" alt="Open repository GeoJSON dataset"></a>
+<a href="#"><img src="https://img.shields.io/badge/RETURN-TO_THE_TOP-181717?style=for-the-badge" alt="Return to top"></a>
 
 <h2>Markdown: Final Form.</h2>
-<h3>Interactive GeoJSON layer unlocked.</h3>
+<h3>Interactive TopoJSON layer unlocked.</h3>
 
 </div>
 
@@ -1978,12 +1774,8 @@ SOURCE
 [GitHub Docs]: https://docs.github.com/en/get-started/writing-on-github "GitHub writing and formatting documentation"
 [GFM Spec]: https://github.github.com/gfm/ "GitHub Flavored Markdown specification"
 
-[^plain-text]: Markdown remains readable as plain text while adding lightweight structural syntax.
-[^relative-links]: Relative repository paths keep files, images, and GeoJSON datasets branch-aware.
-[^sanitization]: GitHub sanitizes rendered README HTML, so arbitrary application-style script and styling are not the interface model.
-[^linguist]: GitHub Linguist defines languages and aliases used for syntax highlighting in fenced code blocks.
-[^mathjax]: GitHub renders supported LaTeX-formatted mathematics in Markdown using MathJax.
-[^mermaid]: GitHub documents Mermaid as one of its advanced diagram syntaxes and renders valid source from fenced `mermaid` blocks.
-[^geojson]: GitHub documents GeoJSON as a native interactive map syntax in Markdown when valid GeoJSON is placed in a fenced block with the `geojson` identifier.
-[^geojson-files]: GitHub's non-code-file documentation says `.geojson` and qualifying `.json` files can render as maps, uses Leaflet, supports the standard GeoJSON geometry families, documents CRS84 support, clustering for large marker sets, and a browser-rendering limit for especially large files.
-[^geojson-style]: GitHub's map documentation describes simple-style properties including marker size/color/symbol, stroke color/opacity/width, and polygon fill/opacity.
+[^linguist]: GitHub Linguist supplies language metadata and grammars for fenced-code syntax highlighting.
+[^mathjax]: GitHub renders supported LaTeX-formatted mathematics using MathJax.
+[^github-diagrams]: GitHub documents four advanced diagram syntaxes in Markdown: Mermaid, GeoJSON, TopoJSON, and ASCII STL. GeoJSON uses `geojson`; TopoJSON uses `topojson`.
+[^noncode-maps]: GitHub repository views support `.geojson` and `.topojson` map files. `.json` files can also render as maps when their root type is one of GitHub's recognized geographic structures.
+[^topo-spec]: The TopoJSON specification defines `Topology`, named `objects`, reusable `arcs`, zero-based arc indexes, ones'-complement reversed arc references, transforms, quantization, and delta encoding.
