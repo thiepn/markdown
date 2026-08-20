@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 640 160" role="img" aria-labelledby="title desc">
+  <title id="title">Decorative SVG divider</title>
+  <desc id="desc">A purely decorative symmetrical divider for Markdown Final Form.</desc>
+  <rect width="640" height="160" fill="#0f172a"/>
+  <g stroke="#334155" stroke-width="2">
+    <line x1="36" y1="80" x2="250" y2="80"/>
+    <line x1="390" y1="80" x2="604" y2="80"/>
+  </g>
+  <path d="M320 42l38 38-38 38-38-38z" fill="#7c3aed"/>
+  <path d="M320 58l22 22-22 22-22-22z" fill="#22d3ee"/>
+</svg>

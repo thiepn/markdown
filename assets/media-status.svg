@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="140" viewBox="0 0 640 140" role="img" aria-labelledby="title desc">
+  <title id="title">M5 local media status badge</title>
+  <desc id="desc">A wide local SVG badge stating Media Layer Unlocked.</desc>
+  <rect width="640" height="140" rx="18" fill="#111827"/>
+  <rect x="1" y="1" width="638" height="138" rx="17" fill="none" stroke="#374151" stroke-width="2"/>
+  <rect x="24" y="24" width="92" height="92" rx="16" fill="#7c3aed"/>
+  <path d="M44 55h17l10 14 10-14h17v34H84V71L71 88 58 71v18H44z" fill="#fff"/>
+  <text x="148" y="61" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#22d3ee">PHASE M5</text>
+  <text x="148" y="94" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#f8fafc">MEDIA LAYER UNLOCKED</text>
+</svg>

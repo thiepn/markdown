@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 640 160" role="img" aria-labelledby="title desc">
+  <title id="title">Informative SVG alt text demonstration</title>
+  <desc id="desc">An informative diagram reading Source, relative path, GitHub render, reader, connected by arrows.</desc>
+  <rect width="640" height="160" rx="18" fill="#f8fafc"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" text-anchor="middle">
+    <rect x="28" y="55" width="120" height="50" rx="12" fill="#ede9fe" stroke="#8b5cf6"/>
+    <text x="88" y="86" fill="#4c1d95">SOURCE</text>
+    <rect x="190" y="55" width="120" height="50" rx="12" fill="#cffafe" stroke="#0891b2"/>
+    <text x="250" y="77" fill="#164e63">RELATIVE</text><text x="250" y="96" fill="#164e63">PATH</text>
+    <rect x="352" y="55" width="120" height="50" rx="12" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="412" y="77" fill="#1e3a8a">GITHUB</text><text x="412" y="96" fill="#1e3a8a">RENDER</text>
+    <rect x="514" y="55" width="98" height="50" rx="12" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="563" y="86" fill="#14532d">READER</text>
+  </g>
+  <g stroke="#64748b" stroke-width="2" fill="none">
+    <path d="M148 80h36"/><path d="m178 74 8 6-8 6"/>
+    <path d="M310 80h36"/><path d="m340 74 8 6-8 6"/>
+    <path d="M472 80h36"/><path d="m502 74 8 6-8 6"/>
+  </g>
+</svg>

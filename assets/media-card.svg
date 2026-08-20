@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+  <title id="title">Repository-owned SVG asset demonstration</title>
+  <desc id="desc">A compact technical card explaining that this SVG is local, relative-path based, scalable, and version controlled.</desc>
+  <rect width="900" height="260" rx="24" fill="#111827"/>
+  <rect x="1" y="1" width="898" height="258" rx="23" fill="none" stroke="#374151" stroke-width="2"/>
+  <circle cx="83" cy="82" r="34" fill="#7c3aed"/>
+  <path d="M61 72h14l9 13 9-13h14v25H97V84L84 100 71 84v13H61z" fill="#fff"/>
+  <text x="138" y="70" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="700" fill="#22d3ee">./assets/media-card.svg</text>
+  <text x="138" y="108" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="800" fill="#f9fafb">LOCAL ASSET. ZERO MYSTERY.</text>
+  <text x="58" y="168" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d1d5db">Relative path</text>
+  <text x="249" y="168" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d1d5db">Version controlled</text>
+  <text x="492" y="168" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d1d5db">Infinitely scalable</text>
+  <text x="696" y="168" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d1d5db">Alt-text ready</text>
+  <g fill="#22d3ee">
+    <circle cx="74" cy="200" r="4"/><circle cx="263" cy="200" r="4"/><circle cx="505" cy="200" r="4"/><circle cx="710" cy="200" r="4"/>
+  </g>
+  <line x1="58" y1="222" x2="842" y2="222" stroke="#374151" stroke-width="2"/>
+</svg>

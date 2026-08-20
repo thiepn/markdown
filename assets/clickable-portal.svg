@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="120" viewBox="0 0 720 120" role="img" aria-labelledby="title desc">
+  <title id="title">Clickable local SVG portal</title>
+  <desc id="desc">A local SVG button-like portal labeled Clickable local asset.</desc>
+  <rect width="720" height="120" rx="20" fill="#111827"/>
+  <rect x="1" y="1" width="718" height="118" rx="19" fill="none" stroke="#475569" stroke-width="2"/>
+  <rect x="28" y="28" width="64" height="64" rx="14" fill="#7c3aed"/>
+  <path d="M45 48h12l9 12 9-12h12v25H77V60L66 74 55 60v13H45z" fill="#fff"/>
+  <text x="124" y="54" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#22d3ee">LOCAL / RELATIVE / CLICKABLE</text>
+  <text x="124" y="82" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800" fill="#f8fafc">CLICKABLE LOCAL ASSET</text>
+  <path d="M650 42l22 18-22 18" fill="none" stroke="#a78bfa" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

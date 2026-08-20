@@ -3,88 +3,72 @@
 ║                          LEVEL 00: SOURCE LAYER                              ║
 ║                                                                              ║
 ║  Achievements: RAW SOURCE EXPLORER · PARSER TAMER · BLOCK ARCHITECT         ║
-║                LINK CARTOGRAPHER                                             ║
+║                LINK CARTOGRAPHER · MEDIA ENGINEER                            ║
 ║                                                                              ║
-║  You inspected README.md before GitHub rendered it.                         ║
-║  Rendering stack: Markdown → GFM → GitHub → HTML → Advanced Renderers       ║
+║  M5 invariant: the local assets/ directory is part of the README system.     ║
+║  Do not replace repository-owned media with remote generators casually.      ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
-
-M4 source-only note:
-Reference definitions, relative paths, custom anchors, autolinks, and safe examples of
-GitHub-native conversation references are now intentional parts of the exhibit.
 -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form — repository-owned M5 media system" width="100%">
+</picture>
 
 <div align="center">
 
-<a href="https://www.markdownguide.org/">
-  <img
-    width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&amp;height=230&amp;color=gradient&amp;text=MARKDOWN%3A%20FINAL%20FORM&amp;fontSize=46&amp;fontColor=ffffff&amp;animation=twinkling&amp;fontAlignY=36&amp;desc=One%20README.%20Every%20layer%20of%20power.&amp;descSize=18&amp;descAlignY=57"
-    alt="Markdown Final Form — one README, every layer of power"
-  />
-</a>
-
 <a href="https://readme-typing-svg.demolab.com/demo/">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=23&amp;pause=850&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=60&amp;lines=Links.+Anchors.+References.+Autolinks.;Relative+paths+that+survive+branches.;GitHub-native+syntax%2C+without+fake+magic.;One+README+to+flex+them+all."
-    alt="Animated Markdown Final Form introduction"
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Local+SVGs.+Relative+paths.+Theme+switching.;One+source+asset%2C+many+display+sizes.;Remote+graphics+are+now+optional%2C+not+infrastructure.;M5+media+layer+online."
+    alt="Animated M5 media system introduction"
   />
 </a>
 
 <br />
 
-<a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/LAYER-MARKDOWN-111111?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Markdown layer" /></a>
-<a href="https://github.github.com/gfm/"><img src="https://img.shields.io/badge/LAYER-GFM-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub Flavored Markdown layer" /></a>
-<a href="#level-04--hyperlink-routing-matrix"><img src="https://img.shields.io/badge/LINKS-M4_UNLOCKED-8B5CF6?style=for-the-badge" alt="Link systems M4 unlocked" /></a>
-<a href="#the-chaos-index"><img src="https://img.shields.io/badge/CHAOS-CONTROLLED-ff1493?style=for-the-badge" alt="Controlled chaos" /></a>
-<a href="#final-boss"><img src="https://img.shields.io/badge/README-OVERENGINEERED-F43F5E?style=for-the-badge" alt="README overengineered" /></a>
+<a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/LAYER-MARKDOWN-111111?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Markdown layer"></a>
+<a href="https://github.github.com/gfm/"><img src="https://img.shields.io/badge/LAYER-GFM-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub Flavored Markdown layer"></a>
+<a href="#level-10--repository-owned-media-system"><img src="https://img.shields.io/badge/MEDIA-M5_UNLOCKED-8B5CF6?style=for-the-badge" alt="Media system M5 unlocked"></a>
+<a href="#the-chaos-index"><img src="https://img.shields.io/badge/CHAOS-CONTROLLED-ff1493?style=for-the-badge" alt="Controlled chaos"></a>
+<a href="#final-boss"><img src="https://img.shields.io/badge/README-OVERENGINEERED-F43F5E?style=for-the-badge" alt="README overengineered"></a>
 
-<br />
-
-<h3>🚨 This is not merely a README.</h3>
 <h3>This is a <strong>layer-by-layer Markdown rendering laboratory</strong>.</h3>
 
-<sub>Markdown · GFM · GitHub rendering · HTML fragments · external SVGs · zero JavaScript</sub>
+<sub>Markdown · GFM · GitHub rendering · HTML fragments · local SVG media · zero JavaScript</sub>
 
 <br /><br />
 
-<a href="#act-i--markdown-core"><strong>⚡ Enter Markdown Core</strong></a>
+<a href="#act-i--markdown-core"><strong>⚡ Markdown Core</strong></a>
 &nbsp;•&nbsp;
-<a href="#level-04--hyperlink-routing-matrix"><strong>🧭 Enter Link Routing</strong></a>
+<a href="#level-04--hyperlink-routing-matrix"><strong>🧭 Link Routing</strong></a>
 &nbsp;•&nbsp;
-<a href="#act-vi--parser--source-lab"><strong>⌁ Enter Parser Lab</strong></a>
+<a href="#level-10--repository-owned-media-system"><strong>🖼️ Media System</strong></a>
 &nbsp;•&nbsp;
-<a href="#final-boss"><strong>👑 Fight Final Boss</strong></a>
+<a href="#final-boss"><strong>👑 Final Boss</strong></a>
 
 </div>
 
 ---
 
-> [!CAUTION]
-> **Plain text has been detected.**  
-> Remain calm. Put down the `.docx`. Step away from the formatting toolbar.
-
 > [!IMPORTANT]
-> A README should explain a project clearly before it attempts visual domination.  
-> This repository deliberately pushes presentation far beyond normal documentation—but every trick is assigned to a rendering layer.
-
----
+> M5 changes the reliability model: the README's primary visual identity now lives **inside the repository**. Remote generators remain demonstrations, not critical dependencies.
 
 ## 🧭 README POWER MAP
 
 | Act | Rendering layer | Current demonstrations | Jump |
 | :---: | --- | --- | :---: |
-| `00` | [Source Layer](#level-00--source-layer) | Hidden comments, raw-source-only content | `RAW` |
-| `I` | [Markdown Core](#act-i--markdown-core) | Typography, headings, lists, quotes, links, anchors | `#` |
-| `II` | [GitHub Flavored Markdown](#act-ii--github-flavored-markdown) | Tables, escaped pipes, task trees, strikethrough | `GFM` |
-| `III` | [GitHub Extensions](#act-iii--github-extensions) | Alerts, code highlighting, footnotes, GitHub-aware behavior | `GH` |
-| `IV` | [HTML Hybrid](#act-iv--html-hybrid) | Inline HTML, media control, collapsible interfaces | `<>` |
+| `00` | [Source Layer](#level-00--source-layer) | Hidden comments, source-only rules | `RAW` |
+| `I` | [Markdown Core](#act-i--markdown-core) | Typography, headings, blocks, links, anchors | `#` |
+| `II` | [GitHub Flavored Markdown](#act-ii--github-flavored-markdown) | Tables, task trees, strikethrough, autolinks | `GFM` |
+| `III` | [GitHub Extensions](#act-iii--github-extensions) | Alerts, highlighting, footnotes, GitHub context | `GH` |
+| `IV` | [HTML Hybrid](#act-iv--html-hybrid) | Local images, SVGs, theme media, details | `<>` |
 | `V` | [Advanced Rendering](#act-v--advanced-rendering) | Math, Mermaid | `∞` |
 | `VI` | [Parser & Source Lab](#act-vi--parser--source-lab) | Escapes, entities, backticks, recursion | `\` |
 | `VII` | [Endgame & Reference](#act-vii--endgame--reference) | Achievements, cheat sheet, QA | `✓` |
 | `∞` | [Final Boss](#final-boss) | Combined mechanics | `👑` |
 
-`Markdown` · `GFM` · `GitHub` · `HTML` · `External Asset`
+`Markdown` · `GFM` · `GitHub` · `HTML` · `Local Asset` · `External Asset`
 
 ---
 
@@ -92,18 +76,13 @@ GitHub-native conversation references are now intentional parts of the exhibit.
 
 ```mermaid
 flowchart LR
-    A["raw README.md"] --> B["Markdown Core"]
-    B --> C["GFM"]
-    C --> D["GitHub Extensions"]
-    D --> E["HTML Hybrid"]
-    E --> F["Advanced Renderers"]
-    F --> G["FINAL FORM"]
-
-    A:::raw
-    G:::power
-
-    classDef raw fill:#3b3b3b,color:#ffffff,stroke:#777777
-    classDef power fill:#7c3aed,color:#ffffff,stroke:#c4b5fd,stroke-width:3px
+    A[raw README.md] --> B[Markdown]
+    B --> C[GFM]
+    C --> D[GitHub]
+    D --> E[HTML Hybrid]
+    E --> F[Local Media]
+    F --> G[Advanced Renderers]
+    G --> H[FINAL FORM]
 ```
 
 ---
@@ -113,29 +92,27 @@ flowchart LR
 `HTML` · `Source-only`
 
 ```html
-<!--
-This exists in README.md...
-but disappears when GitHub renders it.
--->
+<!-- This exists in README.md but disappears when rendered. -->
 ```
 
 <!--
 Architecture invariant:
 Future phases extend the correct rendering act instead of appending unrelated sections.
 
-M4 invariant:
-Do not delete link reference definitions at the bottom merely because they render invisibly.
-Do not turn code-form GitHub mention examples into live mentions without a reason.
+M5 invariant:
+assets/hero-light.svg and assets/hero-dark.svg are primary visual infrastructure.
+Relative media paths are deliberate so branch previews remain self-contained.
+Decorative images should use empty alt text when they convey no information.
 -->
 
 > [!NOTE]
-> The raw source and rendered document are intentionally two different surfaces of the same file.
+> Raw source and rendered output remain two different surfaces of the same document.
 
 ---
 
 # ACT I — MARKDOWN CORE
 
-> The portable foundation: inline syntax, whitespace, block grammar, and navigation.
+> Inline syntax, block grammar, and navigation.
 
 ## LEVEL 01 — TYPOGRAPHY & INLINE POWER
 
@@ -145,19 +122,17 @@ Do not turn code-form GitHub mention examples into live mentions without a reaso
 | --- | --- | --- |
 | `*italic*` | *italic* | Emphasis |
 | `_italic_` | _italic_ | Alternate emphasis |
-| `**bold**` | **bold** | Strong emphasis |
-| `__bold__` | __bold__ | Alternate strong emphasis |
-| `***bold italic***` | ***bold italic*** | Combined emphasis |
-| `~~deleted~~` | ~~deleted~~ | GFM strikethrough |
-| `` `inline code` `` | `inline code` | Literal technical text |
-| `<sub>small</sub>` | <sub>small</sub> | HTML subscript |
-| `<sup>high</sup>` | <sup>high</sup> | HTML superscript |
-| `<ins>inserted</ins>` | <ins>inserted</ins> | HTML insertion |
+| `**bold**` | **bold** | Strong |
+| `__bold__` | __bold__ | Alternate strong |
+| `***bold italic***` | ***bold italic*** | Combined |
+| `~~deleted~~` | ~~deleted~~ | GFM strike |
+| `` `inline code` `` | `inline code` | Literal text |
+| `<sub>small</sub>` | <sub>small</sub> | Subscript |
+| `<sup>high</sup>` | <sup>high</sup> | Superscript |
+| `<ins>inserted</ins>` | <ins>inserted</ins> | Inserted text |
 
 **Bold containing _italic containing `code`_.**  
 ~~Strikethrough containing **strong** text.~~
-
-Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> to paste without formatting.
 
 ---
 
@@ -166,7 +141,7 @@ Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> to paste without formatt
 `Markdown`
 
 <details>
-<summary><strong>🏛️ Open the six-level ATX heading hierarchy</strong></summary>
+<summary><strong>🏛️ Six-level ATX heading hierarchy</strong></summary>
 
 # Header 1 — The Emperor
 ## Header 2 — The Chancellor
@@ -178,7 +153,7 @@ Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> to paste without formatt
 </details>
 
 <details>
-<summary><strong>📜 Render actual Setext headings</strong></summary>
+<summary><strong>📜 Setext headings</strong></summary>
 
 Setext Level One
 ================
@@ -191,7 +166,7 @@ Setext Level Two
 1. A blank line starts a new paragraph.
 2. Two trailing spaces create a hard break.  
    This line follows one.
-3. `<br />` creates an HTML break.<br />This line follows one.
+3. `<br>` creates an HTML break.<br>This line follows one.
 
 ---
 
@@ -199,17 +174,15 @@ Setext Level Two
 
 `Markdown`
 
-### Three unordered markers
-
 - Hyphen
 * Asterisk
 + Plus
 
-### Deep list archaeology
+### Deep nesting
 
 - Surface
   - Context
-    - Deeper context
+    - Deeper
       - List mines
         - Deeper still
           - **Send indentation**
@@ -224,8 +197,7 @@ Setext Level Two
 
    > Quote nested inside a list.
    >
-   > - Quote-contained list
-   > - Another item
+   > - Quoted child list
 
 3. **Code container**
 
@@ -240,8 +212,6 @@ Setext Level Two
 > > Second level.
 > >
 > > > Third level.
-> > >
-> > > > Fourth level.
 
 > **Quote containing structure**
 >
@@ -261,172 +231,53 @@ Setext Level Two
 
 `Markdown` · `GFM` · `GitHub` · `HTML`
 
-A link is not one feature. Markdown has several link grammars, while GitHub adds repository-aware navigation and automatic section anchors.
-
-### Inline links
+### Inline and reference links
 
 [Markdown Guide](https://www.markdownguide.org/)  
-[GitHub writing docs](https://docs.github.com/en/get-started/writing-on-github)  
-[Hover title](https://www.markdownguide.org/ "Tooltip unlocked")
-
-Source:
-
-```md
-[Markdown Guide](https://www.markdownguide.org/)
-[Hover title](https://www.markdownguide.org/ "Tooltip unlocked")
-```
-
-### Reference-style trilogy
-
-**Full reference:** [Markdown Guide][markdown-guide]  
-**Collapsed reference:** [GitHub Docs][]  
-**Shortcut reference:** [GFM Spec]
-
-Source:
-
-```md
-[Markdown Guide][markdown-guide]
-[GitHub Docs][]
+[Hover title](https://www.markdownguide.org/ "Tooltip unlocked")  
+[Markdown Guide][markdown-guide]  
+[GitHub Docs][]  
 [GFM Spec]
-
-[markdown-guide]: https://www.markdownguide.org/
-[GitHub Docs]: https://docs.github.com/en/get-started/writing-on-github
-[GFM Spec]: https://github.github.com/gfm/
-```
-
-The definitions live at the bottom of the file and do not render as visible paragraphs.
 
 ### Relative repository links
 
-These stay branch-aware because they are relative to the current Markdown file:
+- [This README](./README.md)
+- [Repository root](./)
+- [Media system](./README.md#level-10--repository-owned-media-system)
+- [Local media card asset](./assets/media-card.svg)
 
-- [Open this README through a relative path](./README.md)
-- [Open the repository root](./)
-- [Jump to the Table Engine through a relative file + fragment](./README.md#level-05--table-engine)
+### Section and custom anchors
 
-Source:
+- [Markdown Core](#act-i--markdown-core)
+- [Advanced Rendering](#act-v--advanced-rendering)
+- [Final Boss](#final-boss)
 
-```md
-[README](./README.md)
-[Repository root](./)
-[Table Engine](./README.md#level-05--table-engine)
-```
+<a name="m5-media-beacon"></a>
 
-> [!TIP]
-> Relative links are usually superior for files inside the same repository because GitHub resolves them against the branch currently being viewed.
+[Jump to this custom anchor](#m5-media-beacon)
 
-### Automatic section anchors
-
-Every heading receives a GitHub-generated section anchor. This README's Power Map and navigation controls use them heavily.
-
-- [Jump to Markdown Core](#act-i--markdown-core)
-- [Jump to Advanced Rendering](#act-v--advanced-rendering)
-- [Jump to Final Boss](#final-boss)
-
-### Custom anchor beacon
-
-<a name="m4-routing-beacon"></a>
-
-This line has no heading, yet it has a deliberate navigation target.
-
-[Jump to the custom routing beacon](#m4-routing-beacon)
-
-Source:
-
-```html
-<a name="m4-routing-beacon"></a>
-```
-
-Custom anchors are useful when you need a stable target that should not become another heading in the document outline.
-
-### Standard autolinks
-
-Angle-bracket autolinks:
+### Autolinks
 
 <https://github.com/>  
-<documentation@example.com>
-
-Source:
-
-```md
-<https://github.com/>
-<documentation@example.com>
-```
-
-### GFM extended autolinks
-
-GitHub Flavored Markdown also recognizes common bare forms:
-
+<documentation@example.com>  
 https://github.com  
-www.github.com  
-documentation@example.com
+www.github.com
 
-These are parser features, not hand-written `[text](url)` links.
-
-### Parentheses and punctuation
-
-Balanced parentheses can live in link destinations:
-
-[Markdown on Wikipedia](https://en.wikipedia.org/wiki/Markdown_(markup_language))
-
-Extended GFM autolinking also contains rules that avoid swallowing common trailing punctuation.
-
-### Linked image syntax
-
-The media phase owns the real asset expansion, but link composition already permits an image to become the clickable label:
-
-```md
-[![Alt text](image.svg)](https://example.com)
-```
-
-The existing badge portals elsewhere in this README use the HTML equivalent of the same idea.
-
-### Permanent explicit GitHub links
-
-Markdown links can point at immutable repository history directly:
-
-[M3 block-systems commit](https://github.com/thiepn/markdown/commit/433b375397103a47f467c8b575b9acbd7ef27c2e)
-
-That is an explicit link, not an assumed autolink.
-
-### GitHub-native references: context matters
-
-GitHub supports rich references such as these in issue, pull-request, discussion, and comment contexts:
+### GitHub-context examples kept inert
 
 ```text
 @octocat
 #123
-GH-123
 owner/repository#123
 0123456789abcdef0123456789abcdef01234567
 ```
 
 > [!IMPORTANT]
-> A repository Markdown file is **not** the same rendering context as a GitHub conversation. Issue/PR short references are not automatically converted into rich shortlinks inside repository files, and this README intentionally keeps mention examples inside code so it does not ping real people.
-
-### Custom external autolinks
-
-Repositories can be configured with custom autolink patterns for external systems such as ticket trackers. Because that configuration is repository-specific, M4 documents the capability rather than pretending a custom rule exists here.
-
-### Routing matrix
-
-| Need | Best mechanism | Example |
-| --- | --- | --- |
-| External destination | Inline link | `[Docs](https://...)` |
-| Reused destination | Reference link | `[Docs][docs]` |
-| Same repository file | Relative link | `./README.md` |
-| Same-document section | Heading fragment | `#final-boss` |
-| Non-heading destination | Custom anchor | `<a name="...">` |
-| Bare URI | Autolink | `<https://...>` |
-| Branch-safe repo navigation | Relative path | `./path/file.md` |
-| GitHub conversation reference | Native reference syntax | `#123` in comments/issues/PRs |
-| Immutable repository history | Explicit commit URL | `/commit/<sha>` |
+> Repository Markdown files and GitHub conversation surfaces do not have identical automatic-reference behavior. Explicit links remain the safe choice when guaranteed README navigation matters.
 
 ---
 
 # ACT II — GITHUB FLAVORED MARKDOWN
-
-> GFM adds practical block systems for documentation: tables, task lists, strikethrough, and extended autolinking.
 
 ## LEVEL 05 — TABLE ENGINE
 
@@ -438,26 +289,18 @@ Repositories can be configured with custom autolink patterns for external system
 | Center | `:---:` | `100` |
 | Right | `---:` | `1000` |
 
-### Formatting inside cells
-
 | Family | Render | Status |
 | --- | --- | :---: |
 | emphasis | _italic_ / **bold** | ✅ |
 | code | `README.md` | ✅ |
 | strike | ~~deleted~~ | ✅ |
 | link | [Markdown Guide](https://www.markdownguide.org/) | ✅ |
-| HTML inline | H<sub>2</sub>O / x<sup>2</sup> | ✅ |
-
-### Escaped pipe survival test
+| HTML | H<sub>2</sub>O / x<sup>2</sup> | ✅ |
 
 | Input | Result |
 | --- | --- |
 | `alpha \| beta` | alpha \| beta |
 | `` `left\|right` `` | `left\|right` |
-| `A \| B \| C` | A \| B \| C |
-
-> [!IMPORTANT]
-> An unescaped content pipe may be interpreted as another table-column delimiter.
 
 ---
 
@@ -469,15 +312,17 @@ Repositories can be configured with custom autolink patterns for external system
   - [x] Typography
   - [x] Lists and quotes
   - [x] Link routing
-    - [x] Inline links
-    - [x] Reference links
-    - [x] Relative paths
-    - [x] Section anchors
-    - [x] Custom anchors
-    - [x] Autolinks
 - [x] **GFM Systems**
   - [x] Tables
   - [x] Task lists
+- [x] **Media System**
+  - [x] Repository-owned SVGs
+  - [x] Relative image paths
+  - [x] Theme-aware `<picture>`
+  - [x] HTML sizing
+  - [x] Clickable local media
+  - [x] Informative/decorative alt strategy
+  - [x] Fallback chain
 - [x] **Parser Lab**
   - [x] Escapes
   - [x] Entities
@@ -489,15 +334,12 @@ Repositories can be configured with custom autolink patterns for external system
   - [ ] TopoJSON
   - [ ] STL / 3D
 - [ ] **Final Form**
-  - [ ] Repository-owned media
   - [ ] Full rendering QA
   - [ ] Restraint discovered
 
 ---
 
 # ACT III — GITHUB EXTENSIONS
-
-> GitHub adds behavior beyond baseline Markdown/GFM, but some features depend on where the Markdown is rendered.
 
 ## LEVEL 07 — ALERT COMMAND CENTER
 
@@ -516,7 +358,7 @@ Repositories can be configured with custom autolink patterns for external system
 > Something may go wrong.
 
 > [!CAUTION]
-> You converted a code-only mention example into a live mention without checking context.
+> You deleted a local media asset that the README still references.
 
 ---
 
@@ -524,51 +366,33 @@ Repositories can be configured with custom autolink patterns for external system
 
 `Markdown` · `GitHub`
 
-### JavaScript
-
 ```javascript
 const readme = {
-  phase: "M4",
-  links: "routed",
-  anchors: "stable",
-  references: "context-aware",
-  chaos: Infinity,
+  phase: "M5",
+  media: "repository-owned",
+  themeAware: true,
+  externalDependency: "optional",
 };
 ```
-
-### Python
 
 ```python
 from dataclasses import dataclass
 
 @dataclass(frozen=True)
-class Route:
-    label: str
-    target: str
-    relative: bool = False
+class Asset:
+    path: str
+    local: bool = True
+    scalable: bool = True
 
-route = Route("README", "./README.md", relative=True)
+hero = Asset("./assets/hero-dark.svg")
 ```
-
-### Bash
-
-```bash
-printf '%s\n' "Checking anchors..."
-printf '%s\n' "Checking relative paths..."
-printf '%s\n' "Checking reference definitions..."
-```
-
-### Diff
 
 ```diff
-- Paste the same long URL everywhere.
-+ Define a reference once and reuse it.
+- Critical hero depends on a third-party image generator.
++ Critical hero lives in ./assets/ and travels with the branch.
 
-- Hard-code branch-specific repository URLs.
-+ Prefer relative links for repository files.
-
-- Assume #123 behaves identically everywhere.
-+ Respect GitHub rendering context.
+- Theme support exists only in a code sample.
++ Theme support is a live <picture> element.
 ```
 
 ---
@@ -577,46 +401,135 @@ printf '%s\n' "Checking reference definitions..."
 
 `GitHub`
 
-Markdown looks simple because the complexity is hiding politely.[^plain-text]
+Markdown remains readable as plain text while adding structure.[^plain-text]
 
-Relative repository links are resolved against the branch currently being viewed.[^relative-links]
+Relative repository links and image paths stay branch-aware.[^relative-links]
 
-GitHub conversation references and repository-file rendering are not identical contexts.[^github-context]
+Repository files and GitHub conversations are different rendering contexts.[^github-context]
 
-Animated banners here are externally rendered SVGs, not JavaScript executing in Markdown.[^animation]
-
-### Safe GitHub-reference rule
-
-Use explicit Markdown links inside repository files when you need guaranteed navigation. Use GitHub-native reference syntax when you are actually in a GitHub surface that supports it.
+M5 keeps external generators only as optional demonstrations.[^external-media]
 
 ---
 
 # ACT IV — HTML HYBRID
 
-> Selected HTML fragments add layout, media control, and interaction patterns Markdown syntax alone cannot express.
+> HTML fragments become especially useful when Markdown image syntax needs theme, size, or fallback control.
 
-## LEVEL 10 — INLINE HTML & MEDIA CONTROL
+## LEVEL 10 — REPOSITORY-OWNED MEDIA SYSTEM
 
-`HTML` · `External Asset`
+`Markdown` · `HTML` · `Local Asset` · `External Asset`
 
-<p align="center">
-  <a href="https://www.markdownguide.org/">
-    <img src="https://img.shields.io/badge/CLICKABLE-IMAGE_LINK-8b5cf6?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Clickable image link" />
-  </a>
-</p>
+### Asset architecture
 
-Theme-aware syntax:
+```text
+assets/
+├── hero-light.svg
+├── hero-dark.svg
+├── media-card.svg
+├── scaling-ruler.svg
+├── media-divider.svg
+├── reliability-ladder.svg
+├── informative-diagram.svg
+├── decorative-divider.svg
+├── clickable-portal.svg
+├── picture-fallback.svg
+└── media-status.svg
+```
+
+The critical visuals are now version controlled with the README.
+
+### Live theme-aware hero
+
+The banner at the top of this README is a real `<picture>` implementation:
 
 ```html
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg" />
-  <img alt="Project banner" src="assets/banner-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form media banner" width="100%">
 </picture>
 ```
 
+The final `<img>` is the fallback when no `<source>` matches or the element is interpreted without source selection.
+
+<img src="./assets/picture-fallback.svg" alt="Diagram showing dark source, light source, and fallback image in a picture element" width="100%">
+
+### Plain Markdown image syntax
+
+The simplest live local image uses ordinary Markdown:
+
+![Repository-owned SVG card showing relative-path, version-controlled, scalable, and alt-text-ready media](./assets/media-card.svg)
+
+Source:
+
+```md
+![Repository-owned SVG card](./assets/media-card.svg)
+```
+
+### One SVG, multiple display sizes
+
+<img src="./assets/scaling-ruler.svg" alt="SVG scale ruler from zero to one hundred percent" width="100%">
+
+Same source, reduced display width:
+
+<img src="./assets/scaling-ruler.svg" alt="The same SVG scale ruler displayed at half width" width="50%">
+
+Source:
+
+```html
+<img src="./assets/scaling-ruler.svg" alt="..." width="100%">
+<img src="./assets/scaling-ruler.svg" alt="..." width="50%">
+```
+
+The vector source does not need a second exported file just because the display size changes.
+
+### Clickable local image
+
+[![Clickable local SVG portal](./assets/clickable-portal.svg)](#level-10--repository-owned-media-system)
+
+Source:
+
+```md
+[![Clickable local SVG portal](./assets/clickable-portal.svg)](#level-10--repository-owned-media-system)
+```
+
+The image is simultaneously media **and** link label.
+
+### Informative versus decorative images
+
+Informative image — descriptive `alt` text carries the essential meaning:
+
+<img src="./assets/informative-diagram.svg" alt="Flow: source to relative path to GitHub render to reader" width="100%">
+
+Decorative image — intentionally empty `alt` because it adds no information:
+
+<img src="./assets/decorative-divider.svg" alt="" width="100%">
+
+```html
+<img src="./assets/informative-diagram.svg" alt="Flow: source to relative path to GitHub render to reader">
+<img src="./assets/decorative-divider.svg" alt="">
+```
+
 > [!TIP]
-> M5 will turn repository-owned media from a syntax example into a live asset system.
+> Good alt text describes the image's **purpose**, not every pixel. Pure decoration should not force screen-reader users through meaningless narration.
+
+### Local versus external reliability
+
+<img src="./assets/reliability-ladder.svg" alt="Media reliability ladder comparing external generators, local raster assets, and local SVG assets" width="100%">
+
+| Media source | Version controlled | Branch-local | Third-party dependency | Best use |
+| --- | :---: | :---: | :---: | --- |
+| Remote generator | ❌ | ❌ | ✅ | Optional badges/novelty |
+| Local raster | ✅ | ✅ | ❌ | Photos, screenshots |
+| Local SVG | ✅ | ✅ | ❌ | Diagrams, banners, interface graphics |
+
+### External media remains a live demonstration
+
+The animated typing SVG near the top still comes from an external generator **on purpose**. Its failure would no longer remove the README's identity or navigation.
+
+### Media status
+
+<img src="./assets/media-status.svg" alt="Phase M5 media layer unlocked" width="100%">
 
 ---
 
@@ -633,6 +546,9 @@ Inside `<details>`:
 - **formatting**
 - `code`
 - [links](#level-04--hyperlink-routing-matrix)
+- local media
+
+<img src="./assets/media-card.svg" alt="Local media card inside a collapsible details element" width="70%">
 
 </details>
 
@@ -640,12 +556,12 @@ Inside `<details>`:
 <summary><strong>🐉 Documentation Dragon</strong></summary>
 
 **HP:** `10,000`  
-**Weakness:** correct links  
-**Special attack:** stale anchors
+**Weakness:** relative paths  
+**Special attack:** deleted assets
 
-- [x] Verify relative paths
-- [x] Verify reference definitions
-- [x] Verify section fragments
+- [x] Version media
+- [x] Add fallback image
+- [x] Verify alt text
 - [ ] Stop adding lore
 
 </details>
@@ -653,8 +569,6 @@ Inside `<details>`:
 ---
 
 # ACT V — ADVANCED RENDERING
-
-> The point where a `.md` file starts behaving like a specialized rendering surface.
 
 ## LEVEL 12 — MATHEMATICAL SUPERIORITY
 
@@ -674,7 +588,7 @@ Inline: $`E = mc^2`$
 ```
 
 > [!NOTE]
-> M8 owns the major mathematics expansion.
+> M8 owns the full mathematics expansion.
 
 ---
 
@@ -684,39 +598,28 @@ Inline: $`E = mc^2`$
 
 ```mermaid
 flowchart TD
-    A[Open README] --> B[Structure content]
-    B --> C[Compose blocks]
-    C --> D[Route links]
-    D --> E{Target stable?}
-    E -- Yes --> F[Ship]
-    E -- No --> G[Use relative path or custom anchor]
-    G --> E
+    A[README source] --> B[Relative media path]
+    B --> C{Theme?}
+    C -- Light --> D[hero-light.svg]
+    C -- Dark --> E[hero-dark.svg]
+    D --> F[GitHub render]
+    E --> F
+    F --> G[Reader]
 ```
 
 ```mermaid
 sequenceDiagram
     actor Reader
     participant README
-    participant GitHub
-    Reader->>README: Click relative link
-    README->>GitHub: Resolve current branch
-    GitHub-->>Reader: Open correct file/section
-```
-
-```mermaid
-stateDiagram-v2
-    [*] --> PlainText
-    PlainText --> Structured
-    Structured --> Linked
-    Linked --> Rendered
-    Rendered --> [*]
+    participant Assets
+    Reader->>README: Open branch
+    README->>Assets: Resolve ./assets/... paths
+    Assets-->>Reader: Render local media
 ```
 
 ---
 
 # ACT VI — PARSER & SOURCE LAB
-
-> Delimiters, escapes, whitespace, precedence, and source/render differences.
 
 ## LEVEL 14 — ESCAPE HATCH
 
@@ -735,7 +638,6 @@ stateDiagram-v2
 | `#` | `\#` |
 | `>` | `\>` |
 | `[` | `\[` |
-| `]` | `\]` |
 | `|` | `\|` |
 | `\` | `\\` |
 
@@ -787,12 +689,6 @@ __alternate strong__
 
 &lt;div&gt;not an HTML element&lt;/div&gt;
 
-```md
-&#42;these stars are characters, not emphasis delimiters&#42;
-```
-
-Rendered: &#42;these stars are characters, not emphasis delimiters&#42;
-
 ---
 
 ## LEVEL 18 — WHITESPACE & RECURSION CHAMBER
@@ -807,8 +703,7 @@ Rendered: &#42;these stars are characters, not emphasis delimiters&#42;
 
 <!--
 Future maintainers:
-Nested fences, reference definitions, and anchor examples are intentional.
-Do not run aggressive normalization without checking GitHub rendering.
+Nested fences, reference definitions, relative media paths, and theme source order are intentional.
 -->
 
 ---
@@ -818,25 +713,27 @@ Do not run aggressive normalization without checking GitHub rendering.
 ## 🏅 ACHIEVEMENTS UNLOCKED
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-LINK_CARTOGRAPHER-fbbf24?style=for-the-badge" alt="Achievement: Link Cartographer" />
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-ANCHOR_SMITH-06b6d4?style=for-the-badge" alt="Achievement: Anchor Smith" />
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-REFERENCE_LIBRARIAN-8b5cf6?style=for-the-badge" alt="Achievement: Reference Librarian" />
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-CONTEXT_AWARE-0891b2?style=for-the-badge" alt="Achievement: Context Aware" />
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-LINK_CARTOGRAPHER-fbbf24?style=for-the-badge" alt="Achievement Link Cartographer">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-MEDIA_ENGINEER-06b6d4?style=for-the-badge" alt="Achievement Media Engineer">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-THEME_SHIFTER-8b5cf6?style=for-the-badge" alt="Achievement Theme Shifter">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-ALT_TEXT_ADULT-0891b2?style=for-the-badge" alt="Achievement Alt Text Adult">
 </p>
 
 | Achievement | Requirement | Status |
 | --- | --- | :---: |
-| **The Emphasizer** | Alternate and nested emphasis | ✅ |
-| **Block Architect** | Compose nested block structures | ✅ |
+| **The Emphasizer** | Nested emphasis | ✅ |
+| **Block Architect** | Compose nested blocks | ✅ |
 | **Table Architect** | Alignment + escaped pipes | ✅ |
 | **Taskmaster** | Multi-level task hierarchy | ✅ |
 | **Parser Tamer** | Escapes + variable fences | ✅ |
-| **Link Cartographer** | Use multiple link grammars | ✅ |
-| **Reference Librarian** | Full, collapsed, and shortcut reference links | ✅ |
-| **Branch Navigator** | Use relative repository paths | ✅ |
-| **Anchor Smith** | Use heading and custom anchors | ✅ |
-| **Autolink Handler** | Standard + extended GFM autolinks | ✅ |
-| **Context Aware** | Distinguish file links from conversation references | ✅ |
+| **Link Cartographer** | Multiple link grammars | ✅ |
+| **Branch Navigator** | Relative repository paths | ✅ |
+| **Media Engineer** | Repository-owned media architecture | ✅ |
+| **Theme Shifter** | Live light/dark `<picture>` sources | ✅ |
+| **Scale Smith** | One SVG at multiple display widths | ✅ |
+| **Portal Builder** | Clickable local image | ✅ |
+| **Alt Text Adult** | Informative vs decorative semantics | ✅ |
+| **Fallback Planner** | `<picture>` fallback image | ✅ |
 | **Master of Restraint** | Stop before adding too much | ❌ |
 
 ---
@@ -852,18 +749,19 @@ Tables         ████████████████████ 100%
 Tasks          ████████████████████ 100%
 Quotes         ████████████████████ 100%
 Links          ████████████████████ 100%
-Anchors        ████████████████████ 100%
-References     ████████████████████ 100%
+Local Media    ████████████████████ 100%
+Theme Media    ████████████████████ 100%
+Alt Strategy   ████████████████████ 100%
 Parser Tricks  ███████████████████░  95%
 Animation      ████████████████░░░░  80%
 Restraint      ██░░░░░░░░░░░░░░░░░░  10%
-Raw Power      ████████████████░░░░  M4
+Raw Power      █████████████████░░░  M5
 ```
 
 > [!WARNING]
-> A link system is only powerful if readers land somewhere stable.
+> A README with beautiful images but brittle third-party dependencies is still fragile documentation.
 >
-> **M4 turns navigation itself into part of the showcase.**
+> **M5 makes media part of the repository, not decoration rented from the internet.**
 
 ---
 
@@ -871,31 +769,24 @@ Raw Power      ████████████████░░░░  M4
 
 ````md
 # Heading
-Setext Heading
-==============
-
 *italic* **bold** ~~strike~~ `code`
 
 [inline](https://example.com)
 [full reference][docs]
-[collapsed][]
-[shortcut]
-
-[docs]: https://example.com/docs
-[collapsed]: https://example.com/collapsed
-[shortcut]: https://example.com/shortcut
-
-[relative file](./README.md)
+[relative](./README.md)
 [same document](#final-boss)
-<a name="custom-anchor"></a>
 
-<https://example.com>
-<docs@example.com>
-https://example.com
-www.example.com
+![Local image](./assets/image.svg)
+[![Clickable image](./assets/image.svg)](#target)
 
-- bullet
-  - nested
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
+  <img src="./assets/light.svg" alt="Useful description" width="100%">
+</picture>
+
+<img src="./assets/image.svg" alt="Useful description" width="50%">
+<img src="./assets/decorative.svg" alt="">
 
 - [x] Complete
 - [ ] Incomplete
@@ -911,11 +802,9 @@ www.example.com
 > ```
 
 ``code containing a `backtick` ``
-
-```
-fenced code
-```
 ````
+
+[docs]: https://example.com/docs
 
 ---
 
@@ -923,70 +812,64 @@ fenced code
 
 | Crime | Consequence |
 | --- | --- |
-| Absolute links to repo files everywhere | Branch navigation becomes brittle |
-| Repeating giant destinations | Source becomes noisy |
-| Guessing generated anchors | Section jumps break |
-| Renaming headings without checking inbound fragments | Internal navigation silently rots |
-| Turning example `@mentions` live | Unnecessary notifications |
-| Assuming `#123` shortlinks work in files | Misleading documentation |
-| Missing reference definitions | Links render as plain bracket text |
-| Unescaped table pipes | Columns split |
-| Overwide tables | Mobile suffering |
-| Decorative overload | Content disappears |
+| Critical visual hosted only by a remote generator | Third-party outage removes identity |
+| Absolute repository image URL | Branch previews become brittle |
+| Missing fallback `<img>` in `<picture>` | Fragile media selection |
+| Width baked into multiple exported SVG copies | Needless duplication |
+| Describing decorative pixels to screen readers | Accessibility noise |
+| Empty alt text on informative diagrams | Information disappears for nonvisual readers |
+| Deleting `assets/` files without searching references | Broken README media |
+| Giant fixed-width graphics | Mobile readability suffers |
+| Missing reference definitions | Links silently degrade |
+| Aggressive formatter rewrites | Parser demonstrations break |
 
 ---
 
 ## 🧪 README QUALITY TEST
 
-- [ ] Every internal fragment lands on the intended heading or custom anchor.
-- [ ] Relative file links work from the current branch.
-- [ ] Reference definitions exist and labels match.
-- [ ] Full, collapsed, and shortcut references render correctly.
-- [ ] Bare autolinks do not swallow trailing punctuation unexpectedly.
-- [ ] Example mentions remain inert unless a real mention is intended.
-- [ ] GitHub conversation-only behavior is labeled accurately.
-- [ ] Table column counts remain consistent.
+- [ ] `hero-light.svg` renders in a light theme.
+- [ ] `hero-dark.svg` renders in a dark theme.
+- [ ] Fallback `<img>` remains valid.
+- [ ] Every local media path resolves on the current branch.
+- [ ] Informative media has meaningful alt text.
+- [ ] Decorative media uses empty alt text.
+- [ ] The same SVG remains legible at 100% and 50% width.
+- [ ] Clickable media lands on the intended destination.
+- [ ] External generators are noncritical.
+- [ ] Internal fragments still land correctly.
+- [ ] Reference definitions still resolve.
+- [ ] Tables keep consistent columns.
 - [ ] Nested fences remain intact.
 - [ ] Mobile layout remains readable.
-- [ ] Light/dark behavior remains acceptable.
 - [ ] README is previewed on GitHub.
 
 ---
 
 # FINAL BOSS
 
-<div align="center">
-
-<a href="https://www.markdownguide.org/">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Orbitron&amp;weight=800&amp;size=28&amp;pause=1100&amp;color=F43F5E&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=70&amp;lines=ROUTING+LAYER+ONLINE.;ANCHORS+LOCKED.;REFERENCES+RESOLVED.;M4+COMPLETE."
-    alt="Routing layer online — M4 complete"
-  />
-</a>
-
-<h3>The README no longer merely contains links.</h3>
-<h3>It now demonstrates a <em>navigation system</em>.</h3>
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form final media banner" width="100%">
+</picture>
 
 ```text
-LINK
- ├── INLINE
- ├── REFERENCE
- │    ├── FULL
- │    ├── COLLAPSED
- │    └── SHORTCUT
- ├── RELATIVE PATH
- ├── SECTION ANCHOR
- ├── CUSTOM ANCHOR
- ├── AUTOLINK
- └── EXPLICIT GITHUB HISTORY
-
-GITHUB CONTEXT
- ├── REPOSITORY FILE
- │    └── EXPLICIT / RELATIVE NAVIGATION
- └── CONVERSATION
-      └── MENTIONS / ISSUE / PR REFERENCES
+README
+ ├── MARKDOWN
+ ├── GFM
+ ├── LINKS
+ ├── LOCAL MEDIA
+ │    ├── RELATIVE PATHS
+ │    ├── SVG
+ │    ├── THEME PAIRS
+ │    ├── DISPLAY SIZING
+ │    ├── CLICKABLE IMAGES
+ │    ├── ALT SEMANTICS
+ │    └── FALLBACKS
+ ├── HTML HYBRID
+ ├── MATH
+ ├── MERMAID
+ └── PARSER LAB
 
 ↓
 FINAL FORM
@@ -995,30 +878,22 @@ FINAL FORM
 <div align="center">
 
 <p>
-  Syntax creates structure.<br />
-  Structure creates destinations.<br />
-  Links turn the README into a navigable system.<br />
-  Make it <s>unreadable</s> <strong><em>beautifully, strategically ridiculous</em></strong>.
+  The source owns the structure.<br>
+  The repository owns the media.<br>
+  The renderer chooses the presentation.<br>
+  External services are now optional extras.
 </p>
 
-<br />
+<a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/READ-THE_MARKDOWN_GUIDE-7c3aed?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Read the Markdown Guide"></a>
+<a href="https://docs.github.com/en/get-started/writing-on-github"><img src="https://img.shields.io/badge/EXPLORE-GITHUB_DOCS-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore GitHub Docs"></a>
+<a href="#"><img src="https://img.shields.io/badge/RETURN-TO_THE_TOP-0891b2?style=for-the-badge" alt="Return to top"></a>
 
-<a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/READ-THE_MARKDOWN_GUIDE-7c3aed?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Read the Markdown Guide" /></a>
-<a href="https://docs.github.com/en/get-started/writing-on-github"><img src="https://img.shields.io/badge/EXPLORE-GITHUB_DOCS-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore GitHub Docs" /></a>
-<a href="#"><img src="https://img.shields.io/badge/RETURN-TO_THE_TOP-0891b2?style=for-the-badge&amp;logo=rocket&amp;logoColor=white" alt="Return to top" /></a>
-
-<br />
-
-<h2>🗿 Markdown: Final Form.</h2>
-<h3>Navigation layer unlocked.</h3>
-
-<img
-  width="100%"
-  src="https://capsule-render.vercel.app/api?type=waving&amp;height=150&amp;color=gradient&amp;section=footer"
-  alt="Decorative gradient footer"
-/>
+<h2>Markdown: Final Form.</h2>
+<h3>Media layer unlocked.</h3>
 
 </div>
+
+<img src="./assets/media-divider.svg" alt="" width="100%">
 
 ---
 
@@ -1027,6 +902,6 @@ FINAL FORM
 [GFM Spec]: https://github.github.com/gfm/ "GitHub Flavored Markdown specification"
 
 [^plain-text]: Markdown remains readable as plain text while adding lightweight structural syntax.
-[^relative-links]: GitHub resolves relative links in rendered repository files against the branch currently being viewed.
-[^github-context]: GitHub supports rich mentions and issue/PR references in conversation surfaces, while repository Markdown files have different automatic-link behavior.
-[^animation]: External SVG generators may become unavailable, change behavior, or load slowly. A later phase will move critical visual assets into the repository.
+[^relative-links]: Relative repository paths keep files and media branch-aware.
+[^github-context]: GitHub conversations and repository Markdown files have different automatic-reference behavior.
+[^external-media]: External image generators can be useful demonstrations, but repository-owned critical media is more reliable.

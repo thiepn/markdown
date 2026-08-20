@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img" aria-labelledby="title desc">
+  <title id="title">SVG scaling ruler</title>
+  <desc id="desc">A ruler-like graphic showing that a vector SVG can be displayed at multiple widths without changing the source asset.</desc>
+  <rect width="900" height="180" rx="22" fill="#f8fafc"/>
+  <rect x="1" y="1" width="898" height="178" rx="21" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="42" y="50" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="700" fill="#7c3aed">ONE SVG / MANY DISPLAY WIDTHS</text>
+  <line x1="42" y1="105" x2="858" y2="105" stroke="#0f172a" stroke-width="4"/>
+  <g stroke="#0f172a" stroke-width="3">
+    <line x1="42" y1="86" x2="42" y2="124"/>
+    <line x1="246" y1="94" x2="246" y2="116"/>
+    <line x1="450" y1="86" x2="450" y2="124"/>
+    <line x1="654" y1="94" x2="654" y2="116"/>
+    <line x1="858" y1="86" x2="858" y2="124"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#475569">
+    <text x="35" y="148">0</text>
+    <text x="230" y="148">25%</text>
+    <text x="435" y="148">50%</text>
+    <text x="637" y="148">75%</text>
+    <text x="832" y="148">100%</text>
+  </g>
+</svg>
