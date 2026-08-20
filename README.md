@@ -1,14 +1,15 @@
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                      LEVEL 00: SOURCE LAYER — M15                           ║
+║                      LEVEL 00: SOURCE LAYER — M16                           ║
 ║                                                                              ║
 ║  RAW SOURCE EXPLORER · PARSER TAMER · BLOCK ARCHITECT · LINK CARTOGRAPHER   ║
 ║  MEDIA ENGINEER · HYBRID ENGINEER · SYNTAX CURATOR · MATHJAX ARCHITECT      ║
 ║  MERMAID CARTOGRAPHER · GEOJSON NAVIGATOR · TOPOLOGY ENGINEER               ║
 ║  STL MESHSMITH · GRAMMAR BREAKER · PROGRESSION ARCHITECT · FINAL COMPOSER   ║
+║  ACCESSIBILITY WARDEN                                                       ║
 ║                                                                              ║
-║  M15 invariant: compose proven mechanics; introduce no new renderer family.  ║
-║  M16 and M17 stay locked until certification and final GitHub regression.    ║
+║  M16 invariant: visual rendering is never the only path to information.      ║
+║  Theme, motion, width, and interaction failures must have readable fallback. ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 
@@ -31,139 +32,115 @@ SECRET ACHIEVEMENTS — SOURCE VIEW ONLY
      Condition: reach M15 without introducing another renderer family.
      Status: unlocked.
 
-[S5] MASTER OF RESTRAINT
+[S5] MOTION TAMER
+     Condition: remove autoplaying decorative animation from the critical path.
+     Status: unlocked in M16.
+
+[S6] MASTER OF RESTRAINT
      Condition: stop adding unnecessary systems.
-     Status: somehow still locked.
+     Status: still locked while M17 remains.
 -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form — M15 canonical Final Boss composition" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form — M16 light, dark, mobile, and accessibility certification" width="100%">
 </picture>
 
 <div align="center">
 
-<a href="https://readme-typing-svg.demolab.com/demo/">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=No+new+mechanics.;Every+system+enters+the+same+arena.;Source.+Renderers.+Parser.+Progression.;M15+Final+Boss+composition+online."
-    alt="Animated M15 Final Boss introduction">
-</a>
-
-<br>
-
-<a href="#campaign-status"><img src="https://img.shields.io/badge/CAMPAIGN-16%2F18_PHASES-8B5CF6?style=for-the-badge" alt="Campaign 16 of 18 phases complete"></a>
-<a href="#renderer-mastery"><img src="https://img.shields.io/badge/RENDERERS-6%2F6_MASTERED-0891B2?style=for-the-badge" alt="Six of six specialized renderer routes mastered"></a>
-<a href="#level-36--canonical-final-boss"><img src="https://img.shields.io/badge/FINAL_BOSS-CLEARED-F59E0B?style=for-the-badge" alt="Canonical Final Boss cleared"></a>
-<a href="#release-gates"><img src="https://img.shields.io/badge/M16-CERTIFICATION_NEXT-F43F5E?style=for-the-badge" alt="M16 certification next"></a>
-
-<h2>MARKDOWN: FINAL FORM</h2>
-<sub>One README · seven Acts · thirty-seven numbered levels · six specialized renderer routes · one canonical Final Boss</sub>
-
-<br><br>
-
-<a href="#campaign-status"><strong>◈ Campaign</strong></a>
-&nbsp;•&nbsp;
-<a href="#act-i--markdown-core"><strong>⚡ Core</strong></a>
-&nbsp;•&nbsp;
-<a href="#act-v--advanced-rendering"><strong>∞ Renderers</strong></a>
-&nbsp;•&nbsp;
-<a href="#act-vi--parser-trials"><strong>⚠ Parser Trials</strong></a>
-&nbsp;•&nbsp;
-<a href="#achievement-codex"><strong>🏅 Achievements</strong></a>
-&nbsp;•&nbsp;
-<a href="#level-36--canonical-final-boss"><strong>👑 Final Boss</strong></a>
+<a href="#campaign-status"><img src="https://img.shields.io/badge/CAMPAIGN-17%2F18_PHASES-8B5CF6?style=for-the-badge" alt="Campaign: 17 of 18 phases complete"></a>
+<a href="#m16-certification"><img src="https://img.shields.io/badge/M16-CERTIFIED-0891B2?style=for-the-badge" alt="M16 accessibility, mobile, and theme certification complete"></a>
+<a href="#release-gates"><img src="https://img.shields.io/badge/M17-RELEASE_REGRESSION_NEXT-F43F5E?style=for-the-badge" alt="M17 final GitHub release regression is next"></a>
 
 </div>
 
----
+# MARKDOWN: FINAL FORM
+
+**One README · seven Acts · thirty-eight numbered levels · six specialized renderer routes · one canonical Final Boss · one release gate remaining.**
+
+[Campaign](#campaign-status) · [Core](#act-i--markdown-core) · [Renderers](#act-v--advanced-rendering) · [Parser Trials](#act-vi--parser-trials) · [Achievements](#achievement-codex) · [Final Boss](#final-boss) · [M16 Certification](#m16-certification)
 
 > [!IMPORTANT]
-> **M15 adds no new Markdown capability.** It composes the mechanisms already proven in M0–M14 into one canonical Final Boss. The goal is integration: source layer, Markdown/GFM, GitHub extensions, HTML Hybrid, Linguist, MathJax, Mermaid, GeoJSON, TopoJSON, ASCII STL, parser containment, and progression all have to coexist without becoming a duplicated wall of demonstrations.
+> **M16 adds no renderer or syntax family.** It certifies the existing M15 composition at the document level for light/dark presentation, motion sensitivity, narrow screens, semantic structure, text alternatives, and failure-tolerant interaction. Final live GitHub rendering regression remains explicitly owned by M17.
 
 <a name="campaign-status"></a>
 
-# CAMPAIGN STATUS
+## CAMPAIGN STATUS
 
 | Metric | Current state | Meaning |
 | --- | :---: | --- |
-| Campaign phases | **16 / 18** | M0 through M15 complete |
-| Capability acquisition | **100%** | planned Markdown/GFM/GitHub/HTML/native-renderer breadth acquired |
-| Native advanced renderers | **4 / 4** | Mermaid, GeoJSON, TopoJSON, ASCII STL |
-| Specialized renderer routes | **6 / 6** | Linguist, MathJax, Mermaid, GeoJSON, TopoJSON, ASCII STL |
-| Parser hardening | **95% source confidence** | M13 complete; M17 still owns final rendered regression |
-| Final Boss composition | **complete** | M15 integrates all prior mechanics without adding a new one |
-| Endgame phases | **3 / 5** | M13 + M14 + M15 complete |
-| Accessibility/mobile/theme certification | **pending** | owned by M16 |
-| Final GitHub release regression | **pending** | owned by M17 |
+| Campaign | **17 / 18** | M0 through M16 complete |
+| Showcase mastery | **100 / 100** | planned capability breadth exists |
+| Specialized routes | **6 / 6** | Linguist, MathJax, Mermaid, GeoJSON, TopoJSON, ASCII STL |
+| Final Boss | **cleared** | M15 composition complete |
+| M16 certification | **passed** | document-level theme/mobile/accessibility hardening complete |
+| M17 release regression | **pending** | final live GitHub verification and release polish |
 
 ```text
 M0 ─ M1 ─ M2 ─ M3 ─ M4 ─ M5 ─ M6 ─ M7 ─ M8 ─ M9 ─ M10 ─ M11 ─ M12 ─ M13 ─ M14 ─ M15 ─ M16 ─ M17
-✓    ✓    ✓    ✓    ✓    ✓    ✓    ✓    ✓    ✓     ✓     ✓     ✓     ✓     ✓     ✓     LOCK  LOCK
+✓    ✓    ✓    ✓    ✓    ✓    ✓    ✓    ✓    ✓     ✓     ✓     ✓     ✓     ✓     ✓     ✓     NEXT
 ```
 
-### Two scoreboards
+### Scoreboards
 
 ```text
 SHOWCASE MASTERY
 ████████████████████ 100 / 100
 
 RELEASE CONFIDENCE
-████████████████░░░░  81 / 100
+██████████████████░░  91 / 100
 ```
 
-**Showcase Mastery** asks whether the planned capability exists.  
-**Release Confidence** asks whether the whole experience has passed composition, accessibility, mobile, theme, and final GitHub rendering certification.
-
-M15 keeps the score auditable:
+The M16 score remains auditable:
 
 ```text
-25% Capability Index (100)
-45% Robustness Index  (84)
-30% Endgame completion (60)
+25% Capability Index  (100)
+45% Robustness Index   (93)
+30% Endgame completion (80)
 
-0.25×100 + 0.45×84 + 0.30×60 = 80.8 → 81
+0.25×100 + 0.45×93 + 0.30×80 = 90.85 → 91
 ```
 
-The remaining gap belongs to M16–M17 rather than another feature phase.
+The remaining nine points belong to the final live GitHub regression rather than another feature pass.
 
 ---
 
-# THE CAMPAIGN MAP
+## THE CAMPAIGN MAP
+
+**Text equivalent:** Source Layer → Markdown Core → GFM → GitHub Extensions → HTML Hybrid → Advanced Renderers → Parser Trials → Endgame → Final Boss → M16 Certification → M17 Release.
 
 ```mermaid
-flowchart LR
-    S[LEVEL 00<br/>Source Layer] --> A1[ACT I<br/>Markdown Core]
-    A1 --> A2[ACT II<br/>GFM]
-    A2 --> A3[ACT III<br/>GitHub Extensions]
-    A3 --> A4[ACT IV<br/>HTML Hybrid]
-    A4 --> A5[ACT V<br/>Advanced Renderers]
-    A5 --> A6[ACT VI<br/>Parser Trials]
-    A6 --> A7[ACT VII<br/>Endgame]
-    A7 --> B[LEVEL 36<br/>FINAL BOSS ✅]
-    B --> C[M16<br/>Certification]
-    C --> R[M17<br/>Release]
+flowchart TB
+    S[Source Layer] --> A1[Act I: Markdown Core]
+    A1 --> A2[Act II: GFM]
+    A2 --> A3[Act III: GitHub Extensions]
+    A3 --> A4[Act IV: HTML Hybrid]
+    A4 --> A5[Act V: Advanced Renderers]
+    A5 --> A6[Act VI: Parser Trials]
+    A6 --> A7[Act VII: Endgame]
+    A7 --> B[Level 36: Final Boss — cleared]
+    B --> C[Level 37: M16 Certification — passed]
+    C --> R[M17: Final GitHub Regression]
 ```
 
-## Act completion ledger
-
-| Act | Scope | Boss | Status |
-| :---: | --- | --- | :---: |
-| `00` | Source layer / hidden state | Source Gate | ✅ |
-| `I` | Markdown Core | Core Grammar Boss | ✅ |
-| `II` | GFM | Pipe & Task Boss | ✅ |
-| `III` | GitHub Extensions | Extension Router | ✅ |
-| `IV` | HTML Hybrid | Sanitizer Survivor | ✅ |
-| `V` | Advanced Rendering | Renderer Gauntlet | ✅ |
-| `VI` | Parser Trials | Parser Firewall | ✅ |
-| `VII` | Endgame systems | Progression Architect | ✅ |
-| `∞` | Final composition | **Canonical Final Boss** | **✅ M15** |
-| `RC` | accessibility/mobile/theme | Certification Gate | 🔒 M16 |
-| `REL` | final GitHub regression | Release Gate | 🔒 M17 |
+| Stage | Boss / gate | Status |
+| --- | --- | :---: |
+| Source | Source Gate | ✅ |
+| Act I | Core Grammar | ✅ |
+| Act II | Pipe & Task Engine | ✅ |
+| Act III | Extension Router | ✅ |
+| Act IV | Sanitizer Survivor | ✅ |
+| Act V | Renderer Gauntlet | ✅ |
+| Act VI | Parser Firewall | ✅ |
+| Act VII | Progression Architect | ✅ |
+| Final composition | Canonical Final Boss | ✅ |
+| M16 | Accessibility / Mobile / Theme | ✅ |
+| M17 | Release Gate | **NEXT** |
 
 ---
 
-# LEVEL 00 — SOURCE LAYER
+## LEVEL 00 — SOURCE LAYER
 
 `HTML comment` · `source-only` · `secret progression`
 
@@ -171,18 +148,20 @@ flowchart LR
 <!-- Rendered output cannot show everything the source knows. -->
 ```
 
-The source layer owns invariants, secret achievements, exact parser fixtures, and comments that intentionally disappear from rendered view.
+The source layer owns invariants, hidden achievements, exact parser fixtures, and comments that intentionally disappear from rendered view.
 
 Raw parser corpus: [`assets/parser-torture-corpus.txt`](./assets/parser-torture-corpus.txt)
 
 > [!NOTE]
-> M15's source-only achievement is intentionally invisible in rendered view. Source inspection remains part of the experience.
+> Source-only rewards are optional. No essential instruction or status exists only inside a hidden comment.
 
 ---
 
-# ACT I — MARKDOWN CORE
+<a name="act-i--markdown-core"></a>
 
-## LEVEL 01 — TYPOGRAPHY
+## ACT I — MARKDOWN CORE
+
+### LEVEL 01 — TYPOGRAPHY
 
 | Source | Rendered |
 | --- | --- |
@@ -201,11 +180,11 @@ Raw parser corpus: [`assets/parser-torture-corpus.txt`](./assets/parser-torture-
 
 Intraword control: `foo*bar*baz` versus `foo_bar_baz`.
 
-## LEVEL 02 — HEADINGS / BREAKS
+### LEVEL 02 — HEADINGS / BREAKS
 
-<details>
-<summary><strong>ATX ladder</strong></summary>
+M16 keeps the document itself on a single-H1 hierarchy. The full heading syntax remains demonstrable without inserting extra top-level headings into the accessibility tree:
 
+```markdown
 # H1
 ## H2
 ### H3
@@ -213,13 +192,12 @@ Intraword control: `foo*bar*baz` versus `foo_bar_baz`.
 ##### H5
 ###### H6
 
-</details>
-
 Setext One
 ==========
 
 Setext Two
 ----------
+```
 
 Two trailing spaces create a hard break.  
 This line follows.
@@ -227,7 +205,7 @@ This line follows.
 A backslash also creates one.\
 This line follows.
 
-## LEVEL 03 — CONTAINERS
+### LEVEL 03 — CONTAINERS
 
 1. Ordered list
    - nested bullet
@@ -242,32 +220,25 @@ This line follows.
 ordinary fenced block
 ```
 
-## LEVEL 04 — LINKS / REFERENCES
+### LEVEL 04 — LINKS / REFERENCES
 
-[Inline](https://example.com) · [Markdown Guide][markdown-guide] · [GitHub Docs][] · [GFM Spec]
+[Inline example](https://example.com) · [Markdown Guide][markdown-guide] · [GitHub writing documentation][GitHub Docs] · [GFM specification][GFM Spec]
 
-[README](./README.md) · [Parser corpus](./assets/parser-torture-corpus.txt) · [Final Boss](#level-36--canonical-final-boss)
+[Open this README](./README.md) · [Open parser corpus](./assets/parser-torture-corpus.txt) · [Go to Final Boss](#final-boss)
 
 <https://github.com/>  
 https://github.com  
 www.github.com
 
-### ACT I BOSS — CORE GRAMMAR
+#### ACT I BOSS — CORE GRAMMAR
 
-<details>
-<summary><strong>Boss cleared</strong></summary>
-
-**Victory condition:** headings, inline formatting, lists, quotes, code, links, references, and breaks coexist without losing source readability.
-
-**Reward:** `CORE SCRIBE`.
-
-</details>
+**Victory condition:** headings, inline formatting, lists, quotes, code, links, references, and breaks coexist while the document keeps one primary H1.
 
 ---
 
-# ACT II — GITHUB FLAVORED MARKDOWN
+## ACT II — GITHUB FLAVORED MARKDOWN
 
-## LEVEL 05 — TABLE ENGINE
+### LEVEL 05 — TABLE ENGINE
 
 | Left | Center | Right |
 | :--- | :---: | ---: |
@@ -275,7 +246,10 @@ www.github.com
 | alpha \| beta | `left\|right` | 200 |
 | **formatting** | $x^2$ | 300 |
 
-## LEVEL 06 — TASK TREE
+> [!TIP]
+> M16 keeps critical tables narrow. Large cross-product matrices belong in collapsed source/code or vertical lists rather than forcing a wide mobile viewport.
+
+### LEVEL 06 — TASK TREE
 
 - [x] Markdown Core
 - [x] GFM
@@ -289,35 +263,30 @@ www.github.com
 - [x] ASCII STL
 - [x] Parser torture
 - [x] M14 progression overhaul
-- [x] **M15 canonical Final Boss composition**
-- [ ] M16 accessibility/mobile/theme certification
+- [x] M15 canonical Final Boss
+- [x] **M16 light/dark/mobile/accessibility certification**
 - [ ] M17 final GitHub release regression
 
-### ACT II BOSS — PIPE & TASK ENGINE
+#### ACT II BOSS — PIPE & TASK ENGINE
 
-<details>
-<summary><strong>Boss cleared</strong></summary>
-
-**Victory condition:** tables preserve escaped pipes, task syntax remains structured, and inline Markdown survives inside GFM containers.
-
-**Reward:** `PIPE BENDER`.
-
-</details>
+**Victory condition:** tables preserve escaped pipes, tasks remain readable without color, and critical status is always written in text.
 
 ---
 
-# ACT III — GITHUB EXTENSIONS
+<a name="act-iii--github-extensions"></a>
 
-## LEVEL 07 — ALERT COMMAND CENTER
+## ACT III — GITHUB EXTENSIONS
+
+### LEVEL 07 — ALERT COMMAND CENTER
 
 > [!NOTE]
 > Capability completion and release certification are separate states.
 
 > [!TIP]
-> Source-first renderers are easiest to debug when their raw input remains visible.
+> Source-first renderers are easiest to debug when their raw input remains inspectable.
 
 > [!IMPORTANT]
-> M15 is complete. M16–M17 remain certification gates, not feature gates.
+> M16 is complete. M17 is the final release gate.
 
 > [!WARNING]
 > A renderer displaying something is not proof that the source is semantically correct.
@@ -325,18 +294,18 @@ www.github.com
 > [!CAUTION]
 > Intentionally malformed examples stay inside ordinary source fences.
 
-## LEVEL 08 — LINGUIST SYNTAX MUSEUM
+### LEVEL 08 — LINGUIST SYNTAX MUSEUM
 
-M7's **33-mode inventory** remains represented compactly.
+The 33-mode inventory stays collapsed by category so mobile readers do not scroll through an unavoidable code wall.
 
 <details>
-<summary><strong>Web / data / markup — 9</strong></summary>
+<summary><strong>Web / data / markup — 9 languages</strong></summary>
 
 ```javascript
 console.log("JavaScript");
 ```
 ```typescript
-const phase: number = 15;
+const phase: number = 16;
 ```
 ```html
 <details><summary>HTML</summary></details>
@@ -345,25 +314,25 @@ const phase: number = 15;
 .readme { display: block; }
 ```
 ```json
-{"phase":"M15"}
+{"phase":"M16"}
 ```
 ```yaml
-phase: M15
+phase: M16
 ```
 ```toml
-phase = "M15"
+phase = "M16"
 ```
 ```xml
-<phase>M15</phase>
+<phase>M16</phase>
 ```
 ```sql
-SELECT 'M15';
+SELECT 'M16';
 ```
 
 </details>
 
 <details>
-<summary><strong>Compiled / systems — 8</strong></summary>
+<summary><strong>Compiled / systems — 8 languages</strong></summary>
 
 ```c
 int main(void){return 0;}
@@ -395,7 +364,7 @@ print("Swift")
 </details>
 
 <details>
-<summary><strong>Scripting / scientific / functional — 11</strong></summary>
+<summary><strong>Scripting / scientific / functional — 11 languages</strong></summary>
 
 ```python
 print("Python")
@@ -434,7 +403,7 @@ main = print pi
 </details>
 
 <details>
-<summary><strong>Infrastructure / documentation / literal — 5</strong></summary>
+<summary><strong>Infrastructure / documentation / literal — 5 modes</strong></summary>
 
 ```dockerfile
 FROM alpine:3.22
@@ -443,65 +412,65 @@ FROM alpine:3.22
 # Markdown
 ```
 ```diff
-- add another feature
-+ compose the features we already proved
+- animation in the critical hero
++ static accessible certification hero
 ```
 ```text
 plaintext
 ```
 ```ini
 [readme]
-phase=M15
+phase=M16
 ```
 
 </details>
 
-**Inventory: 9 + 8 + 11 + 5 = 33 modes.**
+**Inventory:** 9 + 8 + 11 + 5 = **33 modes**.
 
-## LEVEL 09 — FOOTNOTES
+### LEVEL 09 — FOOTNOTES
 
-GitHub uses Linguist for fenced syntax.[^linguist] GitHub renders mathematics with MathJax.[^mathjax] GitHub supports Mermaid, GeoJSON, TopoJSON, and ASCII STL specialized renderer routes.[^github-diagrams]
+GitHub uses Linguist for fenced syntax.[^linguist] GitHub renders mathematics with MathJax.[^mathjax] GitHub supports Mermaid, GeoJSON, TopoJSON, and ASCII STL specialized routes.[^github-diagrams]
 
 Repeated reference one.[^repeat] Repeated reference two.[^repeat]
 
-### ACT III BOSS — EXTENSION ROUTER
+#### ACT III BOSS — EXTENSION ROUTER
 
-<details>
-<summary><strong>Boss cleared</strong></summary>
-
-**Victory condition:** alerts, Linguist routing, footnotes, autolinks, and GitHub-aware behavior remain source-controlled.
-
-**Reward:** `GITHUB OPERATOR`.
-
-</details>
+**Victory condition:** alerts, syntax routing, footnotes, and autolinks remain understandable without badge color or animation.
 
 ---
 
-# ACT IV — HTML HYBRID
+## ACT IV — HTML HYBRID
 
-## LEVEL 10 — REPOSITORY MEDIA
+### LEVEL 10 — REPOSITORY MEDIA
+
+GitHub documents `<picture>` plus `prefers-color-scheme` for responsive light/dark README imagery, including a default `<img>` fallback and alt text.[^theme-picture]
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Theme-aware repository-owned hero" width="100%">
+  <img src="./assets/hero-light.svg" alt="Theme-aware Markdown Final Form certification banner" width="100%">
 </picture>
 
-![Repository-owned SVG card](./assets/media-card.svg)
+<img src="./assets/media-card.svg" alt="Repository-owned SVG card describing a local, version-controlled, scalable asset" width="100%">
 
-[![Clickable local portal](./assets/clickable-portal.svg)](#level-36--canonical-final-boss)
+<a href="#final-boss"><img src="./assets/clickable-portal.svg" alt="Open the canonical Final Boss section" width="100%"></a>
 
-## LEVEL 11 — INLINE HTML SEMANTICS
+> [!NOTE]
+> The autoplaying external typing SVG previously embedded in the hero is no longer loaded. Its animation could not be controlled by this README with a reduced-motion preference, and it carried no unique information.
+
+### LEVEL 11 — INLINE HTML SEMANTICS
 
 Press <kbd>Ctrl</kbd> + <kbd>K</kbd>.  
 H<sub>2</sub>O · x<sup>2</sup> · <ins>inserted</ins> · <del>deleted</del> · <s>obsolete</s>
 
-## LEVEL 12 — DETAILS INTERFACE
+### LEVEL 12 — DETAILS INTERFACE
+
+Critical status is never hidden only inside a disclosure. `<details>` is used for optional depth.
 
 <details>
-<summary><strong>Collapsed content</strong></summary>
+<summary><strong>Open optional Markdown-inside-details demonstration</strong></summary>
 
-### Markdown inside details
+#### Heading inside optional details
 
 - list
 - **emphasis**
@@ -510,31 +479,31 @@ H<sub>2</sub>O · x<sup>2</sup> · <ins>inserted</ins> · <del>deleted</del> · 
 </details>
 
 <details open>
-<summary><strong>Default-open content</strong></summary>
+<summary><strong>Default-open disclosure demonstration</strong></summary>
 
-`open` changes initial disclosure state without README-authored JavaScript.
+The `open` attribute changes initial state without README-authored JavaScript.
 
 </details>
 
-## LEVEL 13 — HTML TABLE
+### LEVEL 13 — HTML TABLE
 
 <table>
   <thead><tr><th>Mechanism</th><th>Role</th></tr></thead>
   <tbody>
-    <tr><td><code>&lt;details&gt;</code></td><td>disclosure</td></tr>
+    <tr><td><code>&lt;details&gt;</code></td><td>optional disclosure</td></tr>
     <tr><td><code>&lt;picture&gt;</code></td><td>theme-aware media</td></tr>
     <tr><td><code>&lt;kbd&gt;</code></td><td>keyboard semantics</td></tr>
     <tr><td><code>&lt;table&gt;</code></td><td>explicit table structure</td></tr>
   </tbody>
 </table>
 
-## LEVEL 14 — MARKDOWN / HTML OWNERSHIP
+### LEVEL 14 — MARKDOWN / HTML OWNERSHIP
 
 ````html
 <details>
-<summary>Summary</summary>
+<summary>Descriptive summary</summary>
 
-### Markdown heading
+#### Markdown heading
 
 - Markdown list
 
@@ -545,7 +514,7 @@ fence inside details
 </details>
 ````
 
-## LEVEL 15 — SANITIZATION BOUNDARY
+### LEVEL 15 — SANITIZATION BOUNDARY
 
 ```html
 <script>alert('not a README runtime')</script>
@@ -553,51 +522,53 @@ fence inside details
 <div class="app" id="root">not a JavaScript mount point</div>
 ```
 
-## LEVEL 16 — HYBRID BOSS
+### LEVEL 16 — HYBRID BOSS
 
-<details open>
-<summary><strong>HYBRID SYSTEM CONSOLE</strong></summary>
+| Subsystem | Status |
+| --- | --- |
+| Local SVG | ONLINE |
+| Theme-aware picture | ONLINE |
+| Details UI | ONLINE |
+| Semantic HTML | ONLINE |
+| README JavaScript runtime | ABSENT BY DESIGN |
 
-<table>
-  <tr><th>Subsystem</th><th>Status</th></tr>
-  <tr><td>Local SVG</td><td><strong>ONLINE</strong></td></tr>
-  <tr><td>Theme-aware picture</td><td><strong>ONLINE</strong></td></tr>
-  <tr><td>Details UI</td><td><strong>ONLINE</strong></td></tr>
-  <tr><td>Semantic HTML</td><td><strong>ONLINE</strong></td></tr>
-  <tr><td>README JavaScript runtime</td><td><del>ABSENT</del> BY DESIGN</td></tr>
-</table>
+#### ACT IV BOSS — SANITIZER SURVIVOR
 
-</details>
-
-### ACT IV BOSS — SANITIZER SURVIVOR
-
-**Reward:** `HYBRID ENGINEER`.
+**Victory condition:** useful HTML semantics remain additive rather than becoming a hidden application layer.
 
 ---
 
-# ACT V — ADVANCED RENDERING
+<a name="act-v--advanced-rendering"></a>
+
+## ACT V — ADVANCED RENDERING
 
 <a name="renderer-mastery"></a>
 
-## LEVEL 17 — MATHJAX
+### LEVEL 17 — MATHJAX
 
 Inline: $E=mc^2$. Protected inline: $`x_i^2`$.
 
 ```math
 A=\begin{pmatrix}1&2\\3&4\end{pmatrix},
-\qquad Av=\lambda v,
-\qquad e^{i\pi}+1=0
+\qquad Av=\lambda v
 ```
+
+A second block keeps wide notation from becoming one extremely long mobile line:
 
 ```math
-\widehat f(\xi)=\int_{-\infty}^{\infty}f(x)e^{-2\pi i x\xi}\,dx
+\begin{aligned}
+e^{i\pi}+1&=0,\\
+\widehat f(\xi)&=\int_{-\infty}^{\infty}f(x)e^{-2\pi i x\xi}\,dx.
+\end{aligned}
 ```
 
-## LEVEL 18 — MERMAID
+### LEVEL 18 — MERMAID
+
+**Text equivalent:** Source is routed to one of six specialized systems: Linguist, MathJax, Mermaid, GeoJSON, TopoJSON, or ASCII STL.
 
 ```mermaid
-flowchart LR
-    SOURCE[Source] --> ROUTE{Info string / delimiter}
+flowchart TB
+    SOURCE[Source] --> ROUTE{Renderer route}
     ROUTE --> L[Linguist]
     ROUTE --> MJ[MathJax]
     ROUTE --> MM[Mermaid]
@@ -607,23 +578,30 @@ flowchart LR
 ```
 
 <details>
-<summary><strong>Sequence example</strong></summary>
+<summary><strong>Open optional sequence diagram</strong></summary>
+
+**Text equivalent:** Author commits source → GitHub parses Markdown → specialized renderer produces output.
 
 ```mermaid
 sequenceDiagram
     actor Author
-    participant MD as README.md
+    participant MD as README
     participant GH as GitHub
     participant R as Renderer
     Author->>MD: commit source
-    MD->>GH: parse
-    GH->>R: route
-    R-->>GH: render
+    MD->>GH: parse Markdown
+    GH->>R: route source
+    R-->>GH: return output
 ```
 
 </details>
 
-## LEVEL 19 — GEOJSON
+> [!IMPORTANT]
+> Mermaid is supplementary visualization here. Its relationships are repeated in text because diagram accessibility can vary by diagram type and renderer context.
+
+### LEVEL 19 — GEOJSON
+
+**Text equivalent:** two named points are shown: Berlin at longitude 13.405, latitude 52.52 and Paris at longitude 2.3522, latitude 48.8566.
 
 ```geojson
 {
@@ -643,9 +621,11 @@ sequenceDiagram
 }
 ```
 
-Standalone: [`assets/geojson-showcase.geojson`](./assets/geojson-showcase.geojson)
+Standalone source and map file: [`assets/geojson-showcase.geojson`](./assets/geojson-showcase.geojson)
 
-## LEVEL 20 — TOPOJSON
+### LEVEL 20 — TOPOJSON
+
+**Text equivalent:** two adjacent polygon regions share arc `1`; the east region refers to the same physical boundary in reverse as `-2`.
 
 ```topojson
 {
@@ -671,9 +651,11 @@ Standalone: [`assets/geojson-showcase.geojson`](./assets/geojson-showcase.geojso
 }
 ```
 
-Standalone: [`assets/topojson-showcase.topojson`](./assets/topojson-showcase.topojson)
+Standalone source and map file: [`assets/topojson-showcase.topojson`](./assets/topojson-showcase.topojson)
 
-## LEVEL 21 — ASCII STL / 3D
+### LEVEL 21 — ASCII STL / 3D
+
+**Text equivalent:** the live model is a tetrahedron with four triangular faces and vertices at `(0,0,0)`, `(1,0,0)`, `(0,1,0)`, and `(0,0,1)`. A separate repository-owned STL contains the validated twelve-facet unit cube.
 
 ```stl
 solid tetrahedron
@@ -710,36 +692,36 @@ endsolid tetrahedron
 
 Standalone cube: [`assets/stl-showcase.stl`](./assets/stl-showcase.stl)
 
-## RENDERER MASTERY
+GitHub's standalone STL viewer uses WebGL and may be unavailable or degraded when WebGL support is missing; GitHub also documents a 10 MB viewer limit.[^stl-viewer] The text description and ASCII source therefore remain first-class fallbacks.
 
-| Renderer | Source syntax | Live render | Composition | Failure containment | Durable evidence | Mastery |
-| --- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Linguist | ✅ | ✅ | ✅ | ✅ | ✅ | **V** |
-| MathJax | ✅ | ✅ | ✅ | ✅ | ✅ | **V** |
-| Mermaid | ✅ | ✅ | ✅ | ✅ | ✅ | **V** |
-| GeoJSON | ✅ | ✅ | ✅ | ✅ | ✅ | **V** |
-| TopoJSON | ✅ | ✅ | ✅ | ✅ | ✅ | **V** |
-| ASCII STL | ✅ | ✅ | ✅ | ✅ | ✅ | **V** |
+### RENDERER MASTERY
 
-```text
-MASTERY I   source syntax understood
-MASTERY II  live renderer demonstrated
-MASTERY III composed with another README mechanism
-MASTERY IV  malformed-input containment demonstrated
-MASTERY V   durable asset/reference/cross-render evidence retained
-```
+The old seven-column matrix is replaced with a narrow mobile-safe ledger:
 
-### ACT V BOSS — RENDERER GAUNTLET
+| Renderer | Mastery | Durable evidence |
+| --- | :---: | --- |
+| Linguist | V | 33-mode source museum |
+| MathJax | V | inline + block equations |
+| Mermaid | V | diagram + text equivalent |
+| GeoJSON | V | live block + `.geojson` asset |
+| TopoJSON | V | live block + `.topojson` asset |
+| ASCII STL | V | live block + `.stl` asset |
 
-**Rewards:** `MATHJAX ARCHITECT`, `MERMAID CARTOGRAPHER`, `GEOJSON NAVIGATOR`, `TOPOLOGY ENGINEER`, `STL MESHSMITH`.
+**Mastery V** means source syntax, live rendering, composition, malformed-input containment, and durable evidence are all retained.
+
+#### ACT V BOSS — RENDERER GAUNTLET
+
+**Victory condition:** every visual/interative renderer has an adjacent text/source route that communicates the same essential meaning.
 
 ---
 
-# ACT VI — PARSER TRIALS
+<a name="act-vi--parser-trials"></a>
 
-M13's exact source fixture remains: [`assets/parser-torture-corpus.txt`](./assets/parser-torture-corpus.txt).
+## ACT VI — PARSER TRIALS
 
-## LEVEL 22 — ESCAPES
+M13's exact raw fixture remains: [`assets/parser-torture-corpus.txt`](./assets/parser-torture-corpus.txt).
+
+### LEVEL 22 — ESCAPES
 
 \# not a heading  
 \> not a quote  
@@ -747,7 +729,7 @@ M13's exact source fixture remains: [`assets/parser-torture-corpus.txt`](./asset
 1\. not an ordered list  
 \*not emphasis\*
 
-## LEVEL 23 — CODE-SPAN LENGTH
+### LEVEL 23 — CODE-SPAN LENGTH
 
 `plain code`
 
@@ -755,7 +737,7 @@ M13's exact source fixture remains: [`assets/parser-torture-corpus.txt`](./asset
 
 Triple delimiter example: ```Use ``two`` backticks inside three```
 
-## LEVEL 24 — DELIMITER PRECEDENCE
+### LEVEL 24 — DELIMITER PRECEDENCE
 
 ***strong emphasis***  
 **strong *nested emphasis***  
@@ -763,7 +745,7 @@ Triple delimiter example: ```Use ``two`` backticks inside three```
 foo*bar*baz  
 foo_bar_baz
 
-## LEVEL 25 — FENCE ARCHITECTURE
+### LEVEL 25 — FENCE ARCHITECTURE
 
 ````markdown
 ```javascript
@@ -783,7 +765,7 @@ console.log("three inside four inside five");
 Tilde fence: literal `backticks` are ordinary content here.
 ~~~
 
-## LEVEL 26 — CONTAINER OWNERSHIP
+### LEVEL 26 — CONTAINER OWNERSHIP
 
 > 1. quoted ordered item
 >    - [x] quoted task
@@ -792,30 +774,30 @@ Tilde fence: literal `backticks` are ordinary content here.
 >      fenced block inside quote/list structure
 >      ```
 
-## LEVEL 27 — LINKS / PIPES / ANCHORS
+### LEVEL 27 — LINKS / PIPES / ANCHORS
 
 | Case | Payload |
 | --- | --- |
 | escaped pipe | alpha \| beta |
 | code-span pipe | `left\|right` |
-| balanced URL | [Markdown](https://en.wikipedia.org/wiki/Markdown_(markup_language)) |
+| balanced URL | [Markdown article](https://en.wikipedia.org/wiki/Markdown_(markup_language)) |
 
 [Reference full][parser-docs] · [Reference collapsed][] · [Reference shortcut]
 
-### Collision Target
+#### Collision Target
 
-First duplicate.
+First duplicate-heading test.
 
-### Collision Target
+#### Collision Target
 
-Second duplicate.
+Second duplicate-heading test. No critical navigation depends on its generated collision suffix.
 
-## LEVEL 28 — HTML / MATH BOUNDARIES
+### LEVEL 28 — HTML / MATH BOUNDARIES
 
 <details>
-<summary><strong>Markdown parsed inside details</strong></summary>
+<summary><strong>Open Markdown and math boundary example</strong></summary>
 
-### Heading inside details
+#### Heading inside details
 
 - **Markdown**
 - $x^2+y^2=z^2$
@@ -824,11 +806,11 @@ Second duplicate.
 
 Literal dollar inside protected math: $`\sqrt{\$4}=2`$.
 
-Inline code control: `$not-math$`.
+Inline-code control: `$not-math$`.
 
-## LEVEL 29 — MALFORMED RENDERER FIREWALL
+### LEVEL 29 — MALFORMED RENDERER FIREWALL
 
-Broken specialized source stays inside one longer **text** fence:
+Broken specialized source remains inside one longer **text** fence:
 
 `````text
 ```mermaid
@@ -856,7 +838,7 @@ endsolid missing_vertex
 ```
 `````
 
-## LEVEL 30 — RECURSION
+### LEVEL 30 — RECURSION
 
 ``````markdown
 `````markdown
@@ -868,135 +850,120 @@ endsolid missing_vertex
 `````
 ``````
 
-### ACT VI BOSS — PARSER FIREWALL
+#### ACT VI BOSS — PARSER FIREWALL
 
-<details>
-<summary><strong>Boss cleared</strong></summary>
-
-**Victory condition:** dangerous syntax is either parsed intentionally or contained intentionally.
-
-**Reward:** `GRAMMAR BREAKER`.
-
-</details>
+**Victory condition:** dangerous syntax is either parsed intentionally or contained intentionally; M16 does not simplify the fence lengths that make those tests safe.
 
 ---
 
-# ACT VII — ENDGAME
+## ACT VII — ENDGAME
 
 <a name="achievement-codex"></a>
 
-## LEVEL 31 — ACHIEVEMENT CODEX
+### LEVEL 31 — ACHIEVEMENT CODEX
 
-| Achievement | Rarity | Evidence | Unlocked |
-| --- | :---: | --- | :---: |
-| **Core Scribe** | COMMON | typography + headings + blocks | M1–M2 |
-| **Block Architect** | UNCOMMON | nested lists / quotes / tasks | M3 |
-| **Link Cartographer** | RARE | relative links / references / anchors | M4 |
-| **Media Engineer** | RARE | local SVG + theme-aware media | M5 |
-| **Hybrid Engineer** | RARE | semantic HTML + details + sanitizer boundary | M6 |
-| **Syntax Curator** | EPIC | 33 Linguist modes | M7 |
-| **MathJax Architect** | EPIC | advanced mathematical rendering | M8 |
-| **Mermaid Cartographer** | EPIC | multi-family diagrams | M9 |
-| **GeoJSON Navigator** | LEGENDARY | interactive geographic renderer | M10 |
-| **Topology Engineer** | LEGENDARY | shared arcs / transforms / TopoJSON | M11 |
-| **STL Meshsmith** | LEGENDARY | interactive ASCII STL / validated cube | M12 |
-| **Grammar Breaker** | MYTHIC | parser torture + renderer containment | M13 |
-| **Progression Architect** | MYTHIC | coherent campaign / mastery / gates | M14 |
-| **Final Form Composer** | MYTHIC | canonical cross-system Final Boss | **M15** |
-| **Accessibility Warden** | MYTHIC | mobile/theme/accessibility certification | 🔒 M16 |
-| **Release Keeper** | MYTHIC | final GitHub regression | 🔒 M17 |
-| **Master of Restraint** | UNKNOWN | stop adding systems | 🔒 apparently impossible |
+<details>
+<summary><strong>Open achievement ledger</strong></summary>
 
-Achievement rule: **evidence beats decoration**. If the demonstrated mechanism disappears, its achievement is conceptually revoked.
+| Achievement | Rarity | Evidence / unlock |
+| --- | :---: | --- |
+| Core Scribe | COMMON | M1–M2 · typography / structure |
+| Block Architect | UNCOMMON | M3 · block composition |
+| Link Cartographer | RARE | M4 · links / anchors |
+| Media Engineer | RARE | M5 · local/theme media |
+| Hybrid Engineer | RARE | M6 · semantic HTML |
+| Syntax Curator | EPIC | M7 · 33 modes |
+| MathJax Architect | EPIC | M8 · mathematical rendering |
+| Mermaid Cartographer | EPIC | M9 · diagram gallery |
+| GeoJSON Navigator | LEGENDARY | M10 · interactive maps |
+| Topology Engineer | LEGENDARY | M11 · shared topology |
+| STL Meshsmith | LEGENDARY | M12 · interactive 3D |
+| Grammar Breaker | MYTHIC | M13 · parser firewall |
+| Progression Architect | MYTHIC | M14 · campaign system |
+| Final Form Composer | MYTHIC | M15 · canonical composition |
+| **Accessibility Warden** | **MYTHIC** | **M16 · theme/mobile/a11y certification** |
+| Release Keeper | MYTHIC | 🔒 M17 · final regression |
+| Master of Restraint | UNKNOWN | still locked |
 
-## LEVEL 32 — PHASE HISTORY
+</details>
 
-| Phase | Milestone | State |
-| :---: | --- | :---: |
-| M0 | capability audit / gap map | ✅ |
-| M1 | information architecture | ✅ |
-| M2 | typography / parser fundamentals | ✅ |
-| M3 | block systems | ✅ |
-| M4 | links / references | ✅ |
-| M5 | local SVG / theme-aware media | ✅ |
-| M6 | HTML Hybrid / details UI | ✅ |
-| M7 | 33-mode syntax museum | ✅ |
-| M8 | advanced MathJax | ✅ |
-| M9 | Mermaid gallery | ✅ |
-| M10 | GeoJSON | ✅ |
-| M11 | TopoJSON | ✅ |
-| M12 | ASCII STL / 3D | ✅ |
-| M13 | parser torture / failure containment | ✅ |
-| M14 | progression / achievements / Chaos Index | ✅ |
-| **M15** | **canonical Final Boss composition** | **✅** |
-| M16 | accessibility / mobile / light-dark certification | 🔒 |
-| M17 | final GitHub regression / release polish | 🔒 |
+Achievement rule: **evidence beats decoration**. Badge color is never the only signal of completion.
 
-## LEVEL 33 — CHAOS INDEX 2.1
+### LEVEL 32 — PHASE HISTORY
 
-### Capability Index
+| Phase range | Milestone | State |
+| --- | --- | :---: |
+| M0–M4 | audit → core → blocks → links | ✅ |
+| M5–M7 | local media → HTML → syntax museum | ✅ |
+| M8–M12 | MathJax → Mermaid → GeoJSON → TopoJSON → STL | ✅ |
+| M13 | parser torture / containment | ✅ |
+| M14 | progression / Chaos Index | ✅ |
+| M15 | canonical Final Boss | ✅ |
+| **M16** | **light/dark/mobile/accessibility certification** | **✅** |
+| M17 | final GitHub regression / release polish | **NEXT** |
+
+### LEVEL 33 — CHAOS INDEX 2.2
+
+#### Capability Index
 
 ```text
-Markdown Core       ████████████████████ 100
-GFM                 ████████████████████ 100
-GitHub Extensions   ████████████████████ 100
-HTML Hybrid         ████████████████████ 100
-Linguist Breadth    ████████████████████ 100
-MathJax             ████████████████████ 100
-Mermaid             ████████████████████ 100
-GeoJSON             ████████████████████ 100
-TopoJSON            ████████████████████ 100
-ASCII STL           ████████████████████ 100
+Markdown / GFM      ████████████████████ 100
+GitHub / HTML       ████████████████████ 100
+Linguist            ████████████████████ 100
+MathJax / Mermaid   ████████████████████ 100
+Geo / Topology / 3D ████████████████████ 100
 ---------------------------------------------
 CAPABILITY INDEX                            100
 ```
 
-### Robustness Index
+#### Robustness Index
 
 ```text
 Parser Hardening    ███████████████████░  95
 Failure Containment ████████████████████ 100
-Local Asset Safety  ██████████████████░░  90
-Theme Resilience    █████████████████░░░  85
-Composition         ████████████████████ 100  ← M15 complete
-Accessibility       ██████████████░░░░░░  70  ← M16
-Mobile Confidence   ██████████████░░░░░░  70  ← M16
+Local Asset Safety  ███████████████████░  95
+Theme Resilience    ████████████████████ 100  ← M16
+Composition         ████████████████████ 100
+Accessibility       ████████████████████ 100  ← M16
+Mobile Layout       ███████████████████░  95  ← M16
 GitHub Regression   ████████████░░░░░░░░  60  ← M17
 ---------------------------------------------
-ROBUSTNESS INDEX                             84
+ROBUSTNESS INDEX                             93
 ```
 
-### Release Index
+#### Release Index
 
 ```text
 SHOWCASE MASTERY     ████████████████████ 100
-ENDGAME COMPLETION   ████████████░░░░░░░░  60  (3 / 5)
-RELEASE CONFIDENCE   ████████████████░░░░  81
-RESTRAINT            ██░░░░░░░░░░░░░░░░░░  10
-RAW POWER            ████████████████████ M15
+ENDGAME COMPLETION   ████████████████░░░░  80  (4 / 5)
+RELEASE CONFIDENCE   ██████████████████░░  91
+RESTRAINT            ████░░░░░░░░░░░░░░░░  20
+RAW POWER            ████████████████████ M16
 ```
 
-## LEVEL 34 — UNLOCK TREE
+### LEVEL 34 — UNLOCK TREE
+
+**Text equivalent:** M13 parser hardening enabled M14 progression; M14 enabled M15 composition; M15 enabled M16 certification; M16 now unlocks M17 release regression.
 
 ```mermaid
-flowchart TD
-    M13[M13 Parser Firewall ✅] --> M14[M14 Progression ✅]
-    M14 --> M15[M15 Final Boss ✅]
-    M15 --> M16{M16 Accessibility / Mobile / Theme Certification}
-    M16 --> M17{M17 GitHub Regression / Release}
+flowchart TB
+    M13[M13 Parser Firewall — done] --> M14[M14 Progression — done]
+    M14 --> M15[M15 Final Boss — done]
+    M15 --> M16[M16 Certification — done]
+    M16 --> M17[M17 GitHub Regression — next]
     M17 --> REL[FINAL FORM — RELEASED]
 ```
 
 <a name="release-gates"></a>
 
-| Gate | Unlock condition | Current state |
-| --- | --- | :---: |
-| M15 | coherent progression | ✅ CLEARED |
-| M16 | canonical Final Boss composed without new mechanics | **UNLOCKED NEXT** |
-| M17 | accessibility/mobile/theme certification passes | 🔒 |
-| Release | final GitHub rendering regression passes | 🔒 |
+| Gate | Current state |
+| --- | :---: |
+| M15 Final Boss | ✅ CLEARED |
+| M16 certification | ✅ CLEARED |
+| M17 final GitHub regression | **UNLOCKED NEXT** |
+| Release | 🔒 waits for M17 |
 
-## LEVEL 35 — SOURCE-ONLY SECRETS
+### LEVEL 35 — SOURCE-ONLY SECRETS
 
 ```text
 SECRET ACHIEVEMENTS
@@ -1004,29 +971,29 @@ SECRET ACHIEVEMENTS
 ├── ???
 ├── ???
 ├── ???
-└── Master of Restraint  [still locked]
+├── ???
+└── Master of Restraint [not yet]
 ```
 
 > [!TIP]
-> Source view is part of the interface. M15 contains a hidden achievement that cannot be seen here.
+> Hidden achievements enrich source view, but essential content is never hidden exclusively there.
 
 ---
 
 <a name="final-boss"></a>
 
-# LEVEL 36 — CANONICAL FINAL BOSS
+### LEVEL 36 — CANONICAL FINAL BOSS
 
-`M0–M15 composition` · `no new mechanics`
+`M0–M16 composition` · `no new mechanics`
 
 <!--
 FINAL BOSS SECRET:
-You reached the source layer of the canonical composition.
 Achievement unlocked: NO NEW MECHANICS.
-The boss is difficult because the systems interact, not because a new system appeared.
+M16 adds certification, not another renderer.
 -->
 
 > [!IMPORTANT]
-> **Final Boss rule:** every mechanic below was demonstrated before M15. This section is allowed to compose; it is not allowed to expand the feature surface.
+> **Final Boss rule:** all mechanics below were demonstrated earlier. M16 only strengthens their accessible/mobile fallbacks.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
@@ -1034,68 +1001,51 @@ The boss is difficult because the systems interact, not because a new system app
   <img src="./assets/hero-light.svg" alt="Markdown Final Form canonical Final Boss banner" width="100%">
 </picture>
 
-<details open>
-<summary><strong>👑 FINAL BOSS ARENA — SYSTEM STATUS</strong></summary>
+#### Boss status
 
-<table>
-  <thead><tr><th>Layer</th><th>Mechanic</th><th>Status</th></tr></thead>
-  <tbody>
-    <tr><td>Core</td><td>Markdown / GFM</td><td><strong>ONLINE</strong></td></tr>
-    <tr><td>GitHub</td><td>Alerts / footnotes / Linguist</td><td><strong>ONLINE</strong></td></tr>
-    <tr><td>Hybrid</td><td>picture / details / semantic HTML</td><td><strong>ONLINE</strong></td></tr>
-    <tr><td>Math</td><td>MathJax</td><td><strong>ONLINE</strong></td></tr>
-    <tr><td>Diagram</td><td>Mermaid</td><td><strong>ONLINE</strong></td></tr>
-    <tr><td>Map</td><td>GeoJSON</td><td><strong>ONLINE</strong></td></tr>
-    <tr><td>Topology</td><td>TopoJSON</td><td><strong>ONLINE</strong></td></tr>
-    <tr><td>3D</td><td>ASCII STL</td><td><strong>ONLINE</strong></td></tr>
-    <tr><td>Defense</td><td>Parser firewall</td><td><strong>ARMED</strong></td></tr>
-    <tr><td>Meta</td><td>Progression / achievements</td><td><strong>ONLINE</strong></td></tr>
-  </tbody>
-</table>
+| Layer | Mechanic | State |
+| --- | --- | :---: |
+| Core | Markdown / GFM | ONLINE |
+| GitHub | alerts / footnotes / Linguist | ONLINE |
+| Hybrid | picture / details / semantic HTML | ONLINE |
+| Advanced | MathJax / Mermaid | ONLINE |
+| Interactive | GeoJSON / TopoJSON / STL | ONLINE |
+| Defense | parser firewall | ARMED |
+| Certification | M16 accessibility/mobile/theme | PASSED |
 
-### Boss objectives
+- [x] local/theme-aware media
+- [x] Markdown + GFM + HTML
+- [x] Linguist + MathJax + Mermaid
+- [x] GeoJSON + TopoJSON + ASCII STL
+- [x] parser containment
+- [x] source-only secrets are optional
+- [x] every visual renderer has text/source fallback
+- [x] motion removed from critical path
+- [x] M16 document certification passed
+- [ ] M17 live GitHub regression
 
-- [x] reuse local/theme-aware media
-- [x] compose Markdown + GFM + HTML
-- [x] include one code-rendering surface
-- [x] include MathJax
-- [x] include Mermaid
-- [x] include GeoJSON
-- [x] include TopoJSON
-- [x] include ASCII STL
-- [x] keep broken-source examples out of live specialized renderers
-- [x] expose source-only secret state
-- [x] avoid introducing a seventh specialized renderer
-- [ ] certify light/dark/mobile/accessibility in M16
-- [ ] pass final GitHub regression in M17
-
-</details>
-
-### Phase 1 — Boss manifest
+#### Boss manifest
 
 ```yaml
 boss: MARKDOWN_FINAL_FORM
-phase: M15
-rule: compose_do_not_expand
-specialized_routes:
-  - linguist
-  - mathjax
-  - mermaid
-  - geojson
-  - topojson
-  - ascii_stl
+phase: M16
+rule: certify_do_not_expand
+specialized_routes: 6
 parser_firewall: armed
-m16_gate: unlocked
-m17_gate: locked
+text_fallbacks: required
+motion_in_critical_path: false
+m16_gate: cleared
+m17_gate: unlocked
 ```
 
-### Phase 2 — Renderer network
+#### Renderer network
+
+**Text equivalent:** Markdown/GFM is parsed by GitHub; specialized source is routed to code, math, diagram, map, topology, or 3D rendering; sanitizer/parser protections and text fallbacks feed the same Final Boss output.
 
 ```mermaid
 flowchart TB
     SRC[README source] --> MD[Markdown / GFM]
     MD --> GH[GitHub]
-
     GH --> CODE[Linguist]
     GH --> MATH[MathJax]
     GH --> MM[Mermaid]
@@ -1103,10 +1053,8 @@ flowchart TB
     GH --> TOPO[TopoJSON]
     GH --> STL[ASCII STL]
     GH --> HTML[Sanitized HTML]
-
-    FIRE[Parser Firewall] --> MD
-    META[Progression System] --> BOSS[FINAL BOSS]
-
+    FALLBACK[Text equivalents] --> BOSS[FINAL BOSS]
+    FIRE[Parser firewall] --> BOSS
     CODE --> BOSS
     MATH --> BOSS
     MM --> BOSS
@@ -1114,99 +1062,68 @@ flowchart TB
     TOPO --> BOSS
     STL --> BOSS
     HTML --> BOSS
-    FIRE --> BOSS
-
-    BOSS --> M16[M16 CERTIFICATION]
+    BOSS --> M17[M17 RELEASE REGRESSION]
 ```
 
-### Phase 3 — Mathematical victory condition
+#### Mathematical victory condition
 
 ```math
-\boxed{
-\text{Final Boss}
-=
-\text{Core}
-\oplus\text{GFM}
-\oplus\text{HTML}
-\oplus\text{Linguist}
-\oplus\text{MathJax}
-\oplus\text{Mermaid}
-\oplus\text{GeoJSON}
-\oplus\text{TopoJSON}
-\oplus\text{STL}
-\oplus\text{Parser Safety}
-}
+\begin{aligned}
+\text{Final Form} &= \text{Capability}+\text{Composition}+\text{Parser Safety},\\
+\text{M16} &= \text{Theme}+\text{Mobile}+\text{Accessibility}+\text{Fallbacks},\\
+\text{New renderer families in M16} &= 0.
+\end{aligned}
 ```
 
-```math
-\text{New mechanics introduced in M15}=0
-```
-
-### Phase 4 — Interactive chambers
+#### Interactive chambers
 
 <details>
-<summary><strong>⌖ GeoJSON chamber — explicit geographic geometry</strong></summary>
+<summary><strong>Open GeoJSON chamber — Paris to Berlin route</strong></summary>
+
+**Text fallback:** start at Paris `(2.3522, 48.8566)`, finish at Berlin `(13.405, 52.52)`, connected by one line segment.
 
 ```geojson
 {
   "type": "FeatureCollection",
   "features": [
-    {
-      "type": "Feature",
-      "properties": {"title": "SOURCE", "marker-color": "#7c3aed"},
-      "geometry": {"type": "Point", "coordinates": [2.3522, 48.8566]}
-    },
-    {
-      "type": "Feature",
-      "properties": {"title": "FINAL FORM", "marker-color": "#0891b2"},
-      "geometry": {"type": "Point", "coordinates": [13.405, 52.52]}
-    },
-    {
-      "type": "Feature",
-      "properties": {"title": "COMPOSITION ROUTE", "stroke": "#2563eb", "stroke-width": 4},
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [[2.3522,48.8566],[13.405,52.52]]
-      }
-    }
+    {"type":"Feature","properties":{"title":"Paris"},"geometry":{"type":"Point","coordinates":[2.3522,48.8566]}},
+    {"type":"Feature","properties":{"title":"Berlin"},"geometry":{"type":"Point","coordinates":[13.405,52.52]}},
+    {"type":"Feature","properties":{"title":"Route"},"geometry":{"type":"LineString","coordinates":[[2.3522,48.8566],[13.405,52.52]]}}
   ]
 }
 ```
 
-Repository evidence: [`assets/geojson-showcase.geojson`](./assets/geojson-showcase.geojson)
+[Open repository GeoJSON source/map](./assets/geojson-showcase.geojson)
 
 </details>
 
 <details>
-<summary><strong>◎ TopoJSON chamber — shared topology</strong></summary>
+<summary><strong>Open TopoJSON chamber — shared boundary</strong></summary>
+
+**Text fallback:** west and east polygons share arc `1`; east reuses that boundary in reverse with `-2`.
 
 ```topojson
 {
   "type": "Topology",
   "objects": {
     "west": {"type":"Polygon","arcs":[[0,1,2,3]]},
-    "east": {"type":"Polygon","arcs":[[4,5,6,-2]]},
-    "shared": {"type":"LineString","arcs":[1]}
+    "east": {"type":"Polygon","arcs":[[4,5,6,-2]]}
   },
   "arcs": [
-    [[2,48],[6,48]],
-    [[6,48],[6,52]],
-    [[6,52],[2,52]],
-    [[2,52],[2,48]],
-    [[6,48],[10,48]],
-    [[10,48],[10,52]],
-    [[10,52],[6,52]]
+    [[2,48],[6,48]], [[6,48],[6,52]], [[6,52],[2,52]], [[2,52],[2,48]],
+    [[6,48],[10,48]], [[10,48],[10,52]], [[10,52],[6,52]]
   ]
 }
 ```
 
-One boundary, two regions, one reversed reference.  
-Repository evidence: [`assets/topojson-showcase.topojson`](./assets/topojson-showcase.topojson)
+[Open repository TopoJSON source/map](./assets/topojson-showcase.topojson)
 
 </details>
 
 <details>
-<summary><strong>△ STL chamber — triangulated 3D surface</strong></summary>
+<summary><strong>Open ASCII STL chamber — tetrahedron</strong></summary>
+
+**Text fallback:** four vertices and four triangular faces form a closed tetrahedron. The repository asset is a separate validated unit cube made from twelve facets.
 
 ```stl
 solid final_form_tetrahedron
@@ -1241,14 +1158,11 @@ solid final_form_tetrahedron
 endsolid final_form_tetrahedron
 ```
 
-Repository evidence: [`assets/stl-showcase.stl`](./assets/stl-showcase.stl)
+[Open repository STL cube](./assets/stl-showcase.stl)
 
 </details>
 
-### Phase 5 — Parser shield
-
-> [!WARNING]
-> The boss arena uses specialized renderer fences live, so intentionally broken source must remain outside them.
+#### Parser shield
 
 `````text
 ```mermaid
@@ -1276,71 +1190,139 @@ endsolid missing_vertex
 ```
 `````
 
-The five-backtick `text` wrapper is part of the protection system, not decoration.
-
-### Phase 6 — Boss source inside source
-
-``````markdown
-`````markdown
-````markdown
-```mermaid
-flowchart LR
-    SOURCE --> BOSS --> CERTIFICATION
-```
-````
-`````
-``````
-
-### Victory screen
-
-> [!TIP]
-> M15's success condition is not “the README contains everything.” It is “the README can make the already-proven mechanisms cooperate without adding another system.”
-
-<p align="center">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-FINAL_FORM_COMPOSER-F59E0B?style=for-the-badge" alt="Final Form Composer achievement">
-  <img src="https://img.shields.io/badge/BOSS-CLEARED-8B5CF6?style=for-the-badge" alt="Canonical Final Boss cleared">
-  <img src="https://img.shields.io/badge/NEXT-M16_CERTIFICATION-F43F5E?style=for-the-badge" alt="M16 certification unlocked">
-</p>
-
-| Victory condition | State |
-| --- | :---: |
-| reused previously demonstrated mechanics only | ✅ |
-| local/theme-aware media included | ✅ |
-| Markdown/GFM/HTML composition included | ✅ |
-| Linguist included | ✅ |
-| MathJax included | ✅ |
-| Mermaid included | ✅ |
-| GeoJSON included | ✅ |
-| TopoJSON included | ✅ |
-| ASCII STL included | ✅ |
-| parser containment included | ✅ |
-| progression state updated | ✅ |
-| M16 gate unlocked | ✅ |
-| M17 release certification claimed early | ❌ |
+The broken examples are intentionally literal source, not live renderers.
 
 ---
 
-# RELEASE GATES
+<a name="m16-certification"></a>
+
+### LEVEL 37 — LIGHT/DARK, MOBILE & ACCESSIBILITY CERTIFICATION
+
+`M16` · `document certification` · `release candidate hardening`
 
 > [!IMPORTANT]
-> The Final Boss is cleared, but the README is **not released yet**. M16 must certify theme behavior, mobile usability, and accessibility. M17 must then perform the final GitHub rendering regression and release polish.
+> **Certification scope:** M16 certifies the README's source/design behavior and documented fallbacks. M17 still owns the final live GitHub regression across the rendered branch, links, anchors, specialized renderers, and release state.
+
+#### Theme certification — PASS
+
+- [x] `<picture>` provides dark source, light source, and default image fallback.[^theme-picture]
+- [x] both hero SVGs contain internal `<title>` and `<desc>` metadata.
+- [x] outer README `<img>` elements also carry meaningful alt text.
+- [x] fixed-theme local SVG cards draw their own background and do not depend on GitHub page color.
+- [x] completion state is written in words/symbols, never encoded by color alone.
+- [x] sampled hero text contrast remains above 4.5:1 at both gradient endpoints: minimum **5.10:1 light**, **6.52:1 dark**.
+- [x] GitHub users can independently choose light, dark, high-contrast, and colorblind themes at the platform level.[^github-themes]
+
+#### Motion certification — PASS
+
+- [x] autoplaying external typing SVG removed from the hero.
+- [x] no critical information depends on animation.
+- [x] no README-authored JavaScript or timed transitions exist.
+- [x] static badges repeat status in ordinary text.
+
+#### Image / media semantics — PASS
+
+| Media role | M16 rule |
+| --- | --- |
+| informative hero | descriptive alt text |
+| repository media card | descriptive alt text |
+| clickable portal | destination/action described in alt text |
+| decorative divider | empty `alt=""` |
+| visual renderer | adjacent text/source equivalent |
+
+GitHub explicitly describes alt text as the short text equivalent of image information.[^github-images]
+
+#### Structural semantics — PASS
+
+- [x] one primary H1: `MARKDOWN: FINAL FORM`.
+- [x] Acts use H2; numbered Levels use H3; local sections descend from there.
+- [x] the old live H1–H6 ladder is preserved as source rather than polluting the document outline.
+- [x] important links have descriptive text instead of “click here.”
+- [x] critical status remains outside collapsed `<details>` sections.
+- [x] disclosure summaries describe what will open.
+
+#### Mobile-width certification — PASS WITH FINAL RUNTIME CHECK IN M17
+
+- [x] hero and large local SVGs use `width="100%"`.
+- [x] top navigation is ordinary wrapping text rather than a rigid desktop toolbar.
+- [x] syntax galleries are collapsed by category.
+- [x] wide renderer-mastery matrix replaced by a three-column table.
+- [x] achievement ledger is collapsed and narrowed.
+- [x] Mermaid flowcharts use top-to-bottom orientation where practical.
+- [x] long mathematical content is split into multiple display blocks / aligned lines.
+- [x] code remains in GitHub-managed fenced blocks rather than fixed-width HTML containers.
+- [x] interactive maps and 3D are optional enhancements; prose/source remains usable if touch interaction is poor.
+
+> [!NOTE]
+> GitHub owns the actual runtime controls and responsive shells for Mermaid, geographic maps, and STL. M16 removes document-level dependence on those controls; M17 will perform the final live-render regression.
+
+#### Interactive-renderer accessibility — PASS BY EQUIVALENT CONTENT
+
+| Renderer | Nonvisual / noninteractive equivalent |
+| --- | --- |
+| Mermaid | relationship summary in text |
+| GeoJSON | named coordinates + raw source + standalone asset |
+| TopoJSON | shared-arc explanation + raw source + standalone asset |
+| ASCII STL | vertex/facet description + ASCII source + standalone asset |
+
+GitHub's standalone STL viewer requires WebGL for full hardware-accelerated behavior and can reject invalid or oversized models, reinforcing why 3D cannot be the only information path.[^stl-viewer]
+
+#### Keyboard / disclosure certification — PASS AT DOCUMENT LEVEL
+
+- [x] no custom JavaScript widgets exist.
+- [x] optional disclosure uses semantic `<details>` / `<summary>`.
+- [x] summaries are textual and descriptive.
+- [x] no essential destination requires clicking an image; equivalent text links exist.
+- [x] no hover-only instruction is required.
+
+#### External dependency certification — PASS
+
+- [x] critical hero identity is repository-owned.
+- [x] GeoJSON, TopoJSON, STL, and parser corpus are repository-owned.
+- [x] Shields badges are decorative/status supplements, not unique information sources.
+- [x] autoplay external typing image removed.
+
+#### M16 certification verdict
+
+```text
+THEME                PASS
+MOTION               PASS
+IMAGE ALTERNATIVES   PASS
+HEADING STRUCTURE    PASS
+DISCLOSURE SEMANTICS PASS
+MOBILE LAYOUT        PASS*
+MERMAID FALLBACK     PASS
+MAP FALLBACK         PASS
+3D FALLBACK          PASS
+EXTERNAL DEPENDENCY  PASS
+
+* final live GitHub/device regression remains M17
+```
+
+**Achievement unlocked:** `ACCESSIBILITY WARDEN`.
+
+---
+
+## RELEASE GATES
 
 ```text
 M15 FINAL BOSS          ████████████████████ CLEARED
-M16 CERTIFICATION       ░░░░░░░░░░░░░░░░░░░░ NEXT
-M17 RELEASE REGRESSION  ░░░░░░░░░░░░░░░░░░░░ LOCKED
+M16 CERTIFICATION       ████████████████████ CLEARED
+M17 RELEASE REGRESSION  ░░░░░░░░░░░░░░░░░░░░ NEXT
 ```
+
+> [!IMPORTANT]
+> M16 certifies the document design. **M17 is now the only remaining phase** and must verify the actual GitHub-rendered branch: anchors, relative assets, light/dark output, mobile layout, every specialized renderer, standalone map/3D assets, and final release wording.
 
 <div align="center">
 
-<a href="#campaign-status"><img src="https://img.shields.io/badge/STATUS-M15_COMPLETE-8B5CF6?style=for-the-badge" alt="M15 complete"></a>
-<a href="#level-36--canonical-final-boss"><img src="https://img.shields.io/badge/FINAL_BOSS-CANONICAL-F59E0B?style=for-the-badge" alt="Canonical Final Boss"></a>
-<a href="./assets/parser-torture-corpus.txt"><img src="https://img.shields.io/badge/PARSER-CORPUS-F43F5E?style=for-the-badge" alt="Open parser corpus"></a>
-
-<h2>Final Boss cleared.</h2>
-<h3>Next: M16 — Light/Dark, Mobile & Accessibility Certification.</h3>
+<a href="#m16-certification"><img src="https://img.shields.io/badge/STATUS-M16_CERTIFIED-0891B2?style=for-the-badge" alt="M16 certification complete"></a>
+<a href="#final-boss"><img src="https://img.shields.io/badge/FINAL_BOSS-CLEARED-F59E0B?style=for-the-badge" alt="Canonical Final Boss cleared"></a>
+<a href="./assets/parser-torture-corpus.txt"><img src="https://img.shields.io/badge/PARSER-CORPUS-F43F5E?style=for-the-badge" alt="Open parser torture corpus"></a>
 
 </div>
+
+**M16 complete. Next: M17 — Final GitHub Rendering Regression & Release Polish.**
 
 <img src="./assets/media-divider.svg" alt="" width="100%">
 
@@ -1357,3 +1339,7 @@ M17 RELEASE REGRESSION  ░░░░░░░░░░░░░░░░░░�
 [^mathjax]: GitHub renders supported LaTeX-formatted mathematics with MathJax.
 [^github-diagrams]: GitHub documents Mermaid, GeoJSON, TopoJSON, and ASCII STL as advanced diagram/rendering syntaxes in Markdown.
 [^repeat]: This definition is intentionally referenced more than once.
+[^theme-picture]: GitHub's writing quickstart documents using `<picture>` with `prefers-color-scheme`, light/dark sources, a default fallback image, and alt text for responsive README imagery: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github
+[^github-themes]: GitHub's theme settings include light/dark modes and accessibility-oriented high-contrast and colorblind themes: https://docs.github.com/en/get-started/accessibility/managing-your-theme-settings
+[^github-images]: GitHub's basic writing documentation describes image alt text as a short text equivalent of image information: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+[^stl-viewer]: GitHub's non-code-file documentation describes STL viewer controls, WebGL dependency, invalid-model handling, and the 10 MB viewer limit: https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files
