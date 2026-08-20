@@ -108,7 +108,7 @@ Do not re-label languages based only on aesthetics; labels communicate source se
 -->
 
 > [!NOTE]
-> Raw source and rendered output remain different surfaces. In M7, even the characters immediately after ``` are meaningful source metadata.
+> Raw source and rendered output remain different surfaces. In M7, even the language text immediately after an opening fence is meaningful source metadata.
 
 ---
 
@@ -335,12 +335,10 @@ message = "The word after the fence selects the grammar."
 ````
 
 ```text
-opening fence   language specifier
-      │                │
-      ▼                ▼
-      ```            python
-       │
-       └── fenced code content
+opening fence        language specifier
+three backticks              python
+      │                         │
+      └──────── code content ───┘
 ```
 
 ### Control group: same idea, different fence metadata
@@ -1110,7 +1108,7 @@ sequenceDiagram
     participant MD as README.md
     participant L as Linguist
     participant GH as GitHub
-    Author->>MD: writes ``` + language
+    Author->>MD: writes fenced block plus language specifier
     MD->>L: supplies info string
     L->>GH: selects known grammar
     GH-->>Author: renders highlighted source
@@ -1265,7 +1263,7 @@ Raw Power        ███████████████████░  M
 
 ## 🧰 THE ACTUALLY USEFUL CHEAT SHEET
 
-````markdown
+`````markdown
 # Heading
 *italic* **bold** ~~strike~~ `code`
 
@@ -1316,7 +1314,7 @@ H<sub>2</sub>O
 | Left | Center | Right |
 | :--- | :---: | ---: |
 | alpha \| beta | `code` | 100 |
-````
+`````
 
 [docs]: https://example.com/docs
 
@@ -1351,6 +1349,7 @@ H<sub>2</sub>O
 - [ ] Total inventory still equals 33 distinct showcased modes.
 - [ ] `diff` additions/removals remain visually distinct.
 - [ ] Nested four-backtick demonstrations remain balanced.
+- [ ] Cheat-sheet outer fence remains longer than every inner fence.
 - [ ] Markdown code fences still work inside `<details>`.
 - [ ] Theme-aware local hero still switches correctly.
 - [ ] Relative media paths resolve on the branch.
