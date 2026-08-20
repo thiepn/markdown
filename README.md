@@ -53,7 +53,7 @@
 ---
 
 > [!IMPORTANT]
-> GitHub renders LaTeX-formatted mathematical expressions in Markdown with **MathJax**. M8 demonstrates all four GitHub-documented entry routes: `$...$`, `$`backtick inline math, `$$...$$`, and fenced `math` blocks—then composes them with tables, alerts, and `<details>`.
+> GitHub renders LaTeX-formatted mathematical expressions in Markdown with **MathJax**. M8 demonstrates all four GitHub-documented entry routes: `$...$`, the backtick-protected inline form, `$$...$$`, and fenced `math` blocks—then composes them with tables, alerts, and `<details>`.
 
 ## 🧭 README POWER MAP
 
@@ -103,9 +103,9 @@ Architecture invariant:
 Future phases extend the correct rendering act instead of appending unrelated sections.
 
 M8 invariant:
-Dollar delimiters, $`...`$ delimiters, $$ blocks, and ```math fences are deliberate.
+Dollar delimiters, protected inline math, double-dollar blocks, and math fences are deliberate.
 Literal currency dollars near math require special handling.
-Do not confuse ```latex syntax highlighting with ```math rendering.
+Do not confuse latex syntax highlighting with math rendering.
 Collapsed galleries remain intentional to control document length.
 -->
 
@@ -1295,10 +1295,10 @@ To split <span>$</span>100 in half, calculate $100/2=50$.
 \int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}
 ```
 
-```text
+````text
 ```latex  → Linguist syntax highlighting → source remains source
 ```math   → GitHub MathJax renderer       → source becomes mathematics
-```
+````
 
 ---
 
@@ -1338,7 +1338,7 @@ e^{i\pi}+1&=0.
 ```text
 Need mathematics in prose?
 ├── short/simple → $...$
-├── Markdown-sensitive inline source → $`...`$
+├── Markdown-sensitive inline source → protected inline math
 └── display expression
     ├── concise → $$...$$
     └── complex / multiline → fenced math block
@@ -1428,7 +1428,7 @@ _underscore emphasis_
 **strong**  
 ~~strike containing **bold** and `code`~~
 
-Math also introduces delimiter semantics: `$...$`, `$`backtick math, `$$...$$`, and fenced `math` blocks.
+Math introduces four delimiter families: `$...$`, the protected inline form ``$`...`$``, `$$...$$`, and fenced `math` blocks.
 
 ```text
 Same punctuation, different parser roles:
@@ -1638,7 +1638,7 @@ e^{i\pi}+1=0
 ## 🧪 README QUALITY TEST
 
 - [ ] Standard `$...$` inline expressions render.
-- [ ] `$`backtick inline expressions render without leaking Markdown syntax.
+- [ ] Backtick-protected inline expressions render without leaking Markdown syntax.
 - [ ] `$$...$$` display expressions render.
 - [ ] Fenced `math` blocks render as mathematics rather than highlighted source.
 - [ ] Fenced `latex` blocks remain highlighted source rather than rendered mathematics.
@@ -1683,7 +1683,7 @@ README
  │    └── 33 SYNTAX MODES
  ├── MATHJAX
  │    ├── INLINE $
- │    ├── PROTECTED INLINE $`...`$
+ │    ├── PROTECTED INLINE
  │    ├── DISPLAY $$
  │    ├── MATH FENCE
  │    ├── ALGEBRA
@@ -1759,4 +1759,4 @@ FINAL FORM
 [^details]: GitHub documents `<details>`, `<summary>`, nested Markdown content, and the `open` attribute for initially expanded sections.
 [^sanitization]: GitHub sanitizes rendered README HTML, so arbitrary application-style script and styling are not the interface model.
 [^linguist]: GitHub Linguist defines known languages and aliases used for fenced-code syntax highlighting.
-[^mathjax]: GitHub documents LaTeX-formatted mathematical expressions in Markdown files, rendered with MathJax, using inline dollar delimiters, protected `$`backtick inline syntax, double-dollar display blocks, or fenced `math` blocks.
+[^mathjax]: GitHub documents LaTeX-formatted mathematical expressions in Markdown files, rendered with MathJax, using inline dollar delimiters, protected backtick inline syntax, double-dollar display blocks, or fenced `math` blocks.
