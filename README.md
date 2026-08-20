@@ -3,38 +3,38 @@
 ║                          LEVEL 00: SOURCE LAYER                              ║
 ║                                                                              ║
 ║  RAW SOURCE EXPLORER · PARSER TAMER · BLOCK ARCHITECT · LINK CARTOGRAPHER   ║
-║  MEDIA ENGINEER · HYBRID ENGINEER · SYNTAX CURATOR                          ║
+║  MEDIA ENGINEER · HYBRID ENGINEER · SYNTAX CURATOR · MATHJAX ARCHITECT      ║
 ║                                                                              ║
-║  M7 invariant: fence labels are executable documentation metadata.           ║
-║  Do not normalize or remove them without checking GitHub highlighting.       ║
+║  M8 invariant: math delimiters, escapes, and fence labels are intentional.   ║
+║  Do not normalize dollar signs or math fences without rendering on GitHub.   ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form — syntax-highlighting laboratory" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form — advanced MathJax mathematical showcase" width="100%">
 </picture>
 
 <div align="center">
 
 <a href="https://readme-typing-svg.demolab.com/demo/">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Thirty-three+language+grammars.;Names.+Aliases.+Plain+fences.+Wrong+fences.;Linguist-powered+syntax+museum.;M7+code+layer+online."
-    alt="Animated M7 syntax-highlighting introduction">
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Inline+math.+Display+math.+Math+fences.;Matrices.+Calculus.+Probability.+Fourier.;LaTeX+source+is+not+rendered+MathJax.;M8+mathematics+layer+online."
+    alt="Animated M8 MathJax introduction">
 </a>
 
 <br>
 
 <a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/LAYER-MARKDOWN-111111?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Markdown layer"></a>
-<a href="https://github.github.com/gfm/"><img src="https://img.shields.io/badge/LAYER-GFM-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub Flavored Markdown layer"></a>
-<a href="#level-08--full-syntax-highlighting-laboratory"><img src="https://img.shields.io/badge/SYNTAX-M7_UNLOCKED-8B5CF6?style=for-the-badge" alt="Syntax highlighting M7 unlocked"></a>
-<a href="#level-12--details-interface-system"><img src="https://img.shields.io/badge/DETAILS-COLLAPSED_GALLERIES-06B6D4?style=for-the-badge" alt="Collapsed galleries enabled"></a>
+<a href="#level-08--full-syntax-highlighting-laboratory"><img src="https://img.shields.io/badge/SYNTAX-M7_COMPLETE-181717?style=for-the-badge" alt="Syntax highlighting M7 complete"></a>
+<a href="#level-17--advanced-mathjax-mathematical-showcase"><img src="https://img.shields.io/badge/MATHJAX-M8_UNLOCKED-8B5CF6?style=for-the-badge" alt="Advanced MathJax M8 unlocked"></a>
+<a href="#level-12--details-interface-system"><img src="https://img.shields.io/badge/DETAILS-COMPOSABLE-06B6D4?style=for-the-badge" alt="Composable details interfaces"></a>
 <a href="#final-boss"><img src="https://img.shields.io/badge/README-OVERENGINEERED-F43F5E?style=for-the-badge" alt="README overengineered"></a>
 
 <h3>This is a <strong>layer-by-layer Markdown rendering laboratory</strong>.</h3>
 
-<sub>Markdown · GFM · GitHub Linguist · sanitized HTML · local SVG media · advanced renderers</sub>
+<sub>Markdown · GFM · GitHub Linguist · MathJax · sanitized HTML · local SVG media · advanced renderers</sub>
 
 <br><br>
 
@@ -42,9 +42,9 @@
 &nbsp;•&nbsp;
 <a href="#level-08--full-syntax-highlighting-laboratory"><strong>⌘ Syntax Lab</strong></a>
 &nbsp;•&nbsp;
-<a href="#act-iv--html-hybrid"><strong>▸ HTML Hybrid</strong></a>
+<a href="#level-17--advanced-mathjax-mathematical-showcase"><strong>∑ MathJax Lab</strong></a>
 &nbsp;•&nbsp;
-<a href="#act-v--advanced-rendering"><strong>∞ Advanced Rendering</strong></a>
+<a href="#level-18--mermaid-summoning-circle"><strong>◇ Mermaid</strong></a>
 &nbsp;•&nbsp;
 <a href="#final-boss"><strong>👑 Final Boss</strong></a>
 
@@ -53,7 +53,7 @@
 ---
 
 > [!IMPORTANT]
-> GitHub syntax highlighting is not produced by Markdown itself. The language specifier after an opening fence selects a grammar recognized by GitHub's Linguist ecosystem. M7 treats that tiny piece of metadata as its own rendering layer.
+> GitHub renders LaTeX-formatted mathematical expressions in Markdown with **MathJax**. M8 demonstrates all four GitHub-documented entry routes: `$...$`, `$`backtick inline math, `$$...$$`, and fenced `math` blocks—then composes them with tables, alerts, and `<details>`.
 
 ## 🧭 README POWER MAP
 
@@ -62,14 +62,14 @@
 | `00` | [Source Layer](#level-00--source-layer) | Hidden comments, source-only rules | `RAW` |
 | `I` | [Markdown Core](#act-i--markdown-core) | Typography, headings, blocks, links | `#` |
 | `II` | [GitHub Flavored Markdown](#act-ii--github-flavored-markdown) | Tables, tasks, strikethrough, autolinks | `GFM` |
-| `III` | [GitHub Extensions](#act-iii--github-extensions) | Alerts, **33-language syntax lab**, footnotes | `GH` |
+| `III` | [GitHub Extensions](#act-iii--github-extensions) | Alerts, 33-mode syntax lab, footnotes | `GH` |
 | `IV` | [HTML Hybrid](#act-iv--html-hybrid) | Media, semantics, details UI, sanitization | `<>` |
-| `V` | [Advanced Rendering](#act-v--advanced-rendering) | Math, Mermaid | `∞` |
+| `V` | [Advanced Rendering](#act-v--advanced-rendering) | **Advanced MathJax**, Mermaid | `∞` |
 | `VI` | [Parser & Source Lab](#act-vi--parser--source-lab) | Escapes, entities, backticks, recursion | `\` |
 | `VII` | [Endgame & Reference](#act-vii--endgame--reference) | Achievements, cheat sheet, QA | `✓` |
 | `∞` | [Final Boss](#final-boss) | Combined mechanics | `👑` |
 
-`Markdown` · `GFM` · `GitHub` · `Linguist` · `HTML` · `Local Asset` · `External Asset`
+`Markdown` · `GFM` · `GitHub` · `Linguist` · `MathJax` · `HTML` · `Local Asset` · `External Asset`
 
 ---
 
@@ -80,10 +80,12 @@ flowchart LR
     A[raw README.md] --> B[Markdown]
     B --> C[GFM]
     C --> D[GitHub extensions]
-    D --> E[Linguist grammar selection]
-    E --> F[Sanitized HTML hybrid]
-    F --> G[Advanced renderers]
-    G --> H[FINAL FORM]
+    D --> E[Linguist]
+    D --> F[MathJax]
+    E --> G[Sanitized HTML hybrid]
+    F --> G
+    G --> H[Advanced renderers]
+    H --> I[FINAL FORM]
 ```
 
 ---
@@ -100,15 +102,15 @@ flowchart LR
 Architecture invariant:
 Future phases extend the correct rendering act instead of appending unrelated sections.
 
-M7 invariant:
-Fence info strings are intentional.
-Unknown-language and unlabeled fences are intentional control cases.
-Collapsed galleries prevent maximum language breadth from destroying document navigation.
-Do not re-label languages based only on aesthetics; labels communicate source semantics.
+M8 invariant:
+Dollar delimiters, $`...`$ delimiters, $$ blocks, and ```math fences are deliberate.
+Literal currency dollars near math require special handling.
+Do not confuse ```latex syntax highlighting with ```math rendering.
+Collapsed galleries remain intentional to control document length.
 -->
 
 > [!NOTE]
-> Raw source and rendered output remain different surfaces. In M7, even the language text immediately after an opening fence is meaningful source metadata.
+> Raw source and rendered output remain different surfaces. M8 makes punctuation such as `$`, backticks, backslashes, braces, and underscores part of the rendering contract.
 
 ---
 
@@ -209,12 +211,12 @@ This line follows it.
 - [This README](./README.md)
 - [Repository root](./)
 - [Syntax Lab](#level-08--full-syntax-highlighting-laboratory)
-- [HTML Hybrid](#act-iv--html-hybrid)
+- [MathJax Lab](#level-17--advanced-mathjax-mathematical-showcase)
 - [Final Boss](#final-boss)
 
-<a name="m7-syntax-beacon"></a>
+<a name="m8-math-beacon"></a>
 
-[Jump to the custom M7 anchor](#m7-syntax-beacon)
+[Jump to the custom M8 anchor](#m8-math-beacon)
 
 <https://github.com/>  
 https://github.com  
@@ -266,26 +268,36 @@ owner/repository#123
   - [x] Nested `<details>`
   - [x] Sanitization boundary
 - [x] **Syntax Highlighting**
-  - [x] Fence anatomy
-  - [x] Labeled vs unlabeled fences
-  - [x] Known alias examples
-  - [x] Unknown-label fallback case
-  - [x] Web languages
-  - [x] Systems languages
-  - [x] Scripting languages
-  - [x] Data/config/infra languages
-  - [x] Scientific/functional languages
-  - [x] Documentation/meta languages
-  - [x] `diff`
-  - [x] `text` / plaintext
-  - [x] Nested-fence source demonstration
+  - [x] 33 distinct modes
+  - [x] Names and aliases
+  - [x] Labeled / unlabeled / unknown fences
+  - [x] `diff` and `text`
+  - [x] Variable-length nested fences
+- [x] **MathJax**
+  - [x] Standard inline `$...$`
+  - [x] Backtick-protected inline math
+  - [x] `$$...$$` display math
+  - [x] fenced `math` blocks
+  - [x] fractions, roots, symbols, sets, logic
+  - [x] aligned derivations
+  - [x] matrices and determinants
+  - [x] piecewise functions
+  - [x] calculus and multivariable calculus
+  - [x] sums, products, and series
+  - [x] probability and statistics
+  - [x] linear algebra
+  - [x] complex numbers and Fourier analysis
+  - [x] optimization
+  - [x] literal-dollar handling
+  - [x] math inside tables, alerts, and details
+  - [x] LaTeX-source vs rendered-math distinction
 - [x] **Parser Lab**
   - [x] Escapes
   - [x] Entities
   - [x] Variable-length fences
 - [ ] **Advanced Rendering**
-  - [x] Math baseline
-  - [x] Mermaid baseline
+  - [x] MathJax — advanced showcase
+  - [x] Mermaid — baseline
   - [ ] GeoJSON
   - [ ] TopoJSON
   - [ ] STL / 3D
@@ -297,26 +309,26 @@ owner/repository#123
 
 # ACT III — GITHUB EXTENSIONS
 
-> GitHub's code renderer is where plain fenced blocks become a language-aware visual surface.
+> GitHub adds specialized renderers on top of Markdown. M7 explored language grammars; M8 explores mathematical notation.
 
 ## LEVEL 07 — ALERT COMMAND CENTER
 
 `GitHub`
 
 > [!NOTE]
-> A fence without a language still creates a code block.
+> Inline mathematics such as $e^{i\pi}+1=0$ can live inside normal prose and alerts.
 
 > [!TIP]
-> Prefer a recognizable Linguist language name or alias when highlighting is useful.
+> Use fenced `math` blocks for large expressions when that makes the Markdown source clearer.
 
 > [!IMPORTANT]
-> The language label is metadata. It should describe the code, not merely produce attractive colors.
+> A `latex` code fence highlights LaTeX source. A `math` fence renders mathematics. Those are different pipelines.
 
 > [!WARNING]
-> A wrong language label can highlight valid code misleadingly.
+> Literal dollar signs on the same line as math can collide with math delimiters if they are not handled deliberately.
 
 > [!CAUTION]
-> Copying a syntax label from another renderer does not guarantee GitHub recognizes it.
+> MathJax renders notation; it does not verify the proof, solve the equation, or certify that the mathematics is correct.
 
 ---
 
@@ -324,76 +336,33 @@ owner/repository#123
 
 `Markdown` · `GitHub` · `Linguist`
 
-GitHub uses Linguist language definitions and grammars to determine code highlighting. A fenced code block's **info string** is therefore a tiny routing instruction from Markdown source to a syntax grammar.[^linguist]
+GitHub uses Linguist language definitions and grammars to determine fenced-code highlighting.[^linguist]
 
-### Fence anatomy
+### Fence controls
 
 ````md
 ```python
-message = "The word after the fence selects the grammar."
+message = "language specifier selects highlighting grammar"
 ```
 ````
 
-```text
-opening fence        language specifier
-three backticks              python
-      │                         │
-      └──────── code content ───┘
-```
-
-### Control group: same idea, different fence metadata
-
-**No language label:** code block, no explicit grammar request.
-
 ```
 const answer = 6 * 7;
-console.log(answer);
 ```
-
-**Explicit plaintext:** deliberately literal presentation.
 
 ```text
 const answer = 6 * 7;
-console.log(answer);
 ```
-
-**Correct JavaScript label:** grammar-aware highlighting.
 
 ```javascript
 const answer = 6 * 7;
-console.log(answer);
 ```
-
-**Intentionally unknown label:** a parser/render fallback test, not a recommended language name.
 
 ```totally-not-a-language
 const answer = 6 * 7;
-console.log(answer);
 ```
 
-> [!IMPORTANT]
-> Highlighting does not validate code. A beautifully colored snippet can still be syntactically wrong, insecure, or semantically nonsense.
-
-### Alias laboratory
-
-Linguist defines aliases in addition to language names. Its language data also permits recognizable interpreter/file-extension specifiers for fenced blocks where supported.[^linguist]
-
-| Language | Stable label used in museum | Common alternate specifier shown here |
-| --- | --- | --- |
-| JavaScript | `javascript` | `js` |
-| TypeScript | `typescript` | `ts` |
-| Python | `python` | `py` |
-| Shell | `bash` | `sh` |
-| PowerShell | `powershell` | `ps1` |
-| YAML | `yaml` | `yml` |
-| Markdown | `markdown` | `md` |
-| C++ | `cpp` | `c++` |
-| C# | `csharp` | `cs` |
-| Rust | `rust` | `rs` |
-| Kotlin | `kotlin` | `kt` |
-| LaTeX | `latex` | `tex` |
-
-Same JavaScript under two accepted-style specifiers:
+### Alias examples
 
 ```javascript
 const canonical = "javascript";
@@ -403,416 +372,253 @@ const canonical = "javascript";
 const alias = "js";
 ```
 
-Same YAML family under two short forms:
-
 ```yaml
-phase: M7
-highlighting: true
+phase: M8
+mathjax: advanced
 ```
 
 ```yml
-phase: M7
-highlighting: true
+phase: M8
+mathjax: advanced
 ```
-
-> [!TIP]
-> For long-lived documentation, prefer a familiar language name or widely used alias. Exotic aliases can be technically valid while still confusing readers.
 
 ---
 
 ### Gallery A — Web, UI & interchange
 
 <details>
-<summary><strong>Open 5-language web gallery — JavaScript, TypeScript, HTML, CSS, JSON</strong></summary>
+<summary><strong>Open 5-language gallery — JavaScript, TypeScript, HTML, CSS, JSON</strong></summary>
 
 #### JavaScript
-
 ```javascript
 const systems = ["Markdown", "GFM", "GitHub"];
-const finalForm = systems.map((name, level) => ({ name, level }));
-console.table(finalForm);
+console.table(systems.map((name, level) => ({ name, level })));
 ```
 
 #### TypeScript
-
 ```typescript
-type Layer = "markdown" | "gfm" | "github";
-interface Capability { layer: Layer; unlocked: boolean }
-const syntaxLab: Capability = { layer: "github", unlocked: true };
+type Renderer = "linguist" | "mathjax";
+const renderer: Renderer = "mathjax";
 ```
 
 #### HTML
-
 ```html
-<details open>
-  <summary>Syntax museum</summary>
-  <p>HTML can frame Markdown-adjacent interfaces.</p>
-</details>
+<details open><summary>Renderer</summary><p>MathJax lives beside HTML.</p></details>
 ```
 
 #### CSS
-
 ```css
-.syntax-lab {
-  display: grid;
-  gap: 1rem;
-  font-family: ui-monospace, monospace;
-}
+.math-lab { display: grid; gap: 1rem; }
 ```
 
 > [!NOTE]
-> This CSS is a syntax-highlighting example. README HTML does not gain a free arbitrary stylesheet runtime.
+> This CSS is only a highlighting example; it is not a README stylesheet.
 
 #### JSON
-
 ```json
-{
-  "phase": "M7",
-  "languages": 33,
-  "collapsedGalleries": true,
-  "javascriptRuntime": false
-}
+{"phase":"M8","renderer":"MathJax","executable":false}
 ```
 
 </details>
 
----
-
-### Gallery B — Systems, compiled & application languages
+### Gallery B — Systems & compiled
 
 <details>
-<summary><strong>Open 8-language systems gallery — C, C++, Rust, Go, Java, C#, Kotlin, Swift</strong></summary>
+<summary><strong>Open 8-language gallery — C, C++, Rust, Go, Java, C#, Kotlin, Swift</strong></summary>
 
 #### C
-
 ```c
 #include <stdio.h>
-
-int main(void) {
-    puts("Markdown: Final Form");
-    return 0;
-}
+int main(void) { puts("M8"); return 0; }
 ```
 
 #### C++
-
 ```cpp
 #include <iostream>
-#include <string_view>
-
-int main() {
-    constexpr std::string_view phase = "M7";
-    std::cout << phase << '\n';
-}
+int main() { std::cout << "M8\n"; }
 ```
 
 #### Rust
-
 ```rust
-#[derive(Debug)]
-struct Layer<'a> { name: &'a str, power: u8 }
-
-fn main() {
-    println!("{:?}", Layer { name: "syntax", power: 7 });
-}
+fn main() { println!("MathJax layer online"); }
 ```
 
 #### Go
-
 ```go
 package main
-
 import "fmt"
-
-func main() {
-    fmt.Println("Linguist routing online")
-}
+func main() { fmt.Println("M8") }
 ```
 
 #### Java
-
 ```java
-record Layer(String name, boolean unlocked) {}
-
-class Main {
-    public static void main(String[] args) {
-        System.out.println(new Layer("syntax", true));
-    }
-}
+class Main { public static void main(String[] a) { System.out.println("M8"); } }
 ```
 
 #### C#
-
 ```csharp
-record Layer(string Name, bool Unlocked);
-
-var syntax = new Layer("Syntax Highlighting", true);
-Console.WriteLine(syntax);
+Console.WriteLine("M8");
 ```
 
 #### Kotlin
-
 ```kotlin
-data class Layer(val name: String, val unlocked: Boolean)
-
-fun main() {
-    println(Layer("Syntax Highlighting", true))
-}
+fun main() = println("M8")
 ```
 
 #### Swift
-
 ```swift
-struct Layer {
-    let name: String
-    let unlocked: Bool
-}
-
-print(Layer(name: "Syntax Highlighting", unlocked: true))
+print("M8")
 ```
 
 </details>
 
----
-
-### Gallery C — Scripting & runtime languages
+### Gallery C — Scripting
 
 <details>
-<summary><strong>Open 6-language scripting gallery — Python, Ruby, PHP, Lua, Bash, PowerShell</strong></summary>
+<summary><strong>Open 6-language gallery — Python, Ruby, PHP, Lua, Bash, PowerShell</strong></summary>
 
 #### Python
-
 ```python
-from dataclasses import dataclass
-
-@dataclass(frozen=True)
-class Layer:
-    name: str
-    unlocked: bool = True
-
-print(Layer("syntax"))
+from math import pi
+print(pi)
 ```
 
 #### Ruby
-
 ```ruby
-Layer = Data.define(:name, :unlocked)
-syntax = Layer.new("syntax", true)
-puts syntax.inspect
+puts Math::PI
 ```
 
 #### PHP
-
 ```php
-<?php
-$layer = ["name" => "syntax", "unlocked" => true];
-echo json_encode($layer, JSON_PRETTY_PRINT);
+<?php echo M_PI;
 ```
 
 #### Lua
-
 ```lua
-local layer = { name = "syntax", unlocked = true }
-for key, value in pairs(layer) do
-  print(key, value)
-end
+print(math.pi)
 ```
 
 #### Bash
-
 ```bash
-#!/usr/bin/env bash
-set -euo pipefail
-phase="M7"
-printf 'phase=%s\n' "$phase"
+printf '%s\n' 'MathJax is rendering, not executing'
 ```
 
 #### PowerShell
-
 ```powershell
-$Layer = [pscustomobject]@{
-    Name = 'Syntax Highlighting'
-    Unlocked = $true
-}
-$Layer | Format-List
+Write-Output 'M8'
 ```
 
 </details>
 
----
-
-### Gallery D — Data, configuration & infrastructure
+### Gallery D — Data, config & infrastructure
 
 <details>
-<summary><strong>Open 5-language data/config gallery — SQL, YAML, TOML, XML, Dockerfile</strong></summary>
+<summary><strong>Open 5-language gallery — SQL, YAML, TOML, XML, Dockerfile</strong></summary>
 
 #### SQL
-
 ```sql
-SELECT layer, COUNT(*) AS demonstrations
-FROM readme_features
-WHERE phase <= 7
-GROUP BY layer
-ORDER BY demonstrations DESC;
+SELECT 'M8' AS phase, 'MathJax' AS renderer;
 ```
 
 #### YAML
-
 ```yaml
-phase: M7
-syntax:
-  engine: linguist
-  galleries: 6
-  languages: 33
+phase: M8
+renderer: MathJax
 ```
 
 #### TOML
-
 ```toml
-phase = "M7"
-
-[syntax]
-engine = "linguist"
-languages = 33
+phase = "M8"
+renderer = "MathJax"
 ```
 
 #### XML
-
 ```xml
-<readme phase="M7">
-  <syntax engine="linguist" languages="33" />
-</readme>
+<readme phase="M8" renderer="MathJax" />
 ```
 
 #### Dockerfile
-
 ```dockerfile
 FROM alpine:3.22
-WORKDIR /docs
-COPY README.md ./README.md
-CMD ["sh", "-c", "wc -l README.md"]
+CMD ["echo", "M8"]
 ```
 
 </details>
 
----
-
-### Gallery E — Scientific & functional languages
+### Gallery E — Scientific & functional
 
 <details>
-<summary><strong>Open 5-language scientific/functional gallery — R, Julia, Haskell, Scala, LaTeX</strong></summary>
+<summary><strong>Open 5-language gallery — R, Julia, Haskell, Scala, LaTeX</strong></summary>
 
 #### R
-
 ```r
-layers <- data.frame(
-  phase = 1:7,
-  power = c(20, 35, 50, 65, 75, 85, 92)
-)
-print(layers)
+print(pi)
 ```
 
 #### Julia
-
 ```julia
-struct Layer
-    name::String
-    unlocked::Bool
-end
-
-println(Layer("syntax", true))
+println(pi)
 ```
 
 #### Haskell
-
 ```haskell
-data Layer = Layer { name :: String, unlocked :: Bool }
-  deriving (Show)
-
-main :: IO ()
-main = print (Layer "syntax" True)
+main = print pi
 ```
 
 #### Scala
-
 ```scala
-case class Layer(name: String, unlocked: Boolean)
-
-@main def syntaxLab(): Unit =
-  println(Layer("syntax", true))
+@main def run() = println(math.Pi)
 ```
 
-#### LaTeX
-
+#### LaTeX source
 ```latex
-\documentclass{article}
-\begin{document}
-\textbf{Markdown: Final Form}\\
-Phase $M_7$: syntax highlighting.
-\end{document}
+\[
+\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}
+\]
 ```
 
-> [!NOTE]
-> `latex` here means source-code highlighting. GitHub MathJax rendering is a separate capability and remains the focus of M8.
+> [!IMPORTANT]
+> The block above is **highlighted LaTeX source**. It is intentionally not the MathJax-rendered version.
 
 </details>
 
----
-
-### Gallery F — Documentation, metadata & literal output
+### Gallery F — Documentation & literal modes
 
 <details>
-<summary><strong>Open 4-language/meta gallery — Markdown, diff, plaintext, INI</strong></summary>
+<summary><strong>Open 4-mode gallery — Markdown, diff, plaintext, INI</strong></summary>
 
-#### Markdown source
-
+#### Markdown
 ```markdown
-# Heading
-
-- **Markdown** can describe Markdown.
-- `code` stays code.
-
-> [!NOTE]
-> GitHub can highlight the source of its own document format.
+# M8
+Inline math: $E=mc^2$
 ```
 
 #### Diff
-
 ```diff
-- CODE-BLOCK ALCHEMY
-+ FULL SYNTAX-HIGHLIGHTING LABORATORY
-+ 33 language families demonstrated
-+ collapsed galleries preserve readability
-- one-size-fits-all code examples
+- Math baseline
++ Advanced MathJax mathematical showcase
 ```
 
-#### Plaintext / terminal-style output
-
+#### Text
 ```text
-syntax-lab .............. ONLINE
-languages ............... 33
-collapsed-galleries ..... 6
-wrong-label-control ..... PRESENT
-javascript-runtime ...... ABSENT
+mathjax ............... ONLINE
+delimiter-modes ....... 4
+rendering ............. GitHub
+execution ............. NONE
 ```
 
 #### INI
-
 ```ini
-[readme]
-phase=M7
-engine=Linguist
-languages=33
-collapsed=true
+[math]
+phase=M8
+renderer=MathJax
 ```
 
 </details>
 
----
+### M7 inventory retained
 
-### Language museum inventory
-
-| Gallery | Languages / modes | Count |
+| Gallery | Modes | Count |
 | --- | --- | ---: |
 | Web & UI | JavaScript, TypeScript, HTML, CSS, JSON | 5 |
 | Systems & compiled | C, C++, Rust, Go, Java, C#, Kotlin, Swift | 8 |
@@ -820,56 +626,15 @@ collapsed=true
 | Data/config/infra | SQL, YAML, TOML, XML, Dockerfile | 5 |
 | Scientific/functional | R, Julia, Haskell, Scala, LaTeX | 5 |
 | Docs/meta | Markdown, diff, plaintext, INI | 4 |
-| **Total distinct showcased modes** |  | **33** |
+| **Total** |  | **33** |
 
-### Same source, different claimed grammar
-
-The following examples are intentionally identical source text. Only the fence label changes.
-
-```javascript
-const payload = { phase: "M7", active: true };
-```
-
-```json
-const payload = { phase: "M7", active: true };
-```
-
-The second block is **not valid JSON**, even if a renderer colors parts of it. Highlighting communicates a claimed language; it does not certify correctness.
-
-### Fence aliases are metadata, not file conversion
-
-```python
-print("This is highlighted as Python")
-```
-
-```ruby
-print("The same-looking call can belong to another language")
-```
-
-The renderer does not execute either snippet. It chooses tokenization/highlighting based on the info string.
-
-### Fence recursion: showing fenced Markdown inside fenced Markdown
-
-Use a longer outer fence when the example itself contains triple backticks:
+### Fence recursion
 
 ````markdown
 ```typescript
-const nested: string = "three backticks live inside four";
+const nested: string = "three backticks inside four";
 ```
 ````
-
-### Syntax-label decision rule
-
-```text
-Is this actually code in a known language?
-├── yes → use its recognizable Linguist name/alias
-└── no
-    ├── literal output/log/config-like prose → text / plaintext
-    └── demonstration of an unlabeled fence → omit the info string intentionally
-```
-
-> [!WARNING]
-> Do not label output as `bash` just because it came from a terminal. Commands, shell source, and terminal output are different things.
 
 ---
 
@@ -879,19 +644,21 @@ Is this actually code in a known language?
 
 Markdown remains readable as plain text while adding structure.[^plain-text]
 
-Relative repository paths keep local media branch-aware.[^relative-links]
+Relative paths keep local media branch-aware.[^relative-links]
 
-GitHub's HTML layer is sanitized before rendering.[^sanitization]
+GitHub sanitizes the HTML hybrid layer.[^sanitization]
 
 Collapsed sections use `<details>` and `<summary>`.[^details]
 
-GitHub's Linguist language definitions include names and aliases used by fenced code blocks; supported grammars drive highlighting.[^linguist]
+Linguist supplies syntax grammars for fenced code.[^linguist]
+
+GitHub uses MathJax to render LaTeX-formatted mathematical expressions in Markdown files.[^mathjax]
 
 ---
 
 # ACT IV — HTML HYBRID
 
-> M6 established the HTML boundary. M7 now uses `<details>` as the scalability mechanism for a very large syntax museum.
+> M6 established the HTML boundary; M8 demonstrates that MathJax can coexist with progressive disclosure and other Markdown structures.
 
 ## LEVEL 10 — REPOSITORY-OWNED MEDIA SYSTEM
 
@@ -907,7 +674,7 @@ GitHub's Linguist language definitions include names and aliases used by fenced 
 
 <img src="./assets/scaling-ruler.svg" alt="SVG scaling ruler" width="50%">
 
-[![Clickable local SVG portal](./assets/clickable-portal.svg)](#level-08--full-syntax-highlighting-laboratory)
+[![Clickable local SVG portal](./assets/clickable-portal.svg)](#level-17--advanced-mathjax-mathematical-showcase)
 
 ---
 
@@ -959,9 +726,6 @@ The `open` attribute changes initial disclosure state without JavaScript.
 
 </details>
 
-> [!TIP]
-> M7 demonstrates the practical reason M6 mattered: thirty-three syntax modes can exist in one README without permanently occupying the entire viewport.
-
 ---
 
 ## LEVEL 13 — HTML TABLE & LAYOUT LAB
@@ -969,9 +733,7 @@ The `open` attribute changes initial disclosure state without JavaScript.
 `HTML`
 
 <table>
-  <thead>
-    <tr><th>Element</th><th>Role</th></tr>
-  </thead>
+  <thead><tr><th>Element</th><th>Role</th></tr></thead>
   <tbody>
     <tr><td><code>&lt;details&gt;</code></td><td>Progressive disclosure</td></tr>
     <tr><td><code>&lt;kbd&gt;</code></td><td>Keyboard semantics</td></tr>
@@ -1001,7 +763,6 @@ The `open` attribute changes initial disclosure state without JavaScript.
 ```text
 Markdown owns document structure by default.
 HTML enters where it adds missing semantics or interaction.
-Blank lines around nested Markdown are deliberate.
 ```
 
 ---
@@ -1009,8 +770,6 @@ Blank lines around nested Markdown are deliberate.
 ## LEVEL 15 — SANITIZATION BOUNDARY
 
 `GitHub` · `HTML` · `Security`
-
-These remain examples, not infrastructure:
 
 ```html
 <script>alert('nope')</script>
@@ -1023,6 +782,7 @@ These remain examples, not infrastructure:
 | Interaction | `<details>` / `<summary>` |
 | Theme-aware media | `<picture>` / `<source>` |
 | Keyboard notation | `<kbd>` |
+| Mathematics | GitHub MathJax syntax |
 | Styling | GitHub renderer + designed assets |
 | Application behavior | Build an actual webpage/app |
 
@@ -1030,33 +790,21 @@ These remain examples, not infrastructure:
 
 ## LEVEL 16 — HYBRID INTERFACE BOSS
 
-`Markdown` · `GFM` · `GitHub` · `HTML` · `Local Asset`
+`Markdown` · `GFM` · `GitHub` · `HTML` · `Local Asset` · `MathJax`
 
 <details open>
-<summary><strong>M7 SYSTEM CONSOLE</strong></summary>
+<summary><strong>M8 SYSTEM CONSOLE</strong></summary>
 
 <table>
   <tr><th>System</th><th>Status</th></tr>
   <tr><td>Markdown</td><td><strong>ONLINE</strong></td></tr>
   <tr><td>HTML disclosure</td><td><strong>ONLINE</strong></td></tr>
-  <tr><td>Local media</td><td><strong>ONLINE</strong></td></tr>
   <tr><td>Linguist syntax routing</td><td><strong>33 MODES</strong></td></tr>
-  <tr><td>JavaScript runtime</td><td><del>ABSENT</del> BY DESIGN</td></tr>
+  <tr><td>MathJax rendering</td><td><strong>ADVANCED</strong></td></tr>
+  <tr><td>JavaScript authored by README</td><td><del>ABSENT</del></td></tr>
 </table>
 
-<details>
-<summary><strong>Inspect code subsystem</strong></summary>
-
-```rust
-struct Readme {
-    syntax_modes: usize,
-    executable_js: bool,
-}
-
-let final_form = Readme { syntax_modes: 33, executable_js: false };
-```
-
-</details>
+Inline system equation: $\text{Markdown}+\text{MathJax}=\text{M8}$.
 
 </details>
 
@@ -1064,25 +812,537 @@ let final_form = Readme { syntax_modes: 33, executable_js: false };
 
 # ACT V — ADVANCED RENDERING
 
-## LEVEL 17 — MATHEMATICAL SUPERIORITY
+> GitHub's advanced renderers turn selected fenced or delimited source into specialized visual output rather than ordinary code.
 
-`GitHub` · `Math`
+## LEVEL 17 — ADVANCED MATHJAX MATHEMATICAL SHOWCASE
 
-Inline: $`E = mc^2`$
+`GitHub` · `MathJax` · `LaTeX`
+
+GitHub supports LaTeX-formatted math in Markdown and renders it with MathJax.[^mathjax]
+
+### 17.1 — Four entry routes
+
+#### Standard inline delimiters
+
+Einstein's mass-energy relation is $E=mc^2$, and the Pythagorean identity is $\sin^2\theta+\cos^2\theta=1$.
+
+Source:
+
+```markdown
+$E=mc^2$
+```
+
+#### Backtick-protected inline math
+
+When math source overlaps visually with Markdown punctuation, GitHub also supports the `$`backtick form:
+
+$`\left\{x_i\right\}_{i=1}^{n},\quad x_i\in\mathbb{R}`$
+
+Source:
+
+````markdown
+$`\left\{x_i\right\}_{i=1}^{n}`$
+````
+
+#### Double-dollar display math
+
+**Cauchy-Schwarz inequality**\
+$$\left(\sum_{k=1}^{n}a_kb_k\right)^2\leq\left(\sum_{k=1}^{n}a_k^2\right)\left(\sum_{k=1}^{n}b_k^2\right)$$
+
+#### Fenced `math` block
 
 ```math
-\text{README Quality}
+\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+```
+
+> [!TIP]
+> Both block forms are valid. Fenced `math` blocks are especially convenient when a long equation should remain visually isolated in raw Markdown source.
+
+---
+
+### 17.2 — Symbol, relation & structure arsenal
+
+| Family | Live inline example |
+| --- | --- |
+| Fractions | $\frac{a+b}{c+d}$ |
+| Roots | $\sqrt{x}$, $\sqrt[n]{x}$ |
+| Powers / indices | $x_i^2$, $a_{mn}$ |
+| Greek | $\alpha,\beta,\gamma,\Delta,\Omega$ |
+| Relations | $x\le y$, $a\ne b$, $u\approx v$ |
+| Sets | $x\in A$, $A\subseteq B$, $A\cup B$ |
+| Logic | $P\land Q$, $P\lor Q$, $P\Rightarrow Q$ |
+| Quantifiers | $\forall x\in X,\;\exists y\in Y$ |
+| Vectors | $\mathbf{x}$, $\vec v$ |
+| Accents | $\hat\theta$, $\bar x$, $\tilde f$ |
+| Norms | $\lVert x\rVert_2$ |
+| Inner product | $\langle u,v\rangle$ |
+
+```math
+\underbrace{\frac{1}{n}\sum_{i=1}^{n}x_i}_{\text{sample mean}}
+\quad\text{and}\quad
+\overbrace{a+b+c}^{\text{three terms}}
+```
+
+---
+
+### 17.3 — Algebra & aligned derivations
+
+```math
+\begin{aligned}
+(a+b)^3
+&=(a+b)(a+b)^2\\
+&=(a+b)(a^2+2ab+b^2)\\
+&=a^3+3a^2b+3ab^2+b^3.
+\end{aligned}
+```
+
+```math
+\begin{aligned}
+x^2-6x+5
+&=(x^2-6x+9)-4\\
+&=(x-3)^2-4.
+\end{aligned}
+```
+
+### Piecewise functions
+
+```math
+f(x)=
+\begin{cases}
+-x, & x<0,\\
+0, & x=0,\\
+x^2, & x>0.
+\end{cases}
+```
+
+---
+
+### 17.4 — Matrices, determinants & systems
+
+```math
+A=\begin{pmatrix}
+1 & 2 & 3\\
+0 & 4 & 5\\
+0 & 0 & 6
+\end{pmatrix},
+\qquad
+A^{\mathsf T}=\begin{pmatrix}
+1 & 0 & 0\\
+2 & 4 & 0\\
+3 & 5 & 6
+\end{pmatrix}
+```
+
+```math
+\det\begin{pmatrix}
+a & b\\
+c & d
+\end{pmatrix}=ad-bc
+```
+
+```math
+\begin{pmatrix}
+2 & 1\\
+1 & -1
+\end{pmatrix}
+\begin{pmatrix}x\\y\end{pmatrix}
 =
-\frac{\text{Clarity}\times\text{Structure}\times\text{Accuracy}}
-{\text{Unexplained Assumptions}+1}
+\begin{pmatrix}7\\1\end{pmatrix}
+```
+
+### Linear algebra identities
+
+```math
+Av=\lambda v,
+\qquad
+\operatorname{rank}(A)+\operatorname{nullity}(A)=n
 ```
 
 ```math
-\lim_{\text{documentation}\to 0}\text{user confidence}=0
+A=Q\Lambda Q^{\mathsf T}
+\qquad\text{and}\qquad
+A=U\Sigma V^{\mathsf T}
 ```
+
+```math
+\operatorname{proj}_{u}(v)
+=\frac{\langle v,u\rangle}{\langle u,u\rangle}u
+```
+
+---
+
+### 17.5 — Single-variable calculus
+
+#### Limits
+
+```math
+\lim_{x\to0}\frac{\sin x}{x}=1
+```
+
+```math
+\lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n=e
+```
+
+#### Derivatives
+
+```math
+\frac{d}{dx}\left(x^n\right)=nx^{n-1},
+\qquad
+\frac{d}{dx}e^x=e^x
+```
+
+```math
+\frac{d}{dx}f(g(x))=f'(g(x))g'(x)
+```
+
+#### Integrals
+
+```math
+\int_a^b f(x)\,dx
+```
+
+```math
+\int x e^x\,dx=xe^x-e^x+C
+```
+
+#### Fundamental theorem of calculus
+
+```math
+\frac{d}{dx}\int_a^x f(t)\,dt=f(x)
+```
+
+---
+
+### 17.6 — Multivariable calculus
+
+```math
+\nabla f(x_1,\dots,x_n)
+=
+\begin{pmatrix}
+\frac{\partial f}{\partial x_1}\\
+\vdots\\
+\frac{\partial f}{\partial x_n}
+\end{pmatrix}
+```
+
+```math
+H_f(x)=
+\begin{pmatrix}
+\frac{\partial^2 f}{\partial x_1^2} & \cdots & \frac{\partial^2 f}{\partial x_1\partial x_n}\\
+\vdots & \ddots & \vdots\\
+\frac{\partial^2 f}{\partial x_n\partial x_1} & \cdots & \frac{\partial^2 f}{\partial x_n^2}
+\end{pmatrix}
+```
+
+```math
+\iint_D f(x,y)\,dA,
+\qquad
+\iiint_V \rho(x,y,z)\,dV
+```
+
+```math
+\nabla\cdot\mathbf{F}
+=\frac{\partial F_1}{\partial x_1}+\cdots+\frac{\partial F_n}{\partial x_n}
+```
+
+---
+
+### 17.7 — Sums, products & infinite series
+
+```math
+\sum_{k=0}^{n}r^k=\frac{1-r^{n+1}}{1-r},\qquad r\ne1
+```
+
+```math
+\sum_{n=0}^{\infty}\frac{x^n}{n!}=e^x
+```
+
+```math
+\sin x=\sum_{n=0}^{\infty}(-1)^n\frac{x^{2n+1}}{(2n+1)!}
+```
+
+```math
+n!=\prod_{k=1}^{n}k
+```
+
+```math
+\zeta(s)=\sum_{n=1}^{\infty}\frac{1}{n^s},\qquad \operatorname{Re}(s)>1
+```
+
+---
+
+### 17.8 — Probability & statistics
+
+```math
+P(A\mid B)=\frac{P(B\mid A)P(A)}{P(B)}
+```
+
+```math
+\mathbb{E}[X]=\sum_x x\,P(X=x),
+\qquad
+\operatorname{Var}(X)=\mathbb{E}[X^2]-\mathbb{E}[X]^2
+```
+
+```math
+f_X(x)=\frac{1}{\sigma\sqrt{2\pi}}
+\exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\right)
+```
+
+```math
+\operatorname{Cov}(X,Y)
+=\mathbb{E}\!\left[(X-\mathbb{E}X)(Y-\mathbb{E}Y)\right]
+```
+
+```math
+\bar X\xrightarrow[n\to\infty]{\text{a.s.}}\mu
+```
+
+---
+
+### 17.9 — Complex numbers & Fourier analysis
+
+#### Euler's identity
+
+```math
+e^{i\pi}+1=0
+```
+
+```math
+e^{i\theta}=\cos\theta+i\sin\theta
+```
+
+#### Fourier transform
+
+```math
+\widehat f(\xi)=\int_{-\infty}^{\infty}
+f(x)e^{-2\pi i x\xi}\,dx
+```
+
+#### Fourier series
+
+```math
+f(x)\sim\frac{a_0}{2}
++\sum_{n=1}^{\infty}\left(a_n\cos nx+b_n\sin nx\right)
+```
+
+#### Gaussian integral
+
+```math
+\int_{-\infty}^{\infty}e^{-x^2}\,dx=\sqrt{\pi}
+```
+
+---
+
+### 17.10 — Optimization & constrained systems
+
+```math
+\nabla f(x^\star)=0
+```
+
+```math
+\mathcal{L}(x,\lambda)=f(x)+\lambda g(x)
+```
+
+```math
+\begin{aligned}
+\nabla_x\mathcal{L}(x,\lambda)&=0,\\
+g(x)&=0.
+\end{aligned}
+```
+
+```math
+x^\star=\operatorname*{arg\,min}_{x\in\mathcal X}f(x)
+```
+
+---
+
+### 17.11 — Sets, logic & abstract notation
+
+```math
+A\triangle B=(A\setminus B)\cup(B\setminus A)
+```
+
+```math
+\forall\varepsilon>0\;\exists\delta>0:\quad
+|x-a|<\delta\Rightarrow|f(x)-f(a)|<\varepsilon
+```
+
+```math
+f:X\to Y,
+\qquad
+x\mapsto f(x)
+```
+
+```math
+\mathbb{N}\subset\mathbb{Z}\subset\mathbb{Q}\subset\mathbb{R}\subset\mathbb{C}
+```
+
+---
+
+### 17.12 — Math inside tables
+
+| Concept | Rendered expression | Meaning |
+| --- | --- | --- |
+| Euclidean norm | $\lVert x\rVert_2$ | vector magnitude |
+| Dot product | $x^{\mathsf T}y$ | inner product in $\mathbb R^n$ |
+| Expected value | $\mathbb E[X]$ | probability average |
+| Gradient | $\nabla f(x)$ | first derivatives |
+| Determinant | $\det(A)$ | scalar matrix invariant |
+| Fourier transform | $\widehat f(\xi)$ | frequency representation |
+
+---
+
+### 17.13 — Math inside alerts
 
 > [!NOTE]
-> `latex` fenced code in M7 is syntax-highlighted source. This `math` block is rendered mathematics. M8 will exhaust that distinction.
+> The identity $\sin^2\theta+\cos^2\theta=1$ renders inside a GitHub alert.
+
+> [!TIP]
+> For a normalized vector $u$, the projection simplifies to $\operatorname{proj}_u(v)=\langle v,u\rangle u$.
+
+> [!WARNING]
+> A rendered implication $P\Rightarrow Q$ is still only as valid as the argument establishing it.
+
+---
+
+### 17.14 — Math inside `<details>`
+
+<details>
+<summary><strong>Open the matrix chamber</strong></summary>
+
+```math
+R_\theta=
+\begin{pmatrix}
+\cos\theta & -\sin\theta\\
+\sin\theta & \cos\theta
+\end{pmatrix}
+```
+
+```math
+R_\theta^{\mathsf T}R_\theta=I,
+\qquad
+\det(R_\theta)=1
+```
+
+</details>
+
+<details>
+<summary><strong>Open the calculus chamber</strong></summary>
+
+```math
+\int_0^1 x^p\,dx=\frac{1}{p+1},\qquad p>-1
+```
+
+```math
+\frac{d}{dx}\log x=\frac1x
+```
+
+</details>
+
+<details>
+<summary><strong>Open the probability chamber</strong></summary>
+
+```math
+P(A\cap B)=P(A\mid B)P(B)
+```
+
+```math
+\mathbb{E}[aX+b]=a\mathbb{E}[X]+b
+```
+
+</details>
+
+---
+
+### 17.15 — Literal dollar-sign survival lab
+
+A dollar sign can be data rather than a delimiter.
+
+Inside a math expression, escape the literal currency symbol:
+
+$`\sqrt{\$4}=2`$
+
+Source:
+
+````markdown
+$`\sqrt{\$4}=2`$
+````
+
+Outside math but on the same line, GitHub documents using a span around the literal dollar sign. To split <span>$</span>100 in half, calculate $100/2=50$.
+
+Source:
+
+```html
+To split <span>$</span>100 in half, calculate $100/2=50$.
+```
+
+> [!IMPORTANT]
+> This section is deliberately parser-sensitive. Do not remove the backslash or `<span>` merely because the source appears visually redundant.
+
+---
+
+### 17.16 — Highlighted LaTeX source vs rendered MathJax
+
+**Highlighted source:**
+
+```latex
+\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}
+```
+
+**Rendered expression:**
+
+```math
+\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}
+```
+
+```text
+```latex  → Linguist syntax highlighting → source remains source
+```math   → GitHub MathJax renderer       → source becomes mathematics
+```
+
+---
+
+### 17.17 — Mathematical boss composition
+
+<details open>
+<summary><strong>MATHEMATICAL FINAL FORM — expanded by default</strong></summary>
+
+```math
+\begin{aligned}
+\mathcal{R}
+&=\text{Markdown}
+\oplus\text{GFM}
+\oplus\text{HTML}
+\oplus\text{Linguist}
+\oplus\text{MathJax},\\[4pt]
+\nabla\mathcal{R}&\ne0,\\[4pt]
+\det(I)&=1,\\[4pt]
+\int_{-\infty}^{\infty}e^{-x^2}\,dx&=\sqrt{\pi},\\[4pt]
+e^{i\pi}+1&=0.
+\end{aligned}
+```
+
+```math
+\boxed{
+\text{Readable source}
++\text{correct notation}
++\text{renderer awareness}
+=\text{useful mathematical documentation}
+}
+```
+
+</details>
+
+### M8 renderer rule
+
+```text
+Need mathematics in prose?
+├── short/simple → $...$
+├── Markdown-sensitive inline source → $`...`$
+└── display expression
+    ├── concise → $$...$$
+    └── complex / multiline → fenced math block
+```
 
 ---
 
@@ -1092,27 +1352,28 @@ Inline: $`E = mc^2`$
 
 ```mermaid
 flowchart TD
-    A[Fenced block] --> B{Info string?}
-    B -- none --> C[Plain code block]
-    B -- recognized --> D[Linguist grammar]
-    B -- unknown --> E[Fallback presentation]
-    D --> F[Highlighted source]
-    C --> G[Rendered README]
-    E --> G
-    F --> G
+    A[Math source] --> B{Delimiter}
+    B -- inline --> C[MathJax inline]
+    B -- display --> D[MathJax display]
+    B -- math fence --> D
+    C --> E[Rendered README]
+    D --> E
 ```
 
 ```mermaid
 sequenceDiagram
     actor Author
     participant MD as README.md
-    participant L as Linguist
+    participant MJ as MathJax
     participant GH as GitHub
-    Author->>MD: writes fenced block plus language specifier
-    MD->>L: supplies info string
-    L->>GH: selects known grammar
-    GH-->>Author: renders highlighted source
+    Author->>MD: writes LaTeX-formatted math
+    MD->>MJ: supplies math expression
+    MJ->>GH: produces mathematical rendering
+    GH-->>Author: displays notation in Markdown
 ```
+
+> [!NOTE]
+> M9 will expand Mermaid itself. M8 only updates the baseline diagrams so they reflect the new MathJax rendering layer.
 
 ---
 
@@ -1135,6 +1396,7 @@ sequenceDiagram
 | `#` | `\#` |
 | `>` | `\>` |
 | `|` | `\|` |
+| `$` | `\$` when a literal dollar must survive math parsing |
 | `\` | `\\` |
 
 ---
@@ -1153,19 +1415,29 @@ console.log("Three backticks live inside four.");
 ```
 ````
 
+M8 adds another backtick-sensitive inline construct: $`x_i^2`$.
+
 ---
 
 ## LEVEL 21 — DELIMITER COLLISION LAB
 
-`Markdown` · `GFM`
+`Markdown` · `GFM` · `MathJax`
 
 *asterisk emphasis*  
 _underscore emphasis_  
 **strong**  
-__alternate strong__  
 ~~strike containing **bold** and `code`~~
 
-`economic_math_student` remains parser-safe.
+Math also introduces delimiter semantics: `$...$`, `$`backtick math, `$$...$$`, and fenced `math` blocks.
+
+```text
+Same punctuation, different parser roles:
+$     → possible math delimiter
+`     → code delimiter or protected-inline-math boundary
+\     → LaTeX command / Markdown escape depending on context
+_     → Markdown emphasis or mathematical subscript depending on context
+*     → Markdown emphasis or literal math token depending on context
+```
 
 ---
 
@@ -1197,10 +1469,16 @@ __alternate strong__
 ```
 ````
 
+````markdown
+```math
+\sum_{k=1}^{n}k=\frac{n(n+1)}2
+```
+````
+
 <!--
 Future maintainers:
-Nested fences, code labels, wrong-label controls, reference definitions,
-relative media paths, and details blank lines are intentional.
+Nested fences, math delimiters, literal-dollar escapes, code labels, reference definitions,
+relative media paths, and details blank lines are intentional parser demonstrations.
 -->
 
 ---
@@ -1210,10 +1488,10 @@ relative media paths, and details blank lines are intentional.
 ## 🏅 ACHIEVEMENTS UNLOCKED
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-SYNTAX_CURATOR-fbbf24?style=for-the-badge" alt="Achievement Syntax Curator">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-GRAMMAR_ROUTER-06b6d4?style=for-the-badge" alt="Achievement Grammar Router">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-ALIAS_HANDLER-8b5cf6?style=for-the-badge" alt="Achievement Alias Handler">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-FENCE_ARCHITECT-0891b2?style=for-the-badge" alt="Achievement Fence Architect">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-MATHJAX_ARCHITECT-fbbf24?style=for-the-badge" alt="Achievement MathJax Architect">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-MATRIX_MONARCH-06b6d4?style=for-the-badge" alt="Achievement Matrix Monarch">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-CALCULUS_ENGINE-8b5cf6?style=for-the-badge" alt="Achievement Calculus Engine">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-FOURIER_SUMMONER-0891b2?style=for-the-badge" alt="Achievement Fourier Summoner">
 </p>
 
 | Achievement | Requirement | Status |
@@ -1222,15 +1500,18 @@ relative media paths, and details blank lines are intentional.
 | **Link Cartographer** | Multiple link grammars | ✅ |
 | **Media Engineer** | Repository-owned media | ✅ |
 | **Hybrid Engineer** | Markdown + sanitized HTML | ✅ |
-| **Syntax Curator** | Demonstrate 33 distinct language/mode fences | ✅ |
-| **Grammar Router** | Compare labeled, unlabeled, text, and unknown fences | ✅ |
-| **Alias Handler** | Demonstrate alternate Linguist specifiers | ✅ |
-| **Gallery Architect** | Keep six language galleries collapsible | ✅ |
-| **Fence Architect** | Nest triple fences inside longer fences | ✅ |
-| **Diff Operator** | Use `diff` as a documentation mode | ✅ |
-| **Literalist** | Distinguish source code from plaintext output | ✅ |
-| **Parser Tamer** | Escapes + variable-length fences | ✅ |
-| **Master of Restraint** | Stop before adding more languages | ❌ |
+| **Syntax Curator** | Retain 33 distinct syntax modes | ✅ |
+| **Fence Architect** | Variable-length nested fences | ✅ |
+| **MathJax Architect** | Use all four GitHub math entry routes | ✅ |
+| **Delimiter Diplomat** | Distinguish inline, protected inline, display, and math fence syntax | ✅ |
+| **Matrix Monarch** | Render matrices, determinants, systems, eigennotation | ✅ |
+| **Calculus Engine** | Render limits, derivatives, gradients, Hessians, integrals | ✅ |
+| **Probability Sage** | Render Bayes, expectation, variance, density, covariance | ✅ |
+| **Fourier Summoner** | Render complex exponential and Fourier notation | ✅ |
+| **Dollar Escape Artist** | Preserve literal currency signs beside math | ✅ |
+| **Math Interface Composer** | Put math inside tables, alerts, and details | ✅ |
+| **Source/Render Separatist** | Distinguish `latex` highlighting from `math` rendering | ✅ |
+| **Master of Restraint** | Stop before inventing new branches of mathematics | ❌ |
 
 ---
 
@@ -1247,23 +1528,27 @@ Local Media      ████████████████████ 10
 HTML Hybrid      ████████████████████ 100%
 Syntax Labels    ████████████████████ 100%
 Language Breadth ████████████████████  33 modes
-Fence Control    ████████████████████ 100%
+Math Delimiters  ████████████████████ 100%
+Math Structures  ████████████████████ 100%
+Calculus         ████████████████████ 100%
+Linear Algebra   ████████████████████ 100%
+Probability      ████████████████████ 100%
+Fourier / Complex████████████████████ 100%
 Parser Tricks    ███████████████████░  95%
-Animation        ████████████████░░░░  80%
 Restraint        ██░░░░░░░░░░░░░░░░░░  10%
-Raw Power        ███████████████████░  M7
+Raw Power        ████████████████████  M8
 ```
 
 > [!WARNING]
-> Syntax highlighting is presentation metadata, not a compiler, linter, validator, security scanner, or proof that the snippet belongs to the language named on its fence.
+> Mathematical typesetting can make a false equation look extremely authoritative.
 >
-> **M7 makes grammar selection itself part of the showcase.**
+> **M8 demonstrates notation breadth, renderer behavior, and composition—not mathematical truth by typography.**
 
 ---
 
 ## 🧰 THE ACTUALLY USEFUL CHEAT SHEET
 
-`````markdown
+``````markdown
 # Heading
 *italic* **bold** ~~strike~~ `code`
 
@@ -1272,49 +1557,61 @@ Raw Power        ███████████████████░  M
 [relative](./README.md)
 [same document](#final-boss)
 
+Inline math: $E=mc^2$
+Protected inline math: $`x_i^2`$
+
+Display math:
+$$\sum_{k=1}^{n}k=\frac{n(n+1)}2$$
+
+```math
+A=\begin{pmatrix}a&b\\c&d\end{pmatrix}
+```
+
+Literal currency inside math: $`\sqrt{\$4}=2`$
+Currency beside math: <span>$</span>100 and $100/2=50$
+
 ```python
 print("highlighted code")
+```
+
+```latex
+\int_0^1 x^2\,dx
 ```
 
 ```text
 literal output
 ```
 
-```
-unlabeled fenced code
-```
-
 ```diff
-- old
-+ new
+- baseline math
++ advanced MathJax
 ```
 
 ````markdown
-```typescript
-const nested: string = "fence inside fence";
+```math
+\int_{-\infty}^{\infty}e^{-x^2}\,dx=\sqrt{\pi}
 ```
 ````
 
 <details>
-<summary>Collapsed code gallery</summary>
+<summary>Collapsed math</summary>
 
-```rust
-fn main() { println!("inside details"); }
+```math
+e^{i\pi}+1=0
 ```
 
 </details>
 
 ![Local image](./assets/image.svg)
 <kbd>Ctrl</kbd> + <kbd>K</kbd>
-H<sub>2</sub>O
 
 - [x] Complete
 - [ ] Incomplete
 
-| Left | Center | Right |
-| :--- | :---: | ---: |
-| alpha \| beta | `code` | 100 |
-`````
+| Concept | Math |
+| --- | --- |
+| norm | $\lVert x\rVert_2$ |
+``````
 
 [docs]: https://example.com/docs
 
@@ -1324,37 +1621,42 @@ H<sub>2</sub>O
 
 | Crime | Consequence |
 | --- | --- |
-| Leaving every fence unlabeled | Useful syntax structure disappears |
-| Labeling terminal output as `bash` | Output is presented as shell source |
-| Choosing a language because its colors look better | Metadata becomes false |
-| Assuming highlighting validates syntax | Broken code still looks authoritative |
-| Using obscure aliases everywhere | Raw source becomes harder to understand |
-| Giant uncollapsed language museum | README becomes a scrolling benchmark |
-| Forgetting longer outer fences | Demonstrations terminate themselves |
-| Treating `latex` highlighting as MathJax | Source highlighting and math rendering get confused |
-| Treating README HTML like a web app | Sanitizer wins |
-| Deleting local assets | Media breaks |
+| Treating `latex` fence as rendered math | Highlighted source mistaken for MathJax output |
+| Treating `math` fence as ordinary syntax highlighting | Renderer model becomes wrong |
+| Unescaped currency `$` beside math | Delimiter collisions |
+| Giant equation without structure | Source and render both become difficult to inspect |
+| Using display math for every tiny symbol | Document becomes vertically bloated |
+| Using inline math for giant matrices | Prose becomes unreadable |
+| Assuming typesetting proves correctness | Beautifully rendered nonsense |
+| Hiding every equation inside `<details>` | Mathematical flow disappears |
+| Forgetting longer outer fences | Source demonstrations terminate themselves |
+| Replacing readable notation with gratuitous macros | Maintenance cost rises |
+| Deleting local assets | Media layer breaks |
 
 ---
 
 ## 🧪 README QUALITY TEST
 
-- [ ] Every intended source-code block has the correct language label.
-- [ ] Plain terminal/output examples use `text` or remain intentionally unlabeled.
-- [ ] Unknown-label test remains clearly labeled as intentional.
-- [ ] Alias examples still resolve to the intended grammar.
-- [ ] JavaScript and JSON comparison remains intentionally invalid JSON in the second block.
-- [ ] All six galleries open and close independently.
-- [ ] Every gallery has the advertised number of language modes.
-- [ ] Total inventory still equals 33 distinct showcased modes.
-- [ ] `diff` additions/removals remain visually distinct.
-- [ ] Nested four-backtick demonstrations remain balanced.
-- [ ] Cheat-sheet outer fence remains longer than every inner fence.
-- [ ] Markdown code fences still work inside `<details>`.
+- [ ] Standard `$...$` inline expressions render.
+- [ ] `$`backtick inline expressions render without leaking Markdown syntax.
+- [ ] `$$...$$` display expressions render.
+- [ ] Fenced `math` blocks render as mathematics rather than highlighted source.
+- [ ] Fenced `latex` blocks remain highlighted source rather than rendered mathematics.
+- [ ] Matrices and cases keep row boundaries.
+- [ ] `aligned` derivations keep alignment points.
+- [ ] Limits, sums, products, derivatives, partial derivatives, and integrals render.
+- [ ] `\mathbb`, `\mathbf`, `\operatorname`, norms, and inner products render.
+- [ ] Math in GFM table cells remains legible.
+- [ ] Math inside GitHub alerts remains inline and readable.
+- [ ] Math fences inside `<details>` render after expansion.
+- [ ] Literal `\$` survives inside math.
+- [ ] Literal outside-math currency uses the documented `<span>$</span>` pattern when sharing a line with math.
+- [ ] Nested math-fence source examples remain bounded by longer fences.
+- [ ] All six M7 syntax galleries remain present.
+- [ ] M7 inventory still totals 33 modes.
 - [ ] Theme-aware local hero still switches correctly.
 - [ ] Relative media paths resolve on the branch.
-- [ ] HTML sanitizer examples remain inert source examples.
-- [ ] Mobile layout remains usable with galleries collapsed.
+- [ ] Mobile layout remains usable.
 - [ ] README is previewed on GitHub.
 
 ---
@@ -1364,11 +1666,11 @@ H<sub>2</sub>O
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form M7 final banner" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form M8 final banner" width="100%">
 </picture>
 
 <details open>
-<summary><strong>FINAL FORM — SYNTAX ROUTING SYSTEM</strong></summary>
+<summary><strong>FINAL FORM — MATHEMATICAL RENDERING SYSTEM</strong></summary>
 
 ```text
 README
@@ -1377,17 +1679,21 @@ README
  ├── LINKS
  ├── LOCAL MEDIA
  ├── HTML HYBRID
- ├── GITHUB CODE RENDERING
- │    ├── FENCED BLOCK
- │    ├── INFO STRING
- │    ├── LINGUIST NAME / ALIAS
- │    ├── GRAMMAR
- │    ├── 33 SHOWCASED MODES
- │    ├── UNLABELED CONTROL
- │    ├── UNKNOWN-LABEL CONTROL
- │    ├── DIFF / TEXT MODES
- │    └── NESTED FENCES
- ├── MATH
+ ├── LINGUIST
+ │    └── 33 SYNTAX MODES
+ ├── MATHJAX
+ │    ├── INLINE $
+ │    ├── PROTECTED INLINE $`...`$
+ │    ├── DISPLAY $$
+ │    ├── MATH FENCE
+ │    ├── ALGEBRA
+ │    ├── MATRICES
+ │    ├── CALCULUS
+ │    ├── LINEAR ALGEBRA
+ │    ├── PROBABILITY
+ │    ├── FOURIER / COMPLEX
+ │    ├── TABLE / ALERT / DETAILS COMPOSITION
+ │    └── DOLLAR-SIGN ESCAPES
  ├── MERMAID
  └── PARSER LAB
 
@@ -1395,25 +1701,26 @@ README
 FINAL FORM
 ```
 
+```math
+\begin{aligned}
+\text{Final Form}
+&=\text{structure}
++\text{semantics}
++\text{renderers},\\
+\text{M8}
+&=\text{MathJax breadth}
++\text{parser awareness}
++\text{readability}.
+\end{aligned}
+```
+
 <details>
-<summary><strong>Compile absolutely nothing</strong></summary>
+<summary><strong>Open the final mathematical subsystem</strong></summary>
 
-```typescript
-interface FinalForm {
-  markdown: true;
-  gfm: true;
-  htmlHybrid: true;
-  syntaxModes: 33;
-  executableReadmeJavaScript: false;
-}
-
-const readme: FinalForm = {
-  markdown: true,
-  gfm: true,
-  htmlHybrid: true,
-  syntaxModes: 33,
-  executableReadmeJavaScript: false,
-};
+```math
+\boxed{e^{i\pi}+1=0}
+\qquad
+\boxed{\int_{-\infty}^{\infty}e^{-x^2}\,dx=\sqrt{\pi}}
 ```
 
 </details>
@@ -1423,19 +1730,19 @@ const readme: FinalForm = {
 <div align="center">
 
 <p>
-  Markdown creates the fence.<br>
-  The info string names the language.<br>
-  Linguist maps that name to a grammar.<br>
-  GitHub renders source without executing it.<br>
-  Details keep thirty-three demonstrations navigable.
+  Markdown creates the document.<br>
+  Linguist highlights source.<br>
+  MathJax renders notation.<br>
+  HTML controls disclosure.<br>
+  Parser awareness keeps the layers from eating each other.
 </p>
 
-<a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks"><img src="https://img.shields.io/badge/READ-CODE_BLOCK_DOCS-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Read GitHub code block documentation"></a>
-<a href="https://github.com/github-linguist/linguist"><img src="https://img.shields.io/badge/EXPLORE-GITHUB_LINGUIST-7c3aed?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore GitHub Linguist"></a>
+<a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions"><img src="https://img.shields.io/badge/READ-GITHUB_MATH_DOCS-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Read GitHub mathematical expression documentation"></a>
+<a href="#level-17--advanced-mathjax-mathematical-showcase"><img src="https://img.shields.io/badge/RETURN-MATHJAX_LAB-7c3aed?style=for-the-badge" alt="Return to MathJax lab"></a>
 <a href="#"><img src="https://img.shields.io/badge/RETURN-TO_THE_TOP-0891b2?style=for-the-badge" alt="Return to top"></a>
 
 <h2>Markdown: Final Form.</h2>
-<h3>Syntax-highlighting layer unlocked.</h3>
+<h3>Advanced mathematical rendering unlocked.</h3>
 
 </div>
 
@@ -1451,4 +1758,5 @@ const readme: FinalForm = {
 [^relative-links]: Relative repository paths keep files and media branch-aware.
 [^details]: GitHub documents `<details>`, `<summary>`, nested Markdown content, and the `open` attribute for initially expanded sections.
 [^sanitization]: GitHub sanitizes rendered README HTML, so arbitrary application-style script and styling are not the interface model.
-[^linguist]: GitHub Linguist defines known languages and aliases. Its language data notes that aliases are used in fenced code blocks; supported languages with highlighting grammars can be rendered with syntax highlighting.
+[^linguist]: GitHub Linguist defines known languages and aliases used for fenced-code syntax highlighting.
+[^mathjax]: GitHub documents LaTeX-formatted mathematical expressions in Markdown files, rendered with MathJax, using inline dollar delimiters, protected `$`backtick inline syntax, double-dollar display blocks, or fenced `math` blocks.
