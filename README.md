@@ -3,14 +3,15 @@
 ║                          LEVEL 00: SOURCE LAYER                              ║
 ║                                                                              ║
 ║  Achievements: RAW SOURCE EXPLORER · PARSER TAMER · BLOCK ARCHITECT         ║
+║                LINK CARTOGRAPHER                                             ║
 ║                                                                              ║
 ║  You inspected README.md before GitHub rendered it.                         ║
 ║  Rendering stack: Markdown → GFM → GitHub → HTML → Advanced Renderers       ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
-M3 source-only note:
-List indentation, blank lines inside list items, escaped table pipes, task nesting,
-and quote-prefixed code fences are intentional parser demonstrations.
+M4 source-only note:
+Reference definitions, relative paths, custom anchors, autolinks, and safe examples of
+GitHub-native conversation references are now intentional parts of the exhibit.
 -->
 
 <div align="center">
@@ -25,7 +26,7 @@ and quote-prefixed code fences are intentional parser demonstrations.
 
 <a href="https://readme-typing-svg.demolab.com/demo/">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=23&amp;pause=850&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=60&amp;lines=Plain+text%2C+but+make+it+dangerous.;Lists.+Tables.+Tasks.+Quotes.;Blocks+inside+blocks+inside+blocks.;One+README+to+flex+them+all."
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=23&amp;pause=850&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=60&amp;lines=Links.+Anchors.+References.+Autolinks.;Relative+paths+that+survive+branches.;GitHub-native+syntax%2C+without+fake+magic.;One+README+to+flex+them+all."
     alt="Animated Markdown Final Form introduction"
   />
 </a>
@@ -34,7 +35,7 @@ and quote-prefixed code fences are intentional parser demonstrations.
 
 <a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/LAYER-MARKDOWN-111111?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Markdown layer" /></a>
 <a href="https://github.github.com/gfm/"><img src="https://img.shields.io/badge/LAYER-GFM-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub Flavored Markdown layer" /></a>
-<a href="#act-ii--github-flavored-markdown"><img src="https://img.shields.io/badge/BLOCKS-M3_UNLOCKED-8B5CF6?style=for-the-badge" alt="Block systems M3 unlocked" /></a>
+<a href="#level-04--hyperlink-routing-matrix"><img src="https://img.shields.io/badge/LINKS-M4_UNLOCKED-8B5CF6?style=for-the-badge" alt="Link systems M4 unlocked" /></a>
 <a href="#the-chaos-index"><img src="https://img.shields.io/badge/CHAOS-CONTROLLED-ff1493?style=for-the-badge" alt="Controlled chaos" /></a>
 <a href="#final-boss"><img src="https://img.shields.io/badge/README-OVERENGINEERED-F43F5E?style=for-the-badge" alt="README overengineered" /></a>
 
@@ -43,17 +44,17 @@ and quote-prefixed code fences are intentional parser demonstrations.
 <h3>🚨 This is not merely a README.</h3>
 <h3>This is a <strong>layer-by-layer Markdown rendering laboratory</strong>.</h3>
 
-<sub>Built with Markdown, GitHub Flavored Markdown, GitHub rendering extensions, HTML fragments, external SVGs, and absolutely no JavaScript.</sub>
+<sub>Markdown · GFM · GitHub rendering · HTML fragments · external SVGs · zero JavaScript</sub>
 
 <br /><br />
 
 <a href="#act-i--markdown-core"><strong>⚡ Enter Markdown Core</strong></a>
 &nbsp;•&nbsp;
-<a href="#act-ii--github-flavored-markdown"><strong>🧱 Enter Block Systems</strong></a>
+<a href="#level-04--hyperlink-routing-matrix"><strong>🧭 Enter Link Routing</strong></a>
 &nbsp;•&nbsp;
-<a href="#act-vi--parser--source-lab"><strong>⌁ Enter the Parser Lab</strong></a>
+<a href="#act-vi--parser--source-lab"><strong>⌁ Enter Parser Lab</strong></a>
 &nbsp;•&nbsp;
-<a href="#final-boss"><strong>👑 Fight the Final Boss</strong></a>
+<a href="#final-boss"><strong>👑 Fight Final Boss</strong></a>
 
 </div>
 
@@ -71,25 +72,19 @@ and quote-prefixed code fences are intentional parser demonstrations.
 
 ## 🧭 README POWER MAP
 
-This document is organized by **rendering layer**, not by random feature order.
-
 | Act | Rendering layer | Current demonstrations | Jump |
 | :---: | --- | --- | :---: |
 | `00` | [Source Layer](#level-00--source-layer) | Hidden comments, raw-source-only content | `RAW` |
-| `I` | [Markdown Core](#act-i--markdown-core) | Typography, headings, whitespace, list grammar, quote composition, links | `#` |
+| `I` | [Markdown Core](#act-i--markdown-core) | Typography, headings, lists, quotes, links, anchors | `#` |
 | `II` | [GitHub Flavored Markdown](#act-ii--github-flavored-markdown) | Tables, escaped pipes, task trees, strikethrough | `GFM` |
-| `III` | [GitHub Extensions](#act-iii--github-extensions) | Alerts, code highlighting, footnotes | `GH` |
+| `III` | [GitHub Extensions](#act-iii--github-extensions) | Alerts, code highlighting, footnotes, GitHub-aware behavior | `GH` |
 | `IV` | [HTML Hybrid](#act-iv--html-hybrid) | Inline HTML, media control, collapsible interfaces | `<>` |
-| `V` | [Advanced Rendering](#act-v--advanced-rendering) | Math, Mermaid diagrams | `∞` |
-| `VI` | [Parser & Source Lab](#act-vi--parser--source-lab) | Escapes, entities, backticks, delimiter rules, recursion | `\` |
+| `V` | [Advanced Rendering](#act-v--advanced-rendering) | Math, Mermaid | `∞` |
+| `VI` | [Parser & Source Lab](#act-vi--parser--source-lab) | Escapes, entities, backticks, recursion | `\` |
 | `VII` | [Endgame & Reference](#act-vii--endgame--reference) | Achievements, cheat sheet, QA | `✓` |
 | `∞` | [Final Boss](#final-boss) | Combined mechanics | `👑` |
 
-### Capability classification
-
 `Markdown` · `GFM` · `GitHub` · `HTML` · `External Asset`
-
-Not everything rendered inside a GitHub README is technically Markdown.
 
 ---
 
@@ -117,8 +112,6 @@ flowchart LR
 
 `HTML` · `Source-only`
 
-Some README behavior exists only **before** GitHub renders the document.
-
 ```html
 <!--
 This exists in README.md...
@@ -130,25 +123,23 @@ but disappears when GitHub renders it.
 Architecture invariant:
 Future phases extend the correct rendering act instead of appending unrelated sections.
 
-M3 invariant:
-Do not normalize list indentation, quote prefixes, table escapes, or variable-length
-fences without checking whether they are live demonstrations.
+M4 invariant:
+Do not delete link reference definitions at the bottom merely because they render invisibly.
+Do not turn code-form GitHub mention examples into live mentions without a reason.
 -->
 
 > [!NOTE]
-> The source view and the rendered view are intentionally treated as two different surfaces of the same README.
+> The raw source and rendered document are intentionally two different surfaces of the same file.
 
 ---
 
 # ACT I — MARKDOWN CORE
 
-> The portable foundation: inline syntax, whitespace, and block grammar.
+> The portable foundation: inline syntax, whitespace, block grammar, and navigation.
 
 ## LEVEL 01 — TYPOGRAPHY & INLINE POWER
 
 `Markdown` · `GFM` · `HTML`
-
-### Delimiter arsenal
 
 | Source | Result | Role |
 | --- | --- | --- |
@@ -157,33 +148,16 @@ fences without checking whether they are live demonstrations.
 | `**bold**` | **bold** | Strong emphasis |
 | `__bold__` | __bold__ | Alternate strong emphasis |
 | `***bold italic***` | ***bold italic*** | Combined emphasis |
-| `___bold italic___` | ___bold italic___ | Alternate combined emphasis |
 | `~~deleted~~` | ~~deleted~~ | GFM strikethrough |
 | `` `inline code` `` | `inline code` | Literal technical text |
 | `<sub>small</sub>` | <sub>small</sub> | HTML subscript |
 | `<sup>high</sup>` | <sup>high</sup> | HTML superscript |
 | `<ins>inserted</ins>` | <ins>inserted</ins> | HTML insertion |
 
-### Formatting combo attacks
-
-**Bold text containing _italic text containing `inline code`_ while remaining bold.**
-
-~~This sentence was removed for being **insufficiently dramatic**.~~
-
-**Strong outside, _emphasis inside_, and `code at the core`.**
-
-- `foo_bar_baz` → foo_bar_baz
-- `foo*bar*baz` → foo*bar*baz
-
-### Keyboard and scale
+**Bold containing _italic containing `code`_.**  
+~~Strikethrough containing **strong** text.~~
 
 Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> to paste without formatting.
-
-Press <kbd>.</kbd> on a GitHub repository to open it in the web editor.
-
-<sub>Tiny text of humility.</sub>  
-Normal text of confidence.  
-<sup>Superscript of unreasonable superiority.</sup>
 
 ---
 
@@ -191,26 +165,17 @@ Normal text of confidence.
 
 `Markdown`
 
-### ATX heading ladder
-
 <details>
-<summary><strong>🏛️ Open the six-level heading hierarchy</strong></summary>
+<summary><strong>🏛️ Open the six-level ATX heading hierarchy</strong></summary>
 
 # Header 1 — The Emperor
-
 ## Header 2 — The Chancellor
-
 ### Header 3 — The Strategist
-
 #### Header 4 — The Specialist
-
 ##### Header 5 — The Intern with Production Access
-
 ###### Header 6 — The Fine Print Nobody Read
 
 </details>
-
-### Setext: the other heading syntax
 
 <details>
 <summary><strong>📜 Render actual Setext headings</strong></summary>
@@ -223,22 +188,10 @@ Setext Level Two
 
 </details>
 
-Source:
-
-```md
-Setext Level One
-================
-
-Setext Level Two
-----------------
-```
-
-### Line-break laboratory
-
-1. A **blank line** starts a new paragraph.
-2. Two trailing spaces create an explicit Markdown hard break.  
-   This sentence begins after that hard break.
-3. `<br />` gives HTML-level control.<br />This sentence begins after an HTML break.
+1. A blank line starts a new paragraph.
+2. Two trailing spaces create a hard break.  
+   This line follows one.
+3. `<br />` creates an HTML break.<br />This line follows one.
 
 ---
 
@@ -246,310 +199,287 @@ Setext Level Two
 
 `Markdown`
 
-M3 turns lists and quotes from isolated syntax examples into **container systems**.
+### Three unordered markers
 
-### The three unordered-list markers
-
-All three markers create unordered list items:
-
-- Hyphen marker
-- Another hyphen item
-
-* Asterisk marker
-* Another asterisk item
-
-+ Plus marker
-+ Another plus item
-
-Source:
-
-```md
-- hyphen
-* asterisk
-+ plus
-```
-
-> [!NOTE]
-> Consistency is usually better in real documentation. This repository uses all three because it is a syntax showcase.
+- Hyphen
+* Asterisk
++ Plus
 
 ### Deep list archaeology
 
-- Surface layer
-  - Nested context
+- Surface
+  - Context
     - Deeper context
-      - Suspiciously deep context
-        - We have entered the list mines
+      - List mines
+        - Deeper still
           - **Send indentation**
-
-### Mixed-species list
-
-1. **Project setup**
-   - Create `README.md`
-   - Add a title
-   - Explain the project
-2. **Visual escalation**
-   - Add badges
-   - Add diagrams
-     1. Flowchart
-     2. Sequence diagram
-   - Add collapsible sections
-3. **Final verification**
-   - Preview on GitHub
-   - Test every link
-   - Pretend this was always the plan
-
-### Ordered-list numbering is source metadata
-
-The first number can determine the displayed starting point while later source numbers need not be sequential:
-
-7. Seventh-circle documentation item
-1. Source says `1.` again
-1. Source says `1.` again
-
-Source:
-
-```md
-7. Seventh-circle documentation item
-1. Source says `1.` again
-1. Source says `1.` again
-```
-
-The source is optimized for editing; the renderer owns the displayed sequence.
-
-### Tight versus loose lists
-
-Tight list:
-
-- Alpha
-- Beta
-- Gamma
-
-Loose list:
-
-- Alpha has its own paragraph.
-
-- Beta has its own paragraph.
-
-- Gamma has its own paragraph.
-
-A blank line changes the block structure even when the text looks similar.
 
 ### Blocks inside list items
 
-1. **A list item can contain a paragraph.**
+1. **Paragraph container**
 
-   This paragraph still belongs to item 1 because it is indented to the item's content column.
+   This paragraph belongs to item 1.
 
-2. **A list item can contain a blockquote.**
+2. **Quote container**
 
-   > The quote is nested inside the ordered list item.
+   > Quote nested inside a list.
    >
-   > - The quote can itself contain a list.
-   > - Containers can compose.
+   > - Quote-contained list
+   > - Another item
 
-3. **A list item can contain fenced code.**
+3. **Code container**
 
    ```bash
    printf '%s\n' "code inside a list item"
    ```
 
-4. **A list item can contain another ordered list.**
-   1. Child step one
-   2. Child step two
-      - Grandchild bullet
-      - Another grandchild bullet
+### Quote fortress
 
-### Quotation depth test
-
-> “Markdown is just plain text,” they whispered.
+> First level.
 >
-> > “Then why does it have tables?” asked the apprentice.
+> > Second level.
 > >
-> > > “And diagrams?” asked the architect.
+> > > Third level.
 > > >
-> > > > “And mathematical notation?” asked the economist.
-> > > >
-> > > > > The room became silent.
+> > > > Fourth level.
 
-### Multi-paragraph quote
-
-> A blockquote can contain more than one paragraph.
+> **Quote containing structure**
 >
-> This is the second paragraph, still inside the same quotation container.
-
-### Quote containing a list
-
-> **Blockquote inventory**
->
-> 1. Paragraphs
-> 2. Lists
-> 3. Formatting
->    - **bold**
->    - _italic_
->    - `code`
-
-### Quote containing fenced code
-
-> A quote can even contain a fenced code block:
->
-> ```bash
-> echo "quoted shell command"
-> printf '%s\n' "every fence line remains inside the quote"
-> ```
->
-> The quotation resumes after the fence.
-
-### Quote + list + code composition
-
-> **Documentation expedition**
->
-> - [x] Enter the quote
-> - [x] Start a list inside it
-> - [x] Put `inline code` in the task
-> - [ ] Escape with dignity
+> - [x] List
+> - [x] Task
+> - [x] `inline code`
 >
 > ```text
-> blockquote
+> quote
 >   └── list
 >       └── task
->           └── inline code
 > ```
 
-### Ordinary links
+---
 
-- [Learn Markdown](https://www.markdownguide.org/)
-- [Read GitHub’s formatting documentation](https://docs.github.com/en/get-started/writing-on-github)
-- [Study the GitHub Flavored Markdown specification](https://github.github.com/gfm/)
-- [Return to the top](#)
+## LEVEL 04 — HYPERLINK ROUTING MATRIX
 
-[Hover over this link before clicking](https://www.markdownguide.org/ "You have discovered tooltip technology.")
+`Markdown` · `GFM` · `GitHub` · `HTML`
 
-> [!NOTE]
-> M4 owns reference links, relative repository links, autolinks, and repository-native references.
+A link is not one feature. Markdown has several link grammars, while GitHub adds repository-aware navigation and automatic section anchors.
+
+### Inline links
+
+[Markdown Guide](https://www.markdownguide.org/)  
+[GitHub writing docs](https://docs.github.com/en/get-started/writing-on-github)  
+[Hover title](https://www.markdownguide.org/ "Tooltip unlocked")
+
+Source:
+
+```md
+[Markdown Guide](https://www.markdownguide.org/)
+[Hover title](https://www.markdownguide.org/ "Tooltip unlocked")
+```
+
+### Reference-style trilogy
+
+**Full reference:** [Markdown Guide][markdown-guide]  
+**Collapsed reference:** [GitHub Docs][]  
+**Shortcut reference:** [GFM Spec]
+
+Source:
+
+```md
+[Markdown Guide][markdown-guide]
+[GitHub Docs][]
+[GFM Spec]
+
+[markdown-guide]: https://www.markdownguide.org/
+[GitHub Docs]: https://docs.github.com/en/get-started/writing-on-github
+[GFM Spec]: https://github.github.com/gfm/
+```
+
+The definitions live at the bottom of the file and do not render as visible paragraphs.
+
+### Relative repository links
+
+These stay branch-aware because they are relative to the current Markdown file:
+
+- [Open this README through a relative path](./README.md)
+- [Open the repository root](./)
+- [Jump to the Table Engine through a relative file + fragment](./README.md#level-05--table-engine)
+
+Source:
+
+```md
+[README](./README.md)
+[Repository root](./)
+[Table Engine](./README.md#level-05--table-engine)
+```
+
+> [!TIP]
+> Relative links are usually superior for files inside the same repository because GitHub resolves them against the branch currently being viewed.
+
+### Automatic section anchors
+
+Every heading receives a GitHub-generated section anchor. This README's Power Map and navigation controls use them heavily.
+
+- [Jump to Markdown Core](#act-i--markdown-core)
+- [Jump to Advanced Rendering](#act-v--advanced-rendering)
+- [Jump to Final Boss](#final-boss)
+
+### Custom anchor beacon
+
+<a name="m4-routing-beacon"></a>
+
+This line has no heading, yet it has a deliberate navigation target.
+
+[Jump to the custom routing beacon](#m4-routing-beacon)
+
+Source:
+
+```html
+<a name="m4-routing-beacon"></a>
+```
+
+Custom anchors are useful when you need a stable target that should not become another heading in the document outline.
+
+### Standard autolinks
+
+Angle-bracket autolinks:
+
+<https://github.com/>  
+<documentation@example.com>
+
+Source:
+
+```md
+<https://github.com/>
+<documentation@example.com>
+```
+
+### GFM extended autolinks
+
+GitHub Flavored Markdown also recognizes common bare forms:
+
+https://github.com  
+www.github.com  
+documentation@example.com
+
+These are parser features, not hand-written `[text](url)` links.
+
+### Parentheses and punctuation
+
+Balanced parentheses can live in link destinations:
+
+[Markdown on Wikipedia](https://en.wikipedia.org/wiki/Markdown_(markup_language))
+
+Extended GFM autolinking also contains rules that avoid swallowing common trailing punctuation.
+
+### Linked image syntax
+
+The media phase owns the real asset expansion, but link composition already permits an image to become the clickable label:
+
+```md
+[![Alt text](image.svg)](https://example.com)
+```
+
+The existing badge portals elsewhere in this README use the HTML equivalent of the same idea.
+
+### Permanent explicit GitHub links
+
+Markdown links can point at immutable repository history directly:
+
+[M3 block-systems commit](https://github.com/thiepn/markdown/commit/433b375397103a47f467c8b575b9acbd7ef27c2e)
+
+That is an explicit link, not an assumed autolink.
+
+### GitHub-native references: context matters
+
+GitHub supports rich references such as these in issue, pull-request, discussion, and comment contexts:
+
+```text
+@octocat
+#123
+GH-123
+owner/repository#123
+0123456789abcdef0123456789abcdef01234567
+```
+
+> [!IMPORTANT]
+> A repository Markdown file is **not** the same rendering context as a GitHub conversation. Issue/PR short references are not automatically converted into rich shortlinks inside repository files, and this README intentionally keeps mention examples inside code so it does not ping real people.
+
+### Custom external autolinks
+
+Repositories can be configured with custom autolink patterns for external systems such as ticket trackers. Because that configuration is repository-specific, M4 documents the capability rather than pretending a custom rule exists here.
+
+### Routing matrix
+
+| Need | Best mechanism | Example |
+| --- | --- | --- |
+| External destination | Inline link | `[Docs](https://...)` |
+| Reused destination | Reference link | `[Docs][docs]` |
+| Same repository file | Relative link | `./README.md` |
+| Same-document section | Heading fragment | `#final-boss` |
+| Non-heading destination | Custom anchor | `<a name="...">` |
+| Bare URI | Autolink | `<https://...>` |
+| Branch-safe repo navigation | Relative path | `./path/file.md` |
+| GitHub conversation reference | Native reference syntax | `#123` in comments/issues/PRs |
+| Immutable repository history | Explicit commit URL | `/commit/<sha>` |
 
 ---
 
 # ACT II — GITHUB FLAVORED MARKDOWN
 
-> GFM adds practical block systems for documentation: tables, task lists, and strikethrough.
+> GFM adds practical block systems for documentation: tables, task lists, strikethrough, and extended autolinking.
 
-## LEVEL 04 — TABLE ENGINE
+## LEVEL 05 — TABLE ENGINE
 
 `GFM`
 
-### Alignment matrix
-
-| Alignment | Syntax idea | Example |
+| Alignment | Syntax | Example |
 | :--- | :---: | ---: |
 | Left | `:---` | `10` |
 | Center | `:---:` | `100` |
 | Right | `---:` | `1000` |
 
-The alignment row is not decoration: colons control alignment.
-
 ### Formatting inside cells
 
-| Source family | Rendered capability | Status |
+| Family | Render | Status |
 | --- | --- | :---: |
-| `*italic*` | _Italics_ | ✅ |
-| `**bold**` | **Bold** | ✅ |
-| `***bold italic***` | ***Combined*** | ✅ |
-| `` `code` `` | `Monospace` | ✅ |
-| `~~text~~` | ~~Strikethrough~~ | ✅ |
-| `[link](...)` | [Markdown Guide](https://www.markdownguide.org/) | ✅ |
+| emphasis | _italic_ / **bold** | ✅ |
+| code | `README.md` | ✅ |
+| strike | ~~deleted~~ | ✅ |
+| link | [Markdown Guide](https://www.markdownguide.org/) | ✅ |
 | HTML inline | H<sub>2</sub>O / x<sup>2</sup> | ✅ |
 
 ### Escaped pipe survival test
 
-A literal pipe normally competes with table column delimiters. Escape it when it belongs to cell content:
-
-| Input | Meaning | Result |
-| --- | --- | --- |
-| `alpha \| beta` | Literal pipe in text | alpha \| beta |
-| `` `left\|right` `` | Pipe inside code span in a table cell | `left\|right` |
-| `A \| B \| C` | Multiple literal pipes | A \| B \| C |
-
-Source:
-
-```md
 | Input | Result |
 | --- | --- |
 | `alpha \| beta` | alpha \| beta |
-```
+| `` `left\|right` `` | `left\|right` |
+| `A \| B \| C` | A \| B \| C |
 
 > [!IMPORTANT]
-> Pipes inside table rows are parser-sensitive. An unescaped content pipe can silently create an extra column.
-
-### Numeric table with intentional alignment
-
-| Metric | Current | Target | Delta |
-| --- | ---: | ---: | ---: |
-| Clarity | 100 | 100 | 0 |
-| Parser tricks | 95 | 100 | +5 |
-| Block systems | 100 | 100 | 0 |
-| Restraint | 10 | 80 | +70 |
-
-### Capability matrix
-
-| System | Inline formatting | Nesting | Block content | Interactive state |
-| --- | :---: | :---: | :---: | :---: |
-| Lists | ✅ | ✅ | ✅ | — |
-| Quotes | ✅ | ✅ | ✅ | — |
-| Tables | ✅ | — | Limited to cell content | — |
-| Task lists | ✅ | ✅ | List-based | ✅ state display |
-| `<details>` | ✅ | ✅ | ✅ | ✅ open/closed |
-
-### Table design warning
-
-> [!WARNING]
-> A table can technically hold a lot of information and still be a bad mobile experience. Maximum Markdown power does not justify a 14-column spreadsheet masquerading as documentation.
+> An unescaped content pipe may be interpreted as another table-column delimiter.
 
 ---
 
-## LEVEL 05 — TASK-LIST SKILL TREE
+## LEVEL 06 — TASK-LIST SKILL TREE
 
 `GFM`
 
-Task lists are ordinary list items whose content starts with `[ ]`, `[x]`, or `[X]`.
-
-### Core syntax
-
-- [x] Completed
-- [X] Also completed
-- [ ] Incomplete
-
-Source:
-
-```md
-- [x] Completed
-- [X] Also completed
-- [ ] Incomplete
-```
-
-### Markdown mastery tree
-
 - [x] **Markdown Core**
   - [x] Typography
-    - [x] Italic / strong delimiters
-    - [x] Inline code
-  - [x] Structure
-    - [x] Headings
-    - [x] Lists
-      - [x] Hyphen markers
-      - [x] Asterisk markers
-      - [x] Plus markers
-    - [x] Blockquotes
+  - [x] Lists and quotes
+  - [x] Link routing
+    - [x] Inline links
+    - [x] Reference links
+    - [x] Relative paths
+    - [x] Section anchors
+    - [x] Custom anchors
+    - [x] Autolinks
 - [x] **GFM Systems**
   - [x] Tables
-    - [x] Column alignment
-    - [x] Escaped pipes
-    - [x] Inline formatting in cells
   - [x] Task lists
-    - [x] Nested task hierarchy
-    - [x] Formatting inside task text
 - [x] **Parser Lab**
   - [x] Escapes
-  - [x] Backtick-length tricks
   - [x] Entities
   - [x] Nested fences
 - [ ] **Advanced Rendering**
@@ -563,74 +493,34 @@ Source:
   - [ ] Full rendering QA
   - [ ] Restraint discovered
 
-### Task text can contain inline Markdown
-
-- [x] **Bold objective** completed
-- [x] _Italic side quest_ completed
-- [x] Execute `README.md`
-- [x] Visit the [Markdown Guide](https://www.markdownguide.org/)
-- [ ] ~~Pretend tasks cannot contain formatting~~
-
-### Tasks inside another container
-
-> **Quoted mission tracker**
->
-> - [x] Enter blockquote
-> - [x] Create nested task list
->   - [x] Child task
->   - [ ] Child task still pending
-> - [ ] Return from the quote dimension
-
-### State-as-documentation pattern
-
-| Objective | State |
-| --- | :---: |
-| Typography laboratory | ✅ |
-| Parser laboratory | ✅ |
-| Block systems | ✅ |
-| Link laboratory | ⏳ |
-| Media laboratory | ⏳ |
-| 3D README object | ⏳ |
-
-Task lists are useful when the state itself belongs to the document. They are not a substitute for every status table.
-
-```diff
-+ Added block composition
-+ Added escaped table pipes
-+ Added nested task trees
-+ Added quote-contained blocks
-- Removed flat one-feature-only examples
-- Removed the assumption that lists contain only text
-```
-
 ---
 
 # ACT III — GITHUB EXTENSIONS
 
-> GitHub adds behavior beyond baseline GFM: alerts, syntax highlighting, footnotes, rich rendering, and repository-aware presentation.
+> GitHub adds behavior beyond baseline Markdown/GFM, but some features depend on where the Markdown is rendered.
 
-## LEVEL 06 — ALERT COMMAND CENTER
+## LEVEL 07 — ALERT COMMAND CENTER
 
 `GitHub`
 
 > [!NOTE]
-> Useful information for readers who skim.
+> Useful context.
 
 > [!TIP]
-> Helpful advice that improves the result.
+> Helpful optimization.
 
 > [!IMPORTANT]
-> Information required for success.
+> Required information.
 
 > [!WARNING]
 > Something may go wrong.
 
 > [!CAUTION]
-> Something has already gone wrong. You edited nested block syntax without previewing it.
+> You converted a code-only mention example into a live mention without checking context.
 
 ---
 
-## LEVEL 07 — CODE-BLOCK ALCHEMY
+## LEVEL 08 — CODE-BLOCK ALCHEMY
 
 `Markdown` · `GitHub`
 
@@ -638,106 +528,84 @@ Task lists are useful when the state itself belongs to the document. They are no
 
 ```javascript
 const readme = {
-  phase: "M3",
-  lists: "composable",
-  tables: "aligned",
-  tasks: "nested",
-  quotes: "fortified",
+  phase: "M4",
+  links: "routed",
+  anchors: "stable",
+  references: "context-aware",
   chaos: Infinity,
 };
-
-console.log(readme);
 ```
 
 ### Python
 
 ```python
 from dataclasses import dataclass
-from math import inf
 
 @dataclass(frozen=True)
-class Readme:
-    phase: str
-    block_composition: bool
-    chaos: float
+class Route:
+    label: str
+    target: str
+    relative: bool = False
 
-README = Readme(
-    phase="M3",
-    block_composition=True,
-    chaos=inf,
-)
+route = Route("README", "./README.md", relative=True)
 ```
 
 ### Bash
 
 ```bash
-#!/usr/bin/env bash
-set -euo pipefail
-printf '%s\n' "Scanning nested blocks..."
-printf '%s\n' "Lists, tables, tasks, quotes: online."
+printf '%s\n' "Checking anchors..."
+printf '%s\n' "Checking relative paths..."
+printf '%s\n' "Checking reference definitions..."
 ```
 
-### JSON
-
-```json
-{
-  "document": "README.md",
-  "phase": "M3",
-  "features": [
-    "list-composition",
-    "table-alignment",
-    "escaped-pipes",
-    "nested-tasks",
-    "quote-containers",
-    "parser-lab"
-  ]
-}
-```
-
-### The sacred diff
+### Diff
 
 ```diff
-- Lists contain text.
-+ Lists can contain paragraphs, quotes, code, and other lists.
+- Paste the same long URL everywhere.
++ Define a reference once and reuse it.
 
-- Tables are just rows of pipes.
-+ Table pipes are parser delimiters with escaping and alignment rules.
+- Hard-code branch-specific repository URLs.
++ Prefer relative links for repository files.
 
-- Blockquotes contain quotes.
-+ Blockquotes are containers.
+- Assume #123 behaves identically everywhere.
++ Respect GitHub rendering context.
 ```
 
 ---
 
-## LEVEL 08 — FOOTNOTES & GITHUB KNOWLEDGE
+## LEVEL 09 — FOOTNOTES & GITHUB-AWARE BEHAVIOR
 
 `GitHub`
 
 Markdown looks simple because the complexity is hiding politely.[^plain-text]
 
-GitHub adds features beyond basic Markdown, including task lists, alerts, diagrams, and mathematical expressions.[^gfm]
+Relative repository links are resolved against the branch currently being viewed.[^relative-links]
 
-Animated banners in this README are externally rendered SVG images—not JavaScript executing inside the document.[^animation]
+GitHub conversation references and repository-file rendering are not identical contexts.[^github-context]
+
+Animated banners here are externally rendered SVGs, not JavaScript executing in Markdown.[^animation]
+
+### Safe GitHub-reference rule
+
+Use explicit Markdown links inside repository files when you need guaranteed navigation. Use GitHub-native reference syntax when you are actually in a GitHub surface that supports it.
 
 ---
 
 # ACT IV — HTML HYBRID
 
-> GitHub Markdown can safely render selected HTML fragments, enabling layout and interaction patterns that Markdown syntax alone cannot express.
+> Selected HTML fragments add layout, media control, and interaction patterns Markdown syntax alone cannot express.
 
-## LEVEL 09 — INLINE HTML & MEDIA CONTROL
+## LEVEL 10 — INLINE HTML & MEDIA CONTROL
 
 `HTML` · `External Asset`
 
-### Clickable image portal
-
 <p align="center">
   <a href="https://www.markdownguide.org/">
-    <img src="https://img.shields.io/badge/CLICK_TO_ENTER-MARKDOWN_GOD_MODE-8b5cf6?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Enter Markdown God Mode" />
+    <img src="https://img.shields.io/badge/CLICKABLE-IMAGE_LINK-8b5cf6?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Clickable image link" />
   </a>
 </p>
 
-### Theme-aware imagery
+Theme-aware syntax:
 
 ```html
 <picture>
@@ -748,50 +616,37 @@ Animated banners in this README are externally rendered SVG images—not JavaScr
 ```
 
 > [!TIP]
-> These paths remain a syntax demonstration. A later media phase will convert them into live repository-owned assets.
+> M5 will turn repository-owned media from a syntax example into a live asset system.
 
 ---
 
-## LEVEL 10 — COLLAPSIBLE INTERFACE SYSTEM
+## LEVEL 11 — COLLAPSIBLE INTERFACE SYSTEM
 
 `HTML` · `Markdown`
 
 <details>
-<summary><strong>🧠 Click to reveal forbidden Markdown wisdom</strong></summary>
+<summary><strong>🧠 Open a Markdown container</strong></summary>
 
-Markdown inside `<details>` can include:
+Inside `<details>`:
 
 - lists
 - **formatting**
 - `code`
-- additional paragraphs
-
-```md
-<details>
-<summary>Visible title</summary>
-
-Hidden Markdown content goes here.
-
-</details>
-```
+- [links](#level-04--hyperlink-routing-matrix)
 
 </details>
 
 <details>
-<summary><strong>🐉 Open the optional boss encounter</strong></summary>
-
-### The Documentation Dragon
+<summary><strong>🐉 Documentation Dragon</strong></summary>
 
 **HP:** `10,000`  
-**Weakness:** Clear installation instructions  
-**Special attack:** Broken nesting  
-**Loot:** Contributor trust
+**Weakness:** correct links  
+**Special attack:** stale anchors
 
-- [x] Add prerequisites
-- [x] Add copyable commands
-- [x] Explain configuration
-- [x] Document common failures
-- [ ] Stop adding lore to the README
+- [x] Verify relative paths
+- [x] Verify reference definitions
+- [x] Verify section fragments
+- [ ] Stop adding lore
 
 </details>
 
@@ -799,15 +654,13 @@ Hidden Markdown content goes here.
 
 # ACT V — ADVANCED RENDERING
 
-> The point where a `.md` file stops looking like plain documentation and starts behaving like a rendering surface.
+> The point where a `.md` file starts behaving like a specialized rendering surface.
 
-## LEVEL 11 — MATHEMATICAL SUPERIORITY
+## LEVEL 12 — MATHEMATICAL SUPERIORITY
 
 `GitHub` · `Math`
 
-Inline mathematics:
-
-$`E = mc^2`$
+Inline: $`E = mc^2`$
 
 ```math
 \text{README Quality}
@@ -820,135 +673,81 @@ $`E = mc^2`$
 \lim_{\text{documentation}\to 0}\text{user confidence}=0
 ```
 
-```math
-\text{Markdown}+\text{Restraint}^{-1}=\text{This README}
-```
-
 > [!NOTE]
-> M3 intentionally leaves the math renderer mostly unchanged. M8 owns the major mathematics expansion.
+> M8 owns the major mathematics expansion.
 
 ---
 
-## LEVEL 12 — MERMAID SUMMONING CIRCLE
+## LEVEL 13 — MERMAID SUMMONING CIRCLE
 
 `GitHub` · `Mermaid`
 
-### The README production pipeline
-
 ```mermaid
 flowchart TD
-    A[Open empty README] --> B{Explain the project?}
-    B -- No --> C[Confuse everyone]
-    B -- Yes --> E[Add clear structure]
-    E --> F[Compose blocks]
-    F --> G[Add diagrams]
-    G --> H{Still readable?}
-    H -- Yes --> I[Ship it]
-    H -- No --> J[Remove seven badges]
-    J --> H
+    A[Open README] --> B[Structure content]
+    B --> C[Compose blocks]
+    C --> D[Route links]
+    D --> E{Target stable?}
+    E -- Yes --> F[Ship]
+    E -- No --> G[Use relative path or custom anchor]
+    G --> E
 ```
-
-### Sequence of enlightenment
 
 ```mermaid
 sequenceDiagram
-    actor Dev as Developer
-    participant MD as README.md
-    participant User as Visitor
+    actor Reader
+    participant README
     participant GitHub
-
-    Dev->>MD: Writes structured Markdown
-    Dev->>MD: Nests blocks deliberately
-    Dev->>GitHub: Pushes commit
-    GitHub->>User: Renders Markdown
-    User-->>Dev: Understands the structure
+    Reader->>README: Click relative link
+    README->>GitHub: Resolve current branch
+    GitHub-->>Reader: Open correct file/section
 ```
-
-### Documentation state machine
 
 ```mermaid
 stateDiagram-v2
-    [*] --> Empty
-    Empty --> Sad: "This project does stuff."
-    Sad --> Useful: Add real instructions
-    Useful --> Structured: Compose blocks
-    Structured --> Polished: Add examples and diagrams
-    Polished --> Extravagant: Add animated SVGs
-    Extravagant --> Unreadable: Add 48 more badges
-    Unreadable --> Polished: Discover restraint
-    Polished --> [*]: Ship
-```
-
-### Reserved expansion slots
-
-```text
-ACT V — ADVANCED RENDERING
-├── Mathematics            ✅ baseline
-├── Mermaid                ✅ baseline
-├── GeoJSON                ◌ future phase
-├── TopoJSON               ◌ future phase
-└── STL / interactive 3D   ◌ future phase
+    [*] --> PlainText
+    PlainText --> Structured
+    Structured --> Linked
+    Linked --> Rendered
+    Rendered --> [*]
 ```
 
 ---
 
 # ACT VI — PARSER & SOURCE LAB
 
-> Markdown is a parser with rules about delimiters, escapes, whitespace, precedence, and container boundaries.
+> Delimiters, escapes, whitespace, precedence, and source/render differences.
 
-## LEVEL 13 — ESCAPE HATCH
+## LEVEL 14 — ESCAPE HATCH
 
 `Markdown` · `Source-aware`
 
 \# Not a heading  
-\> Not a blockquote  
-\- Not a list item  
-1\. Not an ordered-list item  
-\*Not emphasis\*  
-\[Not a link\](still-not-a-url)
+\> Not a quote  
+\- Not a list  
+1\. Not an ordered list  
+\*Not emphasis\*
 
-### Escape matrix
-
-| Desired literal | Source | If unescaped, it may start... |
-| :---: | :---: | --- |
-| `*` | `\*` | emphasis / list syntax |
-| `_` | `\_` | emphasis |
-| `#` | `\#` | heading syntax |
-| `>` | `\>` | blockquote syntax |
-| `[` | `\[` | link text |
-| `]` | `\]` | link text termination |
-| `(` | `\(` | link destination grouping |
-| `)` | `\)` | link destination grouping |
-| `+` | `\+` | list syntax |
-| `-` | `\-` | list / thematic-break syntax |
-| `.` | `\.` | ordered-list punctuation |
-| `!` | `\!` | image syntax |
-| `|` | `\|` | GFM table delimiter |
-| `~` | `\~` | strikethrough delimiter |
-| `\` | `\\` | escape character |
+| Literal | Source |
+| :---: | :---: |
+| `*` | `\*` |
+| `_` | `\_` |
+| `#` | `\#` |
+| `>` | `\>` |
+| `[` | `\[` |
+| `]` | `\]` |
+| `|` | `\|` |
+| `\` | `\\` |
 
 ---
 
-## LEVEL 14 — BACKTICK PARADOX
+## LEVEL 15 — BACKTICK PARADOX
 
 `Markdown` · `Parser`
 
-Normal code span:
-
 `README.md`
 
-A code span containing literal backticks:
-
 ``Use a `backtick` inside code``
-
-Source:
-
-```md
-`README.md`
-``Use a `backtick` inside code``
-```
-
-### Fence escalation
 
 ````md
 ```javascript
@@ -958,53 +757,33 @@ console.log("Three backticks can live inside four.");
 
 ---
 
-## LEVEL 15 — DELIMITER COLLISION LAB
+## LEVEL 16 — DELIMITER COLLISION LAB
 
 `Markdown` · `GFM`
 
 *asterisk emphasis*  
-_underscore emphasis_
+_underscore emphasis_  
+**strong**  
+__alternate strong__  
+~~strike containing **bold** and `code`~~
 
-**asterisk strong**  
-__underscore strong__
-
-***asterisk triple***  
-___underscore triple___
-
-**Strong containing _emphasis_.**
-
-_Emphasis containing **strong** text._
-
-~~Strikethrough containing **strong** text and `code`.~~
-
-The source `economic_math_student` stays intact as economic_math_student.
+`economic_math_student` remains parser-safe.
 
 ---
 
-## LEVEL 16 — ENTITY REACTOR
+## LEVEL 17 — ENTITY REACTOR
 
 `Markdown` · `HTML`
 
-| Source | Rendered | Meaning |
-| --- | :---: | --- |
-| `&copy;` | &copy; | copyright |
-| `&reg;` | &reg; | registered |
-| `&trade;` | &trade; | trademark |
-| `&rarr;` | &rarr; | right arrow |
-| `&larr;` | &larr; | left arrow |
-| `&times;` | &times; | multiplication |
-| `&plusmn;` | &plusmn; | plus/minus |
-| `&ne;` | &ne; | not equal |
-| `&le;` | &le; | less/equal |
-| `&ge;` | &ge; | greater/equal |
-| `&infin;` | &infin; | infinity |
-| `&pi;` | &pi; | pi |
-
-| Encoding | Source | Result |
-| --- | --- | :---: |
-| Named | `&copy;` | &copy; |
-| Decimal | `&#169;` | &#169; |
-| Hexadecimal | `&#xA9;` | &#xA9; |
+| Source | Rendered |
+| --- | :---: |
+| `&copy;` | &copy; |
+| `&rarr;` | &rarr; |
+| `&times;` | &times; |
+| `&ne;` | &ne; |
+| `&infin;` | &infin; |
+| `&#169;` | &#169; |
+| `&#xA9;` | &#xA9; |
 
 &lt;div&gt;not an HTML element&lt;/div&gt;
 
@@ -1012,28 +791,13 @@ The source `economic_math_student` stays intact as economic_math_student.
 &#42;these stars are characters, not emphasis delimiters&#42;
 ```
 
-Rendered:
-
-&#42;these stars are characters, not emphasis delimiters&#42;
+Rendered: &#42;these stars are characters, not emphasis delimiters&#42;
 
 ---
 
-## LEVEL 17 — WHITESPACE & RECURSION CHAMBER
+## LEVEL 18 — WHITESPACE & RECURSION CHAMBER
 
 `Markdown` · `Parser`
-
-```md
-This is paragraph one.
-
-This is paragraph two because a blank line separates it.
-```
-
-```md
-First line ends with two spaces.  
-Second line begins immediately below it.
-```
-
-### Markdown inception
 
 ````md
 ```md
@@ -1043,41 +807,36 @@ Second line begins immediately below it.
 
 <!--
 Future maintainers:
-The nested block examples are intentional.
-Do not run an aggressive formatter without checking GitHub rendering.
+Nested fences, reference definitions, and anchor examples are intentional.
+Do not run aggressive normalization without checking GitHub rendering.
 -->
 
 ---
 
 # ACT VII — ENDGAME & REFERENCE
 
-> The laboratory ends here; what follows measures what was unlocked and keeps the README practically useful.
-
 ## 🏅 ACHIEVEMENTS UNLOCKED
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-BLOCK_ARCHITECT-fbbf24?style=for-the-badge" alt="Achievement: block architect" />
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-PIPE_BENDER-06b6d4?style=for-the-badge" alt="Achievement: pipe bender" />
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-TASKMASTER-8b5cf6?style=for-the-badge" alt="Achievement: taskmaster" />
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-QUOTE_DIVER-0891b2?style=for-the-badge" alt="Achievement: quote diver" />
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-OVERUSED_BADGES-ec4899?style=for-the-badge" alt="Achievement: overused badges" />
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-LINK_CARTOGRAPHER-fbbf24?style=for-the-badge" alt="Achievement: Link Cartographer" />
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-ANCHOR_SMITH-06b6d4?style=for-the-badge" alt="Achievement: Anchor Smith" />
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-REFERENCE_LIBRARIAN-8b5cf6?style=for-the-badge" alt="Achievement: Reference Librarian" />
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-CONTEXT_AWARE-0891b2?style=for-the-badge" alt="Achievement: Context Aware" />
 </p>
 
 | Achievement | Requirement | Status |
 | --- | --- | :---: |
-| **The Emphasizer** | Use alternate and nested emphasis delimiters | ✅ |
-| **List Archaeologist** | Reach six nesting levels | ✅ |
-| **Block Architect** | Put paragraphs, quotes, code, and lists inside list items | ✅ |
-| **Table Architect** | Align columns intentionally | ✅ |
-| **Pipe Bender** | Preserve literal pipes inside a GFM table | ✅ |
-| **Taskmaster** | Build a multi-level task hierarchy | ✅ |
-| **Quote Diver** | Put lists and fenced code inside blockquotes | ✅ |
-| **Alert Commander** | Deploy all five GitHub alerts | ✅ |
-| **Diagram Summoner** | Render Mermaid successfully | ✅ |
-| **Parser Tamer** | Neutralize syntax with escapes | ✅ |
-| **Backtick Heretic** | Put backticks inside a backtick-delimited span | ✅ |
-| **Entity Alchemist** | Use named, decimal, and hexadecimal entities | ✅ |
-| **Recursion Engineer** | Nest fenced-code demonstrations safely | ✅ |
+| **The Emphasizer** | Alternate and nested emphasis | ✅ |
+| **Block Architect** | Compose nested block structures | ✅ |
+| **Table Architect** | Alignment + escaped pipes | ✅ |
+| **Taskmaster** | Multi-level task hierarchy | ✅ |
+| **Parser Tamer** | Escapes + variable fences | ✅ |
+| **Link Cartographer** | Use multiple link grammars | ✅ |
+| **Reference Librarian** | Full, collapsed, and shortcut reference links | ✅ |
+| **Branch Navigator** | Use relative repository paths | ✅ |
+| **Anchor Smith** | Use heading and custom anchors | ✅ |
+| **Autolink Handler** | Standard + extended GFM autolinks | ✅ |
+| **Context Aware** | Distinguish file links from conversation references | ✅ |
 | **Master of Restraint** | Stop before adding too much | ❌ |
 
 ---
@@ -1087,148 +846,110 @@ Do not run an aggressive formatter without checking GitHub rendering.
 ```text
 Clarity        ████████████████████ 100%
 Structure      ████████████████████ 100%
-Navigation     ████████████████████ 100%
 Typography     ████████████████████ 100%
 Lists          ████████████████████ 100%
 Tables         ████████████████████ 100%
 Tasks          ████████████████████ 100%
 Quotes         ████████████████████ 100%
+Links          ████████████████████ 100%
+Anchors        ████████████████████ 100%
+References     ████████████████████ 100%
 Parser Tricks  ███████████████████░  95%
-Entities       ████████████████████ 100%
 Animation      ████████████████░░░░  80%
 Restraint      ██░░░░░░░░░░░░░░░░░░  10%
-Raw Power      ███████████████░░░░░  M3
+Raw Power      ████████████████░░░░  M4
 ```
 
 > [!WARNING]
-> Powerful Markdown is not the number of syntax features present. It is the number of features that can **compose without becoming ambiguous**.
+> A link system is only powerful if readers land somewhere stable.
 >
-> **M3 makes block composition part of the showcase.**
+> **M4 turns navigation itself into part of the showcase.**
 
 ---
 
 ## 🧰 THE ACTUALLY USEFUL CHEAT SHEET
 
 ````md
-# ATX Heading
+# Heading
 Setext Heading
 ==============
 
-*italic* or _italic_
-**bold** or __bold__
-***bold italic*** or ___bold italic___
-~~strikethrough~~
-`inline code`
-``code containing a `backtick` ``
+*italic* **bold** ~~strike~~ `code`
 
-\# escaped heading marker
-\*literal asterisks\*
-1\. escaped ordered-list marker
+[inline](https://example.com)
+[full reference][docs]
+[collapsed][]
+[shortcut]
 
-- hyphen bullet
-* asterisk bullet
-+ plus bullet
+[docs]: https://example.com/docs
+[collapsed]: https://example.com/collapsed
+[shortcut]: https://example.com/shortcut
 
-7. ordered list can start at seven
-1. later source numbers can remain simple
+[relative file](./README.md)
+[same document](#final-boss)
+<a name="custom-anchor"></a>
 
-1. Parent item
-   - Nested item
-   > Nested quote
-   ```text
-   fenced block inside list
-   ```
+<https://example.com>
+<docs@example.com>
+https://example.com
+www.example.com
 
-> Blockquote
->
-> - list inside quote
-> - another item
->
-> ```text
-> code inside quote
-> ```
+- bullet
+  - nested
 
 - [x] Complete
-  - [x] Nested complete
-  - [ ] Nested incomplete
 - [ ] Incomplete
 
 | Left | Center | Right |
 | :--- | :---: | ---: |
 | alpha \| beta | `code` | 100 |
 
-Hard break using two spaces.  
-Next line.
+> Blockquote
+>
+> ```text
+> code inside quote
+> ```
 
-HTML break.<br />Next line.
+``code containing a `backtick` ``
 
-&copy; &rarr; &infin;
-&#169; &#xA9;
-&lt;literal-tag&gt;
-
-[link text](https://example.com)
-![alt text](path/to/image.png)
-
-> [!IMPORTANT]
-> GitHub alert
-
-```language
-fenced code block
 ```
-
-<details>
-<summary>Click to expand</summary>
-
-Hidden Markdown content
-
-</details>
-
-Here is a footnote.[^1]
-
-[^1]: Footnote text.
+fenced code
+```
 ````
-
-> [!NOTE]
-> The inner triple-backtick examples are protected by four outer backticks. List indentation and quote prefixes are intentional.
 
 ---
 
 ## 🧯 COMMON README CRIMES
 
-| Crime | Sentence |
+| Crime | Consequence |
 | --- | --- |
-| Giant unstructured paragraphs | Nobody reads them |
-| Broken list indentation | Child blocks escape their parent item |
-| Mixing list markers randomly | Source readability collapses |
-| Unescaped content pipes | Table columns split unexpectedly |
-| Tables wider than the viewport | Mobile readers suffer |
-| Task trees with meaningless depth | State becomes harder to understand |
-| Missing `>` prefixes inside quoted fences | Code escapes the quotation |
-| “Cleaning up” meaningful escapes | Parser demonstrations silently break |
-| Decorative overload | The content disappears |
-| Flat feature dumping | The README becomes impossible to extend |
+| Absolute links to repo files everywhere | Branch navigation becomes brittle |
+| Repeating giant destinations | Source becomes noisy |
+| Guessing generated anchors | Section jumps break |
+| Renaming headings without checking inbound fragments | Internal navigation silently rots |
+| Turning example `@mentions` live | Unnecessary notifications |
+| Assuming `#123` shortlinks work in files | Misleading documentation |
+| Missing reference definitions | Links render as plain bracket text |
+| Unescaped table pipes | Columns split |
+| Overwide tables | Mobile suffering |
+| Decorative overload | Content disappears |
 
 ---
 
 ## 🧪 README QUALITY TEST
 
-Before pushing, verify:
-
-- [ ] Deep list children remain inside the intended parent.
-- [ ] Paragraphs inside list items preserve indentation.
-- [ ] Fenced blocks nested in list items render as children.
-- [ ] Quote-contained code fences remain inside the quote.
-- [ ] Every GFM table has a consistent column count.
-- [ ] Literal content pipes are escaped where required.
-- [ ] Numeric columns use intentional alignment.
-- [ ] Task hierarchy depth communicates real structure.
-- [ ] The document works in light and dark mode.
-- [ ] The mobile layout remains readable.
-- [ ] Escape sequences still render as intended.
-- [ ] Nested fence lengths remain intact.
-- [ ] Entity demonstrations render as characters rather than unintended syntax.
-- [ ] Every advanced feature belongs to the correct rendering layer.
-- [ ] The README was previewed on GitHub.
+- [ ] Every internal fragment lands on the intended heading or custom anchor.
+- [ ] Relative file links work from the current branch.
+- [ ] Reference definitions exist and labels match.
+- [ ] Full, collapsed, and shortcut references render correctly.
+- [ ] Bare autolinks do not swallow trailing punctuation unexpectedly.
+- [ ] Example mentions remain inert unless a real mention is intended.
+- [ ] GitHub conversation-only behavior is labeled accurately.
+- [ ] Table column counts remain consistent.
+- [ ] Nested fences remain intact.
+- [ ] Mobile layout remains readable.
+- [ ] Light/dark behavior remains acceptable.
+- [ ] README is previewed on GitHub.
 
 ---
 
@@ -1238,30 +959,34 @@ Before pushing, verify:
 
 <a href="https://www.markdownguide.org/">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Orbitron&amp;weight=800&amp;size=28&amp;pause=1100&amp;color=F43F5E&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=70&amp;lines=BLOCK+SYSTEMS+ONLINE.;LISTS+CAN+CONTAIN+WORLDS.;PIPES+HAVE+BEEN+TAMED.;M3+COMPLETE."
-    alt="Block systems online — M3 complete"
+    src="https://readme-typing-svg.demolab.com?font=Orbitron&amp;weight=800&amp;size=28&amp;pause=1100&amp;color=F43F5E&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=70&amp;lines=ROUTING+LAYER+ONLINE.;ANCHORS+LOCKED.;REFERENCES+RESOLVED.;M4+COMPLETE."
+    alt="Routing layer online — M4 complete"
   />
 </a>
 
-<h3>The README no longer demonstrates blocks in isolation.</h3>
-<h3>It demonstrates blocks <em>composing other blocks</em>.</h3>
+<h3>The README no longer merely contains links.</h3>
+<h3>It now demonstrates a <em>navigation system</em>.</h3>
 
 </div>
 
 ```text
-LIST
- ├── PARAGRAPH
- ├── QUOTE
- │    ├── LIST
- │    └── CODE
- └── CODE
+LINK
+ ├── INLINE
+ ├── REFERENCE
+ │    ├── FULL
+ │    ├── COLLAPSED
+ │    └── SHORTCUT
+ ├── RELATIVE PATH
+ ├── SECTION ANCHOR
+ ├── CUSTOM ANCHOR
+ ├── AUTOLINK
+ └── EXPLICIT GITHUB HISTORY
 
-GFM
- ├── TABLE
- │    ├── ALIGNMENT
- │    └── ESCAPED PIPES
- └── TASK TREE
-      └── NESTED STATE
+GITHUB CONTEXT
+ ├── REPOSITORY FILE
+ │    └── EXPLICIT / RELATIVE NAVIGATION
+ └── CONVERSATION
+      └── MENTIONS / ISSUE / PR REFERENCES
 
 ↓
 FINAL FORM
@@ -1270,9 +995,9 @@ FINAL FORM
 <div align="center">
 
 <p>
-  Inline syntax is vocabulary.<br />
-  Block syntax is grammar.<br />
-  Composition is where Markdown becomes a document system.<br />
+  Syntax creates structure.<br />
+  Structure creates destinations.<br />
+  Links turn the README into a navigable system.<br />
   Make it <s>unreadable</s> <strong><em>beautifully, strategically ridiculous</em></strong>.
 </p>
 
@@ -1280,12 +1005,12 @@ FINAL FORM
 
 <a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/READ-THE_MARKDOWN_GUIDE-7c3aed?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Read the Markdown Guide" /></a>
 <a href="https://docs.github.com/en/get-started/writing-on-github"><img src="https://img.shields.io/badge/EXPLORE-GITHUB_DOCS-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore GitHub Docs" /></a>
-<a href="#"><img src="https://img.shields.io/badge/RETURN-TO_THE_TOP-0891b2?style=for-the-badge&amp;logo=rocket&amp;logoColor=white" alt="Return to the top" /></a>
+<a href="#"><img src="https://img.shields.io/badge/RETURN-TO_THE_TOP-0891b2?style=for-the-badge&amp;logo=rocket&amp;logoColor=white" alt="Return to top" /></a>
 
 <br />
 
 <h2>🗿 Markdown: Final Form.</h2>
-<h3>Block composition unlocked.</h3>
+<h3>Navigation layer unlocked.</h3>
 
 <img
   width="100%"
@@ -1297,6 +1022,11 @@ FINAL FORM
 
 ---
 
+[markdown-guide]: https://www.markdownguide.org/ "Markdown Guide"
+[GitHub Docs]: https://docs.github.com/en/get-started/writing-on-github "GitHub writing and formatting documentation"
+[GFM Spec]: https://github.github.com/gfm/ "GitHub Flavored Markdown specification"
+
 [^plain-text]: Markdown remains readable as plain text while adding lightweight structural syntax.
-[^gfm]: GitHub Flavored Markdown extends common Markdown behavior with GitHub-specific rendering features.
+[^relative-links]: GitHub resolves relative links in rendered repository files against the branch currently being viewed.
+[^github-context]: GitHub supports rich mentions and issue/PR references in conversation surfaces, while repository Markdown files have different automatic-link behavior.
 [^animation]: External SVG generators may become unavailable, change behavior, or load slowly. A later phase will move critical visual assets into the repository.
