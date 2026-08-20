@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "name": "Markdown Final Form — GeoJSON Showcase",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "point-london",
+      "properties": {
+        "title": "Renderer Node — London",
+        "description": "Point geometry with marker metadata",
+        "marker-size": "large",
+        "marker-color": "#7c3aed",
+        "marker-symbol": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.1276, 51.5072]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point-paris",
+      "properties": {
+        "title": "Renderer Node — Paris",
+        "description": "Second point on the route",
+        "marker-size": "medium",
+        "marker-color": "#0891b2",
+        "marker-symbol": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3522, 48.8566]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "point-berlin",
+      "properties": {
+        "title": "Renderer Node — Berlin",
+        "description": "Third point on the route",
+        "marker-size": "medium",
+        "marker-color": "#ea580c",
+        "marker-symbol": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.405, 52.52]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "route",
+      "properties": {
+        "title": "Renderer Route",
+        "description": "LineString connecting three demonstration nodes",
+        "stroke": "#2563eb",
+        "stroke-opacity": 0.9,
+        "stroke-width": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-0.1276, 51.5072],
+          [2.3522, 48.8566],
+          [13.405, 52.52]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "polygon-zone",
+      "properties": {
+        "title": "Demonstration Zone",
+        "description": "Polygon with explicit stroke and fill metadata",
+        "stroke": "#7c3aed",
+        "stroke-opacity": 0.85,
+        "stroke-width": 2,
+        "fill": "#c4b5fd",
+        "fill-opacity": 0.28
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [4.0, 49.5],
+            [10.5, 49.5],
+            [10.5, 53.2],
+            [4.0, 53.2],
+            [4.0, 49.5]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "multipoint",
+      "properties": {
+        "title": "MultiPoint Demonstration",
+        "description": "Two coordinates carried by one geometry"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [-3.1883, 55.9533],
+          [12.4964, 41.9028]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "multiline",
+      "properties": {
+        "title": "MultiLineString Demonstration",
+        "stroke": "#059669",
+        "stroke-opacity": 0.85,
+        "stroke-width": 3
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [[-5.0, 50.0], [-1.0, 52.0], [2.0, 51.0]],
+          [[8.0, 47.0], [11.0, 48.5], [14.0, 47.8]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "multipolygon",
+      "properties": {
+        "title": "MultiPolygon Demonstration",
+        "stroke": "#dc2626",
+        "stroke-width": 2,
+        "fill": "#fecaca",
+        "fill-opacity": 0.25
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [[[0.0, 44.0], [2.0, 44.0], [2.0, 45.0], [0.0, 45.0], [0.0, 44.0]]],
+          [[[15.0, 54.0], [17.0, 54.0], [17.0, 55.0], [15.0, 55.0], [15.0, 54.0]]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "geometry-collection",
+      "properties": {
+        "title": "GeometryCollection Demonstration",
+        "description": "Mixed geometry objects inside one feature"
+      },
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [7.4474, 46.948]
+          },
+          {
+            "type": "LineString",
+            "coordinates": [[6.1, 46.2], [7.4, 46.95], [8.54, 47.38]]
+          }
+        ]
+      }
+    }
+  ]
+}
