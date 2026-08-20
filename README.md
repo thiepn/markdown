@@ -2,49 +2,49 @@
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                          LEVEL 00: SOURCE LAYER                              ║
 ║                                                                              ║
-║  Achievements: RAW SOURCE EXPLORER · PARSER TAMER · BLOCK ARCHITECT         ║
-║                LINK CARTOGRAPHER · MEDIA ENGINEER · HYBRID ENGINEER          ║
+║  RAW SOURCE EXPLORER · PARSER TAMER · BLOCK ARCHITECT · LINK CARTOGRAPHER   ║
+║  MEDIA ENGINEER · HYBRID ENGINEER · SYNTAX CURATOR                          ║
 ║                                                                              ║
-║  M6 invariant: HTML is a controlled extension layer, not a hidden website.  ║
-║  GitHub sanitization is part of the rendering model.                         ║
+║  M7 invariant: fence labels are executable documentation metadata.           ║
+║  Do not normalize or remove them without checking GitHub highlighting.       ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form — HTML hybrid interface system" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form — syntax-highlighting laboratory" width="100%">
 </picture>
 
 <div align="center">
 
 <a href="https://readme-typing-svg.demolab.com/demo/">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Markdown+outside.+HTML+inside.;Details.+Summary.+Picture.+Tables.;Sanitized%2C+composable%2C+zero+JavaScript.;M6+hybrid+layer+online."
-    alt="Animated M6 HTML hybrid introduction">
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Thirty-three+language+grammars.;Names.+Aliases.+Plain+fences.+Wrong+fences.;Linguist-powered+syntax+museum.;M7+code+layer+online."
+    alt="Animated M7 syntax-highlighting introduction">
 </a>
 
 <br>
 
 <a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/LAYER-MARKDOWN-111111?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Markdown layer"></a>
 <a href="https://github.github.com/gfm/"><img src="https://img.shields.io/badge/LAYER-GFM-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub Flavored Markdown layer"></a>
-<a href="#level-11--inline-html-semantic-toolkit"><img src="https://img.shields.io/badge/HTML-M6_UNLOCKED-8B5CF6?style=for-the-badge" alt="HTML hybrid M6 unlocked"></a>
-<a href="#level-12--details-interface-system"><img src="https://img.shields.io/badge/DETAILS-INTERACTIVE-06B6D4?style=for-the-badge" alt="Details interface system unlocked"></a>
+<a href="#level-08--full-syntax-highlighting-laboratory"><img src="https://img.shields.io/badge/SYNTAX-M7_UNLOCKED-8B5CF6?style=for-the-badge" alt="Syntax highlighting M7 unlocked"></a>
+<a href="#level-12--details-interface-system"><img src="https://img.shields.io/badge/DETAILS-COLLAPSED_GALLERIES-06B6D4?style=for-the-badge" alt="Collapsed galleries enabled"></a>
 <a href="#final-boss"><img src="https://img.shields.io/badge/README-OVERENGINEERED-F43F5E?style=for-the-badge" alt="README overengineered"></a>
 
 <h3>This is a <strong>layer-by-layer Markdown rendering laboratory</strong>.</h3>
 
-<sub>Markdown · GFM · GitHub rendering · sanitized HTML · local SVG media · zero JavaScript</sub>
+<sub>Markdown · GFM · GitHub Linguist · sanitized HTML · local SVG media · advanced renderers</sub>
 
 <br><br>
 
 <a href="#act-i--markdown-core"><strong>⚡ Markdown Core</strong></a>
 &nbsp;•&nbsp;
-<a href="#level-10--repository-owned-media-system"><strong>🖼️ Media</strong></a>
+<a href="#level-08--full-syntax-highlighting-laboratory"><strong>⌘ Syntax Lab</strong></a>
 &nbsp;•&nbsp;
-<a href="#level-12--details-interface-system"><strong>▸ Details UI</strong></a>
+<a href="#act-iv--html-hybrid"><strong>▸ HTML Hybrid</strong></a>
 &nbsp;•&nbsp;
-<a href="#level-15--sanitization-boundary"><strong>🛡️ Sanitizer</strong></a>
+<a href="#act-v--advanced-rendering"><strong>∞ Advanced Rendering</strong></a>
 &nbsp;•&nbsp;
 <a href="#final-boss"><strong>👑 Final Boss</strong></a>
 
@@ -53,23 +53,23 @@
 ---
 
 > [!IMPORTANT]
-> M6 treats HTML as a **sanitized composition layer**. It extends Markdown where useful—disclosure controls, semantic inline elements, media selection, and explicit tables—without relying on JavaScript, CSS classes, or arbitrary styling.
+> GitHub syntax highlighting is not produced by Markdown itself. The language specifier after an opening fence selects a grammar recognized by GitHub's Linguist ecosystem. M7 treats that tiny piece of metadata as its own rendering layer.
 
 ## 🧭 README POWER MAP
 
 | Act | Rendering layer | Current demonstrations | Jump |
 | :---: | --- | --- | :---: |
 | `00` | [Source Layer](#level-00--source-layer) | Hidden comments, source-only rules | `RAW` |
-| `I` | [Markdown Core](#act-i--markdown-core) | Typography, headings, blocks, links, anchors | `#` |
-| `II` | [GitHub Flavored Markdown](#act-ii--github-flavored-markdown) | Tables, task trees, strikethrough, autolinks | `GFM` |
-| `III` | [GitHub Extensions](#act-iii--github-extensions) | Alerts, highlighting, footnotes, GitHub context | `GH` |
-| `IV` | [HTML Hybrid](#act-iv--html-hybrid) | Media, semantic HTML, details UI, HTML tables, sanitization | `<>` |
+| `I` | [Markdown Core](#act-i--markdown-core) | Typography, headings, blocks, links | `#` |
+| `II` | [GitHub Flavored Markdown](#act-ii--github-flavored-markdown) | Tables, tasks, strikethrough, autolinks | `GFM` |
+| `III` | [GitHub Extensions](#act-iii--github-extensions) | Alerts, **33-language syntax lab**, footnotes | `GH` |
+| `IV` | [HTML Hybrid](#act-iv--html-hybrid) | Media, semantics, details UI, sanitization | `<>` |
 | `V` | [Advanced Rendering](#act-v--advanced-rendering) | Math, Mermaid | `∞` |
 | `VI` | [Parser & Source Lab](#act-vi--parser--source-lab) | Escapes, entities, backticks, recursion | `\` |
 | `VII` | [Endgame & Reference](#act-vii--endgame--reference) | Achievements, cheat sheet, QA | `✓` |
 | `∞` | [Final Boss](#final-boss) | Combined mechanics | `👑` |
 
-`Markdown` · `GFM` · `GitHub` · `HTML` · `Local Asset` · `External Asset`
+`Markdown` · `GFM` · `GitHub` · `Linguist` · `HTML` · `Local Asset` · `External Asset`
 
 ---
 
@@ -80,8 +80,8 @@ flowchart LR
     A[raw README.md] --> B[Markdown]
     B --> C[GFM]
     C --> D[GitHub extensions]
-    D --> E[Sanitized HTML hybrid]
-    E --> F[Local media]
+    D --> E[Linguist grammar selection]
+    E --> F[Sanitized HTML hybrid]
     F --> G[Advanced renderers]
     G --> H[FINAL FORM]
 ```
@@ -100,20 +100,21 @@ flowchart LR
 Architecture invariant:
 Future phases extend the correct rendering act instead of appending unrelated sections.
 
-M6 invariant:
-Do not introduce script/style-based README UI. GitHub sanitization is intentional.
-Keep blank lines around Markdown nested inside <details> blocks.
-Keep local media paths relative so branch previews remain self-contained.
+M7 invariant:
+Fence info strings are intentional.
+Unknown-language and unlabeled fences are intentional control cases.
+Collapsed galleries prevent maximum language breadth from destroying document navigation.
+Do not re-label languages based only on aesthetics; labels communicate source semantics.
 -->
 
 > [!NOTE]
-> Raw source and rendered output remain two different surfaces of the same document.
+> Raw source and rendered output remain different surfaces. In M7, even the characters immediately after ``` are meaningful source metadata.
 
 ---
 
 # ACT I — MARKDOWN CORE
 
-> Inline syntax, block grammar, and navigation.
+> Inline syntax, block grammar, and navigation remain the portable foundation.
 
 ## LEVEL 01 — TYPOGRAPHY & INLINE POWER
 
@@ -124,7 +125,6 @@ Keep local media paths relative so branch previews remain self-contained.
 | `*italic*` | *italic* | Emphasis |
 | `_italic_` | _italic_ | Alternate emphasis |
 | `**bold**` | **bold** | Strong |
-| `__bold__` | __bold__ | Alternate strong |
 | `***bold italic***` | ***bold italic*** | Combined |
 | `~~deleted~~` | ~~deleted~~ | GFM strike |
 | `` `inline code` `` | `inline code` | Literal text |
@@ -132,8 +132,7 @@ Keep local media paths relative so branch previews remain self-contained.
 | `<sup>high</sup>` | <sup>high</sup> | Superscript |
 | `<ins>inserted</ins>` | <ins>inserted</ins> | Inserted text |
 
-**Bold containing _italic containing `code`_.**  
-~~Strikethrough containing **strong** text.~~
+**Bold containing _italic containing `code`_.**
 
 ---
 
@@ -142,19 +141,19 @@ Keep local media paths relative so branch previews remain self-contained.
 `Markdown`
 
 <details>
-<summary><strong>🏛️ Six-level ATX heading hierarchy</strong></summary>
+<summary><strong>Six-level ATX hierarchy</strong></summary>
 
-# Header 1 — The Emperor
-## Header 2 — The Chancellor
-### Header 3 — The Strategist
-#### Header 4 — The Specialist
-##### Header 5 — The Intern with Production Access
-###### Header 6 — The Fine Print Nobody Read
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
 
 </details>
 
 <details>
-<summary><strong>📜 Setext headings</strong></summary>
+<summary><strong>Setext headings</strong></summary>
 
 Setext Level One
 ================
@@ -164,10 +163,8 @@ Setext Level Two
 
 </details>
 
-1. A blank line starts a new paragraph.
-2. Two trailing spaces create a hard break.  
-   This line follows one.
-3. `<br>` creates an HTML break.<br>This line follows one.
+Two trailing spaces create a hard break.  
+This line follows it.
 
 ---
 
@@ -175,50 +172,28 @@ Setext Level Two
 
 `Markdown`
 
-- Hyphen
-* Asterisk
-+ Plus
-
-### Deep nesting
-
 - Surface
-  - Context
+  - Nested
     - Deeper
-      - List mines
-        - Deeper still
+      - Deeper still
+        - List mines
           - **Send indentation**
 
-### Blocks inside list items
+1. **List item containing a quote**
 
-1. **Paragraph container**
+   > Quotes can live inside list items.
 
-   This paragraph belongs to item 1.
-
-2. **Quote container**
-
-   > Quote nested inside a list.
-   >
-   > - Quoted child list
-
-3. **Code container**
+2. **List item containing code**
 
    ```bash
-   printf '%s\n' "code inside a list item"
+   printf '%s\n' "nested code"
    ```
-
-### Quote fortress
-
-> First level.
->
-> > Second level.
-> >
-> > > Third level.
 
 > **Quote containing structure**
 >
-> - [x] List
-> - [x] Task
-> - [x] `inline code`
+> - [x] list
+> - [x] task
+> - [x] `code`
 
 ---
 
@@ -231,38 +206,24 @@ Setext Level Two
 [GitHub Docs][]  
 [GFM Spec]
 
-### Relative repository links
-
 - [This README](./README.md)
 - [Repository root](./)
-- [Media system](./README.md#level-10--repository-owned-media-system)
-- [Local media card](./assets/media-card.svg)
-
-### Section and custom anchors
-
+- [Syntax Lab](#level-08--full-syntax-highlighting-laboratory)
 - [HTML Hybrid](#act-iv--html-hybrid)
-- [Details Interface](#level-12--details-interface-system)
-- [Sanitization Boundary](#level-15--sanitization-boundary)
 - [Final Boss](#final-boss)
 
-<a name="m6-hybrid-beacon"></a>
+<a name="m7-syntax-beacon"></a>
 
-[Jump to this custom anchor](#m6-hybrid-beacon)
-
-### Autolinks
+[Jump to the custom M7 anchor](#m7-syntax-beacon)
 
 <https://github.com/>  
-<documentation@example.com>  
 https://github.com  
 www.github.com
-
-### GitHub-context examples kept inert
 
 ```text
 @octocat
 #123
 owner/repository#123
-0123456789abcdef0123456789abcdef01234567
 ```
 
 ---
@@ -278,14 +239,6 @@ owner/repository#123
 | Left | `:---` | `10` |
 | Center | `:---:` | `100` |
 | Right | `---:` | `1000` |
-
-| Family | Render | Status |
-| --- | --- | :---: |
-| emphasis | _italic_ / **bold** | ✅ |
-| code | `README.md` | ✅ |
-| strike | ~~deleted~~ | ✅ |
-| link | [Markdown Guide](https://www.markdownguide.org/) | ✅ |
-| HTML | H<sub>2</sub>O / x<sup>2</sup> | ✅ |
 
 | Input | Result |
 | --- | --- |
@@ -308,20 +261,28 @@ owner/repository#123
 - [x] **Media System**
   - [x] Repository-owned SVGs
   - [x] Theme-aware `<picture>`
-  - [x] Relative images and fallbacks
 - [x] **HTML Hybrid**
-  - [x] Semantic inline elements
-  - [x] `<details>` / `<summary>`
-  - [x] Default-open disclosure
-  - [x] Nested disclosure
-  - [x] Markdown inside details
-  - [x] HTML tables
-  - [x] Markdown/HTML boundary rules
+  - [x] Semantic tags
+  - [x] Nested `<details>`
   - [x] Sanitization boundary
+- [x] **Syntax Highlighting**
+  - [x] Fence anatomy
+  - [x] Labeled vs unlabeled fences
+  - [x] Known alias examples
+  - [x] Unknown-label fallback case
+  - [x] Web languages
+  - [x] Systems languages
+  - [x] Scripting languages
+  - [x] Data/config/infra languages
+  - [x] Scientific/functional languages
+  - [x] Documentation/meta languages
+  - [x] `diff`
+  - [x] `text` / plaintext
+  - [x] Nested-fence source demonstration
 - [x] **Parser Lab**
   - [x] Escapes
   - [x] Entities
-  - [x] Nested fences
+  - [x] Variable-length fences
 - [ ] **Advanced Rendering**
   - [x] Math baseline
   - [x] Mermaid baseline
@@ -336,59 +297,581 @@ owner/repository#123
 
 # ACT III — GITHUB EXTENSIONS
 
+> GitHub's code renderer is where plain fenced blocks become a language-aware visual surface.
+
 ## LEVEL 07 — ALERT COMMAND CENTER
 
 `GitHub`
 
 > [!NOTE]
-> Useful context.
+> A fence without a language still creates a code block.
 
 > [!TIP]
-> Helpful optimization.
+> Prefer a recognizable Linguist language name or alias when highlighting is useful.
 
 > [!IMPORTANT]
-> Required information.
+> The language label is metadata. It should describe the code, not merely produce attractive colors.
 
 > [!WARNING]
-> Something may go wrong.
+> A wrong language label can highlight valid code misleadingly.
 
 > [!CAUTION]
-> You tried to turn a README into a JavaScript application.
+> Copying a syntax label from another renderer does not guarantee GitHub recognizes it.
 
 ---
 
-## LEVEL 08 — CODE-BLOCK ALCHEMY
+## LEVEL 08 — FULL SYNTAX-HIGHLIGHTING LABORATORY
 
-`Markdown` · `GitHub`
+`Markdown` · `GitHub` · `Linguist`
+
+GitHub uses Linguist language definitions and grammars to determine code highlighting. A fenced code block's **info string** is therefore a tiny routing instruction from Markdown source to a syntax grammar.[^linguist]
+
+### Fence anatomy
+
+````md
+```python
+message = "The word after the fence selects the grammar."
+```
+````
+
+```text
+opening fence   language specifier
+      │                │
+      ▼                ▼
+      ```            python
+       │
+       └── fenced code content
+```
+
+### Control group: same idea, different fence metadata
+
+**No language label:** code block, no explicit grammar request.
+
+```
+const answer = 6 * 7;
+console.log(answer);
+```
+
+**Explicit plaintext:** deliberately literal presentation.
+
+```text
+const answer = 6 * 7;
+console.log(answer);
+```
+
+**Correct JavaScript label:** grammar-aware highlighting.
 
 ```javascript
-const readme = {
-  phase: "M6",
-  htmlHybrid: true,
-  detailsInterfaces: true,
-  javascriptRuntime: false,
-  sanitizationAware: true,
-};
+const answer = 6 * 7;
+console.log(answer);
 ```
+
+**Intentionally unknown label:** a parser/render fallback test, not a recommended language name.
+
+```totally-not-a-language
+const answer = 6 * 7;
+console.log(answer);
+```
+
+> [!IMPORTANT]
+> Highlighting does not validate code. A beautifully colored snippet can still be syntactically wrong, insecure, or semantically nonsense.
+
+### Alias laboratory
+
+Linguist defines aliases in addition to language names. Its language data also permits recognizable interpreter/file-extension specifiers for fenced blocks where supported.[^linguist]
+
+| Language | Stable label used in museum | Common alternate specifier shown here |
+| --- | --- | --- |
+| JavaScript | `javascript` | `js` |
+| TypeScript | `typescript` | `ts` |
+| Python | `python` | `py` |
+| Shell | `bash` | `sh` |
+| PowerShell | `powershell` | `ps1` |
+| YAML | `yaml` | `yml` |
+| Markdown | `markdown` | `md` |
+| C++ | `cpp` | `c++` |
+| C# | `csharp` | `cs` |
+| Rust | `rust` | `rs` |
+| Kotlin | `kotlin` | `kt` |
+| LaTeX | `latex` | `tex` |
+
+Same JavaScript under two accepted-style specifiers:
+
+```javascript
+const canonical = "javascript";
+```
+
+```js
+const alias = "js";
+```
+
+Same YAML family under two short forms:
+
+```yaml
+phase: M7
+highlighting: true
+```
+
+```yml
+phase: M7
+highlighting: true
+```
+
+> [!TIP]
+> For long-lived documentation, prefer a familiar language name or widely used alias. Exotic aliases can be technically valid while still confusing readers.
+
+---
+
+### Gallery A — Web, UI & interchange
+
+<details>
+<summary><strong>Open 5-language web gallery — JavaScript, TypeScript, HTML, CSS, JSON</strong></summary>
+
+#### JavaScript
+
+```javascript
+const systems = ["Markdown", "GFM", "GitHub"];
+const finalForm = systems.map((name, level) => ({ name, level }));
+console.table(finalForm);
+```
+
+#### TypeScript
+
+```typescript
+type Layer = "markdown" | "gfm" | "github";
+interface Capability { layer: Layer; unlocked: boolean }
+const syntaxLab: Capability = { layer: "github", unlocked: true };
+```
+
+#### HTML
+
+```html
+<details open>
+  <summary>Syntax museum</summary>
+  <p>HTML can frame Markdown-adjacent interfaces.</p>
+</details>
+```
+
+#### CSS
+
+```css
+.syntax-lab {
+  display: grid;
+  gap: 1rem;
+  font-family: ui-monospace, monospace;
+}
+```
+
+> [!NOTE]
+> This CSS is a syntax-highlighting example. README HTML does not gain a free arbitrary stylesheet runtime.
+
+#### JSON
+
+```json
+{
+  "phase": "M7",
+  "languages": 33,
+  "collapsedGalleries": true,
+  "javascriptRuntime": false
+}
+```
+
+</details>
+
+---
+
+### Gallery B — Systems, compiled & application languages
+
+<details>
+<summary><strong>Open 8-language systems gallery — C, C++, Rust, Go, Java, C#, Kotlin, Swift</strong></summary>
+
+#### C
+
+```c
+#include <stdio.h>
+
+int main(void) {
+    puts("Markdown: Final Form");
+    return 0;
+}
+```
+
+#### C++
+
+```cpp
+#include <iostream>
+#include <string_view>
+
+int main() {
+    constexpr std::string_view phase = "M7";
+    std::cout << phase << '\n';
+}
+```
+
+#### Rust
+
+```rust
+#[derive(Debug)]
+struct Layer<'a> { name: &'a str, power: u8 }
+
+fn main() {
+    println!("{:?}", Layer { name: "syntax", power: 7 });
+}
+```
+
+#### Go
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Linguist routing online")
+}
+```
+
+#### Java
+
+```java
+record Layer(String name, boolean unlocked) {}
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println(new Layer("syntax", true));
+    }
+}
+```
+
+#### C#
+
+```csharp
+record Layer(string Name, bool Unlocked);
+
+var syntax = new Layer("Syntax Highlighting", true);
+Console.WriteLine(syntax);
+```
+
+#### Kotlin
+
+```kotlin
+data class Layer(val name: String, val unlocked: Boolean)
+
+fun main() {
+    println(Layer("Syntax Highlighting", true))
+}
+```
+
+#### Swift
+
+```swift
+struct Layer {
+    let name: String
+    let unlocked: Bool
+}
+
+print(Layer(name: "Syntax Highlighting", unlocked: true))
+```
+
+</details>
+
+---
+
+### Gallery C — Scripting & runtime languages
+
+<details>
+<summary><strong>Open 6-language scripting gallery — Python, Ruby, PHP, Lua, Bash, PowerShell</strong></summary>
+
+#### Python
 
 ```python
 from dataclasses import dataclass
 
 @dataclass(frozen=True)
-class Disclosure:
-    summary: str
-    open_by_default: bool = False
+class Layer:
+    name: str
+    unlocked: bool = True
 
-panel = Disclosure("Advanced controls", open_by_default=True)
+print(Layer("syntax"))
 ```
+
+#### Ruby
+
+```ruby
+Layer = Data.define(:name, :unlocked)
+syntax = Layer.new("syntax", true)
+puts syntax.inspect
+```
+
+#### PHP
+
+```php
+<?php
+$layer = ["name" => "syntax", "unlocked" => true];
+echo json_encode($layer, JSON_PRETTY_PRINT);
+```
+
+#### Lua
+
+```lua
+local layer = { name = "syntax", unlocked = true }
+for key, value in pairs(layer) do
+  print(key, value)
+end
+```
+
+#### Bash
+
+```bash
+#!/usr/bin/env bash
+set -euo pipefail
+phase="M7"
+printf 'phase=%s\n' "$phase"
+```
+
+#### PowerShell
+
+```powershell
+$Layer = [pscustomobject]@{
+    Name = 'Syntax Highlighting'
+    Unlocked = $true
+}
+$Layer | Format-List
+```
+
+</details>
+
+---
+
+### Gallery D — Data, configuration & infrastructure
+
+<details>
+<summary><strong>Open 5-language data/config gallery — SQL, YAML, TOML, XML, Dockerfile</strong></summary>
+
+#### SQL
+
+```sql
+SELECT layer, COUNT(*) AS demonstrations
+FROM readme_features
+WHERE phase <= 7
+GROUP BY layer
+ORDER BY demonstrations DESC;
+```
+
+#### YAML
+
+```yaml
+phase: M7
+syntax:
+  engine: linguist
+  galleries: 6
+  languages: 33
+```
+
+#### TOML
+
+```toml
+phase = "M7"
+
+[syntax]
+engine = "linguist"
+languages = 33
+```
+
+#### XML
+
+```xml
+<readme phase="M7">
+  <syntax engine="linguist" languages="33" />
+</readme>
+```
+
+#### Dockerfile
+
+```dockerfile
+FROM alpine:3.22
+WORKDIR /docs
+COPY README.md ./README.md
+CMD ["sh", "-c", "wc -l README.md"]
+```
+
+</details>
+
+---
+
+### Gallery E — Scientific & functional languages
+
+<details>
+<summary><strong>Open 5-language scientific/functional gallery — R, Julia, Haskell, Scala, LaTeX</strong></summary>
+
+#### R
+
+```r
+layers <- data.frame(
+  phase = 1:7,
+  power = c(20, 35, 50, 65, 75, 85, 92)
+)
+print(layers)
+```
+
+#### Julia
+
+```julia
+struct Layer
+    name::String
+    unlocked::Bool
+end
+
+println(Layer("syntax", true))
+```
+
+#### Haskell
+
+```haskell
+data Layer = Layer { name :: String, unlocked :: Bool }
+  deriving (Show)
+
+main :: IO ()
+main = print (Layer "syntax" True)
+```
+
+#### Scala
+
+```scala
+case class Layer(name: String, unlocked: Boolean)
+
+@main def syntaxLab(): Unit =
+  println(Layer("syntax", true))
+```
+
+#### LaTeX
+
+```latex
+\documentclass{article}
+\begin{document}
+\textbf{Markdown: Final Form}\\
+Phase $M_7$: syntax highlighting.
+\end{document}
+```
+
+> [!NOTE]
+> `latex` here means source-code highlighting. GitHub MathJax rendering is a separate capability and remains the focus of M8.
+
+</details>
+
+---
+
+### Gallery F — Documentation, metadata & literal output
+
+<details>
+<summary><strong>Open 4-language/meta gallery — Markdown, diff, plaintext, INI</strong></summary>
+
+#### Markdown source
+
+```markdown
+# Heading
+
+- **Markdown** can describe Markdown.
+- `code` stays code.
+
+> [!NOTE]
+> GitHub can highlight the source of its own document format.
+```
+
+#### Diff
 
 ```diff
-- Treat raw HTML as unrestricted webpage code.
-+ Treat raw HTML as a sanitized Markdown extension layer.
-
-- Hide advanced content by deleting it from the flow.
-+ Use <details> when progressive disclosure improves readability.
+- CODE-BLOCK ALCHEMY
++ FULL SYNTAX-HIGHLIGHTING LABORATORY
++ 33 language families demonstrated
++ collapsed galleries preserve readability
+- one-size-fits-all code examples
 ```
+
+#### Plaintext / terminal-style output
+
+```text
+syntax-lab .............. ONLINE
+languages ............... 33
+collapsed-galleries ..... 6
+wrong-label-control ..... PRESENT
+javascript-runtime ...... ABSENT
+```
+
+#### INI
+
+```ini
+[readme]
+phase=M7
+engine=Linguist
+languages=33
+collapsed=true
+```
+
+</details>
+
+---
+
+### Language museum inventory
+
+| Gallery | Languages / modes | Count |
+| --- | --- | ---: |
+| Web & UI | JavaScript, TypeScript, HTML, CSS, JSON | 5 |
+| Systems & compiled | C, C++, Rust, Go, Java, C#, Kotlin, Swift | 8 |
+| Scripting | Python, Ruby, PHP, Lua, Bash, PowerShell | 6 |
+| Data/config/infra | SQL, YAML, TOML, XML, Dockerfile | 5 |
+| Scientific/functional | R, Julia, Haskell, Scala, LaTeX | 5 |
+| Docs/meta | Markdown, diff, plaintext, INI | 4 |
+| **Total distinct showcased modes** |  | **33** |
+
+### Same source, different claimed grammar
+
+The following examples are intentionally identical source text. Only the fence label changes.
+
+```javascript
+const payload = { phase: "M7", active: true };
+```
+
+```json
+const payload = { phase: "M7", active: true };
+```
+
+The second block is **not valid JSON**, even if a renderer colors parts of it. Highlighting communicates a claimed language; it does not certify correctness.
+
+### Fence aliases are metadata, not file conversion
+
+```python
+print("This is highlighted as Python")
+```
+
+```ruby
+print("The same-looking call can belong to another language")
+```
+
+The renderer does not execute either snippet. It chooses tokenization/highlighting based on the info string.
+
+### Fence recursion: showing fenced Markdown inside fenced Markdown
+
+Use a longer outer fence when the example itself contains triple backticks:
+
+````markdown
+```typescript
+const nested: string = "three backticks live inside four";
+```
+````
+
+### Syntax-label decision rule
+
+```text
+Is this actually code in a known language?
+├── yes → use its recognizable Linguist name/alias
+└── no
+    ├── literal output/log/config-like prose → text / plaintext
+    └── demonstration of an unlabeled fence → omit the info string intentionally
+```
+
+> [!WARNING]
+> Do not label output as `bash` just because it came from a terminal. Commands, shell source, and terminal output are different things.
 
 ---
 
@@ -398,44 +881,35 @@ panel = Disclosure("Advanced controls", open_by_default=True)
 
 Markdown remains readable as plain text while adding structure.[^plain-text]
 
-Relative repository paths keep media branch-aware.[^relative-links]
+Relative repository paths keep local media branch-aware.[^relative-links]
 
-GitHub renders additional HTML tags in Markdown, but sanitizes the resulting HTML before display.[^sanitization]
+GitHub's HTML layer is sanitized before rendering.[^sanitization]
 
-Collapsed sections use `<details>` and `<summary>`, and may be opened by default with the `open` attribute.[^details]
+Collapsed sections use `<details>` and `<summary>`.[^details]
+
+GitHub's Linguist language definitions include names and aliases used by fenced code blocks; supported grammars drive highlighting.[^linguist]
 
 ---
 
 # ACT IV — HTML HYBRID
 
-> HTML is most valuable here when it supplies semantics or interaction that Markdown syntax itself does not have.
+> M6 established the HTML boundary. M7 now uses `<details>` as the scalability mechanism for a very large syntax museum.
 
 ## LEVEL 10 — REPOSITORY-OWNED MEDIA SYSTEM
 
-`Markdown` · `HTML` · `Local Asset` · `External Asset`
+`Markdown` · `HTML` · `Local Asset`
 
-### Live theme-aware hero
-
-```html
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
   <img src="./assets/hero-light.svg" alt="Markdown Final Form banner" width="100%">
 </picture>
-```
 
-![Repository-owned SVG card showing relative-path, version-controlled, scalable, and alt-text-ready media](./assets/media-card.svg)
+![Repository-owned SVG media card](./assets/media-card.svg)
 
-<img src="./assets/scaling-ruler.svg" alt="SVG scaling ruler" width="100%">
+<img src="./assets/scaling-ruler.svg" alt="SVG scaling ruler" width="50%">
 
-<img src="./assets/scaling-ruler.svg" alt="The same SVG scaling ruler displayed at half width" width="50%">
-
-[![Clickable local SVG portal](./assets/clickable-portal.svg)](#level-10--repository-owned-media-system)
-
-<img src="./assets/decorative-divider.svg" alt="" width="100%">
-
-> [!TIP]
-> M5 established the media layer. M6 reuses it as content inside richer HTML interfaces rather than creating duplicate assets.
+[![Clickable local SVG portal](./assets/clickable-portal.svg)](#level-08--full-syntax-highlighting-laboratory)
 
 ---
 
@@ -443,40 +917,10 @@ Collapsed sections use `<details>` and `<summary>`, and may be opened by default
 
 `HTML` · `Markdown`
 
-HTML can add useful inline semantics that Markdown does not expose directly.
-
-### Keyboard input
-
 Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>.  
-Press <kbd>.</kbd> on a GitHub repository to open the web editor.
-
-```html
-Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>
-```
-
-### Subscript and superscript
-
-H<sub>2</sub>O  
-x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup>
-
-### Insertions and deletions
-
-<ins>Inserted content</ins>  
-<del>Deleted content</del>  
-<s>Stylistically no longer accurate</s>
-
-### Strong, emphasis, and code in HTML form
-
+H<sub>2</sub>O · x<sup>2</sup>  
+<ins>Inserted</ins> · <del>Deleted</del> · <s>Obsolete</s>  
 <strong>Strong HTML</strong> · <em>emphasized HTML</em> · <code>inline HTML code</code>
-
-### Explicit line and thematic breaks
-
-Line one<br>
-Line two
-
-<hr>
-
-The point is not to replace Markdown equivalents. The point is to expose semantics Markdown does not provide or to compose them inside HTML structures.
 
 ---
 
@@ -484,191 +928,65 @@ The point is not to replace Markdown equivalents. The point is to expose semanti
 
 `HTML` · `Markdown` · `GitHub`
 
-GitHub's `<details>` support turns a README into a document with **progressive disclosure**.
-
-### Basic collapsed panel
-
 <details>
-<summary><strong>Open the basic disclosure panel</strong></summary>
-
-This content is hidden until requested.
+<summary><strong>Basic collapsed panel</strong></summary>
 
 - Markdown list
-- **Markdown formatting**
+- **formatting**
 - `inline code`
-- [internal navigation](#level-04--hyperlink-routing-matrix)
 
 </details>
-
-Source:
-
-```html
-<details>
-<summary>Open panel</summary>
-
-Markdown content here.
-
-</details>
-```
-
-### Open by default
 
 <details open>
-<summary><strong>This panel begins expanded</strong></summary>
+<summary><strong>Open by default</strong></summary>
 
-The `open` attribute changes the initial disclosure state without JavaScript.
-
-```html
-<details open>
-```
-
-</details>
-
-### Rich panel: heading + task list + code + local media
-
-<details>
-<summary><strong>Open the rich-content panel</strong></summary>
-
-### Deployment checklist
-
-- [x] Heading
-- [x] Task list
-- [x] Code fence
-- [x] Repository-owned image
-
-```bash
-printf '%s\n' "Markdown is alive inside details"
-```
-
-<img src="./assets/media-card.svg" alt="Repository media card inside a details panel" width="70%">
-
-</details>
-
-### Nested disclosure tree
-
-<details>
-<summary><strong>Tier 1 — Interface root</strong></summary>
-
-Root-level explanation.
-
-<details>
-<summary><strong>Tier 2 — Advanced controls</strong></summary>
-
-- nested Markdown
-- `nested code`
-
-<details>
-<summary><strong>Tier 3 — Forbidden knowledge</strong></summary>
-
-The final panel contains **Markdown inside HTML inside Markdown**.
-
-</details>
-
-</details>
-
-</details>
-
-### Choose-your-path documentation
-
-<details>
-<summary><strong>Beginner path</strong></summary>
-
-Use headings, lists, links, images, and code blocks first.
+The `open` attribute changes initial disclosure state without JavaScript.
 
 </details>
 
 <details>
-<summary><strong>Intermediate path</strong></summary>
-
-Add tables, task lists, alerts, reference links, and local media.
-
-</details>
+<summary><strong>Nested disclosure tree</strong></summary>
 
 <details>
-<summary><strong>Advanced path</strong></summary>
-
-Add MathJax, Mermaid, parser-aware syntax, and carefully chosen HTML.
-
-</details>
+<summary><strong>Tier 2</strong></summary>
 
 <details>
-<summary><strong>Forbidden path</strong></summary>
+<summary><strong>Tier 3</strong></summary>
 
-Attempt to add JavaScript. GitHub's sanitizer enters the chat.
+**Markdown inside HTML inside Markdown.**
 
 </details>
 
-> [!IMPORTANT]
-> `<details>` is useful because it reduces visual load. If every section is collapsed, navigation becomes slower rather than clearer.
+</details>
+
+</details>
+
+> [!TIP]
+> M7 demonstrates the practical reason M6 mattered: thirty-three syntax modes can exist in one README without permanently occupying the entire viewport.
 
 ---
 
 ## LEVEL 13 — HTML TABLE & LAYOUT LAB
 
-`HTML` · `Markdown`
-
-GFM tables are concise. Raw HTML tables expose explicit document structure.
+`HTML`
 
 <table>
   <thead>
-    <tr>
-      <th>Layer</th>
-      <th>Native syntax</th>
-      <th>Best role</th>
-    </tr>
+    <tr><th>Element</th><th>Role</th></tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Markdown</td>
-      <td><code>| table |</code></td>
-      <td>Fast data tables</td>
-    </tr>
-    <tr>
-      <td>HTML</td>
-      <td><code>&lt;table&gt;</code></td>
-      <td>Explicit table structure</td>
-    </tr>
-    <tr>
-      <td>Details</td>
-      <td><code>&lt;details&gt;</code></td>
-      <td>Progressive disclosure</td>
-    </tr>
+    <tr><td><code>&lt;details&gt;</code></td><td>Progressive disclosure</td></tr>
+    <tr><td><code>&lt;kbd&gt;</code></td><td>Keyboard semantics</td></tr>
+    <tr><td><code>&lt;picture&gt;</code></td><td>Theme-aware media</td></tr>
+    <tr><td><code>&lt;table&gt;</code></td><td>Explicit table structure</td></tr>
   </tbody>
 </table>
-
-### Cell composition
-
-<table>
-  <tr>
-    <th>Semantic element</th>
-    <th>Rendered example</th>
-  </tr>
-  <tr>
-    <td><code>&lt;kbd&gt;</code></td>
-    <td><kbd>Ctrl</kbd> + <kbd>K</kbd></td>
-  </tr>
-  <tr>
-    <td><code>&lt;sub&gt;</code> / <code>&lt;sup&gt;</code></td>
-    <td>H<sub>2</sub>O · x<sup>2</sup></td>
-  </tr>
-  <tr>
-    <td><code>&lt;ins&gt;</code> / <code>&lt;del&gt;</code></td>
-    <td><ins>new</ins> · <del>old</del></td>
-  </tr>
-</table>
-
-> [!NOTE]
-> HTML tables are not automatically "better" than GFM tables. They cost more source characters. Use them when explicit HTML structure itself is the point.
 
 ---
 
 ## LEVEL 14 — MARKDOWN / HTML BOUNDARY LAB
 
 `Markdown` · `HTML` · `Parser`
-
-The hybrid layer becomes interesting where the two parsers meet.
-
-### Reliable pattern: blank lines inside details
 
 ```html
 <details>
@@ -682,34 +1000,10 @@ The hybrid layer becomes interesting where the two parsers meet.
 </details>
 ```
 
-GitHub explicitly supports Markdown content inside `<details>` blocks.
-
-### HTML owns HTML table interiors
-
-Inside a raw HTML `<table>`, write actual HTML cells rather than assuming arbitrary Markdown block syntax will be reparsed exactly as if it were outside the HTML block.
-
-```html
-<table>
-  <tr>
-    <td><strong>HTML-owned cell</strong></td>
-  </tr>
-</table>
-```
-
-### Inline composition is simpler
-
-Markdown can surround inline HTML:
-
-**Markdown strong around H<sub>2</sub>O and <kbd>keys</kbd>.**
-
-HTML can also provide inline semantics next to Markdown-native syntax without becoming a layout framework.
-
-### Boundary rule
-
 ```text
 Markdown owns document structure by default.
-HTML enters only where it adds a missing semantic or interaction.
-When an HTML block owns a region, make that ownership explicit.
+HTML enters where it adds missing semantics or interaction.
+Blank lines around nested Markdown are deliberate.
 ```
 
 ---
@@ -718,40 +1012,21 @@ When an HTML block owns a region, make that ownership explicit.
 
 `GitHub` · `HTML` · `Security`
 
-GitHub does not treat README HTML as unrestricted webpage HTML. The rendered HTML passes through sanitization.
-
-### Code that should not be treated as README infrastructure
+These remain examples, not infrastructure:
 
 ```html
 <script>alert('nope')</script>
-
-<div style="position:fixed;inset:0">
-  Inline styles are not a dependable README UI system.
-</div>
-
-<div class="my-app" id="root">
-  CSS/JS application hooks are not the README model.
-</div>
+<div style="position:fixed">not a README UI framework</div>
+<div class="app" id="root">not an application mount</div>
 ```
-
-GitHub's markup pipeline documents aggressive sanitization, including removal of dangerous tags such as `<script>`, inline styles, and `class` / `id` attributes.
-
-### What to use instead
 
 | Goal | README-safe direction |
 | --- | --- |
 | Interaction | `<details>` / `<summary>` |
-| Theme-aware image | `<picture>` / `<source>` |
+| Theme-aware media | `<picture>` / `<source>` |
 | Keyboard notation | `<kbd>` |
-| Sub/superscript | `<sub>` / `<sup>` |
-| Insert/delete semantics | `<ins>` / `<del>` / `<s>` |
-| Layout data | Markdown table or HTML `<table>` |
-| Stable custom destination | named `<a>` anchor |
-| Styling | GitHub's renderer + carefully designed assets |
-| Application behavior | Build an actual webpage/app instead |
-
-> [!CAUTION]
-> The sanitizer is not a limitation to work around. It is a security boundary. A README should not become an executable application surface.
+| Styling | GitHub renderer + designed assets |
+| Application behavior | Build an actual webpage/app |
 
 ---
 
@@ -760,44 +1035,28 @@ GitHub's markup pipeline documents aggressive sanitization, including removal of
 `Markdown` · `GFM` · `GitHub` · `HTML` · `Local Asset`
 
 <details open>
-<summary><strong>M6 SYSTEM CONSOLE — expanded by default</strong></summary>
-
-### Interface status
+<summary><strong>M7 SYSTEM CONSOLE</strong></summary>
 
 <table>
-  <tr>
-    <th>System</th>
-    <th>Status</th>
-  </tr>
-  <tr>
-    <td>Semantic inline HTML</td>
-    <td><strong>ONLINE</strong></td>
-  </tr>
-  <tr>
-    <td>Disclosure controls</td>
-    <td><strong>ONLINE</strong></td>
-  </tr>
-  <tr>
-    <td>Local media</td>
-    <td><strong>ONLINE</strong></td>
-  </tr>
-  <tr>
-    <td>JavaScript runtime</td>
-    <td><del>ABSENT</del> BY DESIGN</td>
-  </tr>
+  <tr><th>System</th><th>Status</th></tr>
+  <tr><td>Markdown</td><td><strong>ONLINE</strong></td></tr>
+  <tr><td>HTML disclosure</td><td><strong>ONLINE</strong></td></tr>
+  <tr><td>Local media</td><td><strong>ONLINE</strong></td></tr>
+  <tr><td>Linguist syntax routing</td><td><strong>33 MODES</strong></td></tr>
+  <tr><td>JavaScript runtime</td><td><del>ABSENT</del> BY DESIGN</td></tr>
 </table>
 
-Press <kbd>Enter</kbd> metaphorically. There is no JavaScript here.
-
 <details>
-<summary><strong>Inspect nested subsystem</strong></summary>
+<summary><strong>Inspect code subsystem</strong></summary>
 
-- [x] Markdown inside details
-- [x] HTML table inside details
-- [x] Semantic inline tags
-- [x] Repository-owned media
+```rust
+struct Readme {
+    syntax_modes: usize,
+    executable_js: bool,
+}
 
-<img src="./assets/media-status.svg" alt="Media layer status graphic inside nested M6 interface" width="100%">
+let final_form = Readme { syntax_modes: 33, executable_js: false };
+```
 
 </details>
 
@@ -825,7 +1084,7 @@ Inline: $`E = mc^2`$
 ```
 
 > [!NOTE]
-> M8 owns the full mathematics expansion.
+> `latex` fenced code in M7 is syntax-highlighted source. This `math` block is rendered mathematics. M8 will exhaust that distinction.
 
 ---
 
@@ -835,22 +1094,26 @@ Inline: $`E = mc^2`$
 
 ```mermaid
 flowchart TD
-    A[Markdown] --> B{Need missing semantic?}
-    B -- No --> C[Stay in Markdown]
-    B -- Yes --> D[Use supported HTML]
-    D --> E[GitHub sanitizer]
-    E --> F[Rendered README]
+    A[Fenced block] --> B{Info string?}
+    B -- none --> C[Plain code block]
+    B -- recognized --> D[Linguist grammar]
+    B -- unknown --> E[Fallback presentation]
+    D --> F[Highlighted source]
+    C --> G[Rendered README]
+    E --> G
+    F --> G
 ```
 
 ```mermaid
 sequenceDiagram
-    actor Reader
-    participant README
-    participant Details
-    Reader->>README: Open document
-    README->>Details: Render collapsed content
-    Reader->>Details: Expand when needed
-    Details-->>Reader: Reveal Markdown + HTML content
+    actor Author
+    participant MD as README.md
+    participant L as Linguist
+    participant GH as GitHub
+    Author->>MD: writes ``` + language
+    MD->>L: supplies info string
+    L->>GH: selects known grammar
+    GH-->>Author: renders highlighted source
 ```
 
 ---
@@ -859,7 +1122,7 @@ sequenceDiagram
 
 ## LEVEL 19 — ESCAPE HATCH
 
-`Markdown` · `Source-aware`
+`Markdown` · `Parser`
 
 \# Not a heading  
 \> Not a quote  
@@ -873,7 +1136,6 @@ sequenceDiagram
 | `_` | `\_` |
 | `#` | `\#` |
 | `>` | `\>` |
-| `[` | `\[` |
 | `|` | `\|` |
 | `\` | `\\` |
 
@@ -887,9 +1149,9 @@ sequenceDiagram
 
 ``Use a `backtick` inside code``
 
-````md
+````markdown
 ```javascript
-console.log("Three backticks can live inside four.");
+console.log("Three backticks live inside four.");
 ```
 ````
 
@@ -931,16 +1193,16 @@ __alternate strong__
 
 `Markdown` · `Parser`
 
-````md
-```md
+````markdown
+```markdown
 **Markdown shown inside Markdown shown inside Markdown.**
 ```
 ````
 
 <!--
 Future maintainers:
-Nested fences, reference definitions, relative media paths, details blank lines,
-and HTML sanitizer demonstrations are intentional.
+Nested fences, code labels, wrong-label controls, reference definitions,
+relative media paths, and details blank lines are intentional.
 -->
 
 ---
@@ -950,62 +1212,60 @@ and HTML sanitizer demonstrations are intentional.
 ## 🏅 ACHIEVEMENTS UNLOCKED
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-HYBRID_ENGINEER-fbbf24?style=for-the-badge" alt="Achievement Hybrid Engineer">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-DISCLOSURE_ARCHITECT-06b6d4?style=for-the-badge" alt="Achievement Disclosure Architect">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-BOUNDARY_MAPPER-8b5cf6?style=for-the-badge" alt="Achievement Boundary Mapper">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-SANITIZER_SURVIVOR-0891b2?style=for-the-badge" alt="Achievement Sanitizer Survivor">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-SYNTAX_CURATOR-fbbf24?style=for-the-badge" alt="Achievement Syntax Curator">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-GRAMMAR_ROUTER-06b6d4?style=for-the-badge" alt="Achievement Grammar Router">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-ALIAS_HANDLER-8b5cf6?style=for-the-badge" alt="Achievement Alias Handler">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-FENCE_ARCHITECT-0891b2?style=for-the-badge" alt="Achievement Fence Architect">
 </p>
 
 | Achievement | Requirement | Status |
 | --- | --- | :---: |
-| **The Emphasizer** | Nested emphasis | ✅ |
-| **Block Architect** | Compose nested blocks | ✅ |
-| **Table Architect** | GFM alignment + escaped pipes | ✅ |
-| **Taskmaster** | Multi-level task hierarchy | ✅ |
-| **Parser Tamer** | Escapes + variable fences | ✅ |
+| **Block Architect** | Compose nested Markdown blocks | ✅ |
 | **Link Cartographer** | Multiple link grammars | ✅ |
 | **Media Engineer** | Repository-owned media | ✅ |
-| **Hybrid Engineer** | Compose Markdown and supported HTML intentionally | ✅ |
-| **Disclosure Architect** | Basic, open, rich, and nested details panels | ✅ |
-| **Semantic Mechanic** | Use kbd/sub/sup/ins/del/s meaningfully | ✅ |
-| **HTML Table Smith** | Render explicit HTML table structure | ✅ |
-| **Boundary Mapper** | Document Markdown/HTML parser ownership | ✅ |
-| **Sanitizer Survivor** | Respect GitHub's HTML security boundary | ✅ |
-| **Master of Restraint** | Stop before adding too much | ❌ |
+| **Hybrid Engineer** | Markdown + sanitized HTML | ✅ |
+| **Syntax Curator** | Demonstrate 33 distinct language/mode fences | ✅ |
+| **Grammar Router** | Compare labeled, unlabeled, text, and unknown fences | ✅ |
+| **Alias Handler** | Demonstrate alternate Linguist specifiers | ✅ |
+| **Gallery Architect** | Keep six language galleries collapsible | ✅ |
+| **Fence Architect** | Nest triple fences inside longer fences | ✅ |
+| **Diff Operator** | Use `diff` as a documentation mode | ✅ |
+| **Literalist** | Distinguish source code from plaintext output | ✅ |
+| **Parser Tamer** | Escapes + variable-length fences | ✅ |
+| **Master of Restraint** | Stop before adding more languages | ❌ |
 
 ---
 
 ## THE CHAOS INDEX
 
 ```text
-Clarity        ████████████████████ 100%
-Structure      ████████████████████ 100%
-Typography     ████████████████████ 100%
-Lists          ████████████████████ 100%
-Tables         ████████████████████ 100%
-Tasks          ████████████████████ 100%
-Links          ████████████████████ 100%
-Local Media    ████████████████████ 100%
-HTML Semantics ████████████████████ 100%
-Details UI     ████████████████████ 100%
-HTML Tables    ████████████████████ 100%
-Sanitization   ████████████████████ 100%
-Parser Tricks  ███████████████████░  95%
-Animation      ████████████████░░░░  80%
-Restraint      ██░░░░░░░░░░░░░░░░░░  10%
-Raw Power      ██████████████████░░  M6
+Clarity          ████████████████████ 100%
+Structure        ████████████████████ 100%
+Typography       ████████████████████ 100%
+Lists            ████████████████████ 100%
+Tables           ████████████████████ 100%
+Links            ████████████████████ 100%
+Local Media      ████████████████████ 100%
+HTML Hybrid      ████████████████████ 100%
+Syntax Labels    ████████████████████ 100%
+Language Breadth ████████████████████  33 modes
+Fence Control    ████████████████████ 100%
+Parser Tricks    ███████████████████░  95%
+Animation        ████████████████░░░░  80%
+Restraint        ██░░░░░░░░░░░░░░░░░░  10%
+Raw Power        ███████████████████░  M7
 ```
 
 > [!WARNING]
-> HTML power in a README comes from **semantics and composition**, not from trying to smuggle a web application through the sanitizer.
+> Syntax highlighting is presentation metadata, not a compiler, linter, validator, security scanner, or proof that the snippet belongs to the language named on its fence.
 >
-> **M6 makes the HTML boundary itself part of the showcase.**
+> **M7 makes grammar selection itself part of the showcase.**
 
 ---
 
 ## 🧰 THE ACTUALLY USEFUL CHEAT SHEET
 
-````md
+````markdown
 # Heading
 *italic* **bold** ~~strike~~ `code`
 
@@ -1014,47 +1274,41 @@ Raw Power      ██████████████████░░  M6
 [relative](./README.md)
 [same document](#final-boss)
 
-![Local image](./assets/image.svg)
+```python
+print("highlighted code")
+```
 
-<kbd>Ctrl</kbd> + <kbd>K</kbd>
-H<sub>2</sub>O
-x<sup>2</sup>
-<ins>inserted</ins>
-<del>deleted</del>
+```text
+literal output
+```
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
-  <img src="./assets/light.svg" alt="Description" width="100%">
-</picture>
+```
+unlabeled fenced code
+```
+
+```diff
+- old
++ new
+```
+
+````markdown
+```typescript
+const nested: string = "fence inside fence";
+```
+````
 
 <details>
-<summary>Collapsed panel</summary>
+<summary>Collapsed code gallery</summary>
 
-### Markdown works here
-
-- list
-- **formatting**
-
-</details>
-
-<details open>
-<summary>Open by default</summary>
-
-Visible initially.
+```rust
+fn main() { println!("inside details"); }
+```
 
 </details>
 
-<table>
-  <tr>
-    <th>HTML</th>
-    <th>Table</th>
-  </tr>
-  <tr>
-    <td><kbd>Ctrl</kbd></td>
-    <td>H<sub>2</sub>O</td>
-  </tr>
-</table>
+![Local image](./assets/image.svg)
+<kbd>Ctrl</kbd> + <kbd>K</kbd>
+H<sub>2</sub>O
 
 - [x] Complete
 - [ ] Incomplete
@@ -1062,8 +1316,6 @@ Visible initially.
 | Left | Center | Right |
 | :--- | :---: | ---: |
 | alpha \| beta | `code` | 100 |
-
-``code containing a `backtick` ``
 ````
 
 [docs]: https://example.com/docs
@@ -1074,36 +1326,36 @@ Visible initially.
 
 | Crime | Consequence |
 | --- | --- |
-| Treating README HTML like unrestricted webpage HTML | Sanitizer removes the fantasy |
-| Depending on `<script>` | No executable README application |
-| Depending on inline CSS/class/id hooks | Styling assumptions break |
-| Collapsing every section | Readers click more than they read |
-| Vague `<summary>` labels | Hidden content becomes hard to discover |
-| Missing blank lines in hybrid blocks | Markdown parsing becomes fragile |
-| Replacing simple Markdown with verbose HTML | Source readability degrades |
-| Huge HTML tables | Mobile readability suffers |
-| Deleted local asset | Media references break |
-| Aggressive formatter rewrites | Parser demonstrations break |
+| Leaving every fence unlabeled | Useful syntax structure disappears |
+| Labeling terminal output as `bash` | Output is presented as shell source |
+| Choosing a language because its colors look better | Metadata becomes false |
+| Assuming highlighting validates syntax | Broken code still looks authoritative |
+| Using obscure aliases everywhere | Raw source becomes harder to understand |
+| Giant uncollapsed language museum | README becomes a scrolling benchmark |
+| Forgetting longer outer fences | Demonstrations terminate themselves |
+| Treating `latex` highlighting as MathJax | Source highlighting and math rendering get confused |
+| Treating README HTML like a web app | Sanitizer wins |
+| Deleting local assets | Media breaks |
 
 ---
 
 ## 🧪 README QUALITY TEST
 
-- [ ] Basic `<details>` opens and closes.
-- [ ] `<details open>` begins expanded.
-- [ ] Nested details remain independently usable.
-- [ ] Markdown headings/lists/code render inside details.
-- [ ] Local media renders inside details.
-- [ ] HTML tables retain row/cell structure.
-- [ ] `<kbd>`, `<sub>`, `<sup>`, `<ins>`, `<del>`, and `<s>` render meaningfully.
-- [ ] Theme-aware `<picture>` still switches correctly.
+- [ ] Every intended source-code block has the correct language label.
+- [ ] Plain terminal/output examples use `text` or remain intentionally unlabeled.
+- [ ] Unknown-label test remains clearly labeled as intentional.
+- [ ] Alias examples still resolve to the intended grammar.
+- [ ] JavaScript and JSON comparison remains intentionally invalid JSON in the second block.
+- [ ] All six galleries open and close independently.
+- [ ] Every gallery has the advertised number of language modes.
+- [ ] Total inventory still equals 33 distinct showcased modes.
+- [ ] `diff` additions/removals remain visually distinct.
+- [ ] Nested four-backtick demonstrations remain balanced.
+- [ ] Markdown code fences still work inside `<details>`.
+- [ ] Theme-aware local hero still switches correctly.
 - [ ] Relative media paths resolve on the branch.
-- [ ] No critical behavior depends on script/style/class/id hooks.
-- [ ] Sanitization examples remain code examples, not infrastructure.
-- [ ] Internal fragments still land correctly.
-- [ ] Reference definitions still resolve.
-- [ ] Nested fences remain intact.
-- [ ] Mobile layout remains readable.
+- [ ] HTML sanitizer examples remain inert source examples.
+- [ ] Mobile layout remains usable with galleries collapsed.
 - [ ] README is previewed on GitHub.
 
 ---
@@ -1113,26 +1365,29 @@ Visible initially.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form M6 final banner" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form M7 final banner" width="100%">
 </picture>
 
 <details open>
-<summary><strong>FINAL FORM — HYBRID SYSTEM MAP</strong></summary>
+<summary><strong>FINAL FORM — SYNTAX ROUTING SYSTEM</strong></summary>
 
 ```text
 README
- ├── MARKDOWN
+ ├── MARKDOWN CORE
  ├── GFM
  ├── LINKS
  ├── LOCAL MEDIA
  ├── HTML HYBRID
- │    ├── SEMANTIC INLINE TAGS
- │    ├── PICTURE / SOURCE / IMG
- │    ├── DETAILS / SUMMARY
- │    ├── NESTED DISCLOSURE
- │    ├── HTML TABLES
- │    ├── PARSER BOUNDARIES
- │    └── SANITIZATION
+ ├── GITHUB CODE RENDERING
+ │    ├── FENCED BLOCK
+ │    ├── INFO STRING
+ │    ├── LINGUIST NAME / ALIAS
+ │    ├── GRAMMAR
+ │    ├── 33 SHOWCASED MODES
+ │    ├── UNLABELED CONTROL
+ │    ├── UNKNOWN-LABEL CONTROL
+ │    ├── DIFF / TEXT MODES
+ │    └── NESTED FENCES
  ├── MATH
  ├── MERMAID
  └── PARSER LAB
@@ -1142,18 +1397,25 @@ FINAL FORM
 ```
 
 <details>
-<summary><strong>Open the nested final-boss subsystem</strong></summary>
+<summary><strong>Compile absolutely nothing</strong></summary>
 
-<table>
-  <tr><th>Capability</th><th>Status</th></tr>
-  <tr><td>Markdown structure</td><td><strong>ONLINE</strong></td></tr>
-  <tr><td>HTML semantics</td><td><strong>ONLINE</strong></td></tr>
-  <tr><td>Progressive disclosure</td><td><strong>ONLINE</strong></td></tr>
-  <tr><td>Local media</td><td><strong>ONLINE</strong></td></tr>
-  <tr><td>Arbitrary JavaScript</td><td><del>REJECTED</del></td></tr>
-</table>
+```typescript
+interface FinalForm {
+  markdown: true;
+  gfm: true;
+  htmlHybrid: true;
+  syntaxModes: 33;
+  executableReadmeJavaScript: false;
+}
 
-Press <kbd>Esc</kbd> to escape nothing. This is still a README.
+const readme: FinalForm = {
+  markdown: true,
+  gfm: true,
+  htmlHybrid: true,
+  syntaxModes: 33,
+  executableReadmeJavaScript: false,
+};
+```
 
 </details>
 
@@ -1162,18 +1424,19 @@ Press <kbd>Esc</kbd> to escape nothing. This is still a README.
 <div align="center">
 
 <p>
-  Markdown owns the document.<br>
-  HTML fills deliberate gaps.<br>
-  The sanitizer defines the boundary.<br>
-  Progressive disclosure keeps maximum power navigable.
+  Markdown creates the fence.<br>
+  The info string names the language.<br>
+  Linguist maps that name to a grammar.<br>
+  GitHub renders source without executing it.<br>
+  Details keep thirty-three demonstrations navigable.
 </p>
 
-<a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/READ-THE_MARKDOWN_GUIDE-7c3aed?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Read the Markdown Guide"></a>
-<a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections"><img src="https://img.shields.io/badge/READ-COLLAPSED_SECTION_DOCS-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Read GitHub collapsed section documentation"></a>
+<a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks"><img src="https://img.shields.io/badge/READ-CODE_BLOCK_DOCS-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Read GitHub code block documentation"></a>
+<a href="https://github.com/github-linguist/linguist"><img src="https://img.shields.io/badge/EXPLORE-GITHUB_LINGUIST-7c3aed?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore GitHub Linguist"></a>
 <a href="#"><img src="https://img.shields.io/badge/RETURN-TO_THE_TOP-0891b2?style=for-the-badge" alt="Return to top"></a>
 
 <h2>Markdown: Final Form.</h2>
-<h3>HTML hybrid layer unlocked.</h3>
+<h3>Syntax-highlighting layer unlocked.</h3>
 
 </div>
 
@@ -1187,5 +1450,6 @@ Press <kbd>Esc</kbd> to escape nothing. This is still a README.
 
 [^plain-text]: Markdown remains readable as plain text while adding lightweight structural syntax.
 [^relative-links]: Relative repository paths keep files and media branch-aware.
-[^details]: GitHub documents `<details>`, `<summary>`, Markdown content inside details, and the optional `open` attribute for initially expanded sections.
-[^sanitization]: GitHub's markup pipeline sanitizes rendered HTML and documents removal of dangerous tags such as scripts, inline styles, and class/id attributes.
+[^details]: GitHub documents `<details>`, `<summary>`, nested Markdown content, and the `open` attribute for initially expanded sections.
+[^sanitization]: GitHub sanitizes rendered README HTML, so arbitrary application-style script and styling are not the interface model.
+[^linguist]: GitHub Linguist defines known languages and aliases. Its language data notes that aliases are used in fenced code blocks; supported languages with highlighting grammars can be rendered with syntax highlighting.
