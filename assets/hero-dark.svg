@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Markdown Final Form dark-theme banner</title>
-  <desc id="desc">Dark-theme banner for Markdown Final Form showing the Markdown symbol and certification layers for GitHub rendering, accessibility, mobile use, and theme support.</desc>
+  <title id="title">Markdown Final Form final release dark-theme banner</title>
+  <desc id="desc">Dark-theme final release banner for Markdown Final Form showing the Markdown symbol and the completed GitHub, accessibility, mobile, and release layers.</desc>
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#09090b"/>
@@ -15,9 +15,9 @@
   <rect x="1" y="1" width="1198" height="358" rx="27" fill="none" stroke="#334155" stroke-width="2"/>
   <rect x="62" y="72" width="174" height="120" rx="18" fill="#f8fafc"/>
   <path d="M88 103h36l27 36 27-36h36v58h-25v-29l-38 45-38-45v29H88z" fill="#0f172a"/>
-  <text x="280" y="122" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700" fill="#a78bfa" letter-spacing="3">M16 / CERTIFICATION</text>
+  <text x="280" y="122" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700" fill="#a78bfa" letter-spacing="3">M17 / RELEASE</text>
   <text x="280" y="174" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="800" fill="#f8fafc">MARKDOWN: FINAL FORM</text>
-  <text x="280" y="214" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#cbd5e1">Theme aware. Text equivalent. Branch safe.</text>
+  <text x="280" y="214" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#cbd5e1">GitHub native. Accessible. Final.</text>
   <rect x="280" y="250" width="780" height="6" rx="3" fill="url(#accent)"/>
   <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#cbd5e1">
     <text x="280" y="294">MARKDOWN</text>
@@ -25,6 +25,6 @@
     <text x="550" y="294">GITHUB</text>
     <text x="690" y="294">A11Y</text>
     <text x="800" y="294">MOBILE</text>
-    <text x="925" y="294">THEME</text>
+    <text x="925" y="294">RELEASE</text>
   </g>
 </svg>
