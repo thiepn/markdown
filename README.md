@@ -54,7 +54,7 @@ SECRET ACHIEVEMENTS — SOURCE VIEW ONLY
 <a href="#final-boss"><img src="https://img.shields.io/badge/FINAL_BOSS-LOCKED-F43F5E?style=for-the-badge" alt="Final Boss gate locked until M15"></a>
 
 <h2>MARKDOWN: FINAL FORM</h2>
-<sub>One README · seven Acts · thirty-one capability levels · five renderer families · one increasingly unnecessary campaign</sub>
+<sub>One README · seven Acts · thirty-six numbered levels · six specialized renderer routes · one increasingly unnecessary campaign</sub>
 
 <br><br>
 
@@ -86,6 +86,7 @@ SECRET ACHIEVEMENTS — SOURCE VIEW ONLY
 | Campaign phases | **15 / 18** | M0 through M14 complete |
 | Capability acquisition | **100%** | planned Markdown/GFM/GitHub/HTML/native-renderer breadth acquired |
 | Native advanced renderer acquisition | **4 / 4** | Mermaid, GeoJSON, TopoJSON, ASCII STL |
+| Specialized renderer routes | **6 / 6** | Linguist, MathJax, Mermaid, GeoJSON, TopoJSON, ASCII STL |
 | Parser hardening | **95% source confidence** | M13 complete; final GitHub regression still pending |
 | Endgame phases | **2 / 5** | M13 parser hardening + M14 progression complete |
 | Accessibility/mobile certification | **pending** | owned by M16 |
@@ -104,13 +105,23 @@ SHOWCASE MASTERY
 ████████████████████ 100 / 100
 
 RELEASE CONFIDENCE
-███████████████░░░░░  76 / 100
+███████████████░░░░░  73 / 100
 ```
 
 **Showcase Mastery** answers: “Can the README demonstrate the planned capability?”  
 **Release Confidence** answers: “Has the whole experience passed parser, composition, accessibility, mobile, theme, and final GitHub rendering certification?”
 
-That second score is intentionally not 100 before M16–M17.
+The release score is a transparent M14 heuristic:
+
+```text
+25% Capability Index (100)
+45% Robustness Index  (81)
+30% Endgame completion (40)
+
+0.25×100 + 0.45×81 + 0.30×40 = 73.45 → 73
+```
+
+That score is intentionally below 100 before M15–M17.
 
 ---
 
@@ -156,12 +167,7 @@ flowchart LR
 <!-- Rendered output cannot show everything the source knows. -->
 ```
 
-The source layer owns:
-
-- phase invariants;
-- secret achievements;
-- raw parser fixtures;
-- comments that intentionally disappear from rendered view.
+The source layer owns phase invariants, secret achievements, raw parser fixtures, and comments that intentionally disappear from rendered view.
 
 Raw parser fixture corpus: [`assets/parser-torture-corpus.txt`](./assets/parser-torture-corpus.txt)
 
@@ -994,7 +1000,7 @@ ROBUSTNESS INDEX                             81
 ```text
 SHOWCASE MASTERY     ████████████████████ 100
 ENDGAME COMPLETION   ████████░░░░░░░░░░░░  40  (2 / 5)
-RELEASE CONFIDENCE   ███████████████░░░░░  76
+RELEASE CONFIDENCE   ███████████████░░░░░  73
 RESTRAINT            ██░░░░░░░░░░░░░░░░░░  10
 RAW POWER            ████████████████████ M14
 ```
