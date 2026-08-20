@@ -143,7 +143,7 @@ That `.txt` file is deliberately not Markdown. It stores exact dangerous sequenc
 
 **Strong containing _emphasis containing `code`_.**
 
-Intraword comparison: `foo*bar*baz` renders as foo*bar*baz while underscores remain conservative in `foo_bar_baz` according to GFM emphasis rules.[^gfm]
+Intraword comparison: `foo*bar*baz` permits asterisk emphasis inside a word (`bar` becomes emphasized in GFM), while `foo_bar_baz` stays literal because underscore intraword emphasis is restricted.[^gfm]
 
 ---
 
@@ -701,7 +701,7 @@ An escaped backslash changes what follows: `\\*emphasis*` conceptually yields a 
 
 ``Use a `backtick` inside code``
 
-```Use ``two`` backticks inside three```
+Triple delimiter example: ```Use ``two`` backticks inside three```
 
 Code-span delimiters must match in length; code spans bind more tightly than emphasis and links.[^gfm]
 
