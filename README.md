@@ -4,37 +4,38 @@
 ║                                                                              ║
 ║  RAW SOURCE EXPLORER · PARSER TAMER · BLOCK ARCHITECT · LINK CARTOGRAPHER   ║
 ║  MEDIA ENGINEER · HYBRID ENGINEER · SYNTAX CURATOR · MATHJAX ARCHITECT      ║
+║  MERMAID CARTOGRAPHER                                                        ║
 ║                                                                              ║
-║  M8 invariant: math delimiters, escapes, and fence labels are intentional.   ║
-║  Do not normalize dollar signs or math fences without rendering on GitHub.   ║
+║  M9 invariant: Mermaid fences are executable diagram source.                 ║
+║  Do not rewrite diagram keywords or fence labels as decorative prose.        ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form — advanced MathJax mathematical showcase" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form — full Mermaid diagram gallery" width="100%">
 </picture>
 
 <div align="center">
 
 <a href="https://readme-typing-svg.demolab.com/demo/">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Inline+math.+Display+math.+Math+fences.;Matrices.+Calculus.+Probability.+Fourier.;LaTeX+source+is+not+rendered+MathJax.;M8+mathematics+layer+online."
-    alt="Animated M8 MathJax introduction">
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Flowcharts.+Sequences.+States.+Classes.;ER.+Gantt.+Pie.+GitGraph.+Mindmap.;Timeline.+Journey.+Requirements.+Architecture.;M9+Mermaid+gallery+online."
+    alt="Animated M9 Mermaid gallery introduction">
 </a>
 
 <br>
 
 <a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/LAYER-MARKDOWN-111111?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Markdown layer"></a>
 <a href="#level-08--full-syntax-highlighting-laboratory"><img src="https://img.shields.io/badge/SYNTAX-M7_COMPLETE-181717?style=for-the-badge" alt="Syntax highlighting M7 complete"></a>
-<a href="#level-17--advanced-mathjax-mathematical-showcase"><img src="https://img.shields.io/badge/MATHJAX-M8_UNLOCKED-8B5CF6?style=for-the-badge" alt="Advanced MathJax M8 unlocked"></a>
-<a href="#level-12--details-interface-system"><img src="https://img.shields.io/badge/DETAILS-COMPOSABLE-06B6D4?style=for-the-badge" alt="Composable details interfaces"></a>
+<a href="#level-17--advanced-mathjax-mathematical-showcase"><img src="https://img.shields.io/badge/MATHJAX-M8_COMPLETE-0EA5E9?style=for-the-badge" alt="MathJax M8 complete"></a>
+<a href="#level-18--full-mermaid-diagram-gallery"><img src="https://img.shields.io/badge/MERMAID-M9_UNLOCKED-8B5CF6?style=for-the-badge" alt="Mermaid M9 unlocked"></a>
 <a href="#final-boss"><img src="https://img.shields.io/badge/README-OVERENGINEERED-F43F5E?style=for-the-badge" alt="README overengineered"></a>
 
 <h3>This is a <strong>layer-by-layer Markdown rendering laboratory</strong>.</h3>
 
-<sub>Markdown · GFM · GitHub Linguist · MathJax · sanitized HTML · local SVG media · advanced renderers</sub>
+<sub>Markdown · GFM · GitHub Linguist · MathJax · Mermaid · sanitized HTML · local SVG media</sub>
 
 <br><br>
 
@@ -42,9 +43,9 @@
 &nbsp;•&nbsp;
 <a href="#level-08--full-syntax-highlighting-laboratory"><strong>⌘ Syntax Lab</strong></a>
 &nbsp;•&nbsp;
-<a href="#level-17--advanced-mathjax-mathematical-showcase"><strong>∑ MathJax Lab</strong></a>
+<a href="#level-17--advanced-mathjax-mathematical-showcase"><strong>∑ MathJax</strong></a>
 &nbsp;•&nbsp;
-<a href="#level-18--mermaid-summoning-circle"><strong>◇ Mermaid</strong></a>
+<a href="#level-18--full-mermaid-diagram-gallery"><strong>◇ Mermaid Gallery</strong></a>
 &nbsp;•&nbsp;
 <a href="#final-boss"><strong>👑 Final Boss</strong></a>
 
@@ -53,7 +54,7 @@
 ---
 
 > [!IMPORTANT]
-> GitHub renders LaTeX-formatted mathematical expressions in Markdown with **MathJax**. M8 demonstrates all four GitHub-documented entry routes: `$...$`, the backtick-protected inline form, `$$...$$`, and fenced `math` blocks—then composes them with tables, alerts, and `<details>`.
+> GitHub renders Mermaid when valid Mermaid source appears inside a fenced block labeled `mermaid`. M9 treats diagrams as another source-driven renderer: the raw text remains versionable and reviewable, while GitHub turns it into a visual model.
 
 ## 🧭 README POWER MAP
 
@@ -64,12 +65,12 @@
 | `II` | [GitHub Flavored Markdown](#act-ii--github-flavored-markdown) | Tables, tasks, strikethrough, autolinks | `GFM` |
 | `III` | [GitHub Extensions](#act-iii--github-extensions) | Alerts, 33-mode syntax lab, footnotes | `GH` |
 | `IV` | [HTML Hybrid](#act-iv--html-hybrid) | Media, semantics, details UI, sanitization | `<>` |
-| `V` | [Advanced Rendering](#act-v--advanced-rendering) | **Advanced MathJax**, Mermaid | `∞` |
+| `V` | [Advanced Rendering](#act-v--advanced-rendering) | **MathJax + full Mermaid gallery** | `∞` |
 | `VI` | [Parser & Source Lab](#act-vi--parser--source-lab) | Escapes, entities, backticks, recursion | `\` |
 | `VII` | [Endgame & Reference](#act-vii--endgame--reference) | Achievements, cheat sheet, QA | `✓` |
 | `∞` | [Final Boss](#final-boss) | Combined mechanics | `👑` |
 
-`Markdown` · `GFM` · `GitHub` · `Linguist` · `MathJax` · `HTML` · `Local Asset` · `External Asset`
+`Markdown` · `GFM` · `GitHub` · `Linguist` · `MathJax` · `Mermaid` · `HTML` · `Local Asset`
 
 ---
 
@@ -82,10 +83,10 @@ flowchart LR
     C --> D[GitHub extensions]
     D --> E[Linguist]
     D --> F[MathJax]
-    E --> G[Sanitized HTML hybrid]
-    F --> G
-    G --> H[Advanced renderers]
-    H --> I[FINAL FORM]
+    D --> G[Mermaid]
+    E --> H[Rendered README]
+    F --> H
+    G --> H
 ```
 
 ---
@@ -99,40 +100,35 @@ flowchart LR
 ```
 
 <!--
-Architecture invariant:
-Future phases extend the correct rendering act instead of appending unrelated sections.
-
-M8 invariant:
-Dollar delimiters, protected inline math, double-dollar blocks, and math fences are deliberate.
-Literal currency dollars near math require special handling.
-Do not confuse latex syntax highlighting with math rendering.
-Collapsed galleries remain intentional to control document length.
+M9 invariants:
+- mermaid fences are live diagrams, not highlighted source code.
+- text fences showing Mermaid source must use longer outer fences when needed.
+- default Mermaid theme is preferred over fixed color styling for GitHub light/dark resilience.
+- architecture-beta is a compatibility canary because Mermaid documents it as v11.1+.
+- newer Mermaid families may exist upstream without being guaranteed by GitHub's bundled version.
 -->
 
 > [!NOTE]
-> Raw source and rendered output remain different surfaces. M8 makes punctuation such as `$`, backticks, backslashes, braces, and underscores part of the rendering contract.
+> Source view matters especially for diagrams: every rendered edge, node, relationship, task, and state still has a diffable textual representation.
 
 ---
 
 # ACT I — MARKDOWN CORE
 
-> Inline syntax, block grammar, and navigation remain the portable foundation.
-
 ## LEVEL 01 — TYPOGRAPHY & INLINE POWER
 
 `Markdown` · `GFM` · `HTML`
 
-| Source | Result | Role |
-| --- | --- | --- |
-| `*italic*` | *italic* | Emphasis |
-| `_italic_` | _italic_ | Alternate emphasis |
-| `**bold**` | **bold** | Strong |
-| `***bold italic***` | ***bold italic*** | Combined |
-| `~~deleted~~` | ~~deleted~~ | GFM strike |
-| `` `inline code` `` | `inline code` | Literal text |
-| `<sub>small</sub>` | <sub>small</sub> | Subscript |
-| `<sup>high</sup>` | <sup>high</sup> | Superscript |
-| `<ins>inserted</ins>` | <ins>inserted</ins> | Inserted text |
+| Source | Result |
+| --- | --- |
+| `*italic*` | *italic* |
+| `**bold**` | **bold** |
+| `***both***` | ***both*** |
+| `~~deleted~~` | ~~deleted~~ |
+| `` `code` `` | `code` |
+| `<sub>2</sub>` | H<sub>2</sub>O |
+| `<sup>2</sup>` | x<sup>2</sup> |
+| `<ins>new</ins>` | <ins>new</ins> |
 
 **Bold containing _italic containing `code`_.**
 
@@ -177,15 +173,15 @@ This line follows it.
 - Surface
   - Nested
     - Deeper
-      - Deeper still
-        - List mines
-          - **Send indentation**
+      - List mines
+        - Deeper still
+          - **Maximum indentation**
 
-1. **List item containing a quote**
+1. **Quote inside list**
 
-   > Quotes can live inside list items.
+   > Containers can contain containers.
 
-2. **List item containing code**
+2. **Code inside list**
 
    ```bash
    printf '%s\n' "nested code"
@@ -210,13 +206,13 @@ This line follows it.
 
 - [This README](./README.md)
 - [Repository root](./)
-- [Syntax Lab](#level-08--full-syntax-highlighting-laboratory)
-- [MathJax Lab](#level-17--advanced-mathjax-mathematical-showcase)
+- [MathJax showcase](#level-17--advanced-mathjax-mathematical-showcase)
+- [Mermaid gallery](#level-18--full-mermaid-diagram-gallery)
 - [Final Boss](#final-boss)
 
-<a name="m8-math-beacon"></a>
+<a name="m9-mermaid-beacon"></a>
 
-[Jump to the custom M8 anchor](#m8-math-beacon)
+[Jump to the custom M9 anchor](#m9-mermaid-beacon)
 
 <https://github.com/>  
 https://github.com  
@@ -255,7 +251,7 @@ owner/repository#123
 
 - [x] **Markdown Core**
   - [x] Typography
-  - [x] Lists and quotes
+  - [x] Lists / quotes
   - [x] Link routing
 - [x] **GFM Systems**
   - [x] Tables
@@ -268,36 +264,31 @@ owner/repository#123
   - [x] Nested `<details>`
   - [x] Sanitization boundary
 - [x] **Syntax Highlighting**
-  - [x] 33 distinct modes
-  - [x] Names and aliases
-  - [x] Labeled / unlabeled / unknown fences
-  - [x] `diff` and `text`
-  - [x] Variable-length nested fences
+  - [x] 33 language/mode fences
+  - [x] Aliases
+  - [x] Unlabeled/text/diff controls
+  - [x] Nested fences
 - [x] **MathJax**
-  - [x] Standard inline `$...$`
-  - [x] Backtick-protected inline math
-  - [x] `$$...$$` display math
-  - [x] fenced `math` blocks
-  - [x] fractions, roots, symbols, sets, logic
-  - [x] aligned derivations
-  - [x] matrices and determinants
-  - [x] piecewise functions
-  - [x] calculus and multivariable calculus
-  - [x] sums, products, and series
-  - [x] probability and statistics
-  - [x] linear algebra
-  - [x] complex numbers and Fourier analysis
-  - [x] optimization
-  - [x] literal-dollar handling
-  - [x] math inside tables, alerts, and details
-  - [x] LaTeX-source vs rendered-math distinction
-- [x] **Parser Lab**
-  - [x] Escapes
-  - [x] Entities
-  - [x] Variable-length fences
-- [ ] **Advanced Rendering**
-  - [x] MathJax — advanced showcase
-  - [x] Mermaid — baseline
+  - [x] Inline / protected inline
+  - [x] Display / fenced math
+  - [x] Matrices / calculus / probability / Fourier
+  - [x] Literal-dollar parser cases
+- [x] **Mermaid**
+  - [x] Flowchart
+  - [x] Sequence
+  - [x] State
+  - [x] Class
+  - [x] Entity relationship
+  - [x] User journey
+  - [x] Gantt
+  - [x] Pie
+  - [x] GitGraph
+  - [x] Mindmap
+  - [x] Timeline
+  - [x] Quadrant chart
+  - [x] Requirement diagram
+  - [x] Architecture compatibility canary
+- [ ] **Next renderers**
   - [ ] GeoJSON
   - [ ] TopoJSON
   - [ ] STL / 3D
@@ -309,26 +300,24 @@ owner/repository#123
 
 # ACT III — GITHUB EXTENSIONS
 
-> GitHub adds specialized renderers on top of Markdown. M7 explored language grammars; M8 explores mathematical notation.
-
 ## LEVEL 07 — ALERT COMMAND CENTER
 
 `GitHub`
 
 > [!NOTE]
-> Inline mathematics such as $e^{i\pi}+1=0$ can live inside normal prose and alerts.
+> Mermaid diagrams are source-controlled visualizations: edit the text, review the diff, render the model.
 
 > [!TIP]
-> Use fenced `math` blocks for large expressions when that makes the Markdown source clearer.
+> Keep labels concise. Extremely wide nodes and long timelines become mobile-unfriendly quickly.
 
 > [!IMPORTANT]
-> A `latex` code fence highlights LaTeX source. A `math` fence renders mathematics. Those are different pipelines.
+> The opening fence must be labeled `mermaid`; a `text` or unlabeled fence only shows source.
 
 > [!WARNING]
-> Literal dollar signs on the same line as math can collide with math delimiters if they are not handled deliberately.
+> Valid Mermaid upstream does not automatically prove compatibility with the Mermaid version currently bundled by GitHub.
 
 > [!CAUTION]
-> MathJax renders notation; it does not verify the proof, solve the equation, or certify that the mathematics is correct.
+> A single parser error can turn a diagram into an error state instead of a visualization.
 
 ---
 
@@ -336,33 +325,27 @@ owner/repository#123
 
 `Markdown` · `GitHub` · `Linguist`
 
-GitHub uses Linguist language definitions and grammars to determine fenced-code highlighting.[^linguist]
+M7 remains intact as a compact six-gallery museum with **33 syntax modes**.
 
 ### Fence controls
 
-````md
-```python
-message = "language specifier selects highlighting grammar"
 ```
-````
-
-```
-const answer = 6 * 7;
+const unlabeled = true;
 ```
 
 ```text
-const answer = 6 * 7;
+literal-output = true
 ```
 
 ```javascript
-const answer = 6 * 7;
+const highlighted = true;
 ```
 
 ```totally-not-a-language
-const answer = 6 * 7;
+const unknownLabelControl = true;
 ```
 
-### Alias examples
+### Alias controls
 
 ```javascript
 const canonical = "javascript";
@@ -372,263 +355,156 @@ const canonical = "javascript";
 const alias = "js";
 ```
 
-```yaml
-phase: M8
-mathjax: advanced
-```
-
-```yml
-phase: M8
-mathjax: advanced
-```
-
----
-
-### Gallery A — Web, UI & interchange
-
 <details>
-<summary><strong>Open 5-language gallery — JavaScript, TypeScript, HTML, CSS, JSON</strong></summary>
+<summary><strong>Gallery A — Web & UI (5)</strong></summary>
 
-#### JavaScript
 ```javascript
-const systems = ["Markdown", "GFM", "GitHub"];
-console.table(systems.map((name, level) => ({ name, level })));
+console.log("JavaScript");
 ```
-
-#### TypeScript
 ```typescript
-type Renderer = "linguist" | "mathjax";
-const renderer: Renderer = "mathjax";
+const phase: number = 9;
 ```
-
-#### HTML
 ```html
-<details open><summary>Renderer</summary><p>MathJax lives beside HTML.</p></details>
+<details><summary>HTML</summary></details>
 ```
-
-#### CSS
 ```css
-.math-lab { display: grid; gap: 1rem; }
+.readme { display: block; }
 ```
-
-> [!NOTE]
-> This CSS is only a highlighting example; it is not a README stylesheet.
-
-#### JSON
 ```json
-{"phase":"M8","renderer":"MathJax","executable":false}
+{"phase":"M9"}
 ```
 
 </details>
 
-### Gallery B — Systems & compiled
-
 <details>
-<summary><strong>Open 8-language gallery — C, C++, Rust, Go, Java, C#, Kotlin, Swift</strong></summary>
+<summary><strong>Gallery B — Systems & compiled (8)</strong></summary>
 
-#### C
 ```c
-#include <stdio.h>
-int main(void) { puts("M8"); return 0; }
+int main(void){return 0;}
 ```
-
-#### C++
 ```cpp
 #include <iostream>
-int main() { std::cout << "M8\n"; }
+int main(){std::cout << "C++";}
 ```
-
-#### Rust
 ```rust
-fn main() { println!("MathJax layer online"); }
+fn main(){println!("Rust");}
 ```
-
-#### Go
 ```go
 package main
-import "fmt"
-func main() { fmt.Println("M8") }
+func main(){}
 ```
-
-#### Java
 ```java
-class Main { public static void main(String[] a) { System.out.println("M8"); } }
+class Main { public static void main(String[] a){} }
 ```
-
-#### C#
 ```csharp
-Console.WriteLine("M8");
+Console.WriteLine("C#");
 ```
-
-#### Kotlin
 ```kotlin
-fun main() = println("M8")
+fun main() = println("Kotlin")
 ```
-
-#### Swift
 ```swift
-print("M8")
+print("Swift")
 ```
 
 </details>
 
-### Gallery C — Scripting
-
 <details>
-<summary><strong>Open 6-language gallery — Python, Ruby, PHP, Lua, Bash, PowerShell</strong></summary>
+<summary><strong>Gallery C — Scripting (6)</strong></summary>
 
-#### Python
 ```python
-from math import pi
-print(pi)
+print("Python")
 ```
-
-#### Ruby
 ```ruby
-puts Math::PI
+puts "Ruby"
 ```
-
-#### PHP
 ```php
-<?php echo M_PI;
+<?php echo "PHP";
 ```
-
-#### Lua
 ```lua
-print(math.pi)
+print("Lua")
 ```
-
-#### Bash
 ```bash
-printf '%s\n' 'MathJax is rendering, not executing'
+printf '%s\n' Bash
 ```
-
-#### PowerShell
 ```powershell
-Write-Output 'M8'
+Write-Output 'PowerShell'
 ```
 
 </details>
 
-### Gallery D — Data, config & infrastructure
-
 <details>
-<summary><strong>Open 5-language gallery — SQL, YAML, TOML, XML, Dockerfile</strong></summary>
+<summary><strong>Gallery D — Data / config / infrastructure (5)</strong></summary>
 
-#### SQL
 ```sql
-SELECT 'M8' AS phase, 'MathJax' AS renderer;
+SELECT 'SQL';
 ```
-
-#### YAML
 ```yaml
-phase: M8
-renderer: MathJax
+phase: M9
 ```
-
-#### TOML
 ```toml
-phase = "M8"
-renderer = "MathJax"
+phase = "M9"
 ```
-
-#### XML
 ```xml
-<readme phase="M8" renderer="MathJax" />
+<phase>M9</phase>
 ```
-
-#### Dockerfile
 ```dockerfile
 FROM alpine:3.22
-CMD ["echo", "M8"]
 ```
 
 </details>
 
-### Gallery E — Scientific & functional
-
 <details>
-<summary><strong>Open 5-language gallery — R, Julia, Haskell, Scala, LaTeX</strong></summary>
+<summary><strong>Gallery E — Scientific / functional (5)</strong></summary>
 
-#### R
 ```r
 print(pi)
 ```
-
-#### Julia
 ```julia
 println(pi)
 ```
-
-#### Haskell
 ```haskell
 main = print pi
 ```
-
-#### Scala
 ```scala
 @main def run() = println(math.Pi)
 ```
-
-#### LaTeX source
 ```latex
-\[
-\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}
-\]
+\int_0^1 x^2\,dx
 ```
 
-> [!IMPORTANT]
-> The block above is **highlighted LaTeX source**. It is intentionally not the MathJax-rendered version.
-
 </details>
-
-### Gallery F — Documentation & literal modes
 
 <details>
-<summary><strong>Open 4-mode gallery — Markdown, diff, plaintext, INI</strong></summary>
+<summary><strong>Gallery F — Documentation / literal (4)</strong></summary>
 
-#### Markdown
 ```markdown
-# M8
-Inline math: $E=mc^2$
+# Markdown
 ```
-
-#### Diff
 ```diff
-- Math baseline
-+ Advanced MathJax mathematical showcase
+- old
++ new
 ```
-
-#### Text
 ```text
-mathjax ............... ONLINE
-delimiter-modes ....... 4
-rendering ............. GitHub
-execution ............. NONE
+plaintext
 ```
-
-#### INI
 ```ini
-[math]
-phase=M8
-renderer=MathJax
+[readme]
+phase=M9
 ```
 
 </details>
 
-### M7 inventory retained
+| Gallery | Count |
+| --- | ---: |
+| Web & UI | 5 |
+| Systems & compiled | 8 |
+| Scripting | 6 |
+| Data/config/infra | 5 |
+| Scientific/functional | 5 |
+| Documentation/meta | 4 |
+| **Total** | **33** |
 
-| Gallery | Modes | Count |
-| --- | --- | ---: |
-| Web & UI | JavaScript, TypeScript, HTML, CSS, JSON | 5 |
-| Systems & compiled | C, C++, Rust, Go, Java, C#, Kotlin, Swift | 8 |
-| Scripting | Python, Ruby, PHP, Lua, Bash, PowerShell | 6 |
-| Data/config/infra | SQL, YAML, TOML, XML, Dockerfile | 5 |
-| Scientific/functional | R, Julia, Haskell, Scala, LaTeX | 5 |
-| Docs/meta | Markdown, diff, plaintext, INI | 4 |
-| **Total** |  | **33** |
-
-### Fence recursion
+### Fence recursion retained
 
 ````markdown
 ```typescript
@@ -648,17 +524,15 @@ Relative paths keep local media branch-aware.[^relative-links]
 
 GitHub sanitizes the HTML hybrid layer.[^sanitization]
 
-Collapsed sections use `<details>` and `<summary>`.[^details]
-
 Linguist supplies syntax grammars for fenced code.[^linguist]
 
-GitHub uses MathJax to render LaTeX-formatted mathematical expressions in Markdown files.[^mathjax]
+GitHub renders LaTeX-formatted mathematics with MathJax.[^mathjax]
+
+GitHub renders Mermaid source placed inside a fenced block labeled `mermaid`.[^mermaid]
 
 ---
 
 # ACT IV — HTML HYBRID
-
-> M6 established the HTML boundary; M8 demonstrates that MathJax can coexist with progressive disclosure and other Markdown structures.
 
 ## LEVEL 10 — REPOSITORY-OWNED MEDIA SYSTEM
 
@@ -674,7 +548,7 @@ GitHub uses MathJax to render LaTeX-formatted mathematical expressions in Markdo
 
 <img src="./assets/scaling-ruler.svg" alt="SVG scaling ruler" width="50%">
 
-[![Clickable local SVG portal](./assets/clickable-portal.svg)](#level-17--advanced-mathjax-mathematical-showcase)
+[![Clickable local SVG portal](./assets/clickable-portal.svg)](#level-18--full-mermaid-diagram-gallery)
 
 ---
 
@@ -726,6 +600,9 @@ The `open` attribute changes initial disclosure state without JavaScript.
 
 </details>
 
+> [!TIP]
+> M9 uses `<details>` heavily: large diagrams are opt-in visual payloads instead of permanent scrolling cost.
+
 ---
 
 ## LEVEL 13 — HTML TABLE & LAYOUT LAB
@@ -761,8 +638,9 @@ The `open` attribute changes initial disclosure state without JavaScript.
 ```
 
 ```text
-Markdown owns document structure by default.
-HTML enters where it adds missing semantics or interaction.
+Markdown owns structure by default.
+HTML enters where it adds missing semantics or disclosure.
+Advanced renderers enter through explicit fences or delimiters.
 ```
 
 ---
@@ -781,8 +659,8 @@ HTML enters where it adds missing semantics or interaction.
 | --- | --- |
 | Interaction | `<details>` / `<summary>` |
 | Theme-aware media | `<picture>` / `<source>` |
-| Keyboard notation | `<kbd>` |
-| Mathematics | GitHub MathJax syntax |
+| Mathematics | MathJax delimiters / `math` fence |
+| Diagrams | `mermaid` fence |
 | Styling | GitHub renderer + designed assets |
 | Application behavior | Build an actual webpage/app |
 
@@ -790,10 +668,10 @@ HTML enters where it adds missing semantics or interaction.
 
 ## LEVEL 16 — HYBRID INTERFACE BOSS
 
-`Markdown` · `GFM` · `GitHub` · `HTML` · `Local Asset` · `MathJax`
+`Markdown` · `GFM` · `GitHub` · `HTML` · `MathJax` · `Mermaid`
 
 <details open>
-<summary><strong>M8 SYSTEM CONSOLE</strong></summary>
+<summary><strong>M9 SYSTEM CONSOLE</strong></summary>
 
 <table>
   <tr><th>System</th><th>Status</th></tr>
@@ -801,10 +679,11 @@ HTML enters where it adds missing semantics or interaction.
   <tr><td>HTML disclosure</td><td><strong>ONLINE</strong></td></tr>
   <tr><td>Linguist syntax routing</td><td><strong>33 MODES</strong></td></tr>
   <tr><td>MathJax rendering</td><td><strong>ADVANCED</strong></td></tr>
-  <tr><td>JavaScript authored by README</td><td><del>ABSENT</del></td></tr>
+  <tr><td>Mermaid rendering</td><td><strong>FULL GALLERY</strong></td></tr>
+  <tr><td>README-authored JavaScript</td><td><del>ABSENT</del></td></tr>
 </table>
 
-Inline system equation: $\text{Markdown}+\text{MathJax}=\text{M8}$.
+Inline equation: $\text{source}+\text{renderer}=\text{visual documentation}$.
 
 </details>
 
@@ -812,320 +691,97 @@ Inline system equation: $\text{Markdown}+\text{MathJax}=\text{M8}$.
 
 # ACT V — ADVANCED RENDERING
 
-> GitHub's advanced renderers turn selected fenced or delimited source into specialized visual output rather than ordinary code.
+> Advanced renderers convert selected source into mathematical notation, diagrams, maps, and eventually 3D models.
 
 ## LEVEL 17 — ADVANCED MATHJAX MATHEMATICAL SHOWCASE
 
 `GitHub` · `MathJax` · `LaTeX`
 
-GitHub supports LaTeX-formatted math in Markdown and renders it with MathJax.[^mathjax]
+M8 remains live, with all four GitHub math entry routes.
 
-### 17.1 — Four entry routes
+Inline: $E=mc^2$ and $\sin^2\theta+\cos^2\theta=1$.
 
-#### Standard inline delimiters
+Protected inline: $`\left\{x_i\right\}_{i=1}^{n}`$.
 
-Einstein's mass-energy relation is $E=mc^2$, and the Pythagorean identity is $\sin^2\theta+\cos^2\theta=1$.
-
-Source:
-
-```markdown
-$E=mc^2$
-```
-
-#### Backtick-protected inline math
-
-When math source overlaps visually with Markdown punctuation, GitHub also supports the `$`backtick form:
-
-$`\left\{x_i\right\}_{i=1}^{n},\quad x_i\in\mathbb{R}`$
-
-Source:
-
-````markdown
-$`\left\{x_i\right\}_{i=1}^{n}`$
-````
-
-#### Double-dollar display math
-
-**Cauchy-Schwarz inequality**\
 $$\left(\sum_{k=1}^{n}a_kb_k\right)^2\leq\left(\sum_{k=1}^{n}a_k^2\right)\left(\sum_{k=1}^{n}b_k^2\right)$$
 
-#### Fenced `math` block
-
-```math
-\frac{-b\pm\sqrt{b^2-4ac}}{2a}
-```
-
-> [!TIP]
-> Both block forms are valid. Fenced `math` blocks are especially convenient when a long equation should remain visually isolated in raw Markdown source.
-
----
-
-### 17.2 — Symbol, relation & structure arsenal
-
-| Family | Live inline example |
-| --- | --- |
-| Fractions | $\frac{a+b}{c+d}$ |
-| Roots | $\sqrt{x}$, $\sqrt[n]{x}$ |
-| Powers / indices | $x_i^2$, $a_{mn}$ |
-| Greek | $\alpha,\beta,\gamma,\Delta,\Omega$ |
-| Relations | $x\le y$, $a\ne b$, $u\approx v$ |
-| Sets | $x\in A$, $A\subseteq B$, $A\cup B$ |
-| Logic | $P\land Q$, $P\lor Q$, $P\Rightarrow Q$ |
-| Quantifiers | $\forall x\in X,\;\exists y\in Y$ |
-| Vectors | $\mathbf{x}$, $\vec v$ |
-| Accents | $\hat\theta$, $\bar x$, $\tilde f$ |
-| Norms | $\lVert x\rVert_2$ |
-| Inner product | $\langle u,v\rangle$ |
-
-```math
-\underbrace{\frac{1}{n}\sum_{i=1}^{n}x_i}_{\text{sample mean}}
-\quad\text{and}\quad
-\overbrace{a+b+c}^{\text{three terms}}
-```
-
----
-
-### 17.3 — Algebra & aligned derivations
-
-```math
-\begin{aligned}
-(a+b)^3
-&=(a+b)(a+b)^2\\
-&=(a+b)(a^2+2ab+b^2)\\
-&=a^3+3a^2b+3ab^2+b^3.
-\end{aligned}
-```
-
-```math
-\begin{aligned}
-x^2-6x+5
-&=(x^2-6x+9)-4\\
-&=(x-3)^2-4.
-\end{aligned}
-```
-
-### Piecewise functions
-
-```math
-f(x)=
-\begin{cases}
--x, & x<0,\\
-0, & x=0,\\
-x^2, & x>0.
-\end{cases}
-```
-
----
-
-### 17.4 — Matrices, determinants & systems
+### Matrices & linear algebra
 
 ```math
 A=\begin{pmatrix}
-1 & 2 & 3\\
-0 & 4 & 5\\
-0 & 0 & 6
+1&2\\
+3&4
 \end{pmatrix},
 \qquad
-A^{\mathsf T}=\begin{pmatrix}
-1 & 0 & 0\\
-2 & 4 & 0\\
-3 & 5 & 6
-\end{pmatrix}
-```
-
-```math
-\det\begin{pmatrix}
-a & b\\
-c & d
-\end{pmatrix}=ad-bc
-```
-
-```math
-\begin{pmatrix}
-2 & 1\\
-1 & -1
-\end{pmatrix}
-\begin{pmatrix}x\\y\end{pmatrix}
-=
-\begin{pmatrix}7\\1\end{pmatrix}
-```
-
-### Linear algebra identities
-
-```math
 Av=\lambda v,
 \qquad
 \operatorname{rank}(A)+\operatorname{nullity}(A)=n
 ```
 
-```math
-A=Q\Lambda Q^{\mathsf T}
-\qquad\text{and}\qquad
-A=U\Sigma V^{\mathsf T}
-```
+### Calculus
 
 ```math
-\operatorname{proj}_{u}(v)
-=\frac{\langle v,u\rangle}{\langle u,u\rangle}u
-```
-
----
-
-### 17.5 — Single-variable calculus
-
-#### Limits
-
-```math
-\lim_{x\to0}\frac{\sin x}{x}=1
-```
-
-```math
-\lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n=e
-```
-
-#### Derivatives
-
-```math
-\frac{d}{dx}\left(x^n\right)=nx^{n-1},
-\qquad
-\frac{d}{dx}e^x=e^x
-```
-
-```math
-\frac{d}{dx}f(g(x))=f'(g(x))g'(x)
-```
-
-#### Integrals
-
-```math
-\int_a^b f(x)\,dx
-```
-
-```math
-\int x e^x\,dx=xe^x-e^x+C
-```
-
-#### Fundamental theorem of calculus
-
-```math
-\frac{d}{dx}\int_a^x f(t)\,dt=f(x)
-```
-
----
-
-### 17.6 — Multivariable calculus
-
-```math
-\nabla f(x_1,\dots,x_n)
-=
+\nabla f(x)=
 \begin{pmatrix}
 \frac{\partial f}{\partial x_1}\\
 \vdots\\
 \frac{\partial f}{\partial x_n}
-\end{pmatrix}
-```
-
-```math
-H_f(x)=
-\begin{pmatrix}
-\frac{\partial^2 f}{\partial x_1^2} & \cdots & \frac{\partial^2 f}{\partial x_1\partial x_n}\\
-\vdots & \ddots & \vdots\\
-\frac{\partial^2 f}{\partial x_n\partial x_1} & \cdots & \frac{\partial^2 f}{\partial x_n^2}
-\end{pmatrix}
-```
-
-```math
-\iint_D f(x,y)\,dA,
+\end{pmatrix},
 \qquad
-\iiint_V \rho(x,y,z)\,dV
+\frac{d}{dx}\int_a^x f(t)\,dt=f(x)
 ```
 
-```math
-\nabla\cdot\mathbf{F}
-=\frac{\partial F_1}{\partial x_1}+\cdots+\frac{\partial F_n}{\partial x_n}
-```
-
----
-
-### 17.7 — Sums, products & infinite series
+### Probability
 
 ```math
-\sum_{k=0}^{n}r^k=\frac{1-r^{n+1}}{1-r},\qquad r\ne1
-```
-
-```math
-\sum_{n=0}^{\infty}\frac{x^n}{n!}=e^x
-```
-
-```math
-\sin x=\sum_{n=0}^{\infty}(-1)^n\frac{x^{2n+1}}{(2n+1)!}
-```
-
-```math
-n!=\prod_{k=1}^{n}k
-```
-
-```math
-\zeta(s)=\sum_{n=1}^{\infty}\frac{1}{n^s},\qquad \operatorname{Re}(s)>1
-```
-
----
-
-### 17.8 — Probability & statistics
-
-```math
-P(A\mid B)=\frac{P(B\mid A)P(A)}{P(B)}
-```
-
-```math
-\mathbb{E}[X]=\sum_x x\,P(X=x),
+P(A\mid B)=\frac{P(B\mid A)P(A)}{P(B)},
 \qquad
-\operatorname{Var}(X)=\mathbb{E}[X^2]-\mathbb{E}[X]^2
+\operatorname{Var}(X)=\mathbb E[X^2]-\mathbb E[X]^2
 ```
+
+### Complex / Fourier
 
 ```math
-f_X(x)=\frac{1}{\sigma\sqrt{2\pi}}
-\exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\right)
+e^{i\pi}+1=0,
+\qquad
+\widehat f(\xi)=\int_{-\infty}^{\infty}f(x)e^{-2\pi i x\xi}\,dx
 ```
+
+### Math composition
+
+| Concept | Expression |
+| --- | --- |
+| Norm | $\lVert x\rVert_2$ |
+| Determinant | $\det A$ |
+| Gradient | $\nabla f(x)$ |
+| Expectation | $\mathbb E[X]$ |
+
+> [!NOTE]
+> Math remains valid inside alerts: $e^{i\pi}+1=0$.
+
+<details>
+<summary><strong>Open a MathJax chamber</strong></summary>
 
 ```math
-\operatorname{Cov}(X,Y)
-=\mathbb{E}\!\left[(X-\mathbb{E}X)(Y-\mathbb{E}Y)\right]
+R_\theta=\begin{pmatrix}
+\cos\theta&-\sin\theta\\
+\sin\theta&\cos\theta
+\end{pmatrix},
+\qquad
+R_\theta^{\mathsf T}R_\theta=I
 ```
 
-```math
-\bar X\xrightarrow[n\to\infty]{\text{a.s.}}\mu
+</details>
+
+### Literal-dollar parser case
+
+$`\sqrt{\$4}=2`$ and <span>$</span>100 can coexist with $100/2=50$ on the same line.
+
+### LaTeX source vs rendered math
+
+```latex
+\int_{-\infty}^{\infty}e^{-x^2}\,dx=\sqrt{\pi}
 ```
-
----
-
-### 17.9 — Complex numbers & Fourier analysis
-
-#### Euler's identity
-
-```math
-e^{i\pi}+1=0
-```
-
-```math
-e^{i\theta}=\cos\theta+i\sin\theta
-```
-
-#### Fourier transform
-
-```math
-\widehat f(\xi)=\int_{-\infty}^{\infty}
-f(x)e^{-2\pi i x\xi}\,dx
-```
-
-#### Fourier series
-
-```math
-f(x)\sim\frac{a_0}{2}
-+\sum_{n=1}^{\infty}\left(a_n\cos nx+b_n\sin nx\right)
-```
-
-#### Gaussian integral
 
 ```math
 \int_{-\infty}^{\infty}e^{-x^2}\,dx=\sqrt{\pi}
@@ -1133,247 +789,606 @@ f(x)\sim\frac{a_0}{2}
 
 ---
 
-### 17.10 — Optimization & constrained systems
+## LEVEL 18 — FULL MERMAID DIAGRAM GALLERY
 
-```math
-\nabla f(x^\star)=0
-```
+`GitHub` · `Mermaid` · `Diagram Renderer`
 
-```math
-\mathcal{L}(x,\lambda)=f(x)+\lambda g(x)
-```
+GitHub can render Mermaid diagrams directly in Markdown files when the source is placed in a fenced code block with the `mermaid` identifier.[^mermaid]
 
-```math
-\begin{aligned}
-\nabla_x\mathcal{L}(x,\lambda)&=0,\\
-g(x)&=0.
-\end{aligned}
-```
-
-```math
-x^\star=\operatorname*{arg\,min}_{x\in\mathcal X}f(x)
-```
-
----
-
-### 17.11 — Sets, logic & abstract notation
-
-```math
-A\triangle B=(A\setminus B)\cup(B\setminus A)
-```
-
-```math
-\forall\varepsilon>0\;\exists\delta>0:\quad
-|x-a|<\delta\Rightarrow|f(x)-f(a)|<\varepsilon
-```
-
-```math
-f:X\to Y,
-\qquad
-x\mapsto f(x)
-```
-
-```math
-\mathbb{N}\subset\mathbb{Z}\subset\mathbb{Q}\subset\mathbb{R}\subset\mathbb{C}
-```
-
----
-
-### 17.12 — Math inside tables
-
-| Concept | Rendered expression | Meaning |
-| --- | --- | --- |
-| Euclidean norm | $\lVert x\rVert_2$ | vector magnitude |
-| Dot product | $x^{\mathsf T}y$ | inner product in $\mathbb R^n$ |
-| Expected value | $\mathbb E[X]$ | probability average |
-| Gradient | $\nabla f(x)$ | first derivatives |
-| Determinant | $\det(A)$ | scalar matrix invariant |
-| Fourier transform | $\widehat f(\xi)$ | frequency representation |
-
----
-
-### 17.13 — Math inside alerts
-
-> [!NOTE]
-> The identity $\sin^2\theta+\cos^2\theta=1$ renders inside a GitHub alert.
-
-> [!TIP]
-> For a normalized vector $u$, the projection simplifies to $\operatorname{proj}_u(v)=\langle v,u\rangle u$.
-
-> [!WARNING]
-> A rendered implication $P\Rightarrow Q$ is still only as valid as the argument establishing it.
-
----
-
-### 17.14 — Math inside `<details>`
-
-<details>
-<summary><strong>Open the matrix chamber</strong></summary>
-
-```math
-R_\theta=
-\begin{pmatrix}
-\cos\theta & -\sin\theta\\
-\sin\theta & \cos\theta
-\end{pmatrix}
-```
-
-```math
-R_\theta^{\mathsf T}R_\theta=I,
-\qquad
-\det(R_\theta)=1
-```
-
-</details>
-
-<details>
-<summary><strong>Open the calculus chamber</strong></summary>
-
-```math
-\int_0^1 x^p\,dx=\frac{1}{p+1},\qquad p>-1
-```
-
-```math
-\frac{d}{dx}\log x=\frac1x
-```
-
-</details>
-
-<details>
-<summary><strong>Open the probability chamber</strong></summary>
-
-```math
-P(A\cap B)=P(A\mid B)P(B)
-```
-
-```math
-\mathbb{E}[aX+b]=a\mathbb{E}[X]+b
-```
-
-</details>
-
----
-
-### 17.15 — Literal dollar-sign survival lab
-
-A dollar sign can be data rather than a delimiter.
-
-Inside a math expression, escape the literal currency symbol:
-
-$`\sqrt{\$4}=2`$
-
-Source:
+### 18.1 — Renderer anatomy
 
 ````markdown
-$`\sqrt{\$4}=2`$
+```mermaid
+flowchart LR
+    A[Source] --> B[Diagram]
+```
 ````
 
-Outside math but on the same line, GitHub documents using a span around the literal dollar sign. To split <span>$</span>100 in half, calculate $100/2=50$.
-
-Source:
-
-```html
-To split <span>$</span>100 in half, calculate $100/2=50$.
+```text
+Markdown fence
+    │
+    ├── info string: mermaid
+    │
+    └── diagram-specific source
+            ↓
+       Mermaid parser
+            ↓
+        rendered SVG
 ```
 
-> [!IMPORTANT]
-> This section is deliberately parser-sensitive. Do not remove the backslash or `<span>` merely because the source appears visually redundant.
+The same text under a `text` fence is only source. Under a `mermaid` fence it becomes a specialized render surface.
+
+### Gallery index
+
+| # | Family | Purpose | M9 status |
+| :---: | --- | --- | :---: |
+| `1` | Flowchart | process / architecture / routing | ✅ live |
+| `2` | Sequence | interactions over time | ✅ live |
+| `3` | State | state machines | ✅ live |
+| `4` | Class | object/type relationships | ✅ live |
+| `5` | ER | data relationships | ✅ live |
+| `6` | User Journey | scored user experience stages | ✅ live |
+| `7` | Gantt | schedule / project timeline | ✅ live |
+| `8` | Pie | proportional composition | ✅ live |
+| `9` | GitGraph | branch / merge history | ✅ live |
+| `10` | Mindmap | hierarchical ideation | ✅ live |
+| `11` | Timeline | chronological narrative | ✅ live |
+| `12` | Quadrant | two-axis positioning | ✅ live |
+| `13` | Requirement | requirement traceability | ✅ live |
+| `14` | Architecture | service/resource topology | ⚠️ v11.1+ canary |
 
 ---
 
-### 17.16 — Highlighted LaTeX source vs rendered MathJax
-
-**Highlighted source:**
-
-```latex
-\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}
-```
-
-**Rendered expression:**
-
-```math
-\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}
-```
-
-````text
-```latex  → Linguist syntax highlighting → source remains source
-```math   → GitHub MathJax renderer       → source becomes mathematics
-````
-
----
-
-### 17.17 — Mathematical boss composition
+### 18.2 — Flowchart laboratory
 
 <details open>
-<summary><strong>MATHEMATICAL FINAL FORM — expanded by default</strong></summary>
+<summary><strong>Flowchart — directions, shapes, labels, edge styles, subgraphs</strong></summary>
 
-```math
-\begin{aligned}
-\mathcal{R}
-&=\text{Markdown}
-\oplus\text{GFM}
-\oplus\text{HTML}
-\oplus\text{Linguist}
-\oplus\text{MathJax},\\[4pt]
-\nabla\mathcal{R}&\ne0,\\[4pt]
-\det(I)&=1,\\[4pt]
-\int_{-\infty}^{\infty}e^{-x^2}\,dx&=\sqrt{\pi},\\[4pt]
-e^{i\pi}+1&=0.
-\end{aligned}
+```mermaid
+flowchart LR
+    SRC([README source]) --> PARSE{Valid syntax?}
+    PARSE -- yes --> GH[GitHub renderer]
+    PARSE -- no --> ERR[/Parser error/]
+    GH --> OUT[(Rendered result)]
+    ERR -. fix source .-> SRC
 ```
 
-```math
-\boxed{
-\text{Readable source}
-+\text{correct notation}
-+\text{renderer awareness}
-=\text{useful mathematical documentation}
-}
+```mermaid
+flowchart TB
+    subgraph Core[Portable Markdown]
+        A[Typography] --> B[Blocks]
+        B --> C[Links]
+    end
+    subgraph Extensions[GitHub extensions]
+        D[Alerts] --> E[MathJax]
+        E --> F[Mermaid]
+    end
+    Core --> Extensions
+```
+
+```mermaid
+flowchart LR
+    A[Normal edge] --> B[Destination]
+    A -. dotted .-> C[Optional]
+    A ==> D[Strong path]
+```
+
+> [!TIP]
+> The gallery intentionally relies on Mermaid's default theme instead of hard-coded fill colors so GitHub can adapt diagrams more safely across light and dark themes.
+
+</details>
+
+---
+
+### 18.3 — Sequence diagram
+
+<details>
+<summary><strong>Sequence — actors, participants, activation, loops, alternatives, notes</strong></summary>
+
+```mermaid
+sequenceDiagram
+    actor Reader
+    participant GH as GitHub
+    participant MD as README.md
+    participant M as Mermaid
+
+    Reader->>GH: Open repository
+    GH->>MD: Load Markdown source
+    MD->>M: Send mermaid fence
+    activate M
+    M-->>GH: Return rendered diagram
+    deactivate M
+    GH-->>Reader: Display README
+
+    loop Every diagram
+        Reader->>GH: Expand details panel
+        GH-->>Reader: Reveal visual model
+    end
+
+    alt Valid Mermaid
+        Note over MD,M: Source remains diffable
+    else Parser error
+        M-->>GH: Rendering failure
+    end
 ```
 
 </details>
 
-### M8 renderer rule
+---
+
+### 18.4 — State diagram
+
+<details>
+<summary><strong>State — lifecycle and composite state</strong></summary>
+
+```mermaid
+stateDiagram-v2
+    [*] --> Draft
+    Draft --> Validating
+    Validating --> Broken: parser error
+    Broken --> Draft: edit source
+    Validating --> Rendered: valid
+    Rendered --> Published
+    Published --> Draft: next phase
+
+    state Rendered {
+        [*] --> SVG
+        SVG --> Accessible
+        Accessible --> [*]
+    }
+```
+
+</details>
+
+---
+
+### 18.5 — Class diagram
+
+<details>
+<summary><strong>Class — fields, methods, inheritance, composition</strong></summary>
+
+```mermaid
+classDiagram
+    class Renderer {
+        +name: String
+        +render(source)
+    }
+    class MathJax {
+        +renderLatex(source)
+    }
+    class Mermaid {
+        +parse(diagram)
+        +renderSvg(diagram)
+    }
+    class README {
+        +sections: Section[]
+        +render()
+    }
+
+    Renderer <|-- MathJax
+    Renderer <|-- Mermaid
+    README *-- Renderer
+```
+
+</details>
+
+---
+
+### 18.6 — Entity relationship diagram
+
+<details>
+<summary><strong>ER — repository documentation model</strong></summary>
+
+```mermaid
+erDiagram
+    REPOSITORY ||--|| README : contains
+    REPOSITORY ||--o{ ASSET : owns
+    README ||--o{ SECTION : contains
+    SECTION ||--o{ DIAGRAM : embeds
+    DIAGRAM }o--|| RENDERER : uses
+
+    README {
+        string path
+        string branch
+    }
+    DIAGRAM {
+        string type
+        string source
+    }
+    ASSET {
+        string filename
+        string format
+    }
+```
+
+</details>
+
+---
+
+### 18.7 — User journey
+
+<details>
+<summary><strong>User Journey — reading a maximally overengineered README</strong></summary>
+
+```mermaid
+journey
+    title Reader enters Markdown Final Form
+    section Arrival
+      See theme-aware hero: 5: Reader
+      Understand navigation: 4: Reader
+    section Exploration
+      Open syntax gallery: 4: Reader
+      Inspect MathJax: 5: Reader
+      Expand Mermaid diagrams: 5: Reader
+    section Endgame
+      Reach Final Boss: 4: Reader
+      Discover restraint is still locked: 2: Reader
+```
+
+</details>
+
+---
+
+### 18.8 — Gantt chart
+
+<details>
+<summary><strong>Gantt — phase progression</strong></summary>
+
+```mermaid
+gantt
+    title Markdown Final Form — renderer phases
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b %d
+
+    section Complete
+    M7 Syntax Lab      :done, m7, 2026-08-17, 1d
+    M8 MathJax         :done, m8, after m7, 1d
+    M9 Mermaid         :active, m9, after m8, 1d
+
+    section Next
+    M10 GeoJSON        :m10, after m9, 1d
+    M11 TopoJSON       :m11, after m10, 1d
+    M12 STL            :m12, after m11, 1d
+```
+
+</details>
+
+---
+
+### 18.9 — Pie chart
+
+<details>
+<summary><strong>Pie — completely scientific README composition</strong></summary>
+
+```mermaid
+pie showData
+    title README Power Allocation
+    "Markdown / GFM" : 24
+    "HTML Hybrid" : 16
+    "Linguist" : 16
+    "MathJax" : 18
+    "Mermaid" : 21
+    "Restraint" : 5
+```
+
+</details>
+
+---
+
+### 18.10 — GitGraph
+
+<details>
+<summary><strong>GitGraph — phase branch lineage</strong></summary>
+
+```mermaid
+gitGraph
+    commit id: "M6"
+    branch syntax
+    checkout syntax
+    commit id: "M7"
+    checkout main
+    merge syntax
+    branch math
+    checkout math
+    commit id: "M8"
+    checkout main
+    merge math
+    branch diagrams
+    checkout diagrams
+    commit id: "M9"
+```
+
+> [!NOTE]
+> This is a conceptual phase graph, not a literal reconstruction of every repository commit SHA.
+
+</details>
+
+---
+
+### 18.11 — Mindmap
+
+<details>
+<summary><strong>Mindmap — README capability tree</strong></summary>
+
+```mermaid
+mindmap
+  root((Markdown Final Form))
+    Core
+      Typography
+      Lists
+      Links
+      Tables
+    GitHub
+      Alerts
+      Linguist
+      MathJax
+      Mermaid
+    Hybrid
+      Details
+      Picture
+      Tables
+      Local SVG
+    Endgame
+      Parser Lab
+      Achievements
+      Final Boss
+```
+
+</details>
+
+---
+
+### 18.12 — Timeline
+
+<details>
+<summary><strong>Timeline — renderer evolution</strong></summary>
+
+```mermaid
+timeline
+    title Advanced rendering evolution
+    M5 : Repository-owned SVG media
+    M6 : HTML hybrid interfaces
+    M7 : Linguist syntax laboratory
+    M8 : Advanced MathJax
+    M9 : Full Mermaid gallery
+    M10 : GeoJSON maps
+    M11 : TopoJSON maps
+    M12 : STL 3D
+```
+
+</details>
+
+---
+
+### 18.13 — Quadrant chart
+
+<details>
+<summary><strong>Quadrant — documentation choices by complexity and visual payoff</strong></summary>
+
+```mermaid
+quadrantChart
+    title Documentation mechanism selection
+    x-axis Low source complexity --> High source complexity
+    y-axis Low visual payoff --> High visual payoff
+    quadrant-1 Powerful but expensive
+    quadrant-2 High leverage
+    quadrant-3 Keep it simple
+    quadrant-4 Complexity trap
+    Markdown: [0.18, 0.68]
+    GFM Table: [0.30, 0.62]
+    Local SVG: [0.55, 0.80]
+    MathJax: [0.62, 0.86]
+    Mermaid: [0.72, 0.90]
+    Fake README App: [0.96, 0.18]
+```
+
+</details>
+
+---
+
+### 18.14 — Requirement diagram
+
+<details>
+<summary><strong>Requirement — traceability from source to rendered result</strong></summary>
+
+```mermaid
+requirementDiagram
+    requirement readable_source {
+        id: REQ-1
+        text: README source stays understandable
+        risk: medium
+        verifymethod: inspection
+    }
+
+    requirement github_render {
+        id: REQ-2
+        text: Diagram renders on GitHub
+        risk: high
+        verifymethod: test
+    }
+
+    element mermaid_block {
+        type: documentation
+        docref: README.md
+    }
+
+    mermaid_block - satisfies -> readable_source
+    mermaid_block - verifies -> github_render
+```
+
+</details>
+
+---
+
+### 18.15 — Architecture v11.1+ compatibility canary
+
+<details>
+<summary><strong>Architecture — modern Mermaid compatibility canary</strong></summary>
+
+Mermaid documents Architecture diagrams as a **v11.1+** family. GitHub documents Mermaid rendering but does not promise a specific bundled Mermaid version, so this panel is deliberately treated as a compatibility canary rather than critical navigation.
+
+```mermaid
+architecture-beta
+    group repo(cloud)[Repository]
+
+    service readme(server)[README] in repo
+    service assets(disk)[Assets] in repo
+    service github(server)[GitHub Renderer]
+    service reader(internet)[Reader]
+
+    readme:R --> L:github
+    assets:R --> L:github
+    github:R --> L:reader
+```
+
+If GitHub's Mermaid bundle does not support `architecture-beta`, the rest of the README remains functional and this single panel identifies the compatibility gap.
+
+</details>
+
+---
+
+### 18.16 — Modern Mermaid capability shelf
+
+Current Mermaid documentation contains additional families beyond the conservative M9 live set, including newer chart types such as Sankey, XY, Block, Packet, Kanban, Radar, Treemap, Venn, and others.
+
+| Family | Upstream Mermaid status | README strategy |
+| --- | --- | --- |
+| Architecture | v11.1+ | live compatibility canary |
+| Sankey | modern | source-only candidate until GitHub version is confirmed |
+| XY Chart | modern | source-only candidate |
+| Block Diagram | modern | source-only candidate |
+| Packet | modern | source-only candidate |
+| Kanban | modern | source-only candidate |
+| Radar | modern | source-only candidate |
+| Treemap | modern | source-only candidate |
+| Venn | modern | source-only candidate |
+
+> [!IMPORTANT]
+> “Mermaid supports it” and “GitHub's current Mermaid bundle supports it” are not identical claims. M9 does not make version-sensitive upstream syntax part of critical README infrastructure.
+
+---
+
+### 18.17 — Label and parser laboratory
+
+```mermaid
+flowchart LR
+    A["Quoted label: Markdown + Mermaid"] --> B["Punctuation: ( ) [ ] { }"]
+    B --> C["Unicode: α → β → γ"]
+    C --> D["Line one<br/>Line two"]
+```
+
+Source-only failure examples stay inert:
+
+````text
+```mermaid
+flowchart LR
+    A[Unclosed label --> B
+```
+
+```mermaid
+sequenceDiagram
+    Alice->>Bob this relationship is malformed
+```
+````
+
+> [!CAUTION]
+> Parser-failure demonstrations belong in `text` fences. A deliberately broken live Mermaid block would make the README look accidentally broken rather than educational.
+
+---
+
+### 18.18 — Mermaid inside `<details>`
+
+Every major diagram in this gallery is itself proof that Mermaid can coexist with the M6 disclosure system. The HTML container controls visibility; the fenced `mermaid` block still owns the diagram source.
 
 ```text
-Need mathematics in prose?
-├── short/simple → $...$
-├── Markdown-sensitive inline source → protected inline math
-└── display expression
-    ├── concise → $$...$$
-    └── complex / multiline → fenced math block
+<details>
+  ↓
+Markdown parser
+  ↓
+mermaid fence
+  ↓
+Mermaid renderer
+  ↓
+SVG diagram revealed on demand
 ```
 
 ---
 
-## LEVEL 18 — MERMAID SUMMONING CIRCLE
+### 18.19 — Mermaid vs code highlighting
 
-`GitHub` · `Mermaid`
+````text
+```mermaid  → specialized Mermaid renderer → diagram
+```text     → literal source presentation   → characters
+```yaml     → Linguist grammar              → highlighted source
+```math     → MathJax renderer              → mathematics
+````
+
+This is the central advanced-rendering distinction of the project: identical fenced-block mechanics can route source into fundamentally different renderers depending on the info string.
+
+---
+
+### 18.20 — Mermaid Final Form
+
+<details open>
+<summary><strong>DIAGRAM FINAL FORM — renderer map</strong></summary>
 
 ```mermaid
-flowchart TD
-    A[Math source] --> B{Delimiter}
-    B -- inline --> C[MathJax inline]
-    B -- display --> D[MathJax display]
-    B -- math fence --> D
-    C --> E[Rendered README]
-    D --> E
+flowchart TB
+    SRC[README.md source]
+
+    SRC --> MD[Markdown]
+    MD --> GFM[GFM]
+    GFM --> GH[GitHub]
+
+    GH --> L[Linguist]
+    GH --> MJ[MathJax]
+    GH --> MM[Mermaid]
+    GH --> HTML[Sanitized HTML]
+
+    L --> OUT[Rendered document]
+    MJ --> OUT
+    MM --> OUT
+    HTML --> OUT
+
+    MM --> F[Flowcharts]
+    MM --> S[Sequences]
+    MM --> ST[States]
+    MM --> C[Classes]
+    MM --> ER[ER models]
+    MM --> T[Timelines / Gantt]
+    MM --> G[GitGraph]
+    MM --> R[Requirements]
 ```
 
 ```mermaid
 sequenceDiagram
     actor Author
-    participant MD as README.md
-    participant MJ as MathJax
-    participant GH as GitHub
-    Author->>MD: writes LaTeX-formatted math
-    MD->>MJ: supplies math expression
-    MJ->>GH: produces mathematical rendering
-    GH-->>Author: displays notation in Markdown
+    participant Source as README.md
+    participant GitHub
+    participant Mermaid
+    participant Reader
+
+    Author->>Source: Commit diagram text
+    Source->>GitHub: Markdown render
+    GitHub->>Mermaid: Parse mermaid fence
+    Mermaid-->>GitHub: SVG
+    GitHub-->>Reader: Rendered visual
+    Reader->>Source: Inspect raw source
+    Source-->>Reader: Diffable model
 ```
 
-> [!NOTE]
-> M9 will expand Mermaid itself. M8 only updates the baseline diagrams so they reflect the new MathJax rendering layer.
+</details>
+
+### M9 renderer rule
+
+```text
+Need a visual model?
+├── mathematical notation → MathJax
+├── relationship / process / timeline → Mermaid
+├── geographic geometry → GeoJSON / TopoJSON (M10–M11)
+├── 3D geometry → STL (M12)
+└── static art / brand graphic → repository-owned SVG
+```
 
 ---
 
@@ -1396,7 +1411,7 @@ sequenceDiagram
 | `#` | `\#` |
 | `>` | `\>` |
 | `|` | `\|` |
-| `$` | `\$` when a literal dollar must survive math parsing |
+| `$` | `\$` where needed around math parsing |
 | `\` | `\\` |
 
 ---
@@ -1404,8 +1419,6 @@ sequenceDiagram
 ## LEVEL 20 — BACKTICK PARADOX
 
 `Markdown` · `Parser`
-
-`README.md`
 
 ``Use a `backtick` inside code``
 
@@ -1415,29 +1428,29 @@ console.log("Three backticks live inside four.");
 ```
 ````
 
-M8 adds another backtick-sensitive inline construct: $`x_i^2`$.
+````markdown
+```mermaid
+flowchart LR
+    A --> B
+```
+````
 
 ---
 
 ## LEVEL 21 — DELIMITER COLLISION LAB
 
-`Markdown` · `GFM` · `MathJax`
-
-*asterisk emphasis*  
-_underscore emphasis_  
-**strong**  
-~~strike containing **bold** and `code`~~
-
-Math introduces four delimiter families: `$...$`, the protected inline form ``$`...`$``, `$$...$$`, and fenced `math` blocks.
+`Markdown` · `GFM` · `MathJax` · `Mermaid`
 
 ```text
-Same punctuation, different parser roles:
-$     → possible math delimiter
-`     → code delimiter or protected-inline-math boundary
-\     → LaTeX command / Markdown escape depending on context
-_     → Markdown emphasis or mathematical subscript depending on context
-*     → Markdown emphasis or literal math token depending on context
+$          → possible MathJax delimiter
+`          → code delimiter / protected math boundary
+```mermaid → specialized diagram routing metadata
+```math    → specialized mathematics routing metadata
+_          → Markdown emphasis or math subscript by context
+*          → Markdown emphasis or literal token by context
 ```
+
+The string `` ```mermaid `` is meaningful only when it appears as an actual opening fence. Inside inline code or a longer outer fence, it is merely characters.
 
 ---
 
@@ -1475,10 +1488,17 @@ _     → Markdown emphasis or mathematical subscript depending on context
 ```
 ````
 
+````markdown
+```mermaid
+flowchart LR
+    Source --> Render
+```
+````
+
 <!--
 Future maintainers:
-Nested fences, math delimiters, literal-dollar escapes, code labels, reference definitions,
-relative media paths, and details blank lines are intentional parser demonstrations.
+Nested fences, Mermaid identifiers, math delimiters, literal-dollar escapes,
+reference definitions, relative media paths, and details blank lines are intentional.
 -->
 
 ---
@@ -1488,30 +1508,29 @@ relative media paths, and details blank lines are intentional parser demonstrati
 ## 🏅 ACHIEVEMENTS UNLOCKED
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-MATHJAX_ARCHITECT-fbbf24?style=for-the-badge" alt="Achievement MathJax Architect">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-MATRIX_MONARCH-06b6d4?style=for-the-badge" alt="Achievement Matrix Monarch">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-CALCULUS_ENGINE-8b5cf6?style=for-the-badge" alt="Achievement Calculus Engine">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-FOURIER_SUMMONER-0891b2?style=for-the-badge" alt="Achievement Fourier Summoner">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-MERMAID_CARTOGRAPHER-fbbf24?style=for-the-badge" alt="Achievement Mermaid Cartographer">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-SEQUENCE_ORACLE-06b6d4?style=for-the-badge" alt="Achievement Sequence Oracle">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-GRAPH_NECROMANCER-8b5cf6?style=for-the-badge" alt="Achievement Graph Necromancer">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-DIAGRAM_ROUTER-0891b2?style=for-the-badge" alt="Achievement Diagram Router">
 </p>
 
 | Achievement | Requirement | Status |
 | --- | --- | :---: |
-| **Block Architect** | Compose nested Markdown blocks | ✅ |
-| **Link Cartographer** | Multiple link grammars | ✅ |
-| **Media Engineer** | Repository-owned media | ✅ |
-| **Hybrid Engineer** | Markdown + sanitized HTML | ✅ |
-| **Syntax Curator** | Retain 33 distinct syntax modes | ✅ |
-| **Fence Architect** | Variable-length nested fences | ✅ |
-| **MathJax Architect** | Use all four GitHub math entry routes | ✅ |
-| **Delimiter Diplomat** | Distinguish inline, protected inline, display, and math fence syntax | ✅ |
-| **Matrix Monarch** | Render matrices, determinants, systems, eigennotation | ✅ |
-| **Calculus Engine** | Render limits, derivatives, gradients, Hessians, integrals | ✅ |
-| **Probability Sage** | Render Bayes, expectation, variance, density, covariance | ✅ |
-| **Fourier Summoner** | Render complex exponential and Fourier notation | ✅ |
-| **Dollar Escape Artist** | Preserve literal currency signs beside math | ✅ |
-| **Math Interface Composer** | Put math inside tables, alerts, and details | ✅ |
-| **Source/Render Separatist** | Distinguish `latex` highlighting from `math` rendering | ✅ |
-| **Master of Restraint** | Stop before inventing new branches of mathematics | ❌ |
+| **Syntax Curator** | Retain 33 syntax modes | ✅ |
+| **MathJax Architect** | Preserve advanced mathematics | ✅ |
+| **Mermaid Cartographer** | Build multi-family Mermaid gallery | ✅ |
+| **Flow Commander** | Directions, shapes, subgraphs, edge variants | ✅ |
+| **Sequence Oracle** | Actors, loops, alternatives, notes | ✅ |
+| **State Keeper** | State lifecycle + composite state | ✅ |
+| **Class Architect** | Inheritance + composition | ✅ |
+| **Schema Weaver** | ER relationships and attributes | ✅ |
+| **Timeline Keeper** | Gantt + timeline + journey | ✅ |
+| **Graph Necromancer** | GitGraph branch/merge visualization | ✅ |
+| **Requirement Tracekeeper** | Requirement diagram traceability | ✅ |
+| **Compatibility Canary** | Isolate version-sensitive architecture diagram | ✅ |
+| **Diagram Router** | Distinguish Mermaid, Linguist, MathJax, SVG | ✅ |
+| **Parser Tamer** | Keep broken Mermaid examples inert | ✅ |
+| **Master of Restraint** | Stop before every experimental Mermaid type | ❌ |
 
 ---
 
@@ -1521,28 +1540,25 @@ relative media paths, and details blank lines are intentional parser demonstrati
 Clarity          ████████████████████ 100%
 Structure        ████████████████████ 100%
 Typography       ████████████████████ 100%
-Lists            ████████████████████ 100%
-Tables           ████████████████████ 100%
+Lists / Tables   ████████████████████ 100%
 Links            ████████████████████ 100%
 Local Media      ████████████████████ 100%
 HTML Hybrid      ████████████████████ 100%
 Syntax Labels    ████████████████████ 100%
 Language Breadth ████████████████████  33 modes
-Math Delimiters  ████████████████████ 100%
-Math Structures  ████████████████████ 100%
-Calculus         ████████████████████ 100%
-Linear Algebra   ████████████████████ 100%
-Probability      ████████████████████ 100%
-Fourier / Complex████████████████████ 100%
+MathJax          ████████████████████ 100%
+Mermaid Core     ████████████████████ 100%
+Diagram Families ████████████████████  14 shown
+Renderer Routing ████████████████████ 100%
 Parser Tricks    ███████████████████░  95%
 Restraint        ██░░░░░░░░░░░░░░░░░░  10%
-Raw Power        ████████████████████  M8
+Raw Power        ████████████████████  M9
 ```
 
 > [!WARNING]
-> Mathematical typesetting can make a false equation look extremely authoritative.
+> Diagrams can make bad system models look very official.
 >
-> **M8 demonstrates notation breadth, renderer behavior, and composition—not mathematical truth by typography.**
+> **M9 demonstrates renderer breadth and source structure; visual polish does not guarantee that the modeled architecture is correct.**
 
 ---
 
@@ -1558,46 +1574,49 @@ Raw Power        ████████████████████  M
 [same document](#final-boss)
 
 Inline math: $E=mc^2$
-Protected inline math: $`x_i^2`$
-
-Display math:
-$$\sum_{k=1}^{n}k=\frac{n(n+1)}2$$
+Protected math: $`x_i^2`$
 
 ```math
-A=\begin{pmatrix}a&b\\c&d\end{pmatrix}
+\int_0^1 x^2\,dx=\frac13
 ```
 
-Literal currency inside math: $`\sqrt{\$4}=2`$
-Currency beside math: <span>$</span>100 and $100/2=50$
+```mermaid
+flowchart LR
+    A[Source] --> B[Rendered diagram]
+```
+
+```mermaid
+sequenceDiagram
+    Alice->>Bob: Message
+```
+
+```mermaid
+stateDiagram-v2
+    [*] --> Ready
+    Ready --> [*]
+```
 
 ```python
 print("highlighted code")
-```
-
-```latex
-\int_0^1 x^2\,dx
 ```
 
 ```text
 literal output
 ```
 
-```diff
-- baseline math
-+ advanced MathJax
-```
-
 ````markdown
-```math
-\int_{-\infty}^{\infty}e^{-x^2}\,dx=\sqrt{\pi}
+```mermaid
+flowchart LR
+    A --> B
 ```
 ````
 
 <details>
-<summary>Collapsed math</summary>
+<summary>Collapsed renderer</summary>
 
-```math
-e^{i\pi}+1=0
+```mermaid
+flowchart LR
+    Source --> Render
 ```
 
 </details>
@@ -1608,9 +1627,9 @@ e^{i\pi}+1=0
 - [x] Complete
 - [ ] Incomplete
 
-| Concept | Math |
-| --- | --- |
-| norm | $\lVert x\rVert_2$ |
+| Left | Center | Right |
+| :--- | :---: | ---: |
+| alpha \| beta | $x^2$ | 100 |
 ``````
 
 [docs]: https://example.com/docs
@@ -1621,43 +1640,42 @@ e^{i\pi}+1=0
 
 | Crime | Consequence |
 | --- | --- |
-| Treating `latex` fence as rendered math | Highlighted source mistaken for MathJax output |
-| Treating `math` fence as ordinary syntax highlighting | Renderer model becomes wrong |
-| Unescaped currency `$` beside math | Delimiter collisions |
-| Giant equation without structure | Source and render both become difficult to inspect |
-| Using display math for every tiny symbol | Document becomes vertically bloated |
-| Using inline math for giant matrices | Prose becomes unreadable |
-| Assuming typesetting proves correctness | Beautifully rendered nonsense |
-| Hiding every equation inside `<details>` | Mathematical flow disappears |
-| Forgetting longer outer fences | Source demonstrations terminate themselves |
-| Replacing readable notation with gratuitous macros | Maintenance cost rises |
-| Deleting local assets | Media layer breaks |
+| Using `text` when you expected a diagram | Mermaid source stays literal |
+| Misspelling `mermaid` info string | specialized renderer never starts |
+| Deliberately broken live Mermaid | README looks accidentally broken |
+| Extremely long labels | diagrams become mobile-hostile |
+| Hard-coded diagram colors everywhere | poor light/dark resilience |
+| Assuming upstream latest Mermaid == GitHub bundle | version-sensitive diagrams can fail |
+| Treating architecture canary as critical navigation | one version gap breaks core UX |
+| Using diagrams where a two-row table is clearer | visual complexity without information gain |
+| Forgetting longer outer fences | source demonstrations terminate themselves |
+| Confusing `latex` with `math` | highlighting is mistaken for rendering |
 
 ---
 
 ## 🧪 README QUALITY TEST
 
-- [ ] Standard `$...$` inline expressions render.
-- [ ] Backtick-protected inline expressions render without leaking Markdown syntax.
-- [ ] `$$...$$` display expressions render.
-- [ ] Fenced `math` blocks render as mathematics rather than highlighted source.
-- [ ] Fenced `latex` blocks remain highlighted source rather than rendered mathematics.
-- [ ] Matrices and cases keep row boundaries.
-- [ ] `aligned` derivations keep alignment points.
-- [ ] Limits, sums, products, derivatives, partial derivatives, and integrals render.
-- [ ] `\mathbb`, `\mathbf`, `\operatorname`, norms, and inner products render.
-- [ ] Math in GFM table cells remains legible.
-- [ ] Math inside GitHub alerts remains inline and readable.
-- [ ] Math fences inside `<details>` render after expansion.
-- [ ] Literal `\$` survives inside math.
-- [ ] Literal outside-math currency uses the documented `<span>$</span>` pattern when sharing a line with math.
-- [ ] Nested math-fence source examples remain bounded by longer fences.
-- [ ] All six M7 syntax galleries remain present.
-- [ ] M7 inventory still totals 33 modes.
+- [ ] Flowchart renders with multiple edge styles and subgraphs.
+- [ ] Sequence diagram renders loops, alt branches, and notes.
+- [ ] State diagram renders its composite state.
+- [ ] Class inheritance/composition arrows render correctly.
+- [ ] ER cardinalities and attributes remain readable.
+- [ ] Journey scores display coherently.
+- [ ] Gantt dates/tasks remain legible.
+- [ ] Pie labels remain readable in light and dark themes.
+- [ ] GitGraph branch/merge sequence renders.
+- [ ] Mindmap does not overflow badly on mobile.
+- [ ] Timeline remains horizontally usable.
+- [ ] Quadrant points and axis labels render.
+- [ ] Requirement relationships render.
+- [ ] Architecture canary is checked against GitHub's current Mermaid bundle.
+- [ ] Broken Mermaid examples remain inside non-Mermaid source fences.
+- [ ] All Mermaid galleries open and close independently.
+- [ ] MathJax examples still render.
+- [ ] 33 Linguist modes remain represented.
 - [ ] Theme-aware local hero still switches correctly.
-- [ ] Relative media paths resolve on the branch.
-- [ ] Mobile layout remains usable.
-- [ ] README is previewed on GitHub.
+- [ ] Nested fences remain balanced.
+- [ ] README is previewed on GitHub before release.
 
 ---
 
@@ -1666,61 +1684,63 @@ e^{i\pi}+1=0
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form M8 final banner" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form M9 final banner" width="100%">
 </picture>
 
 <details open>
-<summary><strong>FINAL FORM — MATHEMATICAL RENDERING SYSTEM</strong></summary>
+<summary><strong>FINAL FORM — ADVANCED RENDERER NETWORK</strong></summary>
 
-```text
-README
- ├── MARKDOWN CORE
- ├── GFM
- ├── LINKS
- ├── LOCAL MEDIA
- ├── HTML HYBRID
- ├── LINGUIST
- │    └── 33 SYNTAX MODES
- ├── MATHJAX
- │    ├── INLINE $
- │    ├── PROTECTED INLINE
- │    ├── DISPLAY $$
- │    ├── MATH FENCE
- │    ├── ALGEBRA
- │    ├── MATRICES
- │    ├── CALCULUS
- │    ├── LINEAR ALGEBRA
- │    ├── PROBABILITY
- │    ├── FOURIER / COMPLEX
- │    ├── TABLE / ALERT / DETAILS COMPOSITION
- │    └── DOLLAR-SIGN ESCAPES
- ├── MERMAID
- └── PARSER LAB
+```mermaid
+flowchart TB
+    README[README.md]
 
-↓
-FINAL FORM
+    README --> CORE[Markdown + GFM]
+    CORE --> LINKS[Links / Tables / Tasks]
+    CORE --> GH[GitHub extensions]
+
+    GH --> CODE[Linguist]
+    GH --> MATH[MathJax]
+    GH --> DIAGRAM[Mermaid]
+    GH --> HYBRID[Sanitized HTML]
+
+    DIAGRAM --> FLOW[Flowchart]
+    DIAGRAM --> SEQ[Sequence]
+    DIAGRAM --> MODEL[State / Class / ER]
+    DIAGRAM --> TIME[Gantt / Timeline / Journey]
+    DIAGRAM --> GRAPH[GitGraph / Mindmap]
+    DIAGRAM --> SPEC[Quadrant / Requirements]
+
+    CODE --> FINAL[FINAL FORM]
+    MATH --> FINAL
+    DIAGRAM --> FINAL
+    HYBRID --> FINAL
 ```
 
 ```math
-\begin{aligned}
-\text{Final Form}
-&=\text{structure}
-+\text{semantics}
-+\text{renderers},\\
-\text{M8}
-&=\text{MathJax breadth}
-+\text{parser awareness}
-+\text{readability}.
-\end{aligned}
+\boxed{
+\text{Markdown}
++\text{GFM}
++\text{Linguist}
++\text{MathJax}
++\text{Mermaid}
++\text{HTML}
+=\text{M9}
+}
 ```
 
 <details>
-<summary><strong>Open the final mathematical subsystem</strong></summary>
+<summary><strong>Inspect the renderer stack as source</strong></summary>
 
-```math
-\boxed{e^{i\pi}+1=0}
-\qquad
-\boxed{\int_{-\infty}^{\infty}e^{-x^2}\,dx=\sqrt{\pi}}
+```text
+SOURCE
+├── ordinary Markdown
+├── fenced code → Linguist
+├── math delimiters / math fence → MathJax
+├── mermaid fence → Mermaid
+├── HTML fragments → sanitizer
+├── GeoJSON → M10
+├── TopoJSON → M11
+└── STL → M12
 ```
 
 </details>
@@ -1730,19 +1750,19 @@ FINAL FORM
 <div align="center">
 
 <p>
-  Markdown creates the document.<br>
-  Linguist highlights source.<br>
-  MathJax renders notation.<br>
-  HTML controls disclosure.<br>
-  Parser awareness keeps the layers from eating each other.
+  Markdown owns the document.<br>
+  Renderer metadata chooses the visual system.<br>
+  MathJax typesets notation.<br>
+  Mermaid turns relationships into diagrams.<br>
+  The raw source remains reviewable underneath all of it.
 </p>
 
-<a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions"><img src="https://img.shields.io/badge/READ-GITHUB_MATH_DOCS-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Read GitHub mathematical expression documentation"></a>
-<a href="#level-17--advanced-mathjax-mathematical-showcase"><img src="https://img.shields.io/badge/RETURN-MATHJAX_LAB-7c3aed?style=for-the-badge" alt="Return to MathJax lab"></a>
+<a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams"><img src="https://img.shields.io/badge/READ-GITHUB_DIAGRAM_DOCS-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Read GitHub diagram documentation"></a>
+<a href="https://mermaid.js.org/"><img src="https://img.shields.io/badge/EXPLORE-MERMAID-7c3aed?style=for-the-badge" alt="Explore Mermaid documentation"></a>
 <a href="#"><img src="https://img.shields.io/badge/RETURN-TO_THE_TOP-0891b2?style=for-the-badge" alt="Return to top"></a>
 
 <h2>Markdown: Final Form.</h2>
-<h3>Advanced mathematical rendering unlocked.</h3>
+<h3>Mermaid diagram layer unlocked.</h3>
 
 </div>
 
@@ -1756,7 +1776,7 @@ FINAL FORM
 
 [^plain-text]: Markdown remains readable as plain text while adding lightweight structural syntax.
 [^relative-links]: Relative repository paths keep files and media branch-aware.
-[^details]: GitHub documents `<details>`, `<summary>`, nested Markdown content, and the `open` attribute for initially expanded sections.
 [^sanitization]: GitHub sanitizes rendered README HTML, so arbitrary application-style script and styling are not the interface model.
-[^linguist]: GitHub Linguist defines known languages and aliases used for fenced-code syntax highlighting.
-[^mathjax]: GitHub documents LaTeX-formatted mathematical expressions in Markdown files, rendered with MathJax, using inline dollar delimiters, protected backtick inline syntax, double-dollar display blocks, or fenced `math` blocks.
+[^linguist]: GitHub Linguist defines languages and aliases used for syntax highlighting in fenced code blocks.
+[^mathjax]: GitHub renders supported LaTeX-formatted mathematics in Markdown using MathJax.
+[^mermaid]: GitHub documents Mermaid as one of its advanced diagram syntaxes and renders Mermaid source from fenced `mermaid` blocks in Markdown files.
