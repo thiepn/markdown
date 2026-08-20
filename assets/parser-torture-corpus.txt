@@ -1,0 +1,342 @@
+MARKDOWN: FINAL FORM — M13 RAW PARSER TORTURE CORPUS
+=====================================================
+
+Purpose
+-------
+This file is intentionally plain text. It preserves exact parser-dangerous source
+without asking GitHub Markdown to interpret it. README.md contains the live cases;
+this corpus contains the raw fixtures used to reason about failure boundaries.
+
+01 — BACKSLASH ESCAPES
+----------------------
+\! \" \# \$ \% \& \' \( \) \* \+ \, \- \. \/ \: \; \< \= \> \? \@ \[ \\ \] \^ \_ \` \{ \| \} \~
+\*not emphasis*
+\# not a heading
+\> not a blockquote
+\- not a list
+1\. not an ordered list
+\[not a link](https://example.com)
+\&copy; not an entity
+\\*emphasis after an escaped backslash*
+
+02 — CODE SPAN LENGTHS
+----------------------
+`plain`
+``Use a `backtick` inside code``
+```Use ``two`` backticks inside three```
+`` foo ``
+` foo `
+`unclosed
+``foo`bar``
+
+03 — EMPHASIS / STRONG PRECEDENCE
+---------------------------------
+*italic*
+**strong**
+***strong emphasis***
+***strong** in emphasis*
+***emphasis* in strong**
+**strong *nested emphasis***
+*emphasis **nested strong***
+foo*bar*baz
+foo_bar_baz
+*foo _bar* baz_
+**foo **bar baz**
+*[foo*](https://example.com)
+
+04 — STRIKETHROUGH
+------------------
+~~deleted~~
+~~**strong inside deleted**~~
+**~~deleted inside strong~~**
+~not GFM strikethrough~
+
+05 — FENCE LENGTHS AND CHARACTERS
+---------------------------------
+```text
+three-backtick fence
+```
+
+````markdown
+```javascript
+console.log("three inside four");
+```
+````
+
+~~~~text
+tilde fence
+~~~~
+
+```text
+~~~~markdown
+tilde fence text inside backticks
+~~~~
+```
+
+06 — INDENTED VS FENCED CODE
+-----------------------------
+    four-space indented code
+
+```text
+fenced code
+```
+
+- list item
+
+      indented code belonging to item
+
+- list item with fence
+
+  ```text
+  fenced code in list
+  ```
+
+07 — BLOCK QUOTES
+-----------------
+> quote
+>> nested quote
+> - list inside quote
+>   - nested list
+> ```text
+> code inside quote
+> ```
+
+08 — LIST INTERRUPTION / AMBIGUITY
+----------------------------------
+paragraph
+1. ordered list can interrupt only under CommonMark conditions
+
+paragraph
+2. this source is intentionally inspected for interruption behavior
+
+- bullet
+* bullet
++ bullet
+
+1. one
+1. source marker still one
+1. source marker still one
+
+09 — THEMATIC BREAK AMBIGUITY
+------------------------------
+---
+***
+___
+* * *
+- - -
+_ _ _
+
+- ---
+- ***
+
+10 — TASK LIST EDGE CASES
+-------------------------
+- [ ] unchecked
+- [x] checked lowercase
+- [X] checked uppercase
+- [ x ] not canonical task syntax
+- [] not task syntax
+- [ ] **formatted task**
+  - [x] nested checked
+
+11 — TABLE PIPES
+----------------
+| A | B |
+| --- | --- |
+| alpha \| beta | gamma |
+| `left\|right` | code-span pipe escaped for table parsing |
+| [x](https://example.com?a=1&b=2) | link |
+
+12 — LINKS AND BRACKETS
+-----------------------
+[inline](https://example.com)
+[title](https://example.com "hover title")
+[balanced parentheses](https://en.wikipedia.org/wiki/Markdown_(markup_language))
+[escaped \[bracket\]](https://example.com)
+[matched [inner] brackets](https://example.com)
+[not a `link](/foo`)
+*[foo*](https://example.com)
+[nested [link](https://example.com)](https://example.org)
+
+13 — REFERENCE LINKS
+--------------------
+[full][docs]
+[collapsed][]
+[shortcut]
+[case-insensitive label][DOCS]
+
+[docs]: https://example.com/docs "Docs"
+[collapsed]: https://example.com/collapsed
+[shortcut]: https://example.com/shortcut
+
+14 — AUTOLINKS
+--------------
+<https://github.com/>
+<docs@example.com>
+https://github.com
+www.github.com
+docs@example.com
+<http://foo.bar.`baz>
+
+15 — RAW HTML / MARKDOWN BOUNDARIES
+-----------------------------------
+<details>
+<summary>Summary</summary>
+
+### Markdown heading inside details
+
+- Markdown list
+
+</details>
+
+<div>
+Markdown parsing behavior inside raw HTML blocks is context-sensitive.
+</div>
+
+<script>alert('sanitized')</script>
+
+16 — ENTITIES
+-------------
+&copy;
+&#169;
+&#xA9;
+&#42;not emphasis&#42;
+&lt;div&gt;literal HTML-looking text&lt;/div&gt;
+\&copy; escaped ampersand prevents entity parsing
+
+17 — HARD / SOFT BREAKS
+-----------------------
+soft
+break
+
+two spaces  
+hard break
+
+backslash\
+hard break
+
+html<br>
+break
+
+18 — SETEXT / BLOCK AMBIGUITY
+-----------------------------
+Heading One
+===========
+
+Heading Two
+-----------
+
+paragraph
+---
+
+19 — DUPLICATE HEADINGS
+-----------------------
+### Collision Target
+### Collision Target
+### Collision Target!
+### Collision Target?
+### `Collision` Target
+
+20 — FOOTNOTES
+--------------
+First reference[^repeat]. Second reference[^repeat].
+Named reference[^named_note].
+
+[^repeat]: Reused footnote definition.
+[^named_note]: Footnote label with underscore.
+
+21 — MATH DOLLAR COLLISIONS
+----------------------------
+$E=mc^2$
+$`x_i^2`$
+$$
+\int_0^1 x^2\,dx=\frac13
+$$
+$`\sqrt{\$4}=2`$
+<span>$</span>100 and $100/2=50$
+`$not math$`
+
+22 — RENDERER ROUTING
+---------------------
+```python
+print("Linguist")
+```
+
+```math
+x^2+y^2=z^2
+```
+
+```mermaid
+flowchart LR
+A --> B
+```
+
+```geojson
+{"type":"Point","coordinates":[13.405,52.52]}
+```
+
+```topojson
+{"type":"Topology","objects":{},"arcs":[]}
+```
+
+```stl
+solid triangle
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 0 1 0
+    endloop
+  endfacet
+endsolid triangle
+```
+
+23 — INTENTIONALLY BROKEN MERMAID
+---------------------------------
+```mermaid
+flowchart LR
+A[unclosed --> B
+```
+
+24 — INTENTIONALLY BROKEN GEOJSON
+---------------------------------
+```geojson
+{"type":"Point","coordinates":[13.405,52.52],}
+```
+
+25 — INTENTIONALLY BROKEN TOPOJSON
+----------------------------------
+```topojson
+{"type":"Topology","objects":{"x":{"type":"LineString","arcs":[99]}},"arcs":[]}
+```
+
+26 — INTENTIONALLY BROKEN STL
+-----------------------------
+```stl
+solid bad
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+    endloop
+  endfacet
+endsolid bad
+```
+
+27 — RECURSION / INCEPTION
+--------------------------
+``````markdown
+`````markdown
+````markdown
+```markdown
+**Markdown shown inside Markdown shown inside Markdown shown inside Markdown.**
+```
+````
+`````
+``````
+
+28 — CLOSING RULE
+-----------------
+If a fixture in this file looks dangerous, that is the point. Keep this file as
+plain text. Live README examples must use sufficient outer-fence length or escape
+the relevant delimiter before copying material from this corpus.
