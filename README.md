@@ -3,10 +3,15 @@
 ║                          LEVEL 00: SOURCE LAYER                              ║
 ║                                                                              ║
 ║  Achievement unlocked: RAW SOURCE EXPLORER                                  ║
-║  You inspected README.md before GitHub rendered it.                         ║
+║  Secondary achievement: PARSER TAMER                                        ║
 ║                                                                              ║
+║  You inspected README.md before GitHub rendered it.                         ║
 ║  Rendering stack: Markdown → GFM → GitHub → HTML → Advanced Renderers       ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
+
+M2 source-only note:
+Backslashes, delimiter runs, entities, and fence lengths are now intentional.
+If a strange character sequence looks unnecessary, it may be demonstrating the parser.
 -->
 
 <div align="center">
@@ -21,8 +26,8 @@
 
 <a href="https://readme-typing-svg.demolab.com/demo/">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=23&amp;pause=850&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=60&amp;lines=Plain+text%2C+but+make+it+dangerous.;Markdown.+GFM.+GitHub.+HTML.+Renderers.;One+README+to+flex+them+all.;Stop+writing+sad+documentation."
-    alt="Animated typing introduction"
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=23&amp;pause=850&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=60&amp;lines=Plain+text%2C+but+make+it+dangerous.;Delimiters.+Escapes.+Entities.+Recursion.;Markdown.+GFM.+GitHub.+HTML.+Renderers.;One+README+to+flex+them+all."
+    alt="Animated Markdown Final Form introduction"
   />
 </a>
 
@@ -30,7 +35,7 @@
 
 <a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/LAYER-MARKDOWN-111111?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Markdown layer" /></a>
 <a href="https://github.github.com/gfm/"><img src="https://img.shields.io/badge/LAYER-GFM-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub Flavored Markdown layer" /></a>
-<a href="#act-v--advanced-rendering"><img src="https://img.shields.io/badge/RENDERING-ADVANCED-00bfff?style=for-the-badge" alt="Advanced rendering" /></a>
+<a href="#act-vi--parser--source-lab"><img src="https://img.shields.io/badge/PARSER-M2_UNLOCKED-8B5CF6?style=for-the-badge" alt="Parser layer M2 unlocked" /></a>
 <a href="#the-chaos-index"><img src="https://img.shields.io/badge/CHAOS-CONTROLLED-ff1493?style=for-the-badge" alt="Controlled chaos" /></a>
 <a href="#final-boss"><img src="https://img.shields.io/badge/README-OVERENGINEERED-F43F5E?style=for-the-badge" alt="README overengineered" /></a>
 
@@ -47,7 +52,7 @@
 &nbsp;•&nbsp;
 <a href="#act-iii--github-extensions"><strong>🧪 Open GitHub Extensions</strong></a>
 &nbsp;•&nbsp;
-<a href="#act-v--advanced-rendering"><strong>🗺️ Enter Advanced Rendering</strong></a>
+<a href="#act-vi--parser--source-lab"><strong>⌁ Enter the Parser Lab</strong></a>
 &nbsp;•&nbsp;
 <a href="#final-boss"><strong>👑 Fight the Final Boss</strong></a>
 
@@ -61,7 +66,7 @@
 
 > [!IMPORTANT]
 > A README should explain a project clearly before it attempts visual domination.  
-> This repository deliberately pushes presentation far beyond normal documentation—but the structure now makes every trick traceable.
+> This repository deliberately pushes presentation far beyond normal documentation—but every trick is assigned to a rendering layer.
 
 ---
 
@@ -72,18 +77,18 @@ This document is organized by **rendering layer**, not by random feature order. 
 | Act | Rendering layer | Current demonstrations | Jump |
 | :---: | --- | --- | :---: |
 | `00` | [Source Layer](#level-00--source-layer) | Hidden comments, raw-source-only content | `RAW` |
-| `I` | [Markdown Core](#act-i--markdown-core) | Typography, hierarchy, lists, quotes, links | `#` |
+| `I` | [Markdown Core](#act-i--markdown-core) | Typography, headings, line breaks, lists, quotes, links | `#` |
 | `II` | [GitHub Flavored Markdown](#act-ii--github-flavored-markdown) | Tables, task lists, strikethrough | `GFM` |
 | `III` | [GitHub Extensions](#act-iii--github-extensions) | Alerts, code highlighting, footnotes | `GH` |
 | `IV` | [HTML Hybrid](#act-iv--html-hybrid) | Inline HTML, media control, collapsible interfaces | `<>` |
-| `V` | [Advanced Rendering](#act-v--advanced-rendering) | MathJax-style math, Mermaid diagrams | `∞` |
-| `VI` | [Parser & Source Lab](#act-vi--parser--source-lab) | Escaping, recursion, hidden knowledge | `\` |
+| `V` | [Advanced Rendering](#act-v--advanced-rendering) | Math, Mermaid diagrams | `∞` |
+| `VI` | [Parser & Source Lab](#act-vi--parser--source-lab) | Escapes, entities, backticks, delimiter rules, recursion | `\` |
 | `VII` | [Endgame & Reference](#act-vii--endgame--reference) | Achievements, cheat sheet, QA | `✓` |
 | `∞` | [Final Boss](#final-boss) | Combined mechanics | `👑` |
 
 ### Capability classification
 
-Every major section now belongs to one or more explicit layers:
+Every major section belongs to one or more explicit layers:
 
 `Markdown` · `GFM` · `GitHub` · `HTML` · `External Asset`
 
@@ -127,44 +132,59 @@ but disappears when GitHub renders it.
 ```
 
 <!--
-M1 architecture note:
-The old flat 13-level sequence was deliberately replaced by a rendering-stack model.
-Future phases should extend the correct act instead of appending unrelated sections.
+Architecture invariant:
+Future phases extend the correct rendering act instead of appending unrelated sections.
+
+M2 invariant:
+Do not "clean up" escape sequences or variable-length backtick fences without checking
+whether they are live parser demonstrations.
 -->
 
 > [!NOTE]
-> The source view and the rendered view are now intentionally treated as two different surfaces of the same README.
+> The source view and the rendered view are intentionally treated as two different surfaces of the same README.
 
 ---
 
 # ACT I — MARKDOWN CORE
 
-> The portable foundation: structure and inline syntax that remain useful even without GitHub-specific rendering.
+> The portable foundation: structure, inline syntax, whitespace, and delimiter behavior that make the rest possible.
 
 ## LEVEL 01 — TYPOGRAPHY & INLINE POWER
 
-`Markdown` · `HTML`
+`Markdown` · `GFM` · `HTML`
 
-Markdown gives ordinary words several increasingly dramatic forms.
+Markdown offers multiple delimiter forms that can produce the same visual result.
 
-| Source | Rendered intention | Threat level |
-| --- | --- | :---: |
-| `*italic*` | _Subtle emphasis_ | 🟢 |
-| `**bold**` | **Important emphasis** | 🟡 |
-| `***bold italic***` | ***Maximum emphasis*** | 🟠 |
-| `` `inline code` `` | `Technical credibility` | 🔵 |
-| `~~deleted~~` | ~~Evidence removal~~ | 🔴 |
-| `<sub>small</sub>` | <sub>whispering</sub> | 🤫 |
-| `<sup>high</sup>` | <sup>ascending</sup> | 🚀 |
-| `<ins>inserted</ins>` | <ins>newly important</ins> | ✨ |
+### Delimiter arsenal
 
-### Formatting combo attack
+| Source | Result | Role |
+| --- | --- | --- |
+| `*italic*` | *italic* | Emphasis |
+| `_italic_` | _italic_ | Alternate emphasis |
+| `**bold**` | **bold** | Strong emphasis |
+| `__bold__` | __bold__ | Alternate strong emphasis |
+| `***bold italic***` | ***bold italic*** | Combined emphasis |
+| `___bold italic___` | ___bold italic___ | Alternate combined emphasis |
+| `~~deleted~~` | ~~deleted~~ | GFM strikethrough |
+| `` `inline code` `` | `inline code` | Literal technical text |
+| `<sub>small</sub>` | <sub>small</sub> | HTML subscript |
+| `<sup>high</sup>` | <sup>high</sup> | HTML superscript |
+| `<ins>inserted</ins>` | <ins>inserted</ins> | HTML insertion |
+
+### Formatting combo attacks
 
 **Bold text containing _italic text containing `inline code`_ while remaining bold.**
 
-~~This sentence was removed for being insufficiently dramatic.~~
+~~This sentence was removed for being **insufficiently dramatic**.~~
 
-<ins>This sentence was added after the README gained self-awareness.</ins>
+**Strong outside, _emphasis inside_, and `code at the core`.**
+
+Asterisks and underscores are similar—but not identical in every parser context:
+
+- `foo_bar_baz` → foo_bar_baz
+- `foo*bar*baz` → foo*bar*baz
+
+The intraword underscore is deliberately conservative, which is why identifiers such as `snake_case_variable` stay readable.
 
 ### Keyboard and scale
 
@@ -177,13 +197,91 @@ Normal text of confidence.
 <sup>Superscript of unreasonable superiority.</sup>
 
 > [!TIP]
-> Emphasis creates hierarchy. If everything is emphasized, nothing is.
+> Delimiters are syntax, not decoration. Choose forms that remain readable in raw source as well as rendered output.
 
 ---
 
-## LEVEL 02 — STRUCTURE, LISTS & HIERARCHY
+## LEVEL 02 — STRUCTURE, HEADINGS & WHITESPACE
 
 `Markdown`
+
+### ATX heading ladder
+
+<details>
+<summary><strong>🏛️ Open the six-level heading hierarchy</strong></summary>
+
+# Header 1 — The Emperor
+
+## Header 2 — The Chancellor
+
+### Header 3 — The Strategist
+
+#### Header 4 — The Specialist
+
+##### Header 5 — The Intern with Production Access
+
+###### Header 6 — The Fine Print Nobody Read
+
+</details>
+
+### Setext: the other heading syntax
+
+Markdown also has an older, visually different heading form. It supports only levels 1 and 2.
+
+<details>
+<summary><strong>📜 Render actual Setext headings</strong></summary>
+
+Setext Level One
+================
+
+Setext Level Two
+----------------
+
+</details>
+
+Source:
+
+```md
+Setext Level One
+================
+
+Setext Level Two
+----------------
+```
+
+> [!NOTE]
+> The heading demonstrations are collapsed so the README's real architecture remains visually dominant.
+
+### Line-break laboratory
+
+Three concepts matter when exact line layout matters:
+
+1. A **blank line** starts a new paragraph.
+2. Two trailing spaces create an explicit Markdown hard break.  
+   This sentence begins after that hard break.
+3. `<br />` gives HTML-level control.<br />This sentence begins after an HTML break.
+
+Source:
+
+```md
+Paragraph one.
+
+Paragraph two.
+
+Hard break using two trailing spaces.  
+Next line.
+
+HTML break.<br />Next line.
+```
+
+> [!TIP]
+> A single newline can behave as a soft break depending on the rendering context. Use explicit hard-break syntax when exact presentation matters.
+
+---
+
+## LEVEL 03 — LISTS, QUOTES & NAVIGATION
+
+`Markdown` · `HTML`
 
 ### List-based domination
 
@@ -221,28 +319,6 @@ Normal text of confidence.
    - Test every link
    - Pretend this was always the plan
 
-### Header hierarchy laboratory
-
-<details>
-<summary><strong>🏛️ Open the six-level heading ladder</strong></summary>
-
-# Header 1 — The Emperor
-
-## Header 2 — The Chancellor
-
-### Header 3 — The Strategist
-
-#### Header 4 — The Specialist
-
-##### Header 5 — The Intern with Production Access
-
-###### Header 6 — The Fine Print Nobody Read
-
-</details>
-
-> [!NOTE]
-> The demonstration is collapsed so the README's main architecture remains visually dominant even while all six rendered heading sizes remain available.
-
 ### Quotation fortress
 
 > “Markdown is just plain text,” they whispered.
@@ -255,12 +331,6 @@ Normal text of confidence.
 > > > >
 > > > > > The room became silent.
 
----
-
-## LEVEL 03 — LINKS & NAVIGATION
-
-`Markdown` · `HTML`
-
 ### Ordinary links
 
 - [Learn Markdown](https://www.markdownguide.org/)
@@ -270,13 +340,10 @@ Normal text of confidence.
 - [Build an animated typing SVG](https://readme-typing-svg.demolab.com/demo/)
 - [Return to the top](#)
 
-### Links with hover titles
-
 [Hover over this link before clicking](https://www.markdownguide.org/ "You have discovered tooltip technology.")
 
-### Navigation principle
-
-The README now uses **act-level navigation first** and **feature-level headings second**. This prevents the table of contents from becoming a 20-row wall as later phases add more renderers.
+> [!NOTE]
+> The dedicated link phase will expand reference links, relative repository links, autolinks, and repository-native references. M2 leaves that scope intact.
 
 ---
 
@@ -315,6 +382,8 @@ The README now uses **act-level navigation first** and **feature-level headings 
 - [x] Stop treating documentation as an afterthought
 - [x] Learn GitHub Flavored Markdown
 - [x] Discover task lists
+- [x] Learn that backslashes can prevent syntax
+- [x] Discover that entities can smuggle punctuation past the parser
 - [ ] Use formatting responsibly
 - [ ] Resist adding seventeen more badges
 - [ ] Fail to resist
@@ -326,6 +395,7 @@ The README now uses **act-level navigation first** and **feature-level headings 
 + Added Markdown skills
 + Added visual hierarchy
 + Added actual documentation
++ Added parser awareness
 - Removed excuses
 - Removed "I'll write it later"
 - Removed one tragic README
@@ -354,7 +424,7 @@ The README now uses **act-level navigation first** and **feature-level headings 
 > Something may go wrong.
 
 > [!CAUTION]
-> Something has already gone wrong. You used spaces instead of checking the preview.
+> Something has already gone wrong. You edited parser examples without previewing them.
 
 ---
 
@@ -376,6 +446,7 @@ function upgradeReadme(readme) {
     ...readme,
     clarity: 100,
     style: "extravagant",
+    parserAwareness: true,
     chaos: Infinity,
   };
 }
@@ -394,12 +465,14 @@ from math import inf
 class Readme:
     clarity: int
     style: str
+    parser_awareness: bool
     chaos: float
 
 
 README = Readme(
     clarity=100,
     style="unreasonably polished",
+    parser_awareness=True,
     chaos=inf,
 )
 
@@ -428,14 +501,15 @@ echo "Deploying unnecessary levels of style..."
 ```json
 {
   "document": "README.md",
+  "phase": "M2",
   "status": "overengineered",
   "features": [
-    "badges",
-    "alerts",
-    "tables",
+    "delimiters",
+    "escapes",
+    "entities",
+    "nested-fences",
     "diagrams",
-    "collapsible-sections",
-    "animated-svg"
+    "collapsible-sections"
   ],
   "excusesRemaining": 0
 }
@@ -444,21 +518,21 @@ echo "Deploying unnecessary levels of style..."
 ### The sacred diff
 
 ```diff
-- This project does stuff.
-+ This project solves a clearly defined problem.
+- Markdown is just symbols around text.
++ Markdown is a parser with delimiter, whitespace, and precedence rules.
 
-- Installation: figure it out.
-+ Installation: follow the three verified steps below.
+- Backslashes are ugly.
++ Backslashes are escape hatches.
 
-- Documentation coming soon.
-+ Documentation has arrived wearing a cape.
+- Three backticks are enough forever.
++ Fence length is a tool.
 ```
 
 ### Status transmission
 
 `$ echo "learn markdown"`  
 `$ git add README.md`  
-`$ git commit -m "docs: achieve enlightenment"`  
+`$ git commit -m "docs: understand the parser"`  
 `$ git push origin main`  
 `> repository aura increased successfully`
 
@@ -514,7 +588,7 @@ GitHub can display different images for light and dark themes:
 ```
 
 > [!TIP]
-> The paths above are still a syntax demonstration in M1. A later asset phase will convert theme-aware media into a live repository-owned demonstration.
+> These paths remain a syntax demonstration for now. A later media phase will convert theme-aware imagery into a live repository-owned demonstration.
 
 ---
 
@@ -612,7 +686,7 @@ And the forbidden equation:
 ```
 
 > [!NOTE]
-> M1 only relocates the current math showcase. The dedicated mathematics phase will expand this renderer substantially.
+> M2 intentionally leaves the math renderer mostly unchanged. The dedicated mathematics phase will expand this substantially.
 
 ---
 
@@ -670,8 +744,6 @@ stateDiagram-v2
 
 ### Reserved expansion slots
 
-The architecture now has room for advanced GitHub-native renderers without creating another unrelated top-level section:
-
 ```text
 ACT V — ADVANCED RENDERING
 ├── Mathematics            ✅ current
@@ -685,46 +757,249 @@ ACT V — ADVANCED RENDERING
 
 # ACT VI — PARSER & SOURCE LAB
 
-> This act is for syntax that becomes interesting specifically because Markdown has parsing rules, escaping rules, and source/render differences.
+> This is where Markdown stops being a bag of formatting shortcuts and reveals itself as a parser with rules about delimiters, escapes, whitespace, and precedence.
 
-## LEVEL 13 — ESCAPING & FORBIDDEN KNOWLEDGE
+## LEVEL 13 — ESCAPE HATCH
 
-`Markdown` · `HTML` · `Source-only`
+`Markdown` · `Source-aware`
 
-### Escaping special characters
+A backslash can neutralize punctuation that would otherwise become Markdown syntax.
 
-| Desired character | Escaped source |
-| :---: | :---: |
-| `*` | `\*` |
-| `_` | `\_` |
-| `#` | `\#` |
-| `>` | `\>` |
-| `[` | `\[` |
-| `\` | `\\` |
+### Structural disarmament
 
-### Hidden comments
+These lines look dangerous in source but render as ordinary text:
 
-The following source disappears from the rendered README:
+\# Not a heading  
+\> Not a blockquote  
+\- Not a list item  
+1\. Not an ordered-list item  
+\*Not emphasis\*  
+\[Not a link\](still-not-a-url)
 
-```html
-<!--
-Future maintainers:
-The animated banner is not sentient.
-Probably.
--->
+Source:
+
+```md
+\# Not a heading
+\> Not a blockquote
+\- Not a list item
+1\. Not an ordered-list item
+\*Not emphasis\*
+\[Not a link\](still-not-a-url)
 ```
 
-<!--
-Future maintainers:
-The animated banner is not sentient.
-Probably.
--->
+### Escape matrix
+
+| Desired literal | Source | If unescaped, it may start... |
+| :---: | :---: | --- |
+| `*` | `\*` | emphasis / list syntax |
+| `_` | `\_` | emphasis |
+| `#` | `\#` | heading syntax |
+| `>` | `\>` | blockquote syntax |
+| `[` | `\[` | link text |
+| `]` | `\]` | link text termination |
+| `(` | `\(` | link destination grouping |
+| `)` | `\)` | link destination grouping |
+| `+` | `\+` | list syntax |
+| `-` | `\-` | list / thematic-break syntax |
+| `.` | `\.` | ordered-list punctuation |
+| `!` | `\!` | image syntax |
+| `|` | `\|` | GFM table delimiter |
+| `~` | `\~` | strikethrough delimiter |
+| `\` | `\\` | the escape character itself |
+
+> [!TIP]
+> Escaping is not merely for showing examples. It is how documentation can safely discuss Markdown syntax using Markdown itself.
+
+---
+
+## LEVEL 14 — BACKTICK PARADOX
+
+`Markdown` · `Parser`
+
+Inline code is delimited by backticks—but the delimiter can be **longer than the backticks inside the content**.
+
+Normal code span:
+
+`README.md`
+
+A code span containing literal backticks:
+
+``Use a `backtick` inside code``
+
+Source:
+
+```md
+`README.md`
+
+``Use a `backtick` inside code``
+```
+
+The parser sees the two-backtick run as the outer delimiter, so the single backticks become ordinary content.
+
+### Fence escalation
+
+The same principle works for fenced blocks. If the content itself contains triple backticks, wrap the demonstration in a longer fence:
+
+````md
+```javascript
+console.log("Three backticks can live inside four.");
+```
+````
+
+That block is not fake. The outer fence really is four backticks.
+
+> [!IMPORTANT]
+> Fence length is part of the syntax. More backticks are not decoration; they are a parser-control mechanism.
+
+---
+
+## LEVEL 15 — DELIMITER COLLISION LAB
+
+`Markdown` · `GFM`
+
+Markdown has multiple delimiter systems that can coexist.
+
+### Same visual result, different source
+
+*asterisk emphasis*  
+_underscore emphasis_
+
+**asterisk strong**  
+__underscore strong__
+
+***asterisk triple***  
+___underscore triple___
+
+### Delimiters inside delimiters
+
+**Strong containing _emphasis_.**
+
+_Emphasis containing **strong** text._
+
+~~Strikethrough containing **strong** text and `code`.~~
+
+### Parser-safe identifiers
+
+The source `economic_math_student` stays intact as economic_math_student rather than unexpectedly italicizing `math`.
+
+The point is not memorizing obscure precedence rules. The point is recognizing that Markdown does **context-sensitive delimiter parsing**, not blind character replacement.
+
+---
+
+## LEVEL 16 — ENTITY REACTOR
+
+`Markdown` · `HTML`
+
+HTML character references can represent characters that would otherwise be awkward, ambiguous, or syntax-significant in source.
+
+### Named entities
+
+| Source | Rendered | Meaning |
+| --- | :---: | --- |
+| `&copy;` | &copy; | copyright |
+| `&reg;` | &reg; | registered |
+| `&trade;` | &trade; | trademark |
+| `&rarr;` | &rarr; | right arrow |
+| `&larr;` | &larr; | left arrow |
+| `&harr;` | &harr; | horizontal arrow |
+| `&times;` | &times; | multiplication |
+| `&divide;` | &divide; | division |
+| `&plusmn;` | &plusmn; | plus/minus |
+| `&ne;` | &ne; | not equal |
+| `&le;` | &le; | less than or equal |
+| `&ge;` | &ge; | greater than or equal |
+| `&infin;` | &infin; | infinity |
+| `&pi;` | &pi; | pi |
+| `&lambda;` | &lambda; | lambda |
+
+### Named, decimal, hexadecimal: same character
+
+| Encoding | Source | Result |
+| --- | --- | :---: |
+| Named | `&copy;` | &copy; |
+| Decimal | `&#169;` | &#169; |
+| Hexadecimal | `&#xA9;` | &#xA9; |
+
+### Escaping HTML-looking text without a code span
+
+`&lt;div&gt;not an HTML element&lt;/div&gt;` renders as:
+
+&lt;div&gt;not an HTML element&lt;/div&gt;
+
+Likewise:
+
+- `&amp;` → &amp;
+- `&quot;` → &quot;
+- `&lt;` → &lt;
+- `&gt;` → &gt;
+
+### Parser smuggling trick
+
+This source contains encoded asterisks:
+
+```md
+&#42;these stars are characters, not emphasis delimiters&#42;
+```
+
+Rendered:
+
+&#42;these stars are characters, not emphasis delimiters&#42;
+
+They visually become `*`, but they were not parsed as emphasis delimiters because the entity reference itself occupied the source position.
+
+> [!NOTE]
+> Entities are useful when you need the **character** without wanting that character to participate in Markdown syntax.
+
+---
+
+## LEVEL 17 — WHITESPACE & RECURSION CHAMBER
+
+`Markdown` · `Parser`
+
+Whitespace can change block structure, while fence length can change where parsing begins and ends.
+
+### Paragraph boundary
+
+```md
+This is paragraph one.
+
+This is paragraph two because a blank line separates it.
+```
+
+### Explicit hard break
+
+```md
+First line ends with two spaces.  
+Second line begins immediately below it.
+```
 
 ### Markdown inception
 
 The cheat sheet later in this README uses **four outer backticks** so it can safely contain ordinary triple-backtick code fences inside itself.
 
-That recursion now lives conceptually in the parser lab rather than being treated as an accidental footnote.
+````md
+```md
+**Markdown shown inside Markdown shown inside Markdown.**
+```
+````
+
+### Source-only knowledge
+
+The following message exists in the file but disappears from rendered output:
+
+```html
+<!--
+Future maintainers:
+The parser examples are intentional.
+Probably do not normalize them with an aggressive formatter.
+-->
+```
+
+<!--
+Future maintainers:
+The parser examples are intentional.
+Probably do not normalize them with an aggressive formatter.
+-->
 
 ---
 
@@ -736,21 +1011,24 @@ That recursion now lives conceptually in the parser lab rather than being treate
 
 <p align="center">
   <img src="https://img.shields.io/badge/ACHIEVEMENT-USED_A_TABLE-fbbf24?style=for-the-badge" alt="Achievement: used a table" />
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-NESTED_A_QUOTE-f97316?style=for-the-badge" alt="Achievement: nested a quote" />
   <img src="https://img.shields.io/badge/ACHIEVEMENT-SUMMONED_MERMAID-06b6d4?style=for-the-badge" alt="Achievement: summoned Mermaid" />
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-HID_A_COMMENT-8b5cf6?style=for-the-badge" alt="Achievement: hid a comment" />
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-TAMED_THE_PARSER-8b5cf6?style=for-the-badge" alt="Achievement: tamed the parser" />
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-ENTITY_ALCHEMIST-0891b2?style=for-the-badge" alt="Achievement: entity alchemist" />
   <img src="https://img.shields.io/badge/ACHIEVEMENT-OVERUSED_BADGES-ec4899?style=for-the-badge" alt="Achievement: overused badges" />
 </p>
 
 | Achievement | Requirement | Status |
 | --- | --- | :---: |
-| **The Emphasizer** | Use bold, italics, and code together | ✅ |
+| **The Emphasizer** | Use alternate and nested emphasis delimiters | ✅ |
 | **List Archaeologist** | Reach five nesting levels | ✅ |
 | **Table Architect** | Align columns intentionally | ✅ |
 | **Alert Commander** | Deploy all five GitHub alerts | ✅ |
 | **Diagram Summoner** | Render Mermaid successfully | ✅ |
 | **Source Diver** | Hide meaningful source-only content | ✅ |
-| **Architecture Engineer** | Organize by rendering layer | ✅ |
+| **Parser Tamer** | Neutralize syntax with escapes | ✅ |
+| **Backtick Heretic** | Put backticks inside a backtick-delimited span | ✅ |
+| **Entity Alchemist** | Use named, decimal, and hexadecimal entities | ✅ |
+| **Recursion Engineer** | Nest fenced-code demonstrations safely | ✅ |
 | **Master of Restraint** | Stop before adding too much | ❌ |
 
 ---
@@ -761,32 +1039,54 @@ That recursion now lives conceptually in the parser lab rather than being treate
 Clarity        ████████████████████ 100%
 Structure      ████████████████████ 100%
 Navigation     ████████████████████ 100%
-Usefulness     ███████████████████░  95%
+Typography     ████████████████████ 100%
+Parser Tricks  ███████████████████░  95%
+Entities       ████████████████████ 100%
 Animation      ████████████████░░░░  80%
 Badge Density  ██████████████████░░  90%
 Restraint      ██░░░░░░░░░░░░░░░░░░  10%
-Raw Power      ████████████░░░░░░░░  M1
+Raw Power      ██████████████░░░░░░  M2
 ```
 
 > [!WARNING]
-> A beautiful README that does not explain its own structure is still bad documentation.
+> A powerful README that cannot explain why its own syntax works is still just visual noise.
 >
-> **M1 fixes the architecture first. Later phases increase the power.**
+> **M2 makes the parser itself part of the showcase.**
 
 ---
 
 ## 🧰 THE ACTUALLY USEFUL CHEAT SHEET
 
 ````md
-# Heading 1
-## Heading 2
-### Heading 3
+# ATX Heading 1
+## ATX Heading 2
+### ATX Heading 3
 
-**bold**
-*italic*
-***bold italic***
+Setext Heading 1
+================
+
+Setext Heading 2
+----------------
+
+*italic* or _italic_
+**bold** or __bold__
+***bold italic*** or ___bold italic___
 ~~strikethrough~~
 `inline code`
+``code containing a `backtick` ``
+
+\# escaped heading marker
+\*literal asterisks\*
+1\. escaped ordered-list marker
+
+Hard break using two spaces.  
+Next line.
+
+HTML break.<br />Next line.
+
+&copy; &rarr; &infin;
+&#169; &#xA9;
+&lt;literal-tag&gt;
 
 [link text](https://example.com)
 ![alt text](path/to/image.png)
@@ -816,7 +1116,7 @@ fenced code block
 <details>
 <summary>Click to expand</summary>
 
-Hidden content
+Hidden Markdown content
 
 </details>
 
@@ -826,7 +1126,7 @@ Here is a footnote.[^1]
 ````
 
 > [!NOTE]
-> The inner fenced-code example above is protected by four outer backticks. Markdown enjoys recursion almost as much as programmers do.
+> The inner triple-backtick example is protected by four outer backticks. The fence length is intentional.
 
 ---
 
@@ -844,6 +1144,8 @@ Here is a footnote.[^1]
 | “Documentation coming soon” | It is not coming soon |
 | Decorative overload | The content disappears |
 | Flat feature dumping | The README becomes impossible to extend |
+| “Cleaning up” meaningful escapes | Parser demonstrations silently break |
+| Assuming every symbol is simple replacement syntax | Markdown disagrees |
 
 ---
 
@@ -852,7 +1154,7 @@ Here is a footnote.[^1]
 Before pushing, verify:
 
 - [ ] The first paragraph explains what the project does.
-- [ ] The installation steps work in a clean environment.
+- [ ] The installation steps work in a clean environment when applicable.
 - [ ] Every command can be copied safely.
 - [ ] Every link opens the intended destination.
 - [ ] Every image has useful alt text.
@@ -860,8 +1162,10 @@ Before pushing, verify:
 - [ ] The mobile layout remains readable.
 - [ ] Decorative elements support rather than bury the content.
 - [ ] Every advanced feature belongs to the correct rendering layer.
+- [ ] Escape sequences still render as intended.
+- [ ] Nested fence lengths have not been normalized accidentally.
+- [ ] Entity demonstrations render as characters rather than unintended syntax.
 - [ ] The README was previewed on GitHub.
-- [ ] No one wrote “just figure it out.”
 
 ---
 
@@ -871,30 +1175,30 @@ Before pushing, verify:
 
 <a href="https://www.markdownguide.org/">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Orbitron&amp;weight=800&amp;size=28&amp;pause=1100&amp;color=F43F5E&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=70&amp;lines=ARCHITECTURE+RECONSTRUCTED.;THE+POWER+MAP+IS+ONLINE.;NOW+WE+CAN+GO+TOO+FAR+PROPERLY."
-    alt="Architecture reconstructed — the power map is online"
+    src="https://readme-typing-svg.demolab.com?font=Orbitron&amp;weight=800&amp;size=28&amp;pause=1100&amp;color=F43F5E&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=70&amp;lines=PARSER+LAYER+UNLOCKED.;BACKSLASHES+ARE+NOW+WEAPONS.;ENTITIES+HAVE+ENTERED+THE+CHAT.;M2+COMPLETE."
+    alt="Parser layer unlocked — M2 complete"
   />
 </a>
 
-<h3>M1 did not add the strongest weapons.</h3>
-<h3>It built the arena that can contain them.</h3>
+<h3>The README no longer merely uses Markdown.</h3>
+<h3>It now demonstrates why the source becomes the render.</h3>
 
 </div>
 
 ```txt
 SOURCE
   ↓
-MARKDOWN CORE
+DELIMITERS
   ↓
-GFM
+ESCAPES
   ↓
-GITHUB EXTENSIONS
+WHITESPACE
   ↓
-HTML HYBRID
+ENTITIES
+  ↓
+GFM + GITHUB + HTML
   ↓
 ADVANCED RENDERING
-  ↓
-PARSER LAB
   ↓
 FINAL FORM
 ```
@@ -902,8 +1206,9 @@ FINAL FORM
 <div align="center">
 
 <p>
-  Structure first. Then capability.<br />
-  Every future feature now has a deliberate home.<br />
+  The parser has rules.<br />
+  The rules can be demonstrated.<br />
+  The demonstrations can themselves be Markdown.<br />
   Make it <s>unreadable</s> <strong><em>beautifully, strategically ridiculous</em></strong>.
 </p>
 
@@ -916,7 +1221,7 @@ FINAL FORM
 <br />
 
 <h2>🗿 Markdown: Final Form.</h2>
-<h3>Architecture before escalation.</h3>
+<h3>The parser is now part of the exhibit.</h3>
 
 <img
   width="100%"
