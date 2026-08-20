@@ -1,14 +1,14 @@
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                      LEVEL 00: SOURCE LAYER — M14                           ║
+║                      LEVEL 00: SOURCE LAYER — M15                           ║
 ║                                                                              ║
 ║  RAW SOURCE EXPLORER · PARSER TAMER · BLOCK ARCHITECT · LINK CARTOGRAPHER   ║
 ║  MEDIA ENGINEER · HYBRID ENGINEER · SYNTAX CURATOR · MATHJAX ARCHITECT      ║
 ║  MERMAID CARTOGRAPHER · GEOJSON NAVIGATOR · TOPOLOGY ENGINEER               ║
-║  STL MESHSMITH · GRAMMAR BREAKER · PROGRESSION ARCHITECT                    ║
+║  STL MESHSMITH · GRAMMAR BREAKER · PROGRESSION ARCHITECT · FINAL COMPOSER   ║
 ║                                                                              ║
-║  M14 invariant: capability, mastery, and release confidence are different.  ║
-║  Do not mark M15–M17 complete until their explicit gates are actually passed.║
+║  M15 invariant: compose proven mechanics; introduce no new renderer family.  ║
+║  M16 and M17 stay locked until certification and final GitHub regression.    ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 
@@ -17,44 +17,48 @@ SECRET ACHIEVEMENTS — SOURCE VIEW ONLY
 
 [S1] RAW SOURCE EXPLORER
      Condition: inspect README source instead of only rendered output.
-     Status: unlocked by reading this comment.
+     Status: unlocked.
 
 [S2] COMMENT ARCHAEOLOGIST
      Condition: find a phase invariant inside an HTML comment.
      Status: unlocked.
 
 [S3] THE SOURCE IS THE UI
-     Condition: understand that several GitHub renderers are selected by source metadata.
+     Condition: understand that renderer routing is encoded in Markdown source.
      Status: unlocked.
 
-[S4] MASTER OF RESTRAINT
+[S4] NO NEW MECHANICS
+     Condition: reach M15 without introducing another renderer family.
+     Status: unlocked.
+
+[S5] MASTER OF RESTRAINT
      Condition: stop adding unnecessary systems.
-     Status: still locked.
+     Status: somehow still locked.
 -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form — M14 progression and achievement system" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form — M15 canonical Final Boss composition" width="100%">
 </picture>
 
 <div align="center">
 
 <a href="https://readme-typing-svg.demolab.com/demo/">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Acts.+Levels.+Bosses.+Mastery.;Capability+is+not+release+confidence.;M0+through+M14+now+form+one+campaign.;M14+progression+system+online."
-    alt="Animated M14 progression introduction">
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=No+new+mechanics.;Every+system+enters+the+same+arena.;Source.+Renderers.+Parser.+Progression.;M15+Final+Boss+composition+online."
+    alt="Animated M15 Final Boss introduction">
 </a>
 
 <br>
 
-<a href="#campaign-status"><img src="https://img.shields.io/badge/CAMPAIGN-15%2F18_PHASES-8B5CF6?style=for-the-badge" alt="Campaign 15 of 18 phases complete"></a>
-<a href="#renderer-mastery"><img src="https://img.shields.io/badge/RENDERERS-MASTERED-0891B2?style=for-the-badge" alt="Renderer mastery"></a>
-<a href="#achievement-codex"><img src="https://img.shields.io/badge/ACHIEVEMENTS-M14-F59E0B?style=for-the-badge" alt="M14 achievements"></a>
-<a href="#final-boss"><img src="https://img.shields.io/badge/FINAL_BOSS-LOCKED-F43F5E?style=for-the-badge" alt="Final Boss gate locked until M15"></a>
+<a href="#campaign-status"><img src="https://img.shields.io/badge/CAMPAIGN-16%2F18_PHASES-8B5CF6?style=for-the-badge" alt="Campaign 16 of 18 phases complete"></a>
+<a href="#renderer-mastery"><img src="https://img.shields.io/badge/RENDERERS-6%2F6_MASTERED-0891B2?style=for-the-badge" alt="Six of six specialized renderer routes mastered"></a>
+<a href="#level-36--canonical-final-boss"><img src="https://img.shields.io/badge/FINAL_BOSS-CLEARED-F59E0B?style=for-the-badge" alt="Canonical Final Boss cleared"></a>
+<a href="#release-gates"><img src="https://img.shields.io/badge/M16-CERTIFICATION_NEXT-F43F5E?style=for-the-badge" alt="M16 certification next"></a>
 
 <h2>MARKDOWN: FINAL FORM</h2>
-<sub>One README · seven Acts · thirty-six numbered levels · six specialized renderer routes · one increasingly unnecessary campaign</sub>
+<sub>One README · seven Acts · thirty-seven numbered levels · six specialized renderer routes · one canonical Final Boss</sub>
 
 <br><br>
 
@@ -68,14 +72,14 @@ SECRET ACHIEVEMENTS — SOURCE VIEW ONLY
 &nbsp;•&nbsp;
 <a href="#achievement-codex"><strong>🏅 Achievements</strong></a>
 &nbsp;•&nbsp;
-<a href="#final-boss"><strong>👑 Final Boss Gate</strong></a>
+<a href="#level-36--canonical-final-boss"><strong>👑 Final Boss</strong></a>
 
 </div>
 
 ---
 
 > [!IMPORTANT]
-> **M14 adds no new Markdown renderer.** It rebuilds the meta-system around everything already acquired. A capability can be complete while final release certification remains incomplete. The README therefore tracks **showcase mastery**, **hardening status**, and **release confidence** separately.
+> **M15 adds no new Markdown capability.** It composes the mechanisms already proven in M0–M14 into one canonical Final Boss. The goal is integration: source layer, Markdown/GFM, GitHub extensions, HTML Hybrid, Linguist, MathJax, Mermaid, GeoJSON, TopoJSON, ASCII STL, parser containment, and progression all have to coexist without becoming a duplicated wall of demonstrations.
 
 <a name="campaign-status"></a>
 
@@ -83,19 +87,19 @@ SECRET ACHIEVEMENTS — SOURCE VIEW ONLY
 
 | Metric | Current state | Meaning |
 | --- | :---: | --- |
-| Campaign phases | **15 / 18** | M0 through M14 complete |
+| Campaign phases | **16 / 18** | M0 through M15 complete |
 | Capability acquisition | **100%** | planned Markdown/GFM/GitHub/HTML/native-renderer breadth acquired |
-| Native advanced renderer acquisition | **4 / 4** | Mermaid, GeoJSON, TopoJSON, ASCII STL |
+| Native advanced renderers | **4 / 4** | Mermaid, GeoJSON, TopoJSON, ASCII STL |
 | Specialized renderer routes | **6 / 6** | Linguist, MathJax, Mermaid, GeoJSON, TopoJSON, ASCII STL |
-| Parser hardening | **95% source confidence** | M13 complete; final GitHub regression still pending |
-| Endgame phases | **2 / 5** | M13 parser hardening + M14 progression complete |
-| Accessibility/mobile certification | **pending** | owned by M16 |
+| Parser hardening | **95% source confidence** | M13 complete; M17 still owns final rendered regression |
+| Final Boss composition | **complete** | M15 integrates all prior mechanics without adding a new one |
+| Endgame phases | **3 / 5** | M13 + M14 + M15 complete |
+| Accessibility/mobile/theme certification | **pending** | owned by M16 |
 | Final GitHub release regression | **pending** | owned by M17 |
-| Final Boss composition | **locked** | owned by M15 |
 
 ```text
 M0 ─ M1 ─ M2 ─ M3 ─ M4 ─ M5 ─ M6 ─ M7 ─ M8 ─ M9 ─ M10 ─ M11 ─ M12 ─ M13 ─ M14 ─ M15 ─ M16 ─ M17
-✓    ✓    ✓    ✓    ✓    ✓    ✓    ✓    ✓    ✓     ✓     ✓     ✓     ✓     ✓     LOCK  LOCK  LOCK
+✓    ✓    ✓    ✓    ✓    ✓    ✓    ✓    ✓    ✓     ✓     ✓     ✓     ✓     ✓     ✓     LOCK  LOCK
 ```
 
 ### Two scoreboards
@@ -105,23 +109,23 @@ SHOWCASE MASTERY
 ████████████████████ 100 / 100
 
 RELEASE CONFIDENCE
-███████████████░░░░░  73 / 100
+████████████████░░░░  81 / 100
 ```
 
-**Showcase Mastery** answers: “Can the README demonstrate the planned capability?”  
-**Release Confidence** answers: “Has the whole experience passed parser, composition, accessibility, mobile, theme, and final GitHub rendering certification?”
+**Showcase Mastery** asks whether the planned capability exists.  
+**Release Confidence** asks whether the whole experience has passed composition, accessibility, mobile, theme, and final GitHub rendering certification.
 
-The release score is a transparent M14 heuristic:
+M15 keeps the score auditable:
 
 ```text
 25% Capability Index (100)
-45% Robustness Index  (81)
-30% Endgame completion (40)
+45% Robustness Index  (84)
+30% Endgame completion (60)
 
-0.25×100 + 0.45×81 + 0.30×40 = 73.45 → 73
+0.25×100 + 0.45×84 + 0.30×60 = 80.8 → 81
 ```
 
-That score is intentionally below 100 before M15–M17.
+The remaining gap belongs to M16–M17 rather than another feature phase.
 
 ---
 
@@ -136,7 +140,7 @@ flowchart LR
     A4 --> A5[ACT V<br/>Advanced Renderers]
     A5 --> A6[ACT VI<br/>Parser Trials]
     A6 --> A7[ACT VII<br/>Endgame]
-    A7 --> B[FINAL BOSS<br/>M15]
+    A7 --> B[LEVEL 36<br/>FINAL BOSS ✅]
     B --> C[M16<br/>Certification]
     C --> R[M17<br/>Release]
 ```
@@ -148,14 +152,14 @@ flowchart LR
 | `00` | Source layer / hidden state | Source Gate | ✅ |
 | `I` | Markdown Core | Core Grammar Boss | ✅ |
 | `II` | GFM | Pipe & Task Boss | ✅ |
-| `III` | GitHub Extensions | Extension Boss | ✅ |
-| `IV` | HTML Hybrid | Sanitizer Boss | ✅ |
+| `III` | GitHub Extensions | Extension Router | ✅ |
+| `IV` | HTML Hybrid | Sanitizer Survivor | ✅ |
 | `V` | Advanced Rendering | Renderer Gauntlet | ✅ |
 | `VI` | Parser Trials | Parser Firewall | ✅ |
-| `VII` | Endgame systems | Progression Architect | ✅ M14 |
-| `∞` | Final composition | Final Boss | 🔒 M15 |
+| `VII` | Endgame systems | Progression Architect | ✅ |
+| `∞` | Final composition | **Canonical Final Boss** | **✅ M15** |
 | `RC` | accessibility/mobile/theme | Certification Gate | 🔒 M16 |
-| `REL` | GitHub regression/release | Release Gate | 🔒 M17 |
+| `REL` | final GitHub regression | Release Gate | 🔒 M17 |
 
 ---
 
@@ -167,12 +171,12 @@ flowchart LR
 <!-- Rendered output cannot show everything the source knows. -->
 ```
 
-The source layer owns phase invariants, secret achievements, raw parser fixtures, and comments that intentionally disappear from rendered view.
+The source layer owns invariants, secret achievements, exact parser fixtures, and comments that intentionally disappear from rendered view.
 
-Raw parser fixture corpus: [`assets/parser-torture-corpus.txt`](./assets/parser-torture-corpus.txt)
+Raw parser corpus: [`assets/parser-torture-corpus.txt`](./assets/parser-torture-corpus.txt)
 
 > [!NOTE]
-> Some M14 rewards exist only in source view. The rendered README confirms that secrets exist; it does not reveal every condition.
+> M15's source-only achievement is intentionally invisible in rendered view. Source inspection remains part of the experience.
 
 ---
 
@@ -242,7 +246,7 @@ ordinary fenced block
 
 [Inline](https://example.com) · [Markdown Guide][markdown-guide] · [GitHub Docs][] · [GFM Spec]
 
-[README](./README.md) · [Parser corpus](./assets/parser-torture-corpus.txt) · [Final Boss gate](#final-boss)
+[README](./README.md) · [Parser corpus](./assets/parser-torture-corpus.txt) · [Final Boss](#level-36--canonical-final-boss)
 
 <https://github.com/>  
 https://github.com  
@@ -255,7 +259,7 @@ www.github.com
 
 **Victory condition:** headings, inline formatting, lists, quotes, code, links, references, and breaks coexist without losing source readability.
 
-**Reward:** `CORE SCRIBE` achievement.
+**Reward:** `CORE SCRIBE`.
 
 </details>
 
@@ -277,7 +281,7 @@ www.github.com
 - [x] GFM
 - [x] GitHub Extensions
 - [x] HTML Hybrid
-- [x] Linguist syntax museum
+- [x] 33-mode Linguist museum
 - [x] MathJax
 - [x] Mermaid
 - [x] GeoJSON
@@ -285,7 +289,7 @@ www.github.com
 - [x] ASCII STL
 - [x] Parser torture
 - [x] M14 progression overhaul
-- [ ] M15 Final Boss composition
+- [x] **M15 canonical Final Boss composition**
 - [ ] M16 accessibility/mobile/theme certification
 - [ ] M17 final GitHub release regression
 
@@ -296,7 +300,7 @@ www.github.com
 
 **Victory condition:** tables preserve escaped pipes, task syntax remains structured, and inline Markdown survives inside GFM containers.
 
-**Reward:** `PIPE BENDER` achievement.
+**Reward:** `PIPE BENDER`.
 
 </details>
 
@@ -313,26 +317,26 @@ www.github.com
 > Source-first renderers are easiest to debug when their raw input remains visible.
 
 > [!IMPORTANT]
-> M15–M17 remain locked even though feature acquisition is complete.
+> M15 is complete. M16–M17 remain certification gates, not feature gates.
 
 > [!WARNING]
 > A renderer displaying something is not proof that the source is semantically correct.
 
 > [!CAUTION]
-> Never turn intentionally malformed examples into live specialized renderer blocks.
+> Intentionally malformed examples stay inside ordinary source fences.
 
 ## LEVEL 08 — LINGUIST SYNTAX MUSEUM
 
-M7's **33-mode inventory** remains represented.
+M7's **33-mode inventory** remains represented compactly.
 
 <details>
-<summary><strong>Web / data / markup</strong></summary>
+<summary><strong>Web / data / markup — 9</strong></summary>
 
 ```javascript
 console.log("JavaScript");
 ```
 ```typescript
-const phase: number = 14;
+const phase: number = 15;
 ```
 ```html
 <details><summary>HTML</summary></details>
@@ -341,25 +345,25 @@ const phase: number = 14;
 .readme { display: block; }
 ```
 ```json
-{"phase":"M14"}
+{"phase":"M15"}
 ```
 ```yaml
-phase: M14
+phase: M15
 ```
 ```toml
-phase = "M14"
+phase = "M15"
 ```
 ```xml
-<phase>M14</phase>
+<phase>M15</phase>
 ```
 ```sql
-SELECT 'M14';
+SELECT 'M15';
 ```
 
 </details>
 
 <details>
-<summary><strong>Compiled / systems</strong></summary>
+<summary><strong>Compiled / systems — 8</strong></summary>
 
 ```c
 int main(void){return 0;}
@@ -391,7 +395,7 @@ print("Swift")
 </details>
 
 <details>
-<summary><strong>Scripting / scientific / functional</strong></summary>
+<summary><strong>Scripting / scientific / functional — 11</strong></summary>
 
 ```python
 print("Python")
@@ -430,7 +434,7 @@ main = print pi
 </details>
 
 <details>
-<summary><strong>Infrastructure / documentation / literal</strong></summary>
+<summary><strong>Infrastructure / documentation / literal — 5</strong></summary>
 
 ```dockerfile
 FROM alpine:3.22
@@ -439,15 +443,15 @@ FROM alpine:3.22
 # Markdown
 ```
 ```diff
-- disconnected achievements
-+ coherent campaign progression
+- add another feature
++ compose the features we already proved
 ```
 ```text
 plaintext
 ```
 ```ini
 [readme]
-phase=M14
+phase=M15
 ```
 
 </details>
@@ -465,9 +469,9 @@ Repeated reference one.[^repeat] Repeated reference two.[^repeat]
 <details>
 <summary><strong>Boss cleared</strong></summary>
 
-**Victory condition:** alerts, syntax routing, footnotes, autolinks, and GitHub-aware behavior remain legible and source-controlled.
+**Victory condition:** alerts, Linguist routing, footnotes, autolinks, and GitHub-aware behavior remain source-controlled.
 
-**Reward:** `GITHUB OPERATOR` achievement.
+**Reward:** `GITHUB OPERATOR`.
 
 </details>
 
@@ -485,7 +489,7 @@ Repeated reference one.[^repeat] Repeated reference two.[^repeat]
 
 ![Repository-owned SVG card](./assets/media-card.svg)
 
-[![Clickable local portal](./assets/clickable-portal.svg)](#achievement-codex)
+[![Clickable local portal](./assets/clickable-portal.svg)](#level-36--canonical-final-boss)
 
 ## LEVEL 11 — INLINE HTML SEMANTICS
 
@@ -508,7 +512,7 @@ H<sub>2</sub>O · x<sup>2</sup> · <ins>inserted</ins> · <del>deleted</del> · 
 <details open>
 <summary><strong>Default-open content</strong></summary>
 
-`open` changes the initial disclosure state without README-authored JavaScript.
+`open` changes initial disclosure state without README-authored JavaScript.
 
 </details>
 
@@ -708,9 +712,7 @@ Standalone cube: [`assets/stl-showcase.stl`](./assets/stl-showcase.stl)
 
 ## RENDERER MASTERY
 
-M14 uses five mastery criteria instead of a simple “exists / does not exist” flag:
-
-| Renderer | Source syntax | Live render | Composition | Failure containment | Reference/asset evidence | Mastery |
+| Renderer | Source syntax | Live render | Composition | Failure containment | Durable evidence | Mastery |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: |
 | Linguist | ✅ | ✅ | ✅ | ✅ | ✅ | **V** |
 | MathJax | ✅ | ✅ | ✅ | ✅ | ✅ | **V** |
@@ -724,25 +726,18 @@ MASTERY I   source syntax understood
 MASTERY II  live renderer demonstrated
 MASTERY III composed with another README mechanism
 MASTERY IV  malformed-input containment demonstrated
-MASTERY V   durable reference / asset / cross-render evidence retained
+MASTERY V   durable asset/reference/cross-render evidence retained
 ```
 
 ### ACT V BOSS — RENDERER GAUNTLET
 
-<details>
-<summary><strong>Boss cleared</strong></summary>
-
-**Victory condition:** all planned GitHub-native advanced renderers are represented and source-driven.
-
 **Rewards:** `MATHJAX ARCHITECT`, `MERMAID CARTOGRAPHER`, `GEOJSON NAVIGATOR`, `TOPOLOGY ENGINEER`, `STL MESHSMITH`.
-
-</details>
 
 ---
 
 # ACT VI — PARSER TRIALS
 
-M13's raw corpus remains the exact fixture source: [`assets/parser-torture-corpus.txt`](./assets/parser-torture-corpus.txt).
+M13's exact source fixture remains: [`assets/parser-torture-corpus.txt`](./assets/parser-torture-corpus.txt).
 
 ## LEVEL 22 — ESCAPES
 
@@ -892,22 +887,6 @@ endsolid missing_vertex
 
 ## LEVEL 31 — ACHIEVEMENT CODEX
 
-M14 replaces the old flat achievement pile with **rarity + evidence + unlock phase**.
-
-### Rarity model
-
-| Rarity | Meaning |
-| --- | --- |
-| `COMMON` | basic Markdown/GFM competency |
-| `UNCOMMON` | multi-mechanism composition |
-| `RARE` | GitHub-specific or parser-sensitive mastery |
-| `EPIC` | major specialized renderer mastery |
-| `LEGENDARY` | advanced interactive renderer / topology mastery |
-| `MYTHIC` | whole-document system mastery |
-| `SECRET` | source-only discovery |
-
-### Achievement ledger
-
 | Achievement | Rarity | Evidence | Unlocked |
 | --- | :---: | --- | :---: |
 | **Core Scribe** | COMMON | typography + headings + blocks | M1–M2 |
@@ -922,17 +901,13 @@ M14 replaces the old flat achievement pile with **rarity + evidence + unlock pha
 | **Topology Engineer** | LEGENDARY | shared arcs / transforms / TopoJSON | M11 |
 | **STL Meshsmith** | LEGENDARY | interactive ASCII STL / validated cube | M12 |
 | **Grammar Breaker** | MYTHIC | parser torture + renderer containment | M13 |
-| **Progression Architect** | MYTHIC | coherent campaign / mastery / gates | **M14** |
-| **Final Form Composer** | MYTHIC | full composed Final Boss | 🔒 M15 |
+| **Progression Architect** | MYTHIC | coherent campaign / mastery / gates | M14 |
+| **Final Form Composer** | MYTHIC | canonical cross-system Final Boss | **M15** |
 | **Accessibility Warden** | MYTHIC | mobile/theme/accessibility certification | 🔒 M16 |
 | **Release Keeper** | MYTHIC | final GitHub regression | 🔒 M17 |
 | **Master of Restraint** | UNKNOWN | stop adding systems | 🔒 apparently impossible |
 
-### Achievement rule
-
-An achievement now needs **evidence**, not merely a badge. If the demonstrated mechanism disappears from the README or its supporting asset, the achievement should be considered revoked until restored.
-
----
+Achievement rule: **evidence beats decoration**. If the demonstrated mechanism disappears, its achievement is conceptually revoked.
 
 ## LEVEL 32 — PHASE HISTORY
 
@@ -952,16 +927,12 @@ An achievement now needs **evidence**, not merely a badge. If the demonstrated m
 | M11 | TopoJSON | ✅ |
 | M12 | ASCII STL / 3D | ✅ |
 | M13 | parser torture / failure containment | ✅ |
-| **M14** | **progression / achievements / Chaos Index** | **✅** |
-| M15 | Final Boss composition | 🔒 |
+| M14 | progression / achievements / Chaos Index | ✅ |
+| **M15** | **canonical Final Boss composition** | **✅** |
 | M16 | accessibility / mobile / light-dark certification | 🔒 |
 | M17 | final GitHub regression / release polish | 🔒 |
 
----
-
-## LEVEL 33 — CHAOS INDEX 2.0
-
-The old index treated nearly every category as 100%, which stopped communicating useful risk. M14 splits it into **capability**, **robustness**, and **release-readiness** dimensions.
+## LEVEL 33 — CHAOS INDEX 2.1
 
 ### Capability Index
 
@@ -987,144 +958,387 @@ Parser Hardening    ███████████████████░
 Failure Containment ████████████████████ 100
 Local Asset Safety  ██████████████████░░  90
 Theme Resilience    █████████████████░░░  85
-Composition         ████████████████░░░░  80  ← M15
+Composition         ████████████████████ 100  ← M15 complete
 Accessibility       ██████████████░░░░░░  70  ← M16
 Mobile Confidence   ██████████████░░░░░░  70  ← M16
 GitHub Regression   ████████████░░░░░░░░  60  ← M17
 ---------------------------------------------
-ROBUSTNESS INDEX                             81
+ROBUSTNESS INDEX                             84
 ```
 
 ### Release Index
 
 ```text
 SHOWCASE MASTERY     ████████████████████ 100
-ENDGAME COMPLETION   ████████░░░░░░░░░░░░  40  (2 / 5)
-RELEASE CONFIDENCE   ███████████████░░░░░  73
+ENDGAME COMPLETION   ████████████░░░░░░░░  60  (3 / 5)
+RELEASE CONFIDENCE   ████████████████░░░░  81
 RESTRAINT            ██░░░░░░░░░░░░░░░░░░  10
-RAW POWER            ████████████████████ M14
+RAW POWER            ████████████████████ M15
 ```
-
-### Why the numbers differ
-
-A README can have **100% feature breadth** and still need more work before release. M14 makes that distinction visible instead of rewarding unfinished QA with fake perfect scores.
-
----
 
 ## LEVEL 34 — UNLOCK TREE
 
 ```mermaid
 flowchart TD
-    M13[M13 Parser Firewall ✅] --> M14[M14 Progression Architect ✅]
-    M14 --> M15{M15 Final Boss Composition}
+    M13[M13 Parser Firewall ✅] --> M14[M14 Progression ✅]
+    M14 --> M15[M15 Final Boss ✅]
     M15 --> M16{M16 Accessibility / Mobile / Theme Certification}
     M16 --> M17{M17 GitHub Regression / Release}
     M17 --> REL[FINAL FORM — RELEASED]
 ```
 
+<a name="release-gates"></a>
+
 | Gate | Unlock condition | Current state |
 | --- | --- | :---: |
-| M15 | progression system coherent | **UNLOCKED NEXT** |
-| M16 | Final Boss composed without introducing new mechanics | 🔒 |
+| M15 | coherent progression | ✅ CLEARED |
+| M16 | canonical Final Boss composed without new mechanics | **UNLOCKED NEXT** |
 | M17 | accessibility/mobile/theme certification passes | 🔒 |
 | Release | final GitHub rendering regression passes | 🔒 |
 
----
-
 ## LEVEL 35 — SOURCE-ONLY SECRETS
-
-Rendered view confirms the existence of hidden achievements without listing their exact locations or all conditions.
 
 ```text
 SECRET ACHIEVEMENTS
 ├── ???
 ├── ???
 ├── ???
-└── Master of Restraint  [still somehow locked]
+├── ???
+└── Master of Restraint  [still locked]
 ```
 
 > [!TIP]
-> GitHub's **source view** is part of the experience. Not every meaningful README mechanism has to render visibly.
+> Source view is part of the interface. M15 contains a hidden achievement that cannot be seen here.
 
 ---
 
-# FINAL BOSS GATE
-
 <a name="final-boss"></a>
 
-> [!WARNING]
-> **LOCKED UNTIL M15.** Earlier phases contained increasingly elaborate “Final Boss” sections, but M14 now distinguishes prototypes from the actual composition phase. M15 owns the canonical Final Boss.
+# LEVEL 36 — CANONICAL FINAL BOSS
+
+`M0–M15 composition` · `no new mechanics`
+
+<!--
+FINAL BOSS SECRET:
+You reached the source layer of the canonical composition.
+Achievement unlocked: NO NEW MECHANICS.
+The boss is difficult because the systems interact, not because a new system appeared.
+-->
+
+> [!IMPORTANT]
+> **Final Boss rule:** every mechanic below was demonstrated before M15. This section is allowed to compose; it is not allowed to expand the feature surface.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form canonical Final Boss banner" width="100%">
+</picture>
 
 <details open>
-<summary><strong>FINAL BOSS ENTRY REQUIREMENTS</strong></summary>
+<summary><strong>👑 FINAL BOSS ARENA — SYSTEM STATUS</strong></summary>
 
-| Requirement | State |
-| --- | :---: |
-| Markdown/GFM core demonstrated | ✅ |
-| GitHub extensions demonstrated | ✅ |
-| local/theme-aware media demonstrated | ✅ |
-| HTML Hybrid demonstrated | ✅ |
-| Linguist demonstrated | ✅ |
-| MathJax demonstrated | ✅ |
-| Mermaid demonstrated | ✅ |
-| GeoJSON demonstrated | ✅ |
-| TopoJSON demonstrated | ✅ |
-| ASCII STL demonstrated | ✅ |
-| parser firewall demonstrated | ✅ |
-| coherent achievement/progression model | ✅ |
-| compose all prior mechanics without adding a new one | 🔓 **M15 NEXT** |
-| accessibility/mobile/theme certification | 🔒 M16 |
-| final GitHub regression | 🔒 M17 |
+<table>
+  <thead><tr><th>Layer</th><th>Mechanic</th><th>Status</th></tr></thead>
+  <tbody>
+    <tr><td>Core</td><td>Markdown / GFM</td><td><strong>ONLINE</strong></td></tr>
+    <tr><td>GitHub</td><td>Alerts / footnotes / Linguist</td><td><strong>ONLINE</strong></td></tr>
+    <tr><td>Hybrid</td><td>picture / details / semantic HTML</td><td><strong>ONLINE</strong></td></tr>
+    <tr><td>Math</td><td>MathJax</td><td><strong>ONLINE</strong></td></tr>
+    <tr><td>Diagram</td><td>Mermaid</td><td><strong>ONLINE</strong></td></tr>
+    <tr><td>Map</td><td>GeoJSON</td><td><strong>ONLINE</strong></td></tr>
+    <tr><td>Topology</td><td>TopoJSON</td><td><strong>ONLINE</strong></td></tr>
+    <tr><td>3D</td><td>ASCII STL</td><td><strong>ONLINE</strong></td></tr>
+    <tr><td>Defense</td><td>Parser firewall</td><td><strong>ARMED</strong></td></tr>
+    <tr><td>Meta</td><td>Progression / achievements</td><td><strong>ONLINE</strong></td></tr>
+  </tbody>
+</table>
+
+### Boss objectives
+
+- [x] reuse local/theme-aware media
+- [x] compose Markdown + GFM + HTML
+- [x] include one code-rendering surface
+- [x] include MathJax
+- [x] include Mermaid
+- [x] include GeoJSON
+- [x] include TopoJSON
+- [x] include ASCII STL
+- [x] keep broken-source examples out of live specialized renderers
+- [x] expose source-only secret state
+- [x] avoid introducing a seventh specialized renderer
+- [ ] certify light/dark/mobile/accessibility in M16
+- [ ] pass final GitHub regression in M17
 
 </details>
 
+### Phase 1 — Boss manifest
+
+```yaml
+boss: MARKDOWN_FINAL_FORM
+phase: M15
+rule: compose_do_not_expand
+specialized_routes:
+  - linguist
+  - mathjax
+  - mermaid
+  - geojson
+  - topojson
+  - ascii_stl
+parser_firewall: armed
+m16_gate: unlocked
+m17_gate: locked
+```
+
+### Phase 2 — Renderer network
+
 ```mermaid
 flowchart TB
-    CORE[Markdown + GFM]
-    GH[GitHub Extensions]
-    HTML[HTML Hybrid]
-    CODE[Linguist]
-    MATH[MathJax]
-    MM[Mermaid]
-    GJ[GeoJSON]
-    TJ[TopoJSON]
-    STL[ASCII STL]
-    PARSER[Parser Firewall]
-    META[Progression System]
+    SRC[README source] --> MD[Markdown / GFM]
+    MD --> GH[GitHub]
 
-    CORE --> GATE[FINAL BOSS GATE]
-    GH --> GATE
-    HTML --> GATE
-    CODE --> GATE
-    MATH --> GATE
-    MM --> GATE
-    GJ --> GATE
-    TJ --> GATE
-    STL --> GATE
-    PARSER --> GATE
-    META --> GATE
+    GH --> CODE[Linguist]
+    GH --> MATH[MathJax]
+    GH --> MM[Mermaid]
+    GH --> GEO[GeoJSON]
+    GH --> TOPO[TopoJSON]
+    GH --> STL[ASCII STL]
+    GH --> HTML[Sanitized HTML]
 
-    GATE --> M15[M15 — COMPOSE, DO NOT EXPAND]
+    FIRE[Parser Firewall] --> MD
+    META[Progression System] --> BOSS[FINAL BOSS]
+
+    CODE --> BOSS
+    MATH --> BOSS
+    MM --> BOSS
+    GEO --> BOSS
+    TOPO --> BOSS
+    STL --> BOSS
+    HTML --> BOSS
+    FIRE --> BOSS
+
+    BOSS --> M16[M16 CERTIFICATION]
 ```
+
+### Phase 3 — Mathematical victory condition
 
 ```math
 \boxed{
-\text{M15 unlock}
+\text{Final Boss}
 =
-\text{all prior capabilities}
-+\text{parser safety}
-+\text{coherent progression}
+\text{Core}
+\oplus\text{GFM}
+\oplus\text{HTML}
+\oplus\text{Linguist}
+\oplus\text{MathJax}
+\oplus\text{Mermaid}
+\oplus\text{GeoJSON}
+\oplus\text{TopoJSON}
+\oplus\text{STL}
+\oplus\text{Parser Safety}
 }
+```
+
+```math
+\text{New mechanics introduced in M15}=0
+```
+
+### Phase 4 — Interactive chambers
+
+<details>
+<summary><strong>⌖ GeoJSON chamber — explicit geographic geometry</strong></summary>
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"title": "SOURCE", "marker-color": "#7c3aed"},
+      "geometry": {"type": "Point", "coordinates": [2.3522, 48.8566]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"title": "FINAL FORM", "marker-color": "#0891b2"},
+      "geometry": {"type": "Point", "coordinates": [13.405, 52.52]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"title": "COMPOSITION ROUTE", "stroke": "#2563eb", "stroke-width": 4},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[2.3522,48.8566],[13.405,52.52]]
+      }
+    }
+  ]
+}
+```
+
+Repository evidence: [`assets/geojson-showcase.geojson`](./assets/geojson-showcase.geojson)
+
+</details>
+
+<details>
+<summary><strong>◎ TopoJSON chamber — shared topology</strong></summary>
+
+```topojson
+{
+  "type": "Topology",
+  "objects": {
+    "west": {"type":"Polygon","arcs":[[0,1,2,3]]},
+    "east": {"type":"Polygon","arcs":[[4,5,6,-2]]},
+    "shared": {"type":"LineString","arcs":[1]}
+  },
+  "arcs": [
+    [[2,48],[6,48]],
+    [[6,48],[6,52]],
+    [[6,52],[2,52]],
+    [[2,52],[2,48]],
+    [[6,48],[10,48]],
+    [[10,48],[10,52]],
+    [[10,52],[6,52]]
+  ]
+}
+```
+
+One boundary, two regions, one reversed reference.  
+Repository evidence: [`assets/topojson-showcase.topojson`](./assets/topojson-showcase.topojson)
+
+</details>
+
+<details>
+<summary><strong>△ STL chamber — triangulated 3D surface</strong></summary>
+
+```stl
+solid final_form_tetrahedron
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 0 0
+      vertex 0 1 0
+      vertex 1 0 0
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+      vertex 0 0 1
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 0 0 0
+      vertex 0 0 1
+      vertex 0 1 0
+    endloop
+  endfacet
+  facet normal 0.577350269 0.577350269 0.577350269
+    outer loop
+      vertex 1 0 0
+      vertex 0 1 0
+      vertex 0 0 1
+    endloop
+  endfacet
+endsolid final_form_tetrahedron
+```
+
+Repository evidence: [`assets/stl-showcase.stl`](./assets/stl-showcase.stl)
+
+</details>
+
+### Phase 5 — Parser shield
+
+> [!WARNING]
+> The boss arena uses specialized renderer fences live, so intentionally broken source must remain outside them.
+
+`````text
+```mermaid
+flowchart LR
+    BROKEN[unclosed --> B
+```
+
+```geojson
+{"type":"Point","coordinates":[13.405,52.52],}
+```
+
+```topojson
+{"type":"Topology","objects":{"bad":{"type":"LineString","arcs":[99]}},"arcs":[]}
+```
+
+```stl
+solid missing_vertex
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 1 0 0
+    endloop
+  endfacet
+endsolid missing_vertex
+```
+`````
+
+The five-backtick `text` wrapper is part of the protection system, not decoration.
+
+### Phase 6 — Boss source inside source
+
+``````markdown
+`````markdown
+````markdown
+```mermaid
+flowchart LR
+    SOURCE --> BOSS --> CERTIFICATION
+```
+````
+`````
+``````
+
+### Victory screen
+
+> [!TIP]
+> M15's success condition is not “the README contains everything.” It is “the README can make the already-proven mechanisms cooperate without adding another system.”
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-FINAL_FORM_COMPOSER-F59E0B?style=for-the-badge" alt="Final Form Composer achievement">
+  <img src="https://img.shields.io/badge/BOSS-CLEARED-8B5CF6?style=for-the-badge" alt="Canonical Final Boss cleared">
+  <img src="https://img.shields.io/badge/NEXT-M16_CERTIFICATION-F43F5E?style=for-the-badge" alt="M16 certification unlocked">
+</p>
+
+| Victory condition | State |
+| --- | :---: |
+| reused previously demonstrated mechanics only | ✅ |
+| local/theme-aware media included | ✅ |
+| Markdown/GFM/HTML composition included | ✅ |
+| Linguist included | ✅ |
+| MathJax included | ✅ |
+| Mermaid included | ✅ |
+| GeoJSON included | ✅ |
+| TopoJSON included | ✅ |
+| ASCII STL included | ✅ |
+| parser containment included | ✅ |
+| progression state updated | ✅ |
+| M16 gate unlocked | ✅ |
+| M17 release certification claimed early | ❌ |
+
+---
+
+# RELEASE GATES
+
+> [!IMPORTANT]
+> The Final Boss is cleared, but the README is **not released yet**. M16 must certify theme behavior, mobile usability, and accessibility. M17 must then perform the final GitHub rendering regression and release polish.
+
+```text
+M15 FINAL BOSS          ████████████████████ CLEARED
+M16 CERTIFICATION       ░░░░░░░░░░░░░░░░░░░░ NEXT
+M17 RELEASE REGRESSION  ░░░░░░░░░░░░░░░░░░░░ LOCKED
 ```
 
 <div align="center">
 
-<a href="#campaign-status"><img src="https://img.shields.io/badge/STATUS-M14_COMPLETE-8B5CF6?style=for-the-badge" alt="M14 complete"></a>
-<a href="#achievement-codex"><img src="https://img.shields.io/badge/ACHIEVEMENT-PROGRESSION_ARCHITECT-F59E0B?style=for-the-badge" alt="Progression Architect achievement"></a>
+<a href="#campaign-status"><img src="https://img.shields.io/badge/STATUS-M15_COMPLETE-8B5CF6?style=for-the-badge" alt="M15 complete"></a>
+<a href="#level-36--canonical-final-boss"><img src="https://img.shields.io/badge/FINAL_BOSS-CANONICAL-F59E0B?style=for-the-badge" alt="Canonical Final Boss"></a>
 <a href="./assets/parser-torture-corpus.txt"><img src="https://img.shields.io/badge/PARSER-CORPUS-F43F5E?style=for-the-badge" alt="Open parser corpus"></a>
 
-<h2>Campaign coherence unlocked.</h2>
-<h3>Next encounter: M15 — Final Boss Composition.</h3>
+<h2>Final Boss cleared.</h2>
+<h3>Next: M16 — Light/Dark, Mobile & Accessibility Certification.</h3>
 
 </div>
 
@@ -1139,7 +1353,6 @@ flowchart TB
 [Reference collapsed]: https://docs.github.com/en/get-started/writing-on-github "Collapsed reference target"
 [Reference shortcut]: https://github.github.com/gfm/ "Shortcut reference target"
 
-[^gfm]: The GitHub Flavored Markdown specification defines block parsing, inline parsing, escapes, code spans, emphasis, links, tables, tasks, autolinks, raw HTML, line breaks, and GFM extensions.
 [^linguist]: GitHub Linguist supplies language metadata and grammars for syntax-highlighted fenced code blocks.
 [^mathjax]: GitHub renders supported LaTeX-formatted mathematics with MathJax.
 [^github-diagrams]: GitHub documents Mermaid, GeoJSON, TopoJSON, and ASCII STL as advanced diagram/rendering syntaxes in Markdown.
