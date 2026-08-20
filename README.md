@@ -4,48 +4,50 @@
 ║                                                                              ║
 ║  RAW SOURCE EXPLORER · PARSER TAMER · BLOCK ARCHITECT · LINK CARTOGRAPHER   ║
 ║  MEDIA ENGINEER · HYBRID ENGINEER · SYNTAX CURATOR · MATHJAX ARCHITECT      ║
-║  MERMAID CARTOGRAPHER                                                        ║
+║  MERMAID CARTOGRAPHER · GEOJSON NAVIGATOR                                   ║
 ║                                                                              ║
-║  M9 invariant: Mermaid fences are executable diagram source.                 ║
-║  Do not rewrite diagram keywords or fence labels as decorative prose.        ║
+║  M10 invariant: GeoJSON coordinates are [longitude, latitude].               ║
+║  Interactive maps are data renderers, not screenshots pretending to be maps.║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form — full Mermaid diagram gallery" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form — interactive GeoJSON showcase" width="100%">
 </picture>
 
 <div align="center">
 
 <a href="https://readme-typing-svg.demolab.com/demo/">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Flowcharts.+Sequences.+States.+Classes.;ER.+Gantt.+Pie.+GitGraph.+Mindmap.;Timeline.+Journey.+Requirements.+Architecture.;M9+Mermaid+gallery+online."
-    alt="Animated M9 Mermaid gallery introduction">
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Points.+Routes.+Polygons.+Collections.;Longitude+first.+Latitude+second.;Source+becomes+an+interactive+map.;M10+GeoJSON+renderer+online."
+    alt="Animated M10 GeoJSON introduction">
 </a>
 
 <br>
 
 <a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/LAYER-MARKDOWN-111111?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Markdown layer"></a>
-<a href="#level-08--full-syntax-highlighting-laboratory"><img src="https://img.shields.io/badge/SYNTAX-M7_COMPLETE-181717?style=for-the-badge" alt="Syntax highlighting M7 complete"></a>
 <a href="#level-17--advanced-mathjax-mathematical-showcase"><img src="https://img.shields.io/badge/MATHJAX-M8_COMPLETE-0EA5E9?style=for-the-badge" alt="MathJax M8 complete"></a>
-<a href="#level-18--full-mermaid-diagram-gallery"><img src="https://img.shields.io/badge/MERMAID-M9_UNLOCKED-8B5CF6?style=for-the-badge" alt="Mermaid M9 unlocked"></a>
+<a href="#level-18--full-mermaid-diagram-gallery"><img src="https://img.shields.io/badge/MERMAID-M9_COMPLETE-7C3AED?style=for-the-badge" alt="Mermaid M9 complete"></a>
+<a href="#level-19--interactive-geojson-showcase"><img src="https://img.shields.io/badge/GEOJSON-M10_UNLOCKED-0891B2?style=for-the-badge" alt="GeoJSON M10 unlocked"></a>
 <a href="#final-boss"><img src="https://img.shields.io/badge/README-OVERENGINEERED-F43F5E?style=for-the-badge" alt="README overengineered"></a>
 
 <h3>This is a <strong>layer-by-layer Markdown rendering laboratory</strong>.</h3>
 
-<sub>Markdown · GFM · GitHub Linguist · MathJax · Mermaid · sanitized HTML · local SVG media</sub>
+<sub>Markdown · GFM · Linguist · MathJax · Mermaid · GeoJSON · sanitized HTML · local SVG media</sub>
 
 <br><br>
 
 <a href="#act-i--markdown-core"><strong>⚡ Markdown Core</strong></a>
 &nbsp;•&nbsp;
-<a href="#level-08--full-syntax-highlighting-laboratory"><strong>⌘ Syntax Lab</strong></a>
+<a href="#level-08--full-syntax-highlighting-laboratory"><strong>⌘ Syntax</strong></a>
 &nbsp;•&nbsp;
-<a href="#level-17--advanced-mathjax-mathematical-showcase"><strong>∑ MathJax</strong></a>
+<a href="#level-17--advanced-mathjax-mathematical-showcase"><strong>∑ Math</strong></a>
 &nbsp;•&nbsp;
-<a href="#level-18--full-mermaid-diagram-gallery"><strong>◇ Mermaid Gallery</strong></a>
+<a href="#level-18--full-mermaid-diagram-gallery"><strong>◇ Mermaid</strong></a>
+&nbsp;•&nbsp;
+<a href="#level-19--interactive-geojson-showcase"><strong>⌖ GeoJSON</strong></a>
 &nbsp;•&nbsp;
 <a href="#final-boss"><strong>👑 Final Boss</strong></a>
 
@@ -54,23 +56,23 @@
 ---
 
 > [!IMPORTANT]
-> GitHub renders Mermaid when valid Mermaid source appears inside a fenced block labeled `mermaid`. M9 treats diagrams as another source-driven renderer: the raw text remains versionable and reviewable, while GitHub turns it into a visual model.
+> GitHub can render GeoJSON directly inside Markdown when valid GeoJSON appears in a fenced block labeled `geojson`. M10 adds the project's first genuinely **interactive geographic renderer**: the same repository source can be inspected as JSON or explored as a map.[^geojson]
 
 ## 🧭 README POWER MAP
 
 | Act | Rendering layer | Current demonstrations | Jump |
 | :---: | --- | --- | :---: |
-| `00` | [Source Layer](#level-00--source-layer) | Hidden comments, source-only rules | `RAW` |
-| `I` | [Markdown Core](#act-i--markdown-core) | Typography, headings, blocks, links | `#` |
+| `00` | [Source Layer](#level-00--source-layer) | Hidden comments, source-only invariants | `RAW` |
+| `I` | [Markdown Core](#act-i--markdown-core) | Typography, blocks, links, anchors | `#` |
 | `II` | [GitHub Flavored Markdown](#act-ii--github-flavored-markdown) | Tables, tasks, strikethrough, autolinks | `GFM` |
 | `III` | [GitHub Extensions](#act-iii--github-extensions) | Alerts, 33-mode syntax lab, footnotes | `GH` |
 | `IV` | [HTML Hybrid](#act-iv--html-hybrid) | Media, semantics, details UI, sanitization | `<>` |
-| `V` | [Advanced Rendering](#act-v--advanced-rendering) | **MathJax + full Mermaid gallery** | `∞` |
-| `VI` | [Parser & Source Lab](#act-vi--parser--source-lab) | Escapes, entities, backticks, recursion | `\` |
+| `V` | [Advanced Rendering](#act-v--advanced-rendering) | **MathJax + Mermaid + GeoJSON** | `∞` |
+| `VI` | [Parser & Source Lab](#act-vi--parser--source-lab) | Escapes, fences, delimiters, renderer routing | `\` |
 | `VII` | [Endgame & Reference](#act-vii--endgame--reference) | Achievements, cheat sheet, QA | `✓` |
 | `∞` | [Final Boss](#final-boss) | Combined mechanics | `👑` |
 
-`Markdown` · `GFM` · `GitHub` · `Linguist` · `MathJax` · `Mermaid` · `HTML` · `Local Asset`
+`Markdown` · `GFM` · `GitHub` · `Linguist` · `MathJax` · `Mermaid` · `GeoJSON` · `HTML` · `Local Asset`
 
 ---
 
@@ -78,15 +80,19 @@
 
 ```mermaid
 flowchart LR
-    A[raw README.md] --> B[Markdown]
+    A[README.md] --> B[Markdown]
     B --> C[GFM]
-    C --> D[GitHub extensions]
+    C --> D[GitHub]
     D --> E[Linguist]
     D --> F[MathJax]
     D --> G[Mermaid]
-    E --> H[Rendered README]
-    F --> H
-    G --> H
+    D --> H[GeoJSON]
+    D --> I[Sanitized HTML]
+    E --> J[Rendered README]
+    F --> J
+    G --> J
+    H --> J
+    I --> J
 ```
 
 ---
@@ -100,16 +106,17 @@ flowchart LR
 ```
 
 <!--
-M9 invariants:
-- mermaid fences are live diagrams, not highlighted source code.
-- text fences showing Mermaid source must use longer outer fences when needed.
-- default Mermaid theme is preferred over fixed color styling for GitHub light/dark resilience.
-- architecture-beta is a compatibility canary because Mermaid documents it as v11.1+.
-- newer Mermaid families may exist upstream without being guaranteed by GitHub's bundled version.
+M10 invariants:
+- GeoJSON coordinate order is [longitude, latitude], never the reverse.
+- Live map examples use valid JSON. Broken examples stay inside text fences.
+- The repository-owned assets/geojson-showcase.geojson file is part of M10.
+- GeoJSON maps are interactive renderers, not static image replacements.
+- Do not make critical prose discoverable only by clicking map features.
+- Keep specialized renderer fences distinct: mermaid, math, geojson.
 -->
 
 > [!NOTE]
-> Source view matters especially for diagrams: every rendered edge, node, relationship, task, and state still has a diffable textual representation.
+> Source view is part of the exhibit. A map feature is still a reviewable JSON object with explicit geometry, coordinates, and properties.
 
 ---
 
@@ -206,13 +213,14 @@ This line follows it.
 
 - [This README](./README.md)
 - [Repository root](./)
-- [MathJax showcase](#level-17--advanced-mathjax-mathematical-showcase)
+- [Standalone GeoJSON dataset](./assets/geojson-showcase.geojson)
 - [Mermaid gallery](#level-18--full-mermaid-diagram-gallery)
+- [GeoJSON showcase](#level-19--interactive-geojson-showcase)
 - [Final Boss](#final-boss)
 
-<a name="m9-mermaid-beacon"></a>
+<a name="m10-geojson-beacon"></a>
 
-[Jump to the custom M9 anchor](#m9-mermaid-beacon)
+[Jump to the custom M10 anchor](#m10-geojson-beacon)
 
 <https://github.com/>  
 https://github.com  
@@ -250,7 +258,7 @@ owner/repository#123
 `GFM`
 
 - [x] **Markdown Core**
-  - [x] Typography
+  - [x] Typography / structure
   - [x] Lists / quotes
   - [x] Link routing
 - [x] **GFM Systems**
@@ -265,31 +273,25 @@ owner/repository#123
   - [x] Sanitization boundary
 - [x] **Syntax Highlighting**
   - [x] 33 language/mode fences
-  - [x] Aliases
-  - [x] Unlabeled/text/diff controls
-  - [x] Nested fences
+  - [x] Aliases / text / diff / unknown-label control
 - [x] **MathJax**
-  - [x] Inline / protected inline
-  - [x] Display / fenced math
+  - [x] Inline / protected inline / display / `math` fence
   - [x] Matrices / calculus / probability / Fourier
-  - [x] Literal-dollar parser cases
 - [x] **Mermaid**
-  - [x] Flowchart
-  - [x] Sequence
-  - [x] State
-  - [x] Class
-  - [x] Entity relationship
-  - [x] User journey
-  - [x] Gantt
-  - [x] Pie
-  - [x] GitGraph
-  - [x] Mindmap
-  - [x] Timeline
-  - [x] Quadrant chart
-  - [x] Requirement diagram
+  - [x] 14 diagram families shown
   - [x] Architecture compatibility canary
+- [x] **GeoJSON**
+  - [x] Point
+  - [x] LineString
+  - [x] Polygon
+  - [x] MultiPoint
+  - [x] MultiLineString
+  - [x] MultiPolygon
+  - [x] GeometryCollection
+  - [x] FeatureCollection
+  - [x] Marker / stroke / fill metadata
+  - [x] Repository-owned `.geojson` file
 - [ ] **Next renderers**
-  - [ ] GeoJSON
   - [ ] TopoJSON
   - [ ] STL / 3D
 - [ ] **Final Form**
@@ -305,19 +307,19 @@ owner/repository#123
 `GitHub`
 
 > [!NOTE]
-> Mermaid diagrams are source-controlled visualizations: edit the text, review the diff, render the model.
+> GeoJSON positions use **longitude first, latitude second**: `[longitude, latitude]`.
 
 > [!TIP]
-> Keep labels concise. Extremely wide nodes and long timelines become mobile-unfriendly quickly.
+> Use a `FeatureCollection` when several points, lines, or polygons belong to one logical map.
 
 > [!IMPORTANT]
-> The opening fence must be labeled `mermaid`; a `text` or unlabeled fence only shows source.
+> GitHub's map renderer expects supported geographic coordinates; its documentation currently calls out CRS84 as the supported projection.[^geojson-files]
 
 > [!WARNING]
-> Valid Mermaid upstream does not automatically prove compatibility with the Mermaid version currently bundled by GitHub.
+> Reversing latitude and longitude can place a perfectly valid feature in a completely wrong location.
 
 > [!CAUTION]
-> A single parser error can turn a diagram into an error state instead of a visualization.
+> Do not hide essential instructions only inside clickable map popups. Maps should augment accessible prose, not replace it.
 
 ---
 
@@ -325,7 +327,7 @@ owner/repository#123
 
 `Markdown` · `GitHub` · `Linguist`
 
-M7 remains intact as a compact six-gallery museum with **33 syntax modes**.
+M7 remains represented with **33 distinct syntax modes**.
 
 ### Fence controls
 
@@ -362,7 +364,7 @@ const alias = "js";
 console.log("JavaScript");
 ```
 ```typescript
-const phase: number = 9;
+const phase: number = 10;
 ```
 ```html
 <details><summary>HTML</summary></details>
@@ -371,7 +373,7 @@ const phase: number = 9;
 .readme { display: block; }
 ```
 ```json
-{"phase":"M9"}
+{"phase":"M10"}
 ```
 
 </details>
@@ -439,13 +441,13 @@ Write-Output 'PowerShell'
 SELECT 'SQL';
 ```
 ```yaml
-phase: M9
+phase: M10
 ```
 ```toml
-phase = "M9"
+phase = "M10"
 ```
 ```xml
-<phase>M9</phase>
+<phase>M10</phase>
 ```
 ```dockerfile
 FROM alpine:3.22
@@ -481,15 +483,15 @@ main = print pi
 # Markdown
 ```
 ```diff
-- old
-+ new
+- static map screenshot
++ interactive GeoJSON renderer
 ```
 ```text
 plaintext
 ```
 ```ini
 [readme]
-phase=M9
+phase=M10
 ```
 
 </details>
@@ -501,16 +503,8 @@ phase=M9
 | Scripting | 6 |
 | Data/config/infra | 5 |
 | Scientific/functional | 5 |
-| Documentation/meta | 4 |
+| Docs/meta | 4 |
 | **Total** | **33** |
-
-### Fence recursion retained
-
-````markdown
-```typescript
-const nested: string = "three backticks inside four";
-```
-````
 
 ---
 
@@ -520,7 +514,7 @@ const nested: string = "three backticks inside four";
 
 Markdown remains readable as plain text while adding structure.[^plain-text]
 
-Relative paths keep local media branch-aware.[^relative-links]
+Relative paths keep local assets and map files branch-aware.[^relative-links]
 
 GitHub sanitizes the HTML hybrid layer.[^sanitization]
 
@@ -528,7 +522,7 @@ Linguist supplies syntax grammars for fenced code.[^linguist]
 
 GitHub renders LaTeX-formatted mathematics with MathJax.[^mathjax]
 
-GitHub renders Mermaid source placed inside a fenced block labeled `mermaid`.[^mermaid]
+GitHub renders Mermaid diagrams and GeoJSON maps through specialized fenced-block identifiers.[^mermaid][^geojson]
 
 ---
 
@@ -548,7 +542,7 @@ GitHub renders Mermaid source placed inside a fenced block labeled `mermaid`.[^m
 
 <img src="./assets/scaling-ruler.svg" alt="SVG scaling ruler" width="50%">
 
-[![Clickable local SVG portal](./assets/clickable-portal.svg)](#level-18--full-mermaid-diagram-gallery)
+[![Clickable local SVG portal](./assets/clickable-portal.svg)](#level-19--interactive-geojson-showcase)
 
 ---
 
@@ -601,7 +595,7 @@ The `open` attribute changes initial disclosure state without JavaScript.
 </details>
 
 > [!TIP]
-> M9 uses `<details>` heavily: large diagrams are opt-in visual payloads instead of permanent scrolling cost.
+> M10 uses `<details>` to keep secondary geometry maps optional. Interactive maps can be visually large even when their source is small.
 
 ---
 
@@ -639,8 +633,8 @@ The `open` attribute changes initial disclosure state without JavaScript.
 
 ```text
 Markdown owns structure by default.
-HTML enters where it adds missing semantics or disclosure.
-Advanced renderers enter through explicit fences or delimiters.
+HTML adds semantics or disclosure.
+Advanced renderer fences select specialized visual systems.
 ```
 
 ---
@@ -661,29 +655,31 @@ Advanced renderers enter through explicit fences or delimiters.
 | Theme-aware media | `<picture>` / `<source>` |
 | Mathematics | MathJax delimiters / `math` fence |
 | Diagrams | `mermaid` fence |
-| Styling | GitHub renderer + designed assets |
+| Maps | `geojson` fence or `.geojson` file |
+| Styling | GitHub renderer + supported feature metadata |
 | Application behavior | Build an actual webpage/app |
 
 ---
 
 ## LEVEL 16 — HYBRID INTERFACE BOSS
 
-`Markdown` · `GFM` · `GitHub` · `HTML` · `MathJax` · `Mermaid`
+`Markdown` · `GFM` · `GitHub` · `HTML` · `MathJax` · `Mermaid` · `GeoJSON`
 
 <details open>
-<summary><strong>M9 SYSTEM CONSOLE</strong></summary>
+<summary><strong>M10 SYSTEM CONSOLE</strong></summary>
 
 <table>
   <tr><th>System</th><th>Status</th></tr>
-  <tr><td>Markdown</td><td><strong>ONLINE</strong></td></tr>
+  <tr><td>Markdown / GFM</td><td><strong>ONLINE</strong></td></tr>
   <tr><td>HTML disclosure</td><td><strong>ONLINE</strong></td></tr>
   <tr><td>Linguist syntax routing</td><td><strong>33 MODES</strong></td></tr>
   <tr><td>MathJax rendering</td><td><strong>ADVANCED</strong></td></tr>
   <tr><td>Mermaid rendering</td><td><strong>FULL GALLERY</strong></td></tr>
+  <tr><td>GeoJSON mapping</td><td><strong>INTERACTIVE</strong></td></tr>
   <tr><td>README-authored JavaScript</td><td><del>ABSENT</del></td></tr>
 </table>
 
-Inline equation: $\text{source}+\text{renderer}=\text{visual documentation}$.
+Inline equation: $\text{coordinates}+\text{geometry}+\text{properties}=\text{map feature}$.
 
 </details>
 
@@ -691,13 +687,13 @@ Inline equation: $\text{source}+\text{renderer}=\text{visual documentation}$.
 
 # ACT V — ADVANCED RENDERING
 
-> Advanced renderers convert selected source into mathematical notation, diagrams, maps, and eventually 3D models.
+> Advanced renderer metadata can route Markdown source into mathematics, diagrams, maps, and eventually 3D geometry.
 
 ## LEVEL 17 — ADVANCED MATHJAX MATHEMATICAL SHOWCASE
 
 `GitHub` · `MathJax` · `LaTeX`
 
-M8 remains live, with all four GitHub math entry routes.
+M8 remains represented across all four math entry routes.
 
 Inline: $E=mc^2$ and $\sin^2\theta+\cos^2\theta=1$.
 
@@ -705,20 +701,13 @@ Protected inline: $`\left\{x_i\right\}_{i=1}^{n}`$.
 
 $$\left(\sum_{k=1}^{n}a_kb_k\right)^2\leq\left(\sum_{k=1}^{n}a_k^2\right)\left(\sum_{k=1}^{n}b_k^2\right)$$
 
-### Matrices & linear algebra
-
 ```math
-A=\begin{pmatrix}
-1&2\\
-3&4
-\end{pmatrix},
+A=\begin{pmatrix}1&2\\3&4\end{pmatrix},
 \qquad
 Av=\lambda v,
 \qquad
 \operatorname{rank}(A)+\operatorname{nullity}(A)=n
 ```
-
-### Calculus
 
 ```math
 \nabla f(x)=
@@ -731,23 +720,11 @@ Av=\lambda v,
 \frac{d}{dx}\int_a^x f(t)\,dt=f(x)
 ```
 
-### Probability
-
 ```math
 P(A\mid B)=\frac{P(B\mid A)P(A)}{P(B)},
 \qquad
-\operatorname{Var}(X)=\mathbb E[X^2]-\mathbb E[X]^2
+e^{i\pi}+1=0
 ```
-
-### Complex / Fourier
-
-```math
-e^{i\pi}+1=0,
-\qquad
-\widehat f(\xi)=\int_{-\infty}^{\infty}f(x)e^{-2\pi i x\xi}\,dx
-```
-
-### Math composition
 
 | Concept | Expression |
 | --- | --- |
@@ -756,36 +733,14 @@ e^{i\pi}+1=0,
 | Gradient | $\nabla f(x)$ |
 | Expectation | $\mathbb E[X]$ |
 
-> [!NOTE]
-> Math remains valid inside alerts: $e^{i\pi}+1=0$.
-
 <details>
-<summary><strong>Open a MathJax chamber</strong></summary>
+<summary><strong>Open MathJax chamber</strong></summary>
 
 ```math
-R_\theta=\begin{pmatrix}
-\cos\theta&-\sin\theta\\
-\sin\theta&\cos\theta
-\end{pmatrix},
-\qquad
-R_\theta^{\mathsf T}R_\theta=I
+\widehat f(\xi)=\int_{-\infty}^{\infty}f(x)e^{-2\pi i x\xi}\,dx
 ```
 
 </details>
-
-### Literal-dollar parser case
-
-$`\sqrt{\$4}=2`$ and <span>$</span>100 can coexist with $100/2=50$ on the same line.
-
-### LaTeX source vs rendered math
-
-```latex
-\int_{-\infty}^{\infty}e^{-x^2}\,dx=\sqrt{\pi}
-```
-
-```math
-\int_{-\infty}^{\infty}e^{-x^2}\,dx=\sqrt{\pi}
-```
 
 ---
 
@@ -793,608 +748,842 @@ $`\sqrt{\$4}=2`$ and <span>$</span>100 can coexist with $100/2=50$ on the same l
 
 `GitHub` · `Mermaid` · `Diagram Renderer`
 
-GitHub can render Mermaid diagrams directly in Markdown files when the source is placed in a fenced code block with the `mermaid` identifier.[^mermaid]
+M9 remains represented with its multi-family gallery. Large diagrams stay collapsible.
 
-### 18.1 — Renderer anatomy
-
-````markdown
-```mermaid
-flowchart LR
-    A[Source] --> B[Diagram]
-```
-````
-
-```text
-Markdown fence
-    │
-    ├── info string: mermaid
-    │
-    └── diagram-specific source
-            ↓
-       Mermaid parser
-            ↓
-        rendered SVG
-```
-
-The same text under a `text` fence is only source. Under a `mermaid` fence it becomes a specialized render surface.
-
-### Gallery index
-
-| # | Family | Purpose | M9 status |
-| :---: | --- | --- | :---: |
-| `1` | Flowchart | process / architecture / routing | ✅ live |
-| `2` | Sequence | interactions over time | ✅ live |
-| `3` | State | state machines | ✅ live |
-| `4` | Class | object/type relationships | ✅ live |
-| `5` | ER | data relationships | ✅ live |
-| `6` | User Journey | scored user experience stages | ✅ live |
-| `7` | Gantt | schedule / project timeline | ✅ live |
-| `8` | Pie | proportional composition | ✅ live |
-| `9` | GitGraph | branch / merge history | ✅ live |
-| `10` | Mindmap | hierarchical ideation | ✅ live |
-| `11` | Timeline | chronological narrative | ✅ live |
-| `12` | Quadrant | two-axis positioning | ✅ live |
-| `13` | Requirement | requirement traceability | ✅ live |
-| `14` | Architecture | service/resource topology | ⚠️ v11.1+ canary |
-
----
-
-### 18.2 — Flowchart laboratory
-
-<details open>
-<summary><strong>Flowchart — directions, shapes, labels, edge styles, subgraphs</strong></summary>
+### Flowchart
 
 ```mermaid
 flowchart LR
-    SRC([README source]) --> PARSE{Valid syntax?}
-    PARSE -- yes --> GH[GitHub renderer]
-    PARSE -- no --> ERR[/Parser error/]
-    GH --> OUT[(Rendered result)]
-    ERR -. fix source .-> SRC
+    SRC[Source] --> TYPE{Renderer metadata}
+    TYPE -- math --> MJ[MathJax]
+    TYPE -- mermaid --> MM[Mermaid]
+    TYPE -- geojson --> GEO[GeoJSON]
+    MJ --> OUT[Rendered README]
+    MM --> OUT
+    GEO --> OUT
 ```
-
-```mermaid
-flowchart TB
-    subgraph Core[Portable Markdown]
-        A[Typography] --> B[Blocks]
-        B --> C[Links]
-    end
-    subgraph Extensions[GitHub extensions]
-        D[Alerts] --> E[MathJax]
-        E --> F[Mermaid]
-    end
-    Core --> Extensions
-```
-
-```mermaid
-flowchart LR
-    A[Normal edge] --> B[Destination]
-    A -. dotted .-> C[Optional]
-    A ==> D[Strong path]
-```
-
-> [!TIP]
-> The gallery intentionally relies on Mermaid's default theme instead of hard-coded fill colors so GitHub can adapt diagrams more safely across light and dark themes.
-
-</details>
-
----
-
-### 18.3 — Sequence diagram
 
 <details>
-<summary><strong>Sequence — actors, participants, activation, loops, alternatives, notes</strong></summary>
+<summary><strong>Sequence</strong></summary>
 
 ```mermaid
 sequenceDiagram
     actor Reader
     participant GH as GitHub
     participant MD as README.md
-    participant M as Mermaid
-
+    participant R as Specialized Renderer
     Reader->>GH: Open repository
-    GH->>MD: Load Markdown source
-    MD->>M: Send mermaid fence
-    activate M
-    M-->>GH: Return rendered diagram
-    deactivate M
-    GH-->>Reader: Display README
-
-    loop Every diagram
-        Reader->>GH: Expand details panel
-        GH-->>Reader: Reveal visual model
-    end
-
-    alt Valid Mermaid
-        Note over MD,M: Source remains diffable
-    else Parser error
-        M-->>GH: Rendering failure
-    end
+    GH->>MD: Parse Markdown
+    MD->>R: Route fenced source
+    R-->>GH: Return specialized render
+    GH-->>Reader: Display result
 ```
 
 </details>
 
----
-
-### 18.4 — State diagram
-
 <details>
-<summary><strong>State — lifecycle and composite state</strong></summary>
+<summary><strong>State</strong></summary>
 
 ```mermaid
 stateDiagram-v2
-    [*] --> Draft
-    Draft --> Validating
-    Validating --> Broken: parser error
-    Broken --> Draft: edit source
-    Validating --> Rendered: valid
-    Rendered --> Published
-    Published --> Draft: next phase
-
-    state Rendered {
-        [*] --> SVG
-        SVG --> Accessible
-        Accessible --> [*]
-    }
+    [*] --> Source
+    Source --> Parsing
+    Parsing --> Rendered: valid
+    Parsing --> Broken: invalid
+    Broken --> Source: fix
+    Rendered --> [*]
 ```
 
 </details>
 
----
-
-### 18.5 — Class diagram
-
 <details>
-<summary><strong>Class — fields, methods, inheritance, composition</strong></summary>
+<summary><strong>Class + ER</strong></summary>
 
 ```mermaid
 classDiagram
-    class Renderer {
-        +name: String
-        +render(source)
-    }
-    class MathJax {
-        +renderLatex(source)
-    }
-    class Mermaid {
-        +parse(diagram)
-        +renderSvg(diagram)
-    }
-    class README {
-        +sections: Section[]
-        +render()
-    }
-
     Renderer <|-- MathJax
     Renderer <|-- Mermaid
+    Renderer <|-- GeoJSON
     README *-- Renderer
 ```
-
-</details>
-
----
-
-### 18.6 — Entity relationship diagram
-
-<details>
-<summary><strong>ER — repository documentation model</strong></summary>
 
 ```mermaid
 erDiagram
     REPOSITORY ||--|| README : contains
     REPOSITORY ||--o{ ASSET : owns
-    README ||--o{ SECTION : contains
-    SECTION ||--o{ DIAGRAM : embeds
-    DIAGRAM }o--|| RENDERER : uses
-
-    README {
-        string path
-        string branch
-    }
-    DIAGRAM {
-        string type
-        string source
-    }
-    ASSET {
-        string filename
-        string format
-    }
+    README ||--o{ RENDERER_BLOCK : embeds
 ```
 
 </details>
 
----
-
-### 18.7 — User journey
-
 <details>
-<summary><strong>User Journey — reading a maximally overengineered README</strong></summary>
+<summary><strong>Journey + Gantt + Pie</strong></summary>
 
 ```mermaid
 journey
-    title Reader enters Markdown Final Form
-    section Arrival
-      See theme-aware hero: 5: Reader
-      Understand navigation: 4: Reader
-    section Exploration
-      Open syntax gallery: 4: Reader
+    title Reader explores advanced renderers
+    section Source
+      Read Markdown: 5: Reader
+    section Render
       Inspect MathJax: 5: Reader
-      Expand Mermaid diagrams: 5: Reader
-    section Endgame
-      Reach Final Boss: 4: Reader
-      Discover restraint is still locked: 2: Reader
+      Inspect Mermaid: 5: Reader
+      Explore GeoJSON: 5: Reader
 ```
-
-</details>
-
----
-
-### 18.8 — Gantt chart
-
-<details>
-<summary><strong>Gantt — phase progression</strong></summary>
 
 ```mermaid
 gantt
-    title Markdown Final Form — renderer phases
-    dateFormat  YYYY-MM-DD
-    axisFormat  %b %d
-
+    title Advanced renderer phases
+    dateFormat YYYY-MM-DD
     section Complete
-    M7 Syntax Lab      :done, m7, 2026-08-17, 1d
-    M8 MathJax         :done, m8, after m7, 1d
-    M9 Mermaid         :active, m9, after m8, 1d
-
+    M8 MathJax :done, m8, 2026-08-18, 1d
+    M9 Mermaid :done, m9, after m8, 1d
+    M10 GeoJSON :active, m10, after m9, 1d
     section Next
-    M10 GeoJSON        :m10, after m9, 1d
-    M11 TopoJSON       :m11, after m10, 1d
-    M12 STL            :m12, after m11, 1d
+    M11 TopoJSON :m11, after m10, 1d
+    M12 STL :m12, after m11, 1d
 ```
-
-</details>
-
----
-
-### 18.9 — Pie chart
-
-<details>
-<summary><strong>Pie — completely scientific README composition</strong></summary>
 
 ```mermaid
 pie showData
-    title README Power Allocation
-    "Markdown / GFM" : 24
-    "HTML Hybrid" : 16
-    "Linguist" : 16
-    "MathJax" : 18
-    "Mermaid" : 21
+    title Advanced Renderer Power
+    "MathJax" : 30
+    "Mermaid" : 35
+    "GeoJSON" : 30
     "Restraint" : 5
 ```
 
 </details>
 
----
-
-### 18.10 — GitGraph
-
 <details>
-<summary><strong>GitGraph — phase branch lineage</strong></summary>
+<summary><strong>GitGraph + Mindmap + Timeline</strong></summary>
 
 ```mermaid
 gitGraph
-    commit id: "M6"
-    branch syntax
-    checkout syntax
-    commit id: "M7"
-    checkout main
-    merge syntax
-    branch math
-    checkout math
     commit id: "M8"
-    checkout main
-    merge math
     branch diagrams
     checkout diagrams
     commit id: "M9"
+    checkout main
+    merge diagrams
+    branch maps
+    checkout maps
+    commit id: "M10"
 ```
-
-> [!NOTE]
-> This is a conceptual phase graph, not a literal reconstruction of every repository commit SHA.
-
-</details>
-
----
-
-### 18.11 — Mindmap
-
-<details>
-<summary><strong>Mindmap — README capability tree</strong></summary>
 
 ```mermaid
 mindmap
-  root((Markdown Final Form))
-    Core
-      Typography
-      Lists
-      Links
-      Tables
-    GitHub
-      Alerts
-      Linguist
-      MathJax
-      Mermaid
-    Hybrid
-      Details
-      Picture
-      Tables
-      Local SVG
-    Endgame
-      Parser Lab
-      Achievements
-      Final Boss
+  root((Advanced Renderers))
+    MathJax
+      notation
+      matrices
+    Mermaid
+      process
+      relationships
+    GeoJSON
+      points
+      lines
+      polygons
 ```
-
-</details>
-
----
-
-### 18.12 — Timeline
-
-<details>
-<summary><strong>Timeline — renderer evolution</strong></summary>
 
 ```mermaid
 timeline
-    title Advanced rendering evolution
-    M5 : Repository-owned SVG media
-    M6 : HTML hybrid interfaces
-    M7 : Linguist syntax laboratory
-    M8 : Advanced MathJax
-    M9 : Full Mermaid gallery
-    M10 : GeoJSON maps
-    M11 : TopoJSON maps
-    M12 : STL 3D
+    title Renderer evolution
+    M8 : MathJax
+    M9 : Mermaid
+    M10 : GeoJSON
+    M11 : TopoJSON
+    M12 : STL
 ```
 
 </details>
 
----
-
-### 18.13 — Quadrant chart
-
 <details>
-<summary><strong>Quadrant — documentation choices by complexity and visual payoff</strong></summary>
+<summary><strong>Quadrant + Requirement</strong></summary>
 
 ```mermaid
 quadrantChart
-    title Documentation mechanism selection
-    x-axis Low source complexity --> High source complexity
-    y-axis Low visual payoff --> High visual payoff
-    quadrant-1 Powerful but expensive
-    quadrant-2 High leverage
-    quadrant-3 Keep it simple
-    quadrant-4 Complexity trap
-    Markdown: [0.18, 0.68]
-    GFM Table: [0.30, 0.62]
-    Local SVG: [0.55, 0.80]
-    MathJax: [0.62, 0.86]
-    Mermaid: [0.72, 0.90]
-    Fake README App: [0.96, 0.18]
+    title Visual documentation mechanisms
+    x-axis Low structure --> High structure
+    y-axis Static --> Interactive
+    SVG: [0.25, 0.22]
+    MathJax: [0.48, 0.25]
+    Mermaid: [0.70, 0.45]
+    GeoJSON: [0.82, 0.88]
 ```
-
-</details>
-
----
-
-### 18.14 — Requirement diagram
-
-<details>
-<summary><strong>Requirement — traceability from source to rendered result</strong></summary>
 
 ```mermaid
 requirementDiagram
-    requirement readable_source {
+    requirement source_controlled {
         id: REQ-1
-        text: README source stays understandable
+        text: Visual source remains reviewable
         risk: medium
         verifymethod: inspection
     }
-
-    requirement github_render {
-        id: REQ-2
-        text: Diagram renders on GitHub
-        risk: high
-        verifymethod: test
-    }
-
-    element mermaid_block {
+    element renderer_block {
         type: documentation
         docref: README.md
     }
-
-    mermaid_block - satisfies -> readable_source
-    mermaid_block - verifies -> github_render
+    renderer_block - satisfies -> source_controlled
 ```
 
 </details>
 
----
-
-### 18.15 — Architecture v11.1+ compatibility canary
-
-<details>
-<summary><strong>Architecture — modern Mermaid compatibility canary</strong></summary>
-
-Mermaid documents Architecture diagrams as a **v11.1+** family. GitHub documents Mermaid rendering but does not promise a specific bundled Mermaid version, so this panel is deliberately treated as a compatibility canary rather than critical navigation.
-
-```mermaid
-architecture-beta
-    group repo(cloud)[Repository]
-
-    service readme(server)[README] in repo
-    service assets(disk)[Assets] in repo
-    service github(server)[GitHub Renderer]
-    service reader(internet)[Reader]
-
-    readme:R --> L:github
-    assets:R --> L:github
-    github:R --> L:reader
-```
-
-If GitHub's Mermaid bundle does not support `architecture-beta`, the rest of the README remains functional and this single panel identifies the compatibility gap.
-
-</details>
+> [!NOTE]
+> M9's Architecture v11.1+ compatibility-canary concept remains relevant: upstream Mermaid support and GitHub's bundled Mermaid version are not automatically identical.
 
 ---
 
-### 18.16 — Modern Mermaid capability shelf
+## LEVEL 19 — INTERACTIVE GEOJSON SHOWCASE
 
-Current Mermaid documentation contains additional families beyond the conservative M9 live set, including newer chart types such as Sankey, XY, Block, Packet, Kanban, Radar, Treemap, Venn, and others.
+`GitHub` · `GeoJSON` · `Interactive Map` · `Local Asset`
 
-| Family | Upstream Mermaid status | README strategy |
-| --- | --- | --- |
-| Architecture | v11.1+ | live compatibility canary |
-| Sankey | modern | source-only candidate until GitHub version is confirmed |
-| XY Chart | modern | source-only candidate |
-| Block Diagram | modern | source-only candidate |
-| Packet | modern | source-only candidate |
-| Kanban | modern | source-only candidate |
-| Radar | modern | source-only candidate |
-| Treemap | modern | source-only candidate |
-| Venn | modern | source-only candidate |
+GitHub documents GeoJSON as a native diagram/map syntax in Markdown. Put valid GeoJSON inside a fenced block labeled `geojson`, or commit a `.geojson` file and open it directly in the repository.[^geojson][^geojson-files]
 
 > [!IMPORTANT]
-> “Mermaid supports it” and “GitHub's current Mermaid bundle supports it” are not identical claims. M9 does not make version-sensitive upstream syntax part of critical README infrastructure.
+> GeoJSON coordinate order is **`[longitude, latitude]`**. This is the opposite of the conversational “latitude, longitude” order many people are used to saying aloud.
 
----
+### 19.1 — Renderer anatomy
 
-### 18.17 — Label and parser laboratory
-
-```mermaid
-flowchart LR
-    A["Quoted label: Markdown + Mermaid"] --> B["Punctuation: ( ) [ ] { }"]
-    B --> C["Unicode: α → β → γ"]
-    C --> D["Line one<br/>Line two"]
-```
-
-Source-only failure examples stay inert:
-
-````text
-```mermaid
-flowchart LR
-    A[Unclosed label --> B
-```
-
-```mermaid
-sequenceDiagram
-    Alice->>Bob this relationship is malformed
+````markdown
+```geojson
+{
+  "type": "Point",
+  "coordinates": [13.405, 52.52]
+}
 ```
 ````
-
-> [!CAUTION]
-> Parser-failure demonstrations belong in `text` fences. A deliberately broken live Mermaid block would make the README look accidentally broken rather than educational.
-
----
-
-### 18.18 — Mermaid inside `<details>`
-
-Every major diagram in this gallery is itself proof that Mermaid can coexist with the M6 disclosure system. The HTML container controls visibility; the fenced `mermaid` block still owns the diagram source.
 
 ```text
-<details>
-  ↓
-Markdown parser
-  ↓
-mermaid fence
-  ↓
-Mermaid renderer
-  ↓
-SVG diagram revealed on demand
+Markdown fence
+    │
+    ├── info string: geojson
+    │
+    └── valid GeoJSON object
+            ↓
+       GitHub map renderer
+            ↓
+     interactive Leaflet map
 ```
 
----
-
-### 18.19 — Mermaid vs code highlighting
-
-````text
-```mermaid  → specialized Mermaid renderer → diagram
-```text     → literal source presentation   → characters
-```yaml     → Linguist grammar              → highlighted source
-```math     → MathJax renderer              → mathematics
-````
-
-This is the central advanced-rendering distinction of the project: identical fenced-block mechanics can route source into fundamentally different renderers depending on the info string.
+A `json` fence would highlight the same characters as source. A `geojson` fence asks GitHub for a map.
 
 ---
 
-### 18.20 — Mermaid Final Form
+### 19.2 — Main interactive FeatureCollection
+
+This map combines **three Points, one LineString, and one Polygon**. It is expanded by default because it is M10's primary live demonstration.
 
 <details open>
-<summary><strong>DIAGRAM FINAL FORM — renderer map</strong></summary>
+<summary><strong>Open / collapse the M10 renderer expedition map</strong></summary>
 
-```mermaid
-flowchart TB
-    SRC[README.md source]
-
-    SRC --> MD[Markdown]
-    MD --> GFM[GFM]
-    GFM --> GH[GitHub]
-
-    GH --> L[Linguist]
-    GH --> MJ[MathJax]
-    GH --> MM[Mermaid]
-    GH --> HTML[Sanitized HTML]
-
-    L --> OUT[Rendered document]
-    MJ --> OUT
-    MM --> OUT
-    HTML --> OUT
-
-    MM --> F[Flowcharts]
-    MM --> S[Sequences]
-    MM --> ST[States]
-    MM --> C[Classes]
-    MM --> ER[ER models]
-    MM --> T[Timelines / Gantt]
-    MM --> G[GitGraph]
-    MM --> R[Requirements]
-```
-
-```mermaid
-sequenceDiagram
-    actor Author
-    participant Source as README.md
-    participant GitHub
-    participant Mermaid
-    participant Reader
-
-    Author->>Source: Commit diagram text
-    Source->>GitHub: Markdown render
-    GitHub->>Mermaid: Parse mermaid fence
-    Mermaid-->>GitHub: SVG
-    GitHub-->>Reader: Rendered visual
-    Reader->>Source: Inspect raw source
-    Source-->>Reader: Diffable model
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Renderer Node — London",
+        "marker-size": "large",
+        "marker-color": "#7c3aed",
+        "marker-symbol": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.1276, 51.5072]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Renderer Node — Paris",
+        "marker-size": "medium",
+        "marker-color": "#0891b2",
+        "marker-symbol": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3522, 48.8566]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Renderer Node — Berlin",
+        "marker-size": "medium",
+        "marker-color": "#ea580c",
+        "marker-symbol": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.405, 52.52]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Renderer Route",
+        "stroke": "#2563eb",
+        "stroke-opacity": 0.9,
+        "stroke-width": 4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-0.1276, 51.5072],
+          [2.3522, 48.8566],
+          [13.405, 52.52]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Demonstration Zone",
+        "stroke": "#7c3aed",
+        "stroke-opacity": 0.85,
+        "stroke-width": 2,
+        "fill": "#c4b5fd",
+        "fill-opacity": 0.28
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [4.0, 49.5],
+            [10.5, 49.5],
+            [10.5, 53.2],
+            [4.0, 53.2],
+            [4.0, 49.5]
+          ]
+        ]
+      }
+    }
+  ]
+}
 ```
 
 </details>
 
-### M9 renderer rule
+The feature properties use GitHub-supported simple-style metadata such as `marker-color`, `marker-size`, `marker-symbol`, `stroke`, `stroke-width`, `fill`, and opacity controls.[^geojson-style]
+
+---
+
+### 19.3 — Point geometry
+
+<details>
+<summary><strong>Point — one coordinate position</strong></summary>
+
+```geojson
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Single Point",
+    "description": "One geographic position",
+    "marker-color": "#7c3aed",
+    "marker-size": "large",
+    "marker-symbol": "p"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [13.405, 52.52]
+  }
+}
+```
+
+</details>
+
+A position is a numeric array. For ordinary 2D geographic GeoJSON on GitHub, think:
 
 ```text
-Need a visual model?
-├── mathematical notation → MathJax
-├── relationship / process / timeline → Mermaid
-├── geographic geometry → GeoJSON / TopoJSON (M10–M11)
-├── 3D geometry → STL (M12)
-└── static art / brand graphic → repository-owned SVG
+[ longitude, latitude ]
+```
+
+---
+
+### 19.4 — LineString geometry
+
+<details>
+<summary><strong>LineString — an ordered path through positions</strong></summary>
+
+```geojson
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Three-node route",
+    "stroke": "#0891b2",
+    "stroke-opacity": 0.9,
+    "stroke-width": 5
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [-0.1276, 51.5072],
+      [2.3522, 48.8566],
+      [13.405, 52.52]
+    ]
+  }
+}
+```
+
+</details>
+
+Line order matters: the geometry connects positions in the order supplied.
+
+---
+
+### 19.5 — Polygon geometry
+
+<details>
+<summary><strong>Polygon — a closed linear ring</strong></summary>
+
+```geojson
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Closed demonstration zone",
+    "stroke": "#7c3aed",
+    "stroke-width": 3,
+    "fill": "#ddd6fe",
+    "fill-opacity": 0.35
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [4.0, 49.5],
+        [10.5, 49.5],
+        [10.5, 53.2],
+        [4.0, 53.2],
+        [4.0, 49.5]
+      ]
+    ]
+  }
+}
+```
+
+</details>
+
+The first and last position of the ring are the same, explicitly closing the boundary.
+
+---
+
+### 19.6 — MultiPoint
+
+<details>
+<summary><strong>MultiPoint — several positions, one geometry</strong></summary>
+
+```geojson
+{
+  "type": "Feature",
+  "properties": {
+    "title": "MultiPoint demonstration"
+  },
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [-3.1883, 55.9533],
+      [12.4964, 41.9028]
+    ]
+  }
+}
+```
+
+</details>
+
+---
+
+### 19.7 — MultiLineString
+
+<details>
+<summary><strong>MultiLineString — multiple paths, one geometry</strong></summary>
+
+```geojson
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Two independent paths",
+    "stroke": "#059669",
+    "stroke-width": 3
+  },
+  "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+      [[-5.0, 50.0], [-1.0, 52.0], [2.0, 51.0]],
+      [[8.0, 47.0], [11.0, 48.5], [14.0, 47.8]]
+    ]
+  }
+}
+```
+
+</details>
+
+---
+
+### 19.8 — MultiPolygon
+
+<details>
+<summary><strong>MultiPolygon — multiple separate areas</strong></summary>
+
+```geojson
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Two separated polygons",
+    "stroke": "#dc2626",
+    "stroke-width": 2,
+    "fill": "#fecaca",
+    "fill-opacity": 0.3
+  },
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [[[0.0, 44.0], [2.0, 44.0], [2.0, 45.0], [0.0, 45.0], [0.0, 44.0]]],
+      [[[15.0, 54.0], [17.0, 54.0], [17.0, 55.0], [15.0, 55.0], [15.0, 54.0]]]
+    ]
+  }
+}
+```
+
+</details>
+
+---
+
+### 19.9 — GeometryCollection
+
+<details>
+<summary><strong>GeometryCollection — heterogeneous geometry objects</strong></summary>
+
+```geojson
+{
+  "type": "Feature",
+  "properties": {
+    "title": "Mixed geometry collection"
+  },
+  "geometry": {
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "type": "Point",
+        "coordinates": [7.4474, 46.948]
+      },
+      {
+        "type": "LineString",
+        "coordinates": [
+          [6.1, 46.2],
+          [7.4474, 46.948],
+          [8.54, 47.38]
+        ]
+      }
+    ]
+  }
+}
+```
+
+</details>
+
+GitHub's map viewer documentation lists Point, LineString, Polygon, MultiPoint, MultiLineString, MultiPolygon, and GeometryCollection as supported geometry types.[^geojson-files]
+
+---
+
+### 19.10 — Feature vs geometry vs collection
+
+```text
+Geometry
+└── says WHAT shape exists
+    Point / LineString / Polygon / ...
+
+Feature
+├── geometry
+└── properties
+    title / description / style metadata / domain data
+
+FeatureCollection
+└── features[]
+    ├── Feature
+    ├── Feature
+    └── Feature
+```
+
+A geometry is spatial structure. A Feature attaches properties. A FeatureCollection groups features into one document/map.
+
+---
+
+### 19.11 — Styling metadata laboratory
+
+GitHub's GeoJSON viewer supports simple-style feature properties for markers, lines, and polygons.[^geojson-style]
+
+| Property | Role |
+| --- | --- |
+| `marker-size` | point marker size |
+| `marker-color` | point marker color |
+| `marker-symbol` | Maki icon ID or one alphanumeric character |
+| `stroke` | line / polygon-edge color |
+| `stroke-opacity` | line / edge opacity |
+| `stroke-width` | line / edge width |
+| `fill` | polygon interior color |
+| `fill-opacity` | polygon interior opacity |
+
+<details>
+<summary><strong>Open styled-feature source</strong></summary>
+
+```json
+{
+  "properties": {
+    "marker-size": "large",
+    "marker-color": "#7c3aed",
+    "marker-symbol": "1",
+    "stroke": "#2563eb",
+    "stroke-width": 4,
+    "fill": "#c4b5fd",
+    "fill-opacity": 0.28
+  }
+}
+```
+
+</details>
+
+The `json` fence above is intentional: it demonstrates metadata as source rather than spawning another map.
+
+---
+
+### 19.12 — Repository-owned standalone GeoJSON
+
+M10 adds a real file:
+
+**[`assets/geojson-showcase.geojson`](./assets/geojson-showcase.geojson)**
+
+Opening that file directly on GitHub exercises a second rendering path:
+
+```text
+README fenced geojson
+        ↓
+embedded interactive map
+
+.geojson repository file
+        ↓
+standalone interactive map viewer
+```
+
+The standalone dataset contains all seven geometry families and simple-style metadata.
+
+---
+
+### 19.13 — Projection and coordinate-system boundary
+
+GitHub's current non-code-file documentation says its map viewer supports the CRS84 projection. If valid points render somewhere absurd, a projection mismatch—or simply reversed coordinates—is a primary suspect.[^geojson-files]
+
+```text
+Correct conceptual order:
+[longitude, latitude]
+
+Common human-language order:
+latitude, longitude
+
+Do not swap them casually.
+```
+
+---
+
+### 19.14 — GeoJSON parser-failure laboratory
+
+Broken examples remain inert inside a longer `text` fence:
+
+````text
+```geojson
+{
+  "type": "Point",
+  "coordinates": [13.405, 52.52],
+}
+```
+
+```geojson
+{
+  "type": "Polygon",
+  "coordinates": [[[4,49], [10,49], [10,53]]]
+}
+```
+````
+
+The first example has invalid JSON because of the trailing comma. The second is structurally inadequate as a proper closed polygon ring.
+
+> [!CAUTION]
+> Broken geographic examples should look deliberately broken. Do not place invalid GeoJSON in a live `geojson` fence merely to prove that parsing can fail.
+
+---
+
+### 19.15 — GeoJSON vs JSON highlighting
+
+The same conceptual object can enter two completely different pipelines.
+
+**Highlighted source:**
+
+```json
+{
+  "type": "Point",
+  "coordinates": [13.405, 52.52]
+}
+```
+
+**Interactive geographic renderer:**
+
+```geojson
+{
+  "type": "Point",
+  "coordinates": [13.405, 52.52]
+}
+```
+
+```text
+json     → Linguist → highlighted JSON source
+geojson  → map renderer → interactive geographic view
+```
+
+This is M10's central renderer lesson: **identical JSON structure can be treated as source or as an interactive visualization depending on the fence identifier.**
+
+---
+
+### 19.16 — GeoJSON vs Mermaid vs MathJax vs SVG
+
+| Need | Renderer |
+| --- | --- |
+| Formula / notation | MathJax |
+| Process / relationships | Mermaid |
+| Geographic geometry | GeoJSON |
+| Static illustration / branding | repository-owned SVG |
+| Generic source example | Linguist / normal code fence |
+
+```mermaid
+flowchart TD
+    NEED[What are you trying to communicate?]
+    NEED --> MATH{Mathematics?}
+    MATH -- yes --> MJ[MathJax]
+    MATH -- no --> GEO{Geographic coordinates?}
+    GEO -- yes --> GJ[GeoJSON]
+    GEO -- no --> REL{Relationships / process?}
+    REL -- yes --> MM[Mermaid]
+    REL -- no --> SVG[SVG / ordinary media]
+```
+
+---
+
+### 19.17 — Map accessibility and fallback strategy
+
+Interactive maps are visually powerful but should not become the only representation of essential content.
+
+For the main M10 map, the prose already states its semantic structure:
+
+- three named point features
+- one route connecting them
+- one demonstration polygon
+- styling metadata
+- a repository-owned equivalent dataset
+
+That means the document still communicates the model if the interactive map cannot be used.
+
+> [!IMPORTANT]
+> Treat the map as an enhancement over accessible text and inspectable JSON source, not as the sole carrier of meaning.
+
+---
+
+### 19.18 — Large-map boundary
+
+GitHub's current documentation says very large GeoJSON files (over roughly 10 MB) cannot be rendered in the browser, and maps with roughly more than 750 markers may be clustered at higher zoom levels.[^geojson-files]
+
+```text
+Small documentation map
+→ embed directly
+
+Large repeated geometry
+→ consider TopoJSON (M11)
+
+Huge dataset
+→ split files / use a dedicated mapping application
+```
+
+This gives M11 a real reason to exist: TopoJSON is not merely “GeoJSON with a different name”; it can encode shared topology more compactly.
+
+---
+
+### 19.19 — GeoJSON Final Form
+
+<details open>
+<summary><strong>INTERACTIVE MAP FINAL FORM — expanded by default</strong></summary>
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "SOURCE",
+        "marker-color": "#7c3aed",
+        "marker-symbol": "s"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3522, 48.8566]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "RENDER",
+        "marker-color": "#0891b2",
+        "marker-symbol": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.405, 52.52]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Source to Render",
+        "stroke": "#2563eb",
+        "stroke-width": 5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [2.3522, 48.8566],
+          [13.405, 52.52]
+        ]
+      }
+    }
+  ]
+}
+```
+
+```math
+\boxed{
+\text{coordinates}
++\text{geometry}
++\text{properties}
++\texttt{geojson}
+=\text{interactive map}
+}
+```
+
+</details>
+
+### M10 renderer rule
+
+```text
+Need geography?
+├── a few features in README → fenced geojson
+├── reusable repository dataset → .geojson file
+├── shared-topology compression → TopoJSON (M11)
+└── full GIS application → use a dedicated map stack
 ```
 
 ---
 
 # ACT VI — PARSER & SOURCE LAB
 
-## LEVEL 19 — ESCAPE HATCH
+## LEVEL 20 — ESCAPE HATCH
 
 `Markdown` · `Parser`
 
@@ -1416,7 +1605,7 @@ Need a visual model?
 
 ---
 
-## LEVEL 20 — BACKTICK PARADOX
+## LEVEL 21 — BACKTICK & FENCE PARADOX
 
 `Markdown` · `Parser`
 
@@ -1435,26 +1624,32 @@ flowchart LR
 ```
 ````
 
----
-
-## LEVEL 21 — DELIMITER COLLISION LAB
-
-`Markdown` · `GFM` · `MathJax` · `Mermaid`
-
-```text
-$          → possible MathJax delimiter
-`          → code delimiter / protected math boundary
-```mermaid → specialized diagram routing metadata
-```math    → specialized mathematics routing metadata
-_          → Markdown emphasis or math subscript by context
-*          → Markdown emphasis or literal token by context
+````markdown
+```geojson
+{"type":"Point","coordinates":[13.405,52.52]}
 ```
-
-The string `` ```mermaid `` is meaningful only when it appears as an actual opening fence. Inside inline code or a longer outer fence, it is merely characters.
+````
 
 ---
 
-## LEVEL 22 — ENTITY REACTOR
+## LEVEL 22 — DELIMITER & RENDERER COLLISION LAB
+
+`Markdown` · `GFM` · `MathJax` · `Mermaid` · `GeoJSON`
+
+````text
+$            → possible MathJax delimiter
+`            → code delimiter / protected math boundary
+```math      → MathJax block routing metadata
+```mermaid   → Mermaid diagram routing metadata
+```geojson   → interactive map routing metadata
+```json      → syntax-highlighted JSON source
+````
+
+Fence identifiers are not cosmetic labels. They can switch the entire rendering subsystem.
+
+---
+
+## LEVEL 23 — ENTITY REACTOR
 
 `Markdown` · `HTML`
 
@@ -1472,7 +1667,7 @@ The string `` ```mermaid `` is meaningful only when it appears as an actual open
 
 ---
 
-## LEVEL 23 — WHITESPACE & RECURSION CHAMBER
+## LEVEL 24 — WHITESPACE & RECURSION CHAMBER
 
 `Markdown` · `Parser`
 
@@ -1495,10 +1690,20 @@ flowchart LR
 ```
 ````
 
+````markdown
+```geojson
+{
+  "type": "Point",
+  "coordinates": [13.405, 52.52]
+}
+```
+````
+
 <!--
 Future maintainers:
-Nested fences, Mermaid identifiers, math delimiters, literal-dollar escapes,
-reference definitions, relative media paths, and details blank lines are intentional.
+Nested fences, GeoJSON coordinate order, renderer identifiers, math delimiters,
+literal-dollar escapes, reference definitions, relative assets, and details blank lines
+are intentional parser demonstrations.
 -->
 
 ---
@@ -1508,57 +1713,60 @@ reference definitions, relative media paths, and details blank lines are intenti
 ## 🏅 ACHIEVEMENTS UNLOCKED
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-MERMAID_CARTOGRAPHER-fbbf24?style=for-the-badge" alt="Achievement Mermaid Cartographer">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-SEQUENCE_ORACLE-06b6d4?style=for-the-badge" alt="Achievement Sequence Oracle">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-GRAPH_NECROMANCER-8b5cf6?style=for-the-badge" alt="Achievement Graph Necromancer">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-DIAGRAM_ROUTER-0891b2?style=for-the-badge" alt="Achievement Diagram Router">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-GEOJSON_NAVIGATOR-fbbf24?style=for-the-badge" alt="Achievement GeoJSON Navigator">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-COORDINATE_CARTOGRAPHER-06b6d4?style=for-the-badge" alt="Achievement Coordinate Cartographer">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-FEATURE_COLLECTION_ARCHITECT-8b5cf6?style=for-the-badge" alt="Achievement FeatureCollection Architect">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-RENDERER_ROUTER-0891b2?style=for-the-badge" alt="Achievement Renderer Router">
 </p>
 
 | Achievement | Requirement | Status |
 | --- | --- | :---: |
 | **Syntax Curator** | Retain 33 syntax modes | ✅ |
 | **MathJax Architect** | Preserve advanced mathematics | ✅ |
-| **Mermaid Cartographer** | Build multi-family Mermaid gallery | ✅ |
-| **Flow Commander** | Directions, shapes, subgraphs, edge variants | ✅ |
-| **Sequence Oracle** | Actors, loops, alternatives, notes | ✅ |
-| **State Keeper** | State lifecycle + composite state | ✅ |
-| **Class Architect** | Inheritance + composition | ✅ |
-| **Schema Weaver** | ER relationships and attributes | ✅ |
-| **Timeline Keeper** | Gantt + timeline + journey | ✅ |
-| **Graph Necromancer** | GitGraph branch/merge visualization | ✅ |
-| **Requirement Tracekeeper** | Requirement diagram traceability | ✅ |
-| **Compatibility Canary** | Isolate version-sensitive architecture diagram | ✅ |
-| **Diagram Router** | Distinguish Mermaid, Linguist, MathJax, SVG | ✅ |
-| **Parser Tamer** | Keep broken Mermaid examples inert | ✅ |
-| **Master of Restraint** | Stop before every experimental Mermaid type | ❌ |
+| **Mermaid Cartographer** | Preserve multi-family diagram gallery | ✅ |
+| **GeoJSON Navigator** | Render interactive geographic source | ✅ |
+| **Coordinate Cartographer** | Use correct longitude/latitude order | ✅ |
+| **Point Keeper** | Render Point / MultiPoint | ✅ |
+| **Route Builder** | Render LineString / MultiLineString | ✅ |
+| **Region Builder** | Render Polygon / MultiPolygon | ✅ |
+| **Geometry Collector** | Render GeometryCollection | ✅ |
+| **FeatureCollection Architect** | Combine heterogeneous Features | ✅ |
+| **Simple-Style Operator** | Marker, stroke, fill metadata | ✅ |
+| **Dataset Keeper** | Add repository-owned `.geojson` file | ✅ |
+| **Renderer Router** | Distinguish JSON, GeoJSON, Mermaid, MathJax, SVG | ✅ |
+| **Map Fallback Planner** | Preserve essential meaning outside map UI | ✅ |
+| **Parser Tamer** | Keep broken GeoJSON examples inert | ✅ |
+| **Master of Restraint** | Stop before building a GIS platform | ❌ |
 
 ---
 
 ## THE CHAOS INDEX
 
 ```text
-Clarity          ████████████████████ 100%
-Structure        ████████████████████ 100%
-Typography       ████████████████████ 100%
-Lists / Tables   ████████████████████ 100%
-Links            ████████████████████ 100%
-Local Media      ████████████████████ 100%
-HTML Hybrid      ████████████████████ 100%
-Syntax Labels    ████████████████████ 100%
-Language Breadth ████████████████████  33 modes
-MathJax          ████████████████████ 100%
-Mermaid Core     ████████████████████ 100%
-Diagram Families ████████████████████  14 shown
-Renderer Routing ████████████████████ 100%
-Parser Tricks    ███████████████████░  95%
-Restraint        ██░░░░░░░░░░░░░░░░░░  10%
-Raw Power        ████████████████████  M9
+Clarity           ████████████████████ 100%
+Structure         ████████████████████ 100%
+Typography        ████████████████████ 100%
+Lists / Tables    ████████████████████ 100%
+Links             ████████████████████ 100%
+Local Media       ████████████████████ 100%
+HTML Hybrid       ████████████████████ 100%
+Syntax Labels     ████████████████████ 100%
+Language Breadth  ████████████████████  33 modes
+MathJax           ████████████████████ 100%
+Mermaid           ████████████████████ 100%
+GeoJSON Geometry  ████████████████████ 100%
+GeoJSON Styling   ████████████████████ 100%
+Interactive Maps  ████████████████████ 100%
+Renderer Routing  ████████████████████ 100%
+Parser Tricks     ███████████████████░  95%
+Restraint         ██░░░░░░░░░░░░░░░░░░  10%
+Raw Power         ████████████████████  M10
 ```
 
 > [!WARNING]
-> Diagrams can make bad system models look very official.
+> An interactive map can make bad geographic data look extremely convincing.
 >
-> **M9 demonstrates renderer breadth and source structure; visual polish does not guarantee that the modeled architecture is correct.**
+> **M10 demonstrates geographic rendering and source structure; it does not turn coordinates into truth merely by placing them on tiles.**
 
 ---
 
@@ -1582,19 +1790,21 @@ Protected math: $`x_i^2`$
 
 ```mermaid
 flowchart LR
-    A[Source] --> B[Rendered diagram]
+    A --> B
 ```
 
-```mermaid
-sequenceDiagram
-    Alice->>Bob: Message
+```geojson
+{
+  "type": "Feature",
+  "properties": {"title": "Point"},
+  "geometry": {
+    "type": "Point",
+    "coordinates": [13.405, 52.52]
+  }
+}
 ```
 
-```mermaid
-stateDiagram-v2
-    [*] --> Ready
-    Ready --> [*]
-```
+[Standalone GeoJSON](./assets/geojson-showcase.geojson)
 
 ```python
 print("highlighted code")
@@ -1605,18 +1815,16 @@ literal output
 ```
 
 ````markdown
-```mermaid
-flowchart LR
-    A --> B
+```geojson
+{"type":"Point","coordinates":[13.405,52.52]}
 ```
 ````
 
 <details>
 <summary>Collapsed renderer</summary>
 
-```mermaid
-flowchart LR
-    Source --> Render
+```geojson
+{"type":"Point","coordinates":[2.3522,48.8566]}
 ```
 
 </details>
@@ -1640,41 +1848,43 @@ flowchart LR
 
 | Crime | Consequence |
 | --- | --- |
-| Using `text` when you expected a diagram | Mermaid source stays literal |
-| Misspelling `mermaid` info string | specialized renderer never starts |
-| Deliberately broken live Mermaid | README looks accidentally broken |
-| Extremely long labels | diagrams become mobile-hostile |
-| Hard-coded diagram colors everywhere | poor light/dark resilience |
-| Assuming upstream latest Mermaid == GitHub bundle | version-sensitive diagrams can fail |
-| Treating architecture canary as critical navigation | one version gap breaks core UX |
-| Using diagrams where a two-row table is clearer | visual complexity without information gain |
-| Forgetting longer outer fences | source demonstrations terminate themselves |
-| Confusing `latex` with `math` | highlighting is mistaken for rendering |
+| Writing `[latitude, longitude]` in GeoJSON | features land in wrong places |
+| Using `json` when expecting a map | source is highlighted, not mapped |
+| Using `geojson` for invalid JSON | map renderer fails |
+| Leaving a polygon ring open | invalid / malformed polygon geometry |
+| Putting essential instructions only in map popups | accessibility and fallback failure |
+| Hard-coding absolute repository asset URLs | branch previews become brittle |
+| Huge GeoJSON payload in README | slow, noisy documentation |
+| Ignoring projection assumptions | valid numbers can map incorrectly |
+| Forgetting longer outer fences | renderer-source examples terminate themselves |
+| Treating a pretty map as data validation | visual authority hides bad data |
+| Using GeoJSON where a table is clearer | interaction without information gain |
 
 ---
 
 ## 🧪 README QUALITY TEST
 
-- [ ] Flowchart renders with multiple edge styles and subgraphs.
-- [ ] Sequence diagram renders loops, alt branches, and notes.
-- [ ] State diagram renders its composite state.
-- [ ] Class inheritance/composition arrows render correctly.
-- [ ] ER cardinalities and attributes remain readable.
-- [ ] Journey scores display coherently.
-- [ ] Gantt dates/tasks remain legible.
-- [ ] Pie labels remain readable in light and dark themes.
-- [ ] GitGraph branch/merge sequence renders.
-- [ ] Mindmap does not overflow badly on mobile.
-- [ ] Timeline remains horizontally usable.
-- [ ] Quadrant points and axis labels render.
-- [ ] Requirement relationships render.
-- [ ] Architecture canary is checked against GitHub's current Mermaid bundle.
-- [ ] Broken Mermaid examples remain inside non-Mermaid source fences.
-- [ ] All Mermaid galleries open and close independently.
-- [ ] MathJax examples still render.
+- [ ] Main FeatureCollection renders interactively.
+- [ ] Point markers appear at expected locations.
+- [ ] LineString follows all listed positions.
+- [ ] Polygon is visibly closed and filled.
+- [ ] MultiPoint renders more than one point.
+- [ ] MultiLineString renders independent line parts.
+- [ ] MultiPolygon renders separated areas.
+- [ ] GeometryCollection renders mixed geometry.
+- [ ] Marker color/size/symbol metadata is honored where GitHub supports it.
+- [ ] Stroke/fill metadata remains visible.
+- [ ] Standalone `assets/geojson-showcase.geojson` renders directly on GitHub.
+- [ ] All coordinate pairs remain longitude-first.
+- [ ] Broken examples remain inside non-GeoJSON fences.
+- [ ] JSON-vs-GeoJSON comparison demonstrates distinct renderers.
+- [ ] Essential map meaning remains available as prose/source.
+- [ ] MathJax still renders.
+- [ ] Mermaid still renders.
 - [ ] 33 Linguist modes remain represented.
-- [ ] Theme-aware local hero still switches correctly.
+- [ ] Local SVG hero still switches correctly.
 - [ ] Nested fences remain balanced.
+- [ ] Mobile map interaction remains usable.
 - [ ] README is previewed on GitHub before release.
 
 ---
@@ -1684,47 +1894,40 @@ flowchart LR
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form M9 final banner" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form M10 final banner" width="100%">
 </picture>
 
 <details open>
-<summary><strong>FINAL FORM — ADVANCED RENDERER NETWORK</strong></summary>
+<summary><strong>FINAL FORM — MULTI-RENDERER NETWORK</strong></summary>
 
 ```mermaid
 flowchart TB
     README[README.md]
-
     README --> CORE[Markdown + GFM]
-    CORE --> LINKS[Links / Tables / Tasks]
-    CORE --> GH[GitHub extensions]
+    CORE --> GH[GitHub]
 
     GH --> CODE[Linguist]
     GH --> MATH[MathJax]
     GH --> DIAGRAM[Mermaid]
+    GH --> MAP[GeoJSON]
     GH --> HYBRID[Sanitized HTML]
-
-    DIAGRAM --> FLOW[Flowchart]
-    DIAGRAM --> SEQ[Sequence]
-    DIAGRAM --> MODEL[State / Class / ER]
-    DIAGRAM --> TIME[Gantt / Timeline / Journey]
-    DIAGRAM --> GRAPH[GitGraph / Mindmap]
-    DIAGRAM --> SPEC[Quadrant / Requirements]
 
     CODE --> FINAL[FINAL FORM]
     MATH --> FINAL
     DIAGRAM --> FINAL
+    MAP --> FINAL
     HYBRID --> FINAL
 ```
 
 ```math
 \boxed{
 \text{Markdown}
-+\text{GFM}
 +\text{Linguist}
 +\text{MathJax}
 +\text{Mermaid}
++\text{GeoJSON}
 +\text{HTML}
-=\text{M9}
+=\text{M10}
 }
 ```
 
@@ -1737,8 +1940,8 @@ SOURCE
 ├── fenced code → Linguist
 ├── math delimiters / math fence → MathJax
 ├── mermaid fence → Mermaid
+├── geojson fence / .geojson file → interactive map
 ├── HTML fragments → sanitizer
-├── GeoJSON → M10
 ├── TopoJSON → M11
 └── STL → M12
 ```
@@ -1751,18 +1954,19 @@ SOURCE
 
 <p>
   Markdown owns the document.<br>
-  Renderer metadata chooses the visual system.<br>
+  Fence metadata chooses specialized renderers.<br>
   MathJax typesets notation.<br>
-  Mermaid turns relationships into diagrams.<br>
-  The raw source remains reviewable underneath all of it.
+  Mermaid models relationships.<br>
+  GeoJSON maps geographic geometry.<br>
+  The raw source remains inspectable underneath all of it.
 </p>
 
 <a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams"><img src="https://img.shields.io/badge/READ-GITHUB_DIAGRAM_DOCS-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Read GitHub diagram documentation"></a>
-<a href="https://mermaid.js.org/"><img src="https://img.shields.io/badge/EXPLORE-MERMAID-7c3aed?style=for-the-badge" alt="Explore Mermaid documentation"></a>
-<a href="#"><img src="https://img.shields.io/badge/RETURN-TO_THE_TOP-0891b2?style=for-the-badge" alt="Return to top"></a>
+<a href="./assets/geojson-showcase.geojson"><img src="https://img.shields.io/badge/OPEN-GEOJSON_DATASET-0891b2?style=for-the-badge" alt="Open repository GeoJSON dataset"></a>
+<a href="#"><img src="https://img.shields.io/badge/RETURN-TO_THE_TOP-7c3aed?style=for-the-badge" alt="Return to top"></a>
 
 <h2>Markdown: Final Form.</h2>
-<h3>Mermaid diagram layer unlocked.</h3>
+<h3>Interactive GeoJSON layer unlocked.</h3>
 
 </div>
 
@@ -1775,8 +1979,11 @@ SOURCE
 [GFM Spec]: https://github.github.com/gfm/ "GitHub Flavored Markdown specification"
 
 [^plain-text]: Markdown remains readable as plain text while adding lightweight structural syntax.
-[^relative-links]: Relative repository paths keep files and media branch-aware.
+[^relative-links]: Relative repository paths keep files, images, and GeoJSON datasets branch-aware.
 [^sanitization]: GitHub sanitizes rendered README HTML, so arbitrary application-style script and styling are not the interface model.
 [^linguist]: GitHub Linguist defines languages and aliases used for syntax highlighting in fenced code blocks.
 [^mathjax]: GitHub renders supported LaTeX-formatted mathematics in Markdown using MathJax.
-[^mermaid]: GitHub documents Mermaid as one of its advanced diagram syntaxes and renders Mermaid source from fenced `mermaid` blocks in Markdown files.
+[^mermaid]: GitHub documents Mermaid as one of its advanced diagram syntaxes and renders valid source from fenced `mermaid` blocks.
+[^geojson]: GitHub documents GeoJSON as a native interactive map syntax in Markdown when valid GeoJSON is placed in a fenced block with the `geojson` identifier.
+[^geojson-files]: GitHub's non-code-file documentation says `.geojson` and qualifying `.json` files can render as maps, uses Leaflet, supports the standard GeoJSON geometry families, documents CRS84 support, clustering for large marker sets, and a browser-rendering limit for especially large files.
+[^geojson-style]: GitHub's map documentation describes simple-style properties including marker size/color/symbol, stroke color/opacity/width, and polygon fill/opacity.
