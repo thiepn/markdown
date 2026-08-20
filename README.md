@@ -3,47 +3,48 @@
 ║                          LEVEL 00: SOURCE LAYER                              ║
 ║                                                                              ║
 ║  Achievements: RAW SOURCE EXPLORER · PARSER TAMER · BLOCK ARCHITECT         ║
-║                LINK CARTOGRAPHER · MEDIA ENGINEER                            ║
+║                LINK CARTOGRAPHER · MEDIA ENGINEER · HYBRID ENGINEER          ║
 ║                                                                              ║
-║  M5 invariant: the local assets/ directory is part of the README system.     ║
-║  Do not replace repository-owned media with remote generators casually.      ║
+║  M6 invariant: HTML is a controlled extension layer, not a hidden website.  ║
+║  GitHub sanitization is part of the rendering model.                         ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form — repository-owned M5 media system" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form — HTML hybrid interface system" width="100%">
 </picture>
 
 <div align="center">
 
 <a href="https://readme-typing-svg.demolab.com/demo/">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Local+SVGs.+Relative+paths.+Theme+switching.;One+source+asset%2C+many+display+sizes.;Remote+graphics+are+now+optional%2C+not+infrastructure.;M5+media+layer+online."
-    alt="Animated M5 media system introduction"
-  />
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=22&amp;pause=900&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=56&amp;lines=Markdown+outside.+HTML+inside.;Details.+Summary.+Picture.+Tables.;Sanitized%2C+composable%2C+zero+JavaScript.;M6+hybrid+layer+online."
+    alt="Animated M6 HTML hybrid introduction">
 </a>
 
-<br />
+<br>
 
 <a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/LAYER-MARKDOWN-111111?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Markdown layer"></a>
 <a href="https://github.github.com/gfm/"><img src="https://img.shields.io/badge/LAYER-GFM-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub Flavored Markdown layer"></a>
-<a href="#level-10--repository-owned-media-system"><img src="https://img.shields.io/badge/MEDIA-M5_UNLOCKED-8B5CF6?style=for-the-badge" alt="Media system M5 unlocked"></a>
-<a href="#the-chaos-index"><img src="https://img.shields.io/badge/CHAOS-CONTROLLED-ff1493?style=for-the-badge" alt="Controlled chaos"></a>
+<a href="#level-11--inline-html-semantic-toolkit"><img src="https://img.shields.io/badge/HTML-M6_UNLOCKED-8B5CF6?style=for-the-badge" alt="HTML hybrid M6 unlocked"></a>
+<a href="#level-12--details-interface-system"><img src="https://img.shields.io/badge/DETAILS-INTERACTIVE-06B6D4?style=for-the-badge" alt="Details interface system unlocked"></a>
 <a href="#final-boss"><img src="https://img.shields.io/badge/README-OVERENGINEERED-F43F5E?style=for-the-badge" alt="README overengineered"></a>
 
 <h3>This is a <strong>layer-by-layer Markdown rendering laboratory</strong>.</h3>
 
-<sub>Markdown · GFM · GitHub rendering · HTML fragments · local SVG media · zero JavaScript</sub>
+<sub>Markdown · GFM · GitHub rendering · sanitized HTML · local SVG media · zero JavaScript</sub>
 
-<br /><br />
+<br><br>
 
 <a href="#act-i--markdown-core"><strong>⚡ Markdown Core</strong></a>
 &nbsp;•&nbsp;
-<a href="#level-04--hyperlink-routing-matrix"><strong>🧭 Link Routing</strong></a>
+<a href="#level-10--repository-owned-media-system"><strong>🖼️ Media</strong></a>
 &nbsp;•&nbsp;
-<a href="#level-10--repository-owned-media-system"><strong>🖼️ Media System</strong></a>
+<a href="#level-12--details-interface-system"><strong>▸ Details UI</strong></a>
+&nbsp;•&nbsp;
+<a href="#level-15--sanitization-boundary"><strong>🛡️ Sanitizer</strong></a>
 &nbsp;•&nbsp;
 <a href="#final-boss"><strong>👑 Final Boss</strong></a>
 
@@ -52,7 +53,7 @@
 ---
 
 > [!IMPORTANT]
-> M5 changes the reliability model: the README's primary visual identity now lives **inside the repository**. Remote generators remain demonstrations, not critical dependencies.
+> M6 treats HTML as a **sanitized composition layer**. It extends Markdown where useful—disclosure controls, semantic inline elements, media selection, and explicit tables—without relying on JavaScript, CSS classes, or arbitrary styling.
 
 ## 🧭 README POWER MAP
 
@@ -62,7 +63,7 @@
 | `I` | [Markdown Core](#act-i--markdown-core) | Typography, headings, blocks, links, anchors | `#` |
 | `II` | [GitHub Flavored Markdown](#act-ii--github-flavored-markdown) | Tables, task trees, strikethrough, autolinks | `GFM` |
 | `III` | [GitHub Extensions](#act-iii--github-extensions) | Alerts, highlighting, footnotes, GitHub context | `GH` |
-| `IV` | [HTML Hybrid](#act-iv--html-hybrid) | Local images, SVGs, theme media, details | `<>` |
+| `IV` | [HTML Hybrid](#act-iv--html-hybrid) | Media, semantic HTML, details UI, HTML tables, sanitization | `<>` |
 | `V` | [Advanced Rendering](#act-v--advanced-rendering) | Math, Mermaid | `∞` |
 | `VI` | [Parser & Source Lab](#act-vi--parser--source-lab) | Escapes, entities, backticks, recursion | `\` |
 | `VII` | [Endgame & Reference](#act-vii--endgame--reference) | Achievements, cheat sheet, QA | `✓` |
@@ -78,10 +79,10 @@
 flowchart LR
     A[raw README.md] --> B[Markdown]
     B --> C[GFM]
-    C --> D[GitHub]
-    D --> E[HTML Hybrid]
-    E --> F[Local Media]
-    F --> G[Advanced Renderers]
+    C --> D[GitHub extensions]
+    D --> E[Sanitized HTML hybrid]
+    E --> F[Local media]
+    F --> G[Advanced renderers]
     G --> H[FINAL FORM]
 ```
 
@@ -99,10 +100,10 @@ flowchart LR
 Architecture invariant:
 Future phases extend the correct rendering act instead of appending unrelated sections.
 
-M5 invariant:
-assets/hero-light.svg and assets/hero-dark.svg are primary visual infrastructure.
-Relative media paths are deliberate so branch previews remain self-contained.
-Decorative images should use empty alt text when they convey no information.
+M6 invariant:
+Do not introduce script/style-based README UI. GitHub sanitization is intentional.
+Keep blank lines around Markdown nested inside <details> blocks.
+Keep local media paths relative so branch previews remain self-contained.
 -->
 
 > [!NOTE]
@@ -218,12 +219,6 @@ Setext Level Two
 > - [x] List
 > - [x] Task
 > - [x] `inline code`
->
-> ```text
-> quote
->   └── list
->       └── task
-> ```
 
 ---
 
@@ -231,10 +226,7 @@ Setext Level Two
 
 `Markdown` · `GFM` · `GitHub` · `HTML`
 
-### Inline and reference links
-
 [Markdown Guide](https://www.markdownguide.org/)  
-[Hover title](https://www.markdownguide.org/ "Tooltip unlocked")  
 [Markdown Guide][markdown-guide]  
 [GitHub Docs][]  
 [GFM Spec]
@@ -244,17 +236,18 @@ Setext Level Two
 - [This README](./README.md)
 - [Repository root](./)
 - [Media system](./README.md#level-10--repository-owned-media-system)
-- [Local media card asset](./assets/media-card.svg)
+- [Local media card](./assets/media-card.svg)
 
 ### Section and custom anchors
 
-- [Markdown Core](#act-i--markdown-core)
-- [Advanced Rendering](#act-v--advanced-rendering)
+- [HTML Hybrid](#act-iv--html-hybrid)
+- [Details Interface](#level-12--details-interface-system)
+- [Sanitization Boundary](#level-15--sanitization-boundary)
 - [Final Boss](#final-boss)
 
-<a name="m5-media-beacon"></a>
+<a name="m6-hybrid-beacon"></a>
 
-[Jump to this custom anchor](#m5-media-beacon)
+[Jump to this custom anchor](#m6-hybrid-beacon)
 
 ### Autolinks
 
@@ -271,9 +264,6 @@ www.github.com
 owner/repository#123
 0123456789abcdef0123456789abcdef01234567
 ```
-
-> [!IMPORTANT]
-> Repository Markdown files and GitHub conversation surfaces do not have identical automatic-reference behavior. Explicit links remain the safe choice when guaranteed README navigation matters.
 
 ---
 
@@ -317,12 +307,17 @@ owner/repository#123
   - [x] Task lists
 - [x] **Media System**
   - [x] Repository-owned SVGs
-  - [x] Relative image paths
   - [x] Theme-aware `<picture>`
-  - [x] HTML sizing
-  - [x] Clickable local media
-  - [x] Informative/decorative alt strategy
-  - [x] Fallback chain
+  - [x] Relative images and fallbacks
+- [x] **HTML Hybrid**
+  - [x] Semantic inline elements
+  - [x] `<details>` / `<summary>`
+  - [x] Default-open disclosure
+  - [x] Nested disclosure
+  - [x] Markdown inside details
+  - [x] HTML tables
+  - [x] Markdown/HTML boundary rules
+  - [x] Sanitization boundary
 - [x] **Parser Lab**
   - [x] Escapes
   - [x] Entities
@@ -358,7 +353,7 @@ owner/repository#123
 > Something may go wrong.
 
 > [!CAUTION]
-> You deleted a local media asset that the README still references.
+> You tried to turn a README into a JavaScript application.
 
 ---
 
@@ -368,10 +363,11 @@ owner/repository#123
 
 ```javascript
 const readme = {
-  phase: "M5",
-  media: "repository-owned",
-  themeAware: true,
-  externalDependency: "optional",
+  phase: "M6",
+  htmlHybrid: true,
+  detailsInterfaces: true,
+  javascriptRuntime: false,
+  sanitizationAware: true,
 };
 ```
 
@@ -379,20 +375,19 @@ const readme = {
 from dataclasses import dataclass
 
 @dataclass(frozen=True)
-class Asset:
-    path: str
-    local: bool = True
-    scalable: bool = True
+class Disclosure:
+    summary: str
+    open_by_default: bool = False
 
-hero = Asset("./assets/hero-dark.svg")
+panel = Disclosure("Advanced controls", open_by_default=True)
 ```
 
 ```diff
-- Critical hero depends on a third-party image generator.
-+ Critical hero lives in ./assets/ and travels with the branch.
+- Treat raw HTML as unrestricted webpage code.
++ Treat raw HTML as a sanitized Markdown extension layer.
 
-- Theme support exists only in a code sample.
-+ Theme support is a live <picture> element.
+- Hide advanced content by deleting it from the flow.
++ Use <details> when progressive disclosure improves readability.
 ```
 
 ---
@@ -403,166 +398,408 @@ hero = Asset("./assets/hero-dark.svg")
 
 Markdown remains readable as plain text while adding structure.[^plain-text]
 
-Relative repository links and image paths stay branch-aware.[^relative-links]
+Relative repository paths keep media branch-aware.[^relative-links]
 
-Repository files and GitHub conversations are different rendering contexts.[^github-context]
+GitHub renders additional HTML tags in Markdown, but sanitizes the resulting HTML before display.[^sanitization]
 
-M5 keeps external generators only as optional demonstrations.[^external-media]
+Collapsed sections use `<details>` and `<summary>`, and may be opened by default with the `open` attribute.[^details]
 
 ---
 
 # ACT IV — HTML HYBRID
 
-> HTML fragments become especially useful when Markdown image syntax needs theme, size, or fallback control.
+> HTML is most valuable here when it supplies semantics or interaction that Markdown syntax itself does not have.
 
 ## LEVEL 10 — REPOSITORY-OWNED MEDIA SYSTEM
 
 `Markdown` · `HTML` · `Local Asset` · `External Asset`
 
-### Asset architecture
-
-```text
-assets/
-├── hero-light.svg
-├── hero-dark.svg
-├── media-card.svg
-├── scaling-ruler.svg
-├── media-divider.svg
-├── reliability-ladder.svg
-├── informative-diagram.svg
-├── decorative-divider.svg
-├── clickable-portal.svg
-├── picture-fallback.svg
-└── media-status.svg
-```
-
-The critical visuals are now version controlled with the README.
-
 ### Live theme-aware hero
-
-The banner at the top of this README is a real `<picture>` implementation:
 
 ```html
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form media banner" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form banner" width="100%">
 </picture>
 ```
 
-The final `<img>` is the fallback when no `<source>` matches or the element is interpreted without source selection.
-
-<img src="./assets/picture-fallback.svg" alt="Diagram showing dark source, light source, and fallback image in a picture element" width="100%">
-
-### Plain Markdown image syntax
-
-The simplest live local image uses ordinary Markdown:
-
 ![Repository-owned SVG card showing relative-path, version-controlled, scalable, and alt-text-ready media](./assets/media-card.svg)
 
-Source:
+<img src="./assets/scaling-ruler.svg" alt="SVG scaling ruler" width="100%">
 
-```md
-![Repository-owned SVG card](./assets/media-card.svg)
-```
-
-### One SVG, multiple display sizes
-
-<img src="./assets/scaling-ruler.svg" alt="SVG scale ruler from zero to one hundred percent" width="100%">
-
-Same source, reduced display width:
-
-<img src="./assets/scaling-ruler.svg" alt="The same SVG scale ruler displayed at half width" width="50%">
-
-Source:
-
-```html
-<img src="./assets/scaling-ruler.svg" alt="..." width="100%">
-<img src="./assets/scaling-ruler.svg" alt="..." width="50%">
-```
-
-The vector source does not need a second exported file just because the display size changes.
-
-### Clickable local image
+<img src="./assets/scaling-ruler.svg" alt="The same SVG scaling ruler displayed at half width" width="50%">
 
 [![Clickable local SVG portal](./assets/clickable-portal.svg)](#level-10--repository-owned-media-system)
-
-Source:
-
-```md
-[![Clickable local SVG portal](./assets/clickable-portal.svg)](#level-10--repository-owned-media-system)
-```
-
-The image is simultaneously media **and** link label.
-
-### Informative versus decorative images
-
-Informative image — descriptive `alt` text carries the essential meaning:
-
-<img src="./assets/informative-diagram.svg" alt="Flow: source to relative path to GitHub render to reader" width="100%">
-
-Decorative image — intentionally empty `alt` because it adds no information:
 
 <img src="./assets/decorative-divider.svg" alt="" width="100%">
 
-```html
-<img src="./assets/informative-diagram.svg" alt="Flow: source to relative path to GitHub render to reader">
-<img src="./assets/decorative-divider.svg" alt="">
-```
-
 > [!TIP]
-> Good alt text describes the image's **purpose**, not every pixel. Pure decoration should not force screen-reader users through meaningless narration.
-
-### Local versus external reliability
-
-<img src="./assets/reliability-ladder.svg" alt="Media reliability ladder comparing external generators, local raster assets, and local SVG assets" width="100%">
-
-| Media source | Version controlled | Branch-local | Third-party dependency | Best use |
-| --- | :---: | :---: | :---: | --- |
-| Remote generator | ❌ | ❌ | ✅ | Optional badges/novelty |
-| Local raster | ✅ | ✅ | ❌ | Photos, screenshots |
-| Local SVG | ✅ | ✅ | ❌ | Diagrams, banners, interface graphics |
-
-### External media remains a live demonstration
-
-The animated typing SVG near the top still comes from an external generator **on purpose**. Its failure would no longer remove the README's identity or navigation.
-
-### Media status
-
-<img src="./assets/media-status.svg" alt="Phase M5 media layer unlocked" width="100%">
+> M5 established the media layer. M6 reuses it as content inside richer HTML interfaces rather than creating duplicate assets.
 
 ---
 
-## LEVEL 11 — COLLAPSIBLE INTERFACE SYSTEM
+## LEVEL 11 — INLINE HTML SEMANTIC TOOLKIT
 
 `HTML` · `Markdown`
 
+HTML can add useful inline semantics that Markdown does not expose directly.
+
+### Keyboard input
+
+Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>.  
+Press <kbd>.</kbd> on a GitHub repository to open the web editor.
+
+```html
+Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>
+```
+
+### Subscript and superscript
+
+H<sub>2</sub>O  
+x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup>
+
+### Insertions and deletions
+
+<ins>Inserted content</ins>  
+<del>Deleted content</del>  
+<s>Stylistically no longer accurate</s>
+
+### Strong, emphasis, and code in HTML form
+
+<strong>Strong HTML</strong> · <em>emphasized HTML</em> · <code>inline HTML code</code>
+
+### Explicit line and thematic breaks
+
+Line one<br>
+Line two
+
+<hr>
+
+The point is not to replace Markdown equivalents. The point is to expose semantics Markdown does not provide or to compose them inside HTML structures.
+
+---
+
+## LEVEL 12 — DETAILS INTERFACE SYSTEM
+
+`HTML` · `Markdown` · `GitHub`
+
+GitHub's `<details>` support turns a README into a document with **progressive disclosure**.
+
+### Basic collapsed panel
+
 <details>
-<summary><strong>🧠 Open a Markdown container</strong></summary>
+<summary><strong>Open the basic disclosure panel</strong></summary>
 
-Inside `<details>`:
+This content is hidden until requested.
 
-- lists
-- **formatting**
-- `code`
-- [links](#level-04--hyperlink-routing-matrix)
-- local media
+- Markdown list
+- **Markdown formatting**
+- `inline code`
+- [internal navigation](#level-04--hyperlink-routing-matrix)
 
-<img src="./assets/media-card.svg" alt="Local media card inside a collapsible details element" width="70%">
+</details>
+
+Source:
+
+```html
+<details>
+<summary>Open panel</summary>
+
+Markdown content here.
+
+</details>
+```
+
+### Open by default
+
+<details open>
+<summary><strong>This panel begins expanded</strong></summary>
+
+The `open` attribute changes the initial disclosure state without JavaScript.
+
+```html
+<details open>
+```
+
+</details>
+
+### Rich panel: heading + task list + code + local media
+
+<details>
+<summary><strong>Open the rich-content panel</strong></summary>
+
+### Deployment checklist
+
+- [x] Heading
+- [x] Task list
+- [x] Code fence
+- [x] Repository-owned image
+
+```bash
+printf '%s\n' "Markdown is alive inside details"
+```
+
+<img src="./assets/media-card.svg" alt="Repository media card inside a details panel" width="70%">
+
+</details>
+
+### Nested disclosure tree
+
+<details>
+<summary><strong>Tier 1 — Interface root</strong></summary>
+
+Root-level explanation.
+
+<details>
+<summary><strong>Tier 2 — Advanced controls</strong></summary>
+
+- nested Markdown
+- `nested code`
+
+<details>
+<summary><strong>Tier 3 — Forbidden knowledge</strong></summary>
+
+The final panel contains **Markdown inside HTML inside Markdown**.
+
+</details>
+
+</details>
+
+</details>
+
+### Choose-your-path documentation
+
+<details>
+<summary><strong>Beginner path</strong></summary>
+
+Use headings, lists, links, images, and code blocks first.
 
 </details>
 
 <details>
-<summary><strong>🐉 Documentation Dragon</strong></summary>
+<summary><strong>Intermediate path</strong></summary>
 
-**HP:** `10,000`  
-**Weakness:** relative paths  
-**Special attack:** deleted assets
+Add tables, task lists, alerts, reference links, and local media.
 
-- [x] Version media
-- [x] Add fallback image
-- [x] Verify alt text
-- [ ] Stop adding lore
+</details>
+
+<details>
+<summary><strong>Advanced path</strong></summary>
+
+Add MathJax, Mermaid, parser-aware syntax, and carefully chosen HTML.
+
+</details>
+
+<details>
+<summary><strong>Forbidden path</strong></summary>
+
+Attempt to add JavaScript. GitHub's sanitizer enters the chat.
+
+</details>
+
+> [!IMPORTANT]
+> `<details>` is useful because it reduces visual load. If every section is collapsed, navigation becomes slower rather than clearer.
+
+---
+
+## LEVEL 13 — HTML TABLE & LAYOUT LAB
+
+`HTML` · `Markdown`
+
+GFM tables are concise. Raw HTML tables expose explicit document structure.
+
+<table>
+  <thead>
+    <tr>
+      <th>Layer</th>
+      <th>Native syntax</th>
+      <th>Best role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Markdown</td>
+      <td><code>| table |</code></td>
+      <td>Fast data tables</td>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td><code>&lt;table&gt;</code></td>
+      <td>Explicit table structure</td>
+    </tr>
+    <tr>
+      <td>Details</td>
+      <td><code>&lt;details&gt;</code></td>
+      <td>Progressive disclosure</td>
+    </tr>
+  </tbody>
+</table>
+
+### Cell composition
+
+<table>
+  <tr>
+    <th>Semantic element</th>
+    <th>Rendered example</th>
+  </tr>
+  <tr>
+    <td><code>&lt;kbd&gt;</code></td>
+    <td><kbd>Ctrl</kbd> + <kbd>K</kbd></td>
+  </tr>
+  <tr>
+    <td><code>&lt;sub&gt;</code> / <code>&lt;sup&gt;</code></td>
+    <td>H<sub>2</sub>O · x<sup>2</sup></td>
+  </tr>
+  <tr>
+    <td><code>&lt;ins&gt;</code> / <code>&lt;del&gt;</code></td>
+    <td><ins>new</ins> · <del>old</del></td>
+  </tr>
+</table>
+
+> [!NOTE]
+> HTML tables are not automatically "better" than GFM tables. They cost more source characters. Use them when explicit HTML structure itself is the point.
+
+---
+
+## LEVEL 14 — MARKDOWN / HTML BOUNDARY LAB
+
+`Markdown` · `HTML` · `Parser`
+
+The hybrid layer becomes interesting where the two parsers meet.
+
+### Reliable pattern: blank lines inside details
+
+```html
+<details>
+<summary>Summary</summary>
+
+### Markdown heading
+
+- Markdown list
+- **Markdown emphasis**
+
+</details>
+```
+
+GitHub explicitly supports Markdown content inside `<details>` blocks.
+
+### HTML owns HTML table interiors
+
+Inside a raw HTML `<table>`, write actual HTML cells rather than assuming arbitrary Markdown block syntax will be reparsed exactly as if it were outside the HTML block.
+
+```html
+<table>
+  <tr>
+    <td><strong>HTML-owned cell</strong></td>
+  </tr>
+</table>
+```
+
+### Inline composition is simpler
+
+Markdown can surround inline HTML:
+
+**Markdown strong around H<sub>2</sub>O and <kbd>keys</kbd>.**
+
+HTML can also provide inline semantics next to Markdown-native syntax without becoming a layout framework.
+
+### Boundary rule
+
+```text
+Markdown owns document structure by default.
+HTML enters only where it adds a missing semantic or interaction.
+When an HTML block owns a region, make that ownership explicit.
+```
+
+---
+
+## LEVEL 15 — SANITIZATION BOUNDARY
+
+`GitHub` · `HTML` · `Security`
+
+GitHub does not treat README HTML as unrestricted webpage HTML. The rendered HTML passes through sanitization.
+
+### Code that should not be treated as README infrastructure
+
+```html
+<script>alert('nope')</script>
+
+<div style="position:fixed;inset:0">
+  Inline styles are not a dependable README UI system.
+</div>
+
+<div class="my-app" id="root">
+  CSS/JS application hooks are not the README model.
+</div>
+```
+
+GitHub's markup pipeline documents aggressive sanitization, including removal of dangerous tags such as `<script>`, inline styles, and `class` / `id` attributes.
+
+### What to use instead
+
+| Goal | README-safe direction |
+| --- | --- |
+| Interaction | `<details>` / `<summary>` |
+| Theme-aware image | `<picture>` / `<source>` |
+| Keyboard notation | `<kbd>` |
+| Sub/superscript | `<sub>` / `<sup>` |
+| Insert/delete semantics | `<ins>` / `<del>` / `<s>` |
+| Layout data | Markdown table or HTML `<table>` |
+| Stable custom destination | named `<a>` anchor |
+| Styling | GitHub's renderer + carefully designed assets |
+| Application behavior | Build an actual webpage/app instead |
+
+> [!CAUTION]
+> The sanitizer is not a limitation to work around. It is a security boundary. A README should not become an executable application surface.
+
+---
+
+## LEVEL 16 — HYBRID INTERFACE BOSS
+
+`Markdown` · `GFM` · `GitHub` · `HTML` · `Local Asset`
+
+<details open>
+<summary><strong>M6 SYSTEM CONSOLE — expanded by default</strong></summary>
+
+### Interface status
+
+<table>
+  <tr>
+    <th>System</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>Semantic inline HTML</td>
+    <td><strong>ONLINE</strong></td>
+  </tr>
+  <tr>
+    <td>Disclosure controls</td>
+    <td><strong>ONLINE</strong></td>
+  </tr>
+  <tr>
+    <td>Local media</td>
+    <td><strong>ONLINE</strong></td>
+  </tr>
+  <tr>
+    <td>JavaScript runtime</td>
+    <td><del>ABSENT</del> BY DESIGN</td>
+  </tr>
+</table>
+
+Press <kbd>Enter</kbd> metaphorically. There is no JavaScript here.
+
+<details>
+<summary><strong>Inspect nested subsystem</strong></summary>
+
+- [x] Markdown inside details
+- [x] HTML table inside details
+- [x] Semantic inline tags
+- [x] Repository-owned media
+
+<img src="./assets/media-status.svg" alt="Media layer status graphic inside nested M6 interface" width="100%">
+
+</details>
 
 </details>
 
@@ -570,7 +807,7 @@ Inside `<details>`:
 
 # ACT V — ADVANCED RENDERING
 
-## LEVEL 12 — MATHEMATICAL SUPERIORITY
+## LEVEL 17 — MATHEMATICAL SUPERIORITY
 
 `GitHub` · `Math`
 
@@ -592,36 +829,35 @@ Inline: $`E = mc^2`$
 
 ---
 
-## LEVEL 13 — MERMAID SUMMONING CIRCLE
+## LEVEL 18 — MERMAID SUMMONING CIRCLE
 
 `GitHub` · `Mermaid`
 
 ```mermaid
 flowchart TD
-    A[README source] --> B[Relative media path]
-    B --> C{Theme?}
-    C -- Light --> D[hero-light.svg]
-    C -- Dark --> E[hero-dark.svg]
-    D --> F[GitHub render]
-    E --> F
-    F --> G[Reader]
+    A[Markdown] --> B{Need missing semantic?}
+    B -- No --> C[Stay in Markdown]
+    B -- Yes --> D[Use supported HTML]
+    D --> E[GitHub sanitizer]
+    E --> F[Rendered README]
 ```
 
 ```mermaid
 sequenceDiagram
     actor Reader
     participant README
-    participant Assets
-    Reader->>README: Open branch
-    README->>Assets: Resolve ./assets/... paths
-    Assets-->>Reader: Render local media
+    participant Details
+    Reader->>README: Open document
+    README->>Details: Render collapsed content
+    Reader->>Details: Expand when needed
+    Details-->>Reader: Reveal Markdown + HTML content
 ```
 
 ---
 
 # ACT VI — PARSER & SOURCE LAB
 
-## LEVEL 14 — ESCAPE HATCH
+## LEVEL 19 — ESCAPE HATCH
 
 `Markdown` · `Source-aware`
 
@@ -643,7 +879,7 @@ sequenceDiagram
 
 ---
 
-## LEVEL 15 — BACKTICK PARADOX
+## LEVEL 20 — BACKTICK PARADOX
 
 `Markdown` · `Parser`
 
@@ -659,7 +895,7 @@ console.log("Three backticks can live inside four.");
 
 ---
 
-## LEVEL 16 — DELIMITER COLLISION LAB
+## LEVEL 21 — DELIMITER COLLISION LAB
 
 `Markdown` · `GFM`
 
@@ -673,7 +909,7 @@ __alternate strong__
 
 ---
 
-## LEVEL 17 — ENTITY REACTOR
+## LEVEL 22 — ENTITY REACTOR
 
 `Markdown` · `HTML`
 
@@ -691,7 +927,7 @@ __alternate strong__
 
 ---
 
-## LEVEL 18 — WHITESPACE & RECURSION CHAMBER
+## LEVEL 23 — WHITESPACE & RECURSION CHAMBER
 
 `Markdown` · `Parser`
 
@@ -703,7 +939,8 @@ __alternate strong__
 
 <!--
 Future maintainers:
-Nested fences, reference definitions, relative media paths, and theme source order are intentional.
+Nested fences, reference definitions, relative media paths, details blank lines,
+and HTML sanitizer demonstrations are intentional.
 -->
 
 ---
@@ -713,27 +950,27 @@ Nested fences, reference definitions, relative media paths, and theme source ord
 ## 🏅 ACHIEVEMENTS UNLOCKED
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-LINK_CARTOGRAPHER-fbbf24?style=for-the-badge" alt="Achievement Link Cartographer">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-MEDIA_ENGINEER-06b6d4?style=for-the-badge" alt="Achievement Media Engineer">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-THEME_SHIFTER-8b5cf6?style=for-the-badge" alt="Achievement Theme Shifter">
-  <img src="https://img.shields.io/badge/ACHIEVEMENT-ALT_TEXT_ADULT-0891b2?style=for-the-badge" alt="Achievement Alt Text Adult">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-HYBRID_ENGINEER-fbbf24?style=for-the-badge" alt="Achievement Hybrid Engineer">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-DISCLOSURE_ARCHITECT-06b6d4?style=for-the-badge" alt="Achievement Disclosure Architect">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-BOUNDARY_MAPPER-8b5cf6?style=for-the-badge" alt="Achievement Boundary Mapper">
+  <img src="https://img.shields.io/badge/ACHIEVEMENT-SANITIZER_SURVIVOR-0891b2?style=for-the-badge" alt="Achievement Sanitizer Survivor">
 </p>
 
 | Achievement | Requirement | Status |
 | --- | --- | :---: |
 | **The Emphasizer** | Nested emphasis | ✅ |
 | **Block Architect** | Compose nested blocks | ✅ |
-| **Table Architect** | Alignment + escaped pipes | ✅ |
+| **Table Architect** | GFM alignment + escaped pipes | ✅ |
 | **Taskmaster** | Multi-level task hierarchy | ✅ |
 | **Parser Tamer** | Escapes + variable fences | ✅ |
 | **Link Cartographer** | Multiple link grammars | ✅ |
-| **Branch Navigator** | Relative repository paths | ✅ |
-| **Media Engineer** | Repository-owned media architecture | ✅ |
-| **Theme Shifter** | Live light/dark `<picture>` sources | ✅ |
-| **Scale Smith** | One SVG at multiple display widths | ✅ |
-| **Portal Builder** | Clickable local image | ✅ |
-| **Alt Text Adult** | Informative vs decorative semantics | ✅ |
-| **Fallback Planner** | `<picture>` fallback image | ✅ |
+| **Media Engineer** | Repository-owned media | ✅ |
+| **Hybrid Engineer** | Compose Markdown and supported HTML intentionally | ✅ |
+| **Disclosure Architect** | Basic, open, rich, and nested details panels | ✅ |
+| **Semantic Mechanic** | Use kbd/sub/sup/ins/del/s meaningfully | ✅ |
+| **HTML Table Smith** | Render explicit HTML table structure | ✅ |
+| **Boundary Mapper** | Document Markdown/HTML parser ownership | ✅ |
+| **Sanitizer Survivor** | Respect GitHub's HTML security boundary | ✅ |
 | **Master of Restraint** | Stop before adding too much | ❌ |
 
 ---
@@ -747,21 +984,22 @@ Typography     ████████████████████ 100%
 Lists          ████████████████████ 100%
 Tables         ████████████████████ 100%
 Tasks          ████████████████████ 100%
-Quotes         ████████████████████ 100%
 Links          ████████████████████ 100%
 Local Media    ████████████████████ 100%
-Theme Media    ████████████████████ 100%
-Alt Strategy   ████████████████████ 100%
+HTML Semantics ████████████████████ 100%
+Details UI     ████████████████████ 100%
+HTML Tables    ████████████████████ 100%
+Sanitization   ████████████████████ 100%
 Parser Tricks  ███████████████████░  95%
 Animation      ████████████████░░░░  80%
 Restraint      ██░░░░░░░░░░░░░░░░░░  10%
-Raw Power      █████████████████░░░  M5
+Raw Power      ██████████████████░░  M6
 ```
 
 > [!WARNING]
-> A README with beautiful images but brittle third-party dependencies is still fragile documentation.
+> HTML power in a README comes from **semantics and composition**, not from trying to smuggle a web application through the sanitizer.
 >
-> **M5 makes media part of the repository, not decoration rented from the internet.**
+> **M6 makes the HTML boundary itself part of the showcase.**
 
 ---
 
@@ -772,21 +1010,51 @@ Raw Power      █████████████████░░░  M5
 *italic* **bold** ~~strike~~ `code`
 
 [inline](https://example.com)
-[full reference][docs]
+[reference][docs]
 [relative](./README.md)
 [same document](#final-boss)
 
 ![Local image](./assets/image.svg)
-[![Clickable image](./assets/image.svg)](#target)
+
+<kbd>Ctrl</kbd> + <kbd>K</kbd>
+H<sub>2</sub>O
+x<sup>2</sup>
+<ins>inserted</ins>
+<del>deleted</del>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
-  <img src="./assets/light.svg" alt="Useful description" width="100%">
+  <img src="./assets/light.svg" alt="Description" width="100%">
 </picture>
 
-<img src="./assets/image.svg" alt="Useful description" width="50%">
-<img src="./assets/decorative.svg" alt="">
+<details>
+<summary>Collapsed panel</summary>
+
+### Markdown works here
+
+- list
+- **formatting**
+
+</details>
+
+<details open>
+<summary>Open by default</summary>
+
+Visible initially.
+
+</details>
+
+<table>
+  <tr>
+    <th>HTML</th>
+    <th>Table</th>
+  </tr>
+  <tr>
+    <td><kbd>Ctrl</kbd></td>
+    <td>H<sub>2</sub>O</td>
+  </tr>
+</table>
 
 - [x] Complete
 - [ ] Incomplete
@@ -794,12 +1062,6 @@ Raw Power      █████████████████░░░  M5
 | Left | Center | Right |
 | :--- | :---: | ---: |
 | alpha \| beta | `code` | 100 |
-
-> Blockquote
->
-> ```text
-> code inside quote
-> ```
 
 ``code containing a `backtick` ``
 ````
@@ -812,33 +1074,34 @@ Raw Power      █████████████████░░░  M5
 
 | Crime | Consequence |
 | --- | --- |
-| Critical visual hosted only by a remote generator | Third-party outage removes identity |
-| Absolute repository image URL | Branch previews become brittle |
-| Missing fallback `<img>` in `<picture>` | Fragile media selection |
-| Width baked into multiple exported SVG copies | Needless duplication |
-| Describing decorative pixels to screen readers | Accessibility noise |
-| Empty alt text on informative diagrams | Information disappears for nonvisual readers |
-| Deleting `assets/` files without searching references | Broken README media |
-| Giant fixed-width graphics | Mobile readability suffers |
-| Missing reference definitions | Links silently degrade |
+| Treating README HTML like unrestricted webpage HTML | Sanitizer removes the fantasy |
+| Depending on `<script>` | No executable README application |
+| Depending on inline CSS/class/id hooks | Styling assumptions break |
+| Collapsing every section | Readers click more than they read |
+| Vague `<summary>` labels | Hidden content becomes hard to discover |
+| Missing blank lines in hybrid blocks | Markdown parsing becomes fragile |
+| Replacing simple Markdown with verbose HTML | Source readability degrades |
+| Huge HTML tables | Mobile readability suffers |
+| Deleted local asset | Media references break |
 | Aggressive formatter rewrites | Parser demonstrations break |
 
 ---
 
 ## 🧪 README QUALITY TEST
 
-- [ ] `hero-light.svg` renders in a light theme.
-- [ ] `hero-dark.svg` renders in a dark theme.
-- [ ] Fallback `<img>` remains valid.
-- [ ] Every local media path resolves on the current branch.
-- [ ] Informative media has meaningful alt text.
-- [ ] Decorative media uses empty alt text.
-- [ ] The same SVG remains legible at 100% and 50% width.
-- [ ] Clickable media lands on the intended destination.
-- [ ] External generators are noncritical.
+- [ ] Basic `<details>` opens and closes.
+- [ ] `<details open>` begins expanded.
+- [ ] Nested details remain independently usable.
+- [ ] Markdown headings/lists/code render inside details.
+- [ ] Local media renders inside details.
+- [ ] HTML tables retain row/cell structure.
+- [ ] `<kbd>`, `<sub>`, `<sup>`, `<ins>`, `<del>`, and `<s>` render meaningfully.
+- [ ] Theme-aware `<picture>` still switches correctly.
+- [ ] Relative media paths resolve on the branch.
+- [ ] No critical behavior depends on script/style/class/id hooks.
+- [ ] Sanitization examples remain code examples, not infrastructure.
 - [ ] Internal fragments still land correctly.
 - [ ] Reference definitions still resolve.
-- [ ] Tables keep consistent columns.
 - [ ] Nested fences remain intact.
 - [ ] Mobile layout remains readable.
 - [ ] README is previewed on GitHub.
@@ -850,8 +1113,11 @@ Raw Power      █████████████████░░░  M5
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-light.svg" alt="Markdown Final Form final media banner" width="100%">
+  <img src="./assets/hero-light.svg" alt="Markdown Final Form M6 final banner" width="100%">
 </picture>
+
+<details open>
+<summary><strong>FINAL FORM — HYBRID SYSTEM MAP</strong></summary>
 
 ```text
 README
@@ -859,14 +1125,14 @@ README
  ├── GFM
  ├── LINKS
  ├── LOCAL MEDIA
- │    ├── RELATIVE PATHS
- │    ├── SVG
- │    ├── THEME PAIRS
- │    ├── DISPLAY SIZING
- │    ├── CLICKABLE IMAGES
- │    ├── ALT SEMANTICS
- │    └── FALLBACKS
  ├── HTML HYBRID
+ │    ├── SEMANTIC INLINE TAGS
+ │    ├── PICTURE / SOURCE / IMG
+ │    ├── DETAILS / SUMMARY
+ │    ├── NESTED DISCLOSURE
+ │    ├── HTML TABLES
+ │    ├── PARSER BOUNDARIES
+ │    └── SANITIZATION
  ├── MATH
  ├── MERMAID
  └── PARSER LAB
@@ -875,21 +1141,39 @@ README
 FINAL FORM
 ```
 
+<details>
+<summary><strong>Open the nested final-boss subsystem</strong></summary>
+
+<table>
+  <tr><th>Capability</th><th>Status</th></tr>
+  <tr><td>Markdown structure</td><td><strong>ONLINE</strong></td></tr>
+  <tr><td>HTML semantics</td><td><strong>ONLINE</strong></td></tr>
+  <tr><td>Progressive disclosure</td><td><strong>ONLINE</strong></td></tr>
+  <tr><td>Local media</td><td><strong>ONLINE</strong></td></tr>
+  <tr><td>Arbitrary JavaScript</td><td><del>REJECTED</del></td></tr>
+</table>
+
+Press <kbd>Esc</kbd> to escape nothing. This is still a README.
+
+</details>
+
+</details>
+
 <div align="center">
 
 <p>
-  The source owns the structure.<br>
-  The repository owns the media.<br>
-  The renderer chooses the presentation.<br>
-  External services are now optional extras.
+  Markdown owns the document.<br>
+  HTML fills deliberate gaps.<br>
+  The sanitizer defines the boundary.<br>
+  Progressive disclosure keeps maximum power navigable.
 </p>
 
 <a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/READ-THE_MARKDOWN_GUIDE-7c3aed?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Read the Markdown Guide"></a>
-<a href="https://docs.github.com/en/get-started/writing-on-github"><img src="https://img.shields.io/badge/EXPLORE-GITHUB_DOCS-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore GitHub Docs"></a>
+<a href="https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections"><img src="https://img.shields.io/badge/READ-COLLAPSED_SECTION_DOCS-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Read GitHub collapsed section documentation"></a>
 <a href="#"><img src="https://img.shields.io/badge/RETURN-TO_THE_TOP-0891b2?style=for-the-badge" alt="Return to top"></a>
 
 <h2>Markdown: Final Form.</h2>
-<h3>Media layer unlocked.</h3>
+<h3>HTML hybrid layer unlocked.</h3>
 
 </div>
 
@@ -903,5 +1187,5 @@ FINAL FORM
 
 [^plain-text]: Markdown remains readable as plain text while adding lightweight structural syntax.
 [^relative-links]: Relative repository paths keep files and media branch-aware.
-[^github-context]: GitHub conversations and repository Markdown files have different automatic-reference behavior.
-[^external-media]: External image generators can be useful demonstrations, but repository-owned critical media is more reliable.
+[^details]: GitHub documents `<details>`, `<summary>`, Markdown content inside details, and the optional `open` attribute for initially expanded sections.
+[^sanitization]: GitHub's markup pipeline sanitizes rendered HTML and documents removal of dangerous tags such as scripts, inline styles, and class/id attributes.
