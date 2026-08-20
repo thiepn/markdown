@@ -1,9 +1,11 @@
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                         YOU FOUND THE SOURCE CODE                            ║
+║                          LEVEL 00: SOURCE LAYER                              ║
 ║                                                                              ║
-║  Congratulations. You have unlocked the secret Markdown developer ending.   ║
-║  Achievement: "Viewed Raw Instead of Pretending to Understand the README"    ║
+║  Achievement unlocked: RAW SOURCE EXPLORER                                  ║
+║  You inspected README.md before GitHub rendered it.                         ║
+║                                                                              ║
+║  Rendering stack: Markdown → GFM → GitHub → HTML → Advanced Renderers       ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 
@@ -12,43 +14,42 @@
 <a href="https://www.markdownguide.org/">
   <img
     width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&amp;height=230&amp;color=gradient&amp;text=YOU.%20NEED.%20MARKDOWN.&amp;fontSize=46&amp;fontColor=ffffff&amp;animation=twinkling&amp;fontAlignY=36&amp;desc=Plain%20text%20has%20entered%20its%20final%20form.&amp;descSize=18&amp;descAlignY=57"
-    alt="You need Markdown — plain text has entered its final form"
+    src="https://capsule-render.vercel.app/api?type=waving&amp;height=230&amp;color=gradient&amp;text=MARKDOWN%3A%20FINAL%20FORM&amp;fontSize=46&amp;fontColor=ffffff&amp;animation=twinkling&amp;fontAlignY=36&amp;desc=One%20README.%20Every%20layer%20of%20power.&amp;descSize=18&amp;descAlignY=57"
+    alt="Markdown Final Form — one README, every layer of power"
   />
 </a>
 
 <a href="https://readme-typing-svg.demolab.com/demo/">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=23&amp;pause=850&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=60&amp;lines=Plain+text%2C+but+make+it+dangerous.;Headers.+Tables.+Badges.+Diagrams.+Chaos.;One+README+to+flex+them+all.;Stop+writing+sad+documentation."
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=23&amp;pause=850&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;random=false&amp;width=900&amp;height=60&amp;lines=Plain+text%2C+but+make+it+dangerous.;Markdown.+GFM.+GitHub.+HTML.+Renderers.;One+README+to+flex+them+all.;Stop+writing+sad+documentation."
     alt="Animated typing introduction"
   />
 </a>
 
 <br />
 
-<a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/FORMAT-MARKDOWN-111111?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Markdown" /></a>
-<a href="https://github.github.com/gfm/"><img src="https://img.shields.io/badge/GITHUB-FLAVORED-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub Flavored Markdown" /></a>
-<a href="#-the-chaos-index"><img src="https://img.shields.io/badge/CHAOS-100%25-ff1493?style=for-the-badge" alt="Chaos 100 percent" /></a>
-<a href="#-final-boss"><img src="https://img.shields.io/badge/README-OVERENGINEERED-00bfff?style=for-the-badge" alt="README overengineered" /></a>
-<a href="#-the-checklist-of-destiny"><img src="https://img.shields.io/badge/EXCUSES-DEPRECATED-red?style=for-the-badge" alt="Excuses deprecated" /></a>
+<a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/LAYER-MARKDOWN-111111?style=for-the-badge&amp;logo=markdown&amp;logoColor=white" alt="Markdown layer" /></a>
+<a href="https://github.github.com/gfm/"><img src="https://img.shields.io/badge/LAYER-GFM-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub Flavored Markdown layer" /></a>
+<a href="#act-v--advanced-rendering"><img src="https://img.shields.io/badge/RENDERING-ADVANCED-00bfff?style=for-the-badge" alt="Advanced rendering" /></a>
+<a href="#the-chaos-index"><img src="https://img.shields.io/badge/CHAOS-CONTROLLED-ff1493?style=for-the-badge" alt="Controlled chaos" /></a>
+<a href="#final-boss"><img src="https://img.shields.io/badge/README-OVERENGINEERED-F43F5E?style=for-the-badge" alt="README overengineered" /></a>
 
 <br />
 
-<h3>🚨 This is not a README.</h3>
+<h3>🚨 This is not merely a README.</h3>
+<h3>This is a <strong>layer-by-layer Markdown rendering laboratory</strong>.</h3>
 
-<h3>This is a <strong>hostile takeover of plain text</strong>.</h3>
-
-<sub>Built with Markdown, HTML fragments, questionable restraint, and absolutely no JavaScript.</sub>
+<sub>Built with Markdown, GitHub Flavored Markdown, GitHub rendering extensions, HTML fragments, external SVGs, and absolutely no JavaScript.</sub>
 
 <br /><br />
 
-<a href="#-level-01-text-with-attitude"><strong>⚡ Start the tutorial</strong></a>
+<a href="#act-i--markdown-core"><strong>⚡ Enter Markdown Core</strong></a>
 &nbsp;•&nbsp;
-<a href="#-level-08-code-block-alchemy"><strong>🧪 Open the laboratory</strong></a>
+<a href="#act-iii--github-extensions"><strong>🧪 Open GitHub Extensions</strong></a>
 &nbsp;•&nbsp;
-<a href="#-level-12-mermaid-summoning-circle"><strong>🗺️ View the power map</strong></a>
+<a href="#act-v--advanced-rendering"><strong>🗺️ Enter Advanced Rendering</strong></a>
 &nbsp;•&nbsp;
-<a href="#-final-boss"><strong>👑 Fight the final boss</strong></a>
+<a href="#final-boss"><strong>👑 Fight the Final Boss</strong></a>
 
 </div>
 
@@ -59,81 +60,90 @@
 > Remain calm. Put down the `.docx`. Step away from the formatting toolbar.
 
 > [!IMPORTANT]
-> Your `README.md` is often the first thing people inspect.  
-> It should explain the project clearly—but clarity is allowed to arrive wearing sunglasses.
+> A README should explain a project clearly before it attempts visual domination.  
+> This repository deliberately pushes presentation far beyond normal documentation—but the structure now makes every trick traceable.
 
 ---
 
-## 📡 Transmission from the Markdown Dimension
+## 🧭 README POWER MAP
 
-> _“I’ll just write plain text,”_ you said.
->
-> **Incorrect.**
->
-> Welcome to **GitHub Flavored Markdown**, where:
->
-> - `#` becomes architecture,
-> - `>` becomes authority,
-> - backticks become credibility,
-> - and three suspiciously placed hyphens become a horizontal empire.
+This document is organized by **rendering layer**, not by random feature order. Each act moves one level farther away from plain text.
 
-```txt
-BEFORE: This project does stuff.
+| Act | Rendering layer | Current demonstrations | Jump |
+| :---: | --- | --- | :---: |
+| `00` | [Source Layer](#level-00--source-layer) | Hidden comments, raw-source-only content | `RAW` |
+| `I` | [Markdown Core](#act-i--markdown-core) | Typography, hierarchy, lists, quotes, links | `#` |
+| `II` | [GitHub Flavored Markdown](#act-ii--github-flavored-markdown) | Tables, task lists, strikethrough | `GFM` |
+| `III` | [GitHub Extensions](#act-iii--github-extensions) | Alerts, code highlighting, footnotes | `GH` |
+| `IV` | [HTML Hybrid](#act-iv--html-hybrid) | Inline HTML, media control, collapsible interfaces | `<>` |
+| `V` | [Advanced Rendering](#act-v--advanced-rendering) | MathJax-style math, Mermaid diagrams | `∞` |
+| `VI` | [Parser & Source Lab](#act-vi--parser--source-lab) | Escaping, recursion, hidden knowledge | `\` |
+| `VII` | [Endgame & Reference](#act-vii--endgame--reference) | Achievements, cheat sheet, QA | `✓` |
+| `∞` | [Final Boss](#final-boss) | Combined mechanics | `👑` |
 
-AFTER:  A navigable, illustrated, collapsible,
-        syntax-highlighted documentation experience.
-```
+### Capability classification
 
-<p align="center">
-  <strong>Your repository is already being judged.</strong>
-  <br />
-  <code>README.md</code> is your opening argument.
-</p>
+Every major section now belongs to one or more explicit layers:
+
+`Markdown` · `GFM` · `GitHub` · `HTML` · `External Asset`
+
+This distinction matters: not everything rendered inside a GitHub README is technically Markdown.
 
 ---
 
-## 🧭 Navigation Matrix
-
-| Sector | Capability | Teleport |
-| :---: | --- | :---: |
-| `01` | Text styling | [Enter](#-level-01-text-with-attitude) |
-| `02` | Lists and nesting | [Enter](#-level-02-list-based-domination) |
-| `03` | Tables | [Enter](#-level-03-table-technology) |
-| `04` | Task lists | [Enter](#-level-04-the-checklist-of-destiny) |
-| `05` | Headers | [Enter](#-level-05-header-hierarchy) |
-| `06` | Quotes and alerts | [Enter](#-level-06-quotation-fortress) |
-| `07` | Keyboard keys and small text | [Enter](#-level-07-tiny-text-big-ego) |
-| `08` | Code blocks and diffs | [Enter](#-level-08-code-block-alchemy) |
-| `09` | Links and images | [Enter](#-level-09-hyperlink-hyperspace) |
-| `10` | Collapsible content | [Enter](#-level-10-collapsible-secret-chambers) |
-| `11` | Mathematics | [Enter](#-level-11-mathematical-superiority) |
-| `12` | Mermaid diagrams | [Enter](#-level-12-mermaid-summoning-circle) |
-| `13` | Footnotes and hidden comments | [Enter](#-level-13-forbidden-knowledge) |
-| `∞` | Final boss | [Enter](#-final-boss) |
-
----
-
-# 🧬 MARKDOWN: THE FULL EVOLUTION
+## 🧬 THE RENDERING STACK
 
 ```mermaid
 flowchart LR
-    A["sad.txt"] --> B["README.md"]
-    B --> C["Readable"]
-    C --> D["Structured"]
-    D --> E["Beautiful"]
-    E --> F["Suspiciously Powerful"]
-    F --> G["⭐ Stars"]
+    A["raw README.md"] --> B["Markdown Core"]
+    B --> C["GFM"]
+    C --> D["GitHub Extensions"]
+    D --> E["HTML Hybrid"]
+    E --> F["Advanced Renderers"]
+    F --> G["FINAL FORM"]
 
-    A:::sad
+    A:::raw
     G:::power
 
-    classDef sad fill:#3b3b3b,color:#ffffff,stroke:#777777
+    classDef raw fill:#3b3b3b,color:#ffffff,stroke:#777777
     classDef power fill:#7c3aed,color:#ffffff,stroke:#c4b5fd,stroke-width:3px
 ```
 
 ---
 
-## 🎭 LEVEL 01: TEXT WITH ATTITUDE
+# LEVEL 00 — SOURCE LAYER
+
+`HTML` · `Source-only`
+
+Some README behavior exists only **before** GitHub renders the document.
+
+The giant achievement at the top of this file is hidden inside an HTML comment. Rendered-view readers never see it; raw-source readers do.
+
+```html
+<!--
+This exists in README.md...
+but disappears when GitHub renders it.
+-->
+```
+
+<!--
+M1 architecture note:
+The old flat 13-level sequence was deliberately replaced by a rendering-stack model.
+Future phases should extend the correct act instead of appending unrelated sections.
+-->
+
+> [!NOTE]
+> The source view and the rendered view are now intentionally treated as two different surfaces of the same README.
+
+---
+
+# ACT I — MARKDOWN CORE
+
+> The portable foundation: structure and inline syntax that remain useful even without GitHub-specific rendering.
+
+## LEVEL 01 — TYPOGRAPHY & INLINE POWER
+
+`Markdown` · `HTML`
 
 Markdown gives ordinary words several increasingly dramatic forms.
 
@@ -156,12 +166,26 @@ Markdown gives ordinary words several increasingly dramatic forms.
 
 <ins>This sentence was added after the README gained self-awareness.</ins>
 
+### Keyboard and scale
+
+Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> to paste without formatting.
+
+Press <kbd>.</kbd> on a GitHub repository to open it in the web editor.
+
+<sub>Tiny text of humility.</sub>  
+Normal text of confidence.  
+<sup>Superscript of unreasonable superiority.</sup>
+
 > [!TIP]
-> Use emphasis to create hierarchy—not to make every sentence fight for the throne.
+> Emphasis creates hierarchy. If everything is emphasized, nothing is.
 
 ---
 
-## 🪆 LEVEL 02: LIST-BASED DOMINATION
+## LEVEL 02 — STRUCTURE, LISTS & HIERARCHY
+
+`Markdown`
+
+### List-based domination
 
 - Normal point
 - **Strong point**
@@ -197,9 +221,72 @@ Markdown gives ordinary words several increasingly dramatic forms.
    - Test every link
    - Pretend this was always the plan
 
+### Header hierarchy laboratory
+
+<details>
+<summary><strong>🏛️ Open the six-level heading ladder</strong></summary>
+
+# Header 1 — The Emperor
+
+## Header 2 — The Chancellor
+
+### Header 3 — The Strategist
+
+#### Header 4 — The Specialist
+
+##### Header 5 — The Intern with Production Access
+
+###### Header 6 — The Fine Print Nobody Read
+
+</details>
+
+> [!NOTE]
+> The demonstration is collapsed so the README's main architecture remains visually dominant even while all six rendered heading sizes remain available.
+
+### Quotation fortress
+
+> “Markdown is just plain text,” they whispered.
+>
+> > “Then why does it have tables?” asked the apprentice.
+> >
+> > > “And diagrams?” asked the architect.
+> > >
+> > > > “And mathematical notation?” asked the economist.
+> > > >
+> > > > > The room became silent.
+
 ---
 
-## 🧱 LEVEL 03: TABLE TECHNOLOGY
+## LEVEL 03 — LINKS & NAVIGATION
+
+`Markdown` · `HTML`
+
+### Ordinary links
+
+- [Learn Markdown](https://www.markdownguide.org/)
+- [Read GitHub’s formatting documentation](https://docs.github.com/en/get-started/writing-on-github)
+- [Study the GitHub Flavored Markdown specification](https://github.github.com/gfm/)
+- [Generate badges with Shields.io](https://shields.io/)
+- [Build an animated typing SVG](https://readme-typing-svg.demolab.com/demo/)
+- [Return to the top](#)
+
+### Links with hover titles
+
+[Hover over this link before clicking](https://www.markdownguide.org/ "You have discovered tooltip technology.")
+
+### Navigation principle
+
+The README now uses **act-level navigation first** and **feature-level headings second**. This prevents the table of contents from becoming a 20-row wall as later phases add more renderers.
+
+---
+
+# ACT II — GITHUB FLAVORED MARKDOWN
+
+> GFM adds practical extensions that make Markdown much more useful for software documentation.
+
+## LEVEL 04 — TABLE TECHNOLOGY
+
+`GFM`
 
 | Syntax | Ability unlocked | Power | Recommended usage |
 | :---: | --- | :---: | --- |
@@ -220,7 +307,9 @@ Markdown gives ordinary words several increasingly dramatic forms.
 
 ---
 
-## ✅ LEVEL 04: THE CHECKLIST OF DESTINY
+## LEVEL 05 — TASK-LIST SKILL TREE
+
+`GFM`
 
 - [x] Admit Markdown is useful
 - [x] Stop treating documentation as an afterthought
@@ -244,38 +333,13 @@ Markdown gives ordinary words several increasingly dramatic forms.
 
 ---
 
-## 🏛️ LEVEL 05: HEADER HIERARCHY
+# ACT III — GITHUB EXTENSIONS
 
-# Header 1 — The Emperor
+> GitHub adds behavior beyond baseline GFM: alerts, syntax highlighting, footnotes, rich rendering, and repository-aware presentation.
 
-## Header 2 — The Chancellor
+## LEVEL 06 — ALERT COMMAND CENTER
 
-### Header 3 — The Strategist
-
-#### Header 4 — The Specialist
-
-##### Header 5 — The Intern with Production Access
-
-###### Header 6 — The Fine Print Nobody Read
-
-> [!NOTE]
-> Headers are not merely bigger text. They define document structure, navigation, and automatically generated anchors.
-
----
-
-## 🗣️ LEVEL 06: QUOTATION FORTRESS
-
-> “Markdown is just plain text,” they whispered.
->
-> > “Then why does it have tables?” asked the apprentice.
-> >
-> > > “And diagrams?” asked the architect.
-> > >
-> > > > “And mathematical notation?” asked the economist.
-> > > >
-> > > > > The room became silent.
-
-### GitHub alert collection
+`GitHub`
 
 > [!NOTE]
 > Useful information for readers who skim.
@@ -294,31 +358,9 @@ Markdown gives ordinary words several increasingly dramatic forms.
 
 ---
 
-## ⌨️ LEVEL 07: TINY TEXT, BIG EGO
+## LEVEL 07 — CODE-BLOCK ALCHEMY
 
-Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> to paste without formatting.
-
-Press <kbd>.</kbd> on a GitHub repository to open it in the web editor.
-
-Use <kbd>Ctrl</kbd> + <kbd>F</kbd> to search this masterpiece for the word `chaos`.
-
-<sub>Tiny text of humility.</sub>
-
-Normal text of confidence.
-
-<sup>Superscript of unreasonable superiority.</sup>
-
-### Status transmission
-
-`$ echo "learn markdown"`  
-`$ git add README.md`  
-`$ git commit -m "docs: achieve enlightenment"`  
-`$ git push origin main`  
-`> repository aura increased successfully`
-
----
-
-## 🧪 LEVEL 08: CODE-BLOCK ALCHEMY
+`Markdown` · `GitHub`
 
 ### JavaScript
 
@@ -412,22 +454,35 @@ echo "Deploying unnecessary levels of style..."
 + Documentation has arrived wearing a cape.
 ```
 
+### Status transmission
+
+`$ echo "learn markdown"`  
+`$ git add README.md`  
+`$ git commit -m "docs: achieve enlightenment"`  
+`$ git push origin main`  
+`> repository aura increased successfully`
+
 ---
 
-## 🌌 LEVEL 09: HYPERLINK HYPERSPACE
+## LEVEL 08 — FOOTNOTES & GITHUB KNOWLEDGE
 
-### Ordinary links
+`GitHub`
 
-- [Learn Markdown](https://www.markdownguide.org/)
-- [Read GitHub’s formatting documentation](https://docs.github.com/en/get-started/writing-on-github)
-- [Study the GitHub Flavored Markdown specification](https://github.github.com/gfm/)
-- [Generate badges with Shields.io](https://shields.io/)
-- [Build an animated typing SVG](https://readme-typing-svg.demolab.com/demo/)
-- [Return to the top](#)
+Markdown looks simple because the complexity is hiding politely.[^plain-text]
 
-### Links with hover titles
+GitHub adds features beyond basic Markdown, including task lists, alerts, diagrams, and mathematical expressions.[^gfm]
 
-[Hover over this link before clicking](https://www.markdownguide.org/ "You have discovered tooltip technology.")
+Animated banners in this README are externally rendered SVG images—not JavaScript executing inside the document.[^animation]
+
+---
+
+# ACT IV — HTML HYBRID
+
+> GitHub Markdown can safely render selected HTML fragments, enabling layout and interaction patterns that Markdown syntax alone cannot express.
+
+## LEVEL 09 — INLINE HTML & MEDIA CONTROL
+
+`HTML` · `External Asset`
 
 ### Clickable image portal
 
@@ -459,12 +514,13 @@ GitHub can display different images for light and dark themes:
 ```
 
 > [!TIP]
-> Replace the example paths with real files in your repository.  
-> Unlike mysterious external image hosts, repository assets remain under your control.
+> The paths above are still a syntax demonstration in M1. A later asset phase will convert theme-aware media into a live repository-owned demonstration.
 
 ---
 
-## 🗝️ LEVEL 10: COLLAPSIBLE SECRET CHAMBERS
+## LEVEL 10 — COLLAPSIBLE INTERFACE SYSTEM
+
+`HTML` · `Markdown`
 
 <details>
 <summary><strong>🧠 Click to reveal forbidden Markdown wisdom</strong></summary>
@@ -514,7 +570,7 @@ Hidden Markdown content goes here.
 <br />
 
 <div align="center">
-  <h1>It was a trap.</h1>
+  <h2>It was a trap.</h2>
   <p>But at least it was semantic HTML.</p>
 </div>
 
@@ -522,7 +578,13 @@ Hidden Markdown content goes here.
 
 ---
 
-## 📐 LEVEL 11: MATHEMATICAL SUPERIORITY
+# ACT V — ADVANCED RENDERING
+
+> The point where a `.md` file stops looking like plain documentation and starts behaving like a rendering surface.
+
+## LEVEL 11 — MATHEMATICAL SUPERIORITY
+
+`GitHub` · `Math`
 
 Inline mathematics:
 
@@ -549,9 +611,14 @@ And the forbidden equation:
 \text{Markdown}+\text{Restraint}^{-1}=\text{This README}
 ```
 
+> [!NOTE]
+> M1 only relocates the current math showcase. The dedicated mathematics phase will expand this renderer substantially.
+
 ---
 
-## 🧜 LEVEL 12: MERMAID SUMMONING CIRCLE
+## LEVEL 12 — MERMAID SUMMONING CIRCLE
+
+`GitHub` · `Mermaid`
 
 ### The README production pipeline
 
@@ -601,21 +668,43 @@ stateDiagram-v2
     Polished --> [*]: Ship
 ```
 
+### Reserved expansion slots
+
+The architecture now has room for advanced GitHub-native renderers without creating another unrelated top-level section:
+
+```text
+ACT V — ADVANCED RENDERING
+├── Mathematics            ✅ current
+├── Mermaid                ✅ current
+├── GeoJSON                ◌ future phase
+├── TopoJSON               ◌ future phase
+└── STL / interactive 3D   ◌ future phase
+```
+
 ---
 
-## 🕵️ LEVEL 13: FORBIDDEN KNOWLEDGE
+# ACT VI — PARSER & SOURCE LAB
 
-### Footnotes
+> This act is for syntax that becomes interesting specifically because Markdown has parsing rules, escaping rules, and source/render differences.
 
-Markdown looks simple because the complexity is hiding politely.[^plain-text]
+## LEVEL 13 — ESCAPING & FORBIDDEN KNOWLEDGE
 
-GitHub adds features beyond basic Markdown, including task lists, alerts, diagrams, and mathematical expressions.[^gfm]
+`Markdown` · `HTML` · `Source-only`
 
-Animated banners in this README are externally rendered SVG images—not JavaScript executing inside the document.[^animation]
+### Escaping special characters
+
+| Desired character | Escaped source |
+| :---: | :---: |
+| `*` | `\*` |
+| `_` | `\_` |
+| `#` | `\#` |
+| `>` | `\>` |
+| `[` | `\[` |
+| `\` | `\\` |
 
 ### Hidden comments
 
-The following exists in the source but disappears from the rendered README:
+The following source disappears from the rendered README:
 
 ```html
 <!--
@@ -631,18 +720,17 @@ The animated banner is not sentient.
 Probably.
 -->
 
-### Escaping special characters
+### Markdown inception
 
-| Desired character | Escaped source |
-| :---: | :---: |
-| `*` | `\*` |
-| `_` | `\_` |
-| `#` | `\#` |
-| `>` | `\>` |
-| `[` | `\[` |
-| `\` | `\\` |
+The cheat sheet later in this README uses **four outer backticks** so it can safely contain ordinary triple-backtick code fences inside itself.
+
+That recursion now lives conceptually in the parser lab rather than being treated as an accidental footnote.
 
 ---
+
+# ACT VII — ENDGAME & REFERENCE
+
+> The laboratory ends here; what follows measures what was unlocked and keeps the README practically useful.
 
 ## 🏅 ACHIEVEMENTS UNLOCKED
 
@@ -661,27 +749,29 @@ Probably.
 | **Table Architect** | Align columns intentionally | ✅ |
 | **Alert Commander** | Deploy all five GitHub alerts | ✅ |
 | **Diagram Summoner** | Render Mermaid successfully | ✅ |
-| **Documentation Adult** | Explain installation properly | ⏳ |
+| **Source Diver** | Hide meaningful source-only content | ✅ |
+| **Architecture Engineer** | Organize by rendering layer | ✅ |
 | **Master of Restraint** | Stop before adding too much | ❌ |
 
 ---
 
-## 🎛️ THE CHAOS INDEX
+## THE CHAOS INDEX
 
 ```text
 Clarity        ████████████████████ 100%
 Structure      ████████████████████ 100%
+Navigation     ████████████████████ 100%
 Usefulness     ███████████████████░  95%
 Animation      ████████████████░░░░  80%
 Badge Density  ██████████████████░░  90%
 Restraint      ██░░░░░░░░░░░░░░░░░░  10%
-Raw Power      ████████████████████ ∞
+Raw Power      ████████████░░░░░░░░  M1
 ```
 
 > [!WARNING]
-> A beautiful README that does not explain the project is still bad documentation.
+> A beautiful README that does not explain its own structure is still bad documentation.
 >
-> **Style supports clarity. It does not replace it.**
+> **M1 fixes the architecture first. Later phases increase the power.**
 
 ---
 
@@ -736,7 +826,7 @@ Here is a footnote.[^1]
 ````
 
 > [!NOTE]
-> The inner fenced-code example above may need four outer backticks when embedded inside another fenced block. Markdown enjoys recursion almost as much as programmers do.
+> The inner fenced-code example above is protected by four outer backticks. Markdown enjoys recursion almost as much as programmers do.
 
 ---
 
@@ -753,6 +843,7 @@ Here is a footnote.[^1]
 | Commands that were never tested | Production chaos |
 | “Documentation coming soon” | It is not coming soon |
 | Decorative overload | The content disappears |
+| Flat feature dumping | The README becomes impossible to extend |
 
 ---
 
@@ -768,39 +859,51 @@ Before pushing, verify:
 - [ ] The document works in light and dark mode.
 - [ ] The mobile layout remains readable.
 - [ ] Decorative elements support rather than bury the content.
+- [ ] Every advanced feature belongs to the correct rendering layer.
 - [ ] The README was previewed on GitHub.
 - [ ] No one wrote “just figure it out.”
 
 ---
 
-# 👑 FINAL BOSS
+# FINAL BOSS
 
 <div align="center">
 
 <a href="https://www.markdownguide.org/">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Orbitron&amp;weight=800&amp;size=28&amp;pause=1100&amp;color=F43F5E&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=70&amp;lines=YOUR+README+DESERVES+BETTER.;DOCUMENTATION+IS+PART+OF+THE+PRODUCT.;LEARN+MARKDOWN.+SHIP+CLARITY."
-    alt="Your README deserves better"
+    src="https://readme-typing-svg.demolab.com?font=Orbitron&amp;weight=800&amp;size=28&amp;pause=1100&amp;color=F43F5E&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=70&amp;lines=ARCHITECTURE+RECONSTRUCTED.;THE+POWER+MAP+IS+ONLINE.;NOW+WE+CAN+GO+TOO+FAR+PROPERLY."
+    alt="Architecture reconstructed — the power map is online"
   />
 </a>
 
-<h3>If your entire <code>README.md</code> looks like this:</h3>
+<h3>M1 did not add the strongest weapons.</h3>
+<h3>It built the arena that can contain them.</h3>
 
 </div>
 
 ```txt
-This project does stuff.
+SOURCE
+  ↓
+MARKDOWN CORE
+  ↓
+GFM
+  ↓
+GITHUB EXTENSIONS
+  ↓
+HTML HYBRID
+  ↓
+ADVANCED RENDERING
+  ↓
+PARSER LAB
+  ↓
+FINAL FORM
 ```
 
 <div align="center">
 
-<h3>then your repository is not mysterious.</h3>
-
-<h3>It is undocumented.</h3>
-
 <p>
-  Decorate it—but first, <strong>explain it</strong>.<br />
-  Structure it. Link it. Diagram it. Test it.<br />
+  Structure first. Then capability.<br />
+  Every future feature now has a deliberate home.<br />
   Make it <s>unreadable</s> <strong><em>beautifully, strategically ridiculous</em></strong>.
 </p>
 
@@ -812,9 +915,8 @@ This project does stuff.
 
 <br />
 
-<h2>🗿 Learn Markdown.</h2>
-
-<h3>Because your README deserves more than sadness.</h3>
+<h2>🗿 Markdown: Final Form.</h2>
+<h3>Architecture before escalation.</h3>
 
 <img
   width="100%"
@@ -828,4 +930,4 @@ This project does stuff.
 
 [^plain-text]: Markdown remains readable as plain text while adding lightweight structural syntax.
 [^gfm]: GitHub Flavored Markdown extends common Markdown behavior with GitHub-specific rendering features.
-[^animation]: External SVG generators may become unavailable, change behavior, or load slowly. For maximum reliability, generate and store your own SVG or GIF files inside the repository.
+[^animation]: External SVG generators may become unavailable, change behavior, or load slowly. A later phase will move critical visual assets into the repository.
