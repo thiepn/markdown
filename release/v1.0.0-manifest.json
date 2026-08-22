@@ -34,19 +34,19 @@
   "live_verification": {
     "github_pages_url": "https://thiepn.github.io/markdown/",
     "redirects_allowed": true,
-    "required_loader_marker": "Loading P12 release certification",
+    "required_loader_marker": "2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a",
     "required_assets": [
       "assets/p11/showcase.js",
       "assets/p12/certify.js"
     ],
-    "verification_gate": "CI fetches the deployed page and assets before this release state may merge to main"
+    "verification_gate": "CI verifies the deployed loader by the immutable certified P10 checksum marker, rather than release-specific loading-screen copy, and verifies the P11/P12 assets before release-state validation succeeds."
   },
   "release_requirements": [
     "certified P12 source promoted to main",
     "promotion head passed repository certification",
     "promotion head passed desktop Chromium certification",
     "promotion head passed mobile-width Chromium certification",
-    "GitHub Pages serves the promoted P12 loader",
+    "GitHub Pages serves a loader pinned to the certified P10 runtime checksum",
     "GitHub Pages serves the P11 and P12 extension assets",
     "finalization PR passes the complete repository and local browser suite",
     "finalization PR live deployment smoke test passes"
