@@ -80,7 +80,18 @@ assert(manifest.gate==='P12_RELEASE_CERTIFIED','Manifest defines exact certifica
 assert(fs.existsSync('P12_RELEASE.md'),'P12 release handoff exists');
 assert(fs.existsSync('.github/workflows/p12-certification.yml'),'P12 GitHub Actions workflow exists');
 
-const report={gate:'REPOSITORY_CERTIFIED',phase:'P12',version:manifest.version,p10_sha256:hash(html),p11_sha256:hash(p11),p12_sha256:hash(p12),scenarios:scenarioIds.length,compositions:compIds.length,chaos:chaosIds.length,checked_at:new Date().toISOString()};
+const v1=JSON.parse(read('release/v1.0.0-manifest.json'));
+assert(v1.version==='1.0.0','v1 release manifest version is 1.0.0');
+assert(['V1_PROMOTION_READY','V1_RELEASED'].includes(v1.release_gate),'v1 release gate is a valid promotion state');
+assert(v1.canonical_branch==='main','v1 canonical branch is main');
+assert(v1.runtime_baseline.p10_sha256==='2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a','v1 manifest pins certified P10 runtime hash');
+assert(v1.certified_candidate.sha==='bf596ecb3b991b94b2b338ed151e655cc73eb393','v1 manifest records frozen P12 certification source');
+assert(fs.existsSync('V1_RELEASE.md'),'v1 release promotion handoff exists');
+assert(fs.existsSync('CHANGELOG.md'),'v1 changelog exists');
+const workflow=read('.github/workflows/p12-certification.yml');
+assert(workflow.includes('- main'),'Certification workflow covers main branch promotion');
+
+const report={gate:'REPOSITORY_CERTIFIED',phase:'P12',version:manifest.version,release_version:v1.version,release_gate:v1.release_gate,p10_sha256:hash(html),p11_sha256:hash(p11),p12_sha256:hash(p12),scenarios:scenarioIds.length,compositions:compIds.length,chaos:chaosIds.length,checked_at:new Date().toISOString()};
 fs.mkdirSync('artifacts',{recursive:true});fs.writeFileSync('artifacts/p12-static-report.json',JSON.stringify(report,null,2)+'\n');
 console.log('\nP12 REPOSITORY CERTIFICATION: PASS');
 console.log(JSON.stringify(report,null,2));
