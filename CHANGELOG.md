@@ -1,5 +1,35 @@
 # Changelog
 
+## 1.0.1 — Interaction & Demonstration Reconstruction
+
+Corrective release for the post-v1.0.0 interaction defect where laboratory navigation and showcase buttons changed hidden state or prefilled controls without consistently exposing or executing the resulting workbench.
+
+### Interaction reconstruction
+
+- active laboratory workbench now appears immediately below the laboratory selector
+- laboratory navigation automatically brings the workbench into view
+- persistent workbench dock explains the active demo and reports `ready`, `running`, `pass`, or `fail`
+- every lab 00–12 has a one-click executable demonstration runner
+- scenario cards now execute the actual underlying controls instead of acting primarily as preset loaders
+- successful results receive temporary visible result highlighting
+- failures remain visible with an explicit manual fallback instead of silently appearing to do nothing
+
+### Guided routes
+
+- cross-lab composition cards now start persistent guided workflows
+- Back, Next step, Finish route, and Exit controls remain visible while moving between laboratories
+- Document → Data → SQL uses the real P6 `Open in SQLite` handoff to P3
+- Terminal → Chaos → Recovery executes and certifies an actual multi-step recovery workflow
+- route completion reports a visible final result in the workbench dock
+
+### Certification
+
+- existing P12 repository, desktop, and mobile regression suites remain green
+- new `V101_INTERACTION_CERTIFIED` browser gate validates immediate workbench layout
+- certification executes a real parser demo and verifies its visible rendered result
+- certification executes a real three-step `Terminal → Chaos/Recovery → Parser` guided route
+- the interaction gate runs independently on desktop and mobile-width Chromium
+
 ## 1.0.0 — Production Release
 
 MARKDOWN//LAB reaches its first production release after the P0–P12 implementation and certification sequence.
