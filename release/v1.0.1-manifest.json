@@ -19,7 +19,7 @@
     "p10_sha256": "2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a",
     "p11_sha256": "c2dd4da9142c3ef671de2344c1a33977580236d68b0c1191805d865e4706d790",
     "v101_interaction_sha256": "82cf4e92451cf5d2105d003c6a32981ee8613e4e73f636184cd9efe59b5df280",
-    "v101_browser_gate_sha256": "160cd03b09274ffab9509e68b2df0bf6201914a736e8308b9deeb7ca6c9f4c6d"
+    "v101_browser_gate_sha256": "66ffac1bc738aec803450d8e5beb6d6430cdbf792c7e42cc63938f837a38b8dd"
   },
   "coverage": {
     "labs": 13,
