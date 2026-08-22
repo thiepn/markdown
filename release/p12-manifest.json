@@ -1,0 +1,65 @@
+{
+  "project": "MARKDOWN//LAB",
+  "phase": "P12",
+  "version": "1.0.0-rc.1",
+  "gate": "P12_RELEASE_CERTIFIED",
+  "release_state": "certified-release-candidate",
+  "source_branch": "p12-release-certification",
+  "parent_phase": "P11 Showcase Content Expansion",
+  "baselines": {
+    "P8": {
+      "bytes": 245006,
+      "sha256": "ee34e712f7ed8b64d3ec303252d23abdf4a8ba1bbca637af7ee91d2c65181ced"
+    },
+    "P9": {
+      "bytes": 274928,
+      "sha256": "2ac93a255cfb6f57a5a3083248fa9e34de9e1810c8fe7c58b54850f10ba082b5"
+    },
+    "P10": {
+      "bytes": 296930,
+      "sha256": "2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a"
+    }
+  },
+  "p11_inventory": {
+    "labs": 13,
+    "showcase_scenarios": 13,
+    "cross_lab_compositions": 4,
+    "chaos_mutations": 6
+  },
+  "certification_layers": [
+    "deterministic repository reconstruction and checksum verification",
+    "P11 and P12 JavaScript parse validation",
+    "source inventory and recovery-hook validation",
+    "desktop headless-Chromium browser regression",
+    "mobile-width headless-Chromium browser regression",
+    "13-lab navigation",
+    "13 showcase scenario launches",
+    "4 cross-lab composition routes",
+    "6 controlled mutation/recovery cycles",
+    "Final Form execution",
+    "storage, Worker and WebCrypto lifecycle probes",
+    "accessible control-name audit",
+    "horizontal-overflow regression"
+  ],
+  "certification_basis": {
+    "workflow": "P12 Certification",
+    "run_number": 22,
+    "run_id": 32588086344,
+    "head_sha": "bf596ecb3b991b94b2b338ed151e655cc73eb393",
+    "repository_gate": "pass",
+    "desktop_browser": {
+      "gate": "P12_RELEASE_CERTIFIED",
+      "passed": 12,
+      "failed": 0
+    },
+    "mobile_browser": {
+      "gate": "P12_RELEASE_CERTIFIED",
+      "passed": 12,
+      "failed": 0
+    },
+    "evidence_artifact_id": 9479576129,
+    "evidence_sha256": "33e00bfdaa094665f78d1abfe8881511eaabc1b273e3e0f7ed67d4cc73454c07"
+  },
+  "promotion_rule": "Promote only when repository certification and both browser profiles emit P12_RELEASE_CERTIFIED with zero failed checks. The final promotion candidate must pass the same workflow after release metadata changes and again on main after merge.",
+  "main_branch_note": "Git history is linear for promotion: p12-release-certification is ahead of main with main as its merge base. The README and showcase assets already match; promotion can proceed through a normal pull request to main."
+}

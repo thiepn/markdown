@@ -1,0 +1,102 @@
+name: P12 Certification
+
+on:
+  push:
+    branches:
+      - main
+      - p12-release-certification
+  pull_request:
+    branches:
+      - main
+      - p11-showcase-content-expansion
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  certify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Repository certification
+        run: node scripts/p12-certify.mjs
+
+      - name: Resolve Chromium
+        id: chrome
+        shell: bash
+        run: |
+          set -euo pipefail
+          BIN="$(command -v google-chrome || command -v google-chrome-stable || command -v chromium || command -v chromium-browser || true)"
+          if [ -z "$BIN" ]; then
+            echo "No Chromium-family browser is installed on the runner" >&2
+            exit 1
+          fi
+          echo "bin=$BIN" >> "$GITHUB_OUTPUT"
+          "$BIN" --version
+
+      - name: Start static server
+        shell: bash
+        run: |
+          python3 -m http.server 8000 --bind 127.0.0.1 > /tmp/markdown-lab-server.log 2>&1 &
+          echo $! > /tmp/markdown-lab-server.pid
+          for i in {1..30}; do
+            if curl -fsS http://127.0.0.1:8000/index.html >/dev/null; then exit 0; fi
+            sleep 0.2
+          done
+          cat /tmp/markdown-lab-server.log
+          exit 1
+
+      - name: Desktop browser certification
+        shell: bash
+        env:
+          CHROME: ${{ steps.chrome.outputs.bin }}
+        run: |
+          set -euo pipefail
+          "$CHROME" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --window-size=1440,1000 --virtual-time-budget=30000 --dump-dom 'http://127.0.0.1:8000/?p12-ci=1' > /tmp/p12-desktop.html
+          grep -q 'id="p12CiResult"' /tmp/p12-desktop.html
+          grep -q 'data-status="pass"' /tmp/p12-desktop.html
+          grep -q 'P12_RELEASE_CERTIFIED' /tmp/p12-desktop.html
+
+      - name: Mobile browser certification
+        shell: bash
+        env:
+          CHROME: ${{ steps.chrome.outputs.bin }}
+        run: |
+          set -euo pipefail
+          "$CHROME" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --window-size=375,812 --force-device-scale-factor=1 --virtual-time-budget=30000 --dump-dom 'http://127.0.0.1:8000/?p12-ci=1' > /tmp/p12-mobile.html
+          grep -q 'id="p12CiResult"' /tmp/p12-mobile.html
+          grep -q 'data-status="pass"' /tmp/p12-mobile.html
+          grep -q 'P12_RELEASE_CERTIFIED' /tmp/p12-mobile.html
+
+      - name: Emit certification summary
+        if: always()
+        shell: bash
+        run: |
+          echo '## P12 Certification' >> "$GITHUB_STEP_SUMMARY"
+          if [ -f artifacts/p12-static-report.json ]; then
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat artifacts/p12-static-report.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi
+          if [ -f /tmp/p12-desktop.html ]; then
+            echo '- Desktop browser DOM generated.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+          if [ -f /tmp/p12-mobile.html ]; then
+            echo '- Mobile browser DOM generated.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload certification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: p12-certification-evidence
+          path: |
+            artifacts/p12-static-report.json
+            /tmp/p12-desktop.html
+            /tmp/p12-mobile.html
+            /tmp/markdown-lab-server.log
+          if-no-files-found: warn
