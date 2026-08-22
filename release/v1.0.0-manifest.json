@@ -1,8 +1,8 @@
 {
   "project": "MARKDOWN//LAB",
   "version": "1.0.0",
-  "release_gate": "V1_PROMOTION_READY",
-  "release_state": "promotion-candidate",
+  "release_gate": "V1_RELEASED",
+  "release_state": "production",
   "canonical_branch": "main",
   "promotion_branch": "p12-release-certification",
   "certified_candidate": {
@@ -16,6 +16,13 @@
     "desktop_browser": "12/12 pass",
     "mobile_browser": "12/12 pass"
   },
+  "promotion_evidence": {
+    "promotion_head_sha": "8592ca8f1fd77efca56feafc0568b851045a242e",
+    "promotion_workflow_run": 32589111543,
+    "promotion_workflow_run_number": 34,
+    "main_merge_sha": "5821423487d7578822f5c5f5fe5bc2ab99b98dd5",
+    "promotion_pr": 1
+  },
   "runtime_baseline": {
     "p10_bytes": 296930,
     "p10_sha256": "2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a",
@@ -24,14 +31,25 @@
     "cross_lab_compositions": 4,
     "chaos_mutations": 6
   },
-  "promotion_requirements": [
-    "promotion PR to main passes repository certification",
-    "promotion PR passes desktop Chromium certification",
-    "promotion PR passes mobile-width Chromium certification",
-    "main passes the same certification after merge",
-    "GitHub Pages serves the promoted index and runtime assets",
-    "live deployed application completes smoke verification",
-    "release metadata is finalized to V1_RELEASED without application behavior changes"
+  "live_verification": {
+    "github_pages_url": "https://thiepn.github.io/markdown/",
+    "redirects_allowed": true,
+    "required_loader_marker": "Loading P12 release certification",
+    "required_assets": [
+      "assets/p11/showcase.js",
+      "assets/p12/certify.js"
+    ],
+    "verification_gate": "CI fetches the deployed page and assets before this release state may merge to main"
+  },
+  "release_requirements": [
+    "certified P12 source promoted to main",
+    "promotion head passed repository certification",
+    "promotion head passed desktop Chromium certification",
+    "promotion head passed mobile-width Chromium certification",
+    "GitHub Pages serves the promoted P12 loader",
+    "GitHub Pages serves the P11 and P12 extension assets",
+    "finalization PR passes the complete repository and local browser suite",
+    "finalization PR live deployment smoke test passes"
   ],
   "tag_target": "v1.0.0",
   "deployment_path": "/markdown/"
