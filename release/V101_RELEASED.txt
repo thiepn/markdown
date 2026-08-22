@@ -1,0 +1,3 @@
+V101_INTERACTION_CERTIFIED
+V101_RELEASED
+This marker is valid only when scripts/v101-certify.mjs verifies the deployed custom-domain loader and both v1.0.1 assets, and the unchanged P12 plus v1.0.1 desktop/mobile browser gates pass.

@@ -2,7 +2,7 @@
 
 ## Status
 
-**Certified release candidate**
+**Released after guarded live verification**
 
 Gate: `V101_INTERACTION_CERTIFIED`
 
@@ -51,11 +51,15 @@ A new independent browser gate, `V101_INTERACTION_CERTIFIED`, adds five user-fac
 
 These checks run separately in desktop and mobile-width Chromium.
 
-## Certified candidate evidence
+## Promotion evidence
 
-Workflow run: `#42` / `32591118835`
+Metadata-complete workflow run: `#46` / `32591240190`
 
-Candidate head: `b5fe0a1b0e2e6b12e59723c8106dffd3f131a09f`
+Candidate head: `17eaf8c24d1fad0cab836690bfd0f64ad584a455`
+
+Promotion PR: `#3`
+
+Promoted main commit: `8e2aff9c7ef907e97c40dc1ca54dd9ffd5a54951`
 
 Results:
 
@@ -66,14 +70,14 @@ Results:
 - v1.0.1 desktop interaction: 5/5 PASS
 - v1.0.1 mobile interaction: 5/5 PASS
 
-Evidence artifact: `9480344935`
+Evidence artifact: `9480374910`
 
-Evidence SHA-256: `1cab47b4e90d76cae31d0e7497ef25e5c4b2cc2215ed90080013bbf89b97084a`
+Evidence SHA-256: `957e5d8dfeace1c0288b4b06314637dbe0ae7fb10ce3f39ec53f49cf9bb3a70f`
 
 Interaction source SHA-256: `82cf4e92451cf5d2105d003c6a32981ee8613e4e73f636184cd9efe59b5df280`
 
 Browser-gate SHA-256: `0b3e7bda59246f57068f2d3ada81bbfc30745056b0dfc9e9bdaecca8d4992f4d`
 
-## Promotion rule
+## Live-release guard
 
-This candidate may be merged only after the metadata-complete branch passes the unchanged P12 gates and the new interaction gates again. It becomes a released v1.0.1 only after the deployed custom-domain site serves the new interaction layer and browser gate and the public loader references both.
+The `released` state and `release/V101_RELEASED.txt` marker are valid only when `scripts/v101-certify.mjs` can reach `https://thiepn.dev/markdown/`, confirm the deployed loader references the v1.0.1 interaction layer, retrieve both v1.0.1 assets successfully, and the complete P12 + v1.0.1 desktop/mobile browser suite remains green.
