@@ -1,0 +1,38 @@
+{
+  "project": "MARKDOWN//LAB",
+  "version": "1.0.0",
+  "release_gate": "V1_PROMOTION_READY",
+  "release_state": "promotion-candidate",
+  "canonical_branch": "main",
+  "promotion_branch": "p12-release-certification",
+  "certified_candidate": {
+    "sha": "bf596ecb3b991b94b2b338ed151e655cc73eb393",
+    "workflow": "P12 Certification",
+    "run_number": 22,
+    "run_id": 32588086344,
+    "evidence_artifact_id": 9479576129,
+    "evidence_sha256": "33e00bfdaa094665f78d1abfe8881511eaabc1b273e3e0f7ed67d4cc73454c07",
+    "repository_gate": "pass",
+    "desktop_browser": "12/12 pass",
+    "mobile_browser": "12/12 pass"
+  },
+  "runtime_baseline": {
+    "p10_bytes": 296930,
+    "p10_sha256": "2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a",
+    "labs": 13,
+    "showcase_scenarios": 13,
+    "cross_lab_compositions": 4,
+    "chaos_mutations": 6
+  },
+  "promotion_requirements": [
+    "promotion PR to main passes repository certification",
+    "promotion PR passes desktop Chromium certification",
+    "promotion PR passes mobile-width Chromium certification",
+    "main passes the same certification after merge",
+    "GitHub Pages serves the promoted index and runtime assets",
+    "live deployed application completes smoke verification",
+    "release metadata is finalized to V1_RELEASED without application behavior changes"
+  ],
+  "tag_target": "v1.0.0",
+  "deployment_path": "/markdown/"
+}
