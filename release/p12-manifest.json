@@ -3,7 +3,7 @@
   "phase": "P12",
   "version": "1.0.0-rc.1",
   "gate": "P12_RELEASE_CERTIFIED",
-  "release_state": "release-candidate",
+  "release_state": "certified-release-candidate",
   "source_branch": "p12-release-certification",
   "parent_phase": "P11 Showcase Content Expansion",
   "baselines": {
@@ -41,6 +41,25 @@
     "accessible control-name audit",
     "horizontal-overflow regression"
   ],
-  "promotion_rule": "Promote only when repository certification and both browser profiles emit P12_RELEASE_CERTIFIED with zero failed checks.",
+  "certification_basis": {
+    "workflow": "P12 Certification",
+    "run_number": 18,
+    "run_id": 32587993097,
+    "head_sha": "ddbce7711ad7f248f958abcf8060e1be00954e7d",
+    "repository_gate": "pass",
+    "desktop_browser": {
+      "gate": "P12_RELEASE_CERTIFIED",
+      "passed": 12,
+      "failed": 0
+    },
+    "mobile_browser": {
+      "gate": "P12_RELEASE_CERTIFIED",
+      "passed": 12,
+      "failed": 0
+    },
+    "evidence_artifact_id": 9479552843,
+    "evidence_sha256": "8edc799443efba79d28959ead90c196d6764183ae775489970a84635002f1ca4"
+  },
+  "promotion_rule": "Promote only when repository certification and both browser profiles emit P12_RELEASE_CERTIFIED with zero failed checks. Any post-certification metadata-only freeze must itself pass the same workflow before promotion.",
   "main_branch_note": "The executable P10/P11/P12 lineage diverges from the current main README lineage. Do not merge blindly into main; promote the accepted release lineage deliberately."
 }
