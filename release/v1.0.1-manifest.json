@@ -19,13 +19,14 @@
     "p10_sha256": "2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a",
     "p11_sha256": "c2dd4da9142c3ef671de2344c1a33977580236d68b0c1191805d865e4706d790",
     "v101_interaction_sha256": "82cf4e92451cf5d2105d003c6a32981ee8613e4e73f636184cd9efe59b5df280",
-    "v101_browser_gate_sha256": "0b3e7bda59246f57068f2d3ada81bbfc30745056b0dfc9e9bdaecca8d4992f4d"
+    "v101_browser_gate_sha256": "ed4622cd13a414ccc7f18dc8d8588efb23e31fd7ec5fb66fa9dc188dd56f9d0a"
   },
   "coverage": {
     "labs": 13,
     "executable_demos": 13,
     "guided_routes": 4,
-    "interaction_browser_checks": 5
+    "interaction_browser_checks": 5,
+    "browser_executed_demos": 13
   },
   "certification_basis": {
     "workflow": "P12 Certification",
