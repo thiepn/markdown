@@ -51,17 +51,20 @@ new vm.Script(p12,{filename:'certify.js'});console.log('PASS · P12 JavaScript p
 const scenarioIds=['system-baseline','parser-specimen','worker-telemetry','polyglot-statistics','math-expression','diagram-pipeline','typed-benchmark','api-error-recovery','browser-worker','terminal-orchestration','component-gallery','chaos-recovery','final-form'];
 const compIds=['doc-data-sql','markdown-diagram-final','terminal-chaos','browser-data-worker'];
 const chaosIds=['markdown-fence','worker-timeout','mermaid-invalid','data-type-skew','api-http-error','sandbox-storage'];
+const expectedLabs=Array.from({length:13},(_,i)=>String(i).padStart(2,'0'));
 for(const id of scenarioIds)assert(p11.includes(`id:'${id}'`),`P11 scenario '${id}' present`);
 for(const id of compIds)assert(p11.includes(`id:'${id}'`),`P11 composition '${id}' present`);
 for(const id of chaosIds){assert(p11.includes(`id:'${id}'`),`P11 chaos mutation '${id}' present`);const at=p11.indexOf(`id:'${id}'`),next=p11.indexOf("\n{id:'",at+5),segment=p11.slice(at,next<0?p11.length:next);assert(segment.includes('apply:')&&segment.includes('recover:'),`P11 '${id}' has inject and recovery hooks`)}
 assert((p11.match(/data-p11-scenario/g)||[]).length>=1,'P11 scenario controls are rendered');
+const labIds=[...new Set([...p11.matchAll(/lab:'(\d\d)'/g)].map(m=>m[1]))].sort();
+assert(JSON.stringify(labIds)===JSON.stringify(expectedLabs),'P11 scenario catalog covers labs 00–12 exactly once or more');
 assert(p11.includes("grant('Chaos Engineer')"),'Chaos Engineer has concrete unlock path');
 assert(p11.includes("grant('Final Form Composer')"),'Final Form Composer has concrete unlock path');
 assert(p12.includes('P12_RELEASE_CERTIFIED'),'P12 browser gate exposes certification token');
 for(const id of chaosIds)assert(p12.includes(`'${id}'`),`P12 browser suite covers chaos mutation '${id}'`);
 
 for(const id of ['ed','js','timeout','mermaidSource','dataSource','apiExample'])assert(html.includes(`id="${id}"`)||html.includes(`id='${id}'`),`P10 target #${id} exists for P11 recovery`);
-for(let i=0;i<13;i++){const id=String(i).padStart(2,'0');assert(html.includes(`data-lab="${id}"`)||html.includes(`data-lab='${id}'`),`P10 lab navigation contains ${id}`)}
+assert(p12.includes("['13-lab navigation',navigation]"),'Rendered 13-lab navigation is delegated to the browser certification gate');
 
 const loader=read('index.html');
 assert(loader.includes('Loading P12'),'Loader identifies P12');
