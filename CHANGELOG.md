@@ -22,13 +22,24 @@ Corrective release for the post-v1.0.0 interaction defect where laboratory navig
 - Terminal → Chaos → Recovery executes and certifies an actual multi-step recovery workflow
 - route completion reports a visible final result in the workbench dock
 
+### Lab 03 — Polyglot Statistics
+
+- exhaustive one-click testing exposed a remaining cold-start failure in the Python/Pyodide demo path
+- the default Lab 03 demonstration now uses the existing built-in WebAssembly companion, so it is immediate and network-independent
+- the demo runs the real `Run WASM add` control and verifies the visible `17 + 25 = 42` result before reporting success
+- Python remains available through the Python tab as an explicit lazy-loaded Pyodide runtime
+- SQLite and Lua remain available through their existing P3 runtime paths
+
 ### Certification
 
 - existing P12 repository, desktop, and mobile regression suites remain green
-- new `V101_INTERACTION_CERTIFIED` browser gate validates immediate workbench layout
-- certification executes a real parser demo and verifies its visible rendered result
+- `V101_INTERACTION_CERTIFIED` validates immediate workbench layout
+- certification now executes **all 13 one-click demos** rather than sampling only the parser
+- each demo must return its own verified visible result
 - certification executes a real three-step `Terminal → Chaos/Recovery → Parser` guided route
-- the interaction gate runs independently on desktop and mobile-width Chromium
+- the exhaustive interaction gate passes independently on desktop and mobile-width Chromium
+- certified exhaustive run: `#58` / `32598253333`
+- evidence artifact: `9482150275`
 
 ## 1.0.0 — Production Release
 

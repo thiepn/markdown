@@ -6,45 +6,50 @@
   "canonical_branch": "main",
   "source_branch": "v1.0.1-interaction-reconstruction",
   "base_release": "1.0.0",
-  "problem": "Laboratory and showcase controls frequently changed hidden state or prefilled inputs without bringing the workbench into view, executing the demonstration, or exposing a clear result.",
+  "problem": "Laboratory and showcase controls frequently changed hidden state or prefilled inputs without bringing the workbench into view, executing the demonstration, or exposing a clear result. The first exhaustive post-release audit additionally found that Lab 03 depended on a cold Pyodide download and could time out before producing visible feedback.",
   "interaction_contract": [
     "navigation immediately exposes the active workbench",
     "every laboratory 00–12 has a one-click executable demo",
     "successful demonstrations expose a visible result and persistent pass feedback",
     "failures expose persistent visible failure feedback and retain manual controls",
     "cross-lab compositions are persistent guided workflows with Back, Next, Finish, and Exit",
-    "Document to Data to SQL uses the real P6-to-P3 SQLite handoff"
+    "Document to Data to SQL uses the real P6-to-P3 SQLite handoff",
+    "Lab 03 default demo is deterministic and network-independent while Python remains an explicit lazy runtime"
   ],
   "runtime_baseline": {
     "p10_sha256": "2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a",
     "p11_sha256": "c2dd4da9142c3ef671de2344c1a33977580236d68b0c1191805d865e4706d790",
     "v101_interaction_sha256": "82cf4e92451cf5d2105d003c6a32981ee8613e4e73f636184cd9efe59b5df280",
-    "v101_browser_gate_sha256": "0b3e7bda59246f57068f2d3ada81bbfc30745056b0dfc9e9bdaecca8d4992f4d"
+    "v101_browser_gate_sha256": "66ffac1bc738aec803450d8e5beb6d6430cdbf792c7e42cc63938f837a38b8dd",
+    "lab03_default_demo": "built-in WebAssembly companion",
+    "lab03_python_mode": "lazy Pyodide"
   },
   "coverage": {
     "labs": 13,
     "executable_demos": 13,
     "guided_routes": 4,
-    "interaction_browser_checks": 5
+    "interaction_browser_checks": 5,
+    "browser_executed_demos": 13
   },
   "certification_basis": {
     "workflow": "P12 Certification",
-    "run_number": 46,
-    "run_id": 32591240190,
-    "head_sha": "17eaf8c24d1fad0cab836690bfd0f64ad584a455",
+    "run_number": 58,
+    "run_id": 32598253333,
+    "head_sha": "1cde922b685d09751e0621c83223aa9a959fae20",
     "repository_p12": "pass",
     "repository_v101": "pass",
     "desktop_p12": "pass",
     "mobile_p12": "pass",
-    "desktop_v101": "5/5 pass",
-    "mobile_v101": "5/5 pass",
-    "evidence_artifact_id": 9480374910,
-    "evidence_sha256": "957e5d8dfeace1c0288b4b06314637dbe0ae7fb10ce3f39ec53f49cf9bb3a70f"
+    "desktop_v101": "5/5 pass including 13/13 executable demos",
+    "mobile_v101": "5/5 pass including 13/13 executable demos",
+    "lab03": "pass via deterministic built-in WebAssembly companion",
+    "evidence_artifact_id": 9482150275,
+    "evidence_sha256": "a5a26106fb8c52c2526104e92d4f75fecb021b384dd7864a39f759edf7061061"
   },
   "promotion": {
     "pull_request": 3,
     "main_commit": "8e2aff9c7ef907e97c40dc1ca54dd9ffd5a54951"
   },
-  "live_finalization_rule": "A released manifest is valid only when scripts/v101-certify.mjs can fetch the deployed custom-domain loader, confirm it references assets/v101/interaction.js, fetch the live interaction and browser-gate assets, and the unchanged P12 plus V101 desktop/mobile browser suites all pass.",
+  "live_finalization_rule": "A released manifest is valid only when scripts/v101-certify.mjs can fetch the deployed custom-domain loader and release assets and the unchanged P12 plus exhaustive V101 desktop/mobile browser suites all pass.",
   "deployment_url": "https://thiepn.dev/markdown/"
 }
