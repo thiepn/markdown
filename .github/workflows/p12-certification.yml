@@ -3,9 +3,11 @@ name: P12 Certification
 on:
   push:
     branches:
+      - main
       - p12-release-certification
   pull_request:
     branches:
+      - main
       - p11-showcase-content-expansion
   workflow_dispatch:
 
