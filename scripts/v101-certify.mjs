@@ -5,6 +5,24 @@ import vm from 'node:vm';
 const read=p=>fs.readFileSync(p,'utf8');
 const assert=(ok,msg)=>{if(!ok)throw new Error(msg);console.log('PASS · '+msg)};
 const hash=s=>crypto.createHash('sha256').update(Buffer.from(s,'utf8')).digest('hex');
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+
+async function fetchLive(url,needle,label){
+  let last='not attempted';
+  for(let attempt=1;attempt<=12;attempt++){
+    try{
+      const r=await fetch(url,{redirect:'follow',cache:'no-store',headers:{'user-agent':'MARKDOWN-LAB-v101-certifier'}});
+      const text=await r.text();
+      last=`HTTP ${r.status} · ${r.url}`;
+      if(r.ok&&text.includes(needle)){
+        console.log(`PASS · live ${label} · ${r.url}`);
+        return {url:r.url,status:r.status,bytes:Buffer.byteLength(text)};
+      }
+    }catch(e){last=String(e?.message||e)}
+    if(attempt<12)await sleep(5000);
+  }
+  throw new Error(`live ${label} failed after retries: ${last}`);
+}
 
 const interaction=read('assets/v101/interaction.js');
 const browserGate=read('assets/v101/certify.js');
@@ -30,7 +48,28 @@ const p11=loader.indexOf('assets/p11/showcase.js'),interactionAt=loader.indexOf(
 assert(p11>=0&&interactionAt>p11&&gateAt>interactionAt&&p12>gateAt,'Loader order is P11 → v1.0.1 interaction → v1.0.1 gate → P12');
 assert(loader.includes('2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a'),'v1.0.1 loader preserves certified P10 runtime hash');
 
-const report={gate:'V101_REPOSITORY_CERTIFIED',version:'1.0.1',interaction_sha256:hash(interaction),browser_gate_sha256:hash(browserGate),scenarios:scenarios.length,routes:routes.length,checked_at:new Date().toISOString()};
+const manifest=JSON.parse(read('release/v1.0.1-manifest.json'));
+assert(manifest.version==='1.0.1','v1.0.1 manifest version is correct');
+assert(manifest.release_gate==='V101_INTERACTION_CERTIFIED','v1.0.1 manifest pins interaction certification gate');
+assert(['certified-release-candidate','released'].includes(manifest.release_state),'v1.0.1 release state is valid');
+assert(manifest.runtime_baseline.p10_sha256==='2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a','v1.0.1 manifest preserves P10 baseline');
+assert(manifest.runtime_baseline.v101_interaction_sha256===hash(interaction),'v1.0.1 manifest pins interaction source hash');
+assert(manifest.runtime_baseline.v101_browser_gate_sha256===hash(browserGate),'v1.0.1 manifest pins browser gate hash');
+assert(manifest.coverage.labs===13&&manifest.coverage.executable_demos===13&&manifest.coverage.guided_routes===4,'v1.0.1 manifest records complete interaction coverage');
+assert(fs.existsSync('V101_RELEASE.md'),'v1.0.1 release handoff exists');
+assert(read('CHANGELOG.md').includes('1.0.1 — Interaction & Demonstration Reconstruction'),'v1.0.1 changelog entry exists');
+
+let live=null;
+if(manifest.release_state==='released'){
+  assert(fs.existsSync('release/V101_RELEASED.txt'),'guarded V101_RELEASED marker exists');
+  const base=manifest.deployment_url;
+  const home=await fetchLive(base,'assets/v101/interaction.js','v1.0.1 deployed loader');
+  const interactionLive=await fetchLive(new URL('assets/v101/interaction.js',base).href,'Run this demo','v1.0.1 interaction asset');
+  const gateLive=await fetchLive(new URL('assets/v101/certify.js',base).href,'V101_INTERACTION_CERTIFIED','v1.0.1 browser gate asset');
+  live={home,interaction:interactionLive,browser_gate:gateLive};
+}
+
+const report={gate:'V101_REPOSITORY_CERTIFIED',version:'1.0.1',release_state:manifest.release_state,interaction_sha256:hash(interaction),browser_gate_sha256:hash(browserGate),scenarios:scenarios.length,routes:routes.length,live,checked_at:new Date().toISOString()};
 fs.mkdirSync('artifacts',{recursive:true});fs.writeFileSync('artifacts/v101-static-report.json',JSON.stringify(report,null,2)+'\n');
 console.log('\nv1.0.1 INTERACTION REPOSITORY CERTIFICATION: PASS');
 console.log(JSON.stringify(report,null,2));
