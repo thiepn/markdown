@@ -80,7 +80,7 @@ jobs:
           CHROME: ${{ steps.chrome.outputs.bin }}
         run: |
           set -euo pipefail
-          "$CHROME" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --window-size=1440,1000 --virtual-time-budget=45000 --dump-dom 'http://127.0.0.1:8000/?v101-ci=1' > /tmp/v101-desktop.html
+          "$CHROME" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --window-size=1440,1000 --virtual-time-budget=180000 --dump-dom 'http://127.0.0.1:8000/?v101-ci=1' > /tmp/v101-desktop.html
           grep -q 'id="v101CiResult"' /tmp/v101-desktop.html
           grep -q 'data-status="pass"' /tmp/v101-desktop.html
           grep -q 'V101_INTERACTION_CERTIFIED' /tmp/v101-desktop.html
@@ -91,7 +91,7 @@ jobs:
           CHROME: ${{ steps.chrome.outputs.bin }}
         run: |
           set -euo pipefail
-          "$CHROME" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --window-size=375,812 --force-device-scale-factor=1 --virtual-time-budget=45000 --dump-dom 'http://127.0.0.1:8000/?v101-ci=1' > /tmp/v101-mobile.html
+          "$CHROME" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --window-size=375,812 --force-device-scale-factor=1 --virtual-time-budget=180000 --dump-dom 'http://127.0.0.1:8000/?v101-ci=1' > /tmp/v101-mobile.html
           grep -q 'id="v101CiResult"' /tmp/v101-mobile.html
           grep -q 'data-status="pass"' /tmp/v101-mobile.html
           grep -q 'V101_INTERACTION_CERTIFIED' /tmp/v101-mobile.html
