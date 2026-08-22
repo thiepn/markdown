@@ -58,7 +58,7 @@ assert((p11.match(/data-p11-scenario/g)||[]).length>=1,'P11 scenario controls ar
 assert(p11.includes("grant('Chaos Engineer')"),'Chaos Engineer has concrete unlock path');
 assert(p11.includes("grant('Final Form Composer')"),'Final Form Composer has concrete unlock path');
 assert(p12.includes('P12_RELEASE_CERTIFIED'),'P12 browser gate exposes certification token');
-assert(p12.includes("CHAOS_IDS=['markdown-fence','worker-timeout','mermaid-invalid','data-type-skew','api-http-error','sandbox-storage']"),'P12 browser suite covers all six chaos mutations');
+for(const id of chaosIds)assert(p12.includes(`'${id}'`),`P12 browser suite covers chaos mutation '${id}'`);
 
 for(const id of ['ed','js','timeout','mermaidSource','dataSource','apiExample'])assert(html.includes(`id="${id}"`)||html.includes(`id='${id}'`),`P10 target #${id} exists for P11 recovery`);
 for(let i=0;i<13;i++){const id=String(i).padStart(2,'0');assert(html.includes(`data-lab="${id}"`)||html.includes(`data-lab='${id}'`),`P10 lab navigation contains ${id}`)}
