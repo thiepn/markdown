@@ -8,6 +8,24 @@ const assert=(ok,msg)=>{if(!ok)throw new Error(msg);console.log('PASS · '+msg)}
 const hash=s=>crypto.createHash('sha256').update(Buffer.from(s,'utf8')).digest('hex');
 const gunzip64=s=>zlib.gunzipSync(Buffer.from(s,'base64')).toString('utf8');
 const join=paths=>paths.map(p=>read(p).trim()).join('');
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+
+async function fetchLive(url,needle,label){
+  let last='not attempted';
+  for(let attempt=1;attempt<=12;attempt++){
+    try{
+      const r=await fetch(url,{redirect:'follow',cache:'no-store',headers:{'user-agent':'MARKDOWN-LAB-v1-release-certifier'}});
+      const text=await r.text();
+      last=`HTTP ${r.status} · ${r.url}`;
+      if(r.ok&&text.includes(needle)){
+        console.log(`PASS · live ${label} · ${r.url}`);
+        return {url:r.url,status:r.status,bytes:Buffer.byteLength(text)};
+      }
+    }catch(e){last=String(e?.message||e)}
+    if(attempt<12)await sleep(5000);
+  }
+  throw new Error(`live ${label} failed after retries: ${last}`);
+}
 
 const p7=[...Array.from({length:26},(_,i)=>`assets/p7/runtime/payload-${String(i+1).padStart(2,'0')}.txt`),'assets/p7/runtime/payload-27-1.txt','assets/p7/runtime/payload-27-2.txt',...Array.from({length:3},(_,i)=>`assets/p7/runtime/payload-${i+28}.txt`)];
 const p7b=join(p7);
@@ -91,7 +109,17 @@ assert(fs.existsSync('CHANGELOG.md'),'v1 changelog exists');
 const workflow=read('.github/workflows/p12-certification.yml');
 assert(workflow.includes('- main'),'Certification workflow covers main branch promotion');
 
-const report={gate:'REPOSITORY_CERTIFIED',phase:'P12',version:manifest.version,release_version:v1.version,release_gate:v1.release_gate,p10_sha256:hash(html),p11_sha256:hash(p11),p12_sha256:hash(p12),scenarios:scenarioIds.length,compositions:compIds.length,chaos:chaosIds.length,checked_at:new Date().toISOString()};
+let live=null;
+if(v1.release_gate==='V1_RELEASED'){
+  assert(fs.existsSync('release/V1_RELEASED.txt'),'guarded V1_RELEASED marker exists');
+  const base=v1.live_verification.github_pages_url;
+  const home=await fetchLive(base,v1.live_verification.required_loader_marker,'GitHub Pages loader');
+  const p11Live=await fetchLive(new URL('assets/p11/showcase.js',base).href,"id:'system-baseline'",'P11 showcase asset');
+  const p12Live=await fetchLive(new URL('assets/p12/certify.js',base).href,'P12_RELEASE_CERTIFIED','P12 certification asset');
+  live={home,p11:p11Live,p12:p12Live};
+}
+
+const report={gate:'REPOSITORY_CERTIFIED',phase:'P12',version:manifest.version,release_version:v1.version,release_gate:v1.release_gate,p10_sha256:hash(html),p11_sha256:hash(p11),p12_sha256:hash(p12),scenarios:scenarioIds.length,compositions:compIds.length,chaos:chaosIds.length,live,checked_at:new Date().toISOString()};
 fs.mkdirSync('artifacts',{recursive:true});fs.writeFileSync('artifacts/p12-static-report.json',JSON.stringify(report,null,2)+'\n');
 console.log('\nP12 REPOSITORY CERTIFICATION: PASS');
 console.log(JSON.stringify(report,null,2));
