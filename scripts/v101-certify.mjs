@@ -25,8 +25,10 @@ async function fetchLive(url,needle,label){
 }
 
 const interaction=read('assets/v101/interaction.js');
+const lab03Fix=read('assets/v101/lab03-fix.js');
 const browserGate=read('assets/v101/certify.js');
 new vm.Script(interaction,{filename:'interaction.js'});console.log('PASS · v1.0.1 interaction JavaScript parses');
+new vm.Script(lab03Fix,{filename:'lab03-fix.js'});console.log('PASS · Lab 03 deterministic controller parses');
 new vm.Script(browserGate,{filename:'v101-certify.js'});console.log('PASS · v1.0.1 browser gate JavaScript parses');
 
 const scenarios=['system-baseline','parser-specimen','worker-telemetry','polyglot-statistics','math-expression','diagram-pipeline','typed-benchmark','api-error-recovery','browser-worker','terminal-orchestration','component-gallery','chaos-recovery','final-form'];
@@ -39,13 +41,17 @@ assert(interaction.includes('Run this demo'),'Persistent workbench exposes an ex
 assert(interaction.includes('dataToSql'),'Document → Data → SQL route uses the real SQLite handoff');
 assert(interaction.includes('routeMove'),'Guided routes implement persistent step progression');
 assert(interaction.includes('data-status'),'Visible workbench feedback exposes machine-verifiable status');
+assert(lab03Fix.includes("id==='polyglot-statistics'"),'Lab 03 controller intercepts the Polyglot Statistics demo');
+assert(lab03Fix.includes('[data-lang="rust"]'),'Lab 03 deterministic path selects the built-in WASM companion surface');
+assert(lab03Fix.includes("mode:'built-in-webassembly'"),'Lab 03 controller declares deterministic built-in WebAssembly mode');
+assert(lab03Fix.includes('lazy-pyodide'),'Lab 03 keeps Python available as the explicit lazy Pyodide runtime');
 assert(browserGate.includes('V101_INTERACTION_CERTIFIED'),'Browser gate exposes exact v1.0.1 certification token');
-assert(browserGate.includes("runScenario('parser-specimen'"),'Browser gate executes a real visible parser demo');
+assert(browserGate.includes('All 13 one-click executable demos'),'Browser gate exhaustively executes the 13 demo contract');
 assert(browserGate.includes("startRoute('terminal-chaos'"),'Browser gate executes a real multi-step guided route');
 
 const loader=read('index.html');
-const p11=loader.indexOf('assets/p11/showcase.js'),interactionAt=loader.indexOf('assets/v101/interaction.js'),gateAt=loader.indexOf('assets/v101/certify.js'),p12=loader.indexOf('assets/p12/certify.js');
-assert(p11>=0&&interactionAt>p11&&gateAt>interactionAt&&p12>gateAt,'Loader order is P11 → v1.0.1 interaction → v1.0.1 gate → P12');
+const p11=loader.indexOf('assets/p11/showcase.js'),interactionAt=loader.indexOf('assets/v101/interaction.js'),lab03At=loader.indexOf('assets/v101/lab03-fix.js'),gateAt=loader.indexOf('assets/v101/certify.js'),p12=loader.indexOf('assets/p12/certify.js');
+assert(p11>=0&&interactionAt>p11&&lab03At>interactionAt&&gateAt>lab03At&&p12>gateAt,'Loader order is P11 → interaction → Lab 03 fix → exhaustive gate → P12');
 assert(loader.includes('2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a'),'v1.0.1 loader preserves certified P10 runtime hash');
 
 const manifest=JSON.parse(read('release/v1.0.1-manifest.json'));
@@ -69,7 +75,7 @@ if(manifest.release_state==='released'){
   live={home,interaction:interactionLive,browser_gate:gateLive};
 }
 
-const report={gate:'V101_REPOSITORY_CERTIFIED',version:'1.0.1',release_state:manifest.release_state,interaction_sha256:hash(interaction),browser_gate_sha256:hash(browserGate),scenarios:scenarios.length,routes:routes.length,live,checked_at:new Date().toISOString()};
+const report={gate:'V101_REPOSITORY_CERTIFIED',version:'1.0.1',release_state:manifest.release_state,interaction_sha256:hash(interaction),lab03_fix_sha256:hash(lab03Fix),browser_gate_sha256:hash(browserGate),scenarios:scenarios.length,routes:routes.length,lab03_demo_mode:'built-in-webassembly',live,checked_at:new Date().toISOString()};
 fs.mkdirSync('artifacts',{recursive:true});fs.writeFileSync('artifacts/v101-static-report.json',JSON.stringify(report,null,2)+'\n');
 console.log('\nv1.0.1 INTERACTION REPOSITORY CERTIFICATION: PASS');
 console.log(JSON.stringify(report,null,2));
