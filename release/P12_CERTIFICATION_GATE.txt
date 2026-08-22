@@ -1,0 +1,3 @@
+P12_RELEASE_CERTIFIED
+
+This token is not a standalone release claim. It is the exact success token that the P12 repository and browser certification gates must emit with zero failed checks before promotion.
