@@ -1,5 +1,49 @@
 # Changelog
 
+## 1.1.0 — Product Usability & Information Architecture Reconstruction
+
+Release-candidate reconstruction of the first-use experience after v1.0.1 made every laboratory and demonstration visibly executable.
+
+### Product entry
+
+- replaces phase-first `P11` landing copy with plain-language `MARKDOWN//LAB` product identity
+- primary message is now `Learn Markdown by doing.`
+- explains Markdown, code, math, diagrams, data, browser APIs, and publishing workflows without requiring knowledge of internal project phases
+- replaces release-state chip noise with six capability labels: Markdown, Code, Math, Diagrams, Data, Browser
+- Start Here guidance directs new users to an obvious first action
+
+### Task-first navigation
+
+- adds three prominent quick starts inside the laboratory navigation surface
+- `Start with Markdown` opens Lab 01
+- `Take the guided tour` launches the existing Markdown → Diagram → Final Form route
+- `Open Final Form` opens the end-to-end composition workbench
+- preserves the v1.0.1 navigation → immediate workbench ordering contract
+
+### Laboratory discovery
+
+- adds searchable discovery across all 13 labs
+- adds five filters: Markdown, Code, Visual & data, Web & tools, Advanced
+- displays a live visible-lab count
+- `/` focuses lab search when another input is not active
+- lab selections create `#lab-XX` deep links outside certification modes
+- direct `#lab-XX` visits reopen the intended laboratory
+
+### Product-language cleanup
+
+- `P11 Showcase Deck` becomes `Demos & Guided Routes`
+- demo section headline becomes `Try a prepared example.`
+- `GUIDED / ADVANCED / STRESS` becomes `BEGINNER / DEEP DIVE / STRESS TEST`
+- metrics become `Demos Tried / Recoveries / Final Form Runs / Achievements`
+- P12 is retained but demoted to `Developer Verification / Regression Checks`
+
+### Certification
+
+- adds independent `V110_USABILITY_CERTIFIED` browser gate
+- verifies plain-language entry, 3/3 quick starts, Markdown start path, search discovery, category filtering, guided-tour launch, demo-library clarity, and viewport containment
+- v1.1.0 certification runs independently on desktop and mobile-width Chromium
+- P12 and v1.0.1 exhaustive 13/13 interaction gates remain mandatory
+
 ## 1.0.1 — Interaction & Demonstration Reconstruction
 
 Corrective release for the post-v1.0.0 interaction defect where laboratory navigation and showcase buttons changed hidden state or prefilled controls without consistently exposing or executing the resulting workbench.

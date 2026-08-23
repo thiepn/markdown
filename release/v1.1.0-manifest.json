@@ -1,0 +1,59 @@
+{
+  "project": "MARKDOWN//LAB",
+  "version": "1.1.0",
+  "release_gate": "V110_USABILITY_CERTIFIED",
+  "release_state": "certified-release-candidate",
+  "canonical_branch": "main",
+  "source_branch": "v1.1.0-usability-ia",
+  "base_release": "1.0.1",
+  "problem": "The application is functionally complete but its entry experience still reads like internal phase/release documentation. New users encounter implementation jargon, certification language, and a dense 13-lab wall before receiving a clear task-first starting point.",
+  "usability_contract": [
+    "the landing hero explains the product in plain language",
+    "three task-first quick starts provide obvious entry paths",
+    "laboratories are searchable by capability",
+    "laboratories can be filtered into five user-facing categories",
+    "Start with Markdown opens Lab 01 while preserving the immediate workbench contract",
+    "the guided-tour quick start launches a real existing multi-lab route",
+    "lab selection is deep-linkable with #lab-XX hashes outside certification mode",
+    "demo and certification sections use product-facing language instead of phase-first jargon",
+    "product-facing demo-library language is restored immediately after lab navigation and after the legacy delayed layout pass",
+    "the deterministic Lab 03 WebAssembly demo remains stable under Chromium virtual-time certification without modifying the released v1.0.1 controller",
+    "existing P12 and v1.0.1 interaction certification remain mandatory"
+  ],
+  "runtime_baseline": {
+    "p10_sha256": "2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a",
+    "v101_release": "1.0.1",
+    "v110_lab03_stability_git_blob_sha1": "05b29207ea5b8510119243bce74912abcdf76587",
+    "v110_usability_git_blob_sha1": "9f32851ee46b024c1563e3c497591a7646ca6396",
+    "v110_browser_gate_git_blob_sha1": "9ec93b6efb7b28c81b5e2796ac9e41cbd9461c51"
+  },
+  "coverage": {
+    "labs": 13,
+    "quick_starts": 3,
+    "lab_categories": 5,
+    "search": true,
+    "deep_links": true,
+    "browser_usability_checks": 8,
+    "lab03_virtual_time_stability": true
+  },
+  "certification_basis": {
+    "workflow": "P12 Certification",
+    "run_number": 82,
+    "run_id": 32642548092,
+    "head_sha": "4d13232ca6907de0555d23b0d0ce83c9d0bd538b",
+    "repository_p12": "pass",
+    "repository_v101": "pass",
+    "repository_v110": "pass",
+    "desktop_p12": "pass",
+    "mobile_p12": "pass",
+    "desktop_v101": "pass including 13/13 executable demos",
+    "mobile_v101": "pass including 13/13 executable demos",
+    "desktop_v110": "8/8 pass",
+    "mobile_v110": "8/8 pass",
+    "lab03_virtual_time_stability": "pass",
+    "evidence_artifact_id": 9493994177,
+    "evidence_sha256": "d4172c60ab960ed1086d636d8c60ef4a661a76afc637cae5d1057c9d45f7a786"
+  },
+  "promotion_rule": "Promote only after repository certification plus desktop/mobile P12, v1.0.1 exhaustive interaction, and v1.1.0 usability browser gates all pass on the metadata-complete candidate head.",
+  "deployment_url": "https://thiepn.dev/markdown/"
+}
