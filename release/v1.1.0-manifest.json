@@ -37,10 +37,22 @@
     "lab03_virtual_time_stability": true
   },
   "certification_basis": {
-    "status": "pending recertification after Lab 03 virtual-time stability hardening",
-    "superseded_run_number": 76,
-    "superseded_run_id": 32642256487,
-    "reason": "Run 78 reproduced an intermittent Lab 03 virtual-clock timeout on identical product source, so a v1.1-only tick-bounded compatibility layer was added before promotion."
+    "workflow": "P12 Certification",
+    "run_number": 82,
+    "run_id": 32642548092,
+    "head_sha": "4d13232ca6907de0555d23b0d0ce83c9d0bd538b",
+    "repository_p12": "pass",
+    "repository_v101": "pass",
+    "repository_v110": "pass",
+    "desktop_p12": "pass",
+    "mobile_p12": "pass",
+    "desktop_v101": "pass including 13/13 executable demos",
+    "mobile_v101": "pass including 13/13 executable demos",
+    "desktop_v110": "8/8 pass",
+    "mobile_v110": "8/8 pass",
+    "lab03_virtual_time_stability": "pass",
+    "evidence_artifact_id": 9493994177,
+    "evidence_sha256": "d4172c60ab960ed1086d636d8c60ef4a661a76afc637cae5d1057c9d45f7a786"
   },
   "promotion_rule": "Promote only after repository certification plus desktop/mobile P12, v1.0.1 exhaustive interaction, and v1.1.0 usability browser gates all pass on the metadata-complete candidate head.",
   "deployment_url": "https://thiepn.dev/markdown/"
