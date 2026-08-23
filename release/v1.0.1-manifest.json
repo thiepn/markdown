@@ -4,7 +4,7 @@
   "release_gate": "V101_INTERACTION_CERTIFIED",
   "release_state": "released",
   "canonical_branch": "main",
-  "source_branch": "v1.0.1-interaction-reconstruction",
+  "source_branch": "v1.0.1-full-demo-certification",
   "base_release": "1.0.0",
   "problem": "Laboratory and showcase controls frequently changed hidden state or prefilled inputs without bringing the workbench into view, executing the demonstration, or exposing a clear result. The first exhaustive post-release audit additionally found that Lab 03 depended on a cold Pyodide download and could time out before producing visible feedback.",
   "interaction_contract": [
@@ -21,6 +21,7 @@
     "p11_sha256": "c2dd4da9142c3ef671de2344c1a33977580236d68b0c1191805d865e4706d790",
     "v101_interaction_sha256": "82cf4e92451cf5d2105d003c6a32981ee8613e4e73f636184cd9efe59b5df280",
     "v101_browser_gate_sha256": "66ffac1bc738aec803450d8e5beb6d6430cdbf792c7e42cc63938f837a38b8dd",
+    "lab03_controller_blob_sha": "cbe7d02d783d2181b200c4f4023c6d14efecfd55",
     "lab03_default_demo": "built-in WebAssembly companion",
     "lab03_python_mode": "lazy Pyodide"
   },
@@ -33,9 +34,9 @@
   },
   "certification_basis": {
     "workflow": "P12 Certification",
-    "run_number": 58,
-    "run_id": 32598253333,
-    "head_sha": "1cde922b685d09751e0621c83223aa9a959fae20",
+    "run_number": 61,
+    "run_id": 32598355739,
+    "head_sha": "4ac27e8e56ddd4b4803a5107bb5534b380849b15",
     "repository_p12": "pass",
     "repository_v101": "pass",
     "desktop_p12": "pass",
@@ -43,13 +44,29 @@
     "desktop_v101": "5/5 pass including 13/13 executable demos",
     "mobile_v101": "5/5 pass including 13/13 executable demos",
     "lab03": "pass via deterministic built-in WebAssembly companion",
-    "evidence_artifact_id": 9482150275,
-    "evidence_sha256": "a5a26106fb8c52c2526104e92d4f75fecb021b384dd7864a39f759edf7061061"
+    "evidence_artifact_id": 9482176339,
+    "evidence_sha256": "ea0874c8b604c2166de63c3e8502802f86607e8f36c60c056f8cfa0c6e3f795"
   },
   "promotion": {
-    "pull_request": 3,
-    "main_commit": "8e2aff9c7ef907e97c40dc1ca54dd9ffd5a54951"
+    "pull_request": 5,
+    "main_commit": "850d83215b547ade0bb188e192212d6e85031090"
   },
-  "live_finalization_rule": "A released manifest is valid only when scripts/v101-certify.mjs can fetch the deployed custom-domain loader and release assets and the unchanged P12 plus exhaustive V101 desktop/mobile browser suites all pass.",
+  "live_closure": {
+    "pull_request": 6,
+    "workflow_run_number": 63,
+    "workflow_run_id": 32640972075,
+    "head_sha": "353216379732957d2db2a574b6f68eafe0a6490d",
+    "public_loader_with_lab03_controller": "pass",
+    "public_lab03_controller_asset": "pass",
+    "repository_p12": "pass",
+    "repository_v101": "pass",
+    "desktop_p12": "pass",
+    "mobile_p12": "pass",
+    "desktop_v101": "5/5 pass including 13/13 executable demos",
+    "mobile_v101": "5/5 pass including 13/13 executable demos",
+    "evidence_artifact_id": 9493586328,
+    "evidence_sha256": "388dea88e314589f2d65c81983c19c5c731761d0f6511dd41e8c6a5056ef6081"
+  },
+  "live_finalization_rule": "A released manifest is valid only when scripts/v101-certify.mjs can fetch the deployed custom-domain loader, confirm it references assets/v101/lab03-fix.js, retrieve the live Lab 03 controller, and the unchanged P12 plus exhaustive V101 desktop/mobile browser suites all pass.",
   "deployment_url": "https://thiepn.dev/markdown/"
 }

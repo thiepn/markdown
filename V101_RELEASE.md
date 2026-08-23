@@ -2,7 +2,7 @@
 
 ## Status
 
-**Released after guarded live verification; exhaustive one-click certification completed**
+**Released and live-closed after exhaustive one-click certification**
 
 Gate: `V101_INTERACTION_CERTIFIED`
 
@@ -62,7 +62,7 @@ This separates two concerns correctly:
 
 The original P12 suite remains intact and must continue to pass.
 
-The v1.0.1 interaction gate now validates five user-facing contracts:
+The v1.0.1 interaction gate validates five user-facing contracts:
 
 1. laboratory navigation is immediately followed by the active workbench;
 2. the executable interaction API exposes all 13 demos and 4 guided routes;
@@ -72,11 +72,15 @@ The v1.0.1 interaction gate now validates five user-facing contracts:
 
 These checks run separately in desktop and mobile-width Chromium.
 
-## Exhaustive certification evidence
+## Final pre-merge certification evidence
 
-Workflow run: `#58` / `32598253333`
+Workflow run: `#61` / `32598355739`
 
-Certified head: `1cde922b685d09751e0621c83223aa9a959fae20`
+Certified head: `4ac27e8e56ddd4b4803a5107bb5534b380849b15`
+
+Promotion PR: `#5`
+
+Promoted main commit: `850d83215b547ade0bb188e192212d6e85031090`
 
 Results:
 
@@ -88,14 +92,32 @@ Results:
 - v1.0.1 mobile interaction: **5/5 PASS, including 13/13 demos**
 - Lab 03 deterministic WebAssembly demonstration: PASS
 
-Evidence artifact: `9482150275`
+Evidence artifact: `9482176339`
 
-Evidence SHA-256: `a5a26106fb8c52c2526104e92d4f75fecb021b384dd7864a39f759edf7061061`
+Evidence SHA-256: `ea0874c8b604c2166de63c3e8502802f86607e8f36c60c056f8cfa0c6e3f795`
+
+## Final live-closure evidence
+
+Workflow run: `#63` / `32640972075`
+
+Closure head: `353216379732957d2db2a574b6f68eafe0a6490d`
+
+The released-state repository gate successfully fetched the public custom-domain deployment and verified:
+
+- `https://thiepn.dev/markdown/` serves a loader referencing `assets/v101/lab03-fix.js`;
+- the deployed `assets/v101/lab03-fix.js` exists and declares `built-in-webassembly`;
+- the deployed interaction layer and exhaustive browser gate remain reachable;
+- P12 desktop and mobile remain green;
+- exhaustive v1.0.1 desktop and mobile remain green with all 13 demos executed.
+
+Evidence artifact: `9493586328`
+
+Evidence SHA-256: `388dea88e314589f2d65c81983c19c5c731761d0f6511dd41e8c6a5056ef6081`
 
 Certified P10 baseline SHA-256 remains:
 
 `2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a`
 
-## Live-release guard
+## Release state
 
-The released state remains valid only while the deployed custom-domain application and its release assets are reachable and the complete P12 + exhaustive v1.0.1 desktop/mobile browser suite remains green.
+The Interaction & Demonstration Reconstruction is now fully closed: implementation, exhaustive 13/13 execution certification, promotion to `main`, public deployment of the Lab 03 fix, and desktop/mobile live-release verification are all complete.
