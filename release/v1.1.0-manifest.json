@@ -16,13 +16,13 @@
     "the guided-tour quick start launches a real existing multi-lab route",
     "lab selection is deep-linkable with #lab-XX hashes outside certification mode",
     "demo and certification sections use product-facing language instead of phase-first jargon",
-    "product-facing demo-library language persists after lab navigation without observing or mutating workbench execution",
+    "product-facing demo-library language is restored immediately after lab navigation and after the legacy delayed layout pass",
     "existing P12 and v1.0.1 interaction certification remain mandatory"
   ],
   "runtime_baseline": {
     "p10_sha256": "2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a",
     "v101_release": "1.0.1",
-    "v110_usability_git_blob_sha1": "2243df8915cb442027362024ca021066a6f530f1",
+    "v110_usability_git_blob_sha1": "9f32851ee46b024c1563e3c497591a7646ca6396",
     "v110_browser_gate_git_blob_sha1": "9ec93b6efb7b28c81b5e2796ac9e41cbd9461c51"
   },
   "coverage": {
