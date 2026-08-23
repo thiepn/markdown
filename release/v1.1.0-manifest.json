@@ -1,0 +1,37 @@
+{
+  "project": "MARKDOWN//LAB",
+  "version": "1.1.0",
+  "release_gate": "V110_USABILITY_CERTIFIED",
+  "release_state": "certified-release-candidate",
+  "canonical_branch": "main",
+  "source_branch": "v1.1.0-usability-ia",
+  "base_release": "1.0.1",
+  "problem": "The application is functionally complete but its entry experience still reads like internal phase/release documentation. New users encounter implementation jargon, certification language, and a dense 13-lab wall before receiving a clear task-first starting point.",
+  "usability_contract": [
+    "the landing hero explains the product in plain language",
+    "three task-first quick starts provide obvious entry paths",
+    "laboratories are searchable by capability",
+    "laboratories can be filtered into five user-facing categories",
+    "Start with Markdown opens Lab 01 while preserving the immediate workbench contract",
+    "the guided-tour quick start launches a real existing multi-lab route",
+    "lab selection is deep-linkable with #lab-XX hashes outside certification mode",
+    "demo and certification sections use product-facing language instead of phase-first jargon",
+    "existing P12 and v1.0.1 interaction certification remain mandatory"
+  ],
+  "runtime_baseline": {
+    "p10_sha256": "2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a",
+    "v101_release": "1.0.1",
+    "v110_usability_git_blob_sha1": "dca15cd80677a90ee29e54d7cb43d24c39485cf2",
+    "v110_browser_gate_git_blob_sha1": "099bd0a860a577c31e27fefcb65af8de9015898f"
+  },
+  "coverage": {
+    "labs": 13,
+    "quick_starts": 3,
+    "lab_categories": 5,
+    "search": true,
+    "deep_links": true,
+    "browser_usability_checks": 8
+  },
+  "promotion_rule": "Promote only after repository certification plus desktop/mobile P12, v1.0.1 exhaustive interaction, and v1.1.0 usability browser gates all pass on the metadata-complete candidate head.",
+  "deployment_url": "https://thiepn.dev/markdown/"
+}
