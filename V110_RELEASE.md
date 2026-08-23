@@ -66,6 +66,18 @@ Keeping these inside the navigation section preserves the v1.0.1 rule that the w
 - Metrics become **Demos Tried / Recoveries / Final Form Runs / Achievements**.
 - Product-facing copy is restored immediately after the legacy lab-layout pass so it does not revert during normal lab or guided-route navigation.
 
+### Lab 03 certification stability
+
+Repeated metadata-only runs exposed an intermittent certification-only timeout in the already deterministic Lab 03 WebAssembly demo. The released v1.0.1 controller uses elapsed `performance.now()` deadlines; Chromium headless virtual-time can advance that clock in large jumps and occasionally expire the wait before the lab workbench is observed.
+
+v1.1.0 adds a compatibility layer rather than modifying the released v1.0.1 asset:
+
+- keeps the same built-in WebAssembly path and visible `17 + 25 = 42` result;
+- uses bounded polling ticks instead of virtual-clock elapsed time;
+- retries the Lab 03 workbench activation once before failing;
+- intercepts only the `polyglot-statistics` API demo path;
+- leaves the historical v1.0.1 controller and its release blob pin unchanged.
+
 ### Release tooling is demoted
 
 The P12 surface remains available and functional, but its visible copy becomes **Developer Verification / Regression Checks** instead of presenting release machinery as a primary product concept.
@@ -85,13 +97,13 @@ The P12 surface remains available and functional, but its visible copy becomes *
 
 The v1.1.0 gate runs on both desktop and mobile-width Chromium.
 
-## Certified candidate evidence
+## Hardened certified candidate evidence
 
 Workflow: `P12 Certification`
 
-Run: `#76` / `32642256487`
+Run: `#82` / `32642548092`
 
-Certified head: `e63ade079e22818950b14baa93aa9e38b7d24ba1`
+Certified head: `4d13232ca6907de0555d23b0d0ce83c9d0bd538b`
 
 Results:
 
@@ -104,10 +116,13 @@ Results:
 - v1.0.1 exhaustive interaction mobile: **PASS, including 13/13 executable demos**
 - v1.1.0 desktop usability: **8/8 PASS**
 - v1.1.0 mobile usability: **8/8 PASS**
+- Lab 03 virtual-time stability layer: **PASS**
 
-Evidence artifact: `9493919065`
+Evidence artifact: `9493994177`
 
-Evidence SHA-256: `e056beb6c10aa5a5f4745a9caf2e70319d6360d205e21600a6dccb67f56a39cd`
+Evidence SHA-256: `d4172c60ab960ed1086d636d8c60ef4a661a76afc637cae5d1057c9d45f7a786`
+
+Run #76 is intentionally superseded because the Lab 03 stability layer was added afterward.
 
 ## Regression requirements
 
@@ -125,4 +140,4 @@ The certified P10 runtime baseline remains unchanged:
 
 ## Promotion rule
 
-The evidence above is frozen in the release manifest. The metadata-complete candidate head must pass the complete P12 + v1.0.1 + v1.1.0 suite again before PR #7 can merge. Production release status will then require a separate custom-domain live-deployment closure.
+The hardened evidence above is frozen in the release manifest. The metadata-complete candidate head must pass the complete P12 + v1.0.1 + v1.1.0 suite again before PR #7 can merge. Production release status will then require a separate custom-domain live-deployment closure.
