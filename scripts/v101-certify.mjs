@@ -61,7 +61,9 @@ assert(['certified-release-candidate','released'].includes(manifest.release_stat
 assert(manifest.runtime_baseline.p10_sha256==='2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a','v1.0.1 manifest preserves P10 baseline');
 assert(manifest.runtime_baseline.v101_interaction_sha256===hash(interaction),'v1.0.1 manifest pins interaction source hash');
 assert(manifest.runtime_baseline.v101_browser_gate_sha256===hash(browserGate),'v1.0.1 manifest pins browser gate hash');
-assert(manifest.coverage.labs===13&&manifest.coverage.executable_demos===13&&manifest.coverage.guided_routes===4,'v1.0.1 manifest records complete interaction coverage');
+assert(manifest.runtime_baseline.lab03_default_demo==='built-in WebAssembly companion','v1.0.1 manifest pins deterministic Lab 03 default');
+assert(manifest.runtime_baseline.lab03_python_mode==='lazy Pyodide','v1.0.1 manifest preserves explicit Python runtime mode');
+assert(manifest.coverage.labs===13&&manifest.coverage.executable_demos===13&&manifest.coverage.guided_routes===4&&manifest.coverage.browser_executed_demos===13,'v1.0.1 manifest records exhaustive interaction coverage');
 assert(fs.existsSync('V101_RELEASE.md'),'v1.0.1 release handoff exists');
 assert(read('CHANGELOG.md').includes('1.0.1 — Interaction & Demonstration Reconstruction'),'v1.0.1 changelog entry exists');
 
@@ -69,10 +71,11 @@ let live=null;
 if(manifest.release_state==='released'){
   assert(fs.existsSync('release/V101_RELEASED.txt'),'guarded V101_RELEASED marker exists');
   const base=manifest.deployment_url;
-  const home=await fetchLive(base,'assets/v101/interaction.js','v1.0.1 deployed loader');
+  const home=await fetchLive(base,'assets/v101/lab03-fix.js','v1.0.1 deployed loader with Lab 03 controller');
   const interactionLive=await fetchLive(new URL('assets/v101/interaction.js',base).href,'Run this demo','v1.0.1 interaction asset');
-  const gateLive=await fetchLive(new URL('assets/v101/certify.js',base).href,'V101_INTERACTION_CERTIFIED','v1.0.1 browser gate asset');
-  live={home,interaction:interactionLive,browser_gate:gateLive};
+  const lab03Live=await fetchLive(new URL('assets/v101/lab03-fix.js',base).href,"mode:'built-in-webassembly'",'Lab 03 deterministic controller asset');
+  const gateLive=await fetchLive(new URL('assets/v101/certify.js',base).href,'V101_INTERACTION_CERTIFIED','v1.0.1 exhaustive browser gate asset');
+  live={home,interaction:interactionLive,lab03_fix:lab03Live,browser_gate:gateLive};
 }
 
 const report={gate:'V101_REPOSITORY_CERTIFIED',version:'1.0.1',release_state:manifest.release_state,interaction_sha256:hash(interaction),lab03_fix_sha256:hash(lab03Fix),browser_gate_sha256:hash(browserGate),scenarios:scenarios.length,routes:routes.length,lab03_demo_mode:'built-in-webassembly',live,checked_at:new Date().toISOString()};
