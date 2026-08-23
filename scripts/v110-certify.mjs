@@ -5,6 +5,9 @@ import vm from 'node:vm';
 const read=p=>fs.readFileSync(p,'utf8');
 const assert=(ok,msg)=>{if(!ok)throw new Error(msg);console.log('PASS · '+msg)};
 const gitBlobSha=s=>{const b=Buffer.from(s,'utf8');return crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${b.length}\0`),b])).digest('hex')};
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+async function fetchLive(url,needles,label){const required=Array.isArray(needles)?needles:[needles];let last='not attempted';for(let attempt=1;attempt<=12;attempt++){try{const r=await fetch(url,{redirect:'follow',cache:'no-store',headers:{'user-agent':'MARKDOWN-LAB-v110-certifier'}});const text=await r.text();last=`HTTP ${r.status} · ${r.url}`;if(r.ok&&required.every(n=>text.includes(n))){console.log(`PASS · live ${label} · ${r.url}`);return{url:r.url,status:r.status,bytes:Buffer.byteLength(text)}}}catch(e){last=String(e?.message||e)}if(attempt<12)await sleep(5000)}throw new Error(`live ${label} failed after retries: ${last}`)}
+
 const stability=read('assets/v110/lab03-stability.js');
 const usability=read('assets/v110/usability.js');
 const browserGate=read('assets/v110/certify.js');
@@ -44,7 +47,18 @@ assert(manifest.coverage.labs===13&&manifest.coverage.quick_starts===3&&manifest
 assert(fs.existsSync('V110_RELEASE.md'),'v1.1.0 release handoff exists');
 assert(read('CHANGELOG.md').includes('1.1.0 — Product Usability & Information Architecture Reconstruction'),'v1.1.0 changelog entry exists');
 
-const report={gate:'V110_REPOSITORY_CERTIFIED',version:'1.1.0',release_state:manifest.release_state,lab03_stability_git_blob_sha1:gitBlobSha(stability),usability_git_blob_sha1:gitBlobSha(usability),browser_gate_git_blob_sha1:gitBlobSha(browserGate),labs:13,quick_starts:3,categories:5,checked_at:new Date().toISOString()};
+let live=null;
+if(manifest.release_state==='released'){
+  assert(fs.existsSync('release/V110_RELEASED.txt'),'guarded V110_RELEASED marker exists');
+  const base=manifest.deployment_url;
+  const home=await fetchLive(base,['assets/v110/lab03-stability.js','assets/v110/usability.js','assets/v110/certify.js'],'v1.1.0 deployed loader');
+  const stabilityLive=await fetchLive(new URL('assets/v110/lab03-stability.js',base).href,['tickWait','tick-bounded-webassembly'],'v1.1.0 Lab 03 stability asset');
+  const usabilityLive=await fetchLive(new URL('assets/v110/usability.js',base).href,['Learn Markdown','v110Search'],'v1.1.0 usability asset');
+  const gateLive=await fetchLive(new URL('assets/v110/certify.js',base).href,'V110_USABILITY_CERTIFIED','v1.1.0 browser gate asset');
+  live={home,lab03_stability:stabilityLive,usability:usabilityLive,browser_gate:gateLive};
+}
+
+const report={gate:'V110_REPOSITORY_CERTIFIED',version:'1.1.0',release_state:manifest.release_state,lab03_stability_git_blob_sha1:gitBlobSha(stability),usability_git_blob_sha1:gitBlobSha(usability),browser_gate_git_blob_sha1:gitBlobSha(browserGate),labs:13,quick_starts:3,categories:5,live,checked_at:new Date().toISOString()};
 fs.mkdirSync('artifacts',{recursive:true});fs.writeFileSync('artifacts/v110-static-report.json',JSON.stringify(report,null,2)+'\n');
 console.log('\nv1.1.0 USABILITY REPOSITORY CERTIFICATION: PASS');
 console.log(JSON.stringify(report,null,2));
