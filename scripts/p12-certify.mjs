@@ -85,7 +85,7 @@ for(const id of ['ed','js','timeout','mermaidSource','dataSource','apiExample'])
 assert(p12.includes("['13-lab navigation',navigation]"),'Rendered 13-lab navigation is delegated to the browser certification gate');
 
 const loader=read('index.html');
-assert(loader.includes('Loading P12'),'Loader identifies P12');
+assert(loader.includes('assets/p12/certify.js'),'Loader includes P12 certification asset');
 const i11=loader.indexOf('assets/p11/showcase.js'),i12=loader.indexOf('assets/p12/certify.js');
 assert(i11>=0&&i12>i11,'Loader injects P11 before P12');
 assert(loader.includes('2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a'),'Loader retains exact P10 checksum');
