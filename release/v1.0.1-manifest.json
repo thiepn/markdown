@@ -51,6 +51,22 @@
     "pull_request": 5,
     "main_commit": "850d83215b547ade0bb188e192212d6e85031090"
   },
+  "live_closure": {
+    "pull_request": 6,
+    "workflow_run_number": 63,
+    "workflow_run_id": 32640972075,
+    "head_sha": "353216379732957d2db2a574b6f68eafe0a6490d",
+    "public_loader_with_lab03_controller": "pass",
+    "public_lab03_controller_asset": "pass",
+    "repository_p12": "pass",
+    "repository_v101": "pass",
+    "desktop_p12": "pass",
+    "mobile_p12": "pass",
+    "desktop_v101": "5/5 pass including 13/13 executable demos",
+    "mobile_v101": "5/5 pass including 13/13 executable demos",
+    "evidence_artifact_id": 9493586328,
+    "evidence_sha256": "388dea88e314589f2d65c81983c19c5c731761d0f6511dd41e8c6a5056ef6081"
+  },
   "live_finalization_rule": "A released manifest is valid only when scripts/v101-certify.mjs can fetch the deployed custom-domain loader, confirm it references assets/v101/lab03-fix.js, retrieve the live Lab 03 controller, and the unchanged P12 plus exhaustive V101 desktop/mobile browser suites all pass.",
   "deployment_url": "https://thiepn.dev/markdown/"
 }
