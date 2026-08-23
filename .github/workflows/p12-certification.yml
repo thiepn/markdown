@@ -17,7 +17,7 @@ permissions:
 jobs:
   certify:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 12
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,6 +26,7 @@ jobs:
         run: |
           node scripts/p12-certify.mjs
           node scripts/v101-certify.mjs
+          node scripts/v110-certify.mjs
 
       - name: Resolve Chromium
         id: chrome
@@ -96,11 +97,33 @@ jobs:
           grep -q 'data-status="pass"' /tmp/v101-mobile.html
           grep -q 'V101_INTERACTION_CERTIFIED' /tmp/v101-mobile.html
 
+      - name: Desktop usability certification
+        shell: bash
+        env:
+          CHROME: ${{ steps.chrome.outputs.bin }}
+        run: |
+          set -euo pipefail
+          "$CHROME" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --window-size=1440,1000 --virtual-time-budget=30000 --dump-dom 'http://127.0.0.1:8000/?v110-ci=1' > /tmp/v110-desktop.html
+          grep -q 'id="v110CiResult"' /tmp/v110-desktop.html
+          grep -q 'data-status="pass"' /tmp/v110-desktop.html
+          grep -q 'V110_USABILITY_CERTIFIED' /tmp/v110-desktop.html
+
+      - name: Mobile usability certification
+        shell: bash
+        env:
+          CHROME: ${{ steps.chrome.outputs.bin }}
+        run: |
+          set -euo pipefail
+          "$CHROME" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --window-size=375,812 --force-device-scale-factor=1 --virtual-time-budget=30000 --dump-dom 'http://127.0.0.1:8000/?v110-ci=1' > /tmp/v110-mobile.html
+          grep -q 'id="v110CiResult"' /tmp/v110-mobile.html
+          grep -q 'data-status="pass"' /tmp/v110-mobile.html
+          grep -q 'V110_USABILITY_CERTIFIED' /tmp/v110-mobile.html
+
       - name: Emit certification summary
         if: always()
         shell: bash
         run: |
-          echo '## P12 + v1.0.1 Certification' >> "$GITHUB_STEP_SUMMARY"
+          echo '## P12 + v1.0.1 + v1.1.0 Certification' >> "$GITHUB_STEP_SUMMARY"
           if [ -f artifacts/p12-static-report.json ]; then
             echo '### P12' >> "$GITHUB_STEP_SUMMARY"
             echo '```json' >> "$GITHUB_STEP_SUMMARY"
@@ -113,10 +136,18 @@ jobs:
             cat artifacts/v101-static-report.json >> "$GITHUB_STEP_SUMMARY"
             echo '```' >> "$GITHUB_STEP_SUMMARY"
           fi
+          if [ -f artifacts/v110-static-report.json ]; then
+            echo '### v1.1.0 usability' >> "$GITHUB_STEP_SUMMARY"
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat artifacts/v110-static-report.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi
           [ -f /tmp/p12-desktop.html ] && echo '- P12 desktop browser DOM generated.' >> "$GITHUB_STEP_SUMMARY" || true
           [ -f /tmp/p12-mobile.html ] && echo '- P12 mobile browser DOM generated.' >> "$GITHUB_STEP_SUMMARY" || true
           [ -f /tmp/v101-desktop.html ] && echo '- v1.0.1 desktop interaction DOM generated.' >> "$GITHUB_STEP_SUMMARY" || true
           [ -f /tmp/v101-mobile.html ] && echo '- v1.0.1 mobile interaction DOM generated.' >> "$GITHUB_STEP_SUMMARY" || true
+          [ -f /tmp/v110-desktop.html ] && echo '- v1.1.0 desktop usability DOM generated.' >> "$GITHUB_STEP_SUMMARY" || true
+          [ -f /tmp/v110-mobile.html ] && echo '- v1.1.0 mobile usability DOM generated.' >> "$GITHUB_STEP_SUMMARY" || true
 
       - name: Upload certification evidence
         if: always()
@@ -126,9 +157,12 @@ jobs:
           path: |
             artifacts/p12-static-report.json
             artifacts/v101-static-report.json
+            artifacts/v110-static-report.json
             /tmp/p12-desktop.html
             /tmp/p12-mobile.html
             /tmp/v101-desktop.html
             /tmp/v101-mobile.html
+            /tmp/v110-desktop.html
+            /tmp/v110-mobile.html
             /tmp/markdown-lab-server.log
           if-no-files-found: warn
