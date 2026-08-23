@@ -64,6 +64,7 @@ Keeping these inside the navigation section preserves the v1.0.1 rule that the w
 - `Demo library — optional presets and guided routes` becomes **Try a prepared example.**
 - `GUIDED / ADVANCED / STRESS` becomes **BEGINNER / DEEP DIVE / STRESS TEST**.
 - Metrics become **Demos Tried / Recoveries / Final Form Runs / Achievements**.
+- Product-facing copy is restored immediately after the legacy lab-layout pass so it does not revert during normal lab or guided-route navigation.
 
 ### Release tooling is demoted
 
@@ -79,10 +80,34 @@ The P12 surface remains available and functional, but its visible copy becomes *
 4. search discovery isolates the Mermaid lab;
 5. Visual & Data category resolves exactly to Labs 04–06;
 6. the guided-tour CTA starts the real multi-lab route;
-7. the demo library uses product-facing language;
+7. the demo library uses product-facing language after real navigation;
 8. the page remains horizontally contained at the tested viewport.
 
 The v1.1.0 gate runs on both desktop and mobile-width Chromium.
+
+## Certified candidate evidence
+
+Workflow: `P12 Certification`
+
+Run: `#76` / `32642256487`
+
+Certified head: `e63ade079e22818950b14baa93aa9e38b7d24ba1`
+
+Results:
+
+- P12 repository certification: **PASS**
+- v1.0.1 repository certification: **PASS**
+- v1.1.0 repository certification: **PASS**
+- P12 desktop browser: **PASS**
+- P12 mobile browser: **PASS**
+- v1.0.1 exhaustive interaction desktop: **PASS, including 13/13 executable demos**
+- v1.0.1 exhaustive interaction mobile: **PASS, including 13/13 executable demos**
+- v1.1.0 desktop usability: **8/8 PASS**
+- v1.1.0 mobile usability: **8/8 PASS**
+
+Evidence artifact: `9493919065`
+
+Evidence SHA-256: `e056beb6c10aa5a5f4745a9caf2e70319d6360d205e21600a6dccb67f56a39cd`
 
 ## Regression requirements
 
@@ -97,3 +122,7 @@ A v1.1.0 release is invalid unless all previous gates also remain green:
 The certified P10 runtime baseline remains unchanged:
 
 `2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a`
+
+## Promotion rule
+
+The evidence above is frozen in the release manifest. The metadata-complete candidate head must pass the complete P12 + v1.0.1 + v1.1.0 suite again before PR #7 can merge. Production release status will then require a separate custom-domain live-deployment closure.
