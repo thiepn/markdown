@@ -16,14 +16,14 @@
     "exercise completion persists locally per lab and difficulty",
     "laboratory discovery surfaces expose 0/3 through 3/3 progress without locking any lab",
     "a recommended learning path covers Labs 01 through 12 while allowing arbitrary navigation",
-    "Markdown structured-practice grading requires both authored Markdown structure and a real rendered preview rather than brittle preview tag assumptions",
+    "Markdown structured-practice grading preserves the canonical in-memory completion engine while bridging authored semantic structure into the real rendered preview",
     "all v1.2.0, v1.1.0, v1.0.1, and P12 certification gates remain mandatory"
   ],
   "runtime_baseline": {
     "p10_sha256": "2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a",
     "v120_release": "1.2.0",
     "v130_learning_git_blob_sha1": "a30da6ce3ad7ab2fb6e5710799db94152548f7b4",
-    "v130_grading_fix_git_blob_sha1": "85a02047f7feebf71a999de874442ee43464c6c2",
+    "v130_grading_fix_git_blob_sha1": "c50fae9dfad35526425ed5f4cb334d350f0fac59",
     "v130_browser_gate_git_blob_sha1": "3b5dc985596b567629ad0667de6f6e32b43cc572"
   },
   "coverage": {
