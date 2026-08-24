@@ -2,20 +2,13 @@
 
 ## Status
 
-**Release candidate under certification**
+**Certified release candidate**
 
 Gate: `V140_MASTERY_CERTIFIED`
 
 ## Why this release exists
 
-v1.3.0 gives every laboratory real Beginner, Intermediate, and Advanced practice. The remaining learning problem is continuity: users can complete exercises, but there is no product-level answer to four practical questions:
-
-1. How much of each lab have I actually completed?
-2. Which labs are weak or unfinished?
-3. What should I review next?
-4. How can I keep my progress portable without an account?
-
-v1.4.0 adds a local mastery and review layer without introducing locks, accounts, streak pressure, or fake points.
+v1.3.0 gives every laboratory real Beginner, Intermediate, and Advanced practice. v1.4.0 adds continuity: mastery depth, weak-skill resurfacing, review timing, and portable local progress without accounts, locks, streak pressure, or fake points.
 
 ## Mastery model
 
@@ -26,66 +19,54 @@ Mastery is derived only from completed v1.3 exercises:
 - Advanced = 45 points
 - all three complete = 100% mastery for that lab
 
-Practice failures never remove completed mastery. They are tracked separately as a recent-check confidence signal.
+Practice failures never remove completed mastery. They remain a separate confidence signal.
 
-## Progress dashboard
+## Progress & Review
 
-A compact **Progress & Review** surface now lives inside laboratory discovery and shows:
+The discovery surface now includes:
 
 - overall weighted mastery;
 - exercises completed out of 39;
 - labs mastered out of 13;
-- current review/continuation queue size.
+- current review/continuation queue size;
+- all 13 labs with mastery, completion depth, status, confidence, and review timing.
 
-Expanding the surface reveals all 13 labs with mastery, exercise depth, status, recent check confidence, and next review state.
-
-## Weak-skill resurfacing
-
-Started but incomplete labs are immediately eligible for continued practice.
-
-The queue prioritizes:
-
-1. labs with more recorded failed checks;
-2. incomplete labs before already-mastered refreshes;
-3. lower mastery before higher mastery.
-
-This is deliberately separate from the v1.3 recommended learning path: the path suggests curriculum order, while v1.4 suggests what the individual user should revisit.
+Started-but-incomplete labs surface immediately. The queue prioritizes failed checks, then incomplete learning, then lower mastery.
 
 ## Review cadence
 
-Mastered labs enter a local review schedule:
+Mastered labs enter a local schedule:
 
 - first refresh after 7 days;
 - next refresh after 14 days;
 - later refreshes after 30 days.
 
-A review opens the real lab, selects the appropriate v1.3 exercise, and exposes **Verify review**. Verification delegates to the existing v1.3 `Check my work` grader; v1.4 does not invent a parallel answer checker.
+Review launches the real lab and appropriate v1.3 exercise. **Verify review** delegates to the existing v1.3 `Check my work` grader.
 
-## Practice outcome telemetry
+## Certification-discovered hardening
 
-From v1.4 onward, real v1.3 checks are counted per lab as pass/fail outcomes. The dashboard exposes the resulting pass percentage as a separate confidence signal.
+Certification exposed and corrected three integration edges before promotion:
 
-This telemetry is local only and does not reduce earned completion.
+1. v1.4 test data must be seeded before v1.3 initializes its canonical in-memory state;
+2. review navigation must wait for the intended lab's practice panel rather than any existing practice panel;
+3. the review bridge must survive v1.3 practice-panel rerenders without creating a self-triggering MutationObserver loop.
+
+The final runtime hardening restores only a missing bridge and records one practice outcome per grader execution.
 
 ## Data ownership
 
-- v1.4 review data is stored under `markdown-lab:v140-mastery`;
-- v1.3 exercise completion remains under `markdown-lab:v130-learning`;
-- **Export progress** produces one JSON snapshot containing both layers and the current summary;
-- **Reset review history** clears review dates and v1.4 check telemetry but intentionally preserves all completed v1.3 exercises.
+- v1.4 data: `markdown-lab:v140-mastery`;
+- v1.3 completion: `markdown-lab:v130-learning`;
+- Export progress creates one JSON snapshot containing both layers and current summary;
+- Reset review history clears review dates/check telemetry while preserving completed exercises.
 
 ## Freedom preserved
 
-- every lab remains unlocked;
-- free play remains available;
-- demos and guided routes remain available;
-- v1.3 practice remains optional;
-- review recommendations never gate navigation;
-- no streaks, penalties, or artificial daily quotas are introduced.
+Every lab, free-play surface, demo, guided route, and v1.3 practice activity remains unlocked and optional.
 
 ## Certification
 
-`V140_MASTERY_CERTIFIED` verifies 14 requirements on desktop and mobile:
+`V140_MASTERY_CERTIFIED` verifies 14 requirements independently on desktop and mobile:
 
 1. mastery dashboard;
 2. all 13 lab mastery rows;
@@ -102,16 +83,44 @@ This telemetry is local only and does not reduce earned completion.
 13. laboratory mastery decoration;
 14. horizontal viewport containment.
 
-## Regression requirements
+## Certified candidate evidence
 
-Promotion is invalid unless all prior release gates remain green:
+Certified head: `b0c9564bcde3b1934321a7a0c574e4675717cd12`
 
-- P12 repository + desktop/mobile;
-- v1.0.1 exhaustive desktop/mobile including 13/13 executable demos;
-- v1.1.0 usability desktop/mobile;
-- v1.2.0 workbench desktop/mobile;
-- v1.3.0 learning desktop/mobile 11/11;
-- v1.4.0 mastery desktop/mobile 14/14.
+### v1.4.0 mastery
+
+Run #12 / `32768100532`
+
+- repository: **PASS**
+- desktop: **14/14 PASS**
+- mobile: **14/14 PASS**
+- artifact: `9535177374`
+- SHA-256: `ca609c766d0291291e541e4d367f9efc512303e91da427a3be045e5747cd230e`
+
+### v1.3.0 learning
+
+Run #32 / `32768100530`
+
+- repository: **PASS**
+- desktop: **11/11 PASS**
+- mobile: **11/11 PASS**
+- artifact: `9535180715`
+- SHA-256: `d8975b27b4f518efd942faa82555a3c8d80fff34115d786b9ac8022a27786340`
+
+### Historical regression stack
+
+Run #133 / `32768100544`
+
+- P12 desktop/mobile: **PASS**
+- v1.0.1 exhaustive desktop/mobile: **PASS including 13/13 demos**
+- v1.1.0 desktop/mobile: **8/8 PASS**
+- v1.2.0 desktop/mobile: **8/8 PASS**
+- artifact: `9535191520`
+- SHA-256: `232f3634928880325b491505937647fe2caccaf153fe293583bfc397d1c35444`
+
+## Promotion rule
+
+The metadata-complete candidate head must reproduce all three workflows before PR #13 can merge. Production release status then requires separate custom-domain live closure.
 
 Certified P10 runtime baseline remains:
 
