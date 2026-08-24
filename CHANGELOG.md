@@ -1,5 +1,37 @@
 # Changelog
 
+## 1.3.0 — Guided Learning & Practice Reconstruction
+
+Adds an optional progressive learning layer on top of the certified v1.2.0 workbench without locking laboratories or replacing free play.
+
+### Guided practice
+
+- adds Beginner, Intermediate, and Advanced exercises to every Lab 00–12
+- provides 39 total exercises with a concrete task, hint, and reference workflow
+- validates completion against the real rendered/runtime state of each laboratory
+- preserves demos, guided routes, and unrestricted free play
+
+### Assistance and challenge mode
+
+- adds `Check my work` with explicit pass/not-yet feedback
+- adds hints that do not alter workbench state
+- adds reference answers/workflows that never auto-complete exercises
+- adds Challenge mode that disables hints and hides references while leaving lab functionality unchanged
+
+### Learning progress
+
+- persists exercise completion locally per lab and difficulty
+- shows `0/3` through `3/3` progress on laboratory discovery controls
+- keeps all 13 labs permanently unlocked
+- adds a recommended Lab 01 → 12 learning path that always remains optional
+
+### Certification
+
+- adds independent `V130_LEARNING_CERTIFIED` browser gate
+- verifies the complete 39-exercise curriculum, all three difficulty levels, unlocked navigation, real Markdown grading, progressive completion, persistence, hints/reference, Challenge mode, recommended-path navigation, and viewport containment
+- v1.3.0 certification runs independently on desktop and mobile-width Chromium
+- P12, v1.0.1 exhaustive 13/13 interaction, v1.1.0 usability, and v1.2.0 workbench gates remain mandatory
+
 ## 1.2.0 — Workbench UX & Visual Design Reconstruction
 
 Reconstructs the active laboratory experience after v1.1.0 fixed product entry, discovery, and first-use comprehension.
