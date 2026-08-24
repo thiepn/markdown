@@ -1,0 +1,7 @@
+MARKDOWN//LAB v1.3.0
+Release gate: V130_LEARNING_CERTIFIED
+State: released
+Canonical branch: main
+Promoted main commit: a87b8c5cd058e7eec1b8547dd4ea17fc388acc0f
+Custom-domain deployment: https://thiepn.dev/markdown/
+This marker is valid only when scripts/v130-certify.mjs passes the guarded custom-domain live closure, the v1.3.0 desktop/mobile learning certification passes, and the complete P12 + v1.0.1 + v1.1.0 + v1.2.0 regression stack remains green.
