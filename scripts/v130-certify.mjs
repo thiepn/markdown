@@ -18,7 +18,7 @@ new vm.Script(browserGate,{filename:'v130-certify.js'});console.log('PASS · v1.
 for(const token of ['markdown-lab:v130-learning','beginner','intermediate','advanced','v130Practice','Check my work','Challenge mode','free play','getProgress','nextRecommended'])assert(learning.includes(token),`learning source contains '${token}'`);
 for(const id of Array.from({length:13},(_,i)=>String(i).padStart(2,'0')))assert(learning.includes(`'${id}':{goal:`),`learning curriculum defines Lab ${id}`);
 for(const level of ['beginner','intermediate','advanced'])assert((learning.match(new RegExp(`${level}:\\[`, 'g'))||[]).length>=13,`learning curriculum defines ${level} exercises across all labs`);
-for(const token of ['source-plus-real-preview','intermediate','advanced','v130Check'])assert(grading.includes(token),`grading hardening contains '${token}'`);
+for(const token of ['semantic-source-to-real-preview-bridge','data-v130-semantic-bridge','intermediate','advanced','v130Check'])assert(grading.includes(token),`grading hardening contains '${token}'`);
 assert(browserGate.includes('V130_LEARNING_CERTIFIED'),'browser gate exposes exact v1.3.0 certification token');
 for(const check of ['Optional practice panel','39-exercise curriculum','Three difficulty levels','All labs remain unlocked','Real workbench success check','Progressive difficulty completion','Local progress persistence','Hint and reference support','Challenge mode','Recommended learning path','Responsive containment'])assert(browserGate.includes(check),`browser gate includes '${check}'`);
 
@@ -43,7 +43,7 @@ assert(manifest.release_gate==='V130_LEARNING_CERTIFIED','v1.3.0 manifest pins l
 assert(['certified-release-candidate','released'].includes(manifest.release_state),'v1.3.0 release state is valid');
 assert(manifest.runtime_baseline.p10_sha256==='2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a','v1.3.0 preserves P10 baseline');
 assert(manifest.runtime_baseline.v130_learning_git_blob_sha1===gitBlobSha(learning),'manifest pins v1.3.0 learning source Git blob');
-assert(manifest.runtime_baseline.v130_grading_fix_git_blob_sha1===gitBlobSha(grading),'manifest pins v1.3.0 grading hardening Git blob');
+assert(manifest.runtime_baseline.v130_grading_fix_git_blob_sha1===gitBlobSha(grading),'manifest pins v1.3.0 grading bridge Git blob');
 assert(manifest.runtime_baseline.v130_browser_gate_git_blob_sha1===gitBlobSha(browserGate),'manifest pins v1.3.0 browser gate Git blob');
 assert(manifest.coverage.labs===13&&manifest.coverage.difficulty_levels===3&&manifest.coverage.exercises===39&&manifest.coverage.browser_learning_checks===11,'manifest records complete learning coverage');
 assert(fs.existsSync('V130_RELEASE.md'),'v1.3.0 release handoff exists');
@@ -55,7 +55,7 @@ if(manifest.release_state==='released'){
   const base=manifest.deployment_url;
   const home=await fetchLive(base,['assets/v130/learning.js','assets/v130/grading-fix.js','assets/v130/certify.js'],'v1.3.0 deployed loader');
   const learningLive=await fetchLive(new URL('assets/v130/learning.js',base).href,['markdown-lab:v130-learning','Check my work','Challenge mode'],'v1.3.0 learning asset');
-  const gradingLive=await fetchLive(new URL('assets/v130/grading-fix.js',base).href,['source-plus-real-preview','v130Check'],'v1.3.0 grading hardening asset');
+  const gradingLive=await fetchLive(new URL('assets/v130/grading-fix.js',base).href,['semantic-source-to-real-preview-bridge','data-v130-semantic-bridge'],'v1.3.0 grading bridge asset');
   const gateLive=await fetchLive(new URL('assets/v130/certify.js',base).href,'V130_LEARNING_CERTIFIED','v1.3.0 browser gate asset');
   live={home,learning:learningLive,grading:gradingLive,browser_gate:gateLive};
 }
