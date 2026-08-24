@@ -2,9 +2,9 @@
   "project": "MARKDOWN//LAB",
   "version": "1.2.0",
   "release_gate": "V120_WORKBENCH_CERTIFIED",
-  "release_state": "certified-release-candidate",
+  "release_state": "released",
   "canonical_branch": "main",
-  "source_branch": "v1.2.0-workbench-ux",
+  "source_branch": "v1.2.0-live-closure",
   "base_release": "1.1.0",
   "problem": "v1.1.0 made the product understandable and discoverable, but the active laboratory workbench still inherits uneven typography, dense controls, inconsistent editor/output sizing, weak lab context, and no obvious escape path back to laboratory discovery.",
   "workbench_contract": [
@@ -52,6 +52,40 @@
     "evidence_artifact_id": 9522625032,
     "evidence_sha256": "47a00cdb602d1caaff6f8810a6e490ce28f478ded2bcd69526b8677e717bd15e"
   },
-  "promotion_rule": "Promote only after repository certification plus desktop/mobile P12, v1.0.1 exhaustive interaction, v1.1.0 usability, and v1.2.0 workbench browser gates all pass on the metadata-complete candidate head.",
+  "promotion": {
+    "pull_request": 9,
+    "merge_gate_run_number": 95,
+    "merge_gate_run_id": 32734523079,
+    "merge_gate_head_sha": "63070c05ee69c20b99f879d8532aa7a05d6f2557",
+    "merge_gate_evidence_artifact_id": 9522676908,
+    "merge_gate_evidence_sha256": "821180289b568f6d3e6dcb3693478fbf67ffa4fec3e5b47960244d3832e78f1a",
+    "main_commit": "96b8e747ee9a42c4b9d037b5381ff1e038430a5f"
+  },
+  "live_closure": {
+    "status": "pass",
+    "pull_request": 10,
+    "workflow": "P12 Certification",
+    "run_number": 97,
+    "run_id": 32734821921,
+    "head_sha": "c530c99d8edf41d691c7c415717de8e3214b09c1",
+    "public_loader": "pass",
+    "public_v120_workbench_asset": "pass",
+    "public_v120_browser_gate_asset": "pass",
+    "repository_p12": "pass",
+    "repository_v101": "pass",
+    "repository_v110": "pass with live custom-domain verification",
+    "repository_v120": "pass with live custom-domain verification",
+    "desktop_p12": "pass",
+    "mobile_p12": "pass",
+    "desktop_v101": "pass including 13/13 executable demos",
+    "mobile_v101": "pass including 13/13 executable demos",
+    "desktop_v110": "8/8 pass",
+    "mobile_v110": "8/8 pass",
+    "desktop_v120": "8/8 pass",
+    "mobile_v120": "8/8 pass",
+    "evidence_artifact_id": 9522791929,
+    "evidence_sha256": "4c9d1eecbc9fd366115731072ef28b17eaf615d044ac873075b5019d97f82a38"
+  },
+  "live_finalization_rule": "Released status is valid only when scripts/v120-certify.mjs retrieves the public custom-domain loader, confirms the v1.2.0 workbench and browser gate assets are referenced and retrievable with their required implementation markers, and the complete P12 + v1.0.1 + v1.1.0 + v1.2.0 desktop/mobile browser suite passes on the same closure candidate.",
   "deployment_url": "https://thiepn.dev/markdown/"
 }

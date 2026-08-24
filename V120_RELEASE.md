@@ -2,41 +2,28 @@
 
 ## Status
 
-**Certified release candidate**
+**Released — guarded live closure passed**
 
 Gate: `V120_WORKBENCH_CERTIFIED`
 
-## Why this release exists
+Production: `https://thiepn.dev/markdown/`
 
-v1.1.0 fixed first-use comprehension: visitors now understand what MARKDOWN//LAB is, can start from a clear task, search the 13 laboratories, and use guided routes.
+## Release purpose
 
-The next remaining product weakness is inside the laboratory itself. The underlying lab UI was built across many phases and therefore still feels uneven: editor sizes vary, results can be cramped, controls compete with content, the active lab is not explained in one consistent place, and returning to laboratory discovery is less obvious than it should be.
+v1.1.0 fixed first-use comprehension and laboratory discovery. v1.2.0 reconstructs the active laboratory itself so the application reads as one coherent workspace rather than a collection of phase-built panels.
 
-v1.2.0 reconstructs the workbench presentation without replacing the certified runtime or any laboratory behavior.
-
-## Product contract
-
-The active laboratory should read as one coherent workspace:
+The v1.2 workbench contract is:
 
 **lab context → controls/editor → visible result → persistent demo feedback → easy return to discovery**
-
-The previous v1.1.0 and v1.0.1 contracts remain mandatory.
 
 ## Implemented changes
 
 ### Dedicated workbench frame
 
-- every active laboratory is wrapped by `v120-workbench`;
-- the frame sits in the already-certified location immediately below laboratory navigation;
-- a new context strip displays the active lab number, plain-language title, and a one-sentence explanation of what the lab does;
-- context synchronizes across all Labs 00–12, including navigation initiated by demos and guided routes.
-
-### Escape path back to discovery
-
-- every workbench exposes **Back to laboratories**;
-- the action returns to the existing v1.1.0 discovery surface;
-- the existing lab remains selected rather than being reset;
-- focus is returned to lab search after navigation.
+- consistent `v120-workbench` frame across Labs 00–12;
+- active lab number, plain-language title, and purpose above the real controls;
+- context remains synchronized when navigation comes from labs, demos, or guided routes;
+- `Back to laboratories` returns to the v1.1 discovery surface without resetting active lab state.
 
 ### Editor readability
 
@@ -56,7 +43,7 @@ Editors remain vertically resizable.
 
 ### Result readability
 
-Known result surfaces now receive consistent containment and readable minimum heights, including:
+Known result surfaces now use stable minimum heights, readable line-height, and contained overflow:
 
 - Markdown preview
 - code output
@@ -69,78 +56,70 @@ Known result surfaces now receive consistent containment and readable minimum he
 - terminal log
 - accessibility audit results
 
-Long output is contained instead of expanding the page horizontally.
+Long results no longer need to expand the page horizontally.
 
 ### Controls and accessibility
 
-- workbench buttons receive minimum target heights;
-- mobile targets increase further;
-- inputs, selects, textareas, and buttons use consistent box sizing;
-- keyboard focus receives a strong visible outline;
-- disabled controls communicate unavailable state;
-- reduced-motion preferences suppress nonessential workbench animation.
-
-### Mobile
-
-- the lab context strip stacks cleanly;
-- Back to laboratories becomes full-width;
-- editor height is reduced without becoming cramped;
-- known result surfaces keep contained overflow;
-- horizontal viewport containment remains a release requirement.
+- consistent control box sizing;
+- minimum button target heights with larger mobile targets;
+- strong `:focus-visible` treatment;
+- clearer disabled state;
+- `prefers-reduced-motion` support;
+- mobile context strip stacks cleanly and the Back action becomes full-width.
 
 ## Certification
 
-`V120_WORKBENCH_CERTIFIED` independently verifies:
+`V120_WORKBENCH_CERTIFIED` verifies:
 
-1. dedicated workbench frame and lab metadata;
-2. synchronized context for all 13 laboratories;
+1. dedicated workbench frame;
+2. synchronized context for all 13 labs;
 3. readable Markdown editor metrics;
-4. readable Markdown result metrics;
+4. readable result metrics;
 5. usable primary control targets;
 6. laboratory navigation remains immediately followed by the workbench;
-7. known output surfaces use readable containment in their actual active labs;
-8. desktop/mobile horizontal viewport containment.
+7. ten known output surfaces are contained in their actual active labs;
+8. desktop/mobile horizontal containment.
 
-The v1.2.0 gate runs independently at desktop and mobile widths.
+All previous P12, v1.0.1, and v1.1.0 gates remain mandatory.
 
 ## Certified candidate evidence
 
-Workflow: `P12 Certification`
+Run `#93` / `32734352230` passed the complete repository + eight-browser-profile stack.
 
-Run: `#93` / `32734352230`
+Artifact: `9522625032`
 
-Certified head: `041b3d192ca51a2e51bf56102c2fe23ff22e46d0`
+SHA-256: `47a00cdb602d1caaff6f8810a6e490ce28f478ded2bcd69526b8677e717bd15e`
+
+The metadata-complete promotion gate run `#95` / `32734523079` reproduced the complete stack before PR #9 merged.
+
+Artifact: `9522676908`
+
+SHA-256: `821180289b568f6d3e6dcb3693478fbf67ffa4fec3e5b47960244d3832e78f1a`
+
+PR #9 promoted v1.2.0 to `main` at:
+
+`96b8e747ee9a42c4b9d037b5381ff1e038430a5f`
+
+## Production live closure
+
+Guarded live run `#97` / `32734821921` verified the public custom-domain loader and both v1.2 assets, then reran the entire P12 + v1.0.1 + v1.1.0 + v1.2.0 browser stack.
 
 Results:
 
-- P12 repository certification: **PASS**
-- v1.0.1 repository certification: **PASS**
-- v1.1.0 repository/live certification: **PASS**
-- v1.2.0 repository certification: **PASS**
+- public loader: **PASS**
+- public workbench asset: **PASS**
+- public v1.2 browser-gate asset: **PASS**
 - P12 desktop/mobile: **PASS**
-- v1.0.1 exhaustive interaction desktop/mobile: **PASS, including 13/13 executable demos**
-- v1.1.0 usability desktop/mobile: **8/8 PASS**
-- v1.2.0 workbench desktop/mobile: **8/8 PASS**
+- v1.0.1 exhaustive desktop/mobile: **PASS, including 13/13 executable demos**
+- v1.1.0 desktop/mobile usability: **8/8 PASS**
+- v1.2.0 desktop/mobile workbench: **8/8 PASS**
 
-Evidence artifact: `9522625032`
+Artifact: `9522791929`
 
-Evidence SHA-256: `47a00cdb602d1caaff6f8810a6e490ce28f478ded2bcd69526b8677e717bd15e`
+SHA-256: `4c9d1eecbc9fd366115731072ef28b17eaf615d044ac873075b5019d97f82a38`
 
-The earlier run #91 is superseded because it exposed an invalid v1.2 test assumption that expected mutually exclusive lab output surfaces to coexist in one DOM. The corrected gate now visits each output in its real lab.
-
-## Regression requirements
-
-Promotion is invalid unless these also remain green:
-
-- P12 repository + desktop + mobile
-- v1.0.1 exhaustive desktop + mobile, including 13/13 executable demos
-- v1.1.0 repository + desktop + mobile usability
-- v1.2.0 repository + desktop + mobile workbench UX
+The guarded release marker is `release/V120_RELEASED.txt`.
 
 The certified P10 runtime baseline remains unchanged:
 
 `2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a`
-
-## Promotion rule
-
-The metadata-complete candidate head must reproduce the complete P12 + v1.0.1 + v1.1.0 + v1.2.0 suite before PR #9 can merge. Production release status then requires a separate custom-domain live closure.

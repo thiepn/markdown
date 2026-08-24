@@ -1,0 +1,7 @@
+MARKDOWN//LAB v1.2.0
+Release gate: V120_WORKBENCH_CERTIFIED
+State: released
+Canonical branch: main
+Promoted main commit: 96b8e747ee9a42c4b9d037b5381ff1e038430a5f
+Custom-domain deployment: https://thiepn.dev/markdown/
+This marker is valid only when scripts/v120-certify.mjs passes the guarded live closure and the complete P12 + v1.0.1 + v1.1.0 + v1.2.0 desktop/mobile certification stack.
