@@ -17,13 +17,14 @@
     "laboratory discovery surfaces expose 0/3 through 3/3 progress without locking any lab",
     "a recommended learning path covers Labs 01 through 12 while allowing arbitrary navigation",
     "Markdown structured-practice grading preserves the canonical in-memory completion engine while bridging authored semantic structure into the real rendered preview",
+    "recommended-path activation is deferred out of the originating button event so the underlying lab navigation receives a normal activation turn",
     "all v1.2.0, v1.1.0, v1.0.1, and P12 certification gates remain mandatory"
   ],
   "runtime_baseline": {
     "p10_sha256": "2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a",
     "v120_release": "1.2.0",
     "v130_learning_git_blob_sha1": "a30da6ce3ad7ab2fb6e5710799db94152548f7b4",
-    "v130_grading_fix_git_blob_sha1": "c50fae9dfad35526425ed5f4cb334d350f0fac59",
+    "v130_grading_fix_git_blob_sha1": "49161dbfcc1bed3e3eddad902f84cbc2703810bd",
     "v130_browser_gate_git_blob_sha1": "199dcf756f9cf180d0cae65103043a7b9d506cc6"
   },
   "coverage": {
