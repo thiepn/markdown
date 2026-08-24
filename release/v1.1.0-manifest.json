@@ -64,20 +64,27 @@
     "main_commit": "2fe4465208427d35b919a8bfeac3acab448d8d75"
   },
   "live_closure": {
-    "status": "verification-requested",
-    "required_public_loader_assets": [
-      "assets/v110/lab03-stability.js",
-      "assets/v110/usability.js",
-      "assets/v110/certify.js"
-    ],
-    "required_browser_profiles": [
-      "P12 desktop",
-      "P12 mobile",
-      "v1.0.1 exhaustive desktop",
-      "v1.0.1 exhaustive mobile",
-      "v1.1.0 usability desktop",
-      "v1.1.0 usability mobile"
-    ]
+    "status": "pass",
+    "pull_request": 8,
+    "workflow": "P12 Certification",
+    "run_number": 86,
+    "run_id": 32732533624,
+    "head_sha": "e0e5aaa629d82287b60c00dbafe8e054bc8a5377",
+    "public_loader": "pass",
+    "public_lab03_stability_asset": "pass",
+    "public_usability_asset": "pass",
+    "public_v110_browser_gate_asset": "pass",
+    "repository_p12": "pass",
+    "repository_v101": "pass",
+    "repository_v110": "pass with live custom-domain verification",
+    "desktop_p12": "pass",
+    "mobile_p12": "pass",
+    "desktop_v101": "pass including 13/13 executable demos",
+    "mobile_v101": "pass including 13/13 executable demos",
+    "desktop_v110": "8/8 pass",
+    "mobile_v110": "8/8 pass",
+    "evidence_artifact_id": 9521952255,
+    "evidence_sha256": "1099754e8f120c436a55b2641a6e4eed985fe478cbf7215fea11941b469bda76"
   },
   "live_finalization_rule": "Released status is valid only when scripts/v110-certify.mjs retrieves the public custom-domain loader, confirms all three v1.1.0 assets are referenced and retrievable with their required implementation markers, and the complete P12 + v1.0.1 + v1.1.0 desktop/mobile browser suite passes on the same closure candidate.",
   "deployment_url": "https://thiepn.dev/markdown/"
