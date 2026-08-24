@@ -38,6 +38,31 @@
     "challenge_mode": true,
     "desktop_and_mobile": true
   },
-  "promotion_rule": "Promote only after repository certification plus desktop/mobile P12, v1.0.1 exhaustive interaction, v1.1.0 usability, v1.2.0 workbench, and v1.3.0 learning browser gates all pass on the metadata-complete candidate head.",
+  "certification_basis": {
+    "head_sha": "4d49ebf81109fb62fc3752a3cdb2a9609a4a44e2",
+    "learning_workflow": "v1.3.0 Learning Certification",
+    "learning_run_number": 14,
+    "learning_run_id": 32741699397,
+    "repository_v130": "pass",
+    "desktop_v130": "11/11 pass",
+    "mobile_v130": "11/11 pass",
+    "learning_evidence_artifact_id": 9525396009,
+    "learning_evidence_sha256": "b0d1b9773b198c89c579c0ea277afd6258c43321fcdfb1959a4a6c632c6b5dcb",
+    "regression_workflow": "P12 Certification",
+    "regression_run_number": 115,
+    "regression_run_id": 32741698451,
+    "repository_p12_v101_v110_v120": "pass",
+    "desktop_p12": "pass",
+    "mobile_p12": "pass",
+    "desktop_v101": "pass including 13/13 executable demos",
+    "mobile_v101": "pass including 13/13 executable demos",
+    "desktop_v110": "8/8 pass",
+    "mobile_v110": "8/8 pass",
+    "desktop_v120": "8/8 pass",
+    "mobile_v120": "8/8 pass",
+    "regression_evidence_artifact_id": 9525413596,
+    "regression_evidence_sha256": "6e612c7964d005e41fb46f0755194914ac812431681db4d6c0adb71602d486e3"
+  },
+  "promotion_rule": "Promote only after both the historical regression workflow and v1.3.0 learning workflow pass on the metadata-complete candidate head.",
   "deployment_url": "https://thiepn.dev/markdown/"
 }
