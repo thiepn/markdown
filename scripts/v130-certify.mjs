@@ -13,7 +13,7 @@ const browserGate=read('assets/v130/certify.js');
 new vm.Script(learning,{filename:'v130-learning.js'});console.log('PASS · v1.3.0 learning JavaScript parses');
 new vm.Script(browserGate,{filename:'v130-certify.js'});console.log('PASS · v1.3.0 browser gate JavaScript parses');
 
-for(const token of ['markdown-lab:v130-learning','beginner','intermediate','advanced','v130Practice','Check my work','Challenge mode','Back to laboratories','getProgress','nextRecommended'])assert(learning.includes(token),`learning source contains '${token}'`);
+for(const token of ['markdown-lab:v130-learning','beginner','intermediate','advanced','v130Practice','Check my work','Challenge mode','free play','getProgress','nextRecommended'])assert(learning.includes(token),`learning source contains '${token}'`);
 for(const id of Array.from({length:13},(_,i)=>String(i).padStart(2,'0')))assert(learning.includes(`'${id}':{goal:`),`learning curriculum defines Lab ${id}`);
 for(const level of ['beginner','intermediate','advanced'])assert((learning.match(new RegExp(`${level}:\\[`, 'g'))||[]).length>=13,`learning curriculum defines ${level} exercises across all labs`);
 assert(browserGate.includes('V130_LEARNING_CERTIFIED'),'browser gate exposes exact v1.3.0 certification token');
