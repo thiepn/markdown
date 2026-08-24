@@ -22,7 +22,7 @@
     "p10_sha256": "2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a",
     "v110_release": "1.1.0",
     "v120_workbench_git_blob_sha1": "1d9008a1c1b7f32e30700c8119c957f2bd546fdf",
-    "v120_browser_gate_git_blob_sha1": "cd02808ad07172b94eafbd00dde3ffdc4f6c0874"
+    "v120_browser_gate_git_blob_sha1": "4a81eb2003a0bd1e220da785a2c30ed9d84d2455"
   },
   "coverage": {
     "labs": 13,
