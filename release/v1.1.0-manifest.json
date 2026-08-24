@@ -2,9 +2,9 @@
   "project": "MARKDOWN//LAB",
   "version": "1.1.0",
   "release_gate": "V110_USABILITY_CERTIFIED",
-  "release_state": "certified-release-candidate",
+  "release_state": "released",
   "canonical_branch": "main",
-  "source_branch": "v1.1.0-usability-ia",
+  "source_branch": "v1.1.0-live-closure",
   "base_release": "1.0.1",
   "problem": "The application is functionally complete but its entry experience still reads like internal phase/release documentation. New users encounter implementation jargon, certification language, and a dense 13-lab wall before receiving a clear task-first starting point.",
   "usability_contract": [
@@ -54,6 +54,38 @@
     "evidence_artifact_id": 9493994177,
     "evidence_sha256": "d4172c60ab960ed1086d636d8c60ef4a661a76afc637cae5d1057c9d45f7a786"
   },
-  "promotion_rule": "Promote only after repository certification plus desktop/mobile P12, v1.0.1 exhaustive interaction, and v1.1.0 usability browser gates all pass on the metadata-complete candidate head.",
+  "promotion": {
+    "pull_request": 7,
+    "merge_gate_run_number": 84,
+    "merge_gate_run_id": 32642628903,
+    "merge_gate_head_sha": "66994f400e2b17e3c69b91252776cdd7e8f50a6f",
+    "merge_gate_evidence_artifact_id": 9494016301,
+    "merge_gate_evidence_sha256": "cc593472d99545cd1d61cb957f2a80d7633b616581dac1ea5005e3b05cd04473",
+    "main_commit": "2fe4465208427d35b919a8bfeac3acab448d8d75"
+  },
+  "live_closure": {
+    "status": "pass",
+    "pull_request": 8,
+    "workflow": "P12 Certification",
+    "run_number": 86,
+    "run_id": 32732533624,
+    "head_sha": "e0e5aaa629d82287b60c00dbafe8e054bc8a5377",
+    "public_loader": "pass",
+    "public_lab03_stability_asset": "pass",
+    "public_usability_asset": "pass",
+    "public_v110_browser_gate_asset": "pass",
+    "repository_p12": "pass",
+    "repository_v101": "pass",
+    "repository_v110": "pass with live custom-domain verification",
+    "desktop_p12": "pass",
+    "mobile_p12": "pass",
+    "desktop_v101": "pass including 13/13 executable demos",
+    "mobile_v101": "pass including 13/13 executable demos",
+    "desktop_v110": "8/8 pass",
+    "mobile_v110": "8/8 pass",
+    "evidence_artifact_id": 9521952255,
+    "evidence_sha256": "1099754e8f120c436a55b2641a6e4eed985fe478cbf7215fea11941b469bda76"
+  },
+  "live_finalization_rule": "Released status is valid only when scripts/v110-certify.mjs retrieves the public custom-domain loader, confirms all three v1.1.0 assets are referenced and retrievable with their required implementation markers, and the complete P12 + v1.0.1 + v1.1.0 desktop/mobile browser suite passes on the same closure candidate.",
   "deployment_url": "https://thiepn.dev/markdown/"
 }

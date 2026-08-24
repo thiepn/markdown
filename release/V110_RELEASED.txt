@@ -1,0 +1,7 @@
+MARKDOWN//LAB v1.1.0
+Release gate: V110_USABILITY_CERTIFIED
+State: released
+Canonical branch: main
+Promoted main commit: 2fe4465208427d35b919a8bfeac3acab448d8d75
+Custom-domain deployment: https://thiepn.dev/markdown/
+This marker is valid only when scripts/v110-certify.mjs passes the guarded live closure and the complete P12 + v1.0.1 + v1.1.0 desktop/mobile certification stack.
