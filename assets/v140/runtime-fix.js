@@ -1,5 +1,6 @@
 (()=>{'use strict';
 const $=(s,r=document)=>r.querySelector(s),sleep=ms=>new Promise(r=>setTimeout(r,ms));
+const q=new URLSearchParams(location.search),FOREIGN_CI=['p12-ci','v101-ci','v110-ci','v120-ci','v130-ci'].some(k=>q.has(k));if(FOREIGN_CI)return;
 async function ready(){for(let i=0;i<200&&!window.__V140_MASTERY__;i++)await sleep(40);const api=window.__V140_MASTERY__;if(!api)return;
  function ensureBar(){const p=$('#v130Practice'),a=api.getState().activeReview;if(!p||!a||p.dataset.lab!==a.lab)return false;let bar=$('#v140ReviewBar');if(bar&&bar.closest('#v130Practice')===p&&$('#v140Verify',bar))return true;if(bar)bar.remove();bar=document.createElement('div');bar.id='v140ReviewBar';bar.className='v140-review';bar.innerHTML=`<div><b>${a.mode==='review'?'REVIEW SESSION':'MASTERY CONTINUATION'} · Lab ${a.lab} · ${a.level}</b><small>Do the exercise in the real workbench, then verify it through the existing v1.3 grader.</small></div><button id="v140Verify" type="button">Verify review</button>`;p.append(bar);return true}
  const original=api.beginReview;
@@ -8,7 +9,7 @@ async function ready(){for(let i=0;i<200&&!window.__V140_MASTERY__;i++)await sle
  api.verifyActiveReview=verify;
  document.addEventListener('click',e=>{const q=e.target.closest?.('[data-v140-review]');if(q){e.preventDefault();e.stopImmediatePropagation();api.beginReview(q.dataset.v140Review);return}if(e.target.closest?.('#v140Verify')){e.preventDefault();e.stopImmediatePropagation();verify()}},true);
  const observer=new MutationObserver(()=>{const a=api.getState().activeReview,p=$('#v130Practice');if(a&&p?.dataset.lab===a.lab&&!$('#v140ReviewBar',p))queueMicrotask(ensureBar)});observer.observe(document.body,{subtree:true,childList:true});
- window.__V140_RUNTIME_FIX__={version:'1.4.0',reviewTargetWait:true,reviewBridgePersistence:true,observerIdempotent:true,singleCheckTelemetry:true};
+ window.__V140_RUNTIME_FIX__={version:'1.4.0',foreignCiIsolation:true,reviewTargetWait:true,reviewBridgePersistence:true,observerIdempotent:true,singleCheckTelemetry:true};
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',ready,{once:true});else ready();
 })();
