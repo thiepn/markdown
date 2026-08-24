@@ -1,5 +1,38 @@
 # Changelog
 
+## 1.4.0 — Learning Progress, Mastery & Review Reconstruction
+
+Adds a local mastery and review system on top of v1.3.0 guided practice without changing the unlocked laboratory model.
+
+### Mastery overview
+
+- derives per-lab mastery from completed v1.3 exercises only
+- weights Beginner / Intermediate / Advanced completion as 20 / 35 / 45 points
+- adds overall mastery, exercises complete, labs mastered, and review/continue metrics
+- exposes all 13 labs with mastery, completion depth, status, practice confidence, and review timing
+
+### Review & weak-skill resurfacing
+
+- surfaces started but incomplete labs immediately for continued practice
+- prioritizes labs with more failed checks, then incomplete learning, then lower mastery
+- schedules mastered labs for local refresh after 7 days, then 14 days, then 30-day intervals
+- opens the real lab and appropriate v1.3 difficulty for each review
+- verifies review work through the existing v1.3 `Check my work` grader
+
+### Practice telemetry & data ownership
+
+- records per-lab pass/fail outcomes separately from earned mastery
+- uses check history as a confidence signal without reducing completed mastery
+- adds JSON progress export containing v1.3 learning state, v1.4 review state, and summary metrics
+- adds review-history reset that intentionally preserves completed exercises
+- stores v1.4 data locally under `markdown-lab:v140-mastery`
+
+### Certification
+
+- adds independent `V140_MASTERY_CERTIFIED` repository and browser gates
+- verifies 14 mastery/review requirements independently on desktop and mobile-width Chromium
+- P12, v1.0.1, v1.1.0, v1.2.0, and v1.3.0 certification remain mandatory
+
 ## 1.3.0 — Guided Learning & Practice Reconstruction
 
 Adds an optional progressive learning layer on top of the certified v1.2.0 workbench without locking laboratories or replacing free play.
