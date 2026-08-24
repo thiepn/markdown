@@ -2,19 +2,17 @@
 
 ## Status
 
-**Release candidate under certification**
+**Certified release candidate**
 
 Gate: `V130_LEARNING_CERTIFIED`
 
 ## Why this release exists
 
-v1.2.0 made the workbench readable and coherent. The remaining weakness is instructional: the labs are powerful free-play tools, but a new user still has to invent their own objective after opening one.
+v1.2.0 made the workbench readable and coherent. The remaining weakness was instructional: the labs were powerful free-play tools, but a new user still had to invent their own objective after opening one.
 
 v1.3.0 adds an optional learning layer without turning MARKDOWN//LAB into a locked course or a fake quiz app.
 
 ## Learning contract
-
-The learning loop is:
 
 **goal → try in the real workbench → check the real result → hint/reference if needed → complete → choose what to do next**
 
@@ -24,34 +22,14 @@ Free play remains fully available at every point.
 
 ### 39 real exercises
 
-Every Lab 00–12 now defines three exercises:
-
-- Beginner
-- Intermediate
-- Advanced
-
-That produces 39 total exercises. Each exercise includes a concrete task, one hint, and a reference answer or reference workflow.
+Every Lab 00–12 defines Beginner, Intermediate, and Advanced exercises: 39 total. Each includes a concrete task, one hint, and a reference answer or workflow.
 
 ### Real result validation
 
-Completion checks the actual active lab state rather than awarding credit for navigation or button clicks. Examples include:
-
-- rendered Markdown structure in the real preview;
-- JavaScript Worker output;
-- Polyglot/WebAssembly output;
-- math evaluation output;
-- rendered Mermaid SVG;
-- typed data output;
-- API response state;
-- native Worker results;
-- terminal log output;
-- accessibility audit findings;
-- recorded Chaos recovery state;
-- successful Final Form pipeline state.
+Completion checks the actual active lab state rather than navigation or button clicks. Covered surfaces include rendered Markdown, JavaScript Worker output, Polyglot/WebAssembly output, math results, Mermaid rendering, typed data, API responses, browser Worker output, terminal logs, accessibility audit findings, Chaos recovery state, and Final Form state.
 
 ### Practice remains optional
 
-- the practice panel explicitly identifies itself as optional;
 - all 13 labs remain unlocked;
 - demos, guided routes, and free play remain unchanged;
 - progress never gates navigation.
@@ -59,45 +37,76 @@ Completion checks the actual active lab state rather than awarding credit for na
 ### Hints, reference, and Challenge mode
 
 - Hint reveals one targeted nudge;
-- Reference reveals a sample answer or workflow but does not change the workbench or mark completion;
-- Challenge mode hides the reference and disables hints while leaving the actual lab untouched.
+- Reference reveals a sample answer/workflow but never changes workbench state or marks completion;
+- Challenge mode disables hints and hides the reference.
 
-### Progress
+### Progress and path
 
-- progress is stored locally under `markdown-lab:v130-learning`;
+- progress is stored under `markdown-lab:v130-learning`;
 - completion is tracked separately for all three difficulty levels;
-- laboratory navigation shows `0/3` through `3/3` practice progress;
-- completed labs are visually distinguishable without becoming locked.
+- laboratory navigation shows `0/3` through `3/3`;
+- the optional recommended path covers Labs 01 → 12.
 
-### Recommended path
+### Grading hardening discovered during certification
 
-A recommended learning sequence runs through Labs 01 → 12. The next-recommended action points to the first lab with unfinished exercises, while users can still open any laboratory in any order.
+The first browser passes exposed two useful edge cases and both were corrected before certification:
+
+1. Markdown structured exercises initially depended on preview DOM tags that are not guaranteed by every parser representation. The final semantic bridge requires both authored Markdown structure and a real rendered preview while preserving the learning engine's canonical in-memory completion state.
+2. Recommended-path navigation originally nested a synthetic lab click inside the originating button event. The final implementation defers lab activation to the next event-loop turn so it follows the normal navigation path reliably.
 
 ## Certification
 
-`V130_LEARNING_CERTIFIED` independently verifies:
+`V130_LEARNING_CERTIFIED` verifies 11 requirements on desktop and mobile:
 
-1. optional practice panel presence;
+1. optional practice panel;
 2. complete 39-exercise curriculum;
-3. all three difficulty levels;
-4. all 13 labs remain unlocked;
-5. a real Markdown workbench success check;
-6. Beginner → Intermediate → Advanced completion on a real lab;
-7. local progress persistence and discovery badge state;
+3. three difficulty levels;
+4. all labs remain unlocked;
+5. real Markdown success check;
+6. Beginner → Intermediate → Advanced completion;
+7. local persistence and discovery progress;
 8. Hint and Reference behavior;
-9. Challenge mode assistance suppression;
+9. Challenge mode;
 10. recommended-path navigation;
-11. desktop/mobile horizontal containment.
+11. horizontal containment.
 
-## Regression requirements
+## Certified candidate evidence
 
-Promotion is invalid unless all prior release gates remain green:
+Certified head: `4d49ebf81109fb62fc3752a3cdb2a9609a4a44e2`
 
-- P12 repository + desktop + mobile
-- v1.0.1 repository + exhaustive desktop/mobile including 13/13 executable demos
-- v1.1.0 repository/live + desktop/mobile usability
-- v1.2.0 repository/live + desktop/mobile workbench
-- v1.3.0 repository + desktop/mobile learning
+### v1.3.0 learning
+
+Workflow: `v1.3.0 Learning Certification`
+
+Run: `#14` / `32741699397`
+
+- repository learning certification: **PASS**
+- desktop learning: **11/11 PASS**
+- mobile learning: **11/11 PASS**
+
+Artifact: `9525396009`
+
+SHA-256: `b0d1b9773b198c89c579c0ea277afd6258c43321fcdfb1959a4a6c632c6b5dcb`
+
+### Full historical regression stack
+
+Workflow: `P12 Certification`
+
+Run: `#115` / `32741698451`
+
+- repository P12/v1.0.1/v1.1.0/v1.2.0: **PASS**
+- P12 desktop/mobile: **PASS**
+- v1.0.1 exhaustive desktop/mobile: **PASS including 13/13 demos**
+- v1.1.0 desktop/mobile: **8/8 PASS**
+- v1.2.0 desktop/mobile: **8/8 PASS**
+
+Artifact: `9525413596`
+
+SHA-256: `6e612c7964d005e41fb46f0755194914ac812431681db4d6c0adb71602d486e3`
+
+## Promotion rule
+
+The metadata-complete candidate head must reproduce **both workflows** before PR #11 can merge. Production release status then requires a separate custom-domain live closure.
 
 Certified P10 runtime baseline:
 
