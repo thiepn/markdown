@@ -24,7 +24,7 @@
     "v120_release": "1.2.0",
     "v130_learning_git_blob_sha1": "a30da6ce3ad7ab2fb6e5710799db94152548f7b4",
     "v130_grading_fix_git_blob_sha1": "c50fae9dfad35526425ed5f4cb334d350f0fac59",
-    "v130_browser_gate_git_blob_sha1": "3b5dc985596b567629ad0667de6f6e32b43cc572"
+    "v130_browser_gate_git_blob_sha1": "199dcf756f9cf180d0cae65103043a7b9d506cc6"
   },
   "coverage": {
     "labs": 13,
