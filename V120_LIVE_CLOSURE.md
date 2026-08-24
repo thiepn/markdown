@@ -2,7 +2,7 @@
 
 ## Status
 
-**Guarded release closure candidate**
+**Guarded live closure passed**
 
 Release gate: `V120_WORKBENCH_CERTIFIED`
 
@@ -33,4 +33,30 @@ This closure may merge only when the same CI run proves all of the following:
 11. v1.1.0 desktop and mobile usability certification passes 8/8;
 12. v1.2.0 desktop and mobile workbench certification passes 8/8.
 
-`release/V120_RELEASED.txt` is intentionally guarded by this contract and is not sufficient by itself to establish a valid production release.
+## Guarded live evidence
+
+Workflow: `P12 Certification`
+
+Run: `#97` / `32734821921`
+
+Head: `c530c99d8edf41d691c7c415717de8e3214b09c1`
+
+Results:
+
+- public v1.2 loader: **PASS**
+- public `assets/v120/workbench.js`: **PASS**
+- public `assets/v120/certify.js`: **PASS**
+- P12 repository + desktop/mobile: **PASS**
+- v1.0.1 repository + exhaustive desktop/mobile: **PASS, including 13/13 demos**
+- v1.1.0 repository/live + desktop/mobile: **8/8 PASS**
+- v1.2.0 repository/live + desktop/mobile: **8/8 PASS**
+
+Evidence artifact: `9522791929`
+
+Evidence SHA-256: `4c9d1eecbc9fd366115731072ef28b17eaf615d044ac873075b5019d97f82a38`
+
+`release/V120_RELEASED.txt` remains valid only while the guarded live verifier and the complete regression stack continue to pass.
+
+## Final merge rule
+
+The metadata-complete closure head must reproduce the complete live + browser stack once more before PR #10 merges into `main`.
