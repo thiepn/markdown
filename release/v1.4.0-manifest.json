@@ -16,7 +16,7 @@
     "review verification delegates to the real v1.3.0 Check my work grader",
     "per-lab pass/fail telemetry identifies weak practice without locking navigation",
     "review navigation waits for the intended laboratory practice surface before selecting its level",
-    "the review bridge is recreated after stage replacement so Verify review remains attached to the target lab",
+    "the review bridge persists across v1.3 practice-panel rerenders and remains attached to the target lab",
     "review verification records one practice outcome per grader execution",
     "progress can be exported as local JSON",
     "review history can be reset without deleting v1.3.0 exercise completion",
@@ -27,7 +27,7 @@
     "v130_release": "1.3.0",
     "v140_ci_seed_git_blob_sha1": "3f5eb4b4c73a8dfbf06e5b6879f04811f282ca73",
     "v140_mastery_git_blob_sha1": "de1d979e42f717753adf0673b70c78682bf8c739",
-    "v140_runtime_fix_git_blob_sha1": "1e06a1ef622785267f2d03897ebc6dc4d1e59e93",
+    "v140_runtime_fix_git_blob_sha1": "c9a5b3ce2bbd86e07514c2ac34bc9f1d594927a4",
     "v140_browser_gate_git_blob_sha1": "daf23da7e854e86aa8900facaf4227ac221f6997"
   },
   "coverage": {
