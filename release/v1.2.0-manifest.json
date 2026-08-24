@@ -1,0 +1,57 @@
+{
+  "project": "MARKDOWN//LAB",
+  "version": "1.2.0",
+  "release_gate": "V120_WORKBENCH_CERTIFIED",
+  "release_state": "certified-release-candidate",
+  "canonical_branch": "main",
+  "source_branch": "v1.2.0-workbench-ux",
+  "base_release": "1.1.0",
+  "problem": "v1.1.0 made the product understandable and discoverable, but the active laboratory workbench still inherits uneven typography, dense controls, inconsistent editor/output sizing, weak lab context, and no obvious escape path back to laboratory discovery.",
+  "workbench_contract": [
+    "every laboratory is wrapped in one consistent editorial workbench frame",
+    "the active lab number, title, and purpose remain visible at the top of the workbench",
+    "a Back to laboratories action returns users to discovery without changing lab state",
+    "primary editors use readable monospace sizing and minimum working height",
+    "known output surfaces use readable line-height, stable minimum height, and contained overflow",
+    "interactive controls expose clear keyboard focus and usable target heights",
+    "mobile workbench layout remains horizontally contained",
+    "reduced-motion preferences suppress nonessential workbench animation",
+    "all v1.1.0, v1.0.1, and P12 certification gates remain mandatory"
+  ],
+  "runtime_baseline": {
+    "p10_sha256": "2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a",
+    "v110_release": "1.1.0",
+    "v120_workbench_git_blob_sha1": "1d9008a1c1b7f32e30700c8119c957f2bd546fdf",
+    "v120_browser_gate_git_blob_sha1": "4a81eb2003a0bd1e220da785a2c30ed9d84d2455"
+  },
+  "coverage": {
+    "labs": 13,
+    "active_lab_contexts": 13,
+    "known_editor_surfaces": 5,
+    "known_result_surfaces": 10,
+    "workbench_browser_checks": 8,
+    "desktop_and_mobile": true
+  },
+  "certification_basis": {
+    "workflow": "P12 Certification",
+    "run_number": 93,
+    "run_id": 32734352230,
+    "head_sha": "041b3d192ca51a2e51bf56102c2fe23ff22e46d0",
+    "repository_p12": "pass",
+    "repository_v101": "pass",
+    "repository_v110": "pass with guarded live v1.1.0 verification",
+    "repository_v120": "pass",
+    "desktop_p12": "pass",
+    "mobile_p12": "pass",
+    "desktop_v101": "pass including 13/13 executable demos",
+    "mobile_v101": "pass including 13/13 executable demos",
+    "desktop_v110": "8/8 pass",
+    "mobile_v110": "8/8 pass",
+    "desktop_v120": "8/8 pass",
+    "mobile_v120": "8/8 pass",
+    "evidence_artifact_id": 9522625032,
+    "evidence_sha256": "47a00cdb602d1caaff6f8810a6e490ce28f478ded2bcd69526b8677e717bd15e"
+  },
+  "promotion_rule": "Promote only after repository certification plus desktop/mobile P12, v1.0.1 exhaustive interaction, v1.1.0 usability, and v1.2.0 workbench browser gates all pass on the metadata-complete candidate head.",
+  "deployment_url": "https://thiepn.dev/markdown/"
+}

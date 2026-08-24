@@ -1,5 +1,43 @@
 # Changelog
 
+## 1.2.0 — Workbench UX & Visual Design Reconstruction
+
+Reconstructs the active laboratory experience after v1.1.0 fixed product entry, discovery, and first-use comprehension.
+
+### Workbench frame
+
+- adds one consistent editorial workbench frame around all 13 laboratories
+- displays active lab number, plain-language title, and purpose above the real controls
+- synchronizes lab context when navigation originates from lab cards, demos, or guided routes
+- adds a persistent `Back to laboratories` escape path without resetting active lab state
+
+### Readability
+
+- normalizes the primary Markdown, JavaScript, Polyglot, Mermaid, and Data editors to readable monospace sizing and line-height
+- gives source editors a practical minimum working height on desktop and mobile
+- keeps editors vertically resizable
+- improves rendered Markdown preview typography and heading rhythm
+- gives known output surfaces stable minimum height, readable line-height, and contained overflow
+- prevents long output from creating horizontal page expansion
+
+### Controls & accessibility
+
+- standardizes control box sizing within the workbench
+- increases button target heights, with larger targets on mobile
+- adds strong `:focus-visible` treatment for keyboard users
+- improves disabled-state communication
+- respects `prefers-reduced-motion`
+
+### Certification
+
+- adds independent `V120_WORKBENCH_CERTIFIED` browser gate
+- cycles through all Labs 00–12 and verifies synchronized active-lab context
+- verifies readable editor/result metrics and primary control target sizes
+- verifies navigation → immediate workbench ordering remains intact
+- verifies known result-surface containment and horizontal viewport containment
+- runs v1.2.0 certification independently on desktop and mobile-width Chromium
+- P12, v1.0.1 exhaustive 13/13 interaction, and v1.1.0 usability gates remain mandatory
+
 ## 1.1.0 — Product Usability & Information Architecture Reconstruction
 
 Release-candidate reconstruction of the first-use experience after v1.0.1 made every laboratory and demonstration visibly executable.
