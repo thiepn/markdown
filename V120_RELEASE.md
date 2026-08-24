@@ -2,7 +2,7 @@
 
 ## Status
 
-**Release candidate under certification**
+**Certified release candidate**
 
 Gate: `V120_WORKBENCH_CERTIFIED`
 
@@ -98,10 +98,35 @@ Long output is contained instead of expanding the page horizontally.
 4. readable Markdown result metrics;
 5. usable primary control targets;
 6. laboratory navigation remains immediately followed by the workbench;
-7. known output surfaces use readable containment;
+7. known output surfaces use readable containment in their actual active labs;
 8. desktop/mobile horizontal viewport containment.
 
 The v1.2.0 gate runs independently at desktop and mobile widths.
+
+## Certified candidate evidence
+
+Workflow: `P12 Certification`
+
+Run: `#93` / `32734352230`
+
+Certified head: `041b3d192ca51a2e51bf56102c2fe23ff22e46d0`
+
+Results:
+
+- P12 repository certification: **PASS**
+- v1.0.1 repository certification: **PASS**
+- v1.1.0 repository/live certification: **PASS**
+- v1.2.0 repository certification: **PASS**
+- P12 desktop/mobile: **PASS**
+- v1.0.1 exhaustive interaction desktop/mobile: **PASS, including 13/13 executable demos**
+- v1.1.0 usability desktop/mobile: **8/8 PASS**
+- v1.2.0 workbench desktop/mobile: **8/8 PASS**
+
+Evidence artifact: `9522625032`
+
+Evidence SHA-256: `47a00cdb602d1caaff6f8810a6e490ce28f478ded2bcd69526b8677e717bd15e`
+
+The earlier run #91 is superseded because it exposed an invalid v1.2 test assumption that expected mutually exclusive lab output surfaces to coexist in one DOM. The corrected gate now visits each output in its real lab.
 
 ## Regression requirements
 
@@ -115,3 +140,7 @@ Promotion is invalid unless these also remain green:
 The certified P10 runtime baseline remains unchanged:
 
 `2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a`
+
+## Promotion rule
+
+The metadata-complete candidate head must reproduce the complete P12 + v1.0.1 + v1.1.0 + v1.2.0 suite before PR #9 can merge. Production release status then requires a separate custom-domain live closure.
