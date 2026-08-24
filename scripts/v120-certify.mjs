@@ -5,6 +5,8 @@ import vm from 'node:vm';
 const read=p=>fs.readFileSync(p,'utf8');
 const assert=(ok,msg)=>{if(!ok)throw new Error(msg);console.log('PASS · '+msg)};
 const gitBlobSha=s=>{const b=Buffer.from(s,'utf8');return crypto.createHash('sha1').update(Buffer.concat([Buffer.from(`blob ${b.length}\0`),b])).digest('hex')};
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+async function fetchLive(url,needles,label){const required=Array.isArray(needles)?needles:[needles];let last='not attempted';for(let attempt=1;attempt<=12;attempt++){try{const r=await fetch(url,{redirect:'follow',cache:'no-store',headers:{'user-agent':'MARKDOWN-LAB-v120-certifier'}});const text=await r.text();last=`HTTP ${r.status} · ${r.url}`;if(r.ok&&required.every(n=>text.includes(n))){console.log(`PASS · live ${label} · ${r.url}`);return{url:r.url,status:r.status,bytes:Buffer.byteLength(text)}}}catch(e){last=String(e?.message||e)}if(attempt<12)await sleep(5000)}throw new Error(`live ${label} failed after retries: ${last}`)}
 
 const workbench=read('assets/v120/workbench.js');
 const browserGate=read('assets/v120/certify.js');
@@ -41,7 +43,17 @@ assert(manifest.coverage.labs===13&&manifest.coverage.workbench_browser_checks==
 assert(fs.existsSync('V120_RELEASE.md'),'v1.2.0 release handoff exists');
 assert(read('CHANGELOG.md').includes('1.2.0 — Workbench UX & Visual Design Reconstruction'),'v1.2.0 changelog entry exists');
 
-const report={gate:'V120_REPOSITORY_CERTIFIED',version:'1.2.0',release_state:manifest.release_state,workbench_git_blob_sha1:gitBlobSha(workbench),browser_gate_git_blob_sha1:gitBlobSha(browserGate),labs:13,browser_checks:8,checked_at:new Date().toISOString()};
+let live=null;
+if(manifest.release_state==='released'){
+  assert(fs.existsSync('release/V120_RELEASED.txt'),'guarded V120_RELEASED marker exists');
+  const base=manifest.deployment_url;
+  const home=await fetchLive(base,['assets/v120/workbench.js','assets/v120/certify.js'],'v1.2.0 deployed loader');
+  const workbenchLive=await fetchLive(new URL('assets/v120/workbench.js',base).href,['v120-workbench','v120LabMeta','Back to laboratories'],'v1.2.0 workbench asset');
+  const gateLive=await fetchLive(new URL('assets/v120/certify.js',base).href,['V120_WORKBENCH_CERTIFIED','All 13 active-lab contexts'],'v1.2.0 browser gate asset');
+  live={home,workbench:workbenchLive,browser_gate:gateLive};
+}
+
+const report={gate:'V120_REPOSITORY_CERTIFIED',version:'1.2.0',release_state:manifest.release_state,workbench_git_blob_sha1:gitBlobSha(workbench),browser_gate_git_blob_sha1:gitBlobSha(browserGate),labs:13,browser_checks:8,live,checked_at:new Date().toISOString()};
 fs.mkdirSync('artifacts',{recursive:true});fs.writeFileSync('artifacts/v120-static-report.json',JSON.stringify(report,null,2)+'\n');
 console.log('\nv1.2.0 WORKBENCH REPOSITORY CERTIFICATION: PASS');
 console.log(JSON.stringify(report,null,2));
