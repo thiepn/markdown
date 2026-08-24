@@ -1,0 +1,43 @@
+{
+  "project": "MARKDOWN//LAB",
+  "version": "1.4.0",
+  "release_gate": "V140_MASTERY_CERTIFIED",
+  "release_state": "certified-release-candidate",
+  "canonical_branch": "main",
+  "source_branch": "v1.4.0-mastery-review",
+  "base_release": "1.3.0",
+  "problem": "v1.3.0 adds real guided practice, but completion alone does not tell users what they have mastered, what is weak, what should be continued next, or when completed skills should be refreshed.",
+  "mastery_contract": [
+    "exercise completion remains the authoritative source of mastery depth",
+    "Beginner, Intermediate, and Advanced contribute 20, 35, and 45 mastery points respectively",
+    "review history and practice outcomes remain separate from completion so mistakes do not erase earned mastery",
+    "started but incomplete labs surface immediately for continued practice",
+    "mastered labs enter a local 7, 14, then 30 day review cadence",
+    "review verification delegates to the real v1.3.0 Check my work grader",
+    "per-lab pass/fail telemetry identifies weak practice without locking navigation",
+    "progress can be exported as local JSON",
+    "review history can be reset without deleting v1.3.0 exercise completion",
+    "all labs, free play, demos, guided routes, and v1.3.0 practice remain unlocked"
+  ],
+  "runtime_baseline": {
+    "p10_sha256": "2c11ea2a4ec7f508d4503f7aebdfe35f10baf0d8cb73db213b5f9b177b469f1a",
+    "v130_release": "1.3.0",
+    "v140_mastery_git_blob_sha1": "de1d979e42f717753adf0673b70c78682bf8c739",
+    "v140_browser_gate_git_blob_sha1": "daf23da7e854e86aa8900facaf4227ac221f6997"
+  },
+  "coverage": {
+    "labs": 13,
+    "difficulty_levels": 3,
+    "exercises": 39,
+    "mastery_points_per_lab": 100,
+    "browser_mastery_checks": 14,
+    "local_review_state": true,
+    "practice_outcome_telemetry": true,
+    "progress_export": true,
+    "review_reset_preserves_learning": true,
+    "desktop_and_mobile": true
+  },
+  "review_cadence_days": [7, 14, 30],
+  "promotion_rule": "Promote only after the historical P12/v1.0.1/v1.1.0/v1.2.0 regression workflow, the v1.3.0 learning workflow, and the v1.4.0 mastery workflow all pass on the metadata-complete candidate head.",
+  "deployment_url": "https://thiepn.dev/markdown/"
+}
