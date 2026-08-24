@@ -62,7 +62,29 @@
     "main_commit": "96b8e747ee9a42c4b9d037b5381ff1e038430a5f"
   },
   "live_closure": {
-    "status": "pending guarded verification"
+    "status": "pass",
+    "pull_request": 10,
+    "workflow": "P12 Certification",
+    "run_number": 97,
+    "run_id": 32734821921,
+    "head_sha": "c530c99d8edf41d691c7c415717de8e3214b09c1",
+    "public_loader": "pass",
+    "public_v120_workbench_asset": "pass",
+    "public_v120_browser_gate_asset": "pass",
+    "repository_p12": "pass",
+    "repository_v101": "pass",
+    "repository_v110": "pass with live custom-domain verification",
+    "repository_v120": "pass with live custom-domain verification",
+    "desktop_p12": "pass",
+    "mobile_p12": "pass",
+    "desktop_v101": "pass including 13/13 executable demos",
+    "mobile_v101": "pass including 13/13 executable demos",
+    "desktop_v110": "8/8 pass",
+    "mobile_v110": "8/8 pass",
+    "desktop_v120": "8/8 pass",
+    "mobile_v120": "8/8 pass",
+    "evidence_artifact_id": 9522791929,
+    "evidence_sha256": "4c9d1eecbc9fd366115731072ef28b17eaf615d044ac873075b5019d97f82a38"
   },
   "live_finalization_rule": "Released status is valid only when scripts/v120-certify.mjs retrieves the public custom-domain loader, confirms the v1.2.0 workbench and browser gate assets are referenced and retrievable with their required implementation markers, and the complete P12 + v1.0.1 + v1.1.0 + v1.2.0 desktop/mobile browser suite passes on the same closure candidate.",
   "deployment_url": "https://thiepn.dev/markdown/"
